@@ -1,0 +1,618 @@
+{
+  "meta": {
+    "app_id": "547702041",
+    "platform": "ios",
+    "country": "us",
+    "run_date": "2026-04-04T13:10:50.283592"
+  },
+  "your_app": {
+    "title": "Tinder Dating App: Date & Chat",
+    "subtitle": "Meet New People & Date Singles",
+    "description_excerpt": "Tinder is the place to meet someone new and see where a spark might lead. With millions of people nearby and around the world, Tinder makes dating fun and helps you find someone who matches your vibe, interests, and intentions.\n\nHOW IT WORKS\nMeeting ",
+    "term_count": 411
+  },
+  "keyword_gaps": [
+    {
+      "term": "get",
+      "primary_competitor_count": 3,
+      "secondary_competitor_count": 5,
+      "volume": 52,
+      "difficulty": 19,
+      "results": 192,
+      "brand": {
+        "top_app_id": 844091049
+      },
+      "max_reach": null
+    },
+    {
+      "term": "want",
+      "primary_competitor_count": 3,
+      "secondary_competitor_count": 4,
+      "volume": 5,
+      "difficulty": 8,
+      "results": 214,
+      "brand": {},
+      "max_reach": null
+    },
+    {
+      "term": "connections",
+      "primary_competitor_count": 3,
+      "secondary_competitor_count": 2,
+      "volume": 51,
+      "difficulty": 15,
+      "results": 217,
+      "brand": {},
+      "max_reach": null
+    },
+    {
+      "term": "profile",
+      "primary_competitor_count": 3,
+      "secondary_competitor_count": 2,
+      "volume": 5,
+      "difficulty": 14,
+      "results": 223,
+      "brand": {},
+      "max_reach": null
+    },
+    {
+      "term": "premium",
+      "primary_competitor_count": 3,
+      "secondary_competitor_count": 2,
+      "volume": 5,
+      "difficulty": 52,
+      "results": 165,
+      "brand": {},
+      "max_reach": null
+    },
+    {
+      "term": "policy",
+      "primary_competitor_count": 2,
+      "secondary_competitor_count": 7,
+      "volume": 5,
+      "difficulty": 2,
+      "results": 209,
+      "brand": {},
+      "max_reach": null
+    },
+    {
+      "term": "privacy policy",
+      "primary_competitor_count": 2,
+      "secondary_competitor_count": 7,
+      "volume": 5,
+      "difficulty": 11,
+      "results": 227,
+      "brand": {},
+      "max_reach": null
+    },
+    {
+      "term": "start",
+      "primary_competitor_count": 2,
+      "secondary_competitor_count": 6,
+      "volume": 47,
+      "difficulty": 10,
+      "results": 216,
+      "brand": {},
+      "max_reach": null
+    },
+    {
+      "term": "real",
+      "primary_competitor_count": 2,
+      "secondary_competitor_count": 6,
+      "volume": 62,
+      "difficulty": 31,
+      "results": 217,
+      "brand": {},
+      "max_reach": null
+    },
+    {
+      "term": "use",
+      "primary_competitor_count": 2,
+      "secondary_competitor_count": 6,
+      "volume": 5,
+      "difficulty": 1,
+      "results": 229,
+      "brand": {},
+      "max_reach": null
+    },
+    {
+      "term": "like",
+      "primary_competitor_count": 2,
+      "secondary_competitor_count": 6,
+      "volume": 53,
+      "difficulty": 66,
+      "results": 205,
+      "brand": {
+        "top_app_id": 1251790681
+      },
+      "max_reach": null
+    },
+    {
+      "term": "everyone",
+      "primary_competitor_count": 2,
+      "secondary_competitor_count": 4,
+      "volume": 5,
+      "difficulty": 21,
+      "results": 229,
+      "brand": {},
+      "max_reach": null
+    },
+    {
+      "term": "love",
+      "primary_competitor_count": 2,
+      "secondary_competitor_count": 3,
+      "volume": 64,
+      "difficulty": 11,
+      "results": 231,
+      "brand": {},
+      "max_reach": null
+    },
+    {
+      "term": "ready",
+      "primary_competitor_count": 2,
+      "secondary_competitor_count": 3,
+      "volume": 5,
+      "difficulty": 38,
+      "results": 233,
+      "brand": {},
+      "max_reach": null
+    },
+    {
+      "term": "one",
+      "primary_competitor_count": 2,
+      "secondary_competitor_count": 3,
+      "volume": 55,
+      "difficulty": 54,
+      "results": 201,
+      "brand": {
+        "top_app_id": 1494523953
+      },
+      "max_reach": null
+    },
+    {
+      "term": "space",
+      "primary_competitor_count": 2,
+      "secondary_competitor_count": 3,
+      "volume": 56,
+      "difficulty": 23,
+      "results": 222,
+      "brand": {},
+      "max_reach": null
+    },
+    {
+      "term": "verification",
+      "primary_competitor_count": 2,
+      "secondary_competitor_count": 3,
+      "volume": 5,
+      "difficulty": 36,
+      "results": 242,
+      "brand": {},
+      "max_reach": null
+    },
+    {
+      "term": "need",
+      "primary_competitor_count": 2,
+      "secondary_competitor_count": 3,
+      "volume": 5,
+      "difficulty": 48,
+      "results": 212,
+      "brand": {
+        "top_app_id": 883393043
+      },
+      "max_reach": null
+    },
+    {
+      "term": "friends",
+      "primary_competitor_count": 2,
+      "secondary_competitor_count": 3,
+      "volume": 56,
+      "difficulty": 39,
+      "results": 209,
+      "brand": {},
+      "max_reach": null
+    },
+    {
+      "term": "relationship",
+      "primary_competitor_count": 2,
+      "secondary_competitor_count": 3,
+      "volume": 5,
+      "difficulty": 27,
+      "results": 242,
+      "brand": {},
+      "max_reach": null
+    },
+    {
+      "term": "relationships",
+      "primary_competitor_count": 2,
+      "secondary_competitor_count": 2,
+      "volume": 5,
+      "difficulty": 18,
+      "results": 240,
+      "brand": {},
+      "max_reach": null
+    },
+    {
+      "term": "build",
+      "primary_competitor_count": 2,
+      "secondary_competitor_count": 2,
+      "volume": 49,
+      "difficulty": 30,
+      "results": 239,
+      "brand": {},
+      "max_reach": null
+    },
+    {
+      "term": "better",
+      "primary_competitor_count": 2,
+      "secondary_competitor_count": 2,
+      "volume": 44,
+      "difficulty": 18,
+      "results": 233,
+      "brand": {},
+      "max_reach": null
+    },
+    {
+      "term": "video",
+      "primary_competitor_count": 2,
+      "secondary_competitor_count": 2,
+      "volume": 57,
+      "difficulty": 42,
+      "results": 220,
+      "brand": {},
+      "max_reach": null
+    },
+    {
+      "term": "messages",
+      "primary_competitor_count": 2,
+      "secondary_competitor_count": 2,
+      "volume": 61,
+      "difficulty": 48,
+      "results": 227,
+      "brand": {
+        "top_app_id": 1146560473
+      },
+      "max_reach": null
+    },
+    {
+      "term": "offer",
+      "primary_competitor_count": 2,
+      "secondary_competitor_count": 2,
+      "volume": 5,
+      "difficulty": 46,
+      "results": 156,
+      "brand": {
+        "top_app_id": 468996152
+      },
+      "max_reach": null
+    },
+    {
+      "term": "optional",
+      "primary_competitor_count": 2,
+      "secondary_competitor_count": 2,
+      "volume": 5,
+      "difficulty": 0,
+      "results": 46,
+      "brand": {},
+      "max_reach": null
+    },
+    {
+      "term": "policy terms",
+      "primary_competitor_count": 2,
+      "secondary_competitor_count": 2,
+      "volume": 5,
+      "difficulty": 0,
+      "results": 187,
+      "brand": {},
+      "max_reach": null
+    },
+    {
+      "term": "without",
+      "primary_competitor_count": 2,
+      "secondary_competitor_count": 2,
+      "volume": 5,
+      "difficulty": 27,
+      "results": 214,
+      "brand": {},
+      "max_reach": null
+    },
+    {
+      "term": "confidence",
+      "primary_competitor_count": 2,
+      "secondary_competitor_count": 1,
+      "volume": 5,
+      "difficulty": 0,
+      "results": 214,
+      "brand": {},
+      "max_reach": null
+    },
+    {
+      "term": "verified",
+      "primary_competitor_count": 2,
+      "secondary_competitor_count": 1,
+      "volume": 5,
+      "difficulty": 2,
+      "results": 236,
+      "brand": {},
+      "max_reach": null
+    },
+    {
+      "term": "person",
+      "primary_competitor_count": 2,
+      "secondary_competitor_count": 1,
+      "volume": 5,
+      "difficulty": 6,
+      "results": 217,
+      "brand": {},
+      "max_reach": null
+    },
+    {
+      "term": "even",
+      "primary_competitor_count": 2,
+      "secondary_competitor_count": 1,
+      "volume": 46,
+      "difficulty": 33,
+      "results": 233,
+      "brand": {
+        "top_app_id": 1147769190
+      },
+      "max_reach": null
+    },
+    {
+      "term": "much",
+      "primary_competitor_count": 2,
+      "secondary_competitor_count": 1,
+      "volume": 5,
+      "difficulty": 10,
+      "results": 215,
+      "brand": {},
+      "max_reach": null
+    },
+    {
+      "term": "support",
+      "primary_competitor_count": 2,
+      "secondary_competitor_count": 1,
+      "volume": 51,
+      "difficulty": 5,
+      "results": 216,
+      "brand": {},
+      "max_reach": null
+    },
+    {
+      "term": "straight",
+      "primary_competitor_count": 2,
+      "secondary_competitor_count": 1,
+      "volume": 5,
+      "difficulty": 5,
+      "results": 170,
+      "brand": {
+        "top_app_id": 960098950
+      },
+      "max_reach": null
+    },
+    {
+      "term": "gay",
+      "primary_competitor_count": 2,
+      "secondary_competitor_count": 1,
+      "volume": 5,
+      "difficulty": 19,
+      "results": 218,
+      "brand": {},
+      "max_reach": null
+    },
+    {
+      "term": "single",
+      "primary_competitor_count": 2,
+      "secondary_competitor_count": 1,
+      "volume": 5,
+      "difficulty": 55,
+      "results": 218,
+      "brand": {
+        "top_app_id": 874139669
+      },
+      "max_reach": null
+    },
+    {
+      "term": "en",
+      "primary_competitor_count": 2,
+      "secondary_competitor_count": 1,
+      "volume": 5,
+      "difficulty": 61,
+      "results": 221,
+      "brand": {},
+      "max_reach": null
+    },
+    {
+      "term": "find meaningful",
+      "primary_competitor_count": 2,
+      "secondary_competitor_count": 1,
+      "volume": 5,
+      "difficulty": 0,
+      "results": 203,
+      "brand": {},
+      "max_reach": null
+    },
+    {
+      "term": "offer optional",
+      "primary_competitor_count": 2,
+      "secondary_competitor_count": 1,
+      "volume": 5,
+      "difficulty": 13,
+      "results": 203,
+      "brand": {},
+      "max_reach": null
+    },
+    {
+      "term": "true",
+      "primary_competitor_count": 2,
+      "secondary_competitor_count": 1,
+      "volume": 54,
+      "difficulty": 51,
+      "results": 214,
+      "brand": {},
+      "max_reach": null
+    },
+    {
+      "term": "take",
+      "primary_competitor_count": 2,
+      "secondary_competitor_count": 1,
+      "volume": 5,
+      "difficulty": 9,
+      "results": 217,
+      "brand": {},
+      "max_reach": null
+    },
+    {
+      "term": "giving",
+      "primary_competitor_count": 2,
+      "secondary_competitor_count": 1,
+      "volume": 5,
+      "difficulty": 1,
+      "results": 218,
+      "brand": {},
+      "max_reach": null
+    },
+    {
+      "term": "put",
+      "primary_competitor_count": 2,
+      "secondary_competitor_count": 0,
+      "volume": 5,
+      "difficulty": 27,
+      "results": 222,
+      "brand": {},
+      "max_reach": null
+    },
+    {
+      "term": "personalize",
+      "primary_competitor_count": 2,
+      "secondary_competitor_count": 0,
+      "volume": 5,
+      "difficulty": 9,
+      "results": 222,
+      "brand": {},
+      "max_reach": null
+    },
+    {
+      "term": "guidelines",
+      "primary_competitor_count": 2,
+      "secondary_competitor_count": 0,
+      "volume": 5,
+      "difficulty": 0,
+      "results": 179,
+      "brand": {},
+      "max_reach": null
+    },
+    {
+      "term": "mode",
+      "primary_competitor_count": 2,
+      "secondary_competitor_count": 0,
+      "volume": 5,
+      "difficulty": 30,
+      "results": 206,
+      "brand": {
+        "top_app_id": 1213495204
+      },
+      "max_reach": null
+    },
+    {
+      "term": "unlocks",
+      "primary_competitor_count": 2,
+      "secondary_competitor_count": 0,
+      "volume": 5,
+      "difficulty": 2,
+      "results": 212,
+      "brand": {},
+      "max_reach": null
+    },
+    {
+      "term": "boost",
+      "primary_competitor_count": 2,
+      "secondary_competitor_count": 0,
+      "volume": 53,
+      "difficulty": 15,
+      "results": 200,
+      "brand": {},
+      "max_reach": null
+    }
+  ],
+  "competitor_summary": [
+    {
+      "app_id": "930441707",
+      "name": "Bumble Dating App: Meet & Date",
+      "tier": "primary",
+      "title": "Bumble Dating App: Meet & Date",
+      "subtitle": "Find new people & chat singles",
+      "unique_terms_not_in_your_app": 354
+    },
+    {
+      "app_id": "351331194",
+      "name": "Badoo Dating: Meet New People",
+      "tier": "primary",
+      "title": "Badoo Dating: Meet New People",
+      "subtitle": "Chat and date or make friends.",
+      "unique_terms_not_in_your_app": 308
+    },
+    {
+      "app_id": "338701294",
+      "name": "OkCupid Dating: Date Singles",
+      "tier": "primary",
+      "title": "OkCupid Dating: Date Singles",
+      "subtitle": "Find, Match & Meet New People",
+      "unique_terms_not_in_your_app": 250
+    },
+    {
+      "app_id": "595287172",
+      "name": "Hinge Dating App: Match & Date",
+      "tier": "secondary",
+      "title": "Hinge Dating App: Match & Date",
+      "subtitle": "Chat & Meet with Single People",
+      "unique_terms_not_in_your_app": 259
+    },
+    {
+      "app_id": "601174087",
+      "name": "DOWN: The Casual Dating App",
+      "tier": "secondary",
+      "title": "DOWN: The Casual Dating App",
+      "subtitle": "Seeking a Meetup or Wild Date?",
+      "unique_terms_not_in_your_app": 257
+    },
+    {
+      "app_id": "1250946975",
+      "name": "Hily Dating App: Meet. Date.",
+      "tier": "secondary",
+      "title": "Hily Dating App: Meet. Date.",
+      "subtitle": "Chat, match with new people",
+      "unique_terms_not_in_your_app": 190
+    },
+    {
+      "app_id": "690661663",
+      "name": "PURE: Open-Minded Dating App",
+      "tier": "secondary",
+      "title": "PURE: Open-Minded Dating App",
+      "subtitle": "Chat, Date, Have Fun",
+      "unique_terms_not_in_your_app": 285
+    },
+    {
+      "app_id": "1297152391",
+      "name": "Lesbian Singles \u2013 Meet & Date",
+      "tier": "secondary",
+      "title": "Lesbian Singles \u2013 Meet & Date",
+      "subtitle": "LGBTQ+ Women Dating & Chat",
+      "unique_terms_not_in_your_app": 192
+    },
+    {
+      "app_id": "1328695473",
+      "name": "18+ Flirt Chat | Dating USA+",
+      "tier": "secondary",
+      "title": "18+ Flirt Chat | Dating USA+",
+      "subtitle": "Meet Singles, Match Tonight!",
+      "unique_terms_not_in_your_app": 297
+    },
+    {
+      "app_id": "1080102131",
+      "name": "Wild: Adult Casual Dating App",
+      "tier": "secondary",
+      "title": "Wild: Adult Casual Dating App",
+      "subtitle": "Friend Finder, Meet up Mature",
+      "unique_terms_not_in_your_app": 170
+    }
+  ]
+}

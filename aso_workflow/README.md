@@ -162,11 +162,74 @@ Output structure:
   - Raises on non-200 responses with full error context
   - stdout logging (no framework needed)
 
+### Step 5 — Track B (Android Only)
+
+```bash
+python run_track_b.py
+```
+
+Analyzes Android competitors' A/B test history:
+
+- Loads raw metadata change history (`android_{app_id}_history.json`)
+- Filters to relevant fields: `title`, `short_description`, `icon`, `screenshots`
+- Separates A/B tests (`is_ab_test = true`) from shipped changes
+- **Resolves A/B tests** by checking if later shipped changes match the test outcome:
+  - `won`: Later shipped value matches test's `new_value`
+  - `lost`: Later shipped value matches test's `old_value`
+  - `pending`: No matching shipped change found
+- For screenshots/icon: Compares by stable ID list, not full content
+- Computes per-competitor summary (total tests, won/lost/pending, fields tested)
+
+**Output**: `data/processed/ab_history_android_{app_id}.json`
+
+Structure:
+```json
+{
+  "meta": {
+    "platform": "android",
+    "country": "us",
+    "run_date": "2026-04-04T14:15:51",
+    "history_window_days": 90
+  },
+  "summary": {
+    "total_competitors": 3,
+    "total_ab_tests": 50,
+    "resolved_won": 0,
+    "resolved_lost": 0,
+    "pending": 50
+  },
+  "competitors": [
+    {
+      "app_id": "com.reddit.frontpage",
+      "name": "Reddit",
+      "tier": "secondary",
+      "ab_tests": [
+        {
+          "target": "screenshots",
+          "old_value": [...],
+          "new_value": [...],
+          "date": "2026-01-06",
+          "resolved": "pending"
+        }
+      ],
+      "shipped_changes": [...],
+      "summary": {
+        "ab_tests_total": 46,
+        "resolved_won": 0,
+        "resolved_lost": 0,
+        "pending": 46,
+        "fields_tested": ["screenshots"],
+        "most_recent_shipped": {}
+      }
+    }
+  ]
+}
+```
+
 ## What Comes Next
 
-- [ ] Fetch keyword **history** for volume velocity scoring
-- [ ] Android-only: Fetch metadata **change history** (A/B test flags)
-- [ ] LLM transformation: Convert gap list + competitor context → strategic recommendations
+- [ ] Fetch keyword **history** for velocity scoring
+- [ ] LLM transformation: Convert gap list + A/B history + competitor context → strategic recommendations
 - [ ] Filter & prioritize: Cost-benefit analysis (difficulty vs. volume)
 - [ ] Output: Word document with gap analysis + implementation roadmap
 

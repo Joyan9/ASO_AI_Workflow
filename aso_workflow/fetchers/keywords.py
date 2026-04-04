@@ -27,6 +27,7 @@ def fetch_keyword_metrics(
     Fetch metrics for a batch of keywords (max 5 per call per API docs).
     
     Returns dict of {keyword: {volume, difficulty, results, brand, max_reach}}
+    Missing metrics are set to None.
     """
     from .metadata import API_KEY
     
@@ -57,7 +58,18 @@ def fetch_keyword_metrics(
     
     result = response.get("result", {})
     for keyword, metrics_data in result.items():
-        # Extract values from the nested structure
+        # Handle cases where metrics_data might be None or empty
+        if not metrics_data:
+            metrics_map[keyword] = {
+                "volume": None,
+                "difficulty": None,
+                "results": None,
+                "brand": None,
+                "max_reach": None,
+            }
+            continue
+        
+        # Extract values from the nested structure, handling both dict and scalar values
         metrics_map[keyword] = {
             "volume": metrics_data.get("volume", {}).get("value") if isinstance(metrics_data.get("volume"), dict) else metrics_data.get("volume"),
             "difficulty": metrics_data.get("difficulty", {}).get("value") if isinstance(metrics_data.get("difficulty"), dict) else metrics_data.get("difficulty"),
@@ -65,6 +77,17 @@ def fetch_keyword_metrics(
             "brand": metrics_data.get("brand", {}).get("value") if isinstance(metrics_data.get("brand"), dict) else metrics_data.get("brand"),
             "max_reach": metrics_data.get("all_installs", {}).get("value") if isinstance(metrics_data.get("all_installs"), dict) else metrics_data.get("all_installs"),
         }
+    
+    # Ensure all requested keywords are in the map (even if not in response)
+    for keyword in keywords:
+        if keyword not in metrics_map:
+            metrics_map[keyword] = {
+                "volume": None,
+                "difficulty": None,
+                "results": None,
+                "brand": None,
+                "max_reach": None,
+            }
     
     return metrics_map
 
@@ -81,6 +104,7 @@ def fetch_all_gap_metrics(
     Fetch metrics for all gap terms, batched in groups of 5.
     
     Caps at max_terms to avoid excessive API calls.
+    Missing metrics (when API fails or keyword has no data) are gracefully set to None.
     """
     # Cap at top N terms
     terms_to_fetch = gap_terms[:max_terms]
@@ -111,7 +135,7 @@ def fetch_all_gap_metrics(
             all_metrics.update(batch_metrics)
         except Exception as e:
             print(f"[METRICS] Error fetching batch: {e}")
-            # Mark as unavailable
+            # Mark as unavailable with None values
             for kw in batch:
                 all_metrics[kw] = {
                     "volume": None,
@@ -136,6 +160,11 @@ def fetch_all_gap_metrics(
             "brand": None,
             "max_reach": None,
         })
+        
+        # Check if metrics are available
+        has_metrics = any(v is not None for v in metrics.values())
+        if not has_metrics:
+            print(f"[METRICS] No data available for: {term}")
         
         enriched_gap = {
             "term": term,

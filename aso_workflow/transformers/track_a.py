@@ -2,7 +2,7 @@
 Track A Transformation — Extract terms and build keyword gap corpus
 
 This module:
-1. Extracts and weights terms from app metadata
+1. Extracts and weights terms from app metadata (unigrams, bigrams, trigrams)
 2. Merges into a corpus with competitor tracking
 3. Filters to gap terms (not in your app)
 4. Removes branded/developer terms via fuzzy matching
@@ -58,7 +58,7 @@ def _clean_text(text: str) -> str:
 
 
 def _extract_unigrams_and_bigrams(text: str) -> List[str]:
-    """Tokenize text into unigrams and bigrams, remove stopwords."""
+    """Tokenize text into unigrams, bigrams, and trigrams, remove stopwords."""
     if not text:
         return []
     
@@ -78,6 +78,11 @@ def _extract_unigrams_and_bigrams(text: str) -> List[str]:
     for i in range(len(tokens) - 1):
         bigram = f"{tokens[i]} {tokens[i+1]}"
         terms.append(bigram)
+    
+    # Trigrams (3-word sequences)
+    for i in range(len(tokens) - 2):
+        trigram = f"{tokens[i]} {tokens[i+1]} {tokens[i+2]}"
+        terms.append(trigram)
     
     return terms
 

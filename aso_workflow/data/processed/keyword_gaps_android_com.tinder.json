@@ -3,13 +3,13 @@
     "app_id": "com.tinder",
     "platform": "android",
     "country": "us",
-    "run_date": "2026-04-04T13:10:56.175292"
+    "run_date": "2026-04-04T17:31:40.173083"
   },
   "your_app": {
     "title": "Tinder Dating App: Chat & Date",
     "subtitle": "The dating app for adults to meet new people & match with local singles online",
     "description_excerpt": "Tinder is the place to meet someone new and see where a spark might lead. With millions of people nearby and around the world, Tinder makes dating fun and helps you find someone who matches your vibe, interests, and intentions.<br><br><b> \u2728 HOW IT WO",
-    "term_count": 527
+    "term_count": 855
   },
   "keyword_gaps": [
     {
@@ -381,6 +381,16 @@
       "max_reach": null
     },
     {
+      "term": "please contact us",
+      "primary_competitor_count": 2,
+      "secondary_competitor_count": 1,
+      "volume": 5,
+      "difficulty": 66,
+      "results": 250,
+      "brand": {},
+      "max_reach": null
+    },
+    {
       "term": "different",
       "primary_competitor_count": 2,
       "secondary_competitor_count": 1,
@@ -480,7 +490,7 @@
       "secondary_competitor_count": 0,
       "volume": 94,
       "difficulty": 96,
-      "results": 248,
+      "results": 250,
       "brand": {
         "top_app_id": "com.zhiliaoapp.musically"
       },
@@ -525,16 +535,6 @@
       "results": 233,
       "brand": {},
       "max_reach": null
-    },
-    {
-      "term": "tiktok https",
-      "primary_competitor_count": 2,
-      "secondary_competitor_count": 0,
-      "volume": 5,
-      "difficulty": 88,
-      "results": 223,
-      "brand": {},
-      "max_reach": null
     }
   ],
   "competitor_summary": [
@@ -544,7 +544,7 @@
       "tier": "primary",
       "title": "Tango: Live Stream, Video Chat",
       "subtitle": "Live Chat & Match! Explore Real-Time Dating and Make Friends!",
-      "unique_terms_not_in_your_app": 312
+      "unique_terms_not_in_your_app": 494
     },
     {
       "app_id": "com.litatom.app",
@@ -552,7 +552,7 @@
       "tier": "primary",
       "title": "Litmatch\u2014Make new friends",
       "subtitle": "Join the Community & Go Fun with Cool Generation!",
-      "unique_terms_not_in_your_app": 311
+      "unique_terms_not_in_your_app": 492
     },
     {
       "app_id": "com.talkin.learn",
@@ -560,7 +560,7 @@
       "tier": "primary",
       "title": "Talkin: Global Friends & Chat",
       "subtitle": "Chat, Voice, Moments, Connect, Real vibes. Discover life around the world.",
-      "unique_terms_not_in_your_app": 436
+      "unique_terms_not_in_your_app": 707
     },
     {
       "app_id": "com.meetup",
@@ -568,7 +568,7 @@
       "tier": "secondary",
       "title": "Meetup: Social Events & Groups",
       "subtitle": "Meet local people, make friends & network: Join a community, group, host events",
-      "unique_terms_not_in_your_app": 198
+      "unique_terms_not_in_your_app": 300
     },
     {
       "app_id": "com.hubolabs.hubo",
@@ -576,7 +576,7 @@
       "tier": "secondary",
       "title": "purp - Make new friends",
       "subtitle": "Swipe to make new friends! Discover new cultures and meet new people",
-      "unique_terms_not_in_your_app": 109
+      "unique_terms_not_in_your_app": 157
     },
     {
       "app_id": "com.dior.kFriends",
@@ -584,7 +584,7 @@
       "tier": "secondary",
       "title": "K-Friends - Make Korean Friend",
       "subtitle": "Have a conversation with your global friends and try language exchange.",
-      "unique_terms_not_in_your_app": 379
+      "unique_terms_not_in_your_app": 587
     },
     {
       "app_id": "com.reddit.frontpage",
@@ -592,7 +592,7 @@
       "tier": "secondary",
       "title": "Reddit",
       "subtitle": "Reddit is where you\u2019ll find your people and feel at home in every conversation.",
-      "unique_terms_not_in_your_app": 480
+      "unique_terms_not_in_your_app": 764
     },
     {
       "app_id": "com.dazz.hoop",
@@ -600,7 +600,7 @@
       "tier": "secondary",
       "title": "Hoop - Make new friends",
       "subtitle": "Hoop is an easy way to make new friends all over the world",
-      "unique_terms_not_in_your_app": 59
+      "unique_terms_not_in_your_app": 90
     },
     {
       "app_id": "com.gemtechnologies.gem4me",
@@ -608,7 +608,7 @@
       "tier": "secondary",
       "title": "Online chat, calls - Gem Space",
       "subtitle": "Private messenger for communication\u30fbChatting text app\u30fbVideo call",
-      "unique_terms_not_in_your_app": 345
+      "unique_terms_not_in_your_app": 525
     },
     {
       "app_id": "xyz.blueskyweb.app",
@@ -616,7 +616,7 @@
       "tier": "secondary",
       "title": "Bluesky",
       "subtitle": "Social that's actually social",
-      "unique_terms_not_in_your_app": 159
+      "unique_terms_not_in_your_app": 245
     }
   ]
 }

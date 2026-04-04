@@ -3,13 +3,13 @@
     "app_id": "547702041",
     "platform": "ios",
     "country": "us",
-    "run_date": "2026-04-04T13:10:50.283592"
+    "run_date": "2026-04-04T17:31:28.891871"
   },
   "your_app": {
     "title": "Tinder Dating App: Date & Chat",
     "subtitle": "Meet New People & Date Singles",
     "description_excerpt": "Tinder is the place to meet someone new and see where a spark might lead. With millions of people nearby and around the world, Tinder makes dating fun and helps you find someone who matches your vibe, interests, and intentions.\n\nHOW IT WORKS\nMeeting ",
-    "term_count": 411
+    "term_count": 669
   },
   "keyword_gaps": [
     {
@@ -305,6 +305,16 @@
       "max_reach": null
     },
     {
+      "term": "privacy policy terms",
+      "primary_competitor_count": 2,
+      "secondary_competitor_count": 2,
+      "volume": 5,
+      "difficulty": 2,
+      "results": 190,
+      "brand": {},
+      "max_reach": null
+    },
+    {
       "term": "without",
       "primary_competitor_count": 2,
       "secondary_competitor_count": 2,
@@ -521,16 +531,6 @@
       "results": 212,
       "brand": {},
       "max_reach": null
-    },
-    {
-      "term": "boost",
-      "primary_competitor_count": 2,
-      "secondary_competitor_count": 0,
-      "volume": 53,
-      "difficulty": 15,
-      "results": 200,
-      "brand": {},
-      "max_reach": null
     }
   ],
   "competitor_summary": [
@@ -540,7 +540,7 @@
       "tier": "primary",
       "title": "Bumble Dating App: Meet & Date",
       "subtitle": "Find new people & chat singles",
-      "unique_terms_not_in_your_app": 354
+      "unique_terms_not_in_your_app": 524
     },
     {
       "app_id": "351331194",
@@ -548,7 +548,7 @@
       "tier": "primary",
       "title": "Badoo Dating: Meet New People",
       "subtitle": "Chat and date or make friends.",
-      "unique_terms_not_in_your_app": 308
+      "unique_terms_not_in_your_app": 477
     },
     {
       "app_id": "338701294",
@@ -556,7 +556,7 @@
       "tier": "primary",
       "title": "OkCupid Dating: Date Singles",
       "subtitle": "Find, Match & Meet New People",
-      "unique_terms_not_in_your_app": 250
+      "unique_terms_not_in_your_app": 366
     },
     {
       "app_id": "595287172",
@@ -564,7 +564,7 @@
       "tier": "secondary",
       "title": "Hinge Dating App: Match & Date",
       "subtitle": "Chat & Meet with Single People",
-      "unique_terms_not_in_your_app": 259
+      "unique_terms_not_in_your_app": 387
     },
     {
       "app_id": "601174087",
@@ -572,7 +572,7 @@
       "tier": "secondary",
       "title": "DOWN: The Casual Dating App",
       "subtitle": "Seeking a Meetup or Wild Date?",
-      "unique_terms_not_in_your_app": 257
+      "unique_terms_not_in_your_app": 389
     },
     {
       "app_id": "1250946975",
@@ -580,7 +580,7 @@
       "tier": "secondary",
       "title": "Hily Dating App: Meet. Date.",
       "subtitle": "Chat, match with new people",
-      "unique_terms_not_in_your_app": 190
+      "unique_terms_not_in_your_app": 275
     },
     {
       "app_id": "690661663",
@@ -588,7 +588,7 @@
       "tier": "secondary",
       "title": "PURE: Open-Minded Dating App",
       "subtitle": "Chat, Date, Have Fun",
-      "unique_terms_not_in_your_app": 285
+      "unique_terms_not_in_your_app": 443
     },
     {
       "app_id": "1297152391",
@@ -596,7 +596,7 @@
       "tier": "secondary",
       "title": "Lesbian Singles \u2013 Meet & Date",
       "subtitle": "LGBTQ+ Women Dating & Chat",
-      "unique_terms_not_in_your_app": 192
+      "unique_terms_not_in_your_app": 294
     },
     {
       "app_id": "1328695473",
@@ -604,7 +604,7 @@
       "tier": "secondary",
       "title": "18+ Flirt Chat | Dating USA+",
       "subtitle": "Meet Singles, Match Tonight!",
-      "unique_terms_not_in_your_app": 297
+      "unique_terms_not_in_your_app": 454
     },
     {
       "app_id": "1080102131",
@@ -612,7 +612,7 @@
       "tier": "secondary",
       "title": "Wild: Adult Casual Dating App",
       "subtitle": "Friend Finder, Meet up Mature",
-      "unique_terms_not_in_your_app": 170
+      "unique_terms_not_in_your_app": 259
     }
   ]
 }

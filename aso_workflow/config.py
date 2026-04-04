@@ -5,6 +5,7 @@ Simple, swappable config for app IDs, platform, country, and API settings.
 """
 
 from datetime import datetime, timedelta
+from pathlib import Path
 
 # App IDs for iOS and Android
 iOS_APP_ID = "547702041"
@@ -27,8 +28,12 @@ END_DATE = datetime.now().strftime("%Y-%m-%d")
 APPTWEAK_BASE_URL = "https://public-api.apptweak.com"
 APPTWEAK_METADATA_ENDPOINT = "api/public/store/apps/metadata.json"
 
+# This gets the directory where config.py lives (aso_workflow/)
+BASE_DIR = Path(__file__).resolve().parent
+
 # File paths - for storing raw data
-DATA_RAW_DIR = "data/raw"
+DATA_RAW_DIR = BASE_DIR / "data" / "raw"
+DATA_PROCESSED_DIR = BASE_DIR / "data" / "processed"
 
 # Processing settings
 TOP_COMPETITORS = 10

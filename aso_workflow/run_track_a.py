@@ -53,19 +53,22 @@ def run_track_a(app_id: str, platform: str, max_gap_metrics: int = 50):
     
     # Step 3: Build competitor summary
     print(">>> Step 3: Build competitor summary")
+    # 1. Path to the main competitors list (e.g., ios_547702041_competitors.json)
     competitors_file = Path(config.DATA_RAW_DIR) / f"{platform}_{app_id}_competitors.json"
     competitor_summary = []
-    
+
     if competitors_file.exists():
         with open(competitors_file, "r") as f:
             competitors_data = json.load(f)
         
-        raw_dir = Path(config.DATA_RAW_DIR)
+        # 2. Path to the subfolder where individual metadata lives
+        comp_metadata_dir = Path(config.DATA_RAW_DIR) / "competitors"
         
         for comp in competitors_data["competitors"]:
             comp_id = comp["app_id"]
-            comp_file = raw_dir / f"{platform}_{comp_id}_metadata.json"
-            
+            # Look inside the /competitors/ subfolder
+            comp_file = comp_metadata_dir / f"{platform}_{comp_id}_metadata.json"
+                
             if comp_file.exists():
                 with open(comp_file, "r") as f:
                     comp_raw = json.load(f)

@@ -304,6 +304,8 @@ def transform_track_a(
     print("[TRANSFORM] Loading raw metadata...")
     
     raw_dir = Path(config.DATA_RAW_DIR)
+    # KEY FIX: Define the subfolder for competitor metadata
+    comp_metadata_dir = raw_dir / "competitors"
     
     # Load your app metadata
     your_app_file = raw_dir / f"{platform}_{your_app_id}_metadata.json"
@@ -323,7 +325,7 @@ def transform_track_a(
     # For now, we'll try to load them; if they don't exist, proceed with empty dict
     competitor_metadata = {}
     for comp_id in competitor_ids:
-        comp_file = raw_dir / f"{platform}_{comp_id}_metadata.json"
+        comp_file = comp_metadata_dir / f"{platform}_{comp_id}_metadata.json"
         if comp_file.exists():
             with open(comp_file, "r") as f:
                 comp_raw = json.load(f)

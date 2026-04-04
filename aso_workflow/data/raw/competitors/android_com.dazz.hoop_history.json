@@ -1,0 +1,22 @@
+{
+  "result": {},
+  "metadata": {
+    "request": {
+      "path": "/api/public/store/apps/metadata/changes.json",
+      "params": {
+        "device": "android",
+        "country": "us",
+        "language": "us",
+        "start_date": "2026-01-04",
+        "end_date": "2026-04-04",
+        "apps": [
+          "com.dazz.hoop"
+        ]
+      },
+      "cost": 1,
+      "max_credit_cost": 101,
+      "status": 200
+    },
+    "response": null
+  }
+}

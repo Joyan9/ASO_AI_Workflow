@@ -1,0 +1,10 @@
+# Environment
+aso_workflow/.env
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+

@@ -1,0 +1,160 @@
+{
+  "result": {
+    "com.gemtechnologies.gem4me": {
+      "changes": [
+        {
+          "target": "version",
+          "old_value": "9.0.38618",
+          "new_value": "9.1.39065",
+          "old_release_notes": "The main update is all about calls.<br>You can now create a call using a link and invite anyone, even if they don\u2019t have Gem Space installed. During the call, it\u2019s easy to manage the microphone, camera, and screen sharing, choose the sound that works best for you, and control how participants join.<br><br>We also added New Year chat backgrounds and a festive app icon.<br>The app is now easier for new users to understand, and we let you know in advance if technical maintenance is planned.",
+          "new_release_notes": null,
+          "version": "9.1.39065",
+          "is_ab_test": null,
+          "date": "2026-01-28"
+        },
+        {
+          "target": "version",
+          "old_value": "9.1.39065",
+          "new_value": "9.1.39094",
+          "old_release_notes": null,
+          "new_release_notes": null,
+          "version": "9.1.39094",
+          "is_ab_test": null,
+          "date": "2026-02-02"
+        },
+        {
+          "target": "version",
+          "old_value": "9.1.39094",
+          "new_value": "9.2.39266",
+          "old_release_notes": null,
+          "new_release_notes": null,
+          "version": "9.2.39266",
+          "is_ab_test": null,
+          "date": "2026-02-06"
+        },
+        {
+          "target": "version",
+          "old_value": "9.2.39266",
+          "new_value": "9.3.39346",
+          "old_release_notes": null,
+          "new_release_notes": null,
+          "version": "9.3.39346",
+          "is_ab_test": null,
+          "date": "2026-02-17"
+        },
+        {
+          "target": "version",
+          "old_value": "9.3.39346",
+          "new_value": "9.4.39495",
+          "old_release_notes": null,
+          "new_release_notes": null,
+          "version": "9.4.39495",
+          "is_ab_test": null,
+          "date": "2026-03-06"
+        },
+        {
+          "target": "version",
+          "old_value": "9.4.39495",
+          "new_value": "9.5.39691",
+          "old_release_notes": null,
+          "new_release_notes": "We\u2019ve updated the interface: Contacts and Calls are now in the bottom bar. Added a personal profile link and refreshed QR codes for quick access. Fixed sending cards and improved drafts. Stability has been improved. Search is now more accurate: chats and channels by name, users by username. Also fixed invites, channel search, comment counts, and user blocking.",
+          "version": "9.5.39691",
+          "is_ab_test": null,
+          "date": "2026-03-26"
+        },
+        {
+          "target": "screenshots",
+          "old_value": [
+            {
+              "id": "gM2SWEyLHi_LBuuFyQT7vCUNVgqTTm8acilqp-sgVTAhjmzFzMWdU5ds4z6UbQIMv2Q",
+              "path_component": "play-lh.googleusercontent.com",
+              "url": "https://play-lh.googleusercontent.com/gM2SWEyLHi_LBuuFyQT7vCUNVgqTTm8acilqp-sgVTAhjmzFzMWdU5ds4z6UbQIMv2Q"
+            },
+            {
+              "id": "JetZE4ogHmNdxesYzC_kME2ojgx6EcZJMAP9e5jXPY811lqL-PVeFJg_KCiyJ5IKkmE",
+              "path_component": "play-lh.googleusercontent.com",
+              "url": "https://play-lh.googleusercontent.com/JetZE4ogHmNdxesYzC_kME2ojgx6EcZJMAP9e5jXPY811lqL-PVeFJg_KCiyJ5IKkmE"
+            },
+            {
+              "id": "JKazrwM_0Z6EquhPzbL3tkrge5zj0SpvHP5XAnQff39GrSIZ4Q40ZtOCqA78Dtzozg",
+              "path_component": "play-lh.googleusercontent.com",
+              "url": "https://play-lh.googleusercontent.com/JKazrwM_0Z6EquhPzbL3tkrge5zj0SpvHP5XAnQff39GrSIZ4Q40ZtOCqA78Dtzozg"
+            },
+            {
+              "id": "1ly2j6hwZRzk8RNdkJ14q8KIqQtt-Wc77a5s4MzbEswenhmxzrOC6h5p-_Cau-ILu7o",
+              "path_component": "play-lh.googleusercontent.com",
+              "url": "https://play-lh.googleusercontent.com/1ly2j6hwZRzk8RNdkJ14q8KIqQtt-Wc77a5s4MzbEswenhmxzrOC6h5p-_Cau-ILu7o"
+            },
+            {
+              "id": "dCDouwMYfz4IPMBEG-_x8qMYsHuh5WebPJeS3txyc24C0eLXSkdnhgWv0sUz_A4_8LI",
+              "path_component": "play-lh.googleusercontent.com",
+              "url": "https://play-lh.googleusercontent.com/dCDouwMYfz4IPMBEG-_x8qMYsHuh5WebPJeS3txyc24C0eLXSkdnhgWv0sUz_A4_8LI"
+            },
+            {
+              "id": "x_92JmmauhvlruaXRHeQIRg9WwMWV2CgrTTPB8FB22Dld0aWgrQjgswNvehq_g4U9-g",
+              "path_component": "play-lh.googleusercontent.com",
+              "url": "https://play-lh.googleusercontent.com/x_92JmmauhvlruaXRHeQIRg9WwMWV2CgrTTPB8FB22Dld0aWgrQjgswNvehq_g4U9-g"
+            }
+          ],
+          "new_value": [
+            {
+              "id": "PgWmvzc_WDf4dYrMBukNZTWwiHdHVWRK4czBfDTLonAVWlqRWrmboijTibvtAXLn3cZammqHg5CPtpXUIah6zw",
+              "path_component": "play-lh.googleusercontent.com",
+              "url": "https://play-lh.googleusercontent.com/PgWmvzc_WDf4dYrMBukNZTWwiHdHVWRK4czBfDTLonAVWlqRWrmboijTibvtAXLn3cZammqHg5CPtpXUIah6zw"
+            },
+            {
+              "id": "EQN_uZ0eP6D9cCvQugKFvpubKcCM4lHR4BDvbIW0ehOzzNX4neCBLCkLnPEu3XYhk0I4CTeyaUPeCWwiPk4EFw",
+              "path_component": "play-lh.googleusercontent.com",
+              "url": "https://play-lh.googleusercontent.com/EQN_uZ0eP6D9cCvQugKFvpubKcCM4lHR4BDvbIW0ehOzzNX4neCBLCkLnPEu3XYhk0I4CTeyaUPeCWwiPk4EFw"
+            },
+            {
+              "id": "gnjhvQg7DZXXCfyulsRhhHoVUyUN52NWWnxb6INelYZGYcMjvfFsiSf4l905vMgl59FbQVZxsK5l7GqiTTBKnA",
+              "path_component": "play-lh.googleusercontent.com",
+              "url": "https://play-lh.googleusercontent.com/gnjhvQg7DZXXCfyulsRhhHoVUyUN52NWWnxb6INelYZGYcMjvfFsiSf4l905vMgl59FbQVZxsK5l7GqiTTBKnA"
+            },
+            {
+              "id": "8LmMrolPAfuu8Y6s9o7tQD5zWm3z87fZRGgVTaj3cWzk9qK4KdYDFev8_XvikPfsmYaIzL8Ozq4bjZlAq4ETQw",
+              "path_component": "play-lh.googleusercontent.com",
+              "url": "https://play-lh.googleusercontent.com/8LmMrolPAfuu8Y6s9o7tQD5zWm3z87fZRGgVTaj3cWzk9qK4KdYDFev8_XvikPfsmYaIzL8Ozq4bjZlAq4ETQw"
+            },
+            {
+              "id": "pw4GrL1m1D21KNi-1pzoF4gy4gLJODs3p0OJ1bk7WIr2MNNcKrmktg0O78xcEUwQBPXgRKGBQIYoAZqjuyEX",
+              "path_component": "play-lh.googleusercontent.com",
+              "url": "https://play-lh.googleusercontent.com/pw4GrL1m1D21KNi-1pzoF4gy4gLJODs3p0OJ1bk7WIr2MNNcKrmktg0O78xcEUwQBPXgRKGBQIYoAZqjuyEX"
+            }
+          ],
+          "version": "",
+          "is_ab_test": false,
+          "date": "2026-04-04"
+        },
+        {
+          "target": "size",
+          "old_value": 29760094,
+          "new_value": 43607991,
+          "version": "9.5.39691",
+          "is_ab_test": null,
+          "date": "2026-03-26"
+        }
+      ]
+    }
+  },
+  "metadata": {
+    "request": {
+      "path": "/api/public/store/apps/metadata/changes.json",
+      "params": {
+        "device": "android",
+        "country": "us",
+        "language": "us",
+        "start_date": "2026-01-04",
+        "end_date": "2026-04-04",
+        "apps": [
+          "com.gemtechnologies.gem4me"
+        ]
+      },
+      "cost": 101,
+      "max_credit_cost": 101,
+      "status": 200
+    },
+    "response": null
+  }
+}

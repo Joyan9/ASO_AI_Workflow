@@ -1,0 +1,238 @@
+{
+  "result": {
+    "com.reddit.frontpage": {
+      "metadata": {
+        "title": "Reddit",
+        "short_description": "Reddit is where you\u2019ll find your people and feel at home in every conversation.",
+        "long_description": "Welcome to Reddit, the heart of the internet.<br><br>Reddit is the most diverse place on the web, where people from all over the world come together to share passions, ideas and experiences, creating the most authentic and interesting conversations on the Internet. <br><br>Do you want to ask questions, share opinions, ask for advice, participate in a debate or simply relax with memes, and funny videos? Reddit is powered by people who share your interests. Jump into discussions, explore new ideas. Be part of a community that actually feels like one.<br><br>Reddit has over 100,000 online communities (forums where members post and comment anonymously) dedicated to specific topics. Some of the most popular communities are:<br>\u25a0 r/AskReddit, where users can ask and answer questions on the largest Q&amp;A forum<br>\u25a0 r/funny, which is full of humorous content, jokes, puns, and hilarious memes<br>\u25a0 r/gaming, a hub for gaming enthusiasts to discuss games, share memes, and stay updated on the latest in the gaming world.<br>\u25a0 r/worldnews, for global news stories, providing discussions and updates on current events from around the world.<br>\u25a0 r/todayilearned, a place to share interesting facts.<br><br>On Reddit you\u2019ll find:<br><b>\u25a0 Thousands of community groups, interesting people and bloggers sharing a wealth of original content.</b><br>Breaking news, leaked gossip , entertainment news, social media trends, sports highlights, TV fan theories, technology forums, open AI discussions, pop culture debates and personalized content, there&#39;s a community for everyone.<br><b>\u25a0 Loads of laughs</b><br>Find popular memes, oddly satisfying videos, funny videos, and more to help you lose track of time.<br><b>\u25a0 AMAs, or &quot;&quot;Ask Me Anything&quot;&quot; - unfiltered Q&amp;A sessions with celebrities, politicians, and experts who join to answer questions honestly.</b><br>Celebrities, politicians, and experts answer questions from users. <br><b>\u25a0 The best discussions on any topic</b><br>Reddit\u2019s discussion threads are where community members jump in with humor and insights for conversations about anything; pop culture, sports, entertainment, leaked news, gossip or career or financial advice.<br><b>\u25a0 Get answers to anonymous questions</b><br>Ask communities anything you want. Ask questions on relationships, mental health, parenting, career help, fitness plans, and more. Reddit&#39;s hive mind is the most helpful Q&amp;A community, with all questions being answered right away!<br><b>\u25a0 Anonymous profiles so you can be YOURSELF</b><br>Connect with people about any topic, join interactive community groups or threads, and chat with other redditors, all anonymously. Don\u2019t be afraid to release your voice and debate people from all over the world!<br><br>Voting and Karma:<br>Instead of likes and hearts, Reddit\u2019s social network runs on upvotes or downvotes. Voting on posts and comments increase or decrease the creator\u2019s karma, and helps popular and relevant posts rise to the top, while filtering out low-quality or irrelevant posts.<br>While karma doesn&#39;t directly impact your ability to use Reddit, more karma can increase posts\u2019 visibility and help you get noticed. Some communities require karma to post or comment, which helps maintain content quality and community standards.<br><br>Join the largest social media platform and discover everything that piques your interest!<br><br>Reddit Premium:<br>Purchase Reddit Premium to enjoy an ads-free experience and access to premium avatar gear, r/lounge, custom app icons, and more.<br><br>Payment will be charged on a recurring monthly or annual basis to your Google Play account. Your monthly or annual Premium subscription will automatically renew unless you cancel at least 24 hours before your subscription ends. Cancel anytime in your device\u2019s Account Settings. No partial refunds.<br><br>Privacy Policy: https://www.redditinc.com/policies/privacy-policy  <br>User Agreement: https://www.redditinc.com/policies/user-agreement  <br>Reddit Rules: https://redditinc.com/policies/reddit-rules<br><br>If you have any problems with the app, get support at RedditHelp.com",
+        "id": "com.reddit.frontpage",
+        "categories": [
+          "SOCIAL"
+        ],
+        "icon": "https://play-lh.googleusercontent.com/YlsjgA1pFEUqNaypaxE5ajushTBOt8IxVk_UEqzaXT7_n3JDgFq6KgtuE8tPBpvaCntB",
+        "screenshots": [
+          "https://play-lh.googleusercontent.com/Ai3kFhLoeMIWAcJ-BV0BQdwiASEtdVt9BHoPOGrERAX5O0f81VoCDJ_ITar4kJ7zGT0",
+          "https://play-lh.googleusercontent.com/FWZKxTJy9ivN72b8t07lm7Dymk-dG3rFMgMn67bk-W8-z88GsbllM3FKSkLZIyQz0Ec",
+          "https://play-lh.googleusercontent.com/vbdIb7cQOZiJQ8YK3nazqEFOD3qjrtuo7RxoZcZsBPkn9JaLeO-L9y1GcC2iTSeSIz0",
+          "https://play-lh.googleusercontent.com/92mwMTdmv8_mbCoh_bAC7JlyFWAYjaRe4xGfpxHCEie7qtZJFYzA5BbcPHeLdbZgyfrZ",
+          "https://play-lh.googleusercontent.com/rMINX6g7p2qozdV38uaYb4VgoLX_ao50sG0V6qsbiJUM3KEPsJRMEiLd71H5VdVn3KA",
+          "https://play-lh.googleusercontent.com/aF_EaQqn8-DpMZYZKfnIN50CBYPomsjfRC_c8rdLXvkGXbLmyHmLkC1prwQKNI1BS3Wa"
+        ],
+        "videos": [],
+        "size": {
+          "current": {
+            "data": 42952542
+          }
+        },
+        "rating": {
+          "average": 4.6
+        },
+        "developer": {
+          "id": "reddit+Inc.",
+          "name": "reddit Inc.",
+          "email": "androidsupport@reddit.com",
+          "website": "https://www.reddit.com/mobile/download",
+          "phone": "",
+          "address_private": "",
+          "address_public": "548 Market St Ste 16093\nSan Francisco, CA 94104-5401\nUnited States",
+          "publisher_name": "Reddit, Inc.",
+          "publisher_email": "androidsupport@reddit.com",
+          "publisher_phone": "+1 707-563-9241"
+        },
+        "price": "",
+        "released_at": null,
+        "versions": [
+          {
+            "version": "2026.13.0",
+            "release_notes": "Thanks for updating the Reddit app! We&#39;ve updated our Android app with bug fixes and changes to improve your overall experience.",
+            "release_date": "2026-03-30T00:00:00.000Z"
+          },
+          {
+            "version": "2026.12.0",
+            "release_notes": "Thanks for updating the Reddit app! We&#39;ve updated our Android app with bug fixes and changes to improve your overall experience.",
+            "release_date": "2026-03-20T00:00:00.000Z"
+          },
+          {
+            "version": "2026.11.0",
+            "release_notes": "Thanks for updating the Reddit app! We&#39;ve updated our Android app with bug fixes and changes to improve your overall experience.",
+            "release_date": "2026-03-13T00:00:00.000Z"
+          },
+          {
+            "version": "2026.10.0",
+            "release_notes": "Thanks for updating the Reddit app! We&#39;ve updated our Android app with bug fixes and changes to improve your overall experience.",
+            "release_date": "2026-03-06T00:00:00.000Z"
+          },
+          {
+            "version": "2026.09.0",
+            "release_notes": "Thanks for updating the Reddit app! We&#39;ve updated our Android app with bug fixes and changes to improve your overall experience.",
+            "release_date": "2026-02-26T00:00:00.000Z"
+          },
+          {
+            "version": "2026.07.1",
+            "release_notes": "Thanks for updating the Reddit app! We&#39;ve updated our Android app with bug fixes and changes to improve your overall experience.",
+            "release_date": "2026-02-24T00:00:00.000Z"
+          },
+          {
+            "version": "2026.07.0",
+            "release_notes": "Thanks for updating the Reddit app! We&#39;ve updated our Android app with bug fixes and changes to improve your overall experience.",
+            "release_date": "2026-02-17T00:00:00.000Z"
+          },
+          {
+            "version": "2026.06.0",
+            "release_notes": "Thanks for updating the Reddit app! We&#39;ve updated our Android app with bug fixes and changes to improve your overall experience.",
+            "release_date": "2026-02-06T00:00:00.000Z"
+          },
+          {
+            "version": "2026.05.1",
+            "release_notes": "Thanks for updating the Reddit app! We&#39;ve updated our Android app with bug fixes and changes to improve your overall experience.",
+            "release_date": "2026-02-04T00:00:00.000Z"
+          },
+          {
+            "version": "2026.05.0",
+            "release_notes": "Thanks for updating the Reddit app! We&#39;ve updated our Android app with bug fixes and changes to improve your overall experience.",
+            "release_date": "2026-01-30T00:00:00.000Z"
+          },
+          {
+            "version": "2026.04.0",
+            "release_notes": "Thanks for updating the Reddit app! We&#39;ve updated our Android app with bug fixes and changes to improve your overall experience.",
+            "release_date": "2026-01-23T00:00:00.000Z"
+          },
+          {
+            "version": "2026.03.0",
+            "release_notes": "Thanks for updating the Reddit app! We&#39;ve updated our Android app with bug fixes and changes to improve your overall experience.",
+            "release_date": "2026-01-20T00:00:00.000Z"
+          },
+          {
+            "version": "2026.02.0",
+            "release_notes": "Thanks for updating the Reddit app! We&#39;ve updated our Android app with bug fixes and changes to improve your overall experience.",
+            "release_date": "2026-01-09T00:00:00.000Z"
+          },
+          {
+            "version": "2025.50.3",
+            "release_notes": "Thanks for updating the Reddit app! We&#39;ve updated our Android app with bug fixes and changes to improve your overall experience.",
+            "release_date": "2026-01-08T00:00:00.000Z"
+          },
+          {
+            "version": "2025.50.2",
+            "release_notes": "Thanks for updating the Reddit app! We&#39;ve updated our Android app with bug fixes and changes to improve your overall experience.",
+            "release_date": "2025-12-18T00:00:00.000Z"
+          },
+          {
+            "version": "2025.50.1",
+            "release_notes": "",
+            "release_date": "2025-12-16T00:00:00.000Z"
+          },
+          {
+            "version": "2025.50.0",
+            "release_notes": "",
+            "release_date": "2025-12-12T00:00:00.000Z"
+          },
+          {
+            "version": "2025.49.0",
+            "release_notes": "Thanks for updating the Reddit app! We&#39;ve updated our Android app with bug fixes and changes to improve your overall experience.",
+            "release_date": "2025-12-05T00:00:00.000Z"
+          },
+          {
+            "version": "2025.48.0",
+            "release_notes": "Thanks for updating the Reddit app! We&#39;ve updated our Android app with bug fixes and changes to improve your overall experience.",
+            "release_date": "2025-12-02T00:00:00.000Z"
+          },
+          {
+            "version": "2025.46.0",
+            "release_notes": "Thanks for updating the Reddit app! We&#39;ve updated our Android app with bug fixes and changes to improve your overall experience.",
+            "release_date": "2025-11-19T00:00:00.000Z"
+          }
+        ],
+        "similar_apps": [
+          "org.mozilla.firefox",
+          "org.telegram.messenger",
+          "com.discord",
+          "tv.twitch.android.app",
+          "com.tumblr",
+          "com.patreon.android",
+          "com.brave.browser",
+          "com.instagram.barcelona",
+          "com.substack.app",
+          "com.duckduckgo.mobile.android",
+          "com.kick.mobile",
+          "com.quora.android",
+          "com.wemesh.android",
+          "org.torproject.torbrowser",
+          "xyz.blueskyweb.app"
+        ],
+        "release_date": "2016-04-07T05:46:40.000Z",
+        "dna": {
+          "class_id": 10018,
+          "class_label": "Social",
+          "subclass_id": 167,
+          "subclass_label": "Social Networks & Communities"
+        },
+        "permissions": [
+          "android.permission.ACCESS_ADSERVICES_AD_ID",
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.ACCESS_WIFI_STATE",
+          "android.permission.CAMERA",
+          "android.permission.DETECT_SCREEN_CAPTURE",
+          "android.permission.FOREGROUND_SERVICE",
+          "android.permission.FOREGROUND_SERVICE_DATA_SYNC",
+          "android.permission.INTERNET",
+          "android.permission.MODIFY_AUDIO_SETTINGS",
+          "android.permission.PACKAGE_USAGE_STATS",
+          "android.permission.POST_NOTIFICATIONS",
+          "android.permission.READ_APP_BADGE",
+          "android.permission.READ_MEDIA_AUDIO",
+          "android.permission.READ_MEDIA_IMAGES",
+          "android.permission.READ_MEDIA_VIDEO",
+          "android.permission.READ_MEDIA_VISUAL_USER_SELECTED",
+          "android.permission.READ_SYNC_SETTINGS",
+          "android.permission.RECEIVE_BOOT_COMPLETED",
+          "android.permission.RECORD_AUDIO",
+          "android.permission.USE_BIOMETRIC",
+          "android.permission.USE_FINGERPRINT",
+          "android.permission.VIBRATE",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_SYNC_SETTINGS",
+          "com.anddoes.launcher.permission.UPDATE_COUNT",
+          "com.android.launcher.permission.INSTALL_SHORTCUT",
+          "com.android.vending.BILLING",
+          "com.google.android.c2dm.permission.RECEIVE",
+          "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+          "com.google.android.gms.permission.AD_ID",
+          "com.google.android.providers.gsf.permission.READ_GSERVICES",
+          "com.htc.launcher.permission.READ_SETTINGS",
+          "com.htc.launcher.permission.UPDATE_SHORTCUT",
+          "com.huawei.android.launcher.permission.CHANGE_BADGE",
+          "com.huawei.android.launcher.permission.READ_SETTINGS",
+          "com.huawei.android.launcher.permission.WRITE_SETTINGS",
+          "com.majeur.launcher.permission.UPDATE_BADGE",
+          "com.oppo.launcher.permission.READ_SETTINGS",
+          "com.oppo.launcher.permission.WRITE_SETTINGS",
+          "com.reddit.frontpage.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+          "com.sec.android.provider.badge.permission.READ",
+          "com.sec.android.provider.badge.permission.WRITE",
+          "com.sonyericsson.home.permission.BROADCAST_BADGE",
+          "com.sonymobile.home.permission.PROVIDER_INSERT_BADGE",
+          "me.everything.badger.permission.BADGE_COUNT_READ",
+          "me.everything.badger.permission.BADGE_COUNT_WRITE"
+        ]
+      }
+    }
+  },
+  "metadata": {
+    "request": {
+      "path": "/api/public/store/apps/metadata.json",
+      "params": {
+        "device": "android",
+        "country": "us",
+        "language": "us",
+        "apps": [
+          "com.reddit.frontpage"
+        ]
+      },
+      "cost": 11,
+      "max_credit_cost": 11,
+      "status": 200
+    },
+    "response": null
+  }
+}

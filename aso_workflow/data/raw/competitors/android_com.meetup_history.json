@@ -1,0 +1,504 @@
+{
+  "result": {
+    "com.meetup": {
+      "changes": [
+        {
+          "target": "version",
+          "old_value": "2026.01.02.2779",
+          "new_value": "2026.01.07.2782",
+          "old_release_notes": "We&#39;ve made some under-the-hood improvements to keep things running smoothly.<br> <br>App feedback is always welcome: androiddev@meetup.com",
+          "new_release_notes": "We&#39;ve made some under-the-hood improvements to keep things running smoothly.<br> <br>App feedback is always welcome: androiddev@meetup.com",
+          "version": "2026.01.07.2782",
+          "is_ab_test": null,
+          "date": "2026-01-07"
+        },
+        {
+          "target": "version",
+          "old_value": "2026.01.07.2782",
+          "new_value": "2026.01.09.2785",
+          "old_release_notes": "We&#39;ve made some under-the-hood improvements to keep things running smoothly.<br> <br>App feedback is always welcome: androiddev@meetup.com",
+          "new_release_notes": "Introducing a fresh new design for Meetup<br>With Meetup\u2019s modern and welcoming new look, we hope to inspire meaningful connections while preserving the experience you know and rely on. Enjoy! \u2764\ufe0f - The Meetup Team<br> <br>App feedback is always welcome: androiddev@meetup.com",
+          "version": "2026.01.09.2785",
+          "is_ab_test": null,
+          "date": "2026-01-09"
+        },
+        {
+          "target": "version",
+          "old_value": "2026.01.09.2785",
+          "new_value": "2026.01.20.2794",
+          "old_release_notes": "Introducing a fresh new design for Meetup<br>With Meetup\u2019s modern and welcoming new look, we hope to inspire meaningful connections while preserving the experience you know and rely on. Enjoy! \u2764\ufe0f - The Meetup Team<br> <br>App feedback is always welcome: androiddev@meetup.com",
+          "new_release_notes": "We&#39;ve made some under-the-hood improvements to keep things running smoothly.<br> <br>App feedback is always welcome: androiddev@meetup.com",
+          "version": "2026.01.20.2794",
+          "is_ab_test": null,
+          "date": "2026-01-19"
+        },
+        {
+          "target": "version",
+          "old_value": "2026.01.20.2794",
+          "new_value": "2026.01.23.2800",
+          "old_release_notes": "We&#39;ve made some under-the-hood improvements to keep things running smoothly.<br> <br>App feedback is always welcome: androiddev@meetup.com",
+          "new_release_notes": "We&#39;ve made some under-the-hood improvements to keep things running smoothly.<br> <br>App feedback is always welcome: androiddev@meetup.com",
+          "version": "2026.01.23.2800",
+          "is_ab_test": null,
+          "date": "2026-01-23"
+        },
+        {
+          "target": "version",
+          "old_value": "2026.01.23.2800",
+          "new_value": "2026.01.27.2802",
+          "old_release_notes": "We&#39;ve made some under-the-hood improvements to keep things running smoothly.<br> <br>App feedback is always welcome: androiddev@meetup.com",
+          "new_release_notes": "We&#39;ve made some under-the-hood improvements to keep things running smoothly.<br> <br>App feedback is always welcome: androiddev@meetup.com",
+          "version": "2026.01.27.2802",
+          "is_ab_test": null,
+          "date": "2026-01-27"
+        },
+        {
+          "target": "version",
+          "old_value": "2026.01.27.2802",
+          "new_value": "2026.01.29.2805",
+          "old_release_notes": "We&#39;ve made some under-the-hood improvements to keep things running smoothly.<br> <br>App feedback is always welcome: androiddev@meetup.com",
+          "new_release_notes": "We&#39;ve made some under-the-hood improvements to keep things running smoothly.<br> <br>App feedback is always welcome: androiddev@meetup.com",
+          "version": "2026.01.29.2805",
+          "is_ab_test": null,
+          "date": "2026-01-29"
+        },
+        {
+          "target": "version",
+          "old_value": "2026.01.29.2805",
+          "new_value": "2026.02.03.2810",
+          "old_release_notes": "We&#39;ve made some under-the-hood improvements to keep things running smoothly.<br> <br>App feedback is always welcome: androiddev@meetup.com",
+          "new_release_notes": "We&#39;ve made some under-the-hood improvements to keep things running smoothly.<br> <br>App feedback is always welcome: androiddev@meetup.com",
+          "version": "2026.02.03.2810",
+          "is_ab_test": null,
+          "date": "2026-02-03"
+        },
+        {
+          "target": "version",
+          "old_value": "2026.02.03.2810",
+          "new_value": "2026.02.06.2814",
+          "old_release_notes": "We&#39;ve made some under-the-hood improvements to keep things running smoothly.<br> <br>App feedback is always welcome: androiddev@meetup.com",
+          "new_release_notes": "We&#39;ve made some under-the-hood improvements to keep things running smoothly.<br> <br>App feedback is always welcome: androiddev@meetup.com",
+          "version": "2026.02.06.2814",
+          "is_ab_test": null,
+          "date": "2026-02-06"
+        },
+        {
+          "target": "version",
+          "old_value": "2026.02.06.2814",
+          "new_value": "2026.02.10.2817",
+          "old_release_notes": "We&#39;ve made some under-the-hood improvements to keep things running smoothly.<br> <br>App feedback is always welcome: androiddev@meetup.com",
+          "new_release_notes": "We&#39;ve made some under-the-hood improvements to keep things running smoothly.<br> <br>App feedback is always welcome: androiddev@meetup.com",
+          "version": "2026.02.10.2817",
+          "is_ab_test": null,
+          "date": "2026-02-10"
+        },
+        {
+          "target": "version",
+          "old_value": "2026.02.10.2817",
+          "new_value": "2026.02.13.2820",
+          "old_release_notes": "We&#39;ve made some under-the-hood improvements to keep things running smoothly.<br> <br>App feedback is always welcome: androiddev@meetup.com",
+          "new_release_notes": "We&#39;ve made some under-the-hood improvements to keep things running smoothly.<br> <br>App feedback is always welcome: androiddev@meetup.com",
+          "version": "2026.02.13.2820",
+          "is_ab_test": null,
+          "date": "2026-02-13"
+        },
+        {
+          "target": "version",
+          "old_value": "2026.02.13.2820",
+          "new_value": "2026.02.14.2822",
+          "old_release_notes": "We&#39;ve made some under-the-hood improvements to keep things running smoothly.<br> <br>App feedback is always welcome: androiddev@meetup.com",
+          "new_release_notes": "We&#39;ve made some under-the-hood improvements to keep things running smoothly.<br> <br>App feedback is always welcome: androiddev@meetup.com",
+          "version": "2026.02.14.2822",
+          "is_ab_test": null,
+          "date": "2026-02-14"
+        },
+        {
+          "target": "version",
+          "old_value": "2026.02.14.2822",
+          "new_value": "2026.02.24.2836",
+          "old_release_notes": "We&#39;ve made some under-the-hood improvements to keep things running smoothly.<br> <br>App feedback is always welcome: androiddev@meetup.com",
+          "new_release_notes": "We&#39;ve made some under-the-hood improvements to keep things running smoothly.<br> <br>App feedback is always welcome: androiddev@meetup.com",
+          "version": "2026.02.24.2836",
+          "is_ab_test": null,
+          "date": "2026-02-24"
+        },
+        {
+          "target": "version",
+          "old_value": "2026.02.24.2836",
+          "new_value": "2026.02.27.2840",
+          "old_release_notes": "We&#39;ve made some under-the-hood improvements to keep things running smoothly.<br> <br>App feedback is always welcome: androiddev@meetup.com",
+          "new_release_notes": "We&#39;ve made some under-the-hood improvements to keep things running smoothly.<br> <br>App feedback is always welcome: androiddev@meetup.com",
+          "version": "2026.02.27.2840",
+          "is_ab_test": null,
+          "date": "2026-02-27"
+        },
+        {
+          "target": "version",
+          "old_value": "2026.02.27.2840",
+          "new_value": "2026.03.03.2844",
+          "old_release_notes": "We&#39;ve made some under-the-hood improvements to keep things running smoothly.<br> <br>App feedback is always welcome: androiddev@meetup.com",
+          "new_release_notes": "We&#39;ve made some under-the-hood improvements to keep things running smoothly.<br> <br>App feedback is always welcome: androiddev@meetup.com",
+          "version": "2026.03.03.2844",
+          "is_ab_test": null,
+          "date": "2026-03-03"
+        },
+        {
+          "target": "version",
+          "old_value": "2026.03.03.2844",
+          "new_value": "2026.03.05.2848",
+          "old_release_notes": "We&#39;ve made some under-the-hood improvements to keep things running smoothly.<br> <br>App feedback is always welcome: androiddev@meetup.com",
+          "new_release_notes": "We&#39;ve made some under-the-hood improvements to keep things running smoothly.<br> <br>App feedback is always welcome: androiddev@meetup.com",
+          "version": "2026.03.05.2848",
+          "is_ab_test": null,
+          "date": "2026-03-05"
+        },
+        {
+          "target": "version",
+          "old_value": "2026.03.05.2848",
+          "new_value": "2026.03.10.2853",
+          "old_release_notes": "We&#39;ve made some under-the-hood improvements to keep things running smoothly.<br> <br>App feedback is always welcome: androiddev@meetup.com",
+          "new_release_notes": "We&#39;ve made some under-the-hood improvements to keep things running smoothly.<br> <br>App feedback is always welcome: androiddev@meetup.com",
+          "version": "2026.03.10.2853",
+          "is_ab_test": null,
+          "date": "2026-03-10"
+        },
+        {
+          "target": "version",
+          "old_value": "2026.03.10.2853",
+          "new_value": "2026.03.13.2857",
+          "old_release_notes": "We&#39;ve made some under-the-hood improvements to keep things running smoothly.<br> <br>App feedback is always welcome: androiddev@meetup.com",
+          "new_release_notes": "We&#39;ve made some under-the-hood improvements to keep things running smoothly.<br> <br>App feedback is always welcome: androiddev@meetup.com",
+          "version": "2026.03.13.2857",
+          "is_ab_test": null,
+          "date": "2026-03-13"
+        },
+        {
+          "target": "version",
+          "old_value": "2026.03.13.2857",
+          "new_value": "2026.03.23.2864",
+          "old_release_notes": "We&#39;ve made some under-the-hood improvements to keep things running smoothly.<br> <br>App feedback is always welcome: androiddev@meetup.com",
+          "new_release_notes": "We&#39;ve made some under-the-hood improvements to keep things running smoothly.<br> <br>App feedback is always welcome: androiddev@meetup.com",
+          "version": "2026.03.23.2864",
+          "is_ab_test": null,
+          "date": "2026-03-23"
+        },
+        {
+          "target": "version",
+          "old_value": "2026.03.23.2864",
+          "new_value": "2026.03.26.2865",
+          "old_release_notes": "We&#39;ve made some under-the-hood improvements to keep things running smoothly.<br> <br>App feedback is always welcome: androiddev@meetup.com",
+          "new_release_notes": "We&#39;ve made some under-the-hood improvements to keep things running smoothly.<br> <br>App feedback is always welcome: androiddev@meetup.com",
+          "version": "2026.03.26.2865",
+          "is_ab_test": null,
+          "date": "2026-03-26"
+        },
+        {
+          "target": "permissions",
+          "old_value": [
+            "android.permission.ACCESS_ADSERVICES_AD_ID",
+            "android.permission.ACCESS_ADSERVICES_ATTRIBUTION",
+            "android.permission.ACCESS_ADSERVICES_TOPICS",
+            "android.permission.ACCESS_COARSE_LOCATION",
+            "android.permission.ACCESS_FINE_LOCATION",
+            "android.permission.ACCESS_NETWORK_STATE",
+            "android.permission.ACCESS_WIFI_STATE",
+            "android.permission.CAMERA",
+            "android.permission.DETECT_SCREEN_CAPTURE",
+            "android.permission.FOREGROUND_SERVICE",
+            "android.permission.FOREGROUND_SERVICE_DATA_SYNC",
+            "android.permission.INTERNET",
+            "android.permission.MANAGE_ACCOUNTS",
+            "android.permission.POST_NOTIFICATIONS",
+            "android.permission.READ_EXTERNAL_STORAGE",
+            "android.permission.USE_CREDENTIALS",
+            "android.permission.VIBRATE",
+            "android.permission.WAKE_LOCK",
+            "android.permission.WRITE_EXTERNAL_STORAGE",
+            "com.android.vending.BILLING",
+            "com.applovin.array.apphub.permission.BIND_APPHUB_SERVICE",
+            "com.google.android.c2dm.permission.RECEIVE",
+            "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+            "com.google.android.gms.permission.AD_ID",
+            "com.google.android.providers.gsf.permission.READ_GSERVICES",
+            "com.meetup.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+            "com.meetup.permission.MAPS_RECEIVE"
+          ],
+          "new_value": [
+            "android.permission.ACCESS_ADSERVICES_AD_ID",
+            "android.permission.ACCESS_ADSERVICES_ATTRIBUTION",
+            "android.permission.ACCESS_ADSERVICES_TOPICS",
+            "android.permission.ACCESS_COARSE_LOCATION",
+            "android.permission.ACCESS_FINE_LOCATION",
+            "android.permission.ACCESS_NETWORK_STATE",
+            "android.permission.ACCESS_WIFI_STATE",
+            "android.permission.CAMERA",
+            "android.permission.DETECT_SCREEN_CAPTURE",
+            "android.permission.FOREGROUND_SERVICE",
+            "android.permission.FOREGROUND_SERVICE_DATA_SYNC",
+            "android.permission.INTERNET",
+            "android.permission.MANAGE_ACCOUNTS",
+            "android.permission.POST_NOTIFICATIONS",
+            "android.permission.READ_CALENDAR",
+            "android.permission.READ_EXTERNAL_STORAGE",
+            "android.permission.USE_CREDENTIALS",
+            "android.permission.VIBRATE",
+            "android.permission.WAKE_LOCK",
+            "android.permission.WRITE_CALENDAR",
+            "android.permission.WRITE_EXTERNAL_STORAGE",
+            "com.android.vending.BILLING",
+            "com.applovin.array.apphub.permission.BIND_APPHUB_SERVICE",
+            "com.google.android.c2dm.permission.RECEIVE",
+            "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+            "com.google.android.gms.permission.AD_ID",
+            "com.google.android.providers.gsf.permission.READ_GSERVICES",
+            "com.meetup.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+            "com.meetup.permission.MAPS_RECEIVE"
+          ],
+          "version": "2026.01.20.2794",
+          "is_ab_test": null,
+          "date": "2026-01-19"
+        },
+        {
+          "target": "permissions",
+          "old_value": [
+            "android.permission.ACCESS_ADSERVICES_AD_ID",
+            "android.permission.ACCESS_ADSERVICES_ATTRIBUTION",
+            "android.permission.ACCESS_ADSERVICES_TOPICS",
+            "android.permission.ACCESS_COARSE_LOCATION",
+            "android.permission.ACCESS_FINE_LOCATION",
+            "android.permission.ACCESS_NETWORK_STATE",
+            "android.permission.ACCESS_WIFI_STATE",
+            "android.permission.CAMERA",
+            "android.permission.DETECT_SCREEN_CAPTURE",
+            "android.permission.FOREGROUND_SERVICE",
+            "android.permission.FOREGROUND_SERVICE_DATA_SYNC",
+            "android.permission.INTERNET",
+            "android.permission.MANAGE_ACCOUNTS",
+            "android.permission.POST_NOTIFICATIONS",
+            "android.permission.READ_CALENDAR",
+            "android.permission.READ_EXTERNAL_STORAGE",
+            "android.permission.USE_CREDENTIALS",
+            "android.permission.VIBRATE",
+            "android.permission.WAKE_LOCK",
+            "android.permission.WRITE_CALENDAR",
+            "android.permission.WRITE_EXTERNAL_STORAGE",
+            "com.android.vending.BILLING",
+            "com.applovin.array.apphub.permission.BIND_APPHUB_SERVICE",
+            "com.google.android.c2dm.permission.RECEIVE",
+            "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+            "com.google.android.gms.permission.AD_ID",
+            "com.google.android.providers.gsf.permission.READ_GSERVICES",
+            "com.meetup.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+            "com.meetup.permission.MAPS_RECEIVE"
+          ],
+          "new_value": [
+            "android.permission.ACCESS_ADSERVICES_AD_ID",
+            "android.permission.ACCESS_ADSERVICES_ATTRIBUTION",
+            "android.permission.ACCESS_ADSERVICES_TOPICS",
+            "android.permission.ACCESS_COARSE_LOCATION",
+            "android.permission.ACCESS_FINE_LOCATION",
+            "android.permission.ACCESS_NETWORK_STATE",
+            "android.permission.ACCESS_WIFI_STATE",
+            "android.permission.CAMERA",
+            "android.permission.FOREGROUND_SERVICE",
+            "android.permission.FOREGROUND_SERVICE_DATA_SYNC",
+            "android.permission.INTERNET",
+            "android.permission.MANAGE_ACCOUNTS",
+            "android.permission.POST_NOTIFICATIONS",
+            "android.permission.READ_CALENDAR",
+            "android.permission.READ_EXTERNAL_STORAGE",
+            "android.permission.USE_BIOMETRIC",
+            "android.permission.USE_CREDENTIALS",
+            "android.permission.USE_FINGERPRINT",
+            "android.permission.VIBRATE",
+            "android.permission.WAKE_LOCK",
+            "android.permission.WRITE_CALENDAR",
+            "android.permission.WRITE_EXTERNAL_STORAGE",
+            "com.android.vending.BILLING",
+            "com.android.vending.CHECK_LICENSE",
+            "com.google.android.c2dm.permission.RECEIVE",
+            "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+            "com.google.android.gms.permission.AD_ID",
+            "com.google.android.providers.gsf.permission.READ_GSERVICES",
+            "com.meetup.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+            "com.meetup.permission.MAPS_RECEIVE"
+          ],
+          "version": "2026.02.13.2820",
+          "is_ab_test": null,
+          "date": "2026-02-13"
+        },
+        {
+          "target": "size",
+          "old_value": 83521625,
+          "new_value": 83469506,
+          "version": "2026.01.07.2782",
+          "is_ab_test": null,
+          "date": "2026-01-07"
+        },
+        {
+          "target": "size",
+          "old_value": 83469506,
+          "new_value": 83840206,
+          "version": "2026.01.09.2785",
+          "is_ab_test": null,
+          "date": "2026-01-09"
+        },
+        {
+          "target": "size",
+          "old_value": 83840206,
+          "new_value": 84263202,
+          "version": "2026.01.20.2794",
+          "is_ab_test": null,
+          "date": "2026-01-19"
+        },
+        {
+          "target": "size",
+          "old_value": 84263202,
+          "new_value": 86456230,
+          "version": "2026.01.23.2800",
+          "is_ab_test": null,
+          "date": "2026-01-23"
+        },
+        {
+          "target": "size",
+          "old_value": 86456230,
+          "new_value": 86800972,
+          "version": "2026.01.27.2802",
+          "is_ab_test": null,
+          "date": "2026-01-27"
+        },
+        {
+          "target": "size",
+          "old_value": 86800972,
+          "new_value": 86846427,
+          "version": "2026.01.29.2805",
+          "is_ab_test": null,
+          "date": "2026-01-29"
+        },
+        {
+          "target": "size",
+          "old_value": 86846427,
+          "new_value": 87014688,
+          "version": "2026.02.03.2810",
+          "is_ab_test": null,
+          "date": "2026-02-03"
+        },
+        {
+          "target": "size",
+          "old_value": 87014688,
+          "new_value": 91844982,
+          "version": "2026.02.06.2814",
+          "is_ab_test": null,
+          "date": "2026-02-06"
+        },
+        {
+          "target": "size",
+          "old_value": 91844982,
+          "new_value": 91763458,
+          "version": "2026.02.10.2817",
+          "is_ab_test": null,
+          "date": "2026-02-10"
+        },
+        {
+          "target": "size",
+          "old_value": 91763458,
+          "new_value": 87411914,
+          "version": "2026.02.13.2820",
+          "is_ab_test": null,
+          "date": "2026-02-13"
+        },
+        {
+          "target": "size",
+          "old_value": 87411914,
+          "new_value": 88190249,
+          "version": "2026.02.14.2822",
+          "is_ab_test": null,
+          "date": "2026-02-14"
+        },
+        {
+          "target": "size",
+          "old_value": 88190249,
+          "new_value": 88119115,
+          "version": "2026.02.24.2836",
+          "is_ab_test": null,
+          "date": "2026-02-24"
+        },
+        {
+          "target": "size",
+          "old_value": 88119115,
+          "new_value": 87826463,
+          "version": "2026.02.27.2840",
+          "is_ab_test": null,
+          "date": "2026-02-27"
+        },
+        {
+          "target": "size",
+          "old_value": 87826463,
+          "new_value": 88252266,
+          "version": "2026.03.03.2844",
+          "is_ab_test": null,
+          "date": "2026-03-03"
+        },
+        {
+          "target": "size",
+          "old_value": 88252266,
+          "new_value": 88276491,
+          "version": "2026.03.05.2848",
+          "is_ab_test": null,
+          "date": "2026-03-05"
+        },
+        {
+          "target": "size",
+          "old_value": 88276491,
+          "new_value": 88094909,
+          "version": "2026.03.10.2853",
+          "is_ab_test": null,
+          "date": "2026-03-10"
+        },
+        {
+          "target": "size",
+          "old_value": 88094909,
+          "new_value": 88479555,
+          "version": "2026.03.13.2857",
+          "is_ab_test": null,
+          "date": "2026-03-13"
+        },
+        {
+          "target": "size",
+          "old_value": 88479555,
+          "new_value": 88460467,
+          "version": "2026.03.23.2864",
+          "is_ab_test": null,
+          "date": "2026-03-23"
+        },
+        {
+          "target": "size",
+          "old_value": 88460467,
+          "new_value": 88507665,
+          "version": "2026.03.26.2865",
+          "is_ab_test": null,
+          "date": "2026-03-26"
+        }
+      ]
+    }
+  },
+  "metadata": {
+    "request": {
+      "path": "/api/public/store/apps/metadata/changes.json",
+      "params": {
+        "device": "android",
+        "country": "us",
+        "language": "us",
+        "start_date": "2026-01-04",
+        "end_date": "2026-04-04",
+        "apps": [
+          "com.meetup"
+        ]
+      },
+      "cost": 101,
+      "max_credit_cost": 101,
+      "status": 200
+    },
+    "response": null
+  }
+}

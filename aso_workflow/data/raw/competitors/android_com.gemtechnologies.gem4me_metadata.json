@@ -1,0 +1,246 @@
+{
+  "result": {
+    "com.gemtechnologies.gem4me": {
+      "metadata": {
+        "title": "Online chat, calls - Gem Space",
+        "short_description": "Private messenger for communication\u30fbChatting text app\u30fbVideo call",
+        "long_description": "Gem Space is a smart and private messenger where you can find news and blogs, chat and calls, business communities, friendly communication and chatting with like-minded people. We make sure that all our users feel secure: our chats are encrypted, any video call is protected - communication spaces are private or public, as desired.<br><br>FOR YOU AND YOUR FRIENDS<br>Choose what you enjoy, subscribe to the best and most popular bloggers, get entertained, learn and become a better version of yourself.<br><br>Smart news feed<br>Choose your interests, subscribe to themed channels, chat with friends while AI will analyze your activity and offer infinitely updated content in convenient  formats - from short videos to long reads.<br><br>Quick search for new sources of inspiration<br>Use the built-in catalogue of channels and instantly find content and blogs you seek through smart search.<br><br>General and private chats<br>Gem Space is a messenger where you can communicate with no boundaries in any format - texts, stickers, audio and video. Remain connected to your close ones in any part of the world.<br><br>Free calls<br>Use with no restrictions on any device and platform, gather conferences for up to 1000 people and call non-registered users in our app.<br><br>Communities by interests<br>Find new friends to chat to in communities, be on the same page with like-minded people and become a part of something bigger!<br><br>FOR BLOGGERS AND CONTENT CREATORS<br>Inspire new experiences, travel, invent, share your views with the world.<br><br>Channels<br>Share news, create articles, upload videos, while smart algorithms will find your readers.<br><br>Catalogue of channels<br>Upload great content, communicate with readers and bring communities to the top - catalog of channels will account your efforts and attract organic users through the recommendation system.<br><br>Communities<br>Create and manage communities as your own media:<br>unite readers in channels and chats by niches and topics;<br>keep up to date with community events using the news feed;<br>make joining a community accessible only by invitation or to everyone;<br>organize important information in a community using collections.<br><br>FOR BUSINESS<br>Combine teamwork and business management in one application.<br><br>Communities<br>\u0421ommunicate with your team and organize communication using the Communities framework.<br><br>Chat and conference with recording ability<br>Send messages, call, organize conferences in our app for up to 1000 people for team members and partners.<br><br>Calls to unregistered users in our messenger<br>Call to any device and platform with no restrictions.<br><br>Private messenger <br>Allow entry to team space only though invitations.<br><br>Secure communication<br>Be confident in encryption of your data, while calls are private and confidential.<br><br>Integration through API<br>Set up collaboration between teams and manage the company\u2019s business operation by integrating corporate services through API.<br><br>Solution of all daily tasks<br>Edit messages at any time, share documents and manage communication with your team in chats.<br><br>New audience<br>Grow your business in app by means of new communication channels and distribution.",
+        "id": "com.gemtechnologies.gem4me",
+        "categories": [
+          "COMMUNICATION"
+        ],
+        "icon": "https://play-lh.googleusercontent.com/SkR-YY_M61Pp0VKm4vMxD4nriSleTXFZ_HhEZURgT2SpkLicRXHaUrzalO5LzXoQFw",
+        "screenshots": [
+          "https://play-lh.googleusercontent.com/gM2SWEyLHi_LBuuFyQT7vCUNVgqTTm8acilqp-sgVTAhjmzFzMWdU5ds4z6UbQIMv2Q",
+          "https://play-lh.googleusercontent.com/JetZE4ogHmNdxesYzC_kME2ojgx6EcZJMAP9e5jXPY811lqL-PVeFJg_KCiyJ5IKkmE",
+          "https://play-lh.googleusercontent.com/JKazrwM_0Z6EquhPzbL3tkrge5zj0SpvHP5XAnQff39GrSIZ4Q40ZtOCqA78Dtzozg",
+          "https://play-lh.googleusercontent.com/1ly2j6hwZRzk8RNdkJ14q8KIqQtt-Wc77a5s4MzbEswenhmxzrOC6h5p-_Cau-ILu7o",
+          "https://play-lh.googleusercontent.com/dCDouwMYfz4IPMBEG-_x8qMYsHuh5WebPJeS3txyc24C0eLXSkdnhgWv0sUz_A4_8LI",
+          "https://play-lh.googleusercontent.com/x_92JmmauhvlruaXRHeQIRg9WwMWV2CgrTTPB8FB22Dld0aWgrQjgswNvehq_g4U9-g"
+        ],
+        "videos": [],
+        "size": {
+          "current": {
+            "data": 29760094
+          }
+        },
+        "rating": {
+          "average": 3.8
+        },
+        "developer": {
+          "id": "Marketspace+Solutions+OU",
+          "name": "Marketspace Solutions OU",
+          "email": "support@gemspace.com",
+          "website": "https://gemspace.com/",
+          "phone": "",
+          "address_private": "",
+          "address_public": "Vesivarava tn 50-301\n10152 Tallinn\nEstonia",
+          "publisher_name": "Marketspace Solutions OU",
+          "publisher_email": "vage.zakaryan@dev.gem4me.com",
+          "publisher_phone": "+375 29 309-34-14"
+        },
+        "price": "",
+        "released_at": null,
+        "versions": [
+          {
+            "version": "9.5.39691",
+            "release_notes": "",
+            "release_date": "2026-03-26T00:00:00.000Z"
+          },
+          {
+            "version": "9.4.39495",
+            "release_notes": "",
+            "release_date": "2026-03-06T00:00:00.000Z"
+          },
+          {
+            "version": "9.3.39346",
+            "release_notes": "",
+            "release_date": "2026-02-17T00:00:00.000Z"
+          },
+          {
+            "version": "9.2.39266",
+            "release_notes": "",
+            "release_date": "2026-02-06T00:00:00.000Z"
+          },
+          {
+            "version": "9.1.39094",
+            "release_notes": "",
+            "release_date": "2026-02-02T00:00:00.000Z"
+          },
+          {
+            "version": "9.1.39065",
+            "release_notes": "",
+            "release_date": "2026-01-28T00:00:00.000Z"
+          },
+          {
+            "version": "9.0.38618",
+            "release_notes": "The main update is all about calls.<br>You can now create a call using a link and invite anyone, even if they don\u2019t have Gem Space installed. During the call, it\u2019s easy to manage the microphone, camera, and screen sharing, choose the sound that works best for you, and control how participants join.<br><br>We also added New Year chat backgrounds and a festive app icon.<br>The app is now easier for new users to understand, and we let you know in advance if technical maintenance is planned.",
+            "release_date": "2025-12-17T00:00:00.000Z"
+          },
+          {
+            "version": "9.0.38590",
+            "release_notes": "",
+            "release_date": "2025-12-15T00:00:00.000Z"
+          },
+          {
+            "version": "9.0.38584",
+            "release_notes": "",
+            "release_date": "2025-12-15T00:00:00.000Z"
+          },
+          {
+            "version": "8.1.38226",
+            "release_notes": "",
+            "release_date": "2025-12-06T00:00:00.000Z"
+          },
+          {
+            "version": "8.1.38213",
+            "release_notes": "",
+            "release_date": "2025-12-03T00:00:00.000Z"
+          },
+          {
+            "version": "8.0.38099",
+            "release_notes": "",
+            "release_date": "2025-11-26T00:00:00.000Z"
+          },
+          {
+            "version": "8.0.38043",
+            "release_notes": "",
+            "release_date": "2025-11-18T00:00:00.000Z"
+          },
+          {
+            "version": "7.33.35195",
+            "release_notes": "We\u2019ve released a small but important update:<br><br>- You can now receive a one-time code for login or important actions not only by call or SMS but also via WhatsApp. It\u2019s fast and secure.<br>- Easier number change: verify your new or updated phone number through a call, SMS, or WhatsApp message.<br>- Improved hints: login error messages are now clearer, helping you fix issues faster.<br>  Update now to enjoy all the benefits!<br>",
+            "release_date": "2025-10-28T00:00:00.000Z"
+          },
+          {
+            "version": "7.33.35180",
+            "release_notes": "",
+            "release_date": "2025-10-24T00:00:00.000Z"
+          },
+          {
+            "version": "7.32.35038",
+            "release_notes": "What&#39;s New?<br><br>We&#39;ve updated the app to make it even more convenient and secure.<br><br>Improved Security: For users in Russia, we&#39;ve added a new way to verify your number\u2014via a phone call where an automated system dictates a code. This provides reliable protection for your account.<br><br>Easier to Get Started: Now you can find your contacts faster and easily learn new features thanks to helpful in-app tips.",
+            "release_date": "2025-09-23T00:00:00.000Z"
+          },
+          {
+            "version": "7.32.35022",
+            "release_notes": "",
+            "release_date": "2025-09-19T00:00:00.000Z"
+          },
+          {
+            "version": "7.32.35009",
+            "release_notes": "",
+            "release_date": "2025-09-16T00:00:00.000Z"
+          },
+          {
+            "version": "7.31.34880",
+            "release_notes": "",
+            "release_date": "2025-09-03T00:00:00.000Z"
+          },
+          {
+            "version": "7.30.34742",
+            "release_notes": "Smarter push notifications<br><br>Our push notifications are now smarter. They&#39;ll take you directly to specific screens so you can instantly access the most interesting sections of the app.<br><br>Get to know NFT<br><br>For everyone interested in the world of digital assets, we&#39;ve added a partner banner. Tap on it to learn more about digital art, NFT tokens, and the new culture surrounding them.",
+            "release_date": "2025-08-15T00:00:00.000Z"
+          }
+        ],
+        "similar_apps": [
+          "com.wakie.android",
+          "live.hala",
+          "org.thoughtcrime.securesms",
+          "com.glidetalk.glideapp",
+          "com.clubhouse.app",
+          "org.vidogram.lite",
+          "younow.live",
+          "tk.crazydevelopers.whatsdirect",
+          "im.thebot.messenger",
+          "com.tencent.mm",
+          "com.is.core.app",
+          "the.best.gram",
+          "land.lifeoasis.maum",
+          "walkie.talkie.among.us.friends",
+          "com.knkn.social"
+        ],
+        "release_date": "2015-12-17T17:30:15.000Z",
+        "dna": {
+          "class_id": 10018,
+          "class_label": "Social",
+          "subclass_id": 106,
+          "subclass_label": "Messenger & Calling"
+        },
+        "permissions": [
+          "android.permission.ACCESS_ADSERVICES_AD_ID",
+          "android.permission.ACCESS_ADSERVICES_ATTRIBUTION",
+          "android.permission.ACCESS_ADSERVICES_CUSTOM_AUDIENCE",
+          "android.permission.ACCESS_ADSERVICES_TOPICS",
+          "android.permission.ACCESS_COARSE_LOCATION",
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.ACCESS_WIFI_STATE",
+          "android.permission.BLUETOOTH_CONNECT",
+          "android.permission.CAMERA",
+          "android.permission.FOREGROUND_SERVICE",
+          "android.permission.FOREGROUND_SERVICE_CAMERA",
+          "android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK",
+          "android.permission.FOREGROUND_SERVICE_MEDIA_PROJECTION",
+          "android.permission.FOREGROUND_SERVICE_MICROPHONE",
+          "android.permission.FOREGROUND_SERVICE_PHONE_CALL",
+          "android.permission.INTERNET",
+          "android.permission.MANAGE_OWN_CALLS",
+          "android.permission.MODIFY_AUDIO_SETTINGS",
+          "android.permission.POST_NOTIFICATIONS",
+          "android.permission.READ_APP_BADGE",
+          "android.permission.READ_CONTACTS",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.READ_MEDIA_IMAGES",
+          "android.permission.READ_MEDIA_VIDEO",
+          "android.permission.RECEIVE_BOOT_COMPLETED",
+          "android.permission.RECORD_AUDIO",
+          "android.permission.USE_BIOMETRIC",
+          "android.permission.USE_FINGERPRINT",
+          "android.permission.USE_FULL_SCREEN_INTENT",
+          "android.permission.VIBRATE",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_CONTACTS",
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          "com.anddoes.launcher.permission.UPDATE_COUNT",
+          "com.gemtechnologies.gem4me.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+          "com.google.android.c2dm.permission.RECEIVE",
+          "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+          "com.google.android.gms.permission.AD_ID",
+          "com.google.android.providers.gsf.permission.READ_GSERVICES",
+          "com.htc.launcher.permission.READ_SETTINGS",
+          "com.htc.launcher.permission.UPDATE_SHORTCUT",
+          "com.huawei.android.launcher.permission.CHANGE_BADGE",
+          "com.huawei.android.launcher.permission.READ_SETTINGS",
+          "com.huawei.android.launcher.permission.WRITE_SETTINGS",
+          "com.majeur.launcher.permission.UPDATE_BADGE",
+          "com.oppo.launcher.permission.READ_SETTINGS",
+          "com.oppo.launcher.permission.WRITE_SETTINGS",
+          "com.sec.android.provider.badge.permission.READ",
+          "com.sec.android.provider.badge.permission.WRITE",
+          "com.sonyericsson.home.permission.BROADCAST_BADGE",
+          "com.sonymobile.home.permission.PROVIDER_INSERT_BADGE",
+          "me.everything.badger.permission.BADGE_COUNT_READ",
+          "me.everything.badger.permission.BADGE_COUNT_WRITE"
+        ]
+      }
+    }
+  },
+  "metadata": {
+    "request": {
+      "path": "/api/public/store/apps/metadata.json",
+      "params": {
+        "device": "android",
+        "country": "us",
+        "language": "us",
+        "apps": [
+          "com.gemtechnologies.gem4me"
+        ]
+      },
+      "cost": 11,
+      "max_credit_cost": 11,
+      "status": 200
+    },
+    "response": null
+  }
+}

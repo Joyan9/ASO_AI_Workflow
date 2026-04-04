@@ -1,0 +1,57 @@
+{
+  "source_app_id": "com.tinder",
+  "platform": "android",
+  "extracted_at": "2026-04-04T12:35:38.891485",
+  "competitors": [
+    {
+      "app_id": "com.sgiggle.production",
+      "name": null,
+      "tier": "primary"
+    },
+    {
+      "app_id": "com.litatom.app",
+      "name": null,
+      "tier": "primary"
+    },
+    {
+      "app_id": "com.talkin.learn",
+      "name": null,
+      "tier": "primary"
+    },
+    {
+      "app_id": "com.meetup",
+      "name": null,
+      "tier": "secondary"
+    },
+    {
+      "app_id": "com.hubolabs.hubo",
+      "name": null,
+      "tier": "secondary"
+    },
+    {
+      "app_id": "com.dior.kFriends",
+      "name": null,
+      "tier": "secondary"
+    },
+    {
+      "app_id": "com.reddit.frontpage",
+      "name": null,
+      "tier": "secondary"
+    },
+    {
+      "app_id": "com.dazz.hoop",
+      "name": null,
+      "tier": "secondary"
+    },
+    {
+      "app_id": "com.gemtechnologies.gem4me",
+      "name": null,
+      "tier": "secondary"
+    },
+    {
+      "app_id": "xyz.blueskyweb.app",
+      "name": null,
+      "tier": "secondary"
+    }
+  ]
+}

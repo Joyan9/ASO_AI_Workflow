@@ -1,0 +1,57 @@
+{
+  "source_app_id": "547702041",
+  "platform": "ios",
+  "extracted_at": "2026-04-04T12:35:38.744729",
+  "competitors": [
+    {
+      "app_id": "930441707",
+      "name": null,
+      "tier": "primary"
+    },
+    {
+      "app_id": "351331194",
+      "name": null,
+      "tier": "primary"
+    },
+    {
+      "app_id": "338701294",
+      "name": null,
+      "tier": "primary"
+    },
+    {
+      "app_id": "595287172",
+      "name": null,
+      "tier": "secondary"
+    },
+    {
+      "app_id": "601174087",
+      "name": null,
+      "tier": "secondary"
+    },
+    {
+      "app_id": "1250946975",
+      "name": null,
+      "tier": "secondary"
+    },
+    {
+      "app_id": "690661663",
+      "name": null,
+      "tier": "secondary"
+    },
+    {
+      "app_id": "1297152391",
+      "name": null,
+      "tier": "secondary"
+    },
+    {
+      "app_id": "1328695473",
+      "name": null,
+      "tier": "secondary"
+    },
+    {
+      "app_id": "1080102131",
+      "name": null,
+      "tier": "secondary"
+    }
+  ]
+}

@@ -1,0 +1,455 @@
+{
+  "result": {
+    "547702041": {
+      "metadata": {
+        "title": "Tinder Dating App: Date & Chat",
+        "subtitle": "Meet New People & Date Singles",
+        "promotional_text": null,
+        "description": "Tinder is the place to meet someone new and see where a spark might lead. With millions of people nearby and around the world, Tinder makes dating fun and helps you find someone who matches your vibe, interests, and intentions.\n\nHOW IT WORKS\nMeeting new people on Tinder feels easy and natural. Every match is a chance to meet someone interesting and enjoy the kind of dating experience that feels fun, relaxed, and right for you. Conversations unfold at your pace and help you figure out who you genuinely connect with.\n\n* Explore profiles that fit what you're looking for\n* Match with people nearby or around the world\n* Answer prompts that help you share more of your personality\n* Add photos and interests to show your style and what you care about\n* Go on a Double Date and bring a friend along for the fun\n* Let a friend know when you're meeting someone so you feel confident going out\n* Chat with tools designed to help you feel safe and in control\n\nDating here is about exploring possibilities, connecting with people who catch your attention, and sparking conversations that grow.\n\nA PLACE TO BE YOURSELF\nTinder is where your personality can shine\u2014your humor, your interests, your quirks, your style. When you share the things that make you who you are, it becomes easier to meet people who genuinely appreciate your vibe.\n\nWe bring together people who are open to meeting someone interesting and trying something new. It\u2019s a place where a simple match can turn into a great chat, a fun first date, or something unexpectedly meaningful.\n\nSAFETY YOU CAN TRUST\nYour comfort matters to us. We include multiple ways to verify profiles, added safety tools, and features that help you stay in control of how and when you meet new people.\nLearn more:\nhttps://www.gotinder.com/privacy\nhttps://www.gotinder.com/terms\n\nUPGRADE YOUR EXPERIENCE\nChoose a plan to access more ways to explore, match, and express yourself\u2014only if and when it feels right.\n\nTRY TINDER FOR FREE\nSend Likes, match, and chat at your own pace. See what's out there and spark something new.\n\n---------------\nIf you choose to purchase Tinder Plus\u00ae, Tinder Gold\u2122, or Tinder Platinum\u2122 payment will be charged to your Apple account, and your account will be charged for renewal within 24-hours prior to the end of the current period. Auto-renewal may be turned off at any time by going to your settings in the App Store after purchase. No cancellation of the current subscription is allowed during the active subscription period. If you don\u2019t choose to purchase Tinder Plus\u00ae, Tinder Gold\u2122, or Tinder Platinum\u2122, you can simply continue using Tinder for free.\n\nAll photos are of models and used for illustrative purposes only.\n\nPrivacy: https://www.gotinder.com/privacy\nTerms: https://www.gotinder.com/terms\nVisit: https://www.tinderlove.com/",
+        "id": 547702041,
+        "categories": [
+          6012,
+          6005
+        ],
+        "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/bf/c9/e7/bfc9e76c-056a-859c-32ee-ff8d5cd84804/AppIcon-0-0-1x_U007emarketing-0-8-0-0-sRGB-0-85-220.png/1024x1024bb.jpg",
+        "screenshots": {
+          "iphone_6_5": [
+            {
+              "id": "1e74278b-7714-e952-3caf-969e90382da8",
+              "hash": "449887596455198770542913234053613682596508953908586190779747526460427019011",
+              "filename": "iOS6.5_01.jpg/1242x2688bb.jpg",
+              "path_component": "image/thumb/PurpleSource221/v4",
+              "url": "https://is2-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/1e/74/27/1e74278b-7714-e952-3caf-969e90382da8/iOS6.5_01.jpg/1242x2688bb.jpg"
+            },
+            {
+              "id": "21f499c7-ddd0-4097-082f-a92b134c0c15",
+              "hash": "1117525113779427813902826989647697661972846247896056526755942349216275000163",
+              "filename": "iOS6.5_02.jpg/1242x2688bb.jpg",
+              "path_component": "image/thumb/PurpleSource221/v4",
+              "url": "https://is5-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/21/f4/99/21f499c7-ddd0-4097-082f-a92b134c0c15/iOS6.5_02.jpg/1242x2688bb.jpg"
+            },
+            {
+              "id": "101f33d5-20e2-69ce-7932-a6912980dddf",
+              "hash": "222721344282600028315399318555256105379100312118173498992379169102723769755",
+              "filename": "iOS6.5_03.jpg/1242x2688bb.jpg",
+              "path_component": "image/thumb/PurpleSource221/v4",
+              "url": "https://is3-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/10/1f/33/101f33d5-20e2-69ce-7932-a6912980dddf/iOS6.5_03.jpg/1242x2688bb.jpg"
+            },
+            {
+              "id": "cd3f97f1-ac41-c019-8934-6b463202e667",
+              "hash": "43800573227778622689063225896542094855512940306571390201003655989352701152880",
+              "filename": "iOS6.5_04.jpg/1242x2688bb.jpg",
+              "path_component": "image/thumb/PurpleSource221/v4",
+              "url": "https://is2-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/cd/3f/97/cd3f97f1-ac41-c019-8934-6b463202e667/iOS6.5_04.jpg/1242x2688bb.jpg"
+            },
+            {
+              "id": "5ce3ab21-5718-627e-5591-9ab6b4523345",
+              "hash": "451416672048294612519646318922041697219399645059878257354758870769310857215",
+              "filename": "iOS6.5_05.jpg/1242x2688bb.jpg",
+              "path_component": "image/thumb/PurpleSource221/v4",
+              "url": "https://is3-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/5c/e3/ab/5ce3ab21-5718-627e-5591-9ab6b4523345/iOS6.5_05.jpg/1242x2688bb.jpg"
+            },
+            {
+              "id": "5bd8a49d-56de-43b5-4c3f-e984f59815c7",
+              "hash": "43873459423078761518277441018770230782288816229387499304543750966091209273379",
+              "filename": "iOS6.5_06.jpg/1242x2688bb.jpg",
+              "path_component": "image/thumb/PurpleSource211/v4",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/5b/d8/a4/5bd8a49d-56de-43b5-4c3f-e984f59815c7/iOS6.5_06.jpg/1242x2688bb.jpg"
+            },
+            {
+              "id": "c9abc22b-a39f-ab4e-0b8f-29d44c1fcb19",
+              "hash": "33922753255932441176414062432590868825636538499881149108257269646458219429632",
+              "filename": "iOS6.5_07.jpg/1242x2688bb.jpg",
+              "path_component": "image/thumb/PurpleSource221/v4",
+              "url": "https://is4-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/c9/ab/c2/c9abc22b-a39f-ab4e-0b8f-29d44c1fcb19/iOS6.5_07.jpg/1242x2688bb.jpg"
+            },
+            {
+              "id": "444dea9b-0e13-6db3-1d4c-445b9ba5fcaa",
+              "hash": "213774802552135785412609474988820605593495810022895425749989946378732201934",
+              "filename": "iOS6.5_08.jpg/1242x2688bb.jpg",
+              "path_component": "image/thumb/PurpleSource211/v4",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/44/4d/ea/444dea9b-0e13-6db3-1d4c-445b9ba5fcaa/iOS6.5_08.jpg/1242x2688bb.jpg"
+            },
+            {
+              "id": "4e0d0c1b-dfb9-0b33-f333-ac3637bb8d06",
+              "hash": "451416436886050159096516556938998808190552039764109907153938294101997191031",
+              "filename": "iOS6.5_09.jpg/1242x2688bb.jpg",
+              "path_component": "image/thumb/PurpleSource211/v4",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/4e/0d/0c/4e0d0c1b-dfb9-0b33-f333-ac3637bb8d06/iOS6.5_09.jpg/1242x2688bb.jpg"
+            }
+          ],
+          "iphone6plus": [
+            {
+              "id": "9a969712-ea33-f253-d7c2-40c1b102353b",
+              "hash": "99435845571220238940072620010836056011797964659508774194604921896648478745",
+              "filename": "Op2_iOS5.5_01.jpg/1242x2208bb.jpg",
+              "path_component": "image/thumb/PurpleSource221/v4",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/9a/96/97/9a969712-ea33-f253-d7c2-40c1b102353b/Op2_iOS5.5_01.jpg/1242x2208bb.jpg"
+            },
+            {
+              "id": "3d3bc6b4-3bf9-a64a-0815-95ea58c9512c",
+              "hash": "2813256428715302472600691318847170694572503262311820466434908620253242529183",
+              "filename": "Op2_iOS5.5_02.jpg/1242x2208bb.jpg",
+              "path_component": "image/thumb/PurpleSource221/v4",
+              "url": "https://is4-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/3d/3b/c6/3d3bc6b4-3bf9-a64a-0815-95ea58c9512c/Op2_iOS5.5_02.jpg/1242x2208bb.jpg"
+            },
+            {
+              "id": "9cba7c82-deea-9245-5cca-104be6530e4e",
+              "hash": "30181702053038976933899359195338081264682337833363856181274369352626916428080",
+              "filename": "Op2_iOS5.5_03.jpg/1242x2208bb.jpg",
+              "path_component": "image/thumb/PurpleSource211/v4",
+              "url": "https://is5-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/9c/ba/7c/9cba7c82-deea-9245-5cca-104be6530e4e/Op2_iOS5.5_03.jpg/1242x2208bb.jpg"
+            },
+            {
+              "id": "5edc44ac-ce0a-ea17-44be-96d7036353b2",
+              "hash": "1760349664154304334577982679795376305606507073450887586182512894133868799",
+              "filename": "Op2_iOS5.5_04.jpg/1242x2208bb.jpg",
+              "path_component": "image/thumb/PurpleSource221/v4",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/5e/dc/44/5edc44ac-ce0a-ea17-44be-96d7036353b2/Op2_iOS5.5_04.jpg/1242x2208bb.jpg"
+            },
+            {
+              "id": "7dcd9d1d-b3a7-bbe7-003e-e2f73fb0366d",
+              "hash": "451256839526525426255871448028812451069540492785204531856047144906551953408",
+              "filename": "Op2_iOS5.5_05.jpg/1242x2208bb.jpg",
+              "path_component": "image/thumb/PurpleSource221/v4",
+              "url": "https://is5-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/7d/cd/9d/7dcd9d1d-b3a7-bbe7-003e-e2f73fb0366d/Op2_iOS5.5_05.jpg/1242x2208bb.jpg"
+            },
+            {
+              "id": "fec4ace5-4919-125f-21bd-3fbe9f514acf",
+              "hash": "224558649422976197661945557919826045272671587183270572319619560695766671360",
+              "filename": "Op2_iOS5.5_06_U0028ROW_U0029.jpg/1242x2208bb.jpg",
+              "path_component": "image/thumb/PurpleSource211/v4",
+              "url": "https://is3-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/fe/c4/ac/fec4ace5-4919-125f-21bd-3fbe9f514acf/Op2_iOS5.5_06_U0028ROW_U0029.jpg/1242x2208bb.jpg"
+            },
+            {
+              "id": "f657606c-589e-27d7-9e98-640fca4ae33e",
+              "hash": "225259308277173748174275636844636322617372425152210940513504774786155022087",
+              "filename": "Op2_iOS5.5_07.jpg/1242x2208bb.jpg",
+              "path_component": "image/thumb/PurpleSource221/v4",
+              "url": "https://is2-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/f6/57/60/f657606c-589e-27d7-9e98-640fca4ae33e/Op2_iOS5.5_07.jpg/1242x2208bb.jpg"
+            },
+            {
+              "id": "3823b09d-ea3a-74e2-76f6-ca0832002a51",
+              "hash": "450549435441426214116573254415443106101736657623589133207532068914020548860",
+              "filename": "Op2_iOS5.5_08.jpg/1242x2208bb.jpg",
+              "path_component": "image/thumb/PurpleSource221/v4",
+              "url": "https://is5-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/38/23/b0/3823b09d-ea3a-74e2-76f6-ca0832002a51/Op2_iOS5.5_08.jpg/1242x2208bb.jpg"
+            }
+          ],
+          "iphone": [],
+          "iphone5": [],
+          "iphone_5_8": [],
+          "iphone6": [],
+          "ipad": [],
+          "ipadPro": [],
+          "ipadPro_2018": [],
+          "appleWatch": [],
+          "appleWatch_2018": []
+        },
+        "videos": {
+          "iphone_6_5": [],
+          "iphone6plus": []
+        },
+        "size": 311598080,
+        "rating": {
+          "average": 4.2
+        },
+        "developer": {
+          "id": 725634363,
+          "name": "Tinder LLC"
+        },
+        "price": "",
+        "versions": [
+          {
+            "version": "17.10.0",
+            "release_notes": "We\u2019ve improved how you find and connect with people who want what you want\u2014whether it's a spark, a story, or something long-term. \n\nGet one step closer to what you're looking for on Tinder.",
+            "has_game_center": false,
+            "game_controller_information": {
+              "required": false,
+              "supported": false,
+              "requirement_label": null
+            },
+            "release_date": "2026-03-30T00:00:00.000Z"
+          },
+          {
+            "version": "17.9.1",
+            "release_notes": "We\u2019ve improved how you find and connect with people who want what you want\u2014whether it's a spark, a story, or something long-term. \n\nGet one step closer to what you're looking for on Tinder.",
+            "has_game_center": false,
+            "game_controller_information": {
+              "required": false,
+              "supported": false,
+              "requirement_label": null
+            },
+            "release_date": "2026-03-26T00:00:00.000Z"
+          },
+          {
+            "version": "17.9.0",
+            "release_notes": "We\u2019ve improved how you find and connect with people who want what you want\u2014whether it's a spark, a story, or something long-term. \n\nGet one step closer to what you're looking for on Tinder.",
+            "has_game_center": false,
+            "game_controller_information": {
+              "required": false,
+              "supported": false,
+              "requirement_label": null
+            },
+            "release_date": "2026-03-23T00:00:00.000Z"
+          },
+          {
+            "version": "17.8.1",
+            "release_notes": "We\u2019ve improved how you find and connect with people who want what you want\u2014whether it's a spark, a story, or something long-term. \n\nGet one step closer to what you're looking for on Tinder.",
+            "has_game_center": false,
+            "game_controller_information": {
+              "required": false,
+              "supported": false,
+              "requirement_label": null
+            },
+            "release_date": "2026-03-20T00:00:00.000Z"
+          },
+          {
+            "version": "17.8.0",
+            "release_notes": "We\u2019ve improved how you find and connect with people who want what you want\u2014whether it's a spark, a story, or something long-term. \n\nGet one step closer to what you're looking for on Tinder.",
+            "has_game_center": false,
+            "game_controller_information": {
+              "required": false,
+              "supported": false,
+              "requirement_label": null
+            },
+            "release_date": "2026-03-16T00:00:00.000Z"
+          }
+        ],
+        "release_date": "2012-08-03T00:00:00.000Z",
+        "customers_also_bought": [
+          "930441707",
+          "351331194",
+          "338701294",
+          "595287172",
+          "601174087",
+          "1250946975",
+          "690661663",
+          "1297152391",
+          "1328695473",
+          "1080102131"
+        ],
+        "dna": {
+          "class_id": 10018,
+          "class_label": "Social",
+          "subclass_id": 38,
+          "subclass_label": "Dating"
+        },
+        "features": {
+          "game_center": false,
+          "passbook": false,
+          "in_apps": true
+        },
+        "in_app_purchases": [
+          {
+            "id": 6446645353,
+            "recurring_subscription_period": "P7D",
+            "is_family_shareable": false,
+            "is_merchandise_enabled": false,
+            "is_subscription": true,
+            "is_merchandise_visible": false,
+            "subscription_family_name": "Subscription",
+            "artwork": null,
+            "rank": 1,
+            "name": "Tinder Gold",
+            "description": "Enjoy a week of our most exclusive features!",
+            "price": {
+              "value": "18.99",
+              "currency": "usd"
+            },
+            "discounts": null
+          },
+          {
+            "id": 1237794826,
+            "recurring_subscription_period": "P1M",
+            "is_family_shareable": false,
+            "is_merchandise_enabled": false,
+            "is_subscription": true,
+            "is_merchandise_visible": false,
+            "subscription_family_name": "Subscription",
+            "artwork": {
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/f2/be/64/f2be6481-af83-6424-61fd-11111c5d5c36/goldLogo.png/{w}x{h}{c}.{f}",
+              "hasP3": false,
+              "width": 1024,
+              "height": 1024,
+              "bgColor": "eec143",
+              "textColor1": "161616",
+              "textColor2": "161616",
+              "textColor3": "41381f",
+              "textColor4": "41381f"
+            },
+            "rank": 2,
+            "name": "Tinder Gold",
+            "description": "Enjoy a month of our most exclusive features!",
+            "price": {
+              "value": "14.99",
+              "currency": "usd"
+            },
+            "discounts": null
+          },
+          {
+            "id": 1550126012,
+            "recurring_subscription_period": null,
+            "is_family_shareable": false,
+            "is_merchandise_enabled": false,
+            "is_subscription": false,
+            "is_merchandise_visible": false,
+            "subscription_family_name": null,
+            "artwork": null,
+            "rank": 3,
+            "name": "1 Boost",
+            "description": "Boost your profile for more matches.",
+            "price": {
+              "value": "7.99",
+              "currency": "usd"
+            },
+            "discounts": null
+          },
+          {
+            "id": 6502528200,
+            "recurring_subscription_period": "P7D",
+            "is_family_shareable": false,
+            "is_merchandise_enabled": false,
+            "is_subscription": true,
+            "is_merchandise_visible": false,
+            "subscription_family_name": "Subscription",
+            "artwork": null,
+            "rank": 4,
+            "name": "Tinder Gold",
+            "description": "Enjoy a week of our most exclusive features!",
+            "price": {
+              "value": "13.99",
+              "currency": "usd"
+            },
+            "discounts": null
+          },
+          {
+            "id": 1461896614,
+            "recurring_subscription_period": null,
+            "is_family_shareable": false,
+            "is_merchandise_enabled": false,
+            "is_subscription": false,
+            "is_merchandise_visible": false,
+            "subscription_family_name": null,
+            "artwork": null,
+            "rank": 5,
+            "name": "1 Boost",
+            "description": "Boost your profile for more matches.",
+            "price": {
+              "value": "6.99",
+              "currency": "usd"
+            },
+            "discounts": null
+          },
+          {
+            "id": 1526079900,
+            "recurring_subscription_period": "P1M",
+            "is_family_shareable": false,
+            "is_merchandise_enabled": false,
+            "is_subscription": true,
+            "is_merchandise_visible": false,
+            "subscription_family_name": "Subscription",
+            "artwork": null,
+            "rank": 6,
+            "name": "Tinder Gold",
+            "description": "Enjoy a month of our most exclusive features!",
+            "price": {
+              "value": "24.99",
+              "currency": "usd"
+            },
+            "discounts": null
+          },
+          {
+            "id": 931153289,
+            "recurring_subscription_period": "P1M",
+            "is_family_shareable": false,
+            "is_merchandise_enabled": false,
+            "is_subscription": true,
+            "is_merchandise_visible": false,
+            "subscription_family_name": "Subscription",
+            "artwork": null,
+            "rank": 7,
+            "name": "Tinder Plus",
+            "description": "Get a month of your favorite features!",
+            "price": {
+              "value": "9.99",
+              "currency": "usd"
+            },
+            "discounts": null
+          },
+          {
+            "id": 1594432530,
+            "recurring_subscription_period": null,
+            "is_family_shareable": false,
+            "is_merchandise_enabled": false,
+            "is_subscription": false,
+            "is_merchandise_visible": false,
+            "subscription_family_name": null,
+            "artwork": null,
+            "rank": 8,
+            "name": "3 Super Likes",
+            "description": "Package of 3 Super Likes",
+            "price": {
+              "value": "9.99",
+              "currency": "usd"
+            },
+            "discounts": null
+          },
+          {
+            "id": 1163047873,
+            "recurring_subscription_period": null,
+            "is_family_shareable": false,
+            "is_merchandise_enabled": false,
+            "is_subscription": false,
+            "is_merchandise_visible": false,
+            "subscription_family_name": null,
+            "artwork": null,
+            "rank": 9,
+            "name": "1 Boost",
+            "description": "Get 1 Boost and get more matches!",
+            "price": {
+              "value": "3.99",
+              "currency": "usd"
+            },
+            "discounts": null
+          },
+          {
+            "id": 1121395008,
+            "recurring_subscription_period": null,
+            "is_family_shareable": false,
+            "is_merchandise_enabled": false,
+            "is_subscription": false,
+            "is_merchandise_visible": false,
+            "subscription_family_name": null,
+            "artwork": null,
+            "rank": 10,
+            "name": "5 Super Likes",
+            "description": "Get 5 Super Likes and get noticed!",
+            "price": {
+              "value": "4.99",
+              "currency": "usd"
+            },
+            "discounts": null
+          }
+        ]
+      }
+    }
+  },
+  "metadata": {
+    "request": {
+      "path": "/api/public/store/apps/metadata.json",
+      "params": {
+        "device": "iphone",
+        "country": "us",
+        "language": "us",
+        "apps": [
+          "547702041"
+        ]
+      },
+      "cost": 11,
+      "max_credit_cost": 11,
+      "status": 200
+    },
+    "response": null
+  }
+}

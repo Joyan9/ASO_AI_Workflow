@@ -183,7 +183,6 @@ def transform_track_b(app_id: str) -> Tuple[List[Dict[str, Any]], Dict[str, Any]
     print("[TRACK_B] Loading competitor list...")
     
     # Load competitor list
-    competitors_file = Path(config.DATA_RAW_DIR) / "android_*_competitors.json"
     competitors_files = list(Path(config.DATA_RAW_DIR).glob("android_*_competitors.json"))
     
     if not competitors_files:

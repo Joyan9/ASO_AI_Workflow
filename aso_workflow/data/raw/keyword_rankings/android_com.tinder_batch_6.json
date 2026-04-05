@@ -1,7 +1,119 @@
 {
   "result": {
     "com.tinder": {
-      "interactive": {
+      "date": {
+        "rank": {
+          "value": 3,
+          "date": "2026-04-05",
+          "effective_value": 3,
+          "fetch_performed": true
+        },
+        "installs": {
+          "value": 27.841,
+          "date": "2026-04-05",
+          "effective_value": 27.841
+        },
+        "relevancy": {
+          "value": 67,
+          "date": "2026-04-05",
+          "effective_value": 67
+        },
+        "kei": {
+          "value": 100,
+          "date": "2026-04-05",
+          "effective_value": 100
+        },
+        "chance": {
+          "value": 93,
+          "date": "2026-04-05",
+          "effective_value": 93
+        }
+      },
+      "match": {
+        "rank": {
+          "value": 5,
+          "date": "2026-04-05",
+          "effective_value": 5,
+          "fetch_performed": true
+        },
+        "installs": {
+          "value": 16.308,
+          "date": "2026-04-05",
+          "effective_value": 16.308
+        },
+        "relevancy": {
+          "value": 45,
+          "date": "2026-04-05",
+          "effective_value": 45
+        },
+        "kei": {
+          "value": 99,
+          "date": "2026-04-05",
+          "effective_value": 99
+        },
+        "chance": {
+          "value": 83,
+          "date": "2026-04-05",
+          "effective_value": 83
+        }
+      },
+      "flirt": {
+        "rank": {
+          "value": 9,
+          "date": "2026-04-05",
+          "effective_value": 9,
+          "fetch_performed": true
+        },
+        "installs": {
+          "value": 0.005,
+          "date": "2026-04-05",
+          "effective_value": 0.005
+        },
+        "relevancy": {
+          "value": 85,
+          "date": "2026-04-05",
+          "effective_value": 85
+        },
+        "kei": {
+          "value": 30,
+          "date": "2026-04-05",
+          "effective_value": 30
+        },
+        "chance": {
+          "value": 77,
+          "date": "2026-04-05",
+          "effective_value": 77
+        }
+      },
+      "personals": {
+        "rank": {
+          "value": 7,
+          "date": "2026-04-05",
+          "effective_value": 7,
+          "fetch_performed": true
+        },
+        "installs": {
+          "value": 0.0,
+          "date": "2026-04-05",
+          "effective_value": 0.0
+        },
+        "relevancy": {
+          "value": 82,
+          "date": "2026-04-05",
+          "effective_value": 82
+        },
+        "kei": {
+          "value": 24,
+          "date": "2026-04-05",
+          "effective_value": 24
+        },
+        "chance": {
+          "value": 79,
+          "date": "2026-04-05",
+          "effective_value": 79
+        }
+      },
+      "personalized matches": {
         "rank": {
           "value": null,
           "date": "2026-04-05",
@@ -14,9 +126,123 @@
           "effective_value": 0
         },
         "relevancy": {
-          "value": 23,
+          "value": 34,
           "date": "2026-04-05",
-          "effective_value": 23
+          "effective_value": 34
+        },
+        "kei": {
+          "value": 22,
+          "date": "2026-04-05",
+          "effective_value": 22
+        },
+        "chance": {
+          "value": 73,
+          "date": "2026-04-05",
+          "effective_value": 73
+        }
+      }
+    },
+    "co.hinge.app": {
+      "date": {
+        "rank": {
+          "value": 5,
+          "date": "2026-04-05",
+          "effective_value": 5,
+          "fetch_performed": true
+        },
+        "installs": {
+          "value": 17.627,
+          "date": "2026-04-05",
+          "effective_value": 17.627
+        },
+        "relevancy": {
+          "value": 62,
+          "date": "2026-04-05",
+          "effective_value": 62
+        },
+        "kei": {
+          "value": 96,
+          "date": "2026-04-05",
+          "effective_value": 96
+        },
+        "chance": {
+          "value": 86,
+          "date": "2026-04-05",
+          "effective_value": 86
+        }
+      },
+      "match": {
+        "rank": {
+          "value": 6,
+          "date": "2026-04-05",
+          "effective_value": 6,
+          "fetch_performed": true
+        },
+        "installs": {
+          "value": 15.293,
+          "date": "2026-04-05",
+          "effective_value": 15.293
+        },
+        "relevancy": {
+          "value": 39,
+          "date": "2026-04-05",
+          "effective_value": 39
+        },
+        "kei": {
+          "value": 97,
+          "date": "2026-04-05",
+          "effective_value": 97
+        },
+        "chance": {
+          "value": 81,
+          "date": "2026-04-05",
+          "effective_value": 81
+        }
+      },
+      "flirt": {
+        "rank": {
+          "value": 65,
+          "date": "2026-04-05",
+          "effective_value": 65,
+          "fetch_performed": true
+        },
+        "installs": {
+          "value": 0.0,
+          "date": "2026-04-05",
+          "effective_value": 0.0
+        },
+        "relevancy": {
+          "value": 79,
+          "date": "2026-04-05",
+          "effective_value": 79
+        },
+        "kei": {
+          "value": 29,
+          "date": "2026-04-05",
+          "effective_value": 29
+        },
+        "chance": {
+          "value": 73,
+          "date": "2026-04-05",
+          "effective_value": 73
+        }
+      },
+      "personals": {
+        "rank": {
+          "value": null,
+          "date": "2026-04-05",
+          "effective_value": 501,
+          "fetch_performed": true
+        },
+        "installs": {
+          "value": 0,
+          "date": "2026-04-05",
+          "effective_value": 0
+        },
+        "relevancy": {
+          "value": 87,
+          "date": "2026-04-05",
+          "effective_value": 87
         },
         "kei": {
           "value": 22,
@@ -29,7 +255,7 @@
           "effective_value": 73
         }
       },
-      "translation": {
+      "personalized matches": {
         "rank": {
           "value": null,
           "date": "2026-04-05",
@@ -42,112 +268,112 @@
           "effective_value": 0
         },
         "relevancy": {
+          "value": 22,
+          "date": "2026-04-05",
+          "effective_value": 22
+        },
+        "kei": {
+          "value": 22,
+          "date": "2026-04-05",
+          "effective_value": 22
+        },
+        "chance": {
+          "value": 73,
+          "date": "2026-04-05",
+          "effective_value": 73
+        }
+      }
+    },
+    "com.bumble.app": {
+      "date": {
+        "rank": {
+          "value": 1,
+          "date": "2026-04-05",
+          "effective_value": 1,
+          "fetch_performed": true
+        },
+        "installs": {
+          "value": 127.48,
+          "date": "2026-04-05",
+          "effective_value": 127.48
+        },
+        "relevancy": {
+          "value": 65,
+          "date": "2026-04-05",
+          "effective_value": 65
+        },
+        "kei": {
+          "value": 100,
+          "date": "2026-04-05",
+          "effective_value": 100
+        },
+        "chance": {
+          "value": 100,
+          "date": "2026-04-05",
+          "effective_value": 100
+        }
+      },
+      "match": {
+        "rank": {
+          "value": 7,
+          "date": "2026-04-05",
+          "effective_value": 7,
+          "fetch_performed": true
+        },
+        "installs": {
+          "value": 12.032,
+          "date": "2026-04-05",
+          "effective_value": 12.032
+        },
+        "relevancy": {
+          "value": 46,
+          "date": "2026-04-05",
+          "effective_value": 46
+        },
+        "kei": {
+          "value": 94,
+          "date": "2026-04-05",
+          "effective_value": 94
+        },
+        "chance": {
+          "value": 78,
+          "date": "2026-04-05",
+          "effective_value": 78
+        }
+      },
+      "flirt": {
+        "rank": {
+          "value": 19,
+          "date": "2026-04-05",
+          "effective_value": 19,
+          "fetch_performed": true
+        },
+        "installs": {
+          "value": 0.002,
+          "date": "2026-04-05",
+          "effective_value": 0.002
+        },
+        "relevancy": {
+          "value": 83,
+          "date": "2026-04-05",
+          "effective_value": 83
+        },
+        "kei": {
+          "value": 29,
+          "date": "2026-04-05",
+          "effective_value": 29
+        },
+        "chance": {
+          "value": 73,
+          "date": "2026-04-05",
+          "effective_value": 73
+        }
+      },
+      "personals": {
+        "rank": {
           "value": 10,
           "date": "2026-04-05",
-          "effective_value": 10
-        },
-        "kei": {
-          "value": 39,
-          "date": "2026-04-05",
-          "effective_value": 39
-        },
-        "chance": {
-          "value": 73,
-          "date": "2026-04-05",
-          "effective_value": 73
-        }
-      },
-      "way": {
-        "rank": {
-          "value": null,
-          "date": "2026-04-05",
-          "effective_value": 501,
-          "fetch_performed": true
-        },
-        "installs": {
-          "value": 0,
-          "date": "2026-04-05",
-          "effective_value": 0
-        },
-        "relevancy": {
-          "value": 22,
-          "date": "2026-04-05",
-          "effective_value": 22
-        },
-        "kei": {
-          "value": 74,
-          "date": "2026-04-05",
-          "effective_value": 74
-        },
-        "chance": {
-          "value": 73,
-          "date": "2026-04-05",
-          "effective_value": 73
-        }
-      },
-      "languages": {
-        "rank": {
-          "value": null,
-          "date": "2026-04-05",
-          "effective_value": 501,
-          "fetch_performed": true
-        },
-        "installs": {
-          "value": 0,
-          "date": "2026-04-05",
-          "effective_value": 0
-        },
-        "relevancy": {
-          "value": 22,
-          "date": "2026-04-05",
-          "effective_value": 22
-        },
-        "kei": {
-          "value": 25,
-          "date": "2026-04-05",
-          "effective_value": 25
-        },
-        "chance": {
-          "value": 73,
-          "date": "2026-04-05",
-          "effective_value": 73
-        }
-      },
-      "language": {
-        "rank": {
-          "value": null,
-          "date": "2026-04-05",
-          "effective_value": 501,
-          "fetch_performed": true
-        },
-        "installs": {
-          "value": 0,
-          "date": "2026-04-05",
-          "effective_value": 0
-        },
-        "relevancy": {
-          "value": 15,
-          "date": "2026-04-05",
-          "effective_value": 15
-        },
-        "kei": {
-          "value": 80,
-          "date": "2026-04-05",
-          "effective_value": 80
-        },
-        "chance": {
-          "value": 73,
-          "date": "2026-04-05",
-          "effective_value": 73
-        }
-      }
-    },
-    "com.sgiggle.production": {
-      "interactive": {
-        "rank": {
-          "value": 118,
-          "date": "2026-04-05",
-          "effective_value": 118,
+          "effective_value": 10,
           "fetch_performed": true
         },
         "installs": {
@@ -156,9 +382,9 @@
           "effective_value": 0.0
         },
         "relevancy": {
-          "value": 18,
+          "value": 78,
           "date": "2026-04-05",
-          "effective_value": 18
+          "effective_value": 78
         },
         "kei": {
           "value": 22,
@@ -166,12 +392,12 @@
           "effective_value": 22
         },
         "chance": {
-          "value": 73,
+          "value": 72,
           "date": "2026-04-05",
-          "effective_value": 73
+          "effective_value": 72
         }
       },
-      "translation": {
+      "personalized matches": {
         "rank": {
           "value": null,
           "date": "2026-04-05",
@@ -184,98 +410,14 @@
           "effective_value": 0
         },
         "relevancy": {
-          "value": 13,
+          "value": 36,
           "date": "2026-04-05",
-          "effective_value": 13
+          "effective_value": 36
         },
         "kei": {
-          "value": 39,
+          "value": 22,
           "date": "2026-04-05",
-          "effective_value": 39
-        },
-        "chance": {
-          "value": 73,
-          "date": "2026-04-05",
-          "effective_value": 73
-        }
-      },
-      "way": {
-        "rank": {
-          "value": null,
-          "date": "2026-04-05",
-          "effective_value": 501,
-          "fetch_performed": true
-        },
-        "installs": {
-          "value": 0,
-          "date": "2026-04-05",
-          "effective_value": 0
-        },
-        "relevancy": {
-          "value": 8,
-          "date": "2026-04-05",
-          "effective_value": 8
-        },
-        "kei": {
-          "value": 74,
-          "date": "2026-04-05",
-          "effective_value": 74
-        },
-        "chance": {
-          "value": 73,
-          "date": "2026-04-05",
-          "effective_value": 73
-        }
-      },
-      "languages": {
-        "rank": {
-          "value": null,
-          "date": "2026-04-05",
-          "effective_value": 501,
-          "fetch_performed": true
-        },
-        "installs": {
-          "value": 0,
-          "date": "2026-04-05",
-          "effective_value": 0
-        },
-        "relevancy": {
-          "value": 25,
-          "date": "2026-04-05",
-          "effective_value": 25
-        },
-        "kei": {
-          "value": 25,
-          "date": "2026-04-05",
-          "effective_value": 25
-        },
-        "chance": {
-          "value": 73,
-          "date": "2026-04-05",
-          "effective_value": 73
-        }
-      },
-      "language": {
-        "rank": {
-          "value": null,
-          "date": "2026-04-05",
-          "effective_value": 501,
-          "fetch_performed": true
-        },
-        "installs": {
-          "value": 0,
-          "date": "2026-04-05",
-          "effective_value": 0
-        },
-        "relevancy": {
-          "value": 18,
-          "date": "2026-04-05",
-          "effective_value": 18
-        },
-        "kei": {
-          "value": 80,
-          "date": "2026-04-05",
-          "effective_value": 80
+          "effective_value": 22
         },
         "chance": {
           "value": 73,
@@ -284,8 +426,8 @@
         }
       }
     },
-    "com.litatom.app": {
-      "interactive": {
+    "com.doni.appa": {
+      "date": {
         "rank": {
           "value": null,
           "date": "2026-04-05",
@@ -298,22 +440,22 @@
           "effective_value": 0
         },
         "relevancy": {
-          "value": 21,
+          "value": 54,
           "date": "2026-04-05",
-          "effective_value": 21
+          "effective_value": 54
         },
         "kei": {
-          "value": 22,
+          "value": 83,
           "date": "2026-04-05",
-          "effective_value": 22
+          "effective_value": 83
         },
         "chance": {
-          "value": 73,
+          "value": 72,
           "date": "2026-04-05",
-          "effective_value": 73
+          "effective_value": 72
         }
       },
-      "translation": {
+      "match": {
         "rank": {
           "value": null,
           "date": "2026-04-05",
@@ -324,204 +466,6 @@
           "value": 0,
           "date": "2026-04-05",
           "effective_value": 0
-        },
-        "relevancy": {
-          "value": 11,
-          "date": "2026-04-05",
-          "effective_value": 11
-        },
-        "kei": {
-          "value": 39,
-          "date": "2026-04-05",
-          "effective_value": 39
-        },
-        "chance": {
-          "value": 73,
-          "date": "2026-04-05",
-          "effective_value": 73
-        }
-      },
-      "way": {
-        "rank": {
-          "value": null,
-          "date": "2026-04-05",
-          "effective_value": 501,
-          "fetch_performed": true
-        },
-        "installs": {
-          "value": 0,
-          "date": "2026-04-05",
-          "effective_value": 0
-        },
-        "relevancy": {
-          "value": 15,
-          "date": "2026-04-05",
-          "effective_value": 15
-        },
-        "kei": {
-          "value": 74,
-          "date": "2026-04-05",
-          "effective_value": 74
-        },
-        "chance": {
-          "value": 73,
-          "date": "2026-04-05",
-          "effective_value": 73
-        }
-      },
-      "languages": {
-        "rank": {
-          "value": null,
-          "date": "2026-04-05",
-          "effective_value": 501,
-          "fetch_performed": true
-        },
-        "installs": {
-          "value": 0,
-          "date": "2026-04-05",
-          "effective_value": 0
-        },
-        "relevancy": {
-          "value": 25,
-          "date": "2026-04-05",
-          "effective_value": 25
-        },
-        "kei": {
-          "value": 25,
-          "date": "2026-04-05",
-          "effective_value": 25
-        },
-        "chance": {
-          "value": 73,
-          "date": "2026-04-05",
-          "effective_value": 73
-        }
-      },
-      "language": {
-        "rank": {
-          "value": null,
-          "date": "2026-04-05",
-          "effective_value": 501,
-          "fetch_performed": true
-        },
-        "installs": {
-          "value": 0,
-          "date": "2026-04-05",
-          "effective_value": 0
-        },
-        "relevancy": {
-          "value": 18,
-          "date": "2026-04-05",
-          "effective_value": 18
-        },
-        "kei": {
-          "value": 80,
-          "date": "2026-04-05",
-          "effective_value": 80
-        },
-        "chance": {
-          "value": 73,
-          "date": "2026-04-05",
-          "effective_value": 73
-        }
-      }
-    },
-    "com.talkin.learn": {
-      "interactive": {
-        "rank": {
-          "value": null,
-          "date": "2026-04-05",
-          "effective_value": 501,
-          "fetch_performed": true
-        },
-        "installs": {
-          "value": 0,
-          "date": "2026-04-05",
-          "effective_value": 0
-        },
-        "relevancy": {
-          "value": 21,
-          "date": "2026-04-05",
-          "effective_value": 21
-        },
-        "kei": {
-          "value": 22,
-          "date": "2026-04-05",
-          "effective_value": 22
-        },
-        "chance": {
-          "value": 73,
-          "date": "2026-04-05",
-          "effective_value": 73
-        }
-      },
-      "translation": {
-        "rank": {
-          "value": null,
-          "date": "2026-04-05",
-          "effective_value": 501,
-          "fetch_performed": true
-        },
-        "installs": {
-          "value": 0,
-          "date": "2026-04-05",
-          "effective_value": 0
-        },
-        "relevancy": {
-          "value": 18,
-          "date": "2026-04-05",
-          "effective_value": 18
-        },
-        "kei": {
-          "value": 39,
-          "date": "2026-04-05",
-          "effective_value": 39
-        },
-        "chance": {
-          "value": 73,
-          "date": "2026-04-05",
-          "effective_value": 73
-        }
-      },
-      "way": {
-        "rank": {
-          "value": null,
-          "date": "2026-04-05",
-          "effective_value": 501,
-          "fetch_performed": true
-        },
-        "installs": {
-          "value": 0,
-          "date": "2026-04-05",
-          "effective_value": 0
-        },
-        "relevancy": {
-          "value": 16,
-          "date": "2026-04-05",
-          "effective_value": 16
-        },
-        "kei": {
-          "value": 74,
-          "date": "2026-04-05",
-          "effective_value": 74
-        },
-        "chance": {
-          "value": 73,
-          "date": "2026-04-05",
-          "effective_value": 73
-        }
-      },
-      "languages": {
-        "rank": {
-          "value": 31,
-          "date": "2026-04-05",
-          "effective_value": 31,
-          "fetch_performed": true
-        },
-        "installs": {
-          "value": 0.0,
-          "date": "2026-04-05",
-          "effective_value": 0.0
         },
         "relevancy": {
           "value": 32,
@@ -529,9 +473,9 @@
           "effective_value": 32
         },
         "kei": {
-          "value": 25,
+          "value": 89,
           "date": "2026-04-05",
-          "effective_value": 25
+          "effective_value": 89
         },
         "chance": {
           "value": 73,
@@ -539,37 +483,7 @@
           "effective_value": 73
         }
       },
-      "language": {
-        "rank": {
-          "value": 32,
-          "date": "2026-04-05",
-          "effective_value": 32,
-          "fetch_performed": true
-        },
-        "installs": {
-          "value": 0.0,
-          "date": "2026-04-05",
-          "effective_value": 0.0
-        },
-        "relevancy": {
-          "value": 25,
-          "date": "2026-04-05",
-          "effective_value": 25
-        },
-        "kei": {
-          "value": 80,
-          "date": "2026-04-05",
-          "effective_value": 80
-        },
-        "chance": {
-          "value": 73,
-          "date": "2026-04-05",
-          "effective_value": 73
-        }
-      }
-    },
-    "com.meetup": {
-      "interactive": {
+      "flirt": {
         "rank": {
           "value": null,
           "date": "2026-04-05",
@@ -582,9 +496,37 @@
           "effective_value": 0
         },
         "relevancy": {
-          "value": 24,
+          "value": 72,
           "date": "2026-04-05",
-          "effective_value": 24
+          "effective_value": 72
+        },
+        "kei": {
+          "value": 29,
+          "date": "2026-04-05",
+          "effective_value": 29
+        },
+        "chance": {
+          "value": 73,
+          "date": "2026-04-05",
+          "effective_value": 73
+        }
+      },
+      "personals": {
+        "rank": {
+          "value": null,
+          "date": "2026-04-05",
+          "effective_value": 501,
+          "fetch_performed": true
+        },
+        "installs": {
+          "value": 0,
+          "date": "2026-04-05",
+          "effective_value": 0
+        },
+        "relevancy": {
+          "value": 85,
+          "date": "2026-04-05",
+          "effective_value": 85
         },
         "kei": {
           "value": 22,
@@ -597,7 +539,7 @@
           "effective_value": 73
         }
       },
-      "translation": {
+      "personalized matches": {
         "rank": {
           "value": null,
           "date": "2026-04-05",
@@ -610,22 +552,108 @@
           "effective_value": 0
         },
         "relevancy": {
-          "value": 6,
+          "value": 42,
           "date": "2026-04-05",
-          "effective_value": 6
+          "effective_value": 42
         },
         "kei": {
+          "value": 22,
+          "date": "2026-04-05",
+          "effective_value": 22
+        },
+        "chance": {
+          "value": 73,
+          "date": "2026-04-05",
+          "effective_value": 73
+        }
+      }
+    },
+    "com.hily.app": {
+      "date": {
+        "rank": {
+          "value": 6,
+          "date": "2026-04-05",
+          "effective_value": 6,
+          "fetch_performed": true
+        },
+        "installs": {
+          "value": 13.486,
+          "date": "2026-04-05",
+          "effective_value": 13.486
+        },
+        "relevancy": {
+          "value": 62,
+          "date": "2026-04-05",
+          "effective_value": 62
+        },
+        "kei": {
+          "value": 94,
+          "date": "2026-04-05",
+          "effective_value": 94
+        },
+        "chance": {
+          "value": 84,
+          "date": "2026-04-05",
+          "effective_value": 84
+        }
+      },
+      "match": {
+        "rank": {
+          "value": null,
+          "date": "2026-04-05",
+          "effective_value": 501,
+          "fetch_performed": true
+        },
+        "installs": {
+          "value": 0,
+          "date": "2026-04-05",
+          "effective_value": 0
+        },
+        "relevancy": {
           "value": 39,
           "date": "2026-04-05",
           "effective_value": 39
         },
+        "kei": {
+          "value": 89,
+          "date": "2026-04-05",
+          "effective_value": 89
+        },
         "chance": {
           "value": 73,
           "date": "2026-04-05",
           "effective_value": 73
         }
       },
-      "way": {
+      "flirt": {
+        "rank": {
+          "value": 17,
+          "date": "2026-04-05",
+          "effective_value": 17,
+          "fetch_performed": true
+        },
+        "installs": {
+          "value": 0.002,
+          "date": "2026-04-05",
+          "effective_value": 0.002
+        },
+        "relevancy": {
+          "value": 78,
+          "date": "2026-04-05",
+          "effective_value": 78
+        },
+        "kei": {
+          "value": 29,
+          "date": "2026-04-05",
+          "effective_value": 29
+        },
+        "chance": {
+          "value": 73,
+          "date": "2026-04-05",
+          "effective_value": 73
+        }
+      },
+      "personals": {
         "rank": {
           "value": null,
           "date": "2026-04-05",
@@ -638,14 +666,14 @@
           "effective_value": 0
         },
         "relevancy": {
-          "value": 18,
+          "value": 82,
           "date": "2026-04-05",
-          "effective_value": 18
+          "effective_value": 82
         },
         "kei": {
-          "value": 74,
+          "value": 22,
           "date": "2026-04-05",
-          "effective_value": 74
+          "effective_value": 22
         },
         "chance": {
           "value": 73,
@@ -653,7 +681,7 @@
           "effective_value": 73
         }
       },
-      "languages": {
+      "personalized matches": {
         "rank": {
           "value": null,
           "date": "2026-04-05",
@@ -666,42 +694,14 @@
           "effective_value": 0
         },
         "relevancy": {
-          "value": 19,
+          "value": 36,
           "date": "2026-04-05",
-          "effective_value": 19
+          "effective_value": 36
         },
         "kei": {
-          "value": 25,
+          "value": 22,
           "date": "2026-04-05",
-          "effective_value": 25
-        },
-        "chance": {
-          "value": 73,
-          "date": "2026-04-05",
-          "effective_value": 73
-        }
-      },
-      "language": {
-        "rank": {
-          "value": null,
-          "date": "2026-04-05",
-          "effective_value": 501,
-          "fetch_performed": true
-        },
-        "installs": {
-          "value": 0,
-          "date": "2026-04-05",
-          "effective_value": 0
-        },
-        "relevancy": {
-          "value": 12,
-          "date": "2026-04-05",
-          "effective_value": 12
-        },
-        "kei": {
-          "value": 80,
-          "date": "2026-04-05",
-          "effective_value": 80
+          "effective_value": 22
         },
         "chance": {
           "value": 73,
@@ -720,10 +720,10 @@
         "language": "us",
         "apps": [
           "com.tinder",
-          "com.sgiggle.production",
-          "com.litatom.app",
-          "com.talkin.learn",
-          "com.meetup"
+          "co.hinge.app",
+          "com.bumble.app",
+          "com.doni.appa",
+          "com.hily.app"
         ],
         "metrics": [
           "rank",
@@ -733,11 +733,11 @@
           "chance"
         ],
         "keywords": [
-          "interactive",
-          "translation",
-          "way",
-          "languages",
-          "language"
+          "date",
+          "match",
+          "flirt",
+          "personals",
+          "personalized matches"
         ]
       },
       "cost": 1251,

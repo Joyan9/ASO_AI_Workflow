@@ -1,7 +1,7 @@
 {
   "result": {
     "601174087": {
-      "get": {
+      "find meaningful connections": {
         "rank": {
           "value": null,
           "date": "2026-04-05",
@@ -14,37 +14,9 @@
           "effective_value": 0
         },
         "relevancy": {
-          "value": 20,
+          "value": 58,
           "date": "2026-04-05",
-          "effective_value": 20
-        },
-        "kei": {
-          "value": 78,
-          "date": "2026-04-05",
-          "effective_value": 78
-        },
-        "chance": {
-          "value": 73,
-          "date": "2026-04-05",
-          "effective_value": 73
-        }
-      },
-      "want": {
-        "rank": {
-          "value": null,
-          "date": "2026-04-05",
-          "effective_value": 501,
-          "fetch_performed": true
-        },
-        "installs": {
-          "value": 0,
-          "date": "2026-04-05",
-          "effective_value": 0
-        },
-        "relevancy": {
-          "value": 0,
-          "date": "2026-04-05",
-          "effective_value": 0
+          "effective_value": 58
         },
         "kei": {
           "value": 22,
@@ -57,7 +29,7 @@
           "effective_value": 73
         }
       },
-      "connections": {
+      "make friends": {
         "rank": {
           "value": null,
           "date": "2026-04-05",
@@ -70,9 +42,9 @@
           "effective_value": 0
         },
         "relevancy": {
-          "value": 40,
+          "value": 73,
           "date": "2026-04-05",
-          "effective_value": 40
+          "effective_value": 73
         },
         "kei": {
           "value": 78,
@@ -85,7 +57,7 @@
           "effective_value": 73
         }
       },
-      "profile": {
+      "build relationships": {
         "rank": {
           "value": null,
           "date": "2026-04-05",
@@ -98,37 +70,9 @@
           "effective_value": 0
         },
         "relevancy": {
-          "value": 37,
+          "value": 60,
           "date": "2026-04-05",
-          "effective_value": 37
-        },
-        "kei": {
-          "value": 22,
-          "date": "2026-04-05",
-          "effective_value": 22
-        },
-        "chance": {
-          "value": 73,
-          "date": "2026-04-05",
-          "effective_value": 73
-        }
-      },
-      "premium": {
-        "rank": {
-          "value": null,
-          "date": "2026-04-05",
-          "effective_value": 501,
-          "fetch_performed": true
-        },
-        "installs": {
-          "value": 0,
-          "date": "2026-04-05",
-          "effective_value": 0
-        },
-        "relevancy": {
-          "value": 28,
-          "date": "2026-04-05",
-          "effective_value": 28
+          "effective_value": 60
         },
         "kei": {
           "value": 15,
@@ -136,14 +80,70 @@
           "effective_value": 15
         },
         "chance": {
-          "value": 50,
+          "value": 73,
           "date": "2026-04-05",
-          "effective_value": 50
+          "effective_value": 73
+        }
+      },
+      "video chat": {
+        "rank": {
+          "value": null,
+          "date": "2026-04-05",
+          "effective_value": 501,
+          "fetch_performed": true
+        },
+        "installs": {
+          "value": 0,
+          "date": "2026-04-05",
+          "effective_value": 0
+        },
+        "relevancy": {
+          "value": 81,
+          "date": "2026-04-05",
+          "effective_value": 81
+        },
+        "kei": {
+          "value": 86,
+          "date": "2026-04-05",
+          "effective_value": 86
+        },
+        "chance": {
+          "value": 73,
+          "date": "2026-04-05",
+          "effective_value": 73
+        }
+      },
+      "private messages": {
+        "rank": {
+          "value": null,
+          "date": "2026-04-05",
+          "effective_value": 501,
+          "fetch_performed": true
+        },
+        "installs": {
+          "value": 0,
+          "date": "2026-04-05",
+          "effective_value": 0
+        },
+        "relevancy": {
+          "value": 58,
+          "date": "2026-04-05",
+          "effective_value": 58
+        },
+        "kei": {
+          "value": 18,
+          "date": "2026-04-05",
+          "effective_value": 18
+        },
+        "chance": {
+          "value": 61,
+          "date": "2026-04-05",
+          "effective_value": 61
         }
       }
     },
     "1250946975": {
-      "get": {
+      "find meaningful connections": {
         "rank": {
           "value": null,
           "date": "2026-04-05",
@@ -156,37 +156,9 @@
           "effective_value": 0
         },
         "relevancy": {
-          "value": 19,
+          "value": 59,
           "date": "2026-04-05",
-          "effective_value": 19
-        },
-        "kei": {
-          "value": 78,
-          "date": "2026-04-05",
-          "effective_value": 78
-        },
-        "chance": {
-          "value": 73,
-          "date": "2026-04-05",
-          "effective_value": 73
-        }
-      },
-      "want": {
-        "rank": {
-          "value": null,
-          "date": "2026-04-05",
-          "effective_value": 501,
-          "fetch_performed": true
-        },
-        "installs": {
-          "value": 0,
-          "date": "2026-04-05",
-          "effective_value": 0
-        },
-        "relevancy": {
-          "value": 1,
-          "date": "2026-04-05",
-          "effective_value": 1
+          "effective_value": 59
         },
         "kei": {
           "value": 22,
@@ -199,7 +171,7 @@
           "effective_value": 73
         }
       },
-      "connections": {
+      "make friends": {
         "rank": {
           "value": null,
           "date": "2026-04-05",
@@ -212,9 +184,9 @@
           "effective_value": 0
         },
         "relevancy": {
-          "value": 44,
+          "value": 77,
           "date": "2026-04-05",
-          "effective_value": 44
+          "effective_value": 77
         },
         "kei": {
           "value": 78,
@@ -227,7 +199,7 @@
           "effective_value": 73
         }
       },
-      "profile": {
+      "build relationships": {
         "rank": {
           "value": null,
           "date": "2026-04-05",
@@ -240,14 +212,14 @@
           "effective_value": 0
         },
         "relevancy": {
-          "value": 37,
+          "value": 57,
           "date": "2026-04-05",
-          "effective_value": 37
+          "effective_value": 57
         },
         "kei": {
-          "value": 22,
+          "value": 15,
           "date": "2026-04-05",
-          "effective_value": 22
+          "effective_value": 15
         },
         "chance": {
           "value": 73,
@@ -255,7 +227,7 @@
           "effective_value": 73
         }
       },
-      "premium": {
+      "video chat": {
         "rank": {
           "value": null,
           "date": "2026-04-05",
@@ -268,9 +240,37 @@
           "effective_value": 0
         },
         "relevancy": {
-          "value": 26,
+          "value": 84,
           "date": "2026-04-05",
-          "effective_value": 26
+          "effective_value": 84
+        },
+        "kei": {
+          "value": 86,
+          "date": "2026-04-05",
+          "effective_value": 86
+        },
+        "chance": {
+          "value": 73,
+          "date": "2026-04-05",
+          "effective_value": 73
+        }
+      },
+      "private messages": {
+        "rank": {
+          "value": null,
+          "date": "2026-04-05",
+          "effective_value": 501,
+          "fetch_performed": true
+        },
+        "installs": {
+          "value": 0,
+          "date": "2026-04-05",
+          "effective_value": 0
+        },
+        "relevancy": {
+          "value": 58,
+          "date": "2026-04-05",
+          "effective_value": 58
         },
         "kei": {
           "value": 22,
@@ -285,7 +285,7 @@
       }
     },
     "690661663": {
-      "get": {
+      "find meaningful connections": {
         "rank": {
           "value": null,
           "date": "2026-04-05",
@@ -298,37 +298,9 @@
           "effective_value": 0
         },
         "relevancy": {
-          "value": 20,
+          "value": 68,
           "date": "2026-04-05",
-          "effective_value": 20
-        },
-        "kei": {
-          "value": 78,
-          "date": "2026-04-05",
-          "effective_value": 78
-        },
-        "chance": {
-          "value": 73,
-          "date": "2026-04-05",
-          "effective_value": 73
-        }
-      },
-      "want": {
-        "rank": {
-          "value": null,
-          "date": "2026-04-05",
-          "effective_value": 501,
-          "fetch_performed": true
-        },
-        "installs": {
-          "value": 0,
-          "date": "2026-04-05",
-          "effective_value": 0
-        },
-        "relevancy": {
-          "value": 4,
-          "date": "2026-04-05",
-          "effective_value": 4
+          "effective_value": 68
         },
         "kei": {
           "value": 22,
@@ -341,7 +313,7 @@
           "effective_value": 73
         }
       },
-      "connections": {
+      "make friends": {
         "rank": {
           "value": null,
           "date": "2026-04-05",
@@ -354,9 +326,9 @@
           "effective_value": 0
         },
         "relevancy": {
-          "value": 47,
+          "value": 67,
           "date": "2026-04-05",
-          "effective_value": 47
+          "effective_value": 67
         },
         "kei": {
           "value": 78,
@@ -369,7 +341,7 @@
           "effective_value": 73
         }
       },
-      "profile": {
+      "build relationships": {
         "rank": {
           "value": null,
           "date": "2026-04-05",
@@ -382,9 +354,65 @@
           "effective_value": 0
         },
         "relevancy": {
-          "value": 26,
+          "value": 66,
           "date": "2026-04-05",
-          "effective_value": 26
+          "effective_value": 66
+        },
+        "kei": {
+          "value": 15,
+          "date": "2026-04-05",
+          "effective_value": 15
+        },
+        "chance": {
+          "value": 73,
+          "date": "2026-04-05",
+          "effective_value": 73
+        }
+      },
+      "video chat": {
+        "rank": {
+          "value": null,
+          "date": "2026-04-05",
+          "effective_value": 501,
+          "fetch_performed": true
+        },
+        "installs": {
+          "value": 0,
+          "date": "2026-04-05",
+          "effective_value": 0
+        },
+        "relevancy": {
+          "value": 73,
+          "date": "2026-04-05",
+          "effective_value": 73
+        },
+        "kei": {
+          "value": 86,
+          "date": "2026-04-05",
+          "effective_value": 86
+        },
+        "chance": {
+          "value": 73,
+          "date": "2026-04-05",
+          "effective_value": 73
+        }
+      },
+      "private messages": {
+        "rank": {
+          "value": null,
+          "date": "2026-04-05",
+          "effective_value": 501,
+          "fetch_performed": true
+        },
+        "installs": {
+          "value": 0,
+          "date": "2026-04-05",
+          "effective_value": 0
+        },
+        "relevancy": {
+          "value": 66,
+          "date": "2026-04-05",
+          "effective_value": 66
         },
         "kei": {
           "value": 22,
@@ -395,39 +423,11 @@
           "value": 73,
           "date": "2026-04-05",
           "effective_value": 73
-        }
-      },
-      "premium": {
-        "rank": {
-          "value": null,
-          "date": "2026-04-05",
-          "effective_value": 501,
-          "fetch_performed": true
-        },
-        "installs": {
-          "value": 0,
-          "date": "2026-04-05",
-          "effective_value": 0
-        },
-        "relevancy": {
-          "value": 26,
-          "date": "2026-04-05",
-          "effective_value": 26
-        },
-        "kei": {
-          "value": 21,
-          "date": "2026-04-05",
-          "effective_value": 21
-        },
-        "chance": {
-          "value": 69,
-          "date": "2026-04-05",
-          "effective_value": 69
         }
       }
     },
     "1297152391": {
-      "get": {
+      "find meaningful connections": {
         "rank": {
           "value": null,
           "date": "2026-04-05",
@@ -440,22 +440,22 @@
           "effective_value": 0
         },
         "relevancy": {
-          "value": 14,
+          "value": 59,
           "date": "2026-04-05",
-          "effective_value": 14
+          "effective_value": 59
         },
         "kei": {
-          "value": 43,
+          "value": 15,
           "date": "2026-04-05",
-          "effective_value": 43
+          "effective_value": 15
         },
         "chance": {
-          "value": 32,
+          "value": 49,
           "date": "2026-04-05",
-          "effective_value": 32
+          "effective_value": 49
         }
       },
-      "want": {
+      "make friends": {
         "rank": {
           "value": null,
           "date": "2026-04-05",
@@ -468,22 +468,22 @@
           "effective_value": 0
         },
         "relevancy": {
-          "value": 0,
+          "value": 70,
           "date": "2026-04-05",
-          "effective_value": 0
+          "effective_value": 70
         },
         "kei": {
-          "value": 13,
+          "value": 38,
           "date": "2026-04-05",
-          "effective_value": 13
+          "effective_value": 38
         },
         "chance": {
-          "value": 42,
+          "value": 26,
           "date": "2026-04-05",
-          "effective_value": 42
+          "effective_value": 26
         }
       },
-      "connections": {
+      "build relationships": {
         "rank": {
           "value": null,
           "date": "2026-04-05",
@@ -496,22 +496,22 @@
           "effective_value": 0
         },
         "relevancy": {
-          "value": 36,
+          "value": 68,
           "date": "2026-04-05",
-          "effective_value": 36
+          "effective_value": 68
         },
         "kei": {
-          "value": 45,
+          "value": 10,
           "date": "2026-04-05",
-          "effective_value": 45
+          "effective_value": 10
         },
         "chance": {
-          "value": 35,
+          "value": 50,
           "date": "2026-04-05",
-          "effective_value": 35
+          "effective_value": 50
         }
       },
-      "profile": {
+      "video chat": {
         "rank": {
           "value": null,
           "date": "2026-04-05",
@@ -524,22 +524,22 @@
           "effective_value": 0
         },
         "relevancy": {
-          "value": 32,
+          "value": 77,
           "date": "2026-04-05",
-          "effective_value": 32
+          "effective_value": 77
         },
         "kei": {
-          "value": 11,
+          "value": 48,
           "date": "2026-04-05",
-          "effective_value": 11
+          "effective_value": 48
         },
         "chance": {
-          "value": 36,
+          "value": 33,
           "date": "2026-04-05",
-          "effective_value": 36
+          "effective_value": 33
         }
       },
-      "premium": {
+      "private messages": {
         "rank": {
           "value": null,
           "date": "2026-04-05",
@@ -552,19 +552,19 @@
           "effective_value": 0
         },
         "relevancy": {
-          "value": 24,
+          "value": 54,
           "date": "2026-04-05",
-          "effective_value": 24
+          "effective_value": 54
         },
         "kei": {
-          "value": 3,
+          "value": 5,
           "date": "2026-04-05",
-          "effective_value": 3
+          "effective_value": 5
         },
         "chance": {
-          "value": 9,
+          "value": 15,
           "date": "2026-04-05",
-          "effective_value": 9
+          "effective_value": 15
         }
       }
     }
@@ -590,11 +590,11 @@
           "chance"
         ],
         "keywords": [
-          "get",
-          "want",
-          "connections",
-          "profile",
-          "premium"
+          "find meaningful connections",
+          "make friends",
+          "build relationships",
+          "video chat",
+          "private messages"
         ]
       },
       "cost": 1001,

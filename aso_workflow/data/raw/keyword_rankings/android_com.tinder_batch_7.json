@@ -1,7 +1,7 @@
 {
   "result": {
     "com.tinder": {
-      "feedback": {
+      "algorithms": {
         "rank": {
           "value": null,
           "date": "2026-04-05",
@@ -14,9 +14,9 @@
           "effective_value": 0
         },
         "relevancy": {
-          "value": 11,
+          "value": 0,
           "date": "2026-04-05",
-          "effective_value": 11
+          "effective_value": 0
         },
         "kei": {
           "value": 22,
@@ -29,547 +29,7 @@
           "effective_value": 73
         }
       },
-      "please": {
-        "rank": {
-          "value": null,
-          "date": "2026-04-05",
-          "effective_value": 501,
-          "fetch_performed": true
-        },
-        "installs": {
-          "value": 0,
-          "date": "2026-04-05",
-          "effective_value": 0
-        },
-        "relevancy": {
-          "value": 21,
-          "date": "2026-04-05",
-          "effective_value": 21
-        },
-        "kei": {
-          "value": 22,
-          "date": "2026-04-05",
-          "effective_value": 22
-        },
-        "chance": {
-          "value": 73,
-          "date": "2026-04-05",
-          "effective_value": 73
-        }
-      },
-      "contact": {
-        "rank": {
-          "value": null,
-          "date": "2026-04-05",
-          "effective_value": 501,
-          "fetch_performed": true
-        },
-        "installs": {
-          "value": 0,
-          "date": "2026-04-05",
-          "effective_value": 0
-        },
-        "relevancy": {
-          "value": 16,
-          "date": "2026-04-05",
-          "effective_value": 16
-        },
-        "kei": {
-          "value": 83,
-          "date": "2026-04-05",
-          "effective_value": 83
-        },
-        "chance": {
-          "value": 73,
-          "date": "2026-04-05",
-          "effective_value": 73
-        }
-      },
-      "please contact": {
-        "rank": {
-          "value": null,
-          "date": "2026-04-04",
-          "effective_value": 501,
-          "fetch_performed": true
-        },
-        "installs": {
-          "value": 0,
-          "date": "2026-04-04",
-          "effective_value": 0
-        },
-        "relevancy": {
-          "value": 37,
-          "date": "2026-04-05",
-          "effective_value": 37
-        },
-        "kei": {
-          "value": 22,
-          "date": "2026-04-05",
-          "effective_value": 22
-        },
-        "chance": {
-          "value": 73,
-          "date": "2026-04-05",
-          "effective_value": 73
-        }
-      },
-      "contact us": {
-        "rank": {
-          "value": null,
-          "date": "2026-04-04",
-          "effective_value": 501,
-          "fetch_performed": true
-        },
-        "installs": {
-          "value": 0,
-          "date": "2026-04-04",
-          "effective_value": 0
-        },
-        "relevancy": {
-          "value": 38,
-          "date": "2026-04-05",
-          "effective_value": 38
-        },
-        "kei": {
-          "value": 25,
-          "date": "2026-04-05",
-          "effective_value": 25
-        },
-        "chance": {
-          "value": 73,
-          "date": "2026-04-05",
-          "effective_value": 73
-        }
-      }
-    },
-    "com.sgiggle.production": {
-      "feedback": {
-        "rank": {
-          "value": null,
-          "date": "2026-04-05",
-          "effective_value": 501,
-          "fetch_performed": true
-        },
-        "installs": {
-          "value": 0,
-          "date": "2026-04-05",
-          "effective_value": 0
-        },
-        "relevancy": {
-          "value": 20,
-          "date": "2026-04-05",
-          "effective_value": 20
-        },
-        "kei": {
-          "value": 22,
-          "date": "2026-04-05",
-          "effective_value": 22
-        },
-        "chance": {
-          "value": 73,
-          "date": "2026-04-05",
-          "effective_value": 73
-        }
-      },
-      "please": {
-        "rank": {
-          "value": null,
-          "date": "2026-04-05",
-          "effective_value": 501,
-          "fetch_performed": true
-        },
-        "installs": {
-          "value": 0,
-          "date": "2026-04-05",
-          "effective_value": 0
-        },
-        "relevancy": {
-          "value": 22,
-          "date": "2026-04-05",
-          "effective_value": 22
-        },
-        "kei": {
-          "value": 22,
-          "date": "2026-04-05",
-          "effective_value": 22
-        },
-        "chance": {
-          "value": 73,
-          "date": "2026-04-05",
-          "effective_value": 73
-        }
-      },
-      "contact": {
-        "rank": {
-          "value": null,
-          "date": "2026-04-05",
-          "effective_value": 501,
-          "fetch_performed": true
-        },
-        "installs": {
-          "value": 0,
-          "date": "2026-04-05",
-          "effective_value": 0
-        },
-        "relevancy": {
-          "value": 17,
-          "date": "2026-04-05",
-          "effective_value": 17
-        },
-        "kei": {
-          "value": 83,
-          "date": "2026-04-05",
-          "effective_value": 83
-        },
-        "chance": {
-          "value": 73,
-          "date": "2026-04-05",
-          "effective_value": 73
-        }
-      },
-      "please contact": {
-        "rank": {
-          "value": null,
-          "date": "2026-04-04",
-          "effective_value": 501,
-          "fetch_performed": true
-        },
-        "installs": {
-          "value": 0,
-          "date": "2026-04-04",
-          "effective_value": 0
-        },
-        "relevancy": {
-          "value": 32,
-          "date": "2026-04-05",
-          "effective_value": 32
-        },
-        "kei": {
-          "value": 22,
-          "date": "2026-04-05",
-          "effective_value": 22
-        },
-        "chance": {
-          "value": 73,
-          "date": "2026-04-05",
-          "effective_value": 73
-        }
-      },
-      "contact us": {
-        "rank": {
-          "value": null,
-          "date": "2026-04-04",
-          "effective_value": 501,
-          "fetch_performed": true
-        },
-        "installs": {
-          "value": 0,
-          "date": "2026-04-04",
-          "effective_value": 0
-        },
-        "relevancy": {
-          "value": 23,
-          "date": "2026-04-05",
-          "effective_value": 23
-        },
-        "kei": {
-          "value": 25,
-          "date": "2026-04-05",
-          "effective_value": 25
-        },
-        "chance": {
-          "value": 73,
-          "date": "2026-04-05",
-          "effective_value": 73
-        }
-      }
-    },
-    "com.litatom.app": {
-      "feedback": {
-        "rank": {
-          "value": 79,
-          "date": "2026-04-05",
-          "effective_value": 79,
-          "fetch_performed": true
-        },
-        "installs": {
-          "value": 0.0,
-          "date": "2026-04-05",
-          "effective_value": 0.0
-        },
-        "relevancy": {
-          "value": 23,
-          "date": "2026-04-05",
-          "effective_value": 23
-        },
-        "kei": {
-          "value": 22,
-          "date": "2026-04-05",
-          "effective_value": 22
-        },
-        "chance": {
-          "value": 73,
-          "date": "2026-04-05",
-          "effective_value": 73
-        }
-      },
-      "please": {
-        "rank": {
-          "value": null,
-          "date": "2026-04-05",
-          "effective_value": 501,
-          "fetch_performed": true
-        },
-        "installs": {
-          "value": 0,
-          "date": "2026-04-05",
-          "effective_value": 0
-        },
-        "relevancy": {
-          "value": 19,
-          "date": "2026-04-05",
-          "effective_value": 19
-        },
-        "kei": {
-          "value": 22,
-          "date": "2026-04-05",
-          "effective_value": 22
-        },
-        "chance": {
-          "value": 73,
-          "date": "2026-04-05",
-          "effective_value": 73
-        }
-      },
-      "contact": {
-        "rank": {
-          "value": null,
-          "date": "2026-04-05",
-          "effective_value": 501,
-          "fetch_performed": true
-        },
-        "installs": {
-          "value": 0,
-          "date": "2026-04-05",
-          "effective_value": 0
-        },
-        "relevancy": {
-          "value": 17,
-          "date": "2026-04-05",
-          "effective_value": 17
-        },
-        "kei": {
-          "value": 83,
-          "date": "2026-04-05",
-          "effective_value": 83
-        },
-        "chance": {
-          "value": 73,
-          "date": "2026-04-05",
-          "effective_value": 73
-        }
-      },
-      "please contact": {
-        "rank": {
-          "value": null,
-          "date": "2026-04-04",
-          "effective_value": 501,
-          "fetch_performed": true
-        },
-        "installs": {
-          "value": 0,
-          "date": "2026-04-04",
-          "effective_value": 0
-        },
-        "relevancy": {
-          "value": 39,
-          "date": "2026-04-05",
-          "effective_value": 39
-        },
-        "kei": {
-          "value": 17,
-          "date": "2026-04-05",
-          "effective_value": 17
-        },
-        "chance": {
-          "value": 57,
-          "date": "2026-04-05",
-          "effective_value": 57
-        }
-      },
-      "contact us": {
-        "rank": {
-          "value": null,
-          "date": "2026-04-04",
-          "effective_value": 501,
-          "fetch_performed": true
-        },
-        "installs": {
-          "value": 0,
-          "date": "2026-04-04",
-          "effective_value": 0
-        },
-        "relevancy": {
-          "value": 34,
-          "date": "2026-04-05",
-          "effective_value": 34
-        },
-        "kei": {
-          "value": 24,
-          "date": "2026-04-05",
-          "effective_value": 24
-        },
-        "chance": {
-          "value": 72,
-          "date": "2026-04-05",
-          "effective_value": 72
-        }
-      }
-    },
-    "com.talkin.learn": {
-      "feedback": {
-        "rank": {
-          "value": null,
-          "date": "2026-04-05",
-          "effective_value": 501,
-          "fetch_performed": true
-        },
-        "installs": {
-          "value": 0,
-          "date": "2026-04-05",
-          "effective_value": 0
-        },
-        "relevancy": {
-          "value": 23,
-          "date": "2026-04-05",
-          "effective_value": 23
-        },
-        "kei": {
-          "value": 22,
-          "date": "2026-04-05",
-          "effective_value": 22
-        },
-        "chance": {
-          "value": 73,
-          "date": "2026-04-05",
-          "effective_value": 73
-        }
-      },
-      "please": {
-        "rank": {
-          "value": null,
-          "date": "2026-04-05",
-          "effective_value": 501,
-          "fetch_performed": true
-        },
-        "installs": {
-          "value": 0,
-          "date": "2026-04-05",
-          "effective_value": 0
-        },
-        "relevancy": {
-          "value": 16,
-          "date": "2026-04-05",
-          "effective_value": 16
-        },
-        "kei": {
-          "value": 22,
-          "date": "2026-04-05",
-          "effective_value": 22
-        },
-        "chance": {
-          "value": 73,
-          "date": "2026-04-05",
-          "effective_value": 73
-        }
-      },
-      "contact": {
-        "rank": {
-          "value": null,
-          "date": "2026-04-05",
-          "effective_value": 501,
-          "fetch_performed": true
-        },
-        "installs": {
-          "value": 0,
-          "date": "2026-04-05",
-          "effective_value": 0
-        },
-        "relevancy": {
-          "value": 22,
-          "date": "2026-04-05",
-          "effective_value": 22
-        },
-        "kei": {
-          "value": 83,
-          "date": "2026-04-05",
-          "effective_value": 83
-        },
-        "chance": {
-          "value": 73,
-          "date": "2026-04-05",
-          "effective_value": 73
-        }
-      },
-      "please contact": {
-        "rank": {
-          "value": null,
-          "date": "2026-04-04",
-          "effective_value": 501,
-          "fetch_performed": true
-        },
-        "installs": {
-          "value": 0,
-          "date": "2026-04-04",
-          "effective_value": 0
-        },
-        "relevancy": {
-          "value": 41,
-          "date": "2026-04-05",
-          "effective_value": 41
-        },
-        "kei": {
-          "value": 14,
-          "date": "2026-04-05",
-          "effective_value": 14
-        },
-        "chance": {
-          "value": 47,
-          "date": "2026-04-05",
-          "effective_value": 47
-        }
-      },
-      "contact us": {
-        "rank": {
-          "value": null,
-          "date": "2026-04-04",
-          "effective_value": 501,
-          "fetch_performed": true
-        },
-        "installs": {
-          "value": 0,
-          "date": "2026-04-04",
-          "effective_value": 0
-        },
-        "relevancy": {
-          "value": 38,
-          "date": "2026-04-05",
-          "effective_value": 38
-        },
-        "kei": {
-          "value": 21,
-          "date": "2026-04-05",
-          "effective_value": 21
-        },
-        "chance": {
-          "value": 63,
-          "date": "2026-04-05",
-          "effective_value": 63
-        }
-      }
-    },
-    "com.meetup": {
-      "feedback": {
+      "success stories": {
         "rank": {
           "value": null,
           "date": "2026-04-05",
@@ -597,7 +57,7 @@
           "effective_value": 73
         }
       },
-      "please": {
+      "subscriptions": {
         "rank": {
           "value": null,
           "date": "2026-04-05",
@@ -610,9 +70,95 @@
           "effective_value": 0
         },
         "relevancy": {
-          "value": 13,
+          "value": 31,
           "date": "2026-04-05",
-          "effective_value": 13
+          "effective_value": 31
+        },
+        "kei": {
+          "value": 76,
+          "date": "2026-04-05",
+          "effective_value": 76
+        },
+        "chance": {
+          "value": 73,
+          "date": "2026-04-05",
+          "effective_value": 73
+        }
+      },
+      "privacy": {
+        "rank": {
+          "value": 164,
+          "date": "2026-04-05",
+          "effective_value": 164,
+          "fetch_performed": true
+        },
+        "installs": {
+          "value": 0.0,
+          "date": "2026-04-05",
+          "effective_value": 0.0
+        },
+        "relevancy": {
+          "value": 10,
+          "date": "2026-04-05",
+          "effective_value": 10
+        },
+        "kei": {
+          "value": 76,
+          "date": "2026-04-05",
+          "effective_value": 76
+        },
+        "chance": {
+          "value": 73,
+          "date": "2026-04-05",
+          "effective_value": 73
+        }
+      },
+      "terms of service": {
+        "rank": {
+          "value": 27,
+          "date": "2026-04-05",
+          "effective_value": 27,
+          "fetch_performed": true
+        },
+        "installs": {
+          "value": 0,
+          "date": "2026-04-05",
+          "effective_value": 0
+        },
+        "relevancy": {
+          "value": 33,
+          "date": "2026-04-05",
+          "effective_value": 33
+        },
+        "kei": {
+          "value": 24,
+          "date": "2026-04-05",
+          "effective_value": 24
+        },
+        "chance": {
+          "value": 50,
+          "date": "2026-04-05",
+          "effective_value": 50
+        }
+      }
+    },
+    "co.hinge.app": {
+      "algorithms": {
+        "rank": {
+          "value": null,
+          "date": "2026-04-05",
+          "effective_value": 501,
+          "fetch_performed": true
+        },
+        "installs": {
+          "value": 0,
+          "date": "2026-04-05",
+          "effective_value": 0
+        },
+        "relevancy": {
+          "value": 0,
+          "date": "2026-04-05",
+          "effective_value": 0
         },
         "kei": {
           "value": 22,
@@ -625,7 +171,7 @@
           "effective_value": 73
         }
       },
-      "contact": {
+      "success stories": {
         "rank": {
           "value": null,
           "date": "2026-04-05",
@@ -638,14 +184,14 @@
           "effective_value": 0
         },
         "relevancy": {
-          "value": 18,
+          "value": 31,
           "date": "2026-04-05",
-          "effective_value": 18
+          "effective_value": 31
         },
         "kei": {
-          "value": 83,
+          "value": 22,
           "date": "2026-04-05",
-          "effective_value": 83
+          "effective_value": 22
         },
         "chance": {
           "value": 73,
@@ -653,16 +199,356 @@
           "effective_value": 73
         }
       },
-      "please contact": {
+      "subscriptions": {
         "rank": {
           "value": null,
-          "date": "2026-04-04",
+          "date": "2026-04-05",
           "effective_value": 501,
           "fetch_performed": true
         },
         "installs": {
           "value": 0,
-          "date": "2026-04-04",
+          "date": "2026-04-05",
+          "effective_value": 0
+        },
+        "relevancy": {
+          "value": 33,
+          "date": "2026-04-05",
+          "effective_value": 33
+        },
+        "kei": {
+          "value": 76,
+          "date": "2026-04-05",
+          "effective_value": 76
+        },
+        "chance": {
+          "value": 73,
+          "date": "2026-04-05",
+          "effective_value": 73
+        }
+      },
+      "privacy": {
+        "rank": {
+          "value": null,
+          "date": "2026-04-05",
+          "effective_value": 501,
+          "fetch_performed": true
+        },
+        "installs": {
+          "value": 0,
+          "date": "2026-04-05",
+          "effective_value": 0
+        },
+        "relevancy": {
+          "value": 1,
+          "date": "2026-04-05",
+          "effective_value": 1
+        },
+        "kei": {
+          "value": 76,
+          "date": "2026-04-05",
+          "effective_value": 76
+        },
+        "chance": {
+          "value": 73,
+          "date": "2026-04-05",
+          "effective_value": 73
+        }
+      },
+      "terms of service": {
+        "rank": {
+          "value": null,
+          "date": "2026-04-05",
+          "effective_value": 501,
+          "fetch_performed": true
+        },
+        "installs": {
+          "value": 0,
+          "date": "2026-04-05",
+          "effective_value": 0
+        },
+        "relevancy": {
+          "value": 26,
+          "date": "2026-04-05",
+          "effective_value": 26
+        },
+        "kei": {
+          "value": 23,
+          "date": "2026-04-05",
+          "effective_value": 23
+        },
+        "chance": {
+          "value": 47,
+          "date": "2026-04-05",
+          "effective_value": 47
+        }
+      }
+    },
+    "com.bumble.app": {
+      "algorithms": {
+        "rank": {
+          "value": null,
+          "date": "2026-04-05",
+          "effective_value": 501,
+          "fetch_performed": true
+        },
+        "installs": {
+          "value": 0,
+          "date": "2026-04-05",
+          "effective_value": 0
+        },
+        "relevancy": {
+          "value": 0,
+          "date": "2026-04-05",
+          "effective_value": 0
+        },
+        "kei": {
+          "value": 22,
+          "date": "2026-04-05",
+          "effective_value": 22
+        },
+        "chance": {
+          "value": 73,
+          "date": "2026-04-05",
+          "effective_value": 73
+        }
+      },
+      "success stories": {
+        "rank": {
+          "value": null,
+          "date": "2026-04-05",
+          "effective_value": 501,
+          "fetch_performed": true
+        },
+        "installs": {
+          "value": 0,
+          "date": "2026-04-05",
+          "effective_value": 0
+        },
+        "relevancy": {
+          "value": 15,
+          "date": "2026-04-05",
+          "effective_value": 15
+        },
+        "kei": {
+          "value": 22,
+          "date": "2026-04-05",
+          "effective_value": 22
+        },
+        "chance": {
+          "value": 73,
+          "date": "2026-04-05",
+          "effective_value": 73
+        }
+      },
+      "subscriptions": {
+        "rank": {
+          "value": null,
+          "date": "2026-04-05",
+          "effective_value": 501,
+          "fetch_performed": true
+        },
+        "installs": {
+          "value": 0,
+          "date": "2026-04-05",
+          "effective_value": 0
+        },
+        "relevancy": {
+          "value": 31,
+          "date": "2026-04-05",
+          "effective_value": 31
+        },
+        "kei": {
+          "value": 76,
+          "date": "2026-04-05",
+          "effective_value": 76
+        },
+        "chance": {
+          "value": 73,
+          "date": "2026-04-05",
+          "effective_value": 73
+        }
+      },
+      "privacy": {
+        "rank": {
+          "value": null,
+          "date": "2026-04-05",
+          "effective_value": 501,
+          "fetch_performed": true
+        },
+        "installs": {
+          "value": 0,
+          "date": "2026-04-05",
+          "effective_value": 0
+        },
+        "relevancy": {
+          "value": 5,
+          "date": "2026-04-05",
+          "effective_value": 5
+        },
+        "kei": {
+          "value": 76,
+          "date": "2026-04-05",
+          "effective_value": 76
+        },
+        "chance": {
+          "value": 73,
+          "date": "2026-04-05",
+          "effective_value": 73
+        }
+      },
+      "terms of service": {
+        "rank": {
+          "value": null,
+          "date": "2026-04-05",
+          "effective_value": 501,
+          "fetch_performed": true
+        },
+        "installs": {
+          "value": 0,
+          "date": "2026-04-05",
+          "effective_value": 0
+        },
+        "relevancy": {
+          "value": 24,
+          "date": "2026-04-05",
+          "effective_value": 24
+        },
+        "kei": {
+          "value": 21,
+          "date": "2026-04-05",
+          "effective_value": 21
+        },
+        "chance": {
+          "value": 43,
+          "date": "2026-04-05",
+          "effective_value": 43
+        }
+      }
+    },
+    "com.doni.appa": {
+      "algorithms": {
+        "rank": {
+          "value": null,
+          "date": "2026-04-05",
+          "effective_value": 501,
+          "fetch_performed": true
+        },
+        "installs": {
+          "value": 0,
+          "date": "2026-04-05",
+          "effective_value": 0
+        },
+        "relevancy": {
+          "value": 0,
+          "date": "2026-04-05",
+          "effective_value": 0
+        },
+        "kei": {
+          "value": 22,
+          "date": "2026-04-05",
+          "effective_value": 22
+        },
+        "chance": {
+          "value": 73,
+          "date": "2026-04-05",
+          "effective_value": 73
+        }
+      },
+      "success stories": {
+        "rank": {
+          "value": null,
+          "date": "2026-04-05",
+          "effective_value": 501,
+          "fetch_performed": true
+        },
+        "installs": {
+          "value": 0,
+          "date": "2026-04-05",
+          "effective_value": 0
+        },
+        "relevancy": {
+          "value": 20,
+          "date": "2026-04-05",
+          "effective_value": 20
+        },
+        "kei": {
+          "value": 22,
+          "date": "2026-04-05",
+          "effective_value": 22
+        },
+        "chance": {
+          "value": 73,
+          "date": "2026-04-05",
+          "effective_value": 73
+        }
+      },
+      "subscriptions": {
+        "rank": {
+          "value": null,
+          "date": "2026-04-05",
+          "effective_value": 501,
+          "fetch_performed": true
+        },
+        "installs": {
+          "value": 0,
+          "date": "2026-04-05",
+          "effective_value": 0
+        },
+        "relevancy": {
+          "value": 28,
+          "date": "2026-04-05",
+          "effective_value": 28
+        },
+        "kei": {
+          "value": 76,
+          "date": "2026-04-05",
+          "effective_value": 76
+        },
+        "chance": {
+          "value": 73,
+          "date": "2026-04-05",
+          "effective_value": 73
+        }
+      },
+      "privacy": {
+        "rank": {
+          "value": null,
+          "date": "2026-04-05",
+          "effective_value": 501,
+          "fetch_performed": true
+        },
+        "installs": {
+          "value": 0,
+          "date": "2026-04-05",
+          "effective_value": 0
+        },
+        "relevancy": {
+          "value": 0,
+          "date": "2026-04-05",
+          "effective_value": 0
+        },
+        "kei": {
+          "value": 76,
+          "date": "2026-04-05",
+          "effective_value": 76
+        },
+        "chance": {
+          "value": 73,
+          "date": "2026-04-05",
+          "effective_value": 73
+        }
+      },
+      "terms of service": {
+        "rank": {
+          "value": null,
+          "date": "2026-04-05",
+          "effective_value": 501,
+          "fetch_performed": true
+        },
+        "installs": {
+          "value": 0,
+          "date": "2026-04-05",
           "effective_value": 0
         },
         "relevancy": {
@@ -671,42 +557,156 @@
           "effective_value": 36
         },
         "kei": {
-          "value": 20,
+          "value": 18,
           "date": "2026-04-05",
-          "effective_value": 20
+          "effective_value": 18
         },
         "chance": {
-          "value": 66,
+          "value": 36,
           "date": "2026-04-05",
-          "effective_value": 66
+          "effective_value": 36
         }
-      },
-      "contact us": {
+      }
+    },
+    "com.hily.app": {
+      "algorithms": {
         "rank": {
           "value": null,
-          "date": "2026-04-04",
+          "date": "2026-04-05",
           "effective_value": 501,
           "fetch_performed": true
         },
         "installs": {
           "value": 0,
-          "date": "2026-04-04",
+          "date": "2026-04-05",
           "effective_value": 0
         },
         "relevancy": {
-          "value": 35,
+          "value": 0,
           "date": "2026-04-05",
-          "effective_value": 35
+          "effective_value": 0
         },
         "kei": {
-          "value": 25,
+          "value": 22,
           "date": "2026-04-05",
-          "effective_value": 25
+          "effective_value": 22
         },
         "chance": {
           "value": 73,
           "date": "2026-04-05",
           "effective_value": 73
+        }
+      },
+      "success stories": {
+        "rank": {
+          "value": null,
+          "date": "2026-04-05",
+          "effective_value": 501,
+          "fetch_performed": true
+        },
+        "installs": {
+          "value": 0,
+          "date": "2026-04-05",
+          "effective_value": 0
+        },
+        "relevancy": {
+          "value": 12,
+          "date": "2026-04-05",
+          "effective_value": 12
+        },
+        "kei": {
+          "value": 22,
+          "date": "2026-04-05",
+          "effective_value": 22
+        },
+        "chance": {
+          "value": 73,
+          "date": "2026-04-05",
+          "effective_value": 73
+        }
+      },
+      "subscriptions": {
+        "rank": {
+          "value": null,
+          "date": "2026-04-05",
+          "effective_value": 501,
+          "fetch_performed": true
+        },
+        "installs": {
+          "value": 0,
+          "date": "2026-04-05",
+          "effective_value": 0
+        },
+        "relevancy": {
+          "value": 30,
+          "date": "2026-04-05",
+          "effective_value": 30
+        },
+        "kei": {
+          "value": 76,
+          "date": "2026-04-05",
+          "effective_value": 76
+        },
+        "chance": {
+          "value": 73,
+          "date": "2026-04-05",
+          "effective_value": 73
+        }
+      },
+      "privacy": {
+        "rank": {
+          "value": null,
+          "date": "2026-04-05",
+          "effective_value": 501,
+          "fetch_performed": true
+        },
+        "installs": {
+          "value": 0,
+          "date": "2026-04-05",
+          "effective_value": 0
+        },
+        "relevancy": {
+          "value": 1,
+          "date": "2026-04-05",
+          "effective_value": 1
+        },
+        "kei": {
+          "value": 76,
+          "date": "2026-04-05",
+          "effective_value": 76
+        },
+        "chance": {
+          "value": 73,
+          "date": "2026-04-05",
+          "effective_value": 73
+        }
+      },
+      "terms of service": {
+        "rank": {
+          "value": null,
+          "date": "2026-04-05",
+          "effective_value": 501,
+          "fetch_performed": true
+        },
+        "installs": {
+          "value": 0,
+          "date": "2026-04-05",
+          "effective_value": 0
+        },
+        "relevancy": {
+          "value": 36,
+          "date": "2026-04-05",
+          "effective_value": 36
+        },
+        "kei": {
+          "value": 17,
+          "date": "2026-04-05",
+          "effective_value": 17
+        },
+        "chance": {
+          "value": 34,
+          "date": "2026-04-05",
+          "effective_value": 34
         }
       }
     }
@@ -720,10 +720,10 @@
         "language": "us",
         "apps": [
           "com.tinder",
-          "com.sgiggle.production",
-          "com.litatom.app",
-          "com.talkin.learn",
-          "com.meetup"
+          "co.hinge.app",
+          "com.bumble.app",
+          "com.doni.appa",
+          "com.hily.app"
         ],
         "metrics": [
           "rank",
@@ -733,11 +733,11 @@
           "chance"
         ],
         "keywords": [
-          "feedback",
-          "please",
-          "contact",
-          "please contact",
-          "contact us"
+          "algorithms",
+          "success stories",
+          "subscriptions",
+          "privacy",
+          "terms of service"
         ]
       },
       "cost": 1251,

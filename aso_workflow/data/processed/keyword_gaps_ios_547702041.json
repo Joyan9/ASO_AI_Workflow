@@ -3,10 +3,10 @@
     "app_id": "547702041",
     "platform": "ios",
     "country": "us",
-    "run_date": "2026-04-05T08:38:36.942387",
-    "seeds_generated": 50,
-    "seeds_with_ranking_data": 50,
-    "gaps_identified": 12
+    "run_date": "2026-04-05T16:19:23.304353",
+    "seeds_generated": 38,
+    "seeds_with_ranking_data": 38,
+    "gaps_identified": 4
   },
   "your_app": {
     "title": "Tinder Dating App: Date & Chat",
@@ -15,177 +15,68 @@
   },
   "keyword_gaps": [
     {
-      "term": "relationships",
-      "primary_competitor_count": 2,
-      "secondary_competitor_count": 1,
+      "term": "date singles",
+      "primary_competitor_count": 3,
+      "secondary_competitor_count": 5,
       "your_app_ranked": false,
-      "top_competitor_rank": 173,
-      "avg_rank": 214.66666666666666,
+      "top_competitor_rank": 2,
+      "avg_rank": 91.375,
       "avg_installs": 0.0,
-      "avg_relevancy": 71.66666666666667,
-      "avg_kei": 20.333333333333332,
+      "avg_relevancy": 93.625,
+      "avg_kei": 21.625,
       "source_apps": [
+        "930441707",
+        "351331194",
+        "338701294",
+        "595287172",
         "601174087",
-        "351331194",
-        "338701294"
-      ]
-    },
-    {
-      "term": "connections",
-      "primary_competitor_count": 2,
-      "secondary_competitor_count": 0,
-      "your_app_ranked": false,
-      "top_competitor_rank": 114,
-      "avg_rank": 140.0,
-      "avg_installs": 0.0,
-      "avg_relevancy": 40.5,
-      "avg_kei": 74.5,
-      "source_apps": [
-        "351331194",
-        "338701294"
-      ]
-    },
-    {
-      "term": "much",
-      "primary_competitor_count": 2,
-      "secondary_competitor_count": 0,
-      "your_app_ranked": false,
-      "top_competitor_rank": 11,
-      "avg_rank": 34.5,
-      "avg_installs": 0.0,
-      "avg_relevancy": 49.0,
-      "avg_kei": 21.5,
-      "source_apps": [
-        "930441707",
-        "338701294"
-      ]
-    },
-    {
-      "term": "put",
-      "primary_competitor_count": 1,
-      "secondary_competitor_count": 2,
-      "your_app_ranked": false,
-      "top_competitor_rank": 44,
-      "avg_rank": 70.33333333333333,
-      "avg_installs": 0.0,
-      "avg_relevancy": 0.0,
-      "avg_kei": 22.0,
-      "source_apps": [
-        "930441707",
         "1250946975",
-        "690661663"
+        "690661663",
+        "1297152391"
       ]
     },
     {
-      "term": "en",
-      "primary_competitor_count": 1,
+      "term": "love connections",
+      "primary_competitor_count": 2,
       "secondary_competitor_count": 0,
       "your_app_ranked": false,
-      "top_competitor_rank": 139,
-      "avg_rank": 139.0,
+      "top_competitor_rank": 76,
+      "avg_rank": 146.5,
       "avg_installs": 0.0,
-      "avg_relevancy": 10.0,
-      "avg_kei": 8.0,
+      "avg_relevancy": 71.5,
+      "avg_kei": 20.0,
       "source_apps": [
-        "351331194"
-      ]
-    },
-    {
-      "term": "like",
-      "primary_competitor_count": 1,
-      "secondary_competitor_count": 0,
-      "your_app_ranked": false,
-      "top_competitor_rank": 144,
-      "avg_rank": 144.0,
-      "avg_installs": 0.0,
-      "avg_relevancy": 40.0,
-      "avg_kei": 35.0,
-      "source_apps": [
-        "351331194"
-      ]
-    },
-    {
-      "term": "mode",
-      "primary_competitor_count": 1,
-      "secondary_competitor_count": 0,
-      "your_app_ranked": false,
-      "top_competitor_rank": 119,
-      "avg_rank": 119.0,
-      "avg_installs": 0.0,
-      "avg_relevancy": 17.0,
-      "avg_kei": 19.0,
-      "source_apps": [
+        "351331194",
         "338701294"
       ]
     },
     {
-      "term": "person",
-      "primary_competitor_count": 1,
+      "term": "true love",
+      "primary_competitor_count": 2,
       "secondary_competitor_count": 0,
       "your_app_ranked": false,
-      "top_competitor_rank": 119,
-      "avg_rank": 119.0,
+      "top_competitor_rank": 46,
+      "avg_rank": 55.5,
       "avg_installs": 0.0,
-      "avg_relevancy": 18.0,
+      "avg_relevancy": 59.5,
       "avg_kei": 22.0,
       "source_apps": [
+        "930441707",
         "351331194"
       ]
     },
     {
-      "term": "true",
+      "term": "video chat",
       "primary_competitor_count": 1,
       "secondary_competitor_count": 0,
       "your_app_ranked": false,
-      "top_competitor_rank": 90,
-      "avg_rank": 90.0,
+      "top_competitor_rank": 73,
+      "avg_rank": 73.0,
       "avg_installs": 0.0,
-      "avg_relevancy": 26.0,
-      "avg_kei": 47.0,
+      "avg_relevancy": 87.0,
+      "avg_kei": 82.0,
       "source_apps": [
         "351331194"
-      ]
-    },
-    {
-      "term": "without",
-      "primary_competitor_count": 1,
-      "secondary_competitor_count": 0,
-      "your_app_ranked": false,
-      "top_competitor_rank": 59,
-      "avg_rank": 59.0,
-      "avg_installs": 0.0,
-      "avg_relevancy": 32.0,
-      "avg_kei": 16.0,
-      "source_apps": [
-        "338701294"
-      ]
-    },
-    {
-      "term": "even",
-      "primary_competitor_count": 0,
-      "secondary_competitor_count": 1,
-      "your_app_ranked": false,
-      "top_competitor_rank": 143,
-      "avg_rank": 143.0,
-      "avg_installs": 0.0,
-      "avg_relevancy": 22.0,
-      "avg_kei": 74.0,
-      "source_apps": [
-        "690661663"
-      ]
-    },
-    {
-      "term": "support",
-      "primary_competitor_count": 0,
-      "secondary_competitor_count": 1,
-      "your_app_ranked": false,
-      "top_competitor_rank": 22,
-      "avg_rank": 22.0,
-      "avg_installs": 0.494,
-      "avg_relevancy": 13.0,
-      "avg_kei": 78.0,
-      "source_apps": [
-        "595287172"
       ]
     }
   ],
@@ -200,13 +91,13 @@
       "app_id": "351331194",
       "name": "Badoo Dating: Meet New People",
       "tier": "primary",
-      "gaps_ranked_for": 6
+      "gaps_ranked_for": 4
     },
     {
       "app_id": "338701294",
       "name": "OkCupid Dating: Date Singles",
       "tier": "primary",
-      "gaps_ranked_for": 5
+      "gaps_ranked_for": 2
     },
     {
       "app_id": "595287172",
@@ -230,13 +121,13 @@
       "app_id": "690661663",
       "name": "PURE: Open-Minded Dating App",
       "tier": "secondary",
-      "gaps_ranked_for": 2
+      "gaps_ranked_for": 1
     },
     {
       "app_id": "1297152391",
       "name": "Lesbian Singles \u2013 Meet & Date",
       "tier": "secondary",
-      "gaps_ranked_for": 0
+      "gaps_ranked_for": 1
     },
     {
       "app_id": "1328695473",

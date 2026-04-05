@@ -1,7 +1,7 @@
 {
   "result": {
-    "com.hubolabs.hubo": {
-      "everyone": {
+    "com.getpure.pure": {
+      "algorithms": {
         "rank": {
           "value": null,
           "date": "2026-04-05",
@@ -14,14 +14,14 @@
           "effective_value": 0
         },
         "relevancy": {
-          "value": 25,
+          "value": 0,
           "date": "2026-04-05",
-          "effective_value": 25
+          "effective_value": 0
         },
         "kei": {
-          "value": 34,
+          "value": 22,
           "date": "2026-04-05",
-          "effective_value": 34
+          "effective_value": 22
         },
         "chance": {
           "value": 73,
@@ -29,7 +29,7 @@
           "effective_value": 73
         }
       },
-      "stories": {
+      "success stories": {
         "rank": {
           "value": null,
           "date": "2026-04-05",
@@ -42,14 +42,14 @@
           "effective_value": 0
         },
         "relevancy": {
-          "value": 9,
+          "value": 18,
           "date": "2026-04-05",
-          "effective_value": 9
+          "effective_value": 18
         },
         "kei": {
-          "value": 27,
+          "value": 22,
           "date": "2026-04-05",
-          "effective_value": 27
+          "effective_value": 22
         },
         "chance": {
           "value": 73,
@@ -57,27 +57,27 @@
           "effective_value": 73
         }
       },
-      "voice": {
+      "subscriptions": {
         "rank": {
-          "value": null,
+          "value": 111,
           "date": "2026-04-05",
-          "effective_value": 501,
+          "effective_value": 111,
           "fetch_performed": true
         },
         "installs": {
-          "value": 0,
+          "value": 0.0,
           "date": "2026-04-05",
-          "effective_value": 0
+          "effective_value": 0.0
         },
         "relevancy": {
-          "value": 37,
+          "value": 28,
           "date": "2026-04-05",
-          "effective_value": 37
+          "effective_value": 28
         },
         "kei": {
-          "value": 92,
+          "value": 76,
           "date": "2026-04-05",
-          "effective_value": 92
+          "effective_value": 76
         },
         "chance": {
           "value": 73,
@@ -85,7 +85,7 @@
           "effective_value": 73
         }
       },
-      "country": {
+      "privacy": {
         "rank": {
           "value": null,
           "date": "2026-04-05",
@@ -113,7 +113,7 @@
           "effective_value": 73
         }
       },
-      "worldwide": {
+      "terms of service": {
         "rank": {
           "value": null,
           "date": "2026-04-05",
@@ -126,19 +126,445 @@
           "effective_value": 0
         },
         "relevancy": {
-          "value": 49,
+          "value": 32,
           "date": "2026-04-05",
-          "effective_value": 49
+          "effective_value": 32
         },
         "kei": {
-          "value": 26,
+          "value": 16,
           "date": "2026-04-05",
-          "effective_value": 26
+          "effective_value": 16
+        },
+        "chance": {
+          "value": 30,
+          "date": "2026-04-05",
+          "effective_value": 30
+        }
+      }
+    },
+    "enterprises.dating.boo": {
+      "algorithms": {
+        "rank": {
+          "value": null,
+          "date": "2026-04-05",
+          "effective_value": 501,
+          "fetch_performed": true
+        },
+        "installs": {
+          "value": 0,
+          "date": "2026-04-05",
+          "effective_value": 0
+        },
+        "relevancy": {
+          "value": 0,
+          "date": "2026-04-05",
+          "effective_value": 0
+        },
+        "kei": {
+          "value": 22,
+          "date": "2026-04-05",
+          "effective_value": 22
         },
         "chance": {
           "value": 73,
           "date": "2026-04-05",
           "effective_value": 73
+        }
+      },
+      "success stories": {
+        "rank": {
+          "value": null,
+          "date": "2026-04-05",
+          "effective_value": 501,
+          "fetch_performed": true
+        },
+        "installs": {
+          "value": 0,
+          "date": "2026-04-05",
+          "effective_value": 0
+        },
+        "relevancy": {
+          "value": 21,
+          "date": "2026-04-05",
+          "effective_value": 21
+        },
+        "kei": {
+          "value": 22,
+          "date": "2026-04-05",
+          "effective_value": 22
+        },
+        "chance": {
+          "value": 73,
+          "date": "2026-04-05",
+          "effective_value": 73
+        }
+      },
+      "subscriptions": {
+        "rank": {
+          "value": null,
+          "date": "2026-04-05",
+          "effective_value": 501,
+          "fetch_performed": true
+        },
+        "installs": {
+          "value": 0,
+          "date": "2026-04-05",
+          "effective_value": 0
+        },
+        "relevancy": {
+          "value": 25,
+          "date": "2026-04-05",
+          "effective_value": 25
+        },
+        "kei": {
+          "value": 76,
+          "date": "2026-04-05",
+          "effective_value": 76
+        },
+        "chance": {
+          "value": 73,
+          "date": "2026-04-05",
+          "effective_value": 73
+        }
+      },
+      "privacy": {
+        "rank": {
+          "value": null,
+          "date": "2026-04-05",
+          "effective_value": 501,
+          "fetch_performed": true
+        },
+        "installs": {
+          "value": 0,
+          "date": "2026-04-05",
+          "effective_value": 0
+        },
+        "relevancy": {
+          "value": 8,
+          "date": "2026-04-05",
+          "effective_value": 8
+        },
+        "kei": {
+          "value": 76,
+          "date": "2026-04-05",
+          "effective_value": 76
+        },
+        "chance": {
+          "value": 73,
+          "date": "2026-04-05",
+          "effective_value": 73
+        }
+      },
+      "terms of service": {
+        "rank": {
+          "value": null,
+          "date": "2026-04-05",
+          "effective_value": 501,
+          "fetch_performed": true
+        },
+        "installs": {
+          "value": 0,
+          "date": "2026-04-05",
+          "effective_value": 0
+        },
+        "relevancy": {
+          "value": 26,
+          "date": "2026-04-05",
+          "effective_value": 26
+        },
+        "kei": {
+          "value": 15,
+          "date": "2026-04-05",
+          "effective_value": 15
+        },
+        "chance": {
+          "value": 28,
+          "date": "2026-04-05",
+          "effective_value": 28
+        }
+      }
+    },
+    "com.nearme.wolf": {
+      "algorithms": {
+        "rank": {
+          "value": null,
+          "date": "2026-04-05",
+          "effective_value": 501,
+          "fetch_performed": true
+        },
+        "installs": {
+          "value": 0,
+          "date": "2026-04-05",
+          "effective_value": 0
+        },
+        "relevancy": {
+          "value": 0,
+          "date": "2026-04-05",
+          "effective_value": 0
+        },
+        "kei": {
+          "value": 22,
+          "date": "2026-04-05",
+          "effective_value": 22
+        },
+        "chance": {
+          "value": 73,
+          "date": "2026-04-05",
+          "effective_value": 73
+        }
+      },
+      "success stories": {
+        "rank": {
+          "value": null,
+          "date": "2026-04-05",
+          "effective_value": 501,
+          "fetch_performed": true
+        },
+        "installs": {
+          "value": 0,
+          "date": "2026-04-05",
+          "effective_value": 0
+        },
+        "relevancy": {
+          "value": 6,
+          "date": "2026-04-05",
+          "effective_value": 6
+        },
+        "kei": {
+          "value": 22,
+          "date": "2026-04-05",
+          "effective_value": 22
+        },
+        "chance": {
+          "value": 73,
+          "date": "2026-04-05",
+          "effective_value": 73
+        }
+      },
+      "subscriptions": {
+        "rank": {
+          "value": null,
+          "date": "2026-04-05",
+          "effective_value": 501,
+          "fetch_performed": true
+        },
+        "installs": {
+          "value": 0,
+          "date": "2026-04-05",
+          "effective_value": 0
+        },
+        "relevancy": {
+          "value": 28,
+          "date": "2026-04-05",
+          "effective_value": 28
+        },
+        "kei": {
+          "value": 76,
+          "date": "2026-04-05",
+          "effective_value": 76
+        },
+        "chance": {
+          "value": 73,
+          "date": "2026-04-05",
+          "effective_value": 73
+        }
+      },
+      "privacy": {
+        "rank": {
+          "value": null,
+          "date": "2026-04-05",
+          "effective_value": 501,
+          "fetch_performed": true
+        },
+        "installs": {
+          "value": 0,
+          "date": "2026-04-05",
+          "effective_value": 0
+        },
+        "relevancy": {
+          "value": 4,
+          "date": "2026-04-05",
+          "effective_value": 4
+        },
+        "kei": {
+          "value": 68,
+          "date": "2026-04-05",
+          "effective_value": 68
+        },
+        "chance": {
+          "value": 63,
+          "date": "2026-04-05",
+          "effective_value": 63
+        }
+      },
+      "terms of service": {
+        "rank": {
+          "value": null,
+          "date": "2026-04-05",
+          "effective_value": 501,
+          "fetch_performed": true
+        },
+        "installs": {
+          "value": 0,
+          "date": "2026-04-05",
+          "effective_value": 0
+        },
+        "relevancy": {
+          "value": 33,
+          "date": "2026-04-05",
+          "effective_value": 33
+        },
+        "kei": {
+          "value": 5,
+          "date": "2026-04-05",
+          "effective_value": 5
+        },
+        "chance": {
+          "value": 5,
+          "date": "2026-04-05",
+          "effective_value": 5
+        }
+      }
+    },
+    "com.badoo.mobile": {
+      "algorithms": {
+        "rank": {
+          "value": null,
+          "date": "2026-04-05",
+          "effective_value": 501,
+          "fetch_performed": true
+        },
+        "installs": {
+          "value": 0,
+          "date": "2026-04-05",
+          "effective_value": 0
+        },
+        "relevancy": {
+          "value": 0,
+          "date": "2026-04-05",
+          "effective_value": 0
+        },
+        "kei": {
+          "value": 22,
+          "date": "2026-04-05",
+          "effective_value": 22
+        },
+        "chance": {
+          "value": 73,
+          "date": "2026-04-05",
+          "effective_value": 73
+        }
+      },
+      "success stories": {
+        "rank": {
+          "value": null,
+          "date": "2026-04-05",
+          "effective_value": 501,
+          "fetch_performed": true
+        },
+        "installs": {
+          "value": 0,
+          "date": "2026-04-05",
+          "effective_value": 0
+        },
+        "relevancy": {
+          "value": 10,
+          "date": "2026-04-05",
+          "effective_value": 10
+        },
+        "kei": {
+          "value": 22,
+          "date": "2026-04-05",
+          "effective_value": 22
+        },
+        "chance": {
+          "value": 73,
+          "date": "2026-04-05",
+          "effective_value": 73
+        }
+      },
+      "subscriptions": {
+        "rank": {
+          "value": null,
+          "date": "2026-04-05",
+          "effective_value": 501,
+          "fetch_performed": true
+        },
+        "installs": {
+          "value": 0,
+          "date": "2026-04-05",
+          "effective_value": 0
+        },
+        "relevancy": {
+          "value": 26,
+          "date": "2026-04-05",
+          "effective_value": 26
+        },
+        "kei": {
+          "value": 76,
+          "date": "2026-04-05",
+          "effective_value": 76
+        },
+        "chance": {
+          "value": 73,
+          "date": "2026-04-05",
+          "effective_value": 73
+        }
+      },
+      "privacy": {
+        "rank": {
+          "value": 235,
+          "date": "2026-04-05",
+          "effective_value": 235,
+          "fetch_performed": true
+        },
+        "installs": {
+          "value": 0.0,
+          "date": "2026-04-05",
+          "effective_value": 0.0
+        },
+        "relevancy": {
+          "value": 4,
+          "date": "2026-04-05",
+          "effective_value": 4
+        },
+        "kei": {
+          "value": 76,
+          "date": "2026-04-05",
+          "effective_value": 76
+        },
+        "chance": {
+          "value": 73,
+          "date": "2026-04-05",
+          "effective_value": 73
+        }
+      },
+      "terms of service": {
+        "rank": {
+          "value": null,
+          "date": "2026-04-05",
+          "effective_value": 501,
+          "fetch_performed": true
+        },
+        "installs": {
+          "value": 0,
+          "date": "2026-04-05",
+          "effective_value": 0
+        },
+        "relevancy": {
+          "value": 33,
+          "date": "2026-04-05",
+          "effective_value": 33
+        },
+        "kei": {
+          "value": 7,
+          "date": "2026-04-05",
+          "effective_value": 7
+        },
+        "chance": {
+          "value": 9,
+          "date": "2026-04-05",
+          "effective_value": 9
         }
       }
     }
@@ -151,7 +577,10 @@
         "country": "us",
         "language": "us",
         "apps": [
-          "com.hubolabs.hubo"
+          "com.getpure.pure",
+          "enterprises.dating.boo",
+          "com.nearme.wolf",
+          "com.badoo.mobile"
         ],
         "metrics": [
           "rank",
@@ -161,15 +590,15 @@
           "chance"
         ],
         "keywords": [
-          "everyone",
-          "stories",
-          "voice",
-          "country",
-          "worldwide"
+          "algorithms",
+          "success stories",
+          "subscriptions",
+          "privacy",
+          "terms of service"
         ]
       },
-      "cost": 251,
-      "max_credit_cost": 251,
+      "cost": 1001,
+      "max_credit_cost": 1001,
       "status": 200
     },
     "response": null

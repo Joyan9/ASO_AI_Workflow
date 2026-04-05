@@ -14,6 +14,11 @@ from collections import defaultdict
 from pathlib import Path
 from typing import Dict, List, Tuple, Any
 from datetime import datetime
+import os
+import json
+from groq import Groq
+from typing import List, Dict, Any
+from dotenv import load_dotenv
 
 import nltk
 from nltk.corpus import stopwords
@@ -30,6 +35,8 @@ except LookupError:
     nltk.download('stopwords')
 
 import config
+
+load_dotenv()
 
 
 # Field weights for term extraction
@@ -291,6 +298,78 @@ def _remove_branded_terms(
     return filtered_gaps
 
 
+def _llm_cleanup_keywords(
+    gaps: List[Dict[str, Any]], 
+    your_app_metadata: Dict[str, Any], 
+    competitor_metadata: Dict[str, Dict[str, Any]],
+    target_count: int = 50
+) -> List[str]:
+    """
+    Passes the top raw n-gram gaps to a Groq LLM for semantic cleanup, 
+    deduplication, and intelligent brand filtering.
+    """
+    print(f"[SEEDS] Triggering LLM cleanup for top {len(gaps)} raw terms...")
+    
+    client = Groq(api_key=os.environ.get("GROQ_API_KEY"))
+    
+    # 1. Gather Context
+    your_app_name = your_app_metadata.get("title", "Our App")
+    competitor_names = [meta.get("title", "") for meta in competitor_metadata.values()]
+    
+    # Extract just the terms to send to the LLM (send a healthy batch to give it options)
+    raw_terms = [gap["term"] for gap in gaps[:150]] 
+    
+    # 2. Build the Prompt
+    system_prompt = (
+        "You are an expert App Store Optimization (ASO) analyst. "
+        "Your task is to take a raw list of n-gram keyword gaps extracted from competitor app descriptions "
+        "and clean them into a high-quality list of target keywords."
+    )
+    
+    user_prompt = f"""
+    My App Name: {your_app_name}
+    Competitor App Names: {', '.join(competitor_names)}
+
+    Raw Extracted Terms:
+    {json.dumps(raw_terms)}
+
+    Rules:
+    1. Remove ANY brand names, developer names, or trademarked terms.
+    2. Remove nonsensical grammatical fragments (e.g., "app allows to", "the new").
+    3. Group synonyms and keep the most natural, highly-searched variation.
+    4. Focus on actual app features, use cases, and user intent.
+    5. Return a maximum of {target_count} refined keywords.
+
+    Output format: You MUST output ONLY a valid JSON object with a single key "keywords" containing a list of strings. 
+    Do not include markdown blocks, greetings, or explanations.
+    Example: {{"keywords": ["dating app", "meet locals", "video chat"]}}
+    """
+
+    try:
+        completion = client.chat.completions.create(
+            model="llama-3.3-70b-versatile", # 70b is highly recommended for strict JSON adherence
+            messages=[
+                {"role": "system", "content": system_prompt},
+                {"role": "user", "content": user_prompt}
+            ],
+            temperature=0.1, # Keep temperature low for deterministic formatting
+            max_completion_tokens=1024,
+            response_format={"type": "json_object"} # Forces Groq to return valid JSON
+        )
+        
+        response_text = completion.choices[0].message.content
+        result = json.loads(response_text)
+        
+        cleaned_keywords = result.get("keywords", [])
+        print(f"[SEEDS] LLM successfully returned {len(cleaned_keywords)} cleaned keywords.")
+        return cleaned_keywords
+
+    except Exception as e:
+        print(f"[SEEDS] LLM cleanup failed: {e}")
+        print("[SEEDS] Falling back to raw n-gram list.")
+        # Fallback to the raw list if the API fails or rate limits
+        return [gap["term"] for gap in gaps[:target_count]]
+
 def generate_seeds(your_app_id: str, platform: str) -> List[str]:
     """
     Generate keyword seed list from n-gram extraction.
@@ -351,23 +430,23 @@ def generate_seeds(your_app_id: str, platform: str) -> List[str]:
     )
     print(f"[SEEDS] Built corpus with {len(corpus)} unique terms")
     
-    # Filter to gaps
     print("[SEEDS] Filtering to gap terms...")
     gaps = _filter_gaps(corpus)
     print(f"[SEEDS] Found {len(gaps)} gap terms")
     
-    # Remove branded terms
-    print("[SEEDS] Removing branded terms...")
+    # Remove obvious branded terms (Keep this as a pre-filter to save LLM tokens!)
+    print("[SEEDS] Removing obvious branded terms...")
     gaps = _remove_branded_terms(gaps, your_app_metadata, competitor_metadata)
-    print(f"[SEEDS] Retained {len(gaps)} after removing branded terms")
+    print(f"[SEEDS] Retained {len(gaps)} after initial brand filter")
     
-    # Cap at MAX_SEED_KEYWORDS
-    capped_gaps = gaps[:config.MAX_SEED_KEYWORDS]
-    if len(gaps) > len(capped_gaps):
-        print(f"[SEEDS] Capped at {config.MAX_SEED_KEYWORDS} seeds (was {len(gaps)})")
-    
-    # Extract just the term strings
-    seed_keywords = [gap["term"] for gap in capped_gaps]
+    # --- NEW LLM CLEANUP STEP ---
+    # We send the top 150 to the LLM and ask for MAX_SEED_KEYWORDS back
+    seed_keywords = _llm_cleanup_keywords(
+        gaps=gaps, 
+        your_app_metadata=your_app_metadata, 
+        competitor_metadata=competitor_metadata,
+        target_count=config.MAX_SEED_KEYWORDS
+    )
     
     # Save seeds to JSON before making API calls
     output_dir = Path(config.DATA_RAW_DIR)
@@ -381,6 +460,7 @@ def generate_seeds(your_app_id: str, platform: str) -> List[str]:
             "generated_at": datetime.now().isoformat(),
             "total_terms": len(gaps),
             "seeds_capped": len(seed_keywords),
+            "llm_filtered": True # Good to track in your meta
         },
         "seeds": seed_keywords,
     }
@@ -537,7 +617,6 @@ def transform_track_a(
     
     This function kept for backward compatibility only.
     """
-    print("[TRANSFORM] Using legacy transform_track_a (deprecated)")
     print("[TRANSFORM] Use generate_seeds() and compute_gaps_from_rankings() for new flow")
     
     # Generate seeds and return as fallback

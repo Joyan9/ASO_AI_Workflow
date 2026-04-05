@@ -3,10 +3,10 @@
     "app_id": "com.tinder",
     "platform": "android",
     "country": "us",
-    "run_date": "2026-04-05T08:38:37.019269",
-    "seeds_generated": 50,
-    "seeds_with_ranking_data": 50,
-    "gaps_identified": 17
+    "run_date": "2026-04-05T16:19:56.809330",
+    "seeds_generated": 35,
+    "seeds_with_ranking_data": 35,
+    "gaps_identified": 4
   },
   "your_app": {
     "title": "Tinder Dating App: Chat & Date",
@@ -15,306 +15,123 @@
   },
   "keyword_gaps": [
     {
-      "term": "communication",
-      "primary_competitor_count": 3,
-      "secondary_competitor_count": 0,
-      "your_app_ranked": false,
-      "top_competitor_rank": 223,
-      "avg_rank": 229.33333333333334,
-      "avg_installs": 0.0,
-      "avg_relevancy": 36.333333333333336,
-      "avg_kei": 25.333333333333332,
-      "source_apps": [
-        "com.sgiggle.production",
-        "com.litatom.app",
-        "com.talkin.learn"
-      ]
-    },
-    {
-      "term": "explore real",
+      "term": "meaningful connections",
       "primary_competitor_count": 2,
-      "secondary_competitor_count": 0,
+      "secondary_competitor_count": 1,
       "your_app_ranked": false,
-      "top_competitor_rank": 13,
-      "avg_rank": 25.0,
+      "top_competitor_rank": 19,
+      "avg_rank": 48.666666666666664,
       "avg_installs": 0.0,
-      "avg_relevancy": 16.0,
-      "avg_kei": 12.0,
-      "source_apps": [
-        "com.sgiggle.production",
-        "com.talkin.learn"
-      ]
-    },
-    {
-      "term": "users",
-      "primary_competitor_count": 2,
-      "secondary_competitor_count": 0,
-      "your_app_ranked": false,
-      "top_competitor_rank": 90,
-      "avg_rank": 92.0,
-      "avg_installs": 0.0,
-      "avg_relevancy": 34.5,
+      "avg_relevancy": 69.0,
       "avg_kei": 22.0,
       "source_apps": [
-        "com.sgiggle.production",
-        "com.litatom.app"
+        "co.hinge.app",
+        "com.bumble.app",
+        "com.hily.app"
       ]
     },
     {
-      "term": "different",
-      "primary_competitor_count": 1,
-      "secondary_competitor_count": 0,
+      "term": "compatibility",
+      "primary_competitor_count": 0,
+      "secondary_competitor_count": 2,
       "your_app_ranked": false,
-      "top_competitor_rank": 59,
-      "avg_rank": 59.0,
+      "top_competitor_rank": 51,
+      "avg_rank": 57.0,
       "avg_installs": 0.0,
-      "avg_relevancy": 12.0,
+      "avg_relevancy": 38.0,
       "avg_kei": 34.0,
       "source_apps": [
-        "com.talkin.learn"
+        "com.hily.app",
+        "enterprises.dating.boo"
       ]
     },
     {
-      "term": "discover",
-      "primary_competitor_count": 1,
-      "secondary_competitor_count": 0,
+      "term": "inclusivity",
+      "primary_competitor_count": 0,
+      "secondary_competitor_count": 1,
       "your_app_ranked": false,
-      "top_competitor_rank": 135,
-      "avg_rank": 135.0,
+      "top_competitor_rank": 17,
+      "avg_rank": 17.0,
       "avg_installs": 0.0,
-      "avg_relevancy": 17.0,
-      "avg_kei": 94.0,
-      "source_apps": [
-        "com.sgiggle.production"
-      ]
-    },
-    {
-      "term": "feedback",
-      "primary_competitor_count": 1,
-      "secondary_competitor_count": 0,
-      "your_app_ranked": false,
-      "top_competitor_rank": 79,
-      "avg_rank": 79.0,
-      "avg_installs": 0.0,
-      "avg_relevancy": 23.0,
+      "avg_relevancy": 59.0,
       "avg_kei": 22.0,
       "source_apps": [
-        "com.litatom.app"
+        "com.badoo.mobile"
       ]
     },
     {
-      "term": "interact",
-      "primary_competitor_count": 1,
-      "secondary_competitor_count": 0,
+      "term": "subscriptions",
+      "primary_competitor_count": 0,
+      "secondary_competitor_count": 1,
       "your_app_ranked": false,
-      "top_competitor_rank": 44,
-      "avg_rank": 44.0,
+      "top_competitor_rank": 111,
+      "avg_rank": 111.0,
       "avg_installs": 0.0,
-      "avg_relevancy": 49.0,
-      "avg_kei": 22.0,
+      "avg_relevancy": 28.0,
+      "avg_kei": 76.0,
       "source_apps": [
-        "com.talkin.learn"
-      ]
-    },
-    {
-      "term": "interactive",
-      "primary_competitor_count": 1,
-      "secondary_competitor_count": 0,
-      "your_app_ranked": false,
-      "top_competitor_rank": 118,
-      "avg_rank": 118.0,
-      "avg_installs": 0.0,
-      "avg_relevancy": 18.0,
-      "avg_kei": 22.0,
-      "source_apps": [
-        "com.sgiggle.production"
-      ]
-    },
-    {
-      "term": "interactive features",
-      "primary_competitor_count": 1,
-      "secondary_competitor_count": 0,
-      "your_app_ranked": false,
-      "top_competitor_rank": 115,
-      "avg_rank": 115.0,
-      "avg_installs": 0.0,
-      "avg_relevancy": 23.0,
-      "avg_kei": 22.0,
-      "source_apps": [
-        "com.sgiggle.production"
-      ]
-    },
-    {
-      "term": "language",
-      "primary_competitor_count": 1,
-      "secondary_competitor_count": 0,
-      "your_app_ranked": false,
-      "top_competitor_rank": 32,
-      "avg_rank": 32.0,
-      "avg_installs": 0.0,
-      "avg_relevancy": 25.0,
-      "avg_kei": 80.0,
-      "source_apps": [
-        "com.talkin.learn"
-      ]
-    },
-    {
-      "term": "languages",
-      "primary_competitor_count": 1,
-      "secondary_competitor_count": 0,
-      "your_app_ranked": false,
-      "top_competitor_rank": 31,
-      "avg_rank": 31.0,
-      "avg_installs": 0.0,
-      "avg_relevancy": 32.0,
-      "avg_kei": 25.0,
-      "source_apps": [
-        "com.talkin.learn"
-      ]
-    },
-    {
-      "term": "life",
-      "primary_competitor_count": 1,
-      "secondary_competitor_count": 0,
-      "your_app_ranked": false,
-      "top_competitor_rank": 144,
-      "avg_rank": 144.0,
-      "avg_installs": 0.0,
-      "avg_relevancy": 20.0,
-      "avg_kei": 87.0,
-      "source_apps": [
-        "com.sgiggle.production"
-      ]
-    },
-    {
-      "term": "moments",
-      "primary_competitor_count": 1,
-      "secondary_competitor_count": 0,
-      "your_app_ranked": false,
-      "top_competitor_rank": 122,
-      "avg_rank": 122.0,
-      "avg_installs": 0.0,
-      "avg_relevancy": 33.0,
-      "avg_kei": 22.0,
-      "source_apps": [
-        "com.talkin.learn"
-      ]
-    },
-    {
-      "term": "support",
-      "primary_competitor_count": 1,
-      "secondary_competitor_count": 0,
-      "your_app_ranked": false,
-      "top_competitor_rank": 142,
-      "avg_rank": 142.0,
-      "avg_installs": 0.0,
-      "avg_relevancy": 18.0,
-      "avg_kei": 78.0,
-      "source_apps": [
-        "com.sgiggle.production"
-      ]
-    },
-    {
-      "term": "talents",
-      "primary_competitor_count": 1,
-      "secondary_competitor_count": 0,
-      "your_app_ranked": false,
-      "top_competitor_rank": 98,
-      "avg_rank": 98.0,
-      "avg_installs": 0.0,
-      "avg_relevancy": 33.0,
-      "avg_kei": 22.0,
-      "source_apps": [
-        "com.sgiggle.production"
-      ]
-    },
-    {
-      "term": "tiktok",
-      "primary_competitor_count": 1,
-      "secondary_competitor_count": 0,
-      "your_app_ranked": false,
-      "top_competitor_rank": 35,
-      "avg_rank": 35.0,
-      "avg_installs": 0.0,
-      "avg_relevancy": 54.0,
-      "avg_kei": 86.0,
-      "source_apps": [
-        "com.sgiggle.production"
-      ]
-    },
-    {
-      "term": "worldwide",
-      "primary_competitor_count": 1,
-      "secondary_competitor_count": 0,
-      "your_app_ranked": false,
-      "top_competitor_rank": 40,
-      "avg_rank": 40.0,
-      "avg_installs": 0.0,
-      "avg_relevancy": 51.0,
-      "avg_kei": 26.0,
-      "source_apps": [
-        "com.sgiggle.production"
+        "com.getpure.pure"
       ]
     }
   ],
   "competitor_summary": [
     {
-      "app_id": "com.sgiggle.production",
-      "name": "Tango: Live Stream, Video Chat",
+      "app_id": "co.hinge.app",
+      "name": "Hinge Dating App: Match & Date",
       "tier": "primary",
-      "gaps_ranked_for": 11
+      "gaps_ranked_for": 1
     },
     {
-      "app_id": "com.litatom.app",
-      "name": "Litmatch\u2014Make new friends",
+      "app_id": "com.bumble.app",
+      "name": "Bumble Dating App: Meet & Date",
       "tier": "primary",
-      "gaps_ranked_for": 3
+      "gaps_ranked_for": 1
     },
     {
-      "app_id": "com.talkin.learn",
-      "name": "Talkin: Global Friends & Chat",
+      "app_id": "com.doni.appa",
+      "name": "Doni: Start Real Companionship",
       "tier": "primary",
-      "gaps_ranked_for": 7
+      "gaps_ranked_for": 0
     },
     {
-      "app_id": "com.meetup",
-      "name": "Meetup: Social Events & Groups",
+      "app_id": "com.hily.app",
+      "name": "Hily Dating app: Meet & Date",
+      "tier": "secondary",
+      "gaps_ranked_for": 2
+    },
+    {
+      "app_id": "com.getpure.pure",
+      "name": "PURE: Anonymous Dating & Chat",
+      "tier": "secondary",
+      "gaps_ranked_for": 1
+    },
+    {
+      "app_id": "enterprises.dating.boo",
+      "name": "Boo: Dating. Friends. Chat.",
+      "tier": "secondary",
+      "gaps_ranked_for": 1
+    },
+    {
+      "app_id": "com.nearme.wolf",
+      "name": "Nearme:Chat&Date",
       "tier": "secondary",
       "gaps_ranked_for": 0
     },
     {
-      "app_id": "com.hubolabs.hubo",
-      "name": "purp - Make new friends",
+      "app_id": "com.badoo.mobile",
+      "name": "Badoo Dating App: Meet & Date",
+      "tier": "secondary",
+      "gaps_ranked_for": 1
+    },
+    {
+      "app_id": "com.pof.android",
+      "name": "Plenty of Fish : Dating App",
       "tier": "secondary",
       "gaps_ranked_for": 0
     },
     {
-      "app_id": "com.dior.kFriends",
-      "name": "K-Friends - Make Korean Friend",
-      "tier": "secondary",
-      "gaps_ranked_for": 0
-    },
-    {
-      "app_id": "com.reddit.frontpage",
-      "name": "Reddit",
-      "tier": "secondary",
-      "gaps_ranked_for": 0
-    },
-    {
-      "app_id": "com.dazz.hoop",
-      "name": "Hoop - Make new friends",
-      "tier": "secondary",
-      "gaps_ranked_for": 0
-    },
-    {
-      "app_id": "com.gemtechnologies.gem4me",
-      "name": "Online chat, calls - Gem Space",
-      "tier": "secondary",
-      "gaps_ranked_for": 0
-    },
-    {
-      "app_id": "xyz.blueskyweb.app",
-      "name": "Bluesky",
+      "app_id": "com.qiga.vio",
+      "name": "Jovia Dating app: Meet & Date",
       "tier": "secondary",
       "gaps_ranked_for": 0
     }

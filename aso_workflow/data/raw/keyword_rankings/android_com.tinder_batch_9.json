@@ -1,22 +1,50 @@
 {
   "result": {
-    "com.tinder": {
-      "talents": {
+    "com.getpure.pure": {
+      "video chat": {
         "rank": {
           "value": null,
-          "date": "2026-04-04",
+          "date": "2026-04-05",
           "effective_value": 501,
           "fetch_performed": true
         },
         "installs": {
           "value": 0,
-          "date": "2026-04-04",
+          "date": "2026-04-05",
           "effective_value": 0
         },
         "relevancy": {
-          "value": 32,
+          "value": 59,
           "date": "2026-04-05",
-          "effective_value": 32
+          "effective_value": 59
+        },
+        "kei": {
+          "value": 69,
+          "date": "2026-04-05",
+          "effective_value": 69
+        },
+        "chance": {
+          "value": 57,
+          "date": "2026-04-05",
+          "effective_value": 57
+        }
+      },
+      "queer dating": {
+        "rank": {
+          "value": 22,
+          "date": "2026-04-05",
+          "effective_value": 22,
+          "fetch_performed": true
+        },
+        "installs": {
+          "value": 0.0,
+          "date": "2026-04-05",
+          "effective_value": 0.0
+        },
+        "relevancy": {
+          "value": 92,
+          "date": "2026-04-05",
+          "effective_value": 92
         },
         "kei": {
           "value": 22,
@@ -29,7 +57,291 @@
           "effective_value": 73
         }
       },
-      "seamless": {
+      "compatibility": {
+        "rank": {
+          "value": null,
+          "date": "2026-04-05",
+          "effective_value": 501,
+          "fetch_performed": true
+        },
+        "installs": {
+          "value": 0,
+          "date": "2026-04-05",
+          "effective_value": 0
+        },
+        "relevancy": {
+          "value": 36,
+          "date": "2026-04-05",
+          "effective_value": 36
+        },
+        "kei": {
+          "value": 34,
+          "date": "2026-04-05",
+          "effective_value": 34
+        },
+        "chance": {
+          "value": 73,
+          "date": "2026-04-05",
+          "effective_value": 73
+        }
+      },
+      "meaningful connections": {
+        "rank": {
+          "value": null,
+          "date": "2026-04-05",
+          "effective_value": 501,
+          "fetch_performed": true
+        },
+        "installs": {
+          "value": 0,
+          "date": "2026-04-05",
+          "effective_value": 0
+        },
+        "relevancy": {
+          "value": 64,
+          "date": "2026-04-05",
+          "effective_value": 64
+        },
+        "kei": {
+          "value": 22,
+          "date": "2026-04-05",
+          "effective_value": 22
+        },
+        "chance": {
+          "value": 73,
+          "date": "2026-04-05",
+          "effective_value": 73
+        }
+      },
+      "casual dating": {
+        "rank": {
+          "value": 30,
+          "date": "2026-04-05",
+          "effective_value": 30,
+          "fetch_performed": true
+        },
+        "installs": {
+          "value": 0.0,
+          "date": "2026-04-05",
+          "effective_value": 0.0
+        },
+        "relevancy": {
+          "value": 85,
+          "date": "2026-04-05",
+          "effective_value": 85
+        },
+        "kei": {
+          "value": 22,
+          "date": "2026-04-05",
+          "effective_value": 22
+        },
+        "chance": {
+          "value": 73,
+          "date": "2026-04-05",
+          "effective_value": 73
+        }
+      }
+    },
+    "enterprises.dating.boo": {
+      "video chat": {
+        "rank": {
+          "value": null,
+          "date": "2026-04-05",
+          "effective_value": 501,
+          "fetch_performed": true
+        },
+        "installs": {
+          "value": 0,
+          "date": "2026-04-05",
+          "effective_value": 0
+        },
+        "relevancy": {
+          "value": 63,
+          "date": "2026-04-05",
+          "effective_value": 63
+        },
+        "kei": {
+          "value": 67,
+          "date": "2026-04-05",
+          "effective_value": 67
+        },
+        "chance": {
+          "value": 54,
+          "date": "2026-04-05",
+          "effective_value": 54
+        }
+      },
+      "queer dating": {
+        "rank": {
+          "value": 40,
+          "date": "2026-04-05",
+          "effective_value": 40,
+          "fetch_performed": true
+        },
+        "installs": {
+          "value": 0.0,
+          "date": "2026-04-05",
+          "effective_value": 0.0
+        },
+        "relevancy": {
+          "value": 91,
+          "date": "2026-04-05",
+          "effective_value": 91
+        },
+        "kei": {
+          "value": 22,
+          "date": "2026-04-05",
+          "effective_value": 22
+        },
+        "chance": {
+          "value": 73,
+          "date": "2026-04-05",
+          "effective_value": 73
+        }
+      },
+      "compatibility": {
+        "rank": {
+          "value": 51,
+          "date": "2026-04-05",
+          "effective_value": 51,
+          "fetch_performed": true
+        },
+        "installs": {
+          "value": 0.0,
+          "date": "2026-04-05",
+          "effective_value": 0.0
+        },
+        "relevancy": {
+          "value": 43,
+          "date": "2026-04-05",
+          "effective_value": 43
+        },
+        "kei": {
+          "value": 34,
+          "date": "2026-04-05",
+          "effective_value": 34
+        },
+        "chance": {
+          "value": 73,
+          "date": "2026-04-05",
+          "effective_value": 73
+        }
+      },
+      "meaningful connections": {
+        "rank": {
+          "value": null,
+          "date": "2026-04-05",
+          "effective_value": 501,
+          "fetch_performed": true
+        },
+        "installs": {
+          "value": 0,
+          "date": "2026-04-05",
+          "effective_value": 0
+        },
+        "relevancy": {
+          "value": 69,
+          "date": "2026-04-05",
+          "effective_value": 69
+        },
+        "kei": {
+          "value": 22,
+          "date": "2026-04-05",
+          "effective_value": 22
+        },
+        "chance": {
+          "value": 73,
+          "date": "2026-04-05",
+          "effective_value": 73
+        }
+      },
+      "casual dating": {
+        "rank": {
+          "value": 62,
+          "date": "2026-04-05",
+          "effective_value": 62,
+          "fetch_performed": true
+        },
+        "installs": {
+          "value": 0.0,
+          "date": "2026-04-05",
+          "effective_value": 0.0
+        },
+        "relevancy": {
+          "value": 85,
+          "date": "2026-04-05",
+          "effective_value": 85
+        },
+        "kei": {
+          "value": 22,
+          "date": "2026-04-05",
+          "effective_value": 22
+        },
+        "chance": {
+          "value": 73,
+          "date": "2026-04-05",
+          "effective_value": 73
+        }
+      }
+    },
+    "com.nearme.wolf": {
+      "video chat": {
+        "rank": {
+          "value": null,
+          "date": "2026-04-05",
+          "effective_value": 501,
+          "fetch_performed": true
+        },
+        "installs": {
+          "value": 0,
+          "date": "2026-04-05",
+          "effective_value": 0
+        },
+        "relevancy": {
+          "value": 55,
+          "date": "2026-04-05",
+          "effective_value": 55
+        },
+        "kei": {
+          "value": 34,
+          "date": "2026-04-05",
+          "effective_value": 34
+        },
+        "chance": {
+          "value": 18,
+          "date": "2026-04-05",
+          "effective_value": 18
+        }
+      },
+      "queer dating": {
+        "rank": {
+          "value": null,
+          "date": "2026-04-05",
+          "effective_value": 501,
+          "fetch_performed": true
+        },
+        "installs": {
+          "value": 0,
+          "date": "2026-04-05",
+          "effective_value": 0
+        },
+        "relevancy": {
+          "value": 67,
+          "date": "2026-04-05",
+          "effective_value": 67
+        },
+        "kei": {
+          "value": 12,
+          "date": "2026-04-05",
+          "effective_value": 12
+        },
+        "chance": {
+          "value": 40,
+          "date": "2026-04-05",
+          "effective_value": 40
+        }
+      },
+      "compatibility": {
         "rank": {
           "value": null,
           "date": "2026-04-05",
@@ -47,9 +359,9 @@
           "effective_value": 23
         },
         "kei": {
-          "value": 76,
+          "value": 34,
           "date": "2026-04-05",
-          "effective_value": 76
+          "effective_value": 34
         },
         "chance": {
           "value": 73,
@@ -57,7 +369,7 @@
           "effective_value": 73
         }
       },
-      "rooms": {
+      "meaningful connections": {
         "rank": {
           "value": null,
           "date": "2026-04-05",
@@ -70,14 +382,14 @@
           "effective_value": 0
         },
         "relevancy": {
-          "value": 44,
+          "value": 61,
           "date": "2026-04-05",
-          "effective_value": 44
+          "effective_value": 61
         },
         "kei": {
-          "value": 85,
+          "value": 22,
           "date": "2026-04-05",
-          "effective_value": 85
+          "effective_value": 22
         },
         "chance": {
           "value": 73,
@@ -85,7 +397,7 @@
           "effective_value": 73
         }
       },
-      "globe": {
+      "casual dating": {
         "rank": {
           "value": null,
           "date": "2026-04-05",
@@ -98,306 +410,80 @@
           "effective_value": 0
         },
         "relevancy": {
-          "value": 9,
+          "value": 62,
           "date": "2026-04-05",
-          "effective_value": 9
+          "effective_value": 62
         },
         "kei": {
-          "value": 74,
+          "value": 17,
           "date": "2026-04-05",
-          "effective_value": 74
+          "effective_value": 17
         },
         "chance": {
-          "value": 73,
+          "value": 58,
           "date": "2026-04-05",
-          "effective_value": 73
-        }
-      },
-      "barriers": {
-        "rank": {
-          "value": null,
-          "date": "2026-04-05",
-          "effective_value": 501,
-          "fetch_performed": true
-        },
-        "installs": {
-          "value": 0,
-          "date": "2026-04-05",
-          "effective_value": 0
-        },
-        "relevancy": {
-          "value": 33,
-          "date": "2026-04-05",
-          "effective_value": 33
-        },
-        "kei": {
-          "value": 27,
-          "date": "2026-04-05",
-          "effective_value": 27
-        },
-        "chance": {
-          "value": 73,
-          "date": "2026-04-05",
-          "effective_value": 73
+          "effective_value": 58
         }
       }
     },
-    "com.sgiggle.production": {
-      "talents": {
+    "com.badoo.mobile": {
+      "video chat": {
         "rank": {
-          "value": 98,
-          "date": "2026-04-04",
-          "effective_value": 98,
+          "value": null,
+          "date": "2026-04-05",
+          "effective_value": 501,
+          "fetch_performed": true
+        },
+        "installs": {
+          "value": 0,
+          "date": "2026-04-05",
+          "effective_value": 0
+        },
+        "relevancy": {
+          "value": 60,
+          "date": "2026-04-05",
+          "effective_value": 60
+        },
+        "kei": {
+          "value": 42,
+          "date": "2026-04-05",
+          "effective_value": 42
+        },
+        "chance": {
+          "value": 27,
+          "date": "2026-04-05",
+          "effective_value": 27
+        }
+      },
+      "queer dating": {
+        "rank": {
+          "value": 44,
+          "date": "2026-04-05",
+          "effective_value": 44,
           "fetch_performed": true
         },
         "installs": {
           "value": 0.0,
-          "date": "2026-04-04",
+          "date": "2026-04-05",
           "effective_value": 0.0
         },
         "relevancy": {
-          "value": 33,
+          "value": 84,
           "date": "2026-04-05",
-          "effective_value": 33
+          "effective_value": 84
         },
         "kei": {
-          "value": 22,
+          "value": 15,
           "date": "2026-04-05",
-          "effective_value": 22
+          "effective_value": 15
         },
         "chance": {
-          "value": 73,
+          "value": 50,
           "date": "2026-04-05",
-          "effective_value": 73
+          "effective_value": 50
         }
       },
-      "seamless": {
-        "rank": {
-          "value": null,
-          "date": "2026-04-05",
-          "effective_value": 501,
-          "fetch_performed": true
-        },
-        "installs": {
-          "value": 0,
-          "date": "2026-04-05",
-          "effective_value": 0
-        },
-        "relevancy": {
-          "value": 14,
-          "date": "2026-04-05",
-          "effective_value": 14
-        },
-        "kei": {
-          "value": 76,
-          "date": "2026-04-05",
-          "effective_value": 76
-        },
-        "chance": {
-          "value": 73,
-          "date": "2026-04-05",
-          "effective_value": 73
-        }
-      },
-      "rooms": {
-        "rank": {
-          "value": null,
-          "date": "2026-04-05",
-          "effective_value": 501,
-          "fetch_performed": true
-        },
-        "installs": {
-          "value": 0,
-          "date": "2026-04-05",
-          "effective_value": 0
-        },
-        "relevancy": {
-          "value": 44,
-          "date": "2026-04-05",
-          "effective_value": 44
-        },
-        "kei": {
-          "value": 85,
-          "date": "2026-04-05",
-          "effective_value": 85
-        },
-        "chance": {
-          "value": 73,
-          "date": "2026-04-05",
-          "effective_value": 73
-        }
-      },
-      "globe": {
-        "rank": {
-          "value": null,
-          "date": "2026-04-05",
-          "effective_value": 501,
-          "fetch_performed": true
-        },
-        "installs": {
-          "value": 0,
-          "date": "2026-04-05",
-          "effective_value": 0
-        },
-        "relevancy": {
-          "value": 24,
-          "date": "2026-04-05",
-          "effective_value": 24
-        },
-        "kei": {
-          "value": 74,
-          "date": "2026-04-05",
-          "effective_value": 74
-        },
-        "chance": {
-          "value": 73,
-          "date": "2026-04-05",
-          "effective_value": 73
-        }
-      },
-      "barriers": {
-        "rank": {
-          "value": null,
-          "date": "2026-04-05",
-          "effective_value": 501,
-          "fetch_performed": true
-        },
-        "installs": {
-          "value": 0,
-          "date": "2026-04-05",
-          "effective_value": 0
-        },
-        "relevancy": {
-          "value": 19,
-          "date": "2026-04-05",
-          "effective_value": 19
-        },
-        "kei": {
-          "value": 27,
-          "date": "2026-04-05",
-          "effective_value": 27
-        },
-        "chance": {
-          "value": 73,
-          "date": "2026-04-05",
-          "effective_value": 73
-        }
-      }
-    },
-    "com.litatom.app": {
-      "talents": {
-        "rank": {
-          "value": null,
-          "date": "2026-04-04",
-          "effective_value": 501,
-          "fetch_performed": true
-        },
-        "installs": {
-          "value": 0,
-          "date": "2026-04-04",
-          "effective_value": 0
-        },
-        "relevancy": {
-          "value": 36,
-          "date": "2026-04-05",
-          "effective_value": 36
-        },
-        "kei": {
-          "value": 22,
-          "date": "2026-04-05",
-          "effective_value": 22
-        },
-        "chance": {
-          "value": 73,
-          "date": "2026-04-05",
-          "effective_value": 73
-        }
-      },
-      "seamless": {
-        "rank": {
-          "value": null,
-          "date": "2026-04-05",
-          "effective_value": 501,
-          "fetch_performed": true
-        },
-        "installs": {
-          "value": 0,
-          "date": "2026-04-05",
-          "effective_value": 0
-        },
-        "relevancy": {
-          "value": 11,
-          "date": "2026-04-05",
-          "effective_value": 11
-        },
-        "kei": {
-          "value": 76,
-          "date": "2026-04-05",
-          "effective_value": 76
-        },
-        "chance": {
-          "value": 73,
-          "date": "2026-04-05",
-          "effective_value": 73
-        }
-      },
-      "rooms": {
-        "rank": {
-          "value": null,
-          "date": "2026-04-05",
-          "effective_value": 501,
-          "fetch_performed": true
-        },
-        "installs": {
-          "value": 0,
-          "date": "2026-04-05",
-          "effective_value": 0
-        },
-        "relevancy": {
-          "value": 45,
-          "date": "2026-04-05",
-          "effective_value": 45
-        },
-        "kei": {
-          "value": 85,
-          "date": "2026-04-05",
-          "effective_value": 85
-        },
-        "chance": {
-          "value": 73,
-          "date": "2026-04-05",
-          "effective_value": 73
-        }
-      },
-      "globe": {
-        "rank": {
-          "value": null,
-          "date": "2026-04-05",
-          "effective_value": 501,
-          "fetch_performed": true
-        },
-        "installs": {
-          "value": 0,
-          "date": "2026-04-05",
-          "effective_value": 0
-        },
-        "relevancy": {
-          "value": 9,
-          "date": "2026-04-05",
-          "effective_value": 9
-        },
-        "kei": {
-          "value": 74,
-          "date": "2026-04-05",
-          "effective_value": 74
-        },
-        "chance": {
-          "value": 73,
-          "date": "2026-04-05",
-          "effective_value": 73
-        }
-      },
-      "barriers": {
+      "compatibility": {
         "rank": {
           "value": null,
           "date": "2026-04-05",
@@ -415,34 +501,32 @@
           "effective_value": 30
         },
         "kei": {
-          "value": 27,
+          "value": 34,
           "date": "2026-04-05",
-          "effective_value": 27
+          "effective_value": 34
         },
         "chance": {
           "value": 73,
           "date": "2026-04-05",
           "effective_value": 73
         }
-      }
-    },
-    "com.talkin.learn": {
-      "talents": {
+      },
+      "meaningful connections": {
         "rank": {
           "value": null,
-          "date": "2026-04-04",
+          "date": "2026-04-05",
           "effective_value": 501,
           "fetch_performed": true
         },
         "installs": {
           "value": 0,
-          "date": "2026-04-04",
+          "date": "2026-04-05",
           "effective_value": 0
         },
         "relevancy": {
-          "value": 35,
+          "value": 63,
           "date": "2026-04-05",
-          "effective_value": 35
+          "effective_value": 63
         },
         "kei": {
           "value": 22,
@@ -455,258 +539,32 @@
           "effective_value": 73
         }
       },
-      "seamless": {
+      "casual dating": {
         "rank": {
-          "value": null,
-          "date": "2026-04-05",
-          "effective_value": 501,
-          "fetch_performed": true
-        },
-        "installs": {
-          "value": 0,
-          "date": "2026-04-05",
-          "effective_value": 0
-        },
-        "relevancy": {
-          "value": 10,
-          "date": "2026-04-05",
-          "effective_value": 10
-        },
-        "kei": {
           "value": 76,
           "date": "2026-04-05",
-          "effective_value": 76
-        },
-        "chance": {
-          "value": 73,
-          "date": "2026-04-05",
-          "effective_value": 73
-        }
-      },
-      "rooms": {
-        "rank": {
-          "value": null,
-          "date": "2026-04-05",
-          "effective_value": 501,
+          "effective_value": 76,
           "fetch_performed": true
         },
         "installs": {
-          "value": 0,
+          "value": 0.0,
           "date": "2026-04-05",
-          "effective_value": 0
+          "effective_value": 0.0
         },
         "relevancy": {
-          "value": 48,
+          "value": 79,
           "date": "2026-04-05",
-          "effective_value": 48
+          "effective_value": 79
         },
         "kei": {
-          "value": 85,
+          "value": 20,
           "date": "2026-04-05",
-          "effective_value": 85
+          "effective_value": 20
         },
         "chance": {
-          "value": 73,
+          "value": 68,
           "date": "2026-04-05",
-          "effective_value": 73
-        }
-      },
-      "globe": {
-        "rank": {
-          "value": null,
-          "date": "2026-04-05",
-          "effective_value": 501,
-          "fetch_performed": true
-        },
-        "installs": {
-          "value": 0,
-          "date": "2026-04-05",
-          "effective_value": 0
-        },
-        "relevancy": {
-          "value": 12,
-          "date": "2026-04-05",
-          "effective_value": 12
-        },
-        "kei": {
-          "value": 74,
-          "date": "2026-04-05",
-          "effective_value": 74
-        },
-        "chance": {
-          "value": 73,
-          "date": "2026-04-05",
-          "effective_value": 73
-        }
-      },
-      "barriers": {
-        "rank": {
-          "value": null,
-          "date": "2026-04-05",
-          "effective_value": 501,
-          "fetch_performed": true
-        },
-        "installs": {
-          "value": 0,
-          "date": "2026-04-05",
-          "effective_value": 0
-        },
-        "relevancy": {
-          "value": 35,
-          "date": "2026-04-05",
-          "effective_value": 35
-        },
-        "kei": {
-          "value": 27,
-          "date": "2026-04-05",
-          "effective_value": 27
-        },
-        "chance": {
-          "value": 73,
-          "date": "2026-04-05",
-          "effective_value": 73
-        }
-      }
-    },
-    "com.meetup": {
-      "talents": {
-        "rank": {
-          "value": null,
-          "date": "2026-04-04",
-          "effective_value": 501,
-          "fetch_performed": true
-        },
-        "installs": {
-          "value": 0,
-          "date": "2026-04-04",
-          "effective_value": 0
-        },
-        "relevancy": {
-          "value": 38,
-          "date": "2026-04-05",
-          "effective_value": 38
-        },
-        "kei": {
-          "value": 22,
-          "date": "2026-04-05",
-          "effective_value": 22
-        },
-        "chance": {
-          "value": 73,
-          "date": "2026-04-05",
-          "effective_value": 73
-        }
-      },
-      "seamless": {
-        "rank": {
-          "value": null,
-          "date": "2026-04-05",
-          "effective_value": 501,
-          "fetch_performed": true
-        },
-        "installs": {
-          "value": 0,
-          "date": "2026-04-05",
-          "effective_value": 0
-        },
-        "relevancy": {
-          "value": 18,
-          "date": "2026-04-05",
-          "effective_value": 18
-        },
-        "kei": {
-          "value": 76,
-          "date": "2026-04-05",
-          "effective_value": 76
-        },
-        "chance": {
-          "value": 73,
-          "date": "2026-04-05",
-          "effective_value": 73
-        }
-      },
-      "rooms": {
-        "rank": {
-          "value": null,
-          "date": "2026-04-05",
-          "effective_value": 501,
-          "fetch_performed": true
-        },
-        "installs": {
-          "value": 0,
-          "date": "2026-04-05",
-          "effective_value": 0
-        },
-        "relevancy": {
-          "value": 50,
-          "date": "2026-04-05",
-          "effective_value": 50
-        },
-        "kei": {
-          "value": 85,
-          "date": "2026-04-05",
-          "effective_value": 85
-        },
-        "chance": {
-          "value": 73,
-          "date": "2026-04-05",
-          "effective_value": 73
-        }
-      },
-      "globe": {
-        "rank": {
-          "value": null,
-          "date": "2026-04-05",
-          "effective_value": 501,
-          "fetch_performed": true
-        },
-        "installs": {
-          "value": 0,
-          "date": "2026-04-05",
-          "effective_value": 0
-        },
-        "relevancy": {
-          "value": 15,
-          "date": "2026-04-05",
-          "effective_value": 15
-        },
-        "kei": {
-          "value": 74,
-          "date": "2026-04-05",
-          "effective_value": 74
-        },
-        "chance": {
-          "value": 73,
-          "date": "2026-04-05",
-          "effective_value": 73
-        }
-      },
-      "barriers": {
-        "rank": {
-          "value": null,
-          "date": "2026-04-05",
-          "effective_value": 501,
-          "fetch_performed": true
-        },
-        "installs": {
-          "value": 0,
-          "date": "2026-04-05",
-          "effective_value": 0
-        },
-        "relevancy": {
-          "value": 28,
-          "date": "2026-04-05",
-          "effective_value": 28
-        },
-        "kei": {
-          "value": 27,
-          "date": "2026-04-05",
-          "effective_value": 27
-        },
-        "chance": {
-          "value": 73,
-          "date": "2026-04-05",
-          "effective_value": 73
+          "effective_value": 68
         }
       }
     }
@@ -719,11 +577,10 @@
         "country": "us",
         "language": "us",
         "apps": [
-          "com.tinder",
-          "com.sgiggle.production",
-          "com.litatom.app",
-          "com.talkin.learn",
-          "com.meetup"
+          "com.getpure.pure",
+          "enterprises.dating.boo",
+          "com.nearme.wolf",
+          "com.badoo.mobile"
         ],
         "metrics": [
           "rank",
@@ -733,15 +590,15 @@
           "chance"
         ],
         "keywords": [
-          "talents",
-          "seamless",
-          "rooms",
-          "globe",
-          "barriers"
+          "video chat",
+          "queer dating",
+          "compatibility",
+          "meaningful connections",
+          "casual dating"
         ]
       },
-      "cost": 1251,
-      "max_credit_cost": 1251,
+      "cost": 1001,
+      "max_credit_cost": 1001,
       "status": 200
     },
     "response": null

@@ -1,7 +1,7 @@
 {
   "result": {
     "547702041": {
-      "space": {
+      "advanced filters": {
         "rank": {
           "value": null,
           "date": "2026-04-05",
@@ -14,192 +14,136 @@
           "effective_value": 0
         },
         "relevancy": {
-          "value": 23,
+          "value": 11,
           "date": "2026-04-05",
-          "effective_value": 23
+          "effective_value": 11
         },
         "kei": {
+          "value": 22,
+          "date": "2026-04-05",
+          "effective_value": 22
+        },
+        "chance": {
+          "value": 73,
+          "date": "2026-04-05",
+          "effective_value": 73
+        }
+      },
+      "personalized matches": {
+        "rank": {
+          "value": 157,
+          "date": "2026-04-05",
+          "effective_value": 157,
+          "fetch_performed": true
+        },
+        "installs": {
+          "value": 0,
+          "date": "2026-04-05",
+          "effective_value": 0
+        },
+        "relevancy": {
+          "value": 54,
+          "date": "2026-04-05",
+          "effective_value": 54
+        },
+        "kei": {
+          "value": 22,
+          "date": "2026-04-05",
+          "effective_value": 22
+        },
+        "chance": {
+          "value": 73,
+          "date": "2026-04-05",
+          "effective_value": 73
+        }
+      },
+      "safe space": {
+        "rank": {
+          "value": 66,
+          "date": "2026-04-05",
+          "effective_value": 66,
+          "fetch_performed": true
+        },
+        "installs": {
+          "value": 0.0,
+          "date": "2026-04-05",
+          "effective_value": 0.0
+        },
+        "relevancy": {
+          "value": 29,
+          "date": "2026-04-05",
+          "effective_value": 29
+        },
+        "kei": {
+          "value": 22,
+          "date": "2026-04-05",
+          "effective_value": 22
+        },
+        "chance": {
+          "value": 73,
+          "date": "2026-04-05",
+          "effective_value": 73
+        }
+      },
+      "verified profiles": {
+        "rank": {
+          "value": null,
+          "date": "2026-04-01",
+          "effective_value": 501,
+          "fetch_performed": true
+        },
+        "installs": {
+          "value": 0,
+          "date": "2026-04-01",
+          "effective_value": 0
+        },
+        "relevancy": {
+          "value": 44,
+          "date": "2026-04-05",
+          "effective_value": 44
+        },
+        "kei": {
+          "value": 15,
+          "date": "2026-04-05",
+          "effective_value": 15
+        },
+        "chance": {
+          "value": 73,
+          "date": "2026-04-05",
+          "effective_value": 73
+        }
+      },
+      "local dating": {
+        "rank": {
+          "value": 6,
+          "date": "2026-04-05",
+          "effective_value": 6,
+          "fetch_performed": true
+        },
+        "installs": {
+          "value": 0.0,
+          "date": "2026-04-05",
+          "effective_value": 0.0
+        },
+        "relevancy": {
+          "value": 94,
+          "date": "2026-04-05",
+          "effective_value": 94
+        },
+        "kei": {
+          "value": 25,
+          "date": "2026-04-05",
+          "effective_value": 25
+        },
+        "chance": {
           "value": 83,
           "date": "2026-04-05",
           "effective_value": 83
-        },
-        "chance": {
-          "value": 73,
-          "date": "2026-04-05",
-          "effective_value": 73
-        }
-      },
-      "verification": {
-        "rank": {
-          "value": null,
-          "date": "2026-04-05",
-          "effective_value": 501,
-          "fetch_performed": true
-        },
-        "installs": {
-          "value": 0,
-          "date": "2026-04-05",
-          "effective_value": 0
-        },
-        "relevancy": {
-          "value": 0,
-          "date": "2026-04-05",
-          "effective_value": 0
-        },
-        "kei": {
-          "value": 22,
-          "date": "2026-04-05",
-          "effective_value": 22
-        },
-        "chance": {
-          "value": 73,
-          "date": "2026-04-05",
-          "effective_value": 73
-        }
-      },
-      "need": {
-        "rank": {
-          "value": null,
-          "date": "2026-04-05",
-          "effective_value": 501,
-          "fetch_performed": true
-        },
-        "installs": {
-          "value": 0,
-          "date": "2026-04-05",
-          "effective_value": 0
-        },
-        "relevancy": {
-          "value": 6,
-          "date": "2026-04-05",
-          "effective_value": 6
-        },
-        "kei": {
-          "value": 22,
-          "date": "2026-04-05",
-          "effective_value": 22
-        },
-        "chance": {
-          "value": 73,
-          "date": "2026-04-05",
-          "effective_value": 73
-        }
-      },
-      "friends": {
-        "rank": {
-          "value": 83,
-          "date": "2026-04-05",
-          "effective_value": 83,
-          "fetch_performed": true
-        },
-        "installs": {
-          "value": 0.0,
-          "date": "2026-04-05",
-          "effective_value": 0.0
-        },
-        "relevancy": {
-          "value": 66,
-          "date": "2026-04-05",
-          "effective_value": 66
-        },
-        "kei": {
-          "value": 82,
-          "date": "2026-04-05",
-          "effective_value": 82
-        },
-        "chance": {
-          "value": 73,
-          "date": "2026-04-05",
-          "effective_value": 73
-        }
-      },
-      "relationship": {
-        "rank": {
-          "value": 65,
-          "date": "2026-04-05",
-          "effective_value": 65,
-          "fetch_performed": true
-        },
-        "installs": {
-          "value": 0.0,
-          "date": "2026-04-05",
-          "effective_value": 0.0
-        },
-        "relevancy": {
-          "value": 66,
-          "date": "2026-04-05",
-          "effective_value": 66
-        },
-        "kei": {
-          "value": 22,
-          "date": "2026-04-05",
-          "effective_value": 22
-        },
-        "chance": {
-          "value": 73,
-          "date": "2026-04-05",
-          "effective_value": 73
         }
       }
     },
     "930441707": {
-      "space": {
-        "rank": {
-          "value": null,
-          "date": "2026-04-05",
-          "effective_value": 501,
-          "fetch_performed": true
-        },
-        "installs": {
-          "value": 0,
-          "date": "2026-04-05",
-          "effective_value": 0
-        },
-        "relevancy": {
-          "value": 27,
-          "date": "2026-04-05",
-          "effective_value": 27
-        },
-        "kei": {
-          "value": 83,
-          "date": "2026-04-05",
-          "effective_value": 83
-        },
-        "chance": {
-          "value": 73,
-          "date": "2026-04-05",
-          "effective_value": 73
-        }
-      },
-      "verification": {
-        "rank": {
-          "value": null,
-          "date": "2026-04-05",
-          "effective_value": 501,
-          "fetch_performed": true
-        },
-        "installs": {
-          "value": 0,
-          "date": "2026-04-05",
-          "effective_value": 0
-        },
-        "relevancy": {
-          "value": 0,
-          "date": "2026-04-05",
-          "effective_value": 0
-        },
-        "kei": {
-          "value": 22,
-          "date": "2026-04-05",
-          "effective_value": 22
-        },
-        "chance": {
-          "value": 73,
-          "date": "2026-04-05",
-          "effective_value": 73
-        }
-      },
-      "need": {
+      "advanced filters": {
         "rank": {
           "value": null,
           "date": "2026-04-05",
@@ -227,50 +171,22 @@
           "effective_value": 73
         }
       },
-      "friends": {
+      "personalized matches": {
         "rank": {
-          "value": 25,
+          "value": 77,
           "date": "2026-04-05",
-          "effective_value": 25,
+          "effective_value": 77,
           "fetch_performed": true
         },
         "installs": {
-          "value": 0.0,
+          "value": 0,
           "date": "2026-04-05",
-          "effective_value": 0.0
+          "effective_value": 0
         },
         "relevancy": {
-          "value": 65,
+          "value": 54,
           "date": "2026-04-05",
-          "effective_value": 65
-        },
-        "kei": {
-          "value": 82,
-          "date": "2026-04-05",
-          "effective_value": 82
-        },
-        "chance": {
-          "value": 73,
-          "date": "2026-04-05",
-          "effective_value": 73
-        }
-      },
-      "relationship": {
-        "rank": {
-          "value": 40,
-          "date": "2026-04-05",
-          "effective_value": 40,
-          "fetch_performed": true
-        },
-        "installs": {
-          "value": 0.0,
-          "date": "2026-04-05",
-          "effective_value": 0.0
-        },
-        "relevancy": {
-          "value": 66,
-          "date": "2026-04-05",
-          "effective_value": 66
+          "effective_value": 54
         },
         "kei": {
           "value": 22,
@@ -282,10 +198,8 @@
           "date": "2026-04-05",
           "effective_value": 73
         }
-      }
-    },
-    "351331194": {
-      "space": {
+      },
+      "safe space": {
         "rank": {
           "value": null,
           "date": "2026-04-05",
@@ -298,37 +212,37 @@
           "effective_value": 0
         },
         "relevancy": {
+          "value": 31,
+          "date": "2026-04-05",
+          "effective_value": 31
+        },
+        "kei": {
           "value": 22,
           "date": "2026-04-05",
           "effective_value": 22
         },
-        "kei": {
-          "value": 66,
-          "date": "2026-04-05",
-          "effective_value": 66
-        },
         "chance": {
-          "value": 55,
+          "value": 73,
           "date": "2026-04-05",
-          "effective_value": 55
+          "effective_value": 73
         }
       },
-      "verification": {
+      "verified profiles": {
         "rank": {
           "value": null,
-          "date": "2026-04-05",
+          "date": "2026-04-01",
           "effective_value": 501,
           "fetch_performed": true
         },
         "installs": {
           "value": 0,
-          "date": "2026-04-05",
+          "date": "2026-04-01",
           "effective_value": 0
         },
         "relevancy": {
-          "value": 0,
+          "value": 39,
           "date": "2026-04-05",
-          "effective_value": 0
+          "effective_value": 39
         },
         "kei": {
           "value": 15,
@@ -336,44 +250,16 @@
           "effective_value": 15
         },
         "chance": {
-          "value": 51,
+          "value": 73,
           "date": "2026-04-05",
-          "effective_value": 51
+          "effective_value": 73
         }
       },
-      "need": {
+      "local dating": {
         "rank": {
-          "value": null,
+          "value": 4,
           "date": "2026-04-05",
-          "effective_value": 501,
-          "fetch_performed": true
-        },
-        "installs": {
-          "value": 0,
-          "date": "2026-04-05",
-          "effective_value": 0
-        },
-        "relevancy": {
-          "value": 6,
-          "date": "2026-04-05",
-          "effective_value": 6
-        },
-        "kei": {
-          "value": 12,
-          "date": "2026-04-05",
-          "effective_value": 12
-        },
-        "chance": {
-          "value": 41,
-          "date": "2026-04-05",
-          "effective_value": 41
-        }
-      },
-      "friends": {
-        "rank": {
-          "value": 58,
-          "date": "2026-04-05",
-          "effective_value": 58,
+          "effective_value": 4,
           "fetch_performed": true
         },
         "installs": {
@@ -382,108 +268,24 @@
           "effective_value": 0.0
         },
         "relevancy": {
-          "value": 67,
+          "value": 90,
           "date": "2026-04-05",
-          "effective_value": 67
+          "effective_value": 90
         },
         "kei": {
-          "value": 59,
+          "value": 26,
           "date": "2026-04-05",
-          "effective_value": 59
+          "effective_value": 26
         },
         "chance": {
-          "value": 48,
+          "value": 88,
           "date": "2026-04-05",
-          "effective_value": 48
-        }
-      },
-      "relationship": {
-        "rank": {
-          "value": null,
-          "date": "2026-04-05",
-          "effective_value": 501,
-          "fetch_performed": true
-        },
-        "installs": {
-          "value": 0,
-          "date": "2026-04-05",
-          "effective_value": 0
-        },
-        "relevancy": {
-          "value": 66,
-          "date": "2026-04-05",
-          "effective_value": 66
-        },
-        "kei": {
-          "value": 18,
-          "date": "2026-04-05",
-          "effective_value": 18
-        },
-        "chance": {
-          "value": 60,
-          "date": "2026-04-05",
-          "effective_value": 60
+          "effective_value": 88
         }
       }
     },
-    "338701294": {
-      "space": {
-        "rank": {
-          "value": null,
-          "date": "2026-04-05",
-          "effective_value": 501,
-          "fetch_performed": true
-        },
-        "installs": {
-          "value": 0,
-          "date": "2026-04-05",
-          "effective_value": 0
-        },
-        "relevancy": {
-          "value": 17,
-          "date": "2026-04-05",
-          "effective_value": 17
-        },
-        "kei": {
-          "value": 61,
-          "date": "2026-04-05",
-          "effective_value": 61
-        },
-        "chance": {
-          "value": 49,
-          "date": "2026-04-05",
-          "effective_value": 49
-        }
-      },
-      "verification": {
-        "rank": {
-          "value": null,
-          "date": "2026-04-05",
-          "effective_value": 501,
-          "fetch_performed": true
-        },
-        "installs": {
-          "value": 0,
-          "date": "2026-04-05",
-          "effective_value": 0
-        },
-        "relevancy": {
-          "value": 0,
-          "date": "2026-04-05",
-          "effective_value": 0
-        },
-        "kei": {
-          "value": 14,
-          "date": "2026-04-05",
-          "effective_value": 14
-        },
-        "chance": {
-          "value": 45,
-          "date": "2026-04-05",
-          "effective_value": 45
-        }
-      },
-      "need": {
+    "351331194": {
+      "advanced filters": {
         "rank": {
           "value": null,
           "date": "2026-04-05",
@@ -501,49 +303,247 @@
           "effective_value": 8
         },
         "kei": {
-          "value": 11,
+          "value": 20,
           "date": "2026-04-05",
-          "effective_value": 11
+          "effective_value": 20
         },
         "chance": {
-          "value": 35,
+          "value": 66,
           "date": "2026-04-05",
-          "effective_value": 35
+          "effective_value": 66
         }
       },
-      "friends": {
+      "personalized matches": {
         "rank": {
+          "value": 66,
+          "date": "2026-04-05",
+          "effective_value": 66,
+          "fetch_performed": true
+        },
+        "installs": {
+          "value": 0,
+          "date": "2026-04-05",
+          "effective_value": 0
+        },
+        "relevancy": {
+          "value": 55,
+          "date": "2026-04-05",
+          "effective_value": 55
+        },
+        "kei": {
+          "value": 21,
+          "date": "2026-04-05",
+          "effective_value": 21
+        },
+        "chance": {
+          "value": 71,
+          "date": "2026-04-05",
+          "effective_value": 71
+        }
+      },
+      "safe space": {
+        "rank": {
+          "value": null,
+          "date": "2026-04-05",
+          "effective_value": 501,
+          "fetch_performed": true
+        },
+        "installs": {
+          "value": 0,
+          "date": "2026-04-05",
+          "effective_value": 0
+        },
+        "relevancy": {
+          "value": 31,
+          "date": "2026-04-05",
+          "effective_value": 31
+        },
+        "kei": {
+          "value": 22,
+          "date": "2026-04-05",
+          "effective_value": 22
+        },
+        "chance": {
+          "value": 73,
+          "date": "2026-04-05",
+          "effective_value": 73
+        }
+      },
+      "verified profiles": {
+        "rank": {
+          "value": null,
+          "date": "2026-04-01",
+          "effective_value": 501,
+          "fetch_performed": true
+        },
+        "installs": {
+          "value": 0,
+          "date": "2026-04-01",
+          "effective_value": 0
+        },
+        "relevancy": {
+          "value": 44,
+          "date": "2026-04-05",
+          "effective_value": 44
+        },
+        "kei": {
+          "value": 15,
+          "date": "2026-04-05",
+          "effective_value": 15
+        },
+        "chance": {
+          "value": 73,
+          "date": "2026-04-05",
+          "effective_value": 73
+        }
+      },
+      "local dating": {
+        "rank": {
+          "value": 14,
+          "date": "2026-04-05",
+          "effective_value": 14,
+          "fetch_performed": true
+        },
+        "installs": {
+          "value": 0.0,
+          "date": "2026-04-05",
+          "effective_value": 0.0
+        },
+        "relevancy": {
+          "value": 93,
+          "date": "2026-04-05",
+          "effective_value": 93
+        },
+        "kei": {
+          "value": 17,
+          "date": "2026-04-05",
+          "effective_value": 17
+        },
+        "chance": {
+          "value": 55,
+          "date": "2026-04-05",
+          "effective_value": 55
+        }
+      }
+    },
+    "338701294": {
+      "advanced filters": {
+        "rank": {
+          "value": null,
+          "date": "2026-04-05",
+          "effective_value": 501,
+          "fetch_performed": true
+        },
+        "installs": {
+          "value": 0,
+          "date": "2026-04-05",
+          "effective_value": 0
+        },
+        "relevancy": {
+          "value": 10,
+          "date": "2026-04-05",
+          "effective_value": 10
+        },
+        "kei": {
+          "value": 18,
+          "date": "2026-04-05",
+          "effective_value": 18
+        },
+        "chance": {
           "value": 60,
           "date": "2026-04-05",
-          "effective_value": 60,
-          "fetch_performed": true
-        },
-        "installs": {
-          "value": 0.0,
-          "date": "2026-04-05",
-          "effective_value": 0.0
-        },
-        "relevancy": {
-          "value": 64,
-          "date": "2026-04-05",
-          "effective_value": 64
-        },
-        "kei": {
-          "value": 54,
-          "date": "2026-04-05",
-          "effective_value": 54
-        },
-        "chance": {
-          "value": 42,
-          "date": "2026-04-05",
-          "effective_value": 42
+          "effective_value": 60
         }
       },
-      "relationship": {
+      "personalized matches": {
         "rank": {
-          "value": 87,
+          "value": null,
           "date": "2026-04-05",
-          "effective_value": 87,
+          "effective_value": 501,
+          "fetch_performed": true
+        },
+        "installs": {
+          "value": 0,
+          "date": "2026-04-05",
+          "effective_value": 0
+        },
+        "relevancy": {
+          "value": 70,
+          "date": "2026-04-05",
+          "effective_value": 70
+        },
+        "kei": {
+          "value": 20,
+          "date": "2026-04-05",
+          "effective_value": 20
+        },
+        "chance": {
+          "value": 66,
+          "date": "2026-04-05",
+          "effective_value": 66
+        }
+      },
+      "safe space": {
+        "rank": {
+          "value": null,
+          "date": "2026-04-05",
+          "effective_value": 501,
+          "fetch_performed": true
+        },
+        "installs": {
+          "value": 0,
+          "date": "2026-04-05",
+          "effective_value": 0
+        },
+        "relevancy": {
+          "value": 38,
+          "date": "2026-04-05",
+          "effective_value": 38
+        },
+        "kei": {
+          "value": 22,
+          "date": "2026-04-05",
+          "effective_value": 22
+        },
+        "chance": {
+          "value": 73,
+          "date": "2026-04-05",
+          "effective_value": 73
+        }
+      },
+      "verified profiles": {
+        "rank": {
+          "value": null,
+          "date": "2026-04-01",
+          "effective_value": 501,
+          "fetch_performed": true
+        },
+        "installs": {
+          "value": 0,
+          "date": "2026-04-01",
+          "effective_value": 0
+        },
+        "relevancy": {
+          "value": 48,
+          "date": "2026-04-05",
+          "effective_value": 48
+        },
+        "kei": {
+          "value": 14,
+          "date": "2026-04-05",
+          "effective_value": 14
+        },
+        "chance": {
+          "value": 67,
+          "date": "2026-04-05",
+          "effective_value": 67
+        }
+      },
+      "local dating": {
+        "rank": {
+          "value": 22,
+          "date": "2026-04-05",
+          "effective_value": 22,
           "fetch_performed": true
         },
         "installs": {
@@ -552,24 +552,24 @@
           "effective_value": 0.0
         },
         "relevancy": {
-          "value": 74,
+          "value": 93,
           "date": "2026-04-05",
-          "effective_value": 74
+          "effective_value": 93
         },
         "kei": {
-          "value": 16,
+          "value": 15,
           "date": "2026-04-05",
-          "effective_value": 16
+          "effective_value": 15
         },
         "chance": {
-          "value": 54,
+          "value": 49,
           "date": "2026-04-05",
-          "effective_value": 54
+          "effective_value": 49
         }
       }
     },
     "595287172": {
-      "space": {
+      "advanced filters": {
         "rank": {
           "value": null,
           "date": "2026-04-05",
@@ -582,14 +582,14 @@
           "effective_value": 0
         },
         "relevancy": {
+          "value": 10,
+          "date": "2026-04-05",
+          "effective_value": 10
+        },
+        "kei": {
           "value": 22,
           "date": "2026-04-05",
           "effective_value": 22
-        },
-        "kei": {
-          "value": 83,
-          "date": "2026-04-05",
-          "effective_value": 83
         },
         "chance": {
           "value": 73,
@@ -597,7 +597,35 @@
           "effective_value": 73
         }
       },
-      "verification": {
+      "personalized matches": {
+        "rank": {
+          "value": 10,
+          "date": "2026-04-05",
+          "effective_value": 10,
+          "fetch_performed": true
+        },
+        "installs": {
+          "value": 0,
+          "date": "2026-04-05",
+          "effective_value": 0
+        },
+        "relevancy": {
+          "value": 62,
+          "date": "2026-04-05",
+          "effective_value": 62
+        },
+        "kei": {
+          "value": 22,
+          "date": "2026-04-05",
+          "effective_value": 22
+        },
+        "chance": {
+          "value": 72,
+          "date": "2026-04-05",
+          "effective_value": 72
+        }
+      },
+      "safe space": {
         "rank": {
           "value": null,
           "date": "2026-04-05",
@@ -610,9 +638,9 @@
           "effective_value": 0
         },
         "relevancy": {
-          "value": 0,
+          "value": 35,
           "date": "2026-04-05",
-          "effective_value": 0
+          "effective_value": 35
         },
         "kei": {
           "value": 22,
@@ -625,27 +653,27 @@
           "effective_value": 73
         }
       },
-      "need": {
+      "verified profiles": {
         "rank": {
           "value": null,
-          "date": "2026-04-05",
+          "date": "2026-04-01",
           "effective_value": 501,
           "fetch_performed": true
         },
         "installs": {
           "value": 0,
-          "date": "2026-04-05",
+          "date": "2026-04-01",
           "effective_value": 0
         },
         "relevancy": {
-          "value": 7,
+          "value": 47,
           "date": "2026-04-05",
-          "effective_value": 7
+          "effective_value": 47
         },
         "kei": {
-          "value": 22,
+          "value": 15,
           "date": "2026-04-05",
-          "effective_value": 22
+          "effective_value": 15
         },
         "chance": {
           "value": 73,
@@ -653,11 +681,11 @@
           "effective_value": 73
         }
       },
-      "friends": {
+      "local dating": {
         "rank": {
-          "value": 51,
+          "value": 19,
           "date": "2026-04-05",
-          "effective_value": 51,
+          "effective_value": 19,
           "fetch_performed": true
         },
         "installs": {
@@ -666,37 +694,9 @@
           "effective_value": 0.0
         },
         "relevancy": {
-          "value": 64,
+          "value": 94,
           "date": "2026-04-05",
-          "effective_value": 64
-        },
-        "kei": {
-          "value": 82,
-          "date": "2026-04-05",
-          "effective_value": 82
-        },
-        "chance": {
-          "value": 73,
-          "date": "2026-04-05",
-          "effective_value": 73
-        }
-      },
-      "relationship": {
-        "rank": {
-          "value": null,
-          "date": "2026-04-05",
-          "effective_value": 501,
-          "fetch_performed": true
-        },
-        "installs": {
-          "value": 0,
-          "date": "2026-04-05",
-          "effective_value": 0
-        },
-        "relevancy": {
-          "value": 72,
-          "date": "2026-04-05",
-          "effective_value": 72
+          "effective_value": 94
         },
         "kei": {
           "value": 22,
@@ -733,11 +733,11 @@
           "chance"
         ],
         "keywords": [
-          "space",
-          "verification",
-          "need",
-          "friends",
-          "relationship"
+          "advanced filters",
+          "personalized matches",
+          "safe space",
+          "verified profiles",
+          "local dating"
         ]
       },
       "cost": 1251,

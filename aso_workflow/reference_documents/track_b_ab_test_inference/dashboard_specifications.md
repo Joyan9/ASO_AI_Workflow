@@ -112,7 +112,6 @@ Columns: Competitor | Tier | Fields tested | Total tests | Pending | Won | Lost 
 - Sort: primary first, total tests DESC
 - No chart needed in this section
 
-Bar chart above the table: horizontal bars, one per competitor, bar length = total test count.
 Colour: primary competitors `--accent`, secondary `--accent-soft`.
 Height: 240px. Label: "A/B test volume by competitor".
 

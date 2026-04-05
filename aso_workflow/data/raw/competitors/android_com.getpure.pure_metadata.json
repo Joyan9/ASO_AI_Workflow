@@ -1,0 +1,240 @@
+{
+  "result": {
+    "com.getpure.pure": {
+      "metadata": {
+        "title": "PURE: Anonymous Dating & Chat",
+        "short_description": "Anonymous dating & chat app to meet like-minded people in USA & around the world",
+        "long_description": "PURE is a dating app for curious creatives to show up in their most playful version of themselves. It\u2019s a space to be open with your intentions and clear in your boundaries.<br><br>Connect with like-minded beings to create and explore new thrilling experiences in a safe and supportive space.<br><br>Let your passions run free and your heart go wild!<br><br>* HOW PURE WORKS?<br><br>Everything starts with Personal Ads. To see other people in the feed, you need to post your Ad. Write what kind of experience you are looking for and find someone who would share the same experience with you. Be creative and original with your ads, that&#39;s always appealing.<br><br>* IN PURE ALL BORDERS ARE OPEN<br><br>Paris, New-York or London? You can check any city worldwide and meet people from PURE community from around the globe. We promise to deliver your likes quickly to anyone you fancy.<br><br>* WHAT HAPPENS IN PURE STAYS IN PURE<br><br>Photos self-destruct right after being seen, and in case someone takes a screenshot, you will get a notification about that. Also, all chat messages, including photos and audio, shared in chats cannot be saved to the phone&#39;s gallery.<br><br>* OUR MISSION IS TO KEEP PURE A PURE EXPERIENCE<br><br>Safety of our community is one of our key priorities. We are constantly improving our algorithms to find and get rid of scam and spam accounts, also our system sends automatic alerts on trigger words that might be used by scammers, so don&#39;t be surprised in case you will get a warning.<br><br>Keep chatting anonymously via PURE and do not switch to other messengers. You know what they say: better safe than sorry.<br><br><br>PURE uses auto-renewing subscriptions \u2014 you have to subscribe to get inside.<br><br>Here\u2019s what you should know about PURE subscriptions:<br><br>- If you choose to purchase a weekly, monthly, or annual subscription, you will be able to go online &amp; interact via chats with other users during the chosen subscription period. The prices may vary per country and are subject to change with notice. Prices and subscription plans are displayed in the app.<br><br>- All subscriptions renew automatically unless you cancel at least 24 hours before the end of the current subscription period without any limitations.<br><br>- You can cancel auto-renewal at any time by going to your settings in GooglePlay after the purchase.<br><br>- All personal data is handled under PURE\u2019s Privacy Policy: https://pure.app/policy/",
+        "id": "com.getpure.pure",
+        "categories": [
+          "DATING"
+        ],
+        "icon": "https://play-lh.googleusercontent.com/D1MIWB_YB4RbsBsOK1urkjd6itq1MswbuBtRScPrEY4HwDUyg7_IwdiaWqWzrnpgC8kiW2UTIR8Q20RbpJaa",
+        "screenshots": [
+          "https://play-lh.googleusercontent.com/cOwk6sIkDuRi7yQW9HwvV2nFdlXx6rPSKozI--zSLQI8aafX-tiLEjynECOnNrbX--QZHsTDCiTSItoNDBpPZw",
+          "https://play-lh.googleusercontent.com/XbGkP6Up-Eghry4ElPOLqA4SE5A7POQsQjkvHyg5Fj1r0Z5NIGbSVYQU-hENspHNs_65Wv1lzBYhCPQuUBiIWA",
+          "https://play-lh.googleusercontent.com/J-XFvyTZSeALg_FyAcZYG_GHRO73SeGI5tokDKsKjOd4qhXj27TVYsGuPj3yikLQGbmhEfaxghxQbF4yIlfQ",
+          "https://play-lh.googleusercontent.com/N8aWIhpuNSF__E9YQEHceSxaxwb2kPx1fk8ZE-WNlO1Q0asr-hVACHXgKjM-m2G9cbfW-5ECJVcCndILAdpv",
+          "https://play-lh.googleusercontent.com/iGUKZjyxs8H2B9PsMmEHpyjNFgrTnN8UwMpILCLaw00UVYXuiLTx82DtcGNo1TAERFV6T1hzkRRw0ERHm36QRfI",
+          "https://play-lh.googleusercontent.com/k5vayITb0TfHIwgWV_y4BiMjWqgC61lFHs15zH3kYDsVgvMv0_aXGYmTU5F-V6mJ9cs0WpM9-4NDwpRo32qrxg"
+        ],
+        "videos": [],
+        "size": {
+          "current": {
+            "data": 47797282
+          }
+        },
+        "rating": {
+          "average": 3.4
+        },
+        "developer": {
+          "id": "Online+Classifieds+AG",
+          "name": "Online Classifieds AG",
+          "email": "feedback@pure.app",
+          "website": "https://pure.app",
+          "phone": "",
+          "address_private": "",
+          "address_public": "Baarerstrasse 8\n6300 Zug\nSwitzerland",
+          "publisher_name": "Online Classifieds AG",
+          "publisher_email": "onlineclassifiedsAG@gmail.com",
+          "publisher_phone": "+41 41 500 68 68"
+        },
+        "price": "",
+        "released_at": null,
+        "versions": [
+          {
+            "version": "3.24.492",
+            "release_notes": "Bugs fixed, performance improved. ",
+            "release_date": "2026-03-31T00:00:00.000Z"
+          },
+          {
+            "version": "3.23.487",
+            "release_notes": "\u2014 Your dating adventures just got an upgrade! We&#39;ve fine-tuned the app with some bug fixes and performance improvements.",
+            "release_date": "2026-03-18T00:00:00.000Z"
+          },
+          {
+            "version": "3.22.480",
+            "release_notes": "Bugs fixed, performance improved. ",
+            "release_date": "2026-03-05T00:00:00.000Z"
+          },
+          {
+            "version": "3.21.473",
+            "release_notes": "Bugs fixed, performance improved. ",
+            "release_date": "2026-02-16T00:00:00.000Z"
+          },
+          {
+            "version": "3.20.472",
+            "release_notes": "Bugs fixed, performance improved. ",
+            "release_date": "2026-02-09T00:00:00.000Z"
+          },
+          {
+            "version": "3.20.470",
+            "release_notes": "Bugs fixed, performance improved. ",
+            "release_date": "2026-02-04T00:00:00.000Z"
+          },
+          {
+            "version": "3.19.460",
+            "release_notes": "\u2014 Snap photos from anywhere in Pure using your volume buttons<br>\u2014 Bugs fixed, performance improved",
+            "release_date": "2026-01-20T00:00:00.000Z"
+          },
+          {
+            "version": "3.18.456",
+            "release_notes": "Bugs fixed, performance improved. ",
+            "release_date": "2025-12-19T00:00:00.000Z"
+          },
+          {
+            "version": "3.17.454",
+            "release_notes": "Bugs fixed, performance improved. ",
+            "release_date": "2025-12-11T00:00:00.000Z"
+          },
+          {
+            "version": "3.16.434",
+            "release_notes": "Bugs fixed, performance improved. ",
+            "release_date": "2025-11-28T00:00:00.000Z"
+          },
+          {
+            "version": "3.15.430",
+            "release_notes": "Bugs fixed, performance improved. ",
+            "release_date": "2025-11-13T00:00:00.000Z"
+          },
+          {
+            "version": "3.14.423",
+            "release_notes": "Bugs fixed, performance improved. ",
+            "release_date": "2025-10-28T00:00:00.000Z"
+          },
+          {
+            "version": "3.13.422",
+            "release_notes": "Bugs fixed, performance improved. ",
+            "release_date": "2025-10-17T00:00:00.000Z"
+          },
+          {
+            "version": "3.12.415",
+            "release_notes": "Bugs fixed, performance improved. ",
+            "release_date": "2025-10-01T00:00:00.000Z"
+          },
+          {
+            "version": "3.11.412",
+            "release_notes": "Bugs fixed, performance improved. ",
+            "release_date": "2025-09-15T00:00:00.000Z"
+          },
+          {
+            "version": "3.10.408",
+            "release_notes": "Bugs fixed, performance improved. ",
+            "release_date": "2025-09-01T00:00:00.000Z"
+          },
+          {
+            "version": "3.09.402",
+            "release_notes": "Bugs fixed, performance improved. ",
+            "release_date": "2025-08-20T00:00:00.000Z"
+          },
+          {
+            "version": "3.08.396",
+            "release_notes": "Bugs fixed, performance improved. ",
+            "release_date": "2025-08-04T00:00:00.000Z"
+          },
+          {
+            "version": "3.07.395",
+            "release_notes": "Bugs fixed, performance improved. ",
+            "release_date": "2025-07-30T00:00:00.000Z"
+          },
+          {
+            "version": "3.07.391",
+            "release_notes": "",
+            "release_date": "2025-07-22T00:00:00.000Z"
+          }
+        ],
+        "similar_apps": [
+          "enterprises.dating.boo",
+          "com.kismia.app",
+          "co.hinge.app",
+          "com.tinder",
+          "app.bumpy.android",
+          "com.muzmatch.muzmatchapp",
+          "com.idealmatch.idma",
+          "com.ftw_and_co.happn",
+          "com.bumble.app",
+          "com.dating.android",
+          "com.takimi.android",
+          "com.badoo.mobile",
+          "com.pinkapp",
+          "com.dazz.hoop",
+          "com.hubolabs.hubo"
+        ],
+        "release_date": "2015-06-15T15:32:29.000Z",
+        "dna": {
+          "class_id": 10018,
+          "class_label": "Social",
+          "subclass_id": 38,
+          "subclass_label": "Dating"
+        },
+        "permissions": [
+          "android.permission.ACCESS_ADSERVICES_AD_ID",
+          "android.permission.ACCESS_ADSERVICES_ATTRIBUTION",
+          "android.permission.ACCESS_BACKGROUND_LOCATION",
+          "android.permission.ACCESS_COARSE_LOCATION",
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.ACCESS_WIFI_STATE",
+          "android.permission.BLUETOOTH_CONNECT",
+          "android.permission.CAMERA",
+          "android.permission.CHANGE_NETWORK_STATE",
+          "android.permission.FOREGROUND_SERVICE",
+          "android.permission.FOREGROUND_SERVICE_DATA_SYNC",
+          "android.permission.FOREGROUND_SERVICE_LOCATION",
+          "android.permission.FOREGROUND_SERVICE_MICROPHONE",
+          "android.permission.INTERNET",
+          "android.permission.MODIFY_AUDIO_SETTINGS",
+          "android.permission.NFC",
+          "android.permission.POST_NOTIFICATIONS",
+          "android.permission.READ_APP_BADGE",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.RECEIVE_BOOT_COMPLETED",
+          "android.permission.RECORD_AUDIO",
+          "android.permission.VIBRATE",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          "com.anddoes.launcher.permission.UPDATE_COUNT",
+          "com.android.vending.BILLING",
+          "com.getpure.pure.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+          "com.getpure.pure.permission.C2D_MESSAGE",
+          "com.google.android.c2dm.permission.RECEIVE",
+          "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+          "com.google.android.gms.permission.AD_ID",
+          "com.htc.launcher.permission.READ_SETTINGS",
+          "com.htc.launcher.permission.UPDATE_SHORTCUT",
+          "com.huawei.android.launcher.permission.CHANGE_BADGE",
+          "com.huawei.android.launcher.permission.READ_SETTINGS",
+          "com.huawei.android.launcher.permission.WRITE_SETTINGS",
+          "com.huawei.appmarket.service.commondata.permission.GET_COMMON_DATA",
+          "com.majeur.launcher.permission.UPDATE_BADGE",
+          "com.oppo.launcher.permission.READ_SETTINGS",
+          "com.oppo.launcher.permission.WRITE_SETTINGS",
+          "com.samsung.android.mapsagent.permission.READ_APP_INFO",
+          "com.sec.android.provider.badge.permission.READ",
+          "com.sec.android.provider.badge.permission.WRITE",
+          "com.sonyericsson.home.permission.BROADCAST_BADGE",
+          "com.sonymobile.home.permission.PROVIDER_INSERT_BADGE",
+          "me.everything.badger.permission.BADGE_COUNT_READ",
+          "me.everything.badger.permission.BADGE_COUNT_WRITE"
+        ]
+      }
+    }
+  },
+  "metadata": {
+    "request": {
+      "path": "/api/public/store/apps/metadata.json",
+      "params": {
+        "device": "android",
+        "country": "us",
+        "language": "us",
+        "apps": [
+          "com.getpure.pure"
+        ]
+      },
+      "cost": 11,
+      "max_credit_cost": 11,
+      "status": 200
+    },
+    "response": null
+  }
+}

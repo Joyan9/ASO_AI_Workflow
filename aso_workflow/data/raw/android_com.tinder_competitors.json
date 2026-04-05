@@ -1,55 +1,55 @@
 {
   "source_app_id": "com.tinder",
   "platform": "android",
-  "extracted_at": "2026-04-04T12:35:38.891485",
+  "extracted_at": "2026-04-05T15:34:06.998053",
   "competitors": [
     {
-      "app_id": "com.sgiggle.production",
+      "app_id": "co.hinge.app",
       "name": null,
       "tier": "primary"
     },
     {
-      "app_id": "com.litatom.app",
+      "app_id": "com.bumble.app",
       "name": null,
       "tier": "primary"
     },
     {
-      "app_id": "com.talkin.learn",
+      "app_id": "com.doni.appa",
       "name": null,
       "tier": "primary"
     },
     {
-      "app_id": "com.meetup",
+      "app_id": "com.hily.app",
       "name": null,
       "tier": "secondary"
     },
     {
-      "app_id": "com.hubolabs.hubo",
+      "app_id": "com.getpure.pure",
       "name": null,
       "tier": "secondary"
     },
     {
-      "app_id": "com.dior.kFriends",
+      "app_id": "enterprises.dating.boo",
       "name": null,
       "tier": "secondary"
     },
     {
-      "app_id": "com.reddit.frontpage",
+      "app_id": "com.nearme.wolf",
       "name": null,
       "tier": "secondary"
     },
     {
-      "app_id": "com.dazz.hoop",
+      "app_id": "com.badoo.mobile",
       "name": null,
       "tier": "secondary"
     },
     {
-      "app_id": "com.gemtechnologies.gem4me",
+      "app_id": "com.pof.android",
       "name": null,
       "tier": "secondary"
     },
     {
-      "app_id": "xyz.blueskyweb.app",
+      "app_id": "com.qiga.vio",
       "name": null,
       "tier": "secondary"
     }

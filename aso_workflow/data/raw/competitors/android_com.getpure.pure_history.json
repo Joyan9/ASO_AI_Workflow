@@ -1,0 +1,153 @@
+{
+  "result": {
+    "com.getpure.pure": {
+      "changes": [
+        {
+          "target": "version",
+          "old_value": "3.18.456",
+          "new_value": "3.19.460",
+          "old_release_notes": "Bugs fixed, performance improved. ",
+          "new_release_notes": "\u2014 Snap photos from anywhere in Pure using your volume buttons<br>\u2014 Bugs fixed, performance improved",
+          "version": "3.19.460",
+          "is_ab_test": null,
+          "date": "2026-01-20"
+        },
+        {
+          "target": "version",
+          "old_value": "3.19.460",
+          "new_value": "3.20.470",
+          "old_release_notes": "\u2014 Snap photos from anywhere in Pure using your volume buttons<br>\u2014 Bugs fixed, performance improved",
+          "new_release_notes": "Bugs fixed, performance improved. ",
+          "version": "3.20.470",
+          "is_ab_test": null,
+          "date": "2026-02-04"
+        },
+        {
+          "target": "version",
+          "old_value": "3.20.470",
+          "new_value": "3.20.472",
+          "old_release_notes": "Bugs fixed, performance improved. ",
+          "new_release_notes": "Bugs fixed, performance improved. ",
+          "version": "3.20.472",
+          "is_ab_test": null,
+          "date": "2026-02-09"
+        },
+        {
+          "target": "version",
+          "old_value": "3.20.472",
+          "new_value": "3.21.473",
+          "old_release_notes": "Bugs fixed, performance improved. ",
+          "new_release_notes": "Bugs fixed, performance improved. ",
+          "version": "3.21.473",
+          "is_ab_test": null,
+          "date": "2026-02-16"
+        },
+        {
+          "target": "version",
+          "old_value": "3.21.473",
+          "new_value": "3.22.480",
+          "old_release_notes": "Bugs fixed, performance improved. ",
+          "new_release_notes": "Bugs fixed, performance improved. ",
+          "version": "3.22.480",
+          "is_ab_test": null,
+          "date": "2026-03-05"
+        },
+        {
+          "target": "version",
+          "old_value": "3.22.480",
+          "new_value": "3.23.487",
+          "old_release_notes": "Bugs fixed, performance improved. ",
+          "new_release_notes": "\u2014 Your dating adventures just got an upgrade! We&#39;ve fine-tuned the app with some bug fixes and performance improvements.",
+          "version": "3.23.487",
+          "is_ab_test": null,
+          "date": "2026-03-18"
+        },
+        {
+          "target": "version",
+          "old_value": "3.23.487",
+          "new_value": "3.24.492",
+          "old_release_notes": "\u2014 Your dating adventures just got an upgrade! We&#39;ve fine-tuned the app with some bug fixes and performance improvements.",
+          "new_release_notes": "Bugs fixed, performance improved. ",
+          "version": "3.24.492",
+          "is_ab_test": null,
+          "date": "2026-03-31"
+        },
+        {
+          "target": "size",
+          "old_value": 47823275,
+          "new_value": 47883532,
+          "version": "3.19.460",
+          "is_ab_test": null,
+          "date": "2026-01-20"
+        },
+        {
+          "target": "size",
+          "old_value": 47883532,
+          "new_value": 47395549,
+          "version": "3.20.470",
+          "is_ab_test": null,
+          "date": "2026-02-04"
+        },
+        {
+          "target": "size",
+          "old_value": 47395549,
+          "new_value": 47429418,
+          "version": "3.20.472",
+          "is_ab_test": null,
+          "date": "2026-02-09"
+        },
+        {
+          "target": "size",
+          "old_value": 47429418,
+          "new_value": 47425961,
+          "version": "3.21.473",
+          "is_ab_test": null,
+          "date": "2026-02-16"
+        },
+        {
+          "target": "size",
+          "old_value": 47425961,
+          "new_value": 47589928,
+          "version": "3.22.480",
+          "is_ab_test": null,
+          "date": "2026-03-05"
+        },
+        {
+          "target": "size",
+          "old_value": 47589928,
+          "new_value": 47677363,
+          "version": "3.23.487",
+          "is_ab_test": null,
+          "date": "2026-03-18"
+        },
+        {
+          "target": "size",
+          "old_value": 47677363,
+          "new_value": 47797282,
+          "version": "3.24.492",
+          "is_ab_test": null,
+          "date": "2026-03-31"
+        }
+      ]
+    }
+  },
+  "metadata": {
+    "request": {
+      "path": "/api/public/store/apps/metadata/changes.json",
+      "params": {
+        "device": "android",
+        "country": "us",
+        "language": "us",
+        "start_date": "2026-01-05",
+        "end_date": "2026-04-05",
+        "apps": [
+          "com.getpure.pure"
+        ]
+      },
+      "cost": 101,
+      "max_credit_cost": 101,
+      "status": 200
+    },
+    "response": null
+  }
+}

@@ -1,0 +1,220 @@
+{
+  "result": {
+    "com.pof.android": {
+      "metadata": {
+        "title": "Plenty of Fish : Dating App",
+        "short_description": "POF: Meet and Date Singles. Easily Connect, chat and Find Love with New People.",
+        "long_description": "The best dating app to let you really be you and choose how you want to date online.<br><br>Are you ready to start dating better? At Plenty of Fish, we&#39;re on a mission to be your ultimate online dating wingmate. We&#39;re here to help you effortlessly connect with cool local singles and find meaningful relationships. Whether you\u2019re new to dating or just seeking a fresh start, we\u2019ve got you covered. Meet people who share your interests and values and start building those genuine connections!<br><br>We know online dating isn\u2019t one-size-fits-all, so we let you choose your own adventure and connect with other singles in a way that feels right for you. Whether you\u2019re swiping right or sending a good-old-fashioned popular DM, we\u2019ve got plenty of options to make finding your person actually fun.<br><br>Forget the days of awkward online dating and become a POF member, where you can come exactly as you are. We\u2019re here to help you create the same magic online that you would IRL. Join a global community of singles who are all about making genuine connections.<br><br>At POF, we get that dating is more than just swiping through best profiles online \u2014 it&#39;s about connecting with real people near you. The Plenty of Fish online dating app makes it easy to chat, date, and find your perfect match. Jump into genuine conversations, plan exciting IRL dates, and turn those connections into something worth getting off the couch for. Ready to meet someone new? Let\u2019s make it happen!<br><br>Everyone dates differently, so we\u2019re coming through with plenty of options:<br><br>- Meet Me: Swipe right if you\u2019re into someone. If they swipe right on you too, it\u2019s a match! You\u2019ll then have unlimited online messaging with each other, so you can keep the conversation going.  <br>- Interested in Me: Check out who\u2019s liked or viewed your profile. Say goodbye to endless swiping and hello to discovering who\u2019s genuinely interested in you!<br>- First Contact: Find exactly what you&#39;re looking for and make a standout first impression. When you spot a profile that catches your eye, send a First Contact directly to their inbox. You get one of these messages per day, so let&#39;s make it count!<br>- Selfie Verification: We know that online dating services can come with its fair share of surprises. That\u2019s why we\u2019ve introduced Selfie Verification - so you can see who\u2019s really behind the profile. It\u2019s our way of making sure that everyone you meet is genuinely who they say they are. Because you deserve to connect with real people, not just profiles.<br>- Share My Date: Safety first! With Share My Date, you can easily let your friends and family know the details of your date - where you\u2019re going, who you\u2019re meeting, and when. Keep things cool and secure while you enjoy your time out.<br><br>Ready to find your person? Download the Plenty of Fish online dating app for free and kick off your dating journey. Just show up as you are and connect with real, down-to-earth people just like you. You&#39;ll meet local singles, make genuine connections, and build meaningful relationships.<br><br>POF is part of the Match Group portfolio which also includes Tinder, Match.com, Hinge, OkCupid, Meetic, The League, BLK, Chispa, Upward, Stir and OurTime.<br><br>All photos are of models and used for illustrative purposes only.",
+        "id": "com.pof.android",
+        "categories": [
+          "DATING"
+        ],
+        "icon": "https://play-lh.googleusercontent.com/aTMFxLXK9hMjPx9m3ASk3PuZArzBF6nPZnX_RZQNugYAs6q-DlLFvbrMByHA_E0bhEDs",
+        "screenshots": [
+          "https://play-lh.googleusercontent.com/mLEWIsU9n4krbddNKCqmxS7tBFRkaaEVIgR43lwv1irE16_m-TsbZkZyLMqw3OEC9x2d",
+          "https://play-lh.googleusercontent.com/8ndJpObwc8Xy9hZi9JXgi_LgaUCYSgfYTuAp1oHwg9mUDU6APKwW0FwAi2zU6cpY7g",
+          "https://play-lh.googleusercontent.com/pTXm_Z5WVoa86sKFdmWa0Z8OXOsulixobTF9djfExIinQpiwFTlQdfw20ILVjnfGLKU",
+          "https://play-lh.googleusercontent.com/LwWQ40bz866YAgAkIFwU4qmCw-IN7lkIdVGAsHIbOmqqwjp1Mkh_pm2NxhZWn0op3g",
+          "https://play-lh.googleusercontent.com/UbczZJZ9wPoTmUXz1CjWT0qj3ufmlLwCyl0Sc-NjiBa-_jL89i_CEc6yRNktaW0wpg4",
+          "https://play-lh.googleusercontent.com/0lHjxNnJ9lRKqtxI0IJTM4nFthPhVwUvVfTgJY5aJuk2ctuzxt8MNANBMkOqUjaoR-k"
+        ],
+        "videos": [],
+        "size": {
+          "current": {
+            "data": 30071832
+          }
+        },
+        "rating": {
+          "average": 3.7
+        },
+        "developer": {
+          "id": "5661093148650447713",
+          "name": "Plentyoffish Media ULC",
+          "email": "mobile@pof.com",
+          "website": "http://www.pof.com",
+          "phone": "",
+          "address_private": "",
+          "address_public": "1133 Melville St Suite 1700\nVancouver, BC V6E 4E5\nCanada",
+          "publisher_name": "Plentyoffish Media ULC",
+          "publisher_email": "mobile@pof.com",
+          "publisher_phone": "+1 310-759-9585"
+        },
+        "price": "",
+        "released_at": null,
+        "versions": [
+          {
+            "version": "5.62.0.1516539",
+            "release_notes": "- Enjoy POF with fewer bugs and improved stability",
+            "release_date": "2026-03-24T00:00:00.000Z"
+          },
+          {
+            "version": "5.61.1.1516520",
+            "release_notes": "- Enjoy POF with fewer bugs and improved stability",
+            "release_date": "2026-03-17T00:00:00.000Z"
+          },
+          {
+            "version": "5.61.0.1516513",
+            "release_notes": "- Enjoy POF with fewer bugs and improved stability",
+            "release_date": "2026-03-12T00:00:00.000Z"
+          },
+          {
+            "version": "5.60.0.1516485",
+            "release_notes": "- Enjoy POF with fewer bugs and improved stability",
+            "release_date": "2026-02-25T00:00:00.000Z"
+          },
+          {
+            "version": "5.59.0.1516457",
+            "release_notes": "- Enjoy POF with fewer bugs and improved stability",
+            "release_date": "2026-02-09T00:00:00.000Z"
+          },
+          {
+            "version": "5.58.1.1516451",
+            "release_notes": "- Enjoy POF with fewer bugs and improved stability",
+            "release_date": "2026-01-29T00:00:00.000Z"
+          },
+          {
+            "version": "5.58.0.1516444",
+            "release_notes": "",
+            "release_date": "2026-01-28T00:00:00.000Z"
+          },
+          {
+            "version": "5.57.0.1516425",
+            "release_notes": "- Enjoy POF with fewer bugs and improved stability",
+            "release_date": "2026-01-09T00:00:00.000Z"
+          },
+          {
+            "version": "5.56.2.1516393",
+            "release_notes": "- Enjoy POF with fewer bugs and improved stability",
+            "release_date": "2025-12-15T00:00:00.000Z"
+          },
+          {
+            "version": "5.56.1.1516381",
+            "release_notes": "- Enjoy POF with fewer bugs and improved stability",
+            "release_date": "2025-12-04T00:00:00.000Z"
+          },
+          {
+            "version": "5.56.0.1516352",
+            "release_notes": "- Enjoy POF with fewer bugs and improved stability",
+            "release_date": "2025-11-17T00:00:00.000Z"
+          },
+          {
+            "version": "5.55.0.1516318",
+            "release_notes": "- Enjoy POF with fewer bugs and improved stability",
+            "release_date": "2025-11-06T00:00:00.000Z"
+          },
+          {
+            "version": "5.54.1.1516298",
+            "release_notes": "- Enjoy POF with fewer bugs and improved stability",
+            "release_date": "2025-11-03T00:00:00.000Z"
+          },
+          {
+            "version": "5.54.0.1516208",
+            "release_notes": "- Enjoy POF with fewer bugs and improved stability",
+            "release_date": "2025-10-22T00:00:00.000Z"
+          },
+          {
+            "version": "5.53.2.1516180",
+            "release_notes": "- Enjoy POF with fewer bugs and improved stability",
+            "release_date": "2025-10-14T00:00:00.000Z"
+          },
+          {
+            "version": "5.53.1.1516159",
+            "release_notes": "- Enjoy POF with fewer bugs and improved stability",
+            "release_date": "2025-10-07T00:00:00.000Z"
+          },
+          {
+            "version": "5.53.0.1516139",
+            "release_notes": "- Enjoy POF with fewer bugs and improved stability",
+            "release_date": "2025-10-03T00:00:00.000Z"
+          },
+          {
+            "version": "5.52.0.1516110",
+            "release_notes": "- Enjoy POF with fewer bugs and improved stability",
+            "release_date": "2025-09-23T00:00:00.000Z"
+          },
+          {
+            "version": "5.51.0.1516067",
+            "release_notes": "- Enjoy POF with fewer bugs and improved stability",
+            "release_date": "2025-09-09T00:00:00.000Z"
+          },
+          {
+            "version": "5.50.0.1516038",
+            "release_notes": "- Enjoy POF with fewer bugs and improved stability",
+            "release_date": "2025-09-02T00:00:00.000Z"
+          }
+        ],
+        "similar_apps": [
+          "com.match.android.matchmobile",
+          "com.okcupid.okcupid",
+          "com.affinityapps.chispa",
+          "com.free.hookup.dating.apps.wild",
+          "com.jaumo.prime",
+          "com.bumble.app",
+          "com.threesome.swingers.threefun",
+          "co.feeld",
+          "com.eharmony",
+          "com.hily.app",
+          "com.jaumo.casual",
+          "com.dating.chat.citas.app",
+          "com.besalt.app",
+          "com.jaumo",
+          "com.pinkapp"
+        ],
+        "release_date": "2010-12-23T01:02:19.000Z",
+        "dna": {
+          "class_id": 10018,
+          "class_label": "Social",
+          "subclass_id": 38,
+          "subclass_label": "Dating"
+        },
+        "permissions": [
+          "android.permission.ACCESS_ADSERVICES_AD_ID",
+          "android.permission.ACCESS_ADSERVICES_ATTRIBUTION",
+          "android.permission.ACCESS_ADSERVICES_TOPICS",
+          "android.permission.ACCESS_COARSE_LOCATION",
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.ACCESS_WIFI_STATE",
+          "android.permission.CAMERA",
+          "android.permission.FOREGROUND_SERVICE",
+          "android.permission.GET_TASKS",
+          "android.permission.HIDE_OVERLAY_WINDOWS",
+          "android.permission.INTERNET",
+          "android.permission.MODIFY_AUDIO_SETTINGS",
+          "android.permission.POST_NOTIFICATIONS",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.READ_PHONE_STATE",
+          "android.permission.RECEIVE_BOOT_COMPLETED",
+          "android.permission.RECORD_AUDIO",
+          "android.permission.SCHEDULE_EXACT_ALARM",
+          "android.permission.VIBRATE",
+          "android.permission.WAKE_LOCK",
+          "com.android.vending.BILLING",
+          "com.google.android.c2dm.permission.RECEIVE",
+          "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+          "com.google.android.gms.permission.AD_ID",
+          "com.huawei.appmarket.service.commondata.permission.GET_COMMON_DATA",
+          "com.pof.android.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+          "com.samsung.android.mapsagent.permission.READ_APP_INFO"
+        ]
+      }
+    }
+  },
+  "metadata": {
+    "request": {
+      "path": "/api/public/store/apps/metadata.json",
+      "params": {
+        "device": "android",
+        "country": "us",
+        "language": "us",
+        "apps": [
+          "com.pof.android"
+        ]
+      },
+      "cost": 11,
+      "max_credit_cost": 11,
+      "status": 200
+    },
+    "response": null
+  }
+}

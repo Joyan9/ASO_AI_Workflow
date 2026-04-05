@@ -1,0 +1,224 @@
+{
+  "result": {
+    "enterprises.dating.boo": {
+      "metadata": {
+        "title": "Boo: Dating. Friends. Chat.",
+        "short_description": "The dating app to match, chat, make friends, and meet people by personality.",
+        "long_description": "Boo is for connecting with compatible and like-minded souls. Date, chat, match, make friends and meet new people by personality.<br><br>Join millions of souls on Boo and find your best match faster, for dating or friendship. <br><br>We\u2019re your tour guide through the strange landscape of another\u2019s heart and mind. We use personality psychology to help you find dates and friends that&#39;ll effortlessly love, appreciate, and understand you for who you naturally are.<br><br>Find your soulmate or your best friend.<br><br>OUR FEATURES<br><br>1. SOCIAL DATING + FRIEND-FINDING<br>Post in interest communities and meet new people by shared values and interests. Chat casually with people on funny, interesting, and insightful topics.<br><br>2. FLIRTING TIPS<br>Get in-depth dating tips and personality analysis with cutting-edge personality psychology. <br><br>Understand anyone\u2019s<br>1. Compatibility<br>2. Strengths<br>3. Weaknesses<br>4. Attracted By<br>5. Pet Peeves<br>6. Likely Interests<br>7. Love Languages<br>8. What You&#39;ll Love<br>9. Potential Conflicts<br>10. Love Philosophy<br>11. Mating Call<br>12. Ideal Date<br>13. Flirting Tips<br>14. Relationship Material<br>15. Relationship Fear<br>16. Secret Desire<br>17. Enneagram<br>18. Zodiac<br><br>3. VERIFIED PROFILES<br>Get verified and meet other verified users using the verified filter. No more catfishes and bots.<br><br>4. PRACTICE LANGUAGES<br>Make new friends and meet new people around the world. Translate profiles and messages, and send messages in any language with cutting-edge translation.<br><br>OUR VALUES<br><br>1. LOVE, KINDNESS, EMPATHY<br>Boo is an accepting, tolerant, and judgment-free space for everyone. Unlock functionalities by being a good person and earning love, our social credit system.<br><br>2. AUTHENTICITY<br>Be yourself. That\u2019s the only way you\u2019ll attract the right people. Embracing your authentic self starts when you realize that every personality has its flaws, that there are others who share your same personality, and that you are not alone. <br><br>3. TRANSPARENCY<br>Understand yourself and others like never before in human history. Understand anyone deeply instantly, not 3 weeks, months, or years into a failed relationship. <br><br>4. EMPOWERMENT<br>Attraction, compatibility, and succeeding in dating and making friends have always been a black box. With personality insight, you are empowered to understand how it all works for yourself, make the right decisions, and set yourself up for success.<br><br>We were using all the dating apps. It was always the same result\u2013going on dates with people we had no chemistry with. We were exhausted from all the wasted time and effort. We made Boo because we knew there was a better way.<br><br>Our mission is to create a future in which personality enables our greatest potential, starting with our relationships.<br><br>We hope you like it,<br>The souls at Boo<br><br>https://boo.world/terms-and-conditions",
+        "id": "enterprises.dating.boo",
+        "categories": [
+          "DATING"
+        ],
+        "icon": "https://play-lh.googleusercontent.com/7odIr8zuMI5ddrSG6KtefaVNEvKBoiGzo6Q96lowbP5tLFhqiqUl3Mc16PMk2E1m9g",
+        "screenshots": [
+          "https://play-lh.googleusercontent.com/YYIyTwgmIi866oZXfr8gUt7bg8uAqufxlUNP7rtskImVN67jdif3L2mHOO8hFvR6Yk3W",
+          "https://play-lh.googleusercontent.com/5BHyvs8q6H_FSR0A24oT4niKOz7N77K7bHulmny_5LcmyiuYZW34FfEEQvBWiBTP5RA",
+          "https://play-lh.googleusercontent.com/yXtTHj3dLGJ5UDtdrAsJBulUPKnBoLkwgsedRZHsJcxyw7wXN0ouWuM463Wyyin-ORQ",
+          "https://play-lh.googleusercontent.com/GKp7ClfbGNEWK9BrkbUZBN1QU9BpU7vu4pg5PfL7uv09toY1VY1L4W1jaa2Mi1TOKPY",
+          "https://play-lh.googleusercontent.com/r_DrClExJj2vC9QXbCEzxGAY8aTafLEkLUHdNbWN96IlqeOhNGigz6T9rDsJ1rwCbHuM",
+          "https://play-lh.googleusercontent.com/bC4ChEwH4aG0EnxRTz_phNbU0l2DvyyefMhOP9xZCYXly4_v4fqCTwcVqVE4g2Nt7A",
+          "https://play-lh.googleusercontent.com/Vw5GvSZTemuq_TsXYJWvmEk0MEn0EPvpjwfDMAxzTR4zB3MtF4Y7KP6V9ThBm27f080"
+        ],
+        "videos": [],
+        "size": {
+          "current": {
+            "data": 61474225
+          }
+        },
+        "rating": {
+          "average": 3.9
+        },
+        "developer": {
+          "id": "8817941093994408218",
+          "name": "Boo Enterprises, Inc.",
+          "email": "hello@boo.world",
+          "website": "https://boo.world",
+          "phone": "",
+          "address_private": "",
+          "address_public": "1050 Queen St Ste 100\nHonolulu, HI 96814\nUnited States",
+          "publisher_name": "BOO ENTERPRISES",
+          "publisher_email": "hello@boo.world",
+          "publisher_phone": "+1 628-600-1386"
+        },
+        "price": "",
+        "released_at": null,
+        "versions": [
+          {
+            "version": "1.13.122",
+            "release_notes": "We\u2019re constantly making dating, making friends, and chatting more magical on Boo. In this version, we fixed some bugs and launched something we hope you\u2019ll love.",
+            "release_date": "2026-03-31T00:00:00.000Z"
+          },
+          {
+            "version": "1.13.121",
+            "release_notes": "We\u2019re constantly making dating, making friends, and chatting more magical on Boo. In this version, we fixed some bugs and launched something we hope you\u2019ll love.",
+            "release_date": "2026-03-17T00:00:00.000Z"
+          },
+          {
+            "version": "1.13.120",
+            "release_notes": "We\u2019re constantly making dating, making friends, and chatting more magical on Boo. In this version, we fixed some bugs and launched something we hope you\u2019ll love.",
+            "release_date": "2026-03-10T00:00:00.000Z"
+          },
+          {
+            "version": "1.13.119",
+            "release_notes": "We\u2019re constantly making dating, making friends, and chatting more magical on Boo. In this version, we fixed some bugs and launched something we hope you\u2019ll love.",
+            "release_date": "2026-03-03T00:00:00.000Z"
+          },
+          {
+            "version": "1.13.118",
+            "release_notes": "We\u2019re constantly making dating, making friends, and chatting more magical on Boo. In this version, we fixed some bugs and launched something we hope you\u2019ll love.",
+            "release_date": "2026-02-22T00:00:00.000Z"
+          },
+          {
+            "version": "1.13.117",
+            "release_notes": "",
+            "release_date": "2026-02-17T00:00:00.000Z"
+          },
+          {
+            "version": "1.13.115",
+            "release_notes": "We\u2019re constantly making dating, making friends, and chatting more magical on Boo. In this version, we fixed some bugs and launched something we hope you\u2019ll love.",
+            "release_date": "2026-01-31T00:00:00.000Z"
+          },
+          {
+            "version": "1.13.114",
+            "release_notes": "We\u2019re constantly making dating, making friends, and chatting more magical on Boo. In this version, we fixed some bugs and launched something we hope you\u2019ll love.",
+            "release_date": "2026-01-25T00:00:00.000Z"
+          },
+          {
+            "version": "1.13.113",
+            "release_notes": "We\u2019re constantly making dating, making friends, and chatting more magical on Boo. In this version, we fixed some bugs and launched something we hope you\u2019ll love.",
+            "release_date": "2026-01-19T00:00:00.000Z"
+          },
+          {
+            "version": "1.13.112",
+            "release_notes": "We\u2019re constantly making dating, making friends, and chatting more magical on Boo. In this version, we fixed some bugs and launched something we hope you\u2019ll love.",
+            "release_date": "2026-01-11T00:00:00.000Z"
+          },
+          {
+            "version": "1.13.111",
+            "release_notes": "We\u2019re constantly making dating, making friends, and chatting more magical on Boo. In this version, we fixed some bugs and launched something we hope you\u2019ll love.",
+            "release_date": "2025-12-27T00:00:00.000Z"
+          },
+          {
+            "version": "1.13.110",
+            "release_notes": "We\u2019re constantly making dating, making friends, and chatting more magical on Boo. In this version, we fixed some bugs and launched something we hope you\u2019ll love.",
+            "release_date": "2025-12-21T00:00:00.000Z"
+          },
+          {
+            "version": "1.13.109",
+            "release_notes": "We\u2019re constantly making dating, making friends, and chatting more magical on Boo. In this version, we fixed some bugs and launched something we hope you\u2019ll love.",
+            "release_date": "2025-12-13T00:00:00.000Z"
+          },
+          {
+            "version": "1.13.108",
+            "release_notes": "We\u2019re constantly making dating, making friends, and chatting more magical on Boo. In this version, we fixed some bugs and launched something we hope you\u2019ll love.",
+            "release_date": "2025-12-06T00:00:00.000Z"
+          },
+          {
+            "version": "1.13.107",
+            "release_notes": "We\u2019re constantly making dating, making friends, and chatting more magical on Boo. In this version, we fixed some bugs and launched something we hope you\u2019ll love.",
+            "release_date": "2025-11-29T00:00:00.000Z"
+          },
+          {
+            "version": "1.13.106",
+            "release_notes": "We\u2019re constantly making dating, making friends, and chatting more magical on Boo. In this version, we fixed some bugs and launched something we hope you\u2019ll love.",
+            "release_date": "2025-11-22T00:00:00.000Z"
+          },
+          {
+            "version": "1.13.105",
+            "release_notes": "We\u2019re constantly making dating, making friends, and chatting more magical on Boo. In this version, we fixed some bugs and launched something we hope you\u2019ll love.",
+            "release_date": "2025-11-14T00:00:00.000Z"
+          },
+          {
+            "version": "1.13.104",
+            "release_notes": "We\u2019re constantly making dating, making friends, and chatting more magical on Boo. In this version, we fixed some bugs and launched something we hope you\u2019ll love.",
+            "release_date": "2025-11-10T00:00:00.000Z"
+          },
+          {
+            "version": "1.13.103",
+            "release_notes": "We\u2019re constantly making dating, making friends, and chatting more magical on Boo. In this version, we fixed some bugs and launched something we hope you\u2019ll love.",
+            "release_date": "2025-11-02T00:00:00.000Z"
+          },
+          {
+            "version": "1.13.102",
+            "release_notes": "We\u2019re constantly making dating, making friends, and chatting more magical on Boo. In this version, we fixed some bugs and launched something we hope you\u2019ll love.",
+            "release_date": "2025-10-26T00:00:00.000Z"
+          }
+        ],
+        "similar_apps": [
+          "com.bumble.app",
+          "com.getpure.pure",
+          "app.bumpy.android",
+          "com.badoo.mobile",
+          "com.kismia.app",
+          "com.dating.android",
+          "co.hinge.app",
+          "com.okcupid.okcupid",
+          "com.jaumo",
+          "com.pinkapp",
+          "com.tantantribe.tribe",
+          "co.yellw.yellowapp",
+          "com.tinder",
+          "com.dazz.hoop",
+          "net.lovoo.android"
+        ],
+        "release_date": "2020-02-22T17:50:19.000Z",
+        "dna": {
+          "class_id": 10018,
+          "class_label": "Social",
+          "subclass_id": 38,
+          "subclass_label": "Dating"
+        },
+        "permissions": [
+          "Manifest.permission.CAPTURE_AUDIO_OUTPUT",
+          "android.permission.ACCESS_ADSERVICES_AD_ID",
+          "android.permission.ACCESS_ADSERVICES_ATTRIBUTION",
+          "android.permission.ACCESS_COARSE_LOCATION",
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.ACCESS_WIFI_STATE",
+          "android.permission.BLUETOOTH",
+          "android.permission.CAMERA",
+          "android.permission.CHANGE_NETWORK_STATE",
+          "android.permission.DETECT_SCREEN_CAPTURE",
+          "android.permission.FOREGROUND_SERVICE",
+          "android.permission.INTERNET",
+          "android.permission.MODIFY_AUDIO_SETTINGS",
+          "android.permission.POST_NOTIFICATIONS",
+          "android.permission.READ_CONTACTS",
+          "android.permission.READ_MEDIA_IMAGES",
+          "android.permission.READ_PHONE_STATE",
+          "android.permission.RECORD_AUDIO",
+          "android.permission.VIBRATE",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_CONTACTS",
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          "com.android.vending.BILLING",
+          "com.google.android.c2dm.permission.RECEIVE",
+          "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+          "com.google.android.gms.permission.AD_ID",
+          "com.google.android.providers.gsf.permission.READ_GSERVICES",
+          "com.huawei.appmarket.service.commondata.permission.GET_COMMON_DATA",
+          "com.samsung.android.mapsagent.permission.READ_APP_INFO",
+          "enterprises.dating.boo.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+        ]
+      }
+    }
+  },
+  "metadata": {
+    "request": {
+      "path": "/api/public/store/apps/metadata.json",
+      "params": {
+        "device": "android",
+        "country": "us",
+        "language": "us",
+        "apps": [
+          "enterprises.dating.boo"
+        ]
+      },
+      "cost": 11,
+      "max_credit_cost": 11,
+      "status": 200
+    },
+    "response": null
+  }
+}

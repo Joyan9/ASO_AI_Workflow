@@ -1,0 +1,207 @@
+{
+  "result": {
+    "com.doni.appa": {
+      "metadata": {
+        "title": "Doni: Start Real Companionship",
+        "short_description": "Doni helps you connect with nearby singles.",
+        "long_description": "Doni is a new way to meet people.<br><br>Key functions:<br>Match cards.<br>See who liked you.<br>My Profile.<br>Chats.<br><br>We hope you have fun in the Doni community!",
+        "id": "com.doni.appa",
+        "categories": [
+          "DATING"
+        ],
+        "icon": "https://play-lh.googleusercontent.com/IJNLY65uW5rVhuTzhqxJtM35-HqLdk41h7cTw4w5u8QsVZ32xaPWmmeE4vkCdwpm0-Sa00WeN85VXrhisj7x6w",
+        "screenshots": [
+          "https://play-lh.googleusercontent.com/daUV-y81TrO_y-oCsILOhGw6vn-0rrb79K9h-Pht2jzIxGM8rOnsCiRznb-aNs7OW768dL7BWULMfKrQj4qh",
+          "https://play-lh.googleusercontent.com/11T-X5hiNPdK2MKJ4fpXP3MRgVTuiwX2pGwwcEhIrbGq2X_k7WtL-w1uHlqwioJwMwzMvcT_BnRH1Pq_LNSvzg",
+          "https://play-lh.googleusercontent.com/Qmp1QHGTgJSj8TaGa_6Ku3GOjp63cJK_XT9CZO8MR5LBFJrgL1iCvh-sGjKeEWzaErmrqqVi3zN9EQ9AS7BsSA",
+          "https://play-lh.googleusercontent.com/Z5yTUA47fud7EQk7g3dsI3n8V2hovMdYGXnqYE-xp0ZlEmD9aVUY5QWllKQDn-n9DBhyoyP7d-79lhRsDhRAOn8",
+          "https://play-lh.googleusercontent.com/S3laVKfGDy6oAv9NasCsbMWNMZzl_UBM_2tL3bG4Qab0SE5mS6alHSNYlA6wJ1Jcc-MCTrEngnxdrBGcWwOuQg"
+        ],
+        "videos": [],
+        "size": {
+          "current": {
+            "data": 41866753
+          }
+        },
+        "rating": {
+          "average": 4.2
+        },
+        "developer": {
+          "id": "iLexis+Multimedia+Consults",
+          "name": "iLexis Multimedia Consults",
+          "email": "donifeedback@thenovelisthk.com",
+          "website": "",
+          "phone": "",
+          "address_private": "",
+          "address_public": "8 Amaokpala New Road, Beside Paradise Restaurant\nAmaopkala 423199\nAnambra\nNigeria",
+          "publisher_name": "JOEBEST STORES",
+          "publisher_email": "ilexismultimedia@gmail.com",
+          "publisher_phone": "+234 916 832 5379"
+        },
+        "price": "",
+        "released_at": null,
+        "versions": [
+          {
+            "version": "1.15.5",
+            "release_notes": "bug fix",
+            "release_date": "2026-03-31T00:00:00.000Z"
+          },
+          {
+            "version": "1.15.4",
+            "release_notes": "bug fix",
+            "release_date": "2026-03-12T00:00:00.000Z"
+          },
+          {
+            "version": "1.15.2",
+            "release_notes": "bug fix",
+            "release_date": "2026-03-02T00:00:00.000Z"
+          },
+          {
+            "version": "1.15.0",
+            "release_notes": "bugfix",
+            "release_date": "2026-02-26T00:00:00.000Z"
+          },
+          {
+            "version": "1.14.9",
+            "release_notes": "",
+            "release_date": "2026-02-14T00:00:00.000Z"
+          },
+          {
+            "version": "1.14.8",
+            "release_notes": "",
+            "release_date": "2026-02-10T00:00:00.000Z"
+          },
+          {
+            "version": "1.14.6",
+            "release_notes": "",
+            "release_date": "2026-02-05T00:00:00.000Z"
+          },
+          {
+            "version": "1.14.5",
+            "release_notes": "bugfix",
+            "release_date": "2026-01-23T00:00:00.000Z"
+          },
+          {
+            "version": "1.14.4",
+            "release_notes": "",
+            "release_date": "2026-01-22T00:00:00.000Z"
+          },
+          {
+            "version": "1.14.2",
+            "release_notes": "bugfix",
+            "release_date": "2026-01-09T00:00:00.000Z"
+          },
+          {
+            "version": "1.14.1",
+            "release_notes": "bugfix",
+            "release_date": "2025-12-17T00:00:00.000Z"
+          },
+          {
+            "version": "1.14.0",
+            "release_notes": "",
+            "release_date": "2025-12-05T00:00:00.000Z"
+          },
+          {
+            "version": "1.11.2",
+            "release_notes": "",
+            "release_date": "2025-12-01T00:00:00.000Z"
+          },
+          {
+            "version": "1.11.1",
+            "release_notes": "bugfix",
+            "release_date": "2025-11-28T00:00:00.000Z"
+          },
+          {
+            "version": "1.10.9",
+            "release_notes": "",
+            "release_date": "2025-11-21T00:00:00.000Z"
+          },
+          {
+            "version": "1.10.7",
+            "release_notes": "",
+            "release_date": "2025-11-17T00:00:00.000Z"
+          },
+          {
+            "version": "Varies with device",
+            "release_notes": "",
+            "release_date": "1970-01-01T00:00:00.000Z"
+          }
+        ],
+        "similar_apps": [
+          "com.hily.app",
+          "com.genevachat.prod",
+          "com.free.hookup.dating.apps.wild",
+          "com.eharmony",
+          "co.feeld",
+          "com.pof.android",
+          "com.affinityapps.chispa",
+          "com.stddating.positivesingles",
+          "video.chat.peachat",
+          "com.match.android.matchmobile",
+          "social.hunch.app",
+          "com.sdm.dating",
+          "com.league.theleague",
+          "co.tapcart.app.id_E30aUmZnzE",
+          "com.threesome.swingers.threefun"
+        ],
+        "release_date": "2025-07-16T02:22:54.000Z",
+        "dna": {
+          "class_id": 10005,
+          "class_label": "Entertainment",
+          "subclass_id": 208,
+          "subclass_label": "Other Entertainment"
+        },
+        "permissions": [
+          "android.permission.ACCESS_ADSERVICES_AD_ID",
+          "android.permission.ACCESS_ADSERVICES_ATTRIBUTION",
+          "android.permission.ACCESS_ADSERVICES_CUSTOM_AUDIENCE",
+          "android.permission.ACCESS_ADSERVICES_TOPICS",
+          "android.permission.ACCESS_COARSE_LOCATION",
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.ACCESS_WIFI_STATE",
+          "android.permission.BLUETOOTH",
+          "android.permission.BLUETOOTH_CONNECT",
+          "android.permission.CAMERA",
+          "android.permission.CHANGE_NETWORK_STATE",
+          "android.permission.FOREGROUND_SERVICE",
+          "android.permission.FOREGROUND_SERVICE_DATA_SYNC",
+          "android.permission.INTERNET",
+          "android.permission.MODIFY_AUDIO_SETTINGS",
+          "android.permission.POST_NOTIFICATIONS",
+          "android.permission.READ_MEDIA_IMAGES",
+          "android.permission.READ_MEDIA_VIDEO",
+          "android.permission.RECORD_AUDIO",
+          "android.permission.SYSTEM_ALERT_WINDOW",
+          "android.permission.VIBRATE",
+          "android.permission.WAKE_LOCK",
+          "com.android.vending.BILLING",
+          "com.android.vending.CHECK_LICENSE",
+          "com.doni.appa.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+          "com.google.android.c2dm.permission.RECEIVE",
+          "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+          "com.google.android.gms.permission.AD_ID",
+          "com.huawei.appmarket.service.commondata.permission.GET_COMMON_DATA",
+          "com.samsung.android.mapsagent.permission.READ_APP_INFO"
+        ]
+      }
+    }
+  },
+  "metadata": {
+    "request": {
+      "path": "/api/public/store/apps/metadata.json",
+      "params": {
+        "device": "android",
+        "country": "us",
+        "language": "us",
+        "apps": [
+          "com.doni.appa"
+        ]
+      },
+      "cost": 11,
+      "max_credit_cost": 11,
+      "status": 200
+    },
+    "response": null
+  }
+}

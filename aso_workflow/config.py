@@ -27,6 +27,8 @@ END_DATE = datetime.now().strftime("%Y-%m-%d")
 # API settings
 APPTWEAK_BASE_URL = "https://public-api.apptweak.com"
 APPTWEAK_METADATA_ENDPOINT = "api/public/store/apps/metadata.json"
+APPTWEAK_TOP_CHARTS_ENDPOINT = "api/public/store/charts/top-results/current.json"
+APPTWEAK_HISTORY_ENDPOINT = "api/public/store/apps/metadata/changes.json"
 
 # This gets the directory where config.py lives (aso_workflow/)
 BASE_DIR = Path(__file__).resolve().parent

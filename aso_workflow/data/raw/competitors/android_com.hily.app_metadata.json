@@ -1,0 +1,236 @@
+{
+  "result": {
+    "com.hily.app": {
+      "metadata": {
+        "title": "Hily Dating app: Meet & Date",
+        "short_description": "Hily \u2013 Dating & friend app to meet people,chat,flirt, and make real connections!",
+        "long_description": "On Hily dating app, date as you are. Chat with singles, flirt online, meet people, and connect with local singles for real. Because dating apps work wonders when you let yourself be real. Whether you&#39;re looking for a relationship, friends with benefits, or to make new connections, Hily makes it easy to meet people nearby. With Hily, you can chat, flirt, and explore all kinds of relationships, from casual fun to meaningful connections.<br><br>Mutual connections are so easy to establish on Hily. Just make your dating profile match your personality\u2014and find a compatible date! Don\u2019t know how to start? Use our profile tips and rely on icebreakers and compatibility checks to chat and flirt. Whether you\u2019re searching for a dating app, friends with benefits, or a serious relationship, Hily makes it easy to meet new people and connect in ways that work for you.<br><br>Check out Hily\u2019s star dating features:<br>\ud83d\udc9c Compatibility Quiz to make pure harmony chances in our app<br>\ud83d\udc9c Fun zodiac synastry test to see if your stars align<br>\ud83d\udc9c Safety checks before you come to meet new people<br>\ud83d\udc9c Photo and profile tips to find a date with no stress<br>\ud83d\udc9c Personalized icebreakers to chat and flirt like a pro<br><br>We believe that dating apps should make online dating easy and fun. Just use Hily as you like and date as you are, and you\u2019ll meet new people amid plenty of connections. Get the app, build your profile, chat with locals whom you\u2019d like to meet up in real life \u2013 and get the relationships you\u2019re looking for! You can chat for true love, enjoy short-term fun, or just network and meet up with local singles.<br><br>Whether you&#39;re looking for friends with benefits, dating apps, dating, or even women dating, friends with benefits apps, or USA dating, Hily is your go-to platform for flirting apps and match making. Are we dating the same guy? Find out! Whether it&#39;s hot girls chat, finding friends with benefits, or looking for a genuine relationship, Hily has it all.<br><br>Looking to make new friends or explore a deeper connection? Hily offers a variety of options for meeting people in your area and starting meaningful conversations. From casual chatting to long-term relationships, our app is designed to help you meet new people, flirt, and enjoy the dating experience.<br><br>Stay in touch with us!<br>\u2b50\ufe0f To learn more, go to Hily website https://hily.com<br>\u2b50\ufe0f Share your experience by leaving your feedback at apps@corp.hily.com<br>\u2b50\ufe0f If you\u2019re worried about whether you can use dating apps safely, take a look at our Terms of Service at https://hily.com/terms and Privacy Policy at https://hily.com/privacypolicy<br><br>We want dating apps to be fun again. And we believe there is no other way to date and meet people for real than being your authentic self. So hop on real dating fun with us! Are you in the mood to chat or flirt? Get the Hily dating app to enjoy the ride on your terms!",
+        "id": "com.hily.app",
+        "categories": [
+          "DATING"
+        ],
+        "icon": "https://play-lh.googleusercontent.com/fxFTc2KtO5IxpFg0WgmVcQGdukmn2JO9Gv6KnNdnLu5dZKi4xCjr_BvuMDSlJ1ppQA",
+        "screenshots": [
+          "https://play-lh.googleusercontent.com/TXruwEcbUbdjTlWXaZUMXgyWWxLFdqtGhk6LXphIAqL2kwckJWr3_xyf3_py_acnMyNe",
+          "https://play-lh.googleusercontent.com/DnMeB87glYj6dm0uj14MnKh61Zj6EH1q2povMrn12c10Z6ZxMxgYL-tTDaTDhTRYFKk",
+          "https://play-lh.googleusercontent.com/AecIgyRxJtja9U8Rp9f8-9xEgpQ1GlncsR6oywbqrzn-yIPbB6zNU0BnxRceafSBoRSj",
+          "https://play-lh.googleusercontent.com/p6jcSOJQo4kh_hWcpwRpdm-myXDBv_GdfVfn-oX5cjfgEMdpfG8QyLWeR5i_Sti_LA",
+          "https://play-lh.googleusercontent.com/4ul99tTVPbPZSHk0VzovItt5X6-vYE3mXBMX-FA41ToFTbmsWHYkiLsdUGoF8Vp47u_9",
+          "https://play-lh.googleusercontent.com/cs3f786oW3VIIeUJcZl1Xy3YKz064VN1Hz0GI0wHx6KXhnqcSwouRZ0hVHj99dN2MA",
+          "https://play-lh.googleusercontent.com/RvNfamC5B8VO3hDWFAk_w5UI5i1EClpyOaW4cG4YLjpQq2qKqp7grx90YyP_h2Qmr70"
+        ],
+        "videos": [],
+        "size": {
+          "current": {
+            "data": 45540818
+          }
+        },
+        "rating": {
+          "average": 4.3
+        },
+        "developer": {
+          "id": "8466050068348543977",
+          "name": "Hily Corp.",
+          "email": "apps@corp.hily.com",
+          "website": "http://hily.com",
+          "phone": "+17027077542",
+          "address_private": "",
+          "address_public": "3172 N Rainbow Blvd\nLas Vegas, NV 89108\nUnited States",
+          "publisher_name": "Hily Corp.",
+          "publisher_email": "apps@corp.hily.com",
+          "publisher_phone": "+1 702-707-7542"
+        },
+        "price": "",
+        "released_at": null,
+        "versions": [
+          {
+            "version": "5.63.0",
+            "release_notes": "",
+            "release_date": "2026-03-30T00:00:00.000Z"
+          },
+          {
+            "version": "5.62.0",
+            "release_notes": "",
+            "release_date": "2026-03-23T00:00:00.000Z"
+          },
+          {
+            "version": "5.61.0",
+            "release_notes": "",
+            "release_date": "2026-03-17T00:00:00.000Z"
+          },
+          {
+            "version": "5.60.1",
+            "release_notes": "",
+            "release_date": "2026-03-11T00:00:00.000Z"
+          },
+          {
+            "version": "5.60.0",
+            "release_notes": "",
+            "release_date": "2026-03-09T00:00:00.000Z"
+          },
+          {
+            "version": "5.59.1",
+            "release_notes": "",
+            "release_date": "2026-03-02T00:00:00.000Z"
+          },
+          {
+            "version": "5.58.0",
+            "release_notes": "",
+            "release_date": "2026-02-23T00:00:00.000Z"
+          },
+          {
+            "version": "5.57.2",
+            "release_notes": "",
+            "release_date": "2026-02-19T00:00:00.000Z"
+          },
+          {
+            "version": "5.57.1",
+            "release_notes": "",
+            "release_date": "2026-02-17T00:00:00.000Z"
+          },
+          {
+            "version": "5.57.0",
+            "release_notes": "",
+            "release_date": "2026-02-16T00:00:00.000Z"
+          },
+          {
+            "version": "5.56.0",
+            "release_notes": "",
+            "release_date": "2026-02-09T00:00:00.000Z"
+          },
+          {
+            "version": "5.55.2",
+            "release_notes": "",
+            "release_date": "2026-02-05T00:00:00.000Z"
+          },
+          {
+            "version": "5.55.1",
+            "release_notes": "",
+            "release_date": "2026-02-04T00:00:00.000Z"
+          },
+          {
+            "version": "5.55.0",
+            "release_notes": "",
+            "release_date": "2026-02-02T00:00:00.000Z"
+          },
+          {
+            "version": "5.54.0",
+            "release_notes": "",
+            "release_date": "2026-01-26T00:00:00.000Z"
+          },
+          {
+            "version": "5.53.0",
+            "release_notes": "",
+            "release_date": "2026-01-19T00:00:00.000Z"
+          },
+          {
+            "version": "5.52.1",
+            "release_notes": "",
+            "release_date": "2026-01-14T00:00:00.000Z"
+          },
+          {
+            "version": "5.52.0",
+            "release_notes": "",
+            "release_date": "2026-01-12T00:00:00.000Z"
+          },
+          {
+            "version": "5.51.1",
+            "release_notes": "",
+            "release_date": "2026-01-07T00:00:00.000Z"
+          },
+          {
+            "version": "5.51.0",
+            "release_notes": "",
+            "release_date": "2026-01-05T00:00:00.000Z"
+          }
+        ],
+        "similar_apps": [
+          "co.yellw.yellowapp",
+          "com.affinityapps.chispa",
+          "com.feels",
+          "com.pof.android",
+          "co.feeld",
+          "co.hinge.app",
+          "com.eharmony",
+          "com.mason.wooplus",
+          "co.gocrush",
+          "com.myyearbook.m",
+          "com.match.android.matchmobile",
+          "com.genevachat.prod",
+          "com.bumble.app",
+          "com.dating.android",
+          "net.lovoo.android"
+        ],
+        "release_date": "2018-11-16T19:26:47.000Z",
+        "dna": {
+          "class_id": 10018,
+          "class_label": "Social",
+          "subclass_id": 38,
+          "subclass_label": "Dating"
+        },
+        "permissions": [
+          "android.permission.ACCESS_COARSE_LOCATION",
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.ACCESS_MEDIA_LOCATION",
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.ACCESS_WIFI_STATE",
+          "android.permission.CAMERA",
+          "android.permission.CHANGE_WIFI_STATE",
+          "android.permission.FOREGROUND_SERVICE",
+          "android.permission.FOREGROUND_SERVICE_DATA_SYNC",
+          "android.permission.INTERNET",
+          "android.permission.POST_NOTIFICATIONS",
+          "android.permission.READ_APP_BADGE",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.READ_MEDIA_AUDIO",
+          "android.permission.READ_MEDIA_IMAGES",
+          "android.permission.READ_MEDIA_VIDEO",
+          "android.permission.RECORD_AUDIO",
+          "android.permission.VIBRATE",
+          "android.permission.WAKE_LOCK",
+          "com.anddoes.launcher.permission.UPDATE_COUNT",
+          "com.android.vending.BILLING",
+          "com.android.vending.CHECK_LICENSE",
+          "com.applovin.array.apphub.permission.BIND_APPHUB_SERVICE",
+          "com.google.android.c2dm.permission.RECEIVE",
+          "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+          "com.google.android.gms.permission.ACTIVITY_RECOGNITION",
+          "com.google.android.gms.permission.AD_ID",
+          "com.google.android.providers.gsf.permission.READ_GSERVICES",
+          "com.hily.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+          "com.htc.launcher.permission.READ_SETTINGS",
+          "com.htc.launcher.permission.UPDATE_SHORTCUT",
+          "com.huawei.android.launcher.permission.CHANGE_BADGE",
+          "com.huawei.android.launcher.permission.READ_SETTINGS",
+          "com.huawei.android.launcher.permission.WRITE_SETTINGS",
+          "com.majeur.launcher.permission.UPDATE_BADGE",
+          "com.oppo.launcher.permission.READ_SETTINGS",
+          "com.oppo.launcher.permission.WRITE_SETTINGS",
+          "com.sec.android.provider.badge.permission.READ",
+          "com.sec.android.provider.badge.permission.WRITE",
+          "com.sonyericsson.home.permission.BROADCAST_BADGE",
+          "com.sonymobile.home.permission.PROVIDER_INSERT_BADGE",
+          "me.everything.badger.permission.BADGE_COUNT_READ",
+          "me.everything.badger.permission.BADGE_COUNT_WRITE"
+        ]
+      }
+    }
+  },
+  "metadata": {
+    "request": {
+      "path": "/api/public/store/apps/metadata.json",
+      "params": {
+        "device": "android",
+        "country": "us",
+        "language": "us",
+        "apps": [
+          "com.hily.app"
+        ]
+      },
+      "cost": 11,
+      "max_credit_cost": 11,
+      "status": 200
+    },
+    "response": null
+  }
+}

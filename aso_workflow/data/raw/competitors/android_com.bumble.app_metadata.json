@@ -1,0 +1,250 @@
+{
+  "result": {
+    "com.bumble.app": {
+      "metadata": {
+        "title": "Bumble Dating App: Meet & Date",
+        "short_description": "Dating app to meet new people, chat and date with singles IRL or make friends.",
+        "long_description": "<b>The dating app bringing people closer to love</b><br><br>Bumble is the dating app where people meet, make connections, and start their love stories. We believe meaningful relationships are the foundation of a happy, healthy life \u2014 and we&#39;re here to help you find yours with a commitment to member safety and tools that empower confident dating.<br><br><b>Match with the right people, date, and find meaningful connection</b><br><br>Bumble is a free app for meeting singles and building connections grounded in mutual respect and trust. Whether you\u2019re ready to find the one or date for fun, Bumble can help you connect with real people to build something authentic.<br><br><b>As champions of love, we prioritize creating a space where our members feel respected, confident, and empowered to make connections</b><br><br>\ud83d\udc9b Our members are at the heart of everything we do<br>\ud83d\udc9b We put safety first \u2014 so you can date with confidence, knowing you\u2019re connecting with verified matches<br>\ud83d\udc9b Respect, courage, and joy guide how we show up \u2014 and inspire others to do the same<br><br><b>Try our free features \u2014 built to make dating easier</b><br>- For better connections, conversations, and dates, personalize your profile with interests and prompts to showcase who you are, what you\u2019re into, and what you\u2019re looking for<br>- Trust that the person you\u2019re talking to is real with ID Verification<br>- Feel confident with expert-backed dating advice designed to help you succeed<br>- See what music you bond over by linking your Spotify account<br>- Video chat and share your favorite pictures with your matches to get to know them better<br>- Chat with peace of mind \u2014 knowing that when you\u2019re talking to new people, all messages must meet our community guidelines<br>- Get extra reassurance by sharing the details of your meetups with someone you trust<br>- If you\u2019re ever in need of a dating break, hide your profile with the Snooze Mode (you&#39;ll still keep all your matches)<br><br><b>Want even more ways to connect? Bumble Premium unlocks extra features to boost your dating experience</b><br>\ud83d\udc9b See everyone who likes you<br>\ud83d\udd0d Use Advanced Filters like \u201cWhat are they looking for?\u201d to meet people who share your values, hobbies, and goals<br>\ud83d\udd01 Rematch with expired connections \u2014 so you don\u2019t miss out on a great potential date<br>\ud83d\ude36\u200d\ud83c\udf2b\ufe0f  Browse anonymously with Incognito Mode and only seen by who you want to see you<br>\u2795 Extend your matches by 24 hours<br>\ud83d\udc49 Swipe as much as you like to meet more people<br>\u2708\ufe0f Tap into dating scenes around the world with Travel Mode<br>\u2728 Stand out and get noticed with free SuperSwipes &amp; Spotlights, refreshed weekly<br><br><b>Inclusivity is key</b><br>At Bumble, we promise to support and include all forms of love: straight, gay, lesbian, queer, and beyond. We want everyone in our community to feel safe and welcome. So no matter how you identify, if you&#39;re looking for a place to chat, date, and find real love, we\u2019ve got what you\u2019re looking for.<br><br>---<br>Bumble is a free dating app to download and use. We offer optional subscription packages (Bumble Boost &amp; Bumble Premium) and non-subscription, single, and multi-use paid features (Bumble Spotlight &amp; Bumble SuperSwipe). Your personal data is securely processed in line with our privacy policy and applicable laws\u2014be sure to read our privacy policy and terms and conditions.<br>https://bumble.com/en/privacy<br>https://bumble.com/en/terms<br>Bumble Inc. is the parent company of Bumble, Badoo, and BFF, social networks, and dating apps free to download and use.",
+        "id": "com.bumble.app",
+        "categories": [
+          "DATING"
+        ],
+        "icon": "https://play-lh.googleusercontent.com/7GSSxUQ2KneDsNK1KIlBa26ukNM6UmOtpfAVSj-72Im-62jd1-38et6VEqBD-LKfXZdGHQfucP3tVOIGa3kV",
+        "screenshots": [
+          "https://play-lh.googleusercontent.com/OaCUUnh2dqiBDaLouSfdQTxvYkQH4pUobsaEpptbI5E-yBSUu1U1rbvRZeZv5qR3T9vG",
+          "https://play-lh.googleusercontent.com/F087OKn9x4L8WGYV8cNiPh9fhf8zGo7G0jGBdA73Adhu6a_NMkybONVhrk6S4MwvkQ",
+          "https://play-lh.googleusercontent.com/67fqur-jM9PzhMy_BPlnzhDVVMN1JwZE35IgZqiIdq3XS34rV4tPKwmOP6FXOsBnkAc",
+          "https://play-lh.googleusercontent.com/roZZiOQqEo2tiRYy-R_WdbN_unUsqJvONj4MoQUU2LRyo2m6OW802n6dyPWRHyprwRRK",
+          "https://play-lh.googleusercontent.com/SiLRCIVDdENF3wfRAP3yJhg3PBQZurbfRDihztM4wiT81wP4nqrK767MBfUnaG6ZNJE",
+          "https://play-lh.googleusercontent.com/yF6wPn3KKgw05XNoxtfgyCs8i0QkjclH9OtXtxeWvkrZdGrXqorl9y-6WdqkZNHi2yQ",
+          "https://play-lh.googleusercontent.com/AphiRuMqQ6m6Pf2YtQM0wX555KnAzxe_uGxAis3IVmSozAUL8cPc-P9KEA-RSS5n8g"
+        ],
+        "videos": [],
+        "size": {
+          "current": {
+            "data": 47112133
+          }
+        },
+        "rating": {
+          "average": 3.8
+        },
+        "developer": {
+          "id": "6810146070790225259",
+          "name": "Bumble Holding Limited",
+          "email": "android.support@bumble.com",
+          "website": "http://bumble.com/",
+          "phone": "",
+          "address_private": "",
+          "address_public": "1 Blossom Yard\nLONDON\nE1 6RS\nUnited Kingdom",
+          "publisher_name": "BUMBLE HOLDING LIMITED",
+          "publisher_email": "bumble-store@oldmail.bumble.com",
+          "publisher_phone": "+1 512-301-8545"
+        },
+        "price": "",
+        "released_at": null,
+        "versions": [
+          {
+            "version": "5.460.0",
+            "release_notes": "",
+            "release_date": "2026-03-30T00:00:00.000Z"
+          },
+          {
+            "version": "5.459.0",
+            "release_notes": "",
+            "release_date": "2026-03-23T00:00:00.000Z"
+          },
+          {
+            "version": "5.458.0",
+            "release_notes": "",
+            "release_date": "2026-03-16T00:00:00.000Z"
+          },
+          {
+            "version": "5.457.0",
+            "release_notes": "",
+            "release_date": "2026-03-09T00:00:00.000Z"
+          },
+          {
+            "version": "5.456.0",
+            "release_notes": "",
+            "release_date": "2026-03-02T00:00:00.000Z"
+          },
+          {
+            "version": "5.455.0",
+            "release_notes": "",
+            "release_date": "2026-02-23T00:00:00.000Z"
+          },
+          {
+            "version": "5.453.0",
+            "release_notes": "",
+            "release_date": "2026-02-09T00:00:00.000Z"
+          },
+          {
+            "version": "5.452.0",
+            "release_notes": "",
+            "release_date": "2026-02-02T00:00:00.000Z"
+          },
+          {
+            "version": "5.450.0",
+            "release_notes": "",
+            "release_date": "2026-01-19T00:00:00.000Z"
+          },
+          {
+            "version": "5.449.0",
+            "release_notes": "",
+            "release_date": "2026-01-12T00:00:00.000Z"
+          },
+          {
+            "version": "5.448.0",
+            "release_notes": "",
+            "release_date": "2025-12-15T00:00:00.000Z"
+          },
+          {
+            "version": "5.447.1",
+            "release_notes": "",
+            "release_date": "2025-12-09T00:00:00.000Z"
+          },
+          {
+            "version": "5.447.0",
+            "release_notes": "",
+            "release_date": "2025-12-08T00:00:00.000Z"
+          },
+          {
+            "version": "5.446.0",
+            "release_notes": "",
+            "release_date": "2025-12-01T00:00:00.000Z"
+          },
+          {
+            "version": "5.444.0",
+            "release_notes": "",
+            "release_date": "2025-11-17T00:00:00.000Z"
+          },
+          {
+            "version": "5.442.0",
+            "release_notes": "",
+            "release_date": "2025-11-03T00:00:00.000Z"
+          },
+          {
+            "version": "5.441.1",
+            "release_notes": "",
+            "release_date": "2025-10-29T00:00:00.000Z"
+          },
+          {
+            "version": "5.441.0",
+            "release_notes": "",
+            "release_date": "2025-10-27T00:00:00.000Z"
+          },
+          {
+            "version": "5.440.0",
+            "release_notes": "",
+            "release_date": "2025-10-20T00:00:00.000Z"
+          },
+          {
+            "version": "5.439.0",
+            "release_notes": "",
+            "release_date": "2025-10-13T00:00:00.000Z"
+          }
+        ],
+        "similar_apps": [
+          "com.okcupid.okcupid",
+          "com.badoo.mobile",
+          "enterprises.dating.boo",
+          "com.jaumo",
+          "com.jaumo.prime",
+          "app.bumpy.android",
+          "com.pinkapp",
+          "co.hinge.app",
+          "com.dating.android",
+          "com.pof.android",
+          "com.tinder",
+          "com.jaumo.casual",
+          "com.waplog.social",
+          "com.unearby.sayhi",
+          "net.lovoo.android"
+        ],
+        "release_date": "2015-11-30T20:14:49.000Z",
+        "dna": {
+          "class_id": 10018,
+          "class_label": "Social",
+          "subclass_id": 38,
+          "subclass_label": "Dating"
+        },
+        "permissions": [
+          "android.permission.ACCESS_ADSERVICES_AD_ID",
+          "android.permission.ACCESS_ADSERVICES_ATTRIBUTION",
+          "android.permission.ACCESS_ADSERVICES_TOPICS",
+          "android.permission.ACCESS_COARSE_LOCATION",
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.ACCESS_WIFI_STATE",
+          "android.permission.BLUETOOTH",
+          "android.permission.BLUETOOTH_CONNECT",
+          "android.permission.CAMERA",
+          "android.permission.CHANGE_NETWORK_STATE",
+          "android.permission.CHANGE_WIFI_STATE",
+          "android.permission.DETECT_SCREEN_CAPTURE",
+          "android.permission.DISABLE_KEYGUARD",
+          "android.permission.FOREGROUND_SERVICE",
+          "android.permission.FOREGROUND_SERVICE_CAMERA",
+          "android.permission.FOREGROUND_SERVICE_DATA_SYNC",
+          "android.permission.FOREGROUND_SERVICE_MICROPHONE",
+          "android.permission.GET_ACCOUNTS",
+          "android.permission.INTERNET",
+          "android.permission.MODIFY_AUDIO_SETTINGS",
+          "android.permission.NFC",
+          "android.permission.POST_NOTIFICATIONS",
+          "android.permission.READ_APP_BADGE",
+          "android.permission.READ_BASIC_PHONE_STATE",
+          "android.permission.READ_MEDIA_AUDIO",
+          "android.permission.READ_MEDIA_IMAGES",
+          "android.permission.READ_MEDIA_VIDEO",
+          "android.permission.READ_MEDIA_VISUAL_USER_SELECTED",
+          "android.permission.READ_PHONE_NUMBERS",
+          "android.permission.READ_PHONE_STATE",
+          "android.permission.RECORD_AUDIO",
+          "android.permission.USE_BIOMETRIC",
+          "android.permission.USE_FINGERPRINT",
+          "android.permission.USE_FULL_SCREEN_INTENT",
+          "android.permission.VIBRATE",
+          "android.permission.WAKE_LOCK",
+          "com.anddoes.launcher.permission.UPDATE_COUNT",
+          "com.android.vending.BILLING",
+          "com.badoo.permission.SignaturePrivileged",
+          "com.bumble.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+          "com.google.android.c2dm.permission.RECEIVE",
+          "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+          "com.google.android.gms.permission.AD_ID",
+          "com.google.android.providers.gsf.permission.READ_GSERVICES",
+          "com.htc.launcher.permission.READ_SETTINGS",
+          "com.htc.launcher.permission.UPDATE_SHORTCUT",
+          "com.huawei.android.launcher.permission.CHANGE_BADGE",
+          "com.huawei.android.launcher.permission.READ_SETTINGS",
+          "com.huawei.android.launcher.permission.WRITE_SETTINGS",
+          "com.majeur.launcher.permission.UPDATE_BADGE",
+          "com.oppo.launcher.permission.READ_SETTINGS",
+          "com.oppo.launcher.permission.WRITE_SETTINGS",
+          "com.sec.android.provider.badge.permission.READ",
+          "com.sec.android.provider.badge.permission.WRITE",
+          "com.sonyericsson.home.permission.BROADCAST_BADGE",
+          "com.sonymobile.home.permission.PROVIDER_INSERT_BADGE"
+        ]
+      }
+    }
+  },
+  "metadata": {
+    "request": {
+      "path": "/api/public/store/apps/metadata.json",
+      "params": {
+        "device": "android",
+        "country": "us",
+        "language": "us",
+        "apps": [
+          "com.bumble.app"
+        ]
+      },
+      "cost": 11,
+      "max_credit_cost": 11,
+      "status": 200
+    },
+    "response": null
+  }
+}

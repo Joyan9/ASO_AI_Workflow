@@ -1,0 +1,37 @@
+{
+  "result": {
+    "com.nearme.wolf": {
+      "changes": [
+        {
+          "target": "version",
+          "old_value": "0.0.2",
+          "new_value": "0.0.4",
+          "old_release_notes": null,
+          "new_release_notes": "Fixed bugs.<br>The account deletion function has been modified to comply with policy requirements.",
+          "version": "0.0.4",
+          "is_ab_test": null,
+          "date": "2026-01-16"
+        }
+      ]
+    }
+  },
+  "metadata": {
+    "request": {
+      "path": "/api/public/store/apps/metadata/changes.json",
+      "params": {
+        "device": "android",
+        "country": "us",
+        "language": "us",
+        "start_date": "2026-01-05",
+        "end_date": "2026-04-05",
+        "apps": [
+          "com.nearme.wolf"
+        ]
+      },
+      "cost": 101,
+      "max_credit_cost": 101,
+      "status": 200
+    },
+    "response": null
+  }
+}

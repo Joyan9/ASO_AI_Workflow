@@ -4,19 +4,168 @@ Track B Transformation — Android A/B test history analysis
 This module transforms raw metadata history for Android competitors into:
 1. Filtered changes (title, short_description, icon, screenshots only)
 2. Separated A/B tests vs shipped changes
-3. Resolved A/B tests (won, lost, pending)
+3. Resolved A/B tests (won, lost, pending) — with perceptual hashing for screenshots
 4. Per-competitor summaries
 
 No API calls in this step — pure transformation from raw files.
+Screenshots are compared using perceptual hashing (pHash) to detect identical images
+even when URLs differ due to AppTweak's URL rewriting.
 """
 
 import json
+import hashlib
 from collections import defaultdict
 from datetime import datetime
 from pathlib import Path
-from typing import Dict, List, Any, Tuple, Optional
+from typing import Dict, List, Any, Tuple, Optional, Set
+from io import BytesIO
+
+try:
+    from PIL import Image
+    import imagehash
+    HAS_IMAGE_LIBS = True
+except ImportError:
+    HAS_IMAGE_LIBS = False
+
+try:
+    import requests
+    HAS_REQUESTS = True
+except ImportError:
+    HAS_REQUESTS = False
 
 import config
+
+
+# Global hash cache to avoid re-downloading URLs
+_PHASH_CACHE: Dict[str, str] = {}
+
+
+def _get_screenshot_urls(value: Any) -> List[str]:
+    """Extract URLs from screenshots/icon value (list of objects with 'url' field)."""
+    if not isinstance(value, list):
+        return []
+    return [item.get("url", "") for item in value if isinstance(item, dict) and item.get("url")]
+
+
+def _get_url_hash(url: str) -> Optional[str]:
+    """
+    Get URL-based hash for stable caching (MD5 of URL).
+    """
+    if not url:
+        return None
+    return hashlib.md5(url.encode()).hexdigest()
+
+
+def _load_cached_phash(url_hash: str) -> Optional[str]:
+    """Load perceptual hash from cache file if it exists."""
+    cache_dir = Path(config.DATA_RAW_DIR) / "screenshot_hashes"
+    cache_file = cache_dir / f"{url_hash}.txt"
+    
+    if cache_file.exists():
+        try:
+            with open(cache_file, "r") as f:
+                return f.read().strip()
+        except Exception:
+            return None
+    
+    return None
+
+
+def _save_cached_phash(url_hash: str, phash: str) -> None:
+    """Save perceptual hash to cache file."""
+    cache_dir = Path(config.DATA_RAW_DIR) / "screenshot_hashes"
+    cache_dir.mkdir(parents=True, exist_ok=True)
+    
+    cache_file = cache_dir / f"{url_hash}.txt"
+    try:
+        with open(cache_file, "w") as f:
+            f.write(phash)
+    except Exception as e:
+        print(f"[WARN] Failed to cache phash for {url_hash}: {e}")
+
+
+def _compute_phash(url: str) -> Optional[str]:
+    """
+    Download image from URL and compute perceptual hash.
+    
+    Returns:
+        Perceptual hash string if successful, None otherwise
+    """
+    if not HAS_IMAGE_LIBS or not HAS_REQUESTS:
+        return None
+    
+    # Check cache first
+    url_hash = _get_url_hash(url)
+    if url_hash and url_hash in _PHASH_CACHE:
+        return _PHASH_CACHE[url_hash]
+    
+    cached_phash = _load_cached_phash(url_hash)
+    if cached_phash:
+        _PHASH_CACHE[url_hash] = cached_phash
+        return cached_phash
+    
+    # Download image
+    try:
+        response = requests.get(url, timeout=10)
+        response.raise_for_status()
+        
+        # Load image and compute hash
+        image = Image.open(BytesIO(response.content))
+        phash = str(imagehash.phash(image))
+        
+        # Cache it
+        _PHASH_CACHE[url_hash] = phash
+        if url_hash:
+            _save_cached_phash(url_hash, phash)
+        
+        return phash
+        
+    except Exception as e:
+        print(f"[WARN] Failed to download/hash image {url}: {e}")
+        return None
+
+
+def _screenshot_sets_equal(old_urls: List[str], new_urls: List[str]) -> bool:
+    """
+    Compare two screenshot sets using perceptual hashes.
+    
+    Two screenshot sets are equal if all hashes match 1-to-1 (order-independent).
+    Accounts for images that are identical but have different URLs.
+    
+    If hash computation fails, falls back to URL comparison.
+    """
+    if not HAS_IMAGE_LIBS:
+        # Fallback: compare URLs directly if libraries not available
+        print("[TRACK_B] imagehash/Pillow not installed, falling back to URL comparison")
+        return sorted(old_urls) == sorted(new_urls)
+    
+    # Compute hashes for old and new
+    old_hashes = set()
+    new_hashes = set()
+    fallback_to_urls = False
+    
+    for url in old_urls:
+        phash = _compute_phash(url)
+        if phash:
+            old_hashes.add(phash)
+        else:
+            # Fallback: use URL if hash fails
+            old_hashes.add(url)
+            fallback_to_urls = True
+    
+    for url in new_urls:
+        phash = _compute_phash(url)
+        if phash:
+            new_hashes.add(phash)
+        else:
+            # Fallback: use URL if hash fails
+            new_hashes.add(url)
+            fallback_to_urls = True
+    
+    if fallback_to_urls:
+        print(f"[WARN] Hash computation failed for some screenshots, using URL comparison")
+    
+    return old_hashes == new_hashes
 
 
 def _get_screenshot_ids(value: Any) -> List[str]:
@@ -28,15 +177,24 @@ def _get_screenshot_ids(value: Any) -> List[str]:
 
 def _values_equal(target: str, old_val: Any, new_val: Any) -> bool:
     """
-    Compare two values, with special handling for screenshots and icon.
+    Compare two values, with perceptual hashing for screenshots and icons.
     
-    For screenshots/icon: compare by ID list (stable identifier).
+    For screenshots/icon: download images, compute perceptual hashes, compare hash sets.
     For everything else: exact string comparison.
+    
+    Falls back to URL comparison if image download/hashing fails.
     """
     if target in ("screenshots", "icon"):
-        old_ids = _get_screenshot_ids(old_val)
-        new_ids = _get_screenshot_ids(new_val)
-        return old_ids == new_ids
+        # Use perceptual hashing for image comparison
+        old_urls = _get_screenshot_urls(old_val)
+        new_urls = _get_screenshot_urls(new_val)
+        
+        if not old_urls and not new_urls:
+            return True
+        if not old_urls or not new_urls:
+            return False
+        
+        return _screenshot_sets_equal(old_urls, new_urls)
     else:
         return str(old_val) == str(new_val)
 

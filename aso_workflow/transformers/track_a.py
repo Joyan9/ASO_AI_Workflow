@@ -291,20 +291,26 @@ def _remove_branded_terms(
     return filtered_gaps
 
 
-def transform_track_a(
-    your_app_id: str,
-    platform: str,
-) -> Tuple[List[Dict[str, Any]], Dict[str, Any]]:
+def generate_seeds(your_app_id: str, platform: str) -> List[str]:
     """
-    Main transformation: extract competitive terms and build gap list.
+    Generate keyword seed list from n-gram extraction.
+    
+    Steps:
+    1. Extract terms from your app and competitors
+    2. Build corpus with competitor tracking
+    3. Filter to gap terms (not in your app)
+    4. Remove branded terms
+    5. Cap at MAX_SEED_KEYWORDS
+    6. Save seeds to JSON
     
     Returns:
-        (gap_terms_list, your_app_summary)
+        List of seed keywords (sorted by competitor presence)
     """
-    print("[TRANSFORM] Loading raw metadata...")
+    print("\n[SEEDS] ========================================")
+    print("[SEEDS] Step 1: Generate seed keywords")
+    print("[SEEDS] ========================================")
     
     raw_dir = Path(config.DATA_RAW_DIR)
-    # KEY FIX: Define the subfolder for competitor metadata
     comp_metadata_dir = raw_dir / "competitors"
     
     # Load your app metadata
@@ -321,23 +327,21 @@ def transform_track_a(
     
     competitor_ids = [c["app_id"] for c in competitors_data["competitors"]]
     
-    # Load competitor metadata (should already be fetched in Step 3)
-    # For now, we'll try to load them; if they don't exist, proceed with empty dict
+    # Load competitor metadata
     competitor_metadata = {}
     for comp_id in competitor_ids:
         comp_file = comp_metadata_dir / f"{platform}_{comp_id}_metadata.json"
         if comp_file.exists():
             with open(comp_file, "r") as f:
                 comp_raw = json.load(f)
-                # Handle both iOS (integer app ID) and Android (string package name)
-                comp_metadata = comp_raw["result"].get(str(comp_id)) or comp_raw["result"].get(comp_id)
-                if comp_metadata:
-                    competitor_metadata[comp_id] = comp_metadata["metadata"]
+                comp_meta = comp_raw["result"].get(str(comp_id)) or comp_raw["result"].get(comp_id)
+                if comp_meta:
+                    competitor_metadata[comp_id] = comp_meta["metadata"]
     
-    print(f"[TRANSFORM] Loaded metadata for {len(competitor_metadata)} competitors")
+    print(f"[SEEDS] Loaded metadata for {len(competitor_metadata)} competitors")
     
     # Extract and build corpus
-    print("[TRANSFORM] Extracting terms...")
+    print("[SEEDS] Extracting terms...")
     corpus = _build_corpus(
         your_app_id=your_app_id,
         your_app_metadata=your_app_metadata,
@@ -345,24 +349,215 @@ def transform_track_a(
         competitor_metadata=competitor_metadata,
         platform=platform,
     )
-    print(f"[TRANSFORM] Built corpus with {len(corpus)} unique terms")
+    print(f"[SEEDS] Built corpus with {len(corpus)} unique terms")
     
     # Filter to gaps
-    print("[TRANSFORM] Filtering to gap terms...")
+    print("[SEEDS] Filtering to gap terms...")
     gaps = _filter_gaps(corpus)
-    print(f"[TRANSFORM] Found {len(gaps)} gap terms")
+    print(f"[SEEDS] Found {len(gaps)} gap terms")
     
     # Remove branded terms
-    print("[TRANSFORM] Removing branded terms...")
+    print("[SEEDS] Removing branded terms...")
     gaps = _remove_branded_terms(gaps, your_app_metadata, competitor_metadata)
-    print(f"[TRANSFORM] Retained {len(gaps)} after removing branded terms")
+    print(f"[SEEDS] Retained {len(gaps)} after removing branded terms")
+    
+    # Cap at MAX_SEED_KEYWORDS
+    capped_gaps = gaps[:config.MAX_SEED_KEYWORDS]
+    if len(gaps) > len(capped_gaps):
+        print(f"[SEEDS] Capped at {config.MAX_SEED_KEYWORDS} seeds (was {len(gaps)})")
+    
+    # Extract just the term strings
+    seed_keywords = [gap["term"] for gap in capped_gaps]
+    
+    # Save seeds to JSON before making API calls
+    output_dir = Path(config.DATA_RAW_DIR)
+    output_dir.mkdir(parents=True, exist_ok=True)
+    
+    seeds_file = output_dir / f"{platform}_{your_app_id}_keyword_seeds.json"
+    seeds_output = {
+        "meta": {
+            "app_id": your_app_id,
+            "platform": platform,
+            "generated_at": datetime.now().isoformat(),
+            "total_terms": len(gaps),
+            "seeds_capped": len(seed_keywords),
+        },
+        "seeds": seed_keywords,
+    }
+    
+    with open(seeds_file, "w") as f:
+        json.dump(seeds_output, f, indent=2)
+    
+    print(f"[SEEDS] Saved {len(seed_keywords)} seeds to {seeds_file}")
+    print()
+    
+    return seed_keywords
+
+
+def compute_gaps_from_rankings(
+    your_app_id: str,
+    platform: str,
+    ranking_responses: Dict[str, Any],
+) -> Tuple[List[Dict[str, Any]], Dict[str, Any]]:
+    """
+    Compute actual gaps from AppTweak ranking data.
+    
+    Takes merged ranking responses and computes:
+    - A gap term is one where:
+      - Your app: ranked = false (with fetch_performed = true)
+      - At least 1 competitor: ranked = true
+    
+    Returns:
+        (gap_list, your_app_summary)
+    """
+    print("\n[GAPS] ========================================")
+    print("[GAPS] Step 2: Compute gaps from rankings")
+    print("[GAPS] ========================================")
+    
+    raw_dir = Path(config.DATA_RAW_DIR)
+    comp_metadata_dir = raw_dir / "competitors"
+    
+    # Load your app metadata for summary and competitor details
+    your_app_file = raw_dir / f"{platform}_{your_app_id}_metadata.json"
+    with open(your_app_file, "r") as f:
+        your_app_raw = json.load(f)
+    
+    your_app_metadata = your_app_raw["result"][str(your_app_id)]["metadata"]
+    
+    # Load competitor list with tier info
+    competitors_file = raw_dir / f"{platform}_{your_app_id}_competitors.json"
+    with open(competitors_file, "r") as f:
+        competitors_data = json.load(f)
+    
+    competitors_by_id = {c["app_id"]: c["tier"] for c in competitors_data["competitors"]}
+    
+    # Load competitor metadata for names
+    competitor_metadata = {}
+    for comp_id in competitors_by_id.keys():
+        comp_file = comp_metadata_dir / f"{platform}_{comp_id}_metadata.json"
+        if comp_file.exists():
+            with open(comp_file, "r") as f:
+                comp_raw = json.load(f)
+                comp_meta = comp_raw["result"].get(str(comp_id)) or comp_raw["result"].get(comp_id)
+                if comp_meta:
+                    competitor_metadata[comp_id] = comp_meta["metadata"]
+    
+    # Process ranking data
+    gaps = []
+    
+    for keyword_data in ranking_responses.get("keywords", []):
+        term = keyword_data["term"]
+        your_app_data = keyword_data["your_app"]
+        competitors_data = keyword_data["competitors"]
+        
+        # A gap requires:
+        # 1. Your app not ranked (rank = null, fetch_performed = true)
+        # 2. At least one competitor ranked
+        
+        your_ranked = (
+            your_app_data.get("ranked", False) and 
+            your_app_data.get("fetch_performed", False)
+        )
+        
+        # Check if we have valid your_app data (even if not ranked)
+        if not your_app_data.get("fetch_performed", False):
+            # Skip terms with no data for your app
+            continue
+        
+        # Find ranked competitors
+        ranked_competitors = [c for c in competitors_data if c.get("ranked", False)]
+        
+        if not your_ranked and len(ranked_competitors) > 0:
+            # This is a gap!
+            
+            # Count by tier
+            primary_count = sum(1 for c in ranked_competitors if c.get("tier") == "primary")
+            secondary_count = sum(1 for c in ranked_competitors if c.get("tier") == "secondary")
+            
+            # Compute averages
+            avg_rank = None
+            avg_installs = None
+            avg_relevancy = None
+            avg_kei = None
+            
+            if ranked_competitors:
+                ranks = [c.get("rank") for c in ranked_competitors if c.get("rank") is not None]
+                if ranks:
+                    avg_rank = sum(ranks) / len(ranks)
+                
+                installs = [c.get("installs") for c in ranked_competitors if c.get("installs") is not None]
+                if installs:
+                    avg_installs = sum(installs) / len(installs)
+                
+                relevancies = [c.get("relevancy") for c in ranked_competitors if c.get("relevancy") is not None]
+                if relevancies:
+                    avg_relevancy = sum(relevancies) / len(relevancies)
+                
+                keis = [c.get("kei") for c in ranked_competitors if c.get("kei") is not None]
+                if keis:
+                    avg_kei = sum(keis) / len(keis)
+            
+            gap_entry = {
+                "term": term,
+                "primary_competitor_count": primary_count,
+                "secondary_competitor_count": secondary_count,
+                "your_app_ranked": False,
+                "top_competitor_rank": min([c.get("rank") for c in ranked_competitors if c.get("rank") is not None], default=None),
+                "avg_rank": avg_rank,
+                "avg_installs": avg_installs,
+                "avg_relevancy": avg_relevancy,
+                "avg_kei": avg_kei,
+                "source_apps": [c["app_id"] for c in ranked_competitors],
+            }
+            
+            gaps.append(gap_entry)
+    
+    # Sort by primary count, then secondary count
+    gaps.sort(key=lambda x: (-x["primary_competitor_count"], -x["secondary_competitor_count"]))
     
     # Your app summary
     your_app_summary = {
         "title": your_app_metadata.get("title"),
         "subtitle": your_app_metadata.get("subtitle") or your_app_metadata.get("short_description"),
         "description_excerpt": (your_app_metadata.get("description") or your_app_metadata.get("long_description") or "")[:250],
-        "term_count": len([t for t, d in corpus.items() if d["in_your_app"]]),
+    }
+    
+    print(f"[GAPS] Identified {len(gaps)} keyword gaps")
+    print()
+    
+    return gaps, your_app_summary
+
+
+def transform_track_a(
+    your_app_id: str,
+    platform: str,
+) -> Tuple[List[Dict[str, Any]], Dict[str, Any]]:
+    """
+    DEPRECATED: Use generate_seeds() and compute_gaps_from_rankings() instead.
+    
+    This function kept for backward compatibility only.
+    """
+    print("[TRANSFORM] Using legacy transform_track_a (deprecated)")
+    print("[TRANSFORM] Use generate_seeds() and compute_gaps_from_rankings() for new flow")
+    
+    # Generate seeds and return as fallback
+    seeds = generate_seeds(your_app_id, platform)
+    
+    # Create minimal gap entries for backward compatibility
+    gaps = [{"term": seed} for seed in seeds]
+    
+    raw_dir = Path(config.DATA_RAW_DIR)
+    your_app_file = raw_dir / f"{platform}_{your_app_id}_metadata.json"
+    with open(your_app_file, "r") as f:
+        your_app_raw = json.load(f)
+    
+    your_app_metadata = your_app_raw["result"][str(your_app_id)]["metadata"]
+    
+    your_app_summary = {
+        "title": your_app_metadata.get("title"),
+        "subtitle": your_app_metadata.get("subtitle") or your_app_metadata.get("short_description"),
+        "description_excerpt": (your_app_metadata.get("description") or your_app_metadata.get("long_description") or "")[:250],
+        "term_count": len(gaps),
     }
     
     return gaps, your_app_summary

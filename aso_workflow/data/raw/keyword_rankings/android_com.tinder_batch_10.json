@@ -1,0 +1,749 @@
+{
+  "result": {
+    "com.tinder": {
+      "tiktok": {
+        "rank": {
+          "value": null,
+          "date": "2026-04-05",
+          "effective_value": 501,
+          "fetch_performed": true
+        },
+        "installs": {
+          "value": 0,
+          "date": "2026-04-05",
+          "effective_value": 0
+        },
+        "relevancy": {
+          "value": 37,
+          "date": "2026-04-05",
+          "effective_value": 37
+        },
+        "kei": {
+          "value": 85,
+          "date": "2026-04-05",
+          "effective_value": 85
+        },
+        "chance": {
+          "value": 49,
+          "date": "2026-04-05",
+          "effective_value": 49
+        }
+      },
+      "people worldwide": {
+        "rank": {
+          "value": 6,
+          "date": "2026-04-05",
+          "effective_value": 6,
+          "fetch_performed": true
+        },
+        "installs": {
+          "value": 0.0,
+          "date": "2026-04-05",
+          "effective_value": 0.0
+        },
+        "relevancy": {
+          "value": 89,
+          "date": "2026-04-05",
+          "effective_value": 89
+        },
+        "kei": {
+          "value": 24,
+          "date": "2026-04-05",
+          "effective_value": 24
+        },
+        "chance": {
+          "value": 81,
+          "date": "2026-04-05",
+          "effective_value": 81
+        }
+      },
+      "meet real": {
+        "rank": {
+          "value": 7,
+          "date": "2026-04-04",
+          "effective_value": 7,
+          "fetch_performed": true
+        },
+        "installs": {
+          "value": 0.0,
+          "date": "2026-04-04",
+          "effective_value": 0.0
+        },
+        "relevancy": {
+          "value": 94,
+          "date": "2026-04-05",
+          "effective_value": 94
+        },
+        "kei": {
+          "value": 22,
+          "date": "2026-04-05",
+          "effective_value": 22
+        },
+        "chance": {
+          "value": 73,
+          "date": "2026-04-05",
+          "effective_value": 73
+        }
+      },
+      "language barriers": {
+        "rank": {
+          "value": null,
+          "date": "2026-04-04",
+          "effective_value": 501,
+          "fetch_performed": true
+        },
+        "installs": {
+          "value": 0,
+          "date": "2026-04-04",
+          "effective_value": 0
+        },
+        "relevancy": {
+          "value": 38,
+          "date": "2026-04-05",
+          "effective_value": 38
+        },
+        "kei": {
+          "value": 22,
+          "date": "2026-04-05",
+          "effective_value": 22
+        },
+        "chance": {
+          "value": 73,
+          "date": "2026-04-05",
+          "effective_value": 73
+        }
+      },
+      "interactive features": {
+        "rank": {
+          "value": null,
+          "date": "2026-04-04",
+          "effective_value": 501,
+          "fetch_performed": true
+        },
+        "installs": {
+          "value": 0,
+          "date": "2026-04-04",
+          "effective_value": 0
+        },
+        "relevancy": {
+          "value": 39,
+          "date": "2026-04-05",
+          "effective_value": 39
+        },
+        "kei": {
+          "value": 22,
+          "date": "2026-04-05",
+          "effective_value": 22
+        },
+        "chance": {
+          "value": 73,
+          "date": "2026-04-05",
+          "effective_value": 73
+        }
+      }
+    },
+    "com.sgiggle.production": {
+      "tiktok": {
+        "rank": {
+          "value": 35,
+          "date": "2026-04-05",
+          "effective_value": 35,
+          "fetch_performed": true
+        },
+        "installs": {
+          "value": 0.0,
+          "date": "2026-04-05",
+          "effective_value": 0.0
+        },
+        "relevancy": {
+          "value": 54,
+          "date": "2026-04-05",
+          "effective_value": 54
+        },
+        "kei": {
+          "value": 86,
+          "date": "2026-04-05",
+          "effective_value": 86
+        },
+        "chance": {
+          "value": 50,
+          "date": "2026-04-05",
+          "effective_value": 50
+        }
+      },
+      "people worldwide": {
+        "rank": {
+          "value": 37,
+          "date": "2026-04-05",
+          "effective_value": 37,
+          "fetch_performed": true
+        },
+        "installs": {
+          "value": 0.0,
+          "date": "2026-04-05",
+          "effective_value": 0.0
+        },
+        "relevancy": {
+          "value": 84,
+          "date": "2026-04-05",
+          "effective_value": 84
+        },
+        "kei": {
+          "value": 19,
+          "date": "2026-04-05",
+          "effective_value": 19
+        },
+        "chance": {
+          "value": 62,
+          "date": "2026-04-05",
+          "effective_value": 62
+        }
+      },
+      "meet real": {
+        "rank": {
+          "value": 28,
+          "date": "2026-04-04",
+          "effective_value": 28,
+          "fetch_performed": true
+        },
+        "installs": {
+          "value": 0.0,
+          "date": "2026-04-04",
+          "effective_value": 0.0
+        },
+        "relevancy": {
+          "value": 82,
+          "date": "2026-04-05",
+          "effective_value": 82
+        },
+        "kei": {
+          "value": 22,
+          "date": "2026-04-05",
+          "effective_value": 22
+        },
+        "chance": {
+          "value": 73,
+          "date": "2026-04-05",
+          "effective_value": 73
+        }
+      },
+      "language barriers": {
+        "rank": {
+          "value": null,
+          "date": "2026-04-04",
+          "effective_value": 501,
+          "fetch_performed": true
+        },
+        "installs": {
+          "value": 0,
+          "date": "2026-04-04",
+          "effective_value": 0
+        },
+        "relevancy": {
+          "value": 38,
+          "date": "2026-04-05",
+          "effective_value": 38
+        },
+        "kei": {
+          "value": 22,
+          "date": "2026-04-05",
+          "effective_value": 22
+        },
+        "chance": {
+          "value": 73,
+          "date": "2026-04-05",
+          "effective_value": 73
+        }
+      },
+      "interactive features": {
+        "rank": {
+          "value": 115,
+          "date": "2026-04-04",
+          "effective_value": 115,
+          "fetch_performed": true
+        },
+        "installs": {
+          "value": 0.0,
+          "date": "2026-04-04",
+          "effective_value": 0.0
+        },
+        "relevancy": {
+          "value": 23,
+          "date": "2026-04-05",
+          "effective_value": 23
+        },
+        "kei": {
+          "value": 22,
+          "date": "2026-04-05",
+          "effective_value": 22
+        },
+        "chance": {
+          "value": 73,
+          "date": "2026-04-05",
+          "effective_value": 73
+        }
+      }
+    },
+    "com.litatom.app": {
+      "tiktok": {
+        "rank": {
+          "value": null,
+          "date": "2026-04-05",
+          "effective_value": 501,
+          "fetch_performed": true
+        },
+        "installs": {
+          "value": 0,
+          "date": "2026-04-05",
+          "effective_value": 0
+        },
+        "relevancy": {
+          "value": 46,
+          "date": "2026-04-05",
+          "effective_value": 46
+        },
+        "kei": {
+          "value": 66,
+          "date": "2026-04-05",
+          "effective_value": 66
+        },
+        "chance": {
+          "value": 33,
+          "date": "2026-04-05",
+          "effective_value": 33
+        }
+      },
+      "people worldwide": {
+        "rank": {
+          "value": 45,
+          "date": "2026-04-05",
+          "effective_value": 45,
+          "fetch_performed": true
+        },
+        "installs": {
+          "value": 0.0,
+          "date": "2026-04-05",
+          "effective_value": 0.0
+        },
+        "relevancy": {
+          "value": 92,
+          "date": "2026-04-05",
+          "effective_value": 92
+        },
+        "kei": {
+          "value": 13,
+          "date": "2026-04-05",
+          "effective_value": 13
+        },
+        "chance": {
+          "value": 44,
+          "date": "2026-04-05",
+          "effective_value": 44
+        }
+      },
+      "meet real": {
+        "rank": {
+          "value": null,
+          "date": "2026-04-04",
+          "effective_value": 501,
+          "fetch_performed": true
+        },
+        "installs": {
+          "value": 0,
+          "date": "2026-04-04",
+          "effective_value": 0
+        },
+        "relevancy": {
+          "value": 95,
+          "date": "2026-04-05",
+          "effective_value": 95
+        },
+        "kei": {
+          "value": 20,
+          "date": "2026-04-05",
+          "effective_value": 20
+        },
+        "chance": {
+          "value": 66,
+          "date": "2026-04-05",
+          "effective_value": 66
+        }
+      },
+      "language barriers": {
+        "rank": {
+          "value": null,
+          "date": "2026-04-04",
+          "effective_value": 501,
+          "fetch_performed": true
+        },
+        "installs": {
+          "value": 0,
+          "date": "2026-04-04",
+          "effective_value": 0
+        },
+        "relevancy": {
+          "value": 42,
+          "date": "2026-04-05",
+          "effective_value": 42
+        },
+        "kei": {
+          "value": 22,
+          "date": "2026-04-05",
+          "effective_value": 22
+        },
+        "chance": {
+          "value": 73,
+          "date": "2026-04-05",
+          "effective_value": 73
+        }
+      },
+      "interactive features": {
+        "rank": {
+          "value": null,
+          "date": "2026-04-04",
+          "effective_value": 501,
+          "fetch_performed": true
+        },
+        "installs": {
+          "value": 0,
+          "date": "2026-04-04",
+          "effective_value": 0
+        },
+        "relevancy": {
+          "value": 39,
+          "date": "2026-04-05",
+          "effective_value": 39
+        },
+        "kei": {
+          "value": 22,
+          "date": "2026-04-05",
+          "effective_value": 22
+        },
+        "chance": {
+          "value": 73,
+          "date": "2026-04-05",
+          "effective_value": 73
+        }
+      }
+    },
+    "com.talkin.learn": {
+      "tiktok": {
+        "rank": {
+          "value": null,
+          "date": "2026-04-05",
+          "effective_value": 501,
+          "fetch_performed": true
+        },
+        "installs": {
+          "value": 0,
+          "date": "2026-04-05",
+          "effective_value": 0
+        },
+        "relevancy": {
+          "value": 47,
+          "date": "2026-04-05",
+          "effective_value": 47
+        },
+        "kei": {
+          "value": 56,
+          "date": "2026-04-05",
+          "effective_value": 56
+        },
+        "chance": {
+          "value": 24,
+          "date": "2026-04-05",
+          "effective_value": 24
+        }
+      },
+      "people worldwide": {
+        "rank": {
+          "value": 57,
+          "date": "2026-04-05",
+          "effective_value": 57,
+          "fetch_performed": true
+        },
+        "installs": {
+          "value": 0.0,
+          "date": "2026-04-05",
+          "effective_value": 0.0
+        },
+        "relevancy": {
+          "value": 94,
+          "date": "2026-04-05",
+          "effective_value": 94
+        },
+        "kei": {
+          "value": 11,
+          "date": "2026-04-05",
+          "effective_value": 11
+        },
+        "chance": {
+          "value": 35,
+          "date": "2026-04-05",
+          "effective_value": 35
+        }
+      },
+      "meet real": {
+        "rank": {
+          "value": 51,
+          "date": "2026-04-04",
+          "effective_value": 51,
+          "fetch_performed": true
+        },
+        "installs": {
+          "value": 0.0,
+          "date": "2026-04-04",
+          "effective_value": 0.0
+        },
+        "relevancy": {
+          "value": 96,
+          "date": "2026-04-05",
+          "effective_value": 96
+        },
+        "kei": {
+          "value": 17,
+          "date": "2026-04-05",
+          "effective_value": 17
+        },
+        "chance": {
+          "value": 56,
+          "date": "2026-04-05",
+          "effective_value": 56
+        }
+      },
+      "language barriers": {
+        "rank": {
+          "value": null,
+          "date": "2026-04-04",
+          "effective_value": 501,
+          "fetch_performed": true
+        },
+        "installs": {
+          "value": 0,
+          "date": "2026-04-04",
+          "effective_value": 0
+        },
+        "relevancy": {
+          "value": 51,
+          "date": "2026-04-05",
+          "effective_value": 51
+        },
+        "kei": {
+          "value": 22,
+          "date": "2026-04-05",
+          "effective_value": 22
+        },
+        "chance": {
+          "value": 73,
+          "date": "2026-04-05",
+          "effective_value": 73
+        }
+      },
+      "interactive features": {
+        "rank": {
+          "value": null,
+          "date": "2026-04-04",
+          "effective_value": 501,
+          "fetch_performed": true
+        },
+        "installs": {
+          "value": 0,
+          "date": "2026-04-04",
+          "effective_value": 0
+        },
+        "relevancy": {
+          "value": 40,
+          "date": "2026-04-05",
+          "effective_value": 40
+        },
+        "kei": {
+          "value": 19,
+          "date": "2026-04-05",
+          "effective_value": 19
+        },
+        "chance": {
+          "value": 64,
+          "date": "2026-04-05",
+          "effective_value": 64
+        }
+      }
+    },
+    "com.meetup": {
+      "tiktok": {
+        "rank": {
+          "value": null,
+          "date": "2026-04-05",
+          "effective_value": 501,
+          "fetch_performed": true
+        },
+        "installs": {
+          "value": 0,
+          "date": "2026-04-05",
+          "effective_value": 0
+        },
+        "relevancy": {
+          "value": 34,
+          "date": "2026-04-05",
+          "effective_value": 34
+        },
+        "kei": {
+          "value": 76,
+          "date": "2026-04-05",
+          "effective_value": 76
+        },
+        "chance": {
+          "value": 41,
+          "date": "2026-04-05",
+          "effective_value": 41
+        }
+      },
+      "people worldwide": {
+        "rank": {
+          "value": null,
+          "date": "2026-04-05",
+          "effective_value": 501,
+          "fetch_performed": true
+        },
+        "installs": {
+          "value": 0,
+          "date": "2026-04-05",
+          "effective_value": 0
+        },
+        "relevancy": {
+          "value": 89,
+          "date": "2026-04-05",
+          "effective_value": 89
+        },
+        "kei": {
+          "value": 16,
+          "date": "2026-04-05",
+          "effective_value": 16
+        },
+        "chance": {
+          "value": 53,
+          "date": "2026-04-05",
+          "effective_value": 53
+        }
+      },
+      "meet real": {
+        "rank": {
+          "value": null,
+          "date": "2026-04-04",
+          "effective_value": 501,
+          "fetch_performed": true
+        },
+        "installs": {
+          "value": 0,
+          "date": "2026-04-04",
+          "effective_value": 0
+        },
+        "relevancy": {
+          "value": 94,
+          "date": "2026-04-05",
+          "effective_value": 94
+        },
+        "kei": {
+          "value": 22,
+          "date": "2026-04-05",
+          "effective_value": 22
+        },
+        "chance": {
+          "value": 73,
+          "date": "2026-04-05",
+          "effective_value": 73
+        }
+      },
+      "language barriers": {
+        "rank": {
+          "value": null,
+          "date": "2026-04-04",
+          "effective_value": 501,
+          "fetch_performed": true
+        },
+        "installs": {
+          "value": 0,
+          "date": "2026-04-04",
+          "effective_value": 0
+        },
+        "relevancy": {
+          "value": 35,
+          "date": "2026-04-05",
+          "effective_value": 35
+        },
+        "kei": {
+          "value": 22,
+          "date": "2026-04-05",
+          "effective_value": 22
+        },
+        "chance": {
+          "value": 73,
+          "date": "2026-04-05",
+          "effective_value": 73
+        }
+      },
+      "interactive features": {
+        "rank": {
+          "value": null,
+          "date": "2026-04-04",
+          "effective_value": 501,
+          "fetch_performed": true
+        },
+        "installs": {
+          "value": 0,
+          "date": "2026-04-04",
+          "effective_value": 0
+        },
+        "relevancy": {
+          "value": 40,
+          "date": "2026-04-05",
+          "effective_value": 40
+        },
+        "kei": {
+          "value": 22,
+          "date": "2026-04-05",
+          "effective_value": 22
+        },
+        "chance": {
+          "value": 73,
+          "date": "2026-04-05",
+          "effective_value": 73
+        }
+      }
+    }
+  },
+  "metadata": {
+    "request": {
+      "path": "/api/public/store/apps/keywords-rankings/current.json",
+      "params": {
+        "device": "android",
+        "country": "us",
+        "language": "us",
+        "apps": [
+          "com.tinder",
+          "com.sgiggle.production",
+          "com.litatom.app",
+          "com.talkin.learn",
+          "com.meetup"
+        ],
+        "metrics": [
+          "rank",
+          "installs",
+          "relevancy",
+          "kei",
+          "chance"
+        ],
+        "keywords": [
+          "tiktok",
+          "people worldwide",
+          "meet real",
+          "language barriers",
+          "interactive features"
+        ]
+      },
+      "cost": 1251,
+      "max_credit_cost": 1251,
+      "status": 200
+    },
+    "response": null
+  }
+}

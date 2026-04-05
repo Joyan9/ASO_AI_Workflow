@@ -67,3 +67,21 @@ response = requests.get(url, headers=headers)
 
 print(response.text)
 ```
+
+## Keyword Metrics by App - Current
+https://public-api.apptweak.com/api/public/store/apps/keywords-rankings/current.json
+
+```
+import requests
+
+url = "https://public-api.apptweak.com/api/public/store/apps/keywords-rankings/current.json?apps=317469184&keywords=super%20bowl%2Cnfl%2Csports&metrics=rank%2Cinstalls%2Crelevancy%2C%20kei%2C%20chance&country=us&device=iphone"
+
+headers = {
+    "accept": "application/json",
+    "x-apptweak-key": "APPTWEAK-API-KEY"
+}
+
+response = requests.get(url, headers=headers)
+
+print(response.text)
+```

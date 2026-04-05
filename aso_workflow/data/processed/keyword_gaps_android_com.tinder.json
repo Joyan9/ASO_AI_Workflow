@@ -3,538 +3,258 @@
     "app_id": "com.tinder",
     "platform": "android",
     "country": "us",
-    "run_date": "2026-04-04T17:31:40.173083"
+    "run_date": "2026-04-05T08:38:37.019269",
+    "seeds_generated": 50,
+    "seeds_with_ranking_data": 50,
+    "gaps_identified": 17
   },
   "your_app": {
     "title": "Tinder Dating App: Chat & Date",
     "subtitle": "The dating app for adults to meet new people & match with local singles online",
-    "description_excerpt": "Tinder is the place to meet someone new and see where a spark might lead. With millions of people nearby and around the world, Tinder makes dating fun and helps you find someone who matches your vibe, interests, and intentions.<br><br><b> \u2728 HOW IT WO",
-    "term_count": 855
+    "description_excerpt": "Tinder is the place to meet someone new and see where a spark might lead. With millions of people nearby and around the world, Tinder makes dating fun and helps you find someone who matches your vibe, interests, and intentions.<br><br><b> \u2728 HOW IT WO"
   },
   "keyword_gaps": [
     {
-      "term": "community",
-      "primary_competitor_count": 3,
-      "secondary_competitor_count": 4,
-      "volume": 50,
-      "difficulty": 23,
-      "results": 250,
-      "brand": {},
-      "max_reach": null
-    },
-    {
-      "term": "discover",
-      "primary_competitor_count": 3,
-      "secondary_competitor_count": 4,
-      "volume": 71,
-      "difficulty": 32,
-      "results": 239,
-      "brand": {
-        "top_app_id": "com.discoverfinancial.mobile"
-      },
-      "max_reach": null
-    },
-    {
       "term": "communication",
       "primary_competitor_count": 3,
-      "secondary_competitor_count": 2,
-      "volume": 20,
-      "difficulty": 91,
-      "results": 249,
-      "brand": {},
-      "max_reach": null
-    },
-    {
-      "term": "create",
-      "primary_competitor_count": 3,
-      "secondary_competitor_count": 2,
-      "volume": 44,
-      "difficulty": 2,
-      "results": 249,
-      "brand": {},
-      "max_reach": null
-    },
-    {
-      "term": "real time",
-      "primary_competitor_count": 3,
-      "secondary_competitor_count": 1,
-      "volume": 5,
-      "difficulty": 5,
-      "results": 250,
-      "brand": {},
-      "max_reach": null
-    },
-    {
-      "term": "moments",
-      "primary_competitor_count": 3,
-      "secondary_competitor_count": 1,
-      "volume": 5,
-      "difficulty": 0,
-      "results": 248,
-      "brand": {
-        "top_app_id": "com.gg.lovestory.moments"
-      },
-      "max_reach": null
-    },
-    {
-      "term": "become",
-      "primary_competitor_count": 3,
-      "secondary_competitor_count": 1,
-      "volume": 9,
-      "difficulty": 3,
-      "results": 239,
-      "brand": {
-        "top_app_id": "com.millecrepestudios.queen"
-      },
-      "max_reach": null
-    },
-    {
-      "term": "amp",
-      "primary_competitor_count": 3,
-      "secondary_competitor_count": 1,
-      "volume": 25,
-      "difficulty": 2,
-      "results": 248,
-      "brand": {},
-      "max_reach": null
-    },
-    {
-      "term": "life",
-      "primary_competitor_count": 3,
-      "secondary_competitor_count": 1,
-      "volume": 62,
-      "difficulty": 33,
-      "results": 248,
-      "brand": {},
-      "max_reach": null
-    },
-    {
-      "term": "whether",
-      "primary_competitor_count": 3,
       "secondary_competitor_count": 0,
-      "volume": 21,
-      "difficulty": 62,
-      "results": 250,
-      "brand": {},
-      "max_reach": null
-    },
-    {
-      "term": "users",
-      "primary_competitor_count": 2,
-      "secondary_competitor_count": 4,
-      "volume": 5,
-      "difficulty": 93,
-      "results": 225,
-      "brand": {},
-      "max_reach": null
-    },
-    {
-      "term": "daily",
-      "primary_competitor_count": 2,
-      "secondary_competitor_count": 3,
-      "volume": 9,
-      "difficulty": 11,
-      "results": 250,
-      "brand": {},
-      "max_reach": null
-    },
-    {
-      "term": "support",
-      "primary_competitor_count": 2,
-      "secondary_competitor_count": 2,
-      "volume": 51,
-      "difficulty": 0,
-      "results": 218,
-      "brand": {},
-      "max_reach": null
-    },
-    {
-      "term": "group",
-      "primary_competitor_count": 2,
-      "secondary_competitor_count": 2,
-      "volume": 50,
-      "difficulty": 42,
-      "results": 238,
-      "brand": {},
-      "max_reach": null
-    },
-    {
-      "term": "experiences",
-      "primary_competitor_count": 2,
-      "secondary_competitor_count": 2,
-      "volume": 5,
-      "difficulty": 0,
-      "results": 242,
-      "brand": {},
-      "max_reach": null
-    },
-    {
-      "term": "everyone",
-      "primary_competitor_count": 2,
-      "secondary_competitor_count": 2,
-      "volume": 5,
-      "difficulty": 29,
-      "results": 243,
-      "brand": {},
-      "max_reach": null
-    },
-    {
-      "term": "stories",
-      "primary_competitor_count": 2,
-      "secondary_competitor_count": 2,
-      "volume": 9,
-      "difficulty": 10,
-      "results": 243,
-      "brand": {},
-      "max_reach": null
-    },
-    {
-      "term": "voice",
-      "primary_competitor_count": 2,
-      "secondary_competitor_count": 2,
-      "volume": 68,
-      "difficulty": 39,
-      "results": 249,
-      "brand": {
-        "top_app_id": "com.google.android.apps.googlevoice"
-      },
-      "max_reach": null
-    },
-    {
-      "term": "country",
-      "primary_competitor_count": 2,
-      "secondary_competitor_count": 2,
-      "volume": 49,
-      "difficulty": 6,
-      "results": 250,
-      "brand": {},
-      "max_reach": null
-    },
-    {
-      "term": "worldwide",
-      "primary_competitor_count": 2,
-      "secondary_competitor_count": 1,
-      "volume": 8,
-      "difficulty": 0,
-      "results": 249,
-      "brand": {},
-      "max_reach": null
-    },
-    {
-      "term": "anytime",
-      "primary_competitor_count": 2,
-      "secondary_competitor_count": 1,
-      "volume": 5,
-      "difficulty": 0,
-      "results": 229,
-      "brand": {
-        "top_app_id": "com.anytimefitness.userapp"
-      },
-      "max_reach": null
-    },
-    {
-      "term": "unique",
-      "primary_competitor_count": 2,
-      "secondary_competitor_count": 1,
-      "volume": 14,
-      "difficulty": 0,
-      "results": 242,
-      "brand": {},
-      "max_reach": null
-    },
-    {
-      "term": "diverse",
-      "primary_competitor_count": 2,
-      "secondary_competitor_count": 1,
-      "volume": 5,
-      "difficulty": 0,
-      "results": 249,
-      "brand": {},
-      "max_reach": null
-    },
-    {
-      "term": "interact",
-      "primary_competitor_count": 2,
-      "secondary_competitor_count": 1,
-      "volume": 5,
-      "difficulty": 0,
-      "results": 249,
-      "brand": {},
-      "max_reach": null
-    },
-    {
-      "term": "love",
-      "primary_competitor_count": 2,
-      "secondary_competitor_count": 1,
-      "volume": 64,
-      "difficulty": 6,
-      "results": 250,
-      "brand": {
-        "top_app_id": "com.bjoernbartels.mylove"
-      },
-      "max_reach": null
-    },
-    {
-      "term": "interactive",
-      "primary_competitor_count": 2,
-      "secondary_competitor_count": 1,
-      "volume": 5,
-      "difficulty": 0,
-      "results": 241,
-      "brand": {},
-      "max_reach": null
-    },
-    {
-      "term": "translation",
-      "primary_competitor_count": 2,
-      "secondary_competitor_count": 1,
-      "volume": 18,
-      "difficulty": 4,
-      "results": 245,
-      "brand": {},
-      "max_reach": null
-    },
-    {
-      "term": "way",
-      "primary_competitor_count": 2,
-      "secondary_competitor_count": 1,
-      "volume": 47,
-      "difficulty": 20,
-      "results": 249,
-      "brand": {
-        "top_app_id": "way.com"
-      },
-      "max_reach": null
-    },
-    {
-      "term": "languages",
-      "primary_competitor_count": 2,
-      "secondary_competitor_count": 1,
-      "volume": 7,
-      "difficulty": 25,
-      "results": 250,
-      "brand": {},
-      "max_reach": null
-    },
-    {
-      "term": "language",
-      "primary_competitor_count": 2,
-      "secondary_competitor_count": 1,
-      "volume": 55,
-      "difficulty": 42,
-      "results": 250,
-      "brand": {},
-      "max_reach": null
-    },
-    {
-      "term": "feedback",
-      "primary_competitor_count": 2,
-      "secondary_competitor_count": 1,
-      "volume": 5,
-      "difficulty": 0,
-      "results": 248,
-      "brand": {},
-      "max_reach": null
-    },
-    {
-      "term": "please",
-      "primary_competitor_count": 2,
-      "secondary_competitor_count": 1,
-      "volume": 5,
-      "difficulty": 10,
-      "results": 237,
-      "brand": {},
-      "max_reach": null
-    },
-    {
-      "term": "contact",
-      "primary_competitor_count": 2,
-      "secondary_competitor_count": 1,
-      "volume": 56,
-      "difficulty": 5,
-      "results": 250,
-      "brand": {
-        "top_app_id": "com.google.android.contacts"
-      },
-      "max_reach": null
-    },
-    {
-      "term": "please contact",
-      "primary_competitor_count": 2,
-      "secondary_competitor_count": 1,
-      "volume": 5,
-      "difficulty": 71,
-      "results": 249,
-      "brand": {},
-      "max_reach": null
-    },
-    {
-      "term": "contact us",
-      "primary_competitor_count": 2,
-      "secondary_competitor_count": 1,
-      "volume": 5,
-      "difficulty": 55,
-      "results": 247,
-      "brand": {
-        "top_app_id": "com.google.android.contacts"
-      },
-      "max_reach": null
-    },
-    {
-      "term": "please contact us",
-      "primary_competitor_count": 2,
-      "secondary_competitor_count": 1,
-      "volume": 5,
-      "difficulty": 66,
-      "results": 250,
-      "brand": {},
-      "max_reach": null
-    },
-    {
-      "term": "different",
-      "primary_competitor_count": 2,
-      "secondary_competitor_count": 1,
-      "volume": 14,
-      "difficulty": 0,
-      "results": 231,
-      "brand": {},
-      "max_reach": null
-    },
-    {
-      "term": "without",
-      "primary_competitor_count": 2,
-      "secondary_competitor_count": 1,
-      "volume": 5,
-      "difficulty": 21,
-      "results": 245,
-      "brand": {},
-      "max_reach": null
+      "your_app_ranked": false,
+      "top_competitor_rank": 223,
+      "avg_rank": 229.33333333333334,
+      "avg_installs": 0.0,
+      "avg_relevancy": 36.333333333333336,
+      "avg_kei": 25.333333333333332,
+      "source_apps": [
+        "com.sgiggle.production",
+        "com.litatom.app",
+        "com.talkin.learn"
+      ]
     },
     {
       "term": "explore real",
       "primary_competitor_count": 2,
       "secondary_competitor_count": 0,
-      "volume": 5,
-      "difficulty": 92,
-      "results": 241,
-      "brand": {},
-      "max_reach": null
+      "your_app_ranked": false,
+      "top_competitor_rank": 13,
+      "avg_rank": 25.0,
+      "avg_installs": 0.0,
+      "avg_relevancy": 16.0,
+      "avg_kei": 12.0,
+      "source_apps": [
+        "com.sgiggle.production",
+        "com.talkin.learn"
+      ]
     },
     {
-      "term": "engaging",
+      "term": "users",
       "primary_competitor_count": 2,
       "secondary_competitor_count": 0,
-      "volume": 12,
-      "difficulty": 0,
-      "results": 250,
-      "brand": {},
-      "max_reach": null
+      "your_app_ranked": false,
+      "top_competitor_rank": 90,
+      "avg_rank": 92.0,
+      "avg_installs": 0.0,
+      "avg_relevancy": 34.5,
+      "avg_kei": 22.0,
+      "source_apps": [
+        "com.sgiggle.production",
+        "com.litatom.app"
+      ]
     },
     {
-      "term": "talents",
-      "primary_competitor_count": 2,
+      "term": "different",
+      "primary_competitor_count": 1,
       "secondary_competitor_count": 0,
-      "volume": 5,
-      "difficulty": 0,
-      "results": 234,
-      "brand": {},
-      "max_reach": null
+      "your_app_ranked": false,
+      "top_competitor_rank": 59,
+      "avg_rank": 59.0,
+      "avg_installs": 0.0,
+      "avg_relevancy": 12.0,
+      "avg_kei": 34.0,
+      "source_apps": [
+        "com.talkin.learn"
+      ]
     },
     {
-      "term": "seamless",
-      "primary_competitor_count": 2,
+      "term": "discover",
+      "primary_competitor_count": 1,
       "secondary_competitor_count": 0,
-      "volume": 50,
-      "difficulty": 35,
-      "results": 244,
-      "brand": {
-        "top_app_id": "com.seamlessweb.android.view"
-      },
-      "max_reach": null
+      "your_app_ranked": false,
+      "top_competitor_rank": 135,
+      "avg_rank": 135.0,
+      "avg_installs": 0.0,
+      "avg_relevancy": 17.0,
+      "avg_kei": 94.0,
+      "source_apps": [
+        "com.sgiggle.production"
+      ]
     },
     {
-      "term": "rooms",
-      "primary_competitor_count": 2,
+      "term": "feedback",
+      "primary_competitor_count": 1,
       "secondary_competitor_count": 0,
-      "volume": 60,
-      "difficulty": 33,
-      "results": 231,
-      "brand": {},
-      "max_reach": null
+      "your_app_ranked": false,
+      "top_competitor_rank": 79,
+      "avg_rank": 79.0,
+      "avg_installs": 0.0,
+      "avg_relevancy": 23.0,
+      "avg_kei": 22.0,
+      "source_apps": [
+        "com.litatom.app"
+      ]
     },
     {
-      "term": "globe",
-      "primary_competitor_count": 2,
+      "term": "interact",
+      "primary_competitor_count": 1,
       "secondary_competitor_count": 0,
-      "volume": 47,
-      "difficulty": 3,
-      "results": 247,
-      "brand": {
-        "top_app_id": "com.globe.electric"
-      },
-      "max_reach": null
+      "your_app_ranked": false,
+      "top_competitor_rank": 44,
+      "avg_rank": 44.0,
+      "avg_installs": 0.0,
+      "avg_relevancy": 49.0,
+      "avg_kei": 22.0,
+      "source_apps": [
+        "com.talkin.learn"
+      ]
     },
     {
-      "term": "barriers",
-      "primary_competitor_count": 2,
+      "term": "interactive",
+      "primary_competitor_count": 1,
       "secondary_competitor_count": 0,
-      "volume": 9,
-      "difficulty": 0,
-      "results": 249,
-      "brand": {},
-      "max_reach": null
-    },
-    {
-      "term": "tiktok",
-      "primary_competitor_count": 2,
-      "secondary_competitor_count": 0,
-      "volume": 94,
-      "difficulty": 96,
-      "results": 250,
-      "brand": {
-        "top_app_id": "com.zhiliaoapp.musically"
-      },
-      "max_reach": null
-    },
-    {
-      "term": "people worldwide",
-      "primary_competitor_count": 2,
-      "secondary_competitor_count": 0,
-      "volume": 5,
-      "difficulty": 75,
-      "results": 248,
-      "brand": {},
-      "max_reach": null
-    },
-    {
-      "term": "meet real",
-      "primary_competitor_count": 2,
-      "secondary_competitor_count": 0,
-      "volume": 12,
-      "difficulty": 62,
-      "results": 244,
-      "brand": {},
-      "max_reach": null
-    },
-    {
-      "term": "language barriers",
-      "primary_competitor_count": 2,
-      "secondary_competitor_count": 0,
-      "volume": 5,
-      "difficulty": 0,
-      "results": 238,
-      "brand": {},
-      "max_reach": null
+      "your_app_ranked": false,
+      "top_competitor_rank": 118,
+      "avg_rank": 118.0,
+      "avg_installs": 0.0,
+      "avg_relevancy": 18.0,
+      "avg_kei": 22.0,
+      "source_apps": [
+        "com.sgiggle.production"
+      ]
     },
     {
       "term": "interactive features",
-      "primary_competitor_count": 2,
+      "primary_competitor_count": 1,
       "secondary_competitor_count": 0,
-      "volume": 5,
-      "difficulty": 54,
-      "results": 233,
-      "brand": {},
-      "max_reach": null
+      "your_app_ranked": false,
+      "top_competitor_rank": 115,
+      "avg_rank": 115.0,
+      "avg_installs": 0.0,
+      "avg_relevancy": 23.0,
+      "avg_kei": 22.0,
+      "source_apps": [
+        "com.sgiggle.production"
+      ]
+    },
+    {
+      "term": "language",
+      "primary_competitor_count": 1,
+      "secondary_competitor_count": 0,
+      "your_app_ranked": false,
+      "top_competitor_rank": 32,
+      "avg_rank": 32.0,
+      "avg_installs": 0.0,
+      "avg_relevancy": 25.0,
+      "avg_kei": 80.0,
+      "source_apps": [
+        "com.talkin.learn"
+      ]
+    },
+    {
+      "term": "languages",
+      "primary_competitor_count": 1,
+      "secondary_competitor_count": 0,
+      "your_app_ranked": false,
+      "top_competitor_rank": 31,
+      "avg_rank": 31.0,
+      "avg_installs": 0.0,
+      "avg_relevancy": 32.0,
+      "avg_kei": 25.0,
+      "source_apps": [
+        "com.talkin.learn"
+      ]
+    },
+    {
+      "term": "life",
+      "primary_competitor_count": 1,
+      "secondary_competitor_count": 0,
+      "your_app_ranked": false,
+      "top_competitor_rank": 144,
+      "avg_rank": 144.0,
+      "avg_installs": 0.0,
+      "avg_relevancy": 20.0,
+      "avg_kei": 87.0,
+      "source_apps": [
+        "com.sgiggle.production"
+      ]
+    },
+    {
+      "term": "moments",
+      "primary_competitor_count": 1,
+      "secondary_competitor_count": 0,
+      "your_app_ranked": false,
+      "top_competitor_rank": 122,
+      "avg_rank": 122.0,
+      "avg_installs": 0.0,
+      "avg_relevancy": 33.0,
+      "avg_kei": 22.0,
+      "source_apps": [
+        "com.talkin.learn"
+      ]
+    },
+    {
+      "term": "support",
+      "primary_competitor_count": 1,
+      "secondary_competitor_count": 0,
+      "your_app_ranked": false,
+      "top_competitor_rank": 142,
+      "avg_rank": 142.0,
+      "avg_installs": 0.0,
+      "avg_relevancy": 18.0,
+      "avg_kei": 78.0,
+      "source_apps": [
+        "com.sgiggle.production"
+      ]
+    },
+    {
+      "term": "talents",
+      "primary_competitor_count": 1,
+      "secondary_competitor_count": 0,
+      "your_app_ranked": false,
+      "top_competitor_rank": 98,
+      "avg_rank": 98.0,
+      "avg_installs": 0.0,
+      "avg_relevancy": 33.0,
+      "avg_kei": 22.0,
+      "source_apps": [
+        "com.sgiggle.production"
+      ]
+    },
+    {
+      "term": "tiktok",
+      "primary_competitor_count": 1,
+      "secondary_competitor_count": 0,
+      "your_app_ranked": false,
+      "top_competitor_rank": 35,
+      "avg_rank": 35.0,
+      "avg_installs": 0.0,
+      "avg_relevancy": 54.0,
+      "avg_kei": 86.0,
+      "source_apps": [
+        "com.sgiggle.production"
+      ]
+    },
+    {
+      "term": "worldwide",
+      "primary_competitor_count": 1,
+      "secondary_competitor_count": 0,
+      "your_app_ranked": false,
+      "top_competitor_rank": 40,
+      "avg_rank": 40.0,
+      "avg_installs": 0.0,
+      "avg_relevancy": 51.0,
+      "avg_kei": 26.0,
+      "source_apps": [
+        "com.sgiggle.production"
+      ]
     }
   ],
   "competitor_summary": [
@@ -542,81 +262,61 @@
       "app_id": "com.sgiggle.production",
       "name": "Tango: Live Stream, Video Chat",
       "tier": "primary",
-      "title": "Tango: Live Stream, Video Chat",
-      "subtitle": "Live Chat & Match! Explore Real-Time Dating and Make Friends!",
-      "unique_terms_not_in_your_app": 494
+      "gaps_ranked_for": 11
     },
     {
       "app_id": "com.litatom.app",
       "name": "Litmatch\u2014Make new friends",
       "tier": "primary",
-      "title": "Litmatch\u2014Make new friends",
-      "subtitle": "Join the Community & Go Fun with Cool Generation!",
-      "unique_terms_not_in_your_app": 492
+      "gaps_ranked_for": 3
     },
     {
       "app_id": "com.talkin.learn",
       "name": "Talkin: Global Friends & Chat",
       "tier": "primary",
-      "title": "Talkin: Global Friends & Chat",
-      "subtitle": "Chat, Voice, Moments, Connect, Real vibes. Discover life around the world.",
-      "unique_terms_not_in_your_app": 707
+      "gaps_ranked_for": 7
     },
     {
       "app_id": "com.meetup",
       "name": "Meetup: Social Events & Groups",
       "tier": "secondary",
-      "title": "Meetup: Social Events & Groups",
-      "subtitle": "Meet local people, make friends & network: Join a community, group, host events",
-      "unique_terms_not_in_your_app": 300
+      "gaps_ranked_for": 0
     },
     {
       "app_id": "com.hubolabs.hubo",
       "name": "purp - Make new friends",
       "tier": "secondary",
-      "title": "purp - Make new friends",
-      "subtitle": "Swipe to make new friends! Discover new cultures and meet new people",
-      "unique_terms_not_in_your_app": 157
+      "gaps_ranked_for": 0
     },
     {
       "app_id": "com.dior.kFriends",
       "name": "K-Friends - Make Korean Friend",
       "tier": "secondary",
-      "title": "K-Friends - Make Korean Friend",
-      "subtitle": "Have a conversation with your global friends and try language exchange.",
-      "unique_terms_not_in_your_app": 587
+      "gaps_ranked_for": 0
     },
     {
       "app_id": "com.reddit.frontpage",
       "name": "Reddit",
       "tier": "secondary",
-      "title": "Reddit",
-      "subtitle": "Reddit is where you\u2019ll find your people and feel at home in every conversation.",
-      "unique_terms_not_in_your_app": 764
+      "gaps_ranked_for": 0
     },
     {
       "app_id": "com.dazz.hoop",
       "name": "Hoop - Make new friends",
       "tier": "secondary",
-      "title": "Hoop - Make new friends",
-      "subtitle": "Hoop is an easy way to make new friends all over the world",
-      "unique_terms_not_in_your_app": 90
+      "gaps_ranked_for": 0
     },
     {
       "app_id": "com.gemtechnologies.gem4me",
       "name": "Online chat, calls - Gem Space",
       "tier": "secondary",
-      "title": "Online chat, calls - Gem Space",
-      "subtitle": "Private messenger for communication\u30fbChatting text app\u30fbVideo call",
-      "unique_terms_not_in_your_app": 525
+      "gaps_ranked_for": 0
     },
     {
       "app_id": "xyz.blueskyweb.app",
       "name": "Bluesky",
       "tier": "secondary",
-      "title": "Bluesky",
-      "subtitle": "Social that's actually social",
-      "unique_terms_not_in_your_app": 245
+      "gaps_ranked_for": 0
     }
   ]
 }

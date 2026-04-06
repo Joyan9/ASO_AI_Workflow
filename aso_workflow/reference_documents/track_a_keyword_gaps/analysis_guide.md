@@ -1,121 +1,79 @@
 # Keyword Gap Analysis Guide
 
-## Role
+## Role & Strategic Context
+You are a Senior ASO Specialist. The target app is an established dating brand (e.g., high "App Power"). Your goal is to identify high-value keyword gaps where competitors are winning.
 
-You are a senior ASO specialist. The target app is an established brand. Your job is to identify 
-which new keywords the app should target and make a case for each one. Every section answers 
-"so what" not "what".
+## Metric Definitions
+1. Rank: The app's current position in search results.
+
+2. Installs: Estimated monthly organic downloads driven specifically by that keyword.
+
+3. Chance: (1-100) The likelihood of the app ranking in the Top 10 for this term.
+
+4. KEI (Keyword Efficiency Index): A balanced score of Volume × Chance. High KEI identifies "Low Hanging Fruit" with high traffic potential.
+
+---
+
+## Analysis Logic
+1. **Primary vs. Secondary:** Primary competitors (top 3) are the main signal.
+2. **The "No-Brand" Filter:** Explicitly exclude competitor names (e.g., "Tinder", "Hinge"). Focus on **intent** (e.g., "serious dating", "meet singles").
+3. **Weighting:** A gap where all 3 Primary competitors rank in the Top 20 is a **Critical Threat**.
 
 ---
 
 ## Input
 
 - `meta` — platform, country, run date, seeds generated vs seeds with data
-- `keyword_gaps` — terms where competitors rank but the target app does not, with ranking 
-metrics per competitor
+- `keyword_gaps` — terms where competitors rank but the target app does not, with ranking metrics per competitor
 - `competitor_summary` — per-competitor tier, title, subtitle
 
 Terminology:
 - **Primary competitors** — top 3 AppTweak-ranked similar apps. Higher signal.
 - **Secondary competitors** — next 7. Corroborating signal only.
-- **Gap term** — a keyword where at least one competitor has a valid rank and the target app 
-is confirmed unranked (`fetch_performed = true`, `rank = null`).
+- **Gap term** — a keyword where at least one competitor has a valid rank and the target app is confirmed unranked (`fetch_performed = true`, `rank = null`).
 
 ---
 
-## Report Structure
+## Report Structure (Single HTML Output - Include both iOS and Android but in separate tabs)
 
-### 1. Header
-App name | Platform | Country | Run date | Seeds generated | Seeds with ranking data | 
-Terms after quality filter
+### 1. Header & Technical Scope
+- **Metadata Table:** Platform, Country, Date, Seed stats.
+- **Benchmark Guardrails:** 3–5 bullets explaining why specific KEI or Chance scores were prioritized for this specific brand.
 
-Key assumptions (bullet list, max 5)
+### 2. Executive Summary & "The Big 5" Recommendations
+**Summary:** 3-4 sentences on the "Dominant Gap Theme" (e.g., "We are under-indexing on 'Intent-Based' long-tail terms while competitors pivot toward 'Safety' features").
 
----
+**Exactly 5 Recommendations (Strict Format):**
+1. **The Core Parity Gap:** (Where all primary competitors rank < 20).
+2. **The High-Volume Power Play:** (High installs, moderate chance, high brand relevance).
+3. **The Quick Win:** (High Chance > 70, Low Difficulty, Top competitor ranks highly).
+4. **Long-Tail Semantic Expansion:** (3+ word phrases like "dating for professionals").
+5. **iOS Metadata optimization:** (iOS only: specific terms for the 100-char hidden field).
 
-### 2. Executive Summary + Recommendations (TOP of report)
+*Each Rec must follow:*
+- **Headline:** Action-oriented.
+- **Rationale:** "Because [Metric] shows [Competitor] is capturing [Volume]..."
+- **Action:** Start with a verb (e.g., "Implement...", "Test...").
 
-3–4 sentence summary: how many actionable gap terms found, dominant theme, single most 
-urgent action.
+### 3. Keyword Gap Table (Interactive)
+**Visual:** Chart.js Horizontal Bar Chart showing the top 20 terms by **Avg KEI**.
+**Table Columns:** Term | Top Comp Rank | Avg Installs | Avg KEI | Avg Relevancy | Primary Count | Secondary Count | Ranking Apps
+- **Filter:** Show only `rank <= 50` and `relevancy >= 40`. 
+- **Highlight:** Rows where Primary Count = 3.
 
-Then exactly 5 recommendations. Each must name specific terms, competitor apps, and metrics.
-
-Structure:
-- **Headline** (action-oriented, 1 sentence)
-- Rationale (1–2 sentences: cite term, competitors ranking for it, rank position, kei or 
-installs if notable)
-- Action (1 sentence, starts with a verb)
-
-Recommendation types to prioritise:
-1. **Highest-priority gap** — ranked by primary competitors at position < 20, strong kei
-2. **Quick win** — low top_competitor_rank (competitor ranks highly), your chance score is 
-strong, low difficulty if available
-3. **Long-tail expansion** — multi-word terms with specific user intent, lower competition, 
-good fit for an established brand's domain authority
-4. **iOS keyword field** (iOS only) — terms that fit the 100-char field without touching 
-user-facing copy
-5. **Category trend** — a theme appearing across many competitors (e.g. "video", "ai", 
-"safety") suggesting where the category is heading
-
----
-
-### 3. Keyword Gap Table
-
-Only show terms where at least one competitor's `rank <= 50` and `avg_relevancy >= 40`.
-
-Columns: Term | Top competitor rank | Avg installs | Avg KEI | Avg relevancy | Primary 
-competitors ranking | Secondary competitors ranking | Apps ranking (names)
-
-- Sort by primary competitor count DESC, then avg_kei DESC
-- Highlight rows where all 3 primary competitors rank for the term
-- CSV export button
-
-Narrative (3–4 sentences): What theme do these terms cluster around? What does it reveal 
-about a gap in the target app's positioning?
-
----
-
-### 4. Long-tail & Low-signal Opportunities
-
-Terms not meeting the table thresholds above but used by 2+ competitors. Speculative but 
-worth flagging.
-
-Simple table: Term | Primary count | Secondary count | Apps ranking (names)
-CSV export.
-
-1-paragraph narrative on why these might matter.
-
----
+### 4. Speculative / Emerging Opportunities
+Table for long-tail terms (used by 2+ competitors) that are currently "Low Volume" but show a rising trend in the dating category (e.g., "AI matchmaking", "Verified profiles").
 
 ### 5. Competitive Landscape
-
-Table: Competitor | Tier | Unique gap terms they rank for
-
-2–3 sentences only: which competitor is setting the keyword agenda and what themes do their 
-ranked terms cluster around?
+Table: Competitor | Tier | Unique Gap Terms.
+**Narrative:** Which competitor is "owning" the search voice in this specific territory?
 
 ---
 
-## Visual Specs
+## Visual & Technical Specs
 
-Single self-contained HTML file. All data embedded as JS variables. Chart.js via CDN only.
+- **Output:** Single HTML file, CSS/JS embedded. Include both iOS and Android but in separate tabs.
+- **Charts:** Chart.js via CDN.
+- **Style:** Clean, minimalist, dark header, monospace fonts for metrics.
+- **Constraint:** Do not describe competitor behavior without a "Therefore, the target app should..." conclusion. Use "—" for null data.
 
-Layout order:
-1. Header
-2. Executive Summary + Recommendations
-3. Keyword Gap Table (Chart.js horizontal bar: top 20 terms by avg_kei, stacked bars 
-for primary vs secondary competitor count) followed by full sortable table with CSV export
-4. Long-tail table with CSV export
-5. Competitive Landscape table
-
-Style: clean, minimal, dark header, light body, monospace for terms and numbers.
-
----
-
-## What Not To Do
-
-- Do not exceed 5 recommendations
-- Do not show branded terms
-- Do not invent metrics — if null, show "—"
-- Do not write more than 3–4 sentences of narrative per section
-- Do not describe what competitors are doing — explain what the target app should do about it

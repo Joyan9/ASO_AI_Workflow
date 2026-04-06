@@ -21,7 +21,9 @@ The workflow is designed as a reusable intelligence gathering system that can be
 
 ## 2. Workflow Design and Structure
 
-The pipeline executes in **5 sequential steps** with optional branching for platform-specific analysis:
+![ASO Workflow Diagram](/aso_workflow/ASO_Workflow.png)
+
+The pipeline executes in **6 steps**: 5 automated data-gathering steps followed by 1 AI-powered analysis step:
 
 ### Step 1 & 2: Fetch Focus App Metadata & Extract Competitors
 
@@ -84,6 +86,60 @@ This track transforms raw metadata change history into structured insights:
 4. **Compare Screenshots** — Uses perceptual hashing (pHash) to detect if screenshot sets are identical even if URLs differ (AppTweak rewrites URLs). Caches hashes to avoid redundant downloads.
 
 **Output:** A JSON file with per-competitor test activity, resolved outcomes, and aggregate summaries (total tests, won/lost/pending counts).
+
+### Step 6: AI-Powered Analysis & Report Generation
+
+**Purpose:** Transform raw data output into actionable strategic recommendations using an AI agent.
+
+This step decouples data generation from analysis interpretation. The structured JSON output from either Track A or Track B is passed to an AI agent (like Claude) along with a **reference document** (`analysis_guide.md`) specific to that track.
+
+#### Process Flow:
+
+1. **Prepare Analysis Input** — Take the generated JSON output file:
+   - Track A: `keyword_gaps_{platform}_{app_id}.json`
+   - Track B: `ab_history_android_{app_id}.json`
+
+2. **Load Reference Guide** — Use the corresponding analysis guide from `reference_documents/`:
+   - Track A: `reference_documents/track_a_keyword_gaps/analysis_guide.md`
+   - Track B: `reference_documents/track_b_ab_test_inference/analysis_guide.md`
+
+3. **Provide Context to AI Agent** — Present both the JSON output and the analysis guide to the AI agent. The guide serves as:
+   - **Analysis Framework** — Instructs the agent on how to interpret the data and identify patterns
+   - **Report Structure** — Defines the expected sections (Executive Summary, Key Metrics, Competitor Landscape, etc.)
+   - **Metrics Definitions** — Explains technical fields (e.g., KEI, relevancy score, resolved status)
+   - **Quality Standards** — Documents what to avoid (e.g., over-interpreting pending A/B tests, including raw screenshot URLs)
+   - **Context Awareness** — Provides domain knowledge about ASO practices and industry nuances
+
+4. **Generate Strategic Report** — The AI agent produces:
+   - Executive summary with 3–5 prioritized recommendations
+   - Detailed analysis tables
+   - Cross-competitor insights and trends
+   - Actionable next steps for the product team
+
+#### Example Workflow:
+
+```bash
+# After running Track A
+python run_track_a.py
+
+# In Claude (or another AI agent):
+# Prompt: "Analyze this keyword gap data using the attached analysis guide."
+# Attachments: 
+#   1. keyword_gaps_ios_547702041.json
+#   2. reference_documents/track_a_keyword_gaps/analysis_guide.md
+
+# AI Agent Output:
+# [Comprehensive report with prioritized gap opportunities, competitive insights, etc.]
+```
+
+#### Why This Separation?
+
+- **Modularity** — Data pipeline and analysis interpretation are decoupled. Update analysis logic without re-running costly API calls.
+- **Flexibility** — Same output JSON can be analyzed by different AI models or with different prompts.
+- **Reusability** — Analysis guides can be refined iteratively and shared across teams.
+- **Cost Efficiency** — AI analysis is cheaper than API calls; optimize the expensive part (data fetching) once.
+
+**Output:** A narrative strategic report (markdown, PDF, or dashboard) ready for decision-makers.
 
 ---
 
@@ -306,22 +362,13 @@ Output files are saved to `data/processed/`:
 
 ## Using the Analysis Guides
 
-After running the pipeline, use the analysis guides as prompts to an LLM like Claude which will create a report:
+The analysis guides serve as detailed prompts for your AI agent:
 
-- [Track A — Keyword Gap Analysis Guide](reference_documents/track_a_keyword_gaps/analysis_guide.md)
-- [Track B — A/B Test Intelligence Guide](reference_documents/track_b_ab_test_inference/analysis_guide.md)
+- [Track A — Keyword Gap Analysis Guide](reference_documents/track_a_keyword_gaps/analysis_guide.md) — Frameworks for prioritizing keyword opportunities and understanding competitive landscape
+
+- [Track B — A/B Test Intelligence Guide](reference_documents/track_b_ab_test_inference/analysis_guide.md) — Guidelines for interpreting competitor testing behavior and extracting strategy signals
 
 ---
-
-## Troubleshooting
-
-**API Key Issues:** Ensure your `.env` file is in `aso_workflow/` and properly formatted. Verify the key is active on AppTweak.
-
-**No Competitors Found:** The app may not exist in the target market or category. Check that the app ID and platform are correct.
-
-**Ranking Data is Sparse:** Some keywords may not have ranking data in the target market. This is normal. The output will show `null` for unavailable metrics.
-
-**Screenshot Comparison Fails:** Install image libraries with `pip install Pillow imagehash`. Without these, the pipeline falls back to URL-based comparison.
 
 
 

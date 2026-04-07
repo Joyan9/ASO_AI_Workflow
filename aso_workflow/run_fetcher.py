@@ -5,11 +5,15 @@ Run from the aso_workflow directory:
     python run_example.py
 """
 
+import json
+from pathlib import Path
+
 from fetchers.metadata import (
     fetch_current_metadata,
     extract_competitors,
     fetch_competitor_metadata,
     fetch_competitor_history,
+    fetch_app_history,
 )
 import config
 
@@ -71,11 +75,36 @@ def main():
     print(f"    Extracted {len(android_competitors['competitors'])} competitors")
     print()
     
-    # STEP 3: Competitor metadata and history
-    #fetch_competitor_metadata("ios")
-    fetch_competitor_metadata("android")
-    fetch_competitor_history("android")
+    # STEP 3: Save our app metadata to our_app subdirectory
+    print(">>> [STEP 3] Saving target app metadata to our_app directory...")
+    print()
+    target_metadata = fetch_current_metadata(
+        app_id=config.ANDROID_APP_ID,
+        platform="android",
+        country=config.COUNTRY,
+        language=config.LANGUAGE,
+        device=config.ANDROID_DEVICE,
+    )
     
+    # Save to our_app subdirectory
+    our_app_dir = Path(config.DATA_RAW_DIR) / "our_app"
+    our_app_dir.mkdir(parents=True, exist_ok=True)
+    
+    output_file = our_app_dir / "android_metadata.json"
+    with open(output_file, "w") as f:
+        json.dump(target_metadata, f, indent=2)
+    print(f"[SAVE] Target app metadata also saved to {output_file}")
+    print()
+    
+    # STEP 4: Competitor metadata and history
+    #fetch_competitor_metadata("ios")
+    #fetch_competitor_metadata("android")
+    #fetch_competitor_history("android")
+    
+    # STEP 5: Target app history
+    print(">>> [STEP 5] Fetching target app history...")
+    print(f"  Fetching {config.ANDROID_DEVICE.upper()} | {config.ANDROID_APP_ID}")
+    fetch_app_history("android", config.ANDROID_APP_ID, save_subdir="our_app")
     print()
     print("=" * 60)
     print("All data saved to:", config.DATA_RAW_DIR)

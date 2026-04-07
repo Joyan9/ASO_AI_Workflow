@@ -328,7 +328,88 @@ def _compute_summary(
     return summary
 
 
-def transform_track_b(app_id: str) -> Tuple[List[Dict[str, Any]], Dict[str, Any]]:
+def _summarize_target_app(app_id: str) -> Dict[str, Any]:
+    """
+    Extract and summarize our target app's metadata and testing history.
+    
+    Args:
+        app_id: Target app ID (Android package name)
+    
+    Returns:
+        Dict with: title, short_description, ab_tests[], shipped_changes[], summary
+        
+    Returns empty dict if metadata or history not found.
+    """
+    target_app_info = {
+        "title": None,
+        "short_description": None,
+        "shipped_changes": [],
+        "summary": {
+            "ab_tests_total": 0,
+            "resolved_won": 0,
+            "resolved_lost": 0,
+            "pending": 0,
+            "fields_tested": [],
+            "most_recent_shipped": {},
+        },
+    }
+    
+    # Load metadata
+    metadata_file = Path(config.DATA_RAW_DIR) / "our_app" / f"android_metadata.json"
+    if metadata_file.exists():
+        with open(metadata_file, "r") as f:
+            metadata = json.load(f)
+            app_metadata = metadata.get("result", {}).get(app_id, {}).get("metadata", {})
+            target_app_info["title"] = app_metadata.get("title")
+            target_app_info["short_description"] = app_metadata.get("short_description")
+    else:
+        print(f"[WARN] No metadata found for target app at {metadata_file}")
+    
+    # Load history
+    history_file = Path(config.DATA_RAW_DIR) / "our_app" / f"android_history.json"
+    if not history_file.exists():
+        print(f"[WARN] No history found for target app at {history_file}")
+        return target_app_info
+    
+    history_data = _load_history(history_file)
+    changes = history_data.get("result", {}).get(app_id, {}).get("changes", [])
+    
+    if not changes:
+        print(f"[TRACK_B] Target app has no changes in history")
+        return target_app_info
+    
+    # Filter to relevant fields
+    filtered_changes = _filter_changes(changes)
+    
+    if not filtered_changes:
+        print(f"[TRACK_B] Target app has no relevant changes in history")
+        return target_app_info
+    
+    # Separate A/B tests and shipped
+    ab_tests, shipped_changes = _separate_by_ab_test(filtered_changes)
+    
+    # Resolve A/B tests
+    ab_tests_resolved = []
+    for ab_test in ab_tests:
+        resolved = _resolve_ab_test(ab_test, shipped_changes)
+        ab_tests_resolved.append(resolved)
+    
+    # Compute summary
+    summary = _compute_summary(ab_tests_resolved, shipped_changes)
+    
+    #target_app_info["ab_tests"] = ab_tests_resolved
+    target_app_info["shipped_changes"] = shipped_changes
+    target_app_info["summary"] = summary
+    
+    print(f"[TRACK_B] Target app: {target_app_info['title']}")
+    print(f"    A/B tests: {summary['ab_tests_total']} (won: {summary['resolved_won']}, lost: {summary['resolved_lost']}, pending: {summary['pending']})")
+    print(f"    Fields tested: {summary['fields_tested']}")
+    print()
+    
+    return target_app_info
+
+
+def transform_track_b(app_id: str) -> Tuple[Dict[str, Any], List[Dict[str, Any]], Dict[str, Any]]:
     """
     Main Track B transformation for Android A/B test history.
     
@@ -336,8 +417,13 @@ def transform_track_b(app_id: str) -> Tuple[List[Dict[str, Any]], Dict[str, Any]
         app_id: Android app ID (package name)
     
     Returns:
-        (list of competitor dicts with ab_tests, shipped_changes, summary)
+        (target_app dict with metadata and testing history,
+         list of competitor dicts with ab_tests, shipped_changes, summary,
+         aggregate summary dict)
     """
+    print("[TRACK_B] Summarizing target app...")
+    target_app = _summarize_target_app(app_id)
+    print()
     print("[TRACK_B] Loading competitor list...")
     
     # Load competitor list
@@ -345,7 +431,7 @@ def transform_track_b(app_id: str) -> Tuple[List[Dict[str, Any]], Dict[str, Any]
     
     if not competitors_files:
         print(f"[ERROR] No competitor list found for Android")
-        return [], {}
+        return target_app, [], {}
     
     with open(competitors_files[0], "r") as f:
         competitors_data = json.load(f)
@@ -447,7 +533,7 @@ def transform_track_b(app_id: str) -> Tuple[List[Dict[str, Any]], Dict[str, Any]
     print(f"  - Pending: {total_pending}")
     print()
     
-    return output, {
+    return target_app, output, {
         "total_competitors": len(output),
         "total_ab_tests": total_ab_tests,
         "resolved_won": total_resolved_won,

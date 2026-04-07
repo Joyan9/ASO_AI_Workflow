@@ -1,15 +1,10 @@
 {
   "source_app_id": "com.tinder",
   "platform": "android",
-  "extracted_at": "2026-04-05T15:34:06.998053",
+  "extracted_at": "2026-04-07T17:09:03.295588",
   "competitors": [
     {
       "app_id": "co.hinge.app",
-      "name": null,
-      "tier": "primary"
-    },
-    {
-      "app_id": "com.bumble.app",
       "name": null,
       "tier": "primary"
     },
@@ -19,12 +14,12 @@
       "tier": "primary"
     },
     {
-      "app_id": "com.hily.app",
+      "app_id": "com.bumble.app",
       "name": null,
-      "tier": "secondary"
+      "tier": "primary"
     },
     {
-      "app_id": "com.getpure.pure",
+      "app_id": "com.hily.app",
       "name": null,
       "tier": "secondary"
     },
@@ -34,12 +29,12 @@
       "tier": "secondary"
     },
     {
-      "app_id": "com.nearme.wolf",
+      "app_id": "com.getpure.pure",
       "name": null,
       "tier": "secondary"
     },
     {
-      "app_id": "com.badoo.mobile",
+      "app_id": "com.nearme.wolf",
       "name": null,
       "tier": "secondary"
     },
@@ -50,6 +45,11 @@
     },
     {
       "app_id": "com.qiga.vio",
+      "name": null,
+      "tier": "secondary"
+    },
+    {
+      "app_id": "com.badoo.mobile",
       "name": null,
       "tier": "secondary"
     }

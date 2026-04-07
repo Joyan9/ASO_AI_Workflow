@@ -276,8 +276,8 @@
         "device": "android",
         "country": "us",
         "language": "us",
-        "start_date": "2026-01-05",
-        "end_date": "2026-04-05",
+        "start_date": "2026-01-07",
+        "end_date": "2026-04-07",
         "apps": [
           "com.qiga.vio"
         ]

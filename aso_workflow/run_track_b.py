@@ -31,7 +31,7 @@ def run_track_b(app_id: str):
     print()
     
     # Run transformation
-    competitors, summary = transform_track_b(app_id)
+    target_app, competitors, summary = transform_track_b(app_id)
     
     # Write output
     print(">>> Writing output JSON...")
@@ -45,6 +45,7 @@ def run_track_b(app_id: str):
             "run_date": datetime.now().isoformat(),
             "history_window_days": config.HISTORY_WINDOW_DAYS,
         },
+        "target_app": target_app,
         "summary": summary,
         "competitors": competitors,
     }

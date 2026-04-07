@@ -247,7 +247,7 @@ def fetch_competitor_metadata(platform: str) -> None:
         competitor_data = json.load(f)
  
     competitors = competitor_data.get("competitors", [])
-    print(f"\n[STEP 3a] Fetching metadata for {len(competitors)} {platform.upper()} competitors...")
+    print(f"\n[STEP 4a] Fetching metadata for {len(competitors)} {platform.upper()} competitors...")
  
     competitors_dir = Path(config.DATA_RAW_DIR) / "competitors"
     competitors_dir.mkdir(parents=True, exist_ok=True)
@@ -287,62 +287,87 @@ def fetch_competitor_metadata(platform: str) -> None:
 def fetch_competitor_history(platform: str) -> None:
     """
     Fetch metadata change history for all competitors (Android only).
- 
-    Only executes when platform == "android". For iOS, logs and returns early.
- 
+    
+    Loads competitor list and uses fetch_app_history() to fetch history for each.
+    
     Args:
         platform: "ios" or "android"
- 
+    
     Saves:
-        data/raw/competitors/android_{competitor_app_id}_history.json
+        data/raw/competitors/{platform}_{competitor_app_id}_history.json
     """
     if platform.lower() == "ios":
-        print(f"\n[STEP 3b] Skipping history fetch for iOS (Android only)")
+        print(f"\n[STEP 4b] Skipping history fetch for iOS (Android only)")
         return
- 
+    
     competitor_files = list(Path(config.DATA_RAW_DIR).glob(f"{platform}_*_competitors.json"))
- 
+    
     if not competitor_files:
         print(f"[WARN] No competitor list found for platform: {platform}")
         return
- 
+    
     with open(competitor_files[0]) as f:
         competitor_data = json.load(f)
- 
+    
     competitors = competitor_data.get("competitors", [])
-    print(f"\n[STEP 3b] Fetching history for {len(competitors)} {platform.upper()} competitors (last 90 days)...")
- 
-    competitors_dir = Path(config.DATA_RAW_DIR) / "competitors"
-    competitors_dir.mkdir(parents=True, exist_ok=True)
- 
-    client = AppTweakClient(API_KEY)
- 
+    print(f"\n[STEP 4b] Fetching history for {len(competitors)} {platform.upper()} competitors (last 90 days)...")
+    
     for idx, competitor in enumerate(competitors):
         competitor_app_id = competitor["app_id"]
         competitor_tier = competitor["tier"]
- 
-        try:
-            params = {
-                "apps": competitor_app_id,
-                "country": config.COUNTRY,
-                "language": config.LANGUAGE,
-                "device": config.ANDROID_DEVICE,
-                "start_date": config.START_DATE,
-                "end_date": config.END_DATE,
-            }
- 
-            print(f"  [{idx + 1}/{len(competitors)}] Fetching {competitor_tier:9} | {platform.upper():7} | {competitor_app_id}")
-            response = client.get(config.APPTWEAK_HISTORY_ENDPOINT, params=params)
- 
-            output_file = competitors_dir / f"{platform}_{competitor_app_id}_history.json"
-            with open(output_file, "w") as f:
-                json.dump(response, f, indent=2)
- 
-            print(f"      → Saved to {output_file}")
- 
-            if idx < len(competitors) - 1:
-                time.sleep(1)
- 
-        except Exception as e:
-            print(f"  [ERROR] Failed to fetch history for {competitor_app_id}: {e}")
-            continue
+        
+        print(f"  [{idx + 1}/{len(competitors)}] Fetching {competitor_tier:9} | {platform.upper():7} | {competitor_app_id}")
+        fetch_app_history(platform, competitor_app_id, save_subdir="competitors")
+        
+        if idx < len(competitors) - 1:
+            time.sleep(1)
+
+
+def fetch_app_history(platform: str, app_id: str, save_subdir: Optional[str] = None) -> None:
+    """
+    Generic function to fetch metadata change history for any app (Android only).
+    
+    Only executes when platform == "android". For iOS, returns silently.
+    
+    Args:
+        platform: "ios" or "android"
+        app_id: The app ID (package name or iOS ID) to fetch history for
+        save_subdir: Optional subdirectory name to save to (e.g., "competitors" or "our_app")
+                     If None, saves to data/raw/ root.
+    
+    Saves:
+        data/raw/{save_subdir}/{platform}_{app_id}_history.json
+    """
+    if platform.lower() == "ios":
+        return
+    
+    client = AppTweakClient(API_KEY)
+    
+    # Determine save directory
+    if save_subdir:
+        save_dir = Path(config.DATA_RAW_DIR) / save_subdir
+    else:
+        save_dir = Path(config.DATA_RAW_DIR)
+    
+    save_dir.mkdir(parents=True, exist_ok=True)
+    
+    try:
+        params = {
+            "apps": app_id,
+            "country": config.COUNTRY,
+            "language": config.LANGUAGE,
+            "device": config.ANDROID_DEVICE,
+            "start_date": config.START_DATE,
+            "end_date": config.END_DATE,
+        }
+        
+        response = client.get(config.APPTWEAK_HISTORY_ENDPOINT, params=params)
+        
+        output_file = save_dir / f"{platform}_{app_id}_history.json"
+        with open(output_file, "w") as f:
+            json.dump(response, f, indent=2)
+        
+        print(f"      → Saved to {output_file}")
+        
+    except Exception as e:
+        print(f"  [ERROR] Failed to fetch history for {app_id}: {e}")

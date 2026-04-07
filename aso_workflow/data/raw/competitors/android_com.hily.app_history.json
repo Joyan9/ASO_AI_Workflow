@@ -4,16 +4,6 @@
       "changes": [
         {
           "target": "version",
-          "old_value": "5.48.1",
-          "new_value": "5.51.0",
-          "old_release_notes": "",
-          "new_release_notes": "",
-          "version": "5.51.0",
-          "is_ab_test": null,
-          "date": "2026-01-05"
-        },
-        {
-          "target": "version",
           "old_value": "5.51.0",
           "new_value": "5.51.1",
           "old_release_notes": "",
@@ -201,156 +191,6 @@
           "version": "5.63.0",
           "is_ab_test": null,
           "date": "2026-03-30"
-        },
-        {
-          "target": "screenshots",
-          "old_value": [
-            {
-              "id": "TXruwEcbUbdjTlWXaZUMXgyWWxLFdqtGhk6LXphIAqL2kwckJWr3_xyf3_py_acnMyNe",
-              "path_component": "play-lh.googleusercontent.com",
-              "url": "https://play-lh.googleusercontent.com/TXruwEcbUbdjTlWXaZUMXgyWWxLFdqtGhk6LXphIAqL2kwckJWr3_xyf3_py_acnMyNe"
-            },
-            {
-              "id": "DnMeB87glYj6dm0uj14MnKh61Zj6EH1q2povMrn12c10Z6ZxMxgYL-tTDaTDhTRYFKk",
-              "path_component": "play-lh.googleusercontent.com",
-              "url": "https://play-lh.googleusercontent.com/DnMeB87glYj6dm0uj14MnKh61Zj6EH1q2povMrn12c10Z6ZxMxgYL-tTDaTDhTRYFKk"
-            },
-            {
-              "id": "AecIgyRxJtja9U8Rp9f8-9xEgpQ1GlncsR6oywbqrzn-yIPbB6zNU0BnxRceafSBoRSj",
-              "path_component": "play-lh.googleusercontent.com",
-              "url": "https://play-lh.googleusercontent.com/AecIgyRxJtja9U8Rp9f8-9xEgpQ1GlncsR6oywbqrzn-yIPbB6zNU0BnxRceafSBoRSj"
-            },
-            {
-              "id": "p6jcSOJQo4kh_hWcpwRpdm-myXDBv_GdfVfn-oX5cjfgEMdpfG8QyLWeR5i_Sti_LA",
-              "path_component": "play-lh.googleusercontent.com",
-              "url": "https://play-lh.googleusercontent.com/p6jcSOJQo4kh_hWcpwRpdm-myXDBv_GdfVfn-oX5cjfgEMdpfG8QyLWeR5i_Sti_LA"
-            },
-            {
-              "id": "4ul99tTVPbPZSHk0VzovItt5X6-vYE3mXBMX-FA41ToFTbmsWHYkiLsdUGoF8Vp47u_9",
-              "path_component": "play-lh.googleusercontent.com",
-              "url": "https://play-lh.googleusercontent.com/4ul99tTVPbPZSHk0VzovItt5X6-vYE3mXBMX-FA41ToFTbmsWHYkiLsdUGoF8Vp47u_9"
-            },
-            {
-              "id": "cs3f786oW3VIIeUJcZl1Xy3YKz064VN1Hz0GI0wHx6KXhnqcSwouRZ0hVHj99dN2MA",
-              "path_component": "play-lh.googleusercontent.com",
-              "url": "https://play-lh.googleusercontent.com/cs3f786oW3VIIeUJcZl1Xy3YKz064VN1Hz0GI0wHx6KXhnqcSwouRZ0hVHj99dN2MA"
-            },
-            {
-              "id": "RvNfamC5B8VO3hDWFAk_w5UI5i1EClpyOaW4cG4YLjpQq2qKqp7grx90YyP_h2Qmr70",
-              "path_component": "play-lh.googleusercontent.com",
-              "url": "https://play-lh.googleusercontent.com/RvNfamC5B8VO3hDWFAk_w5UI5i1EClpyOaW4cG4YLjpQq2qKqp7grx90YyP_h2Qmr70"
-            }
-          ],
-          "new_value": [
-            {
-              "id": "NmYV2uDW5iB6cFa_RLtZWUeoXd1PS8newJQ3Zbb_QSdfadCPCaiF72-bIfeyT6MNAg",
-              "path_component": "play-lh.googleusercontent.com",
-              "url": "https://play-lh.googleusercontent.com/NmYV2uDW5iB6cFa_RLtZWUeoXd1PS8newJQ3Zbb_QSdfadCPCaiF72-bIfeyT6MNAg"
-            },
-            {
-              "id": "7q5g4gc3hr_T7DBxVsh5yhTPYdLM7GP_j1bxeMFlIqaHoiqij9unSge7RFm9mBvTyQI",
-              "path_component": "play-lh.googleusercontent.com",
-              "url": "https://play-lh.googleusercontent.com/7q5g4gc3hr_T7DBxVsh5yhTPYdLM7GP_j1bxeMFlIqaHoiqij9unSge7RFm9mBvTyQI"
-            },
-            {
-              "id": "PBKzkpO4cjFv12EqpL5mspYTqJZDLOTzx39dEpDMvGV9Ja5gD40zX1i0Jr3kUUNzXgU",
-              "path_component": "play-lh.googleusercontent.com",
-              "url": "https://play-lh.googleusercontent.com/PBKzkpO4cjFv12EqpL5mspYTqJZDLOTzx39dEpDMvGV9Ja5gD40zX1i0Jr3kUUNzXgU"
-            },
-            {
-              "id": "ltqc_ZoaLh11lpWyH7Dc_fplkLWfOAOaMJ2sTh1HmdlkXa1ksMaWWjfNQIeuJoJ_nTw",
-              "path_component": "play-lh.googleusercontent.com",
-              "url": "https://play-lh.googleusercontent.com/ltqc_ZoaLh11lpWyH7Dc_fplkLWfOAOaMJ2sTh1HmdlkXa1ksMaWWjfNQIeuJoJ_nTw"
-            },
-            {
-              "id": "6_KdJX8TYS63eOxEDEu9kOTz1ua_rQKCYwWK8fv8Sj5d9VDhX_OhBTnhYbl2LbkltZht",
-              "path_component": "play-lh.googleusercontent.com",
-              "url": "https://play-lh.googleusercontent.com/6_KdJX8TYS63eOxEDEu9kOTz1ua_rQKCYwWK8fv8Sj5d9VDhX_OhBTnhYbl2LbkltZht"
-            },
-            {
-              "id": "4U3YV0lufkB_fI7xhQ6qXRwrf9uL85i4YJWkO0swkDnrq6IFZGQ06zN-GiZFVLLLQUw",
-              "path_component": "play-lh.googleusercontent.com",
-              "url": "https://play-lh.googleusercontent.com/4U3YV0lufkB_fI7xhQ6qXRwrf9uL85i4YJWkO0swkDnrq6IFZGQ06zN-GiZFVLLLQUw"
-            }
-          ],
-          "version": "",
-          "is_ab_test": true,
-          "date": "2026-01-05"
-        },
-        {
-          "target": "screenshots",
-          "old_value": [
-            {
-              "id": "NmYV2uDW5iB6cFa_RLtZWUeoXd1PS8newJQ3Zbb_QSdfadCPCaiF72-bIfeyT6MNAg",
-              "path_component": "play-lh.googleusercontent.com",
-              "url": "https://play-lh.googleusercontent.com/NmYV2uDW5iB6cFa_RLtZWUeoXd1PS8newJQ3Zbb_QSdfadCPCaiF72-bIfeyT6MNAg"
-            },
-            {
-              "id": "7q5g4gc3hr_T7DBxVsh5yhTPYdLM7GP_j1bxeMFlIqaHoiqij9unSge7RFm9mBvTyQI",
-              "path_component": "play-lh.googleusercontent.com",
-              "url": "https://play-lh.googleusercontent.com/7q5g4gc3hr_T7DBxVsh5yhTPYdLM7GP_j1bxeMFlIqaHoiqij9unSge7RFm9mBvTyQI"
-            },
-            {
-              "id": "PBKzkpO4cjFv12EqpL5mspYTqJZDLOTzx39dEpDMvGV9Ja5gD40zX1i0Jr3kUUNzXgU",
-              "path_component": "play-lh.googleusercontent.com",
-              "url": "https://play-lh.googleusercontent.com/PBKzkpO4cjFv12EqpL5mspYTqJZDLOTzx39dEpDMvGV9Ja5gD40zX1i0Jr3kUUNzXgU"
-            },
-            {
-              "id": "ltqc_ZoaLh11lpWyH7Dc_fplkLWfOAOaMJ2sTh1HmdlkXa1ksMaWWjfNQIeuJoJ_nTw",
-              "path_component": "play-lh.googleusercontent.com",
-              "url": "https://play-lh.googleusercontent.com/ltqc_ZoaLh11lpWyH7Dc_fplkLWfOAOaMJ2sTh1HmdlkXa1ksMaWWjfNQIeuJoJ_nTw"
-            },
-            {
-              "id": "6_KdJX8TYS63eOxEDEu9kOTz1ua_rQKCYwWK8fv8Sj5d9VDhX_OhBTnhYbl2LbkltZht",
-              "path_component": "play-lh.googleusercontent.com",
-              "url": "https://play-lh.googleusercontent.com/6_KdJX8TYS63eOxEDEu9kOTz1ua_rQKCYwWK8fv8Sj5d9VDhX_OhBTnhYbl2LbkltZht"
-            },
-            {
-              "id": "4U3YV0lufkB_fI7xhQ6qXRwrf9uL85i4YJWkO0swkDnrq6IFZGQ06zN-GiZFVLLLQUw",
-              "path_component": "play-lh.googleusercontent.com",
-              "url": "https://play-lh.googleusercontent.com/4U3YV0lufkB_fI7xhQ6qXRwrf9uL85i4YJWkO0swkDnrq6IFZGQ06zN-GiZFVLLLQUw"
-            }
-          ],
-          "new_value": [
-            {
-              "id": "TXruwEcbUbdjTlWXaZUMXgyWWxLFdqtGhk6LXphIAqL2kwckJWr3_xyf3_py_acnMyNe",
-              "path_component": "play-lh.googleusercontent.com",
-              "url": "https://play-lh.googleusercontent.com/TXruwEcbUbdjTlWXaZUMXgyWWxLFdqtGhk6LXphIAqL2kwckJWr3_xyf3_py_acnMyNe"
-            },
-            {
-              "id": "DnMeB87glYj6dm0uj14MnKh61Zj6EH1q2povMrn12c10Z6ZxMxgYL-tTDaTDhTRYFKk",
-              "path_component": "play-lh.googleusercontent.com",
-              "url": "https://play-lh.googleusercontent.com/DnMeB87glYj6dm0uj14MnKh61Zj6EH1q2povMrn12c10Z6ZxMxgYL-tTDaTDhTRYFKk"
-            },
-            {
-              "id": "AecIgyRxJtja9U8Rp9f8-9xEgpQ1GlncsR6oywbqrzn-yIPbB6zNU0BnxRceafSBoRSj",
-              "path_component": "play-lh.googleusercontent.com",
-              "url": "https://play-lh.googleusercontent.com/AecIgyRxJtja9U8Rp9f8-9xEgpQ1GlncsR6oywbqrzn-yIPbB6zNU0BnxRceafSBoRSj"
-            },
-            {
-              "id": "p6jcSOJQo4kh_hWcpwRpdm-myXDBv_GdfVfn-oX5cjfgEMdpfG8QyLWeR5i_Sti_LA",
-              "path_component": "play-lh.googleusercontent.com",
-              "url": "https://play-lh.googleusercontent.com/p6jcSOJQo4kh_hWcpwRpdm-myXDBv_GdfVfn-oX5cjfgEMdpfG8QyLWeR5i_Sti_LA"
-            },
-            {
-              "id": "4ul99tTVPbPZSHk0VzovItt5X6-vYE3mXBMX-FA41ToFTbmsWHYkiLsdUGoF8Vp47u_9",
-              "path_component": "play-lh.googleusercontent.com",
-              "url": "https://play-lh.googleusercontent.com/4ul99tTVPbPZSHk0VzovItt5X6-vYE3mXBMX-FA41ToFTbmsWHYkiLsdUGoF8Vp47u_9"
-            },
-            {
-              "id": "cs3f786oW3VIIeUJcZl1Xy3YKz064VN1Hz0GI0wHx6KXhnqcSwouRZ0hVHj99dN2MA",
-              "path_component": "play-lh.googleusercontent.com",
-              "url": "https://play-lh.googleusercontent.com/cs3f786oW3VIIeUJcZl1Xy3YKz064VN1Hz0GI0wHx6KXhnqcSwouRZ0hVHj99dN2MA"
-            },
-            {
-              "id": "RvNfamC5B8VO3hDWFAk_w5UI5i1EClpyOaW4cG4YLjpQq2qKqp7grx90YyP_h2Qmr70",
-              "path_component": "play-lh.googleusercontent.com",
-              "url": "https://play-lh.googleusercontent.com/RvNfamC5B8VO3hDWFAk_w5UI5i1EClpyOaW4cG4YLjpQq2qKqp7grx90YyP_h2Qmr70"
-            }
-          ],
-          "version": "",
-          "is_ab_test": true,
-          "date": "2026-01-06"
         },
         {
           "target": "screenshots",
@@ -1193,6 +1033,14 @@
           "date": "2026-04-05"
         },
         {
+          "target": "feature_graphic",
+          "old_value": "https://play-lh.googleusercontent.com/6kWSQppb7wMCgOxulizaQjk82zlA-hEt45XV8qmML5MbzSLAbFM9XMj2cACOnmKtmxc",
+          "new_value": "https://play-lh.googleusercontent.com/mE8dLUnVjTHmfsyT6Z79IzJS0wgrcRfr0rvcgQeMYrf7-nBcIU3vylsiwX9thOWSqHlv",
+          "version": "",
+          "is_ab_test": true,
+          "date": "2026-04-06"
+        },
+        {
           "target": "icon",
           "old_value": {
             "id": "fxFTc2KtO5IxpFg0WgmVcQGdukmn2JO9Gv6KnNdnLu5dZKi4xCjr_BvuMDSlJ1ppQA",
@@ -1640,14 +1488,6 @@
         },
         {
           "target": "size",
-          "old_value": 46668901,
-          "new_value": 46872700,
-          "version": "5.51.0",
-          "is_ab_test": null,
-          "date": "2026-01-05"
-        },
-        {
-          "target": "size",
           "old_value": 46872700,
           "new_value": 46738825,
           "version": "5.51.1",
@@ -1792,8 +1632,8 @@
         "device": "android",
         "country": "us",
         "language": "us",
-        "start_date": "2026-01-05",
-        "end_date": "2026-04-05",
+        "start_date": "2026-01-07",
+        "end_date": "2026-04-07",
         "apps": [
           "com.hily.app"
         ]

@@ -20,7 +20,7 @@
         "videos": [],
         "size": {
           "current": {
-            "data": 52453059
+            "data": 54962479
           }
         },
         "rating": {
@@ -43,7 +43,7 @@
         "versions": [
           {
             "version": "1.1.50",
-            "release_notes": "",
+            "release_notes": "bug fix",
             "release_date": "2026-03-23T00:00:00.000Z"
           },
           {
@@ -93,7 +93,7 @@
           }
         ],
         "similar_apps": [
-          "com.dating.yeet",
+          "com.netsells.jigtalk",
           "com.free.hookup.dating.apps.wild",
           "com.match.android.matchmobile",
           "com.pof.android",
@@ -101,13 +101,13 @@
           "com.genevachat.prod",
           "eu.appiphany.blindmate",
           "co.feeld",
-          "com.splashd.app",
           "social.hunch.app",
           "com.sdm.dating",
           "com.FlatmateFinders",
           "com.affinityapps.chispa",
-          "com.brownsugar.apps.svod",
-          "com.date.assistant.app"
+          "com.date.assistant.app",
+          "com.league.theleague",
+          "ai.usapp.usapp"
         ],
         "release_date": "2025-07-22T06:03:06.000Z",
         "dna": {
@@ -145,6 +145,7 @@
           "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
           "com.google.android.gms.permission.AD_ID",
           "com.huawei.appmarket.service.commondata.permission.GET_COMMON_DATA",
+          "com.oplus.ocs.permission.third",
           "com.qiga.vio.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
           "com.samsung.android.mapsagent.permission.READ_APP_INFO"
         ]

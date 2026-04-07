@@ -355,7 +355,8 @@ def _summarize_target_app(app_id: str) -> Dict[str, Any]:
     }
     
     # Load metadata
-    metadata_file = Path(config.DATA_RAW_DIR) / "our_app" / f"android_metadata.json"
+    # /workspaces/ASO_AI_Workflow/aso_workflow/data/raw/android_com.tinder_metadata.json
+    metadata_file = Path(config.DATA_RAW_DIR) / f"android_{app_id}_metadata.json"
     if metadata_file.exists():
         with open(metadata_file, "r") as f:
             metadata = json.load(f)

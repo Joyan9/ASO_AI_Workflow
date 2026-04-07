@@ -2,12 +2,12 @@
   "meta": {
     "platform": "android",
     "country": "us",
-    "run_date": "2026-04-07T17:15:14.174820",
+    "run_date": "2026-04-07T19:25:55.531696",
     "history_window_days": 90
   },
   "target_app": {
-    "title": null,
-    "short_description": null,
+    "title": "Tinder Dating App: Chat & Date",
+    "short_description": "The dating app for adults to meet new people & match with local singles online",
     "shipped_changes": [],
     "summary": {
       "ab_tests_total": 11,

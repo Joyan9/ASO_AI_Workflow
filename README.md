@@ -146,14 +146,7 @@ python run_track_a.py
 # [Comprehensive report with prioritized gap opportunities, competitive insights, etc.]
 ```
 
-#### Why This Separation?
-
-- **Modularity** — Data pipeline and analysis interpretation are decoupled. Update analysis logic without re-running costly API calls.
-- **Flexibility** — Same output JSON can be analyzed by different AI models or with different prompts.
-- **Reusability** — Analysis guides can be refined iteratively and shared across teams.
-- **Cost Efficiency** — AI analysis is cheaper than API calls; optimize the expensive part (data fetching) once.
-
-**Output:** A narrative strategic report (markdown, PDF, or dashboard) ready for decision-makers.
+**Output:** A narrative strategic report (HTML) ready for decision-makers.
 
 ---
 
@@ -169,7 +162,7 @@ Central hub for all pipeline parameters:
 - All AppTweak API endpoint URLs
 - File paths for raw/processed data
 
-### Fetchers
+### Fetcher Module
 
 #### `metadata.py` — Metadata & Competitor Selection
 **Key Functions:**
@@ -189,7 +182,7 @@ Central hub for all pipeline parameters:
   - Saves intermediate results in batch files for resumability and cost auditing.
 - `load_existing_ranking_batches()` — Loads previously saved ranking data so you can avoid re-fetching.
 
-### Transformers
+### Transformer Module
 
 #### `track_a.py` — Term Extraction & Gap Computation
 **Key Functions:**
@@ -234,20 +227,19 @@ Orchestrates A/B test analysis for Android: transforms history, resolves tests, 
 
 All endpoints use the AppTweak public API (v1). Authentication via `X-Apptweak-Key` header.
 
-| Endpoint | Purpose | Implementation | Credits Cost |
-|----------|---------|-----------------|--------------|
-| `api/public/store/apps/metadata.json` | Fetch current app metadata | `fetch_current_metadata()` | 1 per call |
-| `api/public/store/charts/top-results/current.json` | Fetch category top charts (Android) | `extract_competitors()` | 1 per call |
-| `api/public/store/apps/metadata/changes.json` | Fetch 90-day metadata change history | `fetch_competitor_history()` | 1 per call |
-| `api/public/store/apps/keywords-rankings/current.json` | Fetch keyword rankings (platform, app, keywords, metrics) | `fetch_keyword_rankings()` | 10 per app/keyword/metric combo |
+| Endpoint | Purpose | Implementation |
+|----------|---------|-----------------|
+| `api/public/store/apps/metadata.json` | Fetch current app metadata | `fetch_current_metadata()` |
+| `api/public/store/charts/top-results/current.json` | Fetch category top charts (Android) | `extract_competitors()` |
+| `api/public/store/apps/metadata/changes.json` | Fetch 90-day metadata change history | `fetch_competitor_history()` |
+| `api/public/store/apps/keywords-rankings/current.json` | Fetch keyword rankings (platform, app, keywords, metrics) | `fetch_keyword_rankings()` |
 
 
-### Optional: Groq API (LLM Filtering)
+### Groq API For Keyword Filtering
 
 For Track A's seed generation, the pipeline can optionally filter extracted keywords through a Groq-based LLM to remove irrelevant terms (e.g., developer names, brand terms). This step:
 - Requires `GROQ_API_KEY` in `.env`
 - Calls `groq.Completion.create()` with a curated prompt
-- Is optional (skip if you want all raw terms)
 
 ---
 
@@ -323,7 +315,7 @@ The pipeline has the following known limitations:
 
 ---
 
-## Getting Started
+## 8. Getting Started
 
 ### 1. Install Dependencies
 
@@ -338,10 +330,10 @@ Create a `.env` file in the `aso_workflow/` directory:
 
 ```
 APPTWEAK_API_KEY=your_apptweak_api_key_here
-GROQ_API_KEY=your_groq_key_here  # Optional, only needed if using LLM filtering
+GROQ_API_KEY=your_groq_key_here 
 ```
 
-Do not commit `.env` to version control.
+Do not commit `.env` to version control!
 
 ### 3. Update Configuration (If Needed)
 
@@ -374,7 +366,7 @@ Output files are saved to `data/processed/`:
 
 ---
 
-## Using the Analysis Guides
+## 9. Using the Analysis Guides
 
 The analysis guides serve as detailed prompts for your AI agent:
 
@@ -384,7 +376,7 @@ The analysis guides serve as detailed prompts for your AI agent:
 
 ---
 
-## 8. Project Structure
+## 10. Project Structure
 
 ```
 ASO_AI_Workflow/
@@ -421,25 +413,7 @@ ASO_AI_Workflow/
 
 ---
 
-## 9. Troubleshooting
-
-### Common Issues
-
-**Issue:** `APPTWEAK_API_KEY not found in .env file`
-- **Solution:** Create `.env` in the `aso_workflow/` directory with `APPTWEAK_API_KEY=your_key`
-
-**Issue:** `No data found for keyword rankings`
-- **Solution:** Ensure Track A seed generation succeeded. Check logs for blocked keywords or API errors.
-
-**Issue:** Screenshots not comparing correctly in Track B
-- **Solution:** Ensure PIL and imagehash libraries are installed: `pip install Pillow imagehash`. The pipeline falls back to URL comparison if image libraries are unavailable.
-
-**Issue:** Groq filtering removes too many keywords
-- **Solution:** The LLM filter is optional. Run Track A without it by editing `config.py` (set `GROQ_API_KEY` to empty).
-
----
-
-## 10. Contributing & Future Extensions
+## 11. Contributing & Future Extensions
 
 ### Adding New Analysis Tracks
 
@@ -464,18 +438,6 @@ To add new metrics or analysis:
 - Update the corresponding `analysis_guide.md` reference document
 
 ---
-
-## 11. Credits & Resources
-
-- **AppTweak API Documentation:** https://developers.apptweak.com/
-- **ASO Best Practices:** Consult industry guides on App Store Optimization
-- **AI Agent Prompting:** Reference documents designed for use with Claude or similar LLMs
-
----
-
-## License
-
-This project is provided as-is for ASO and competitive intelligence analysis. Ensure you have appropriate API access and comply with all data usage agreements.
 
 
 

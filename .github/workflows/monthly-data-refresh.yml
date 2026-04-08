@@ -1,0 +1,82 @@
+name: Monthly Data Refresh
+
+on:
+  schedule:
+    - cron: '0 7 1 * *'  # 8 AM CET (7 AM UTC) on the 1st of each month
+  workflow_dispatch:  # Allow manual triggering
+
+jobs:
+  monthly-refresh:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Set up Python 3.12.1
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.12.1'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Clean data directory (keep structure)
+        run: |
+          echo "Deleting all files in aso_workflow/data while preserving directory structure..."
+          find aso_workflow/data -type f -delete
+          echo "Data cleanup completed"
+
+      - name: Run fetcher (with retry on failure)
+        env:
+          APPTWEAK_API_KEY: ${{ secrets.APPTWEAK_API_KEY }}
+          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+        run: |
+          max_attempts=3
+          attempt=1
+          while [ $attempt -le $max_attempts ]; do
+            echo "Attempt $attempt/$max_attempts: Running run_fetcher.py..."
+            if python aso_workflow/run_fetcher.py; then
+              echo "run_fetcher.py completed successfully"
+              exit 0
+            fi
+            if [ $attempt -lt $max_attempts ]; then
+              echo "Attempt $attempt failed. Waiting 300 seconds before retry..."
+              sleep 300
+            fi
+            ((attempt++))
+          done
+          echo "run_fetcher.py failed after $max_attempts attempts"
+          exit 1
+
+      - name: Run track_a (continue on failure)
+        continue-on-error: true
+        env:
+          APPTWEAK_API_KEY: ${{ secrets.APPTWEAK_API_KEY }}
+          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+        run: |
+          echo "Running run_track_a.py..."
+          python aso_workflow/run_track_a.py
+          echo "run_track_a.py completed"
+
+      - name: Run track_b (continue on failure)
+        continue-on-error: true
+        env:
+          APPTWEAK_API_KEY: ${{ secrets.APPTWEAK_API_KEY }}
+          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+        run: |
+          echo "Running run_track_b.py..."
+          python aso_workflow/run_track_b.py
+          echo "run_track_b.py completed"
+
+      - name: Upload run artifacts
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: workflow-artifacts
+          path: |
+            aso_workflow/data/processed/
+            logs/
+            *.log
+          retention-days: 30
+          if-no-files-found: ignore

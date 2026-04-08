@@ -66,7 +66,7 @@ def run_track_a(app_id: str, platform: str):
     gaps, your_app_summary = compute_gaps_from_rankings(app_id, platform, ranking_data)
     
     if not gaps:
-        print("[GAPS] ⚠️  No gaps found. Check that competitors are ranked for keywords.")
+        print("[GAPS] No gaps found. Check that competitors are ranked for keywords.")
         print()
     
     # Step 4: Build competitor summary

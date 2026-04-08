@@ -29,9 +29,9 @@ def main():
     print(">>> [STEP 1-2] Fetching main app metadata & extracting competitors...")
     print()
     
-    '''
+    
     # iOS Tinder
-    print(">>> Fetching iOS Tinder metadata...")
+    print(f">>> Fetching iOS {config.iOS_APP_ID} metadata...")
     
     ios_metadata = fetch_current_metadata(
         app_id=config.iOS_APP_ID,
@@ -53,10 +53,10 @@ def main():
     
     print(f"    Extracted {len(ios_competitors['competitors'])} competitors")
     print()
-    '''
+    
     
     # Android Tinder
-    print(">>> Fetching Android Tinder metadata...")
+    print(f">>> Fetching Android {config.ANDROID_APP_ID} metadata...")
     android_metadata = fetch_current_metadata(
         app_id=config.ANDROID_APP_ID,
         platform="android",
@@ -97,9 +97,10 @@ def main():
     print()
     
     # STEP 4: Competitor metadata and history
-    #fetch_competitor_metadata("ios")
-    #fetch_competitor_metadata("android")
-    #fetch_competitor_history("android")
+    print(">>> [STEP 4] Fetching competitor metadata and history...")
+    fetch_competitor_metadata("ios")
+    fetch_competitor_metadata("android")
+    fetch_competitor_history("android")
     
     # STEP 5: Target app history
     print(">>> [STEP 5] Fetching target app history...")

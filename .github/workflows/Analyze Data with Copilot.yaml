@@ -20,6 +20,9 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v4
 
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+
       - name: Set up Python
         uses: actions/setup-python@v4
         with:
@@ -27,7 +30,7 @@ jobs:
 
       - name: Install Copilot CLI
         run: |
-          npm install -g @github/copilot-cli
+          npm install -g @github/copilot
 
       - name: Generate Track A analysis prompt
         run: |
@@ -131,18 +134,18 @@ jobs:
 
       - name: Analyze with Copilot - Track A
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          COPILOT_GITHUB_TOKEN: ${{ secrets.COPILOT_TOKEN }}
         run: |
-          copilot prompt --message-file track_a_analysis_prompt.txt \
-            --model claude-sonnet-4.6 \
+          copilot -p "$(cat track_a_analysis_prompt.txt)" \
+            --no-ask-user \
             > aso_workflow/reports/track_a_analysis_report.html
 
       - name: Analyze with Copilot - Track B
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          COPILOT_GITHUB_TOKEN: ${{ secrets.COPILOT_TOKEN }}
         run: |
-          copilot prompt --message-file track_b_analysis_prompt.txt \
-            --model claude-sonnet-4.6 \
+          copilot -p "$(cat track_b_analysis_prompt.txt)" \
+            --no-ask-user \
             > aso_workflow/reports/track_b_analysis_report.html
 
       - name: Commit and push analysis reports

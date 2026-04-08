@@ -42,7 +42,7 @@ TOP_COMPETITORS = 10
 PRIMARY_TIER_COUNT = 3
 
 # Keyword ranking settings
-KEYWORD_RANKINGS_DRY_RUN = True  # Safety flag: set to False only after reviewing cost estimate
+KEYWORD_RANKINGS_DRY_RUN = False  # Safety flag: set to False only after reviewing cost estimate
 MAX_SEED_KEYWORDS = 50  # Cap on number of seed keywords to fetch rankings for
 KEYWORD_RANKINGS_ENDPOINT = "api/public/store/apps/keywords-rankings/current.json"
 KEYWORD_RANKINGS_METRICS = "rank,installs,relevancy,kei,chance"

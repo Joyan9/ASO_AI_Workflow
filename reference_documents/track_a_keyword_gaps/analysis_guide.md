@@ -79,13 +79,34 @@ Table: Competitor | Tier | Unique Gap Terms.
 
 - **Output:** Single HTML file, CSS/JS embedded. Include both iOS and Android in separate tabs.
 - **Charts:** Chart.js via CDN.
-- **Font:** Use `Roboto` (via Google Fonts CDN) for all body and UI text. Use `JetBrains Mono` for metric values only.
-- **Style:** Clean, minimalist, dark header. Uniform accent colour for all recommendation cards.
+- **Style:** Distinctive, intentional design (see Production-Grade Design Standards below). Uniform accent colour applied **boldly** for all recommendation cards.
 - **Constraint:** Do not describe competitor behavior without a "Therefore, the target app should…" conclusion. Use "—" for null data.
 
 ---
 
 # Keyword Gap Analysis Report — HTML Specification
+
+### Design Philosophy (Claude Frontend Design Principles)
+
+Before generating the HTML, commit to a **distinctive aesthetic direction**:
+- **Purpose:** Keyword gap intelligence dashboard for ASO specialists
+- **Tone:** Strategic + Data-driven. Choose one extreme: editorial sophistication, tech minimalism, brutalist clarity, refined elegance, or bold maximalism
+- **Differentiation:** Create an interface competitors won't forget. This is NOT a generic report
+- **Critical**: Bold intentionality is key. Execute one clear vision with precision, not scattered generic choices
+
+**AVOID Generic AI Aesthetics:**
+- ❌ Overused font combinations (Roboto + JetBrains Mono are now clichéd defaults)
+- ❌ Purple gradient accent colors (too predictable)
+- ❌ Generic dark/light theme defaults
+- ❌ Multiple tier-based colors (--tier1-border, --tier2-border, --tier3-border are cookie-cutter)
+- ❌ Timid, evenly-distributed color palettes
+
+**Embrace Creativity:**
+- ✅ Distinctive typography: Consider alternatives like Playfair Display, Courier Prime, IBM Plex, Input Mono, Inconsolata
+- ✅ Cohesive aesthetic: Commit to one visual language (noir, editorial, retro, tech-minimal, organic, etc.)
+- ✅ Intentional motion: Staggered reveals, scroll-triggered animations, hover surprises
+- ✅ Unexpected layouts: Asymmetry, diagonal flow, generous negative space, grid-breaking elements
+- ✅ Sharp accent color: One dominant hue with bold supporting accents (not timid pastels)
 
 ## 1. Tech Stack & State Management
 * **Framework:** Single self-contained HTML5/CSS3/JS file.
@@ -93,31 +114,46 @@ Table: Competitor | Tier | Unique Gap Terms.
 * **State:** A global `currentPlatform` variable (defaulting to `ios`) triggers a `renderDashboard()` function to update all UI components simultaneously.
 
 ## 2. Design System & Navigation
+
+**Font Strategy:** Select two distinctive fonts that pair well:
+- Display font: For hero, section headers, pill badges (characterful, memorable — NOT Roboto)
+- Body font: For narrative, tables, detail (refined, readable, intentional)
+- Mono font: For metric values only (select for beauty, not just technical fit)
+
 ```css
 :root {
-  --bg-page:        #0f1117;
-  --bg-card:        #1a1d27;
-  --bg-card-alt:    #1f2235;
-  --border:         #2a2d3e;
-  --accent:         #6c63ff;
-  --accent-soft:    rgba(108, 99, 255, 0.15);
-  --accent-2:       #00d4a8;
-  --accent-2-soft:  rgba(0, 212, 168, 0.12);
-  --warn:           #f59e0b;
-  --text-primary:   #f0f0f5;
-  --text-secondary: #8b8fa8;
-  --text-mono:      #a8b2d8;
-  --tier1-border:   #6c63ff;
-  --tier2-border:   #00d4a8;
-  --tier3-border:   #f59e0b;
-  --font-sans:      'Roboto', sans-serif;
-  --font-mono:      'JetBrains Mono', monospace;
+  /* Choose ONE dominant accent hue + ONE supporting accent */
+  /* NOT: generic purple + teal. Instead: bold teal + sharp orange, or deep indigo + bright lime */
+  
+  --bg-page:        [DARK_NEUTRAL];         /* Intentional BG: charcoal, off-black, deep grey */
+  --bg-card:        [CARD_TONE];            /* Subtle depth variation from page BG */
+  --border:         [BORDER_TONE];          /* Subtle but intentional */
+  
+  --accent-primary: [BOLD_PRIMARY];         /* Dominant hue: used consistently */
+  --accent-primary-soft: rgba(...0.15);     /* Soft variant for backgrounds */
+  --accent-secondary: [SHARP_SECONDARY];    /* Supporting hue: used sparingly */
+  --accent-secondary-soft: rgba(...0.12);   /* Soft secondary */
+  
+  --warn:           [SIGNAL_COLOR];         /* Status/alert indicator */
+  --text-primary:   [FOREGROUND_MAIN];      /* Readable, intentional contrast */
+  --text-secondary: [FOREGROUND_MUTED];     /* Labeled, secondary info */
+  
+  --font-display:   '[DISPLAY_FONT]';       /* Distinctive display font */
+  --font-body:      '[BODY_FONT]';          /* Refined body font */
+  --font-mono:      '[MONO_FONT]';          /* Characterful monospace */
 }
 ```
-* **Google Fonts import:** `@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=JetBrains+Mono&display=swap');`
+
+**Color Strategy:**
+- Dominant accent should appear consistently for primary interactive elements (recommendation cards, key metrics)
+- Secondary accent used sparingly (tier badges, call-outs, signal indicators)
+- Tier-based colors (if needed) should use variations of the primary accent family, NOT multiple uncoordinated hues
+- Backgrounds should create intentional atmosphere (not just dark/light toggle)
+- Text contrast must be sharp and readable (test WCAG AA minimum)
+
 * **Sidebar Toggle:** A high-visibility "Platform Switcher" at the top of the fixed sidebar.
-    * *Design:* A segmented control (pill shape) with "iOS" and "Android" labels.
-    * *Interaction:* Active platform uses a subtle glow: `box-shadow: 0 0 10px var(--accent-soft)`.
+    * *Design:* A segmented control (pill shape) with "iOS" and "Android" labels — with **intentional visual weight** applied to the active platform
+    * *Interaction:* Active platform uses the dominant accent color: bold, not timid
 
 ## 3. Component Updates for Dual-Platform
 
@@ -189,3 +225,73 @@ Render a static, always-visible glossary card as the last element inside `<main>
 | **Secondary Count** | Number of Secondary competitors (next 7) ranking for this term. |
 
 Style: same `--bg-card` background, `--border` border, with a section heading "Metric Glossary" in `--text-secondary`. Table text uses `--font-sans` at 0.875rem.
+
+---
+
+## Production-Grade Design Standards
+
+**This is NOT a generic report.** Implement with meticulous attention to every detail:
+
+### Visual Hierarchy
+- ✅ Clear size and weight differentiation (not evenly distributed)
+- ✅ Intentional spacing that guides the eye (generous or tight — but purposeful)
+- ✅ Visual weight concentration on critical information (high-KEI gaps, critical threats)
+- ❌ Scattered emphasis or competing visual elements
+
+### Color & Contrast
+- ✅ Dominant accent used **boldly and consistently** across recommendation cards and key metrics
+- ✅ Secondary accent used sparingly (tier badges, signal indicators, subtle emphasis)
+- ✅ Text contrast sharp and readable (WCAG AA minimum, ideally AAA)
+- ✅ Intentional background depth (not flat, not generic)
+- ❌ Timid, evenly-distributed color palette (no pastels or washed-out tones)
+- ❌ Multiple uncoordinated accent hues (--tier1-border, --tier2-border patterns are cookie-cutter)
+
+### Typography
+- ✅ Distinctive display font that is memorable (NOT Roboto)
+- ✅ Refined body font chosen for beauty AND readability
+- ✅ Mono font with personality for metric values
+- ✅ Consistent font pairing across the entire report
+- ❌ Generic serif/sans/mono combinations
+- ❌ Default system fonts or overused families like Inter, Arial, or Roboto
+
+### Motion & Interaction
+- ✅ High-impact page load (staggered reveals, intentional fade-ins)
+- ✅ Platform switcher interaction feels responsive and has visual feedback
+- ✅ Hover states on cards, links, and interactive elements feel deliberate
+- ✅ Focus states clearly visible for accessibility
+- ✅ Subtle, purposeful animations (not scattered micro-interactions)
+- ❌ No animation or over-animated distraction
+- ❌ Janky or unintentional motion
+
+### Layout & Composition
+- ✅ Intentional asymmetry or grid breaks (if part of the aesthetic vision)
+- ✅ Generous negative space OR controlled density (but deliberate)
+- ✅ Clear reading flow and scanability
+- ✅ Cards/sections feel cohesive and unified
+- ✅ Platform-specific color shifts feel intentional, not arbitrary
+- ❌ Cookie-cutter layouts
+- ❌ Predictable, uninspired composition
+
+### Data Visualization (Charts)
+- ✅ Bar chart colors match the dominant accent (bold, not timid)
+- ✅ Axis labels readable and intentional
+- ✅ No unnecessary gridlines or chart junk
+- ✅ High contrast between bars and background
+- ❌ Generic Chart.js defaults
+- ❌ Low-contrast or hard-to-read labels
+
+### Code Quality
+- ✅ Self-contained HTML file (all CSS and JS embedded)
+- ✅ No external resources except Google Fonts and Chart.js CDN
+- ✅ Responsive design: works on mobile, tablet, desktop
+- ✅ Accessible: keyboard navigation, screen reader friendly, sufficient contrast
+- ✅ Performance: minimal reflows, efficient DOM
+- ❌ Messy or unoptimized code
+- ❌ Inline styles or scattered CSS
+
+### Overall Aesthetic Direction
+Choose ONE clear direction and execute it with precision:
+- Examples: **Editorial Authority**, **Tech Minimalism**, **Noir Intelligence**, **Refined Elegance**, **Data Brutalism**, **Retro Data**
+- NEVER be generic or in-between
+- ALWAYS commit fully to the vision
+- Results should feel **intentional, distinctive, and memorable**

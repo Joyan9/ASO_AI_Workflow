@@ -119,40 +119,96 @@ Create a Markdown table:
 
 Single self-contained HTML file. All data embedded as JS variables. Chart.js via CDN.
 
+### Design Philosophy (Claude Frontend Design Principles)
+
+Before generating the HTML, commit to a **distinctive aesthetic direction**:
+- **Purpose**: A/B test intelligence dashboard for ASO specialists
+- **Tone**: Professional + Forward-thinking. Choose one extreme: refined minimalism, bold maximalism, editorial depth, brutalist clarity, or tech-forward sleekness
+- **Differentiation**: Create an interface competitors won't forget. This is NOT a generic report; it's a strategic intelligence tool
+- **Critical**: Bold intentionality is key. Execute one clear vision with precision, not scattered generic choices
+
+**AVOID Generic AI Aesthetics:**
+- ❌ Overused font combinations (Space Grotesk + JetBrains Mono are clichéd Claude defaults)
+- ❌ Purple gradient accent colors (too predictable)
+- ❌ Generic dark/light theme defaults
+- ❌ Timid, evenly-distributed color palettes
+- ❌ Standard layouts and predictable component patterns
+
+**Embrace Creativity:**
+- ✅ Distinctive typography: Consider Monaspace, Courier Prime, IBM Plex, Input Mono, Inconsolata, or other characterful fonts
+- ✅ Cohesive aesthetic: Commit to one visual language (noir, editorial, retro, tech-minimal, organic, etc.)
+- ✅ Intentional motion: Staggered reveals, scroll-triggered animations, hover surprises
+- ✅ Unexpected layouts: Asymmetry, diagonal flow, generous negative space, grid-breaking elements
+- ✅ Sharp accent colors: One dominant hue with bold supporting accents (not timid pastels)
+
 ## Tech Stack
 ```html
-<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;700&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=[DISTINCTIVE_DISPLAY_FONT]&family=[REFINED_BODY_FONT]&display=swap" rel="stylesheet">
 <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
 ```
+
+**Font Strategy:** Select two distinctive fonts that pair well:
+- Display font: For hero, section headers, pill badges (characterful, memorable)
+- Body font: For narrative, tables, detail (refined, readable, intentional)
+- Mono font: For code/variant quotes only (select for beauty, not just technical fit)
+
+Example pairings:
+- **Editorial**: Playfair Display + Lora
+- **Tech-Forward**: IBM Plex Sans + IBM Plex Mono
+- **Noir**: Courier Prime + Open Sans
+- **Retro**: Courier + Bodoni MT
+- **Organic**: Faune + Mulish
 
 ## Design Tokens
 ```css
 :root {
-  --bg-page:        #0f1117;
-  --bg-card:        #1a1d27;
-  --bg-card-alt:    #1f2235;
-  --border:         #2a2d3e;
-  --accent:         #6c63ff;
-  --accent-soft:    rgba(108, 99, 255, 0.15);
-  --accent-2:       #00d4a8;
-  --accent-2-soft:  rgba(0, 212, 168, 0.12);
-  --warn:           #f59e0b;
-  --text-primary:   #f0f0f5;
-  --text-secondary: #8b8fa8;
-  --font-sans:      'Space Grotesk', sans-serif;
-  --font-mono:      'JetBrains Mono', monospace;
+  /* Choose ONE dominant accent hue + ONE supporting accent */
+  /* NOT: timid purple + teal. Instead: bold teal + sharp orange, or deep indigo + bright lime */
+  
+  --bg-page:        [DARK_NEUTRAL];         /* Intentional BG: charcoal, off-black, deep grey */
+  --bg-card:        [CARD_TONE];            /* Subtle depth variation from page BG */
+  --border:         [BORDER_TONE];          /* Subtle but intentional */
+  
+  --accent-primary: [BOLD_PRIMARY];         /* Dominant hue: dominant across the interface */
+  --accent-primary-soft: rgba(...0.15);     /* Soft variant for backgrounds */
+  --accent-secondary: [SHARP_SECONDARY];    /* Supporting hue: used sparingly for contrast */
+  --accent-secondary-soft: rgba(...0.12);   /* Soft secondary */
+  
+  --warn:           [SIGNAL_COLOR];         /* Status/alert indicator (if needed) */
+  --text-primary:   [FOREGROUND_MAIN];      /* Readable, intentional contrast */
+  --text-secondary: [FOREGROUND_MUTED];     /* Labeled, secondary info */
+  
+  --font-display:   '[DISPLAY_FONT]';       /* Distinctive display font */
+  --font-body:      '[BODY_FONT]';          /* Refined body font */
+  --font-mono:      '[MONO_FONT]';          /* Characterful monospace */
 }
 ```
 
+**Color Strategy:**
+- Dominant accent should appear consistently for primary interactive elements
+- Secondary accent used sparingly (pill badges, call-outs, signal indicators)
+- Backgrounds should create intentional atmosphere (not just dark/light toggle)
+- Text contrast must be sharp and readable (test WCAG AA minimum)
+
 ## Typography Scale
-| Use               | Font           | Size | Weight |
-|-------------------|----------------|------|--------|
-| App name          | Space Grotesk  | 32px | 700    |
-| Section headers   | Space Grotesk  | 22px | 700    |
-| Card headlines    | Space Grotesk  | 18px | 700    |
-| Body / narrative  | Space Grotesk  | 15px | 400    |
-| Old/new values    | JetBrains Mono | 13px | 400    |
-| Pills / badges    | Space Grotesk  | 11px | 500    |
+
+**Principle**: Pair a distinctive display font with a refined body font. Avoid generic defaults.
+
+| Use               | Font Family         | Size | Weight | Notes |
+|-------------------|---------------------|------|--------|-------|
+| App name (hero)   | Display Font        | 36px | 700    | Characterful, memorable |
+| Section headers   | Display Font        | 24px | 700    | Bold and intentional |
+| Card headlines    | Display Font        | 18px | 700    | Hierarchical emphasis |
+| Body / narrative  | Body Font           | 15px | 400    | Primary reading font |
+| Old/new values    | Mono Font           | 13px | 400    | Technical detail, code-like |
+| Pills / badges    | Body Font (bold)    | 11px | 600    | Compact, scannable |
+| Labels            | Body Font           | 12px | 600    | Secondary hierarchy |
+
+**Font Selection Strategy:**
+- Display font should be **distinctive and characterful** — avoid Inter, Roboto, Arial, Space Grotesk
+- Body font should pair harmoniously and be **highly readable**
+- Mono font should have **personality** — avoid default monospace; consider Courier Prime, IBM Plex Mono, Inconsolata
+- Test font pairing at intended sizes before finalizing
 
 ## Page Structure
 ```html
@@ -165,50 +221,65 @@ Links: Summary · Activity · Test Details · Signals.
 Top of sidebar: app name (mono), "Track B · Android" pill.
 
 ## Section 1: Hero
-App name + "A/B Intelligence" label.
+App name + "A/B Intelligence" label with **distinctive typography and intentional spacing**.
 Metadata pills: Run date | Country | History window | Competitors analysed | Total A/B tests.
 Collapsed "Analysis Scope": resolution caveat (statuses are approximate, focus is on test type inference), screenshot limitation, history window.
 
-## Section 2: Executive Summary + Recommendations
-**2a. Executive Summary:** Card with left border `--accent`. Render as a bulleted list (3–5 items) covering dominant testing behaviour and the single most actionable signal. No paragraph blocks.
+**Design Intent:** First impression should be bold and memorable. Use generous spacing, distinctive typography, and a compelling visual hierarchy. Consider subtle motion on page load (staggered reveals, fade-ins).
 
-**2b. Recommendation Cards:** 3–5 cards, 2-column grid. Each must cite specific competitor, field, and date range.
+## Section 2: Executive Summary + Recommendations
+**2a. Executive Summary:** Card with accent border or background. Render as a bulleted list (3–5 items) with **distinctive visual treatment**. No paragraph blocks. Consider:
+- Accent color applied boldly (not timidly)
+- Generous internal spacing
+- Elevated visual emphasis (shadow, border, or background depth)
+
+**2b. Recommendation Cards:** 3–5 cards in a 2-column grid. **Each card must have distinctive visual treatment** — avoid cookie-cutter styling:
 ```text
 ┌─────────────────────────────────┐
-│ 01              [category pill] │
+│ 01              [category pill] │  ← Numbered for scanability
 │                                 │
-│ Headline (700 18px)             │
+│ Headline (700 18px)             │  ← Distinctive font choice
 │                                 │
-│ Evidence text (secondary)       │
+│ Evidence text (secondary)       │  ← Refined typography
 │                                 │
-│ ▶ Implication (accent)          │
+│ ▶ Implication (accent)          │  ← Subtle visual indicator
 └─────────────────────────────────┘
 ```
-Use a single consistent pill colour (`--accent-soft` background, `--accent` text) for all recommendation category pills. Do not use multiple distinct colours per category — uniformity is preferred over colour-coding.
+**Design Intent:** Each card should feel intentional and cohesive. Consider:
+- Consistent accent color applied boldly across all cards
+- Visual depth (shadow, border, or elevated background)
+- Generous padding and spacing
+- Hover or focus states that feel responsive and deliberate
+- NOT multiple colors per category — uniformity vs. color-coding is preferred
 
 ## Section 3: Competitor Activity Table
 Columns: Competitor | Tier | Fields tested | Total tests | Last activity
-- Tier: pill badge — Primary (`--accent-soft`), Secondary (`--bg-card-alt`).
-- Primary rows with title/short_description tests: left border 3px `--accent`.
+- Tier: pill badge — Primary (accent), Secondary (muted).
+- Primary rows with title/short_description tests: left border 3px accent.
 - Sort: primary first, total tests DESC.
-- Do not include separate Won/Lost/Pending columns — resolution accuracy is insufficient to present these as reliable data points.
+- Do not include separate Won/Lost/Pending columns — resolution accuracy is insufficient.
 - Below the table, render a horizontal bar chart labelled "A/B test volume by competitor".
-  - Height: fixed at 180px. Must fit fully in the viewport without scrolling.
+  - Height: fixed at 180px. Must fit fully in viewport without scrolling.
   - All animations disabled (`animation: { duration: 0 }` in Chart.js options).
-  - Bar colour: `--accent`. Single colour throughout — no per-bar colour variation.
+  - Bar colour: **bold accent color**. Single colour throughout — **no per-bar variation**.
+
+**Design Intent:** Table should feel clean and scannable. Chart should be visually striking without distraction:
+- Use dominant accent color boldly on bar chart (draw attention)
+- No animation distraction; static clarity
+- Generous row spacing for readability
 
 ## Section 4: Test Detail Cards
 One card per competitor with at least 1 test. 2-column grid on desktop, 1-column on mobile.
 ```text
 ┌──────────────────────────────────────────────┐
-│ Competitor name          [Primary] [N tests] │
+│ Competitor name          [Primary] [N tests] │  ← Distinctive layout
 │                                              │
 │ Timeline:                                    │
-│  Feb 07 · screenshots                        │
+│  Feb 07 · screenshots                        │  ← Visual timeline (not bulleted)
 │           Screenshot set replaced (5 → 5)    │
 │                                              │
 │  Mar 14 · title                              │
-│           "Old title" → "New title"          │
+│           "Old title" → "New title"          │  ← Mono font for code-like quotes
 └──────────────────────────────────────────────┘
 ```
 - Timeline entries sorted by date ascending.
@@ -216,13 +287,82 @@ One card per competitor with at least 1 test. 2-column grid on desktop, 1-column
 - Screenshots: count and date only, no URLs.
 - Title/short_description: old → new in mono font, full text.
 
+**Design Intent:** Timeline layout should feel intentional and easy to scan:
+- Use vertical line or subtle left border to connect timeline items
+- Generous vertical spacing between entries
+- Consider asymmetric layout or unexpected visual flow
+
 ## Section 5: Cross-competitor Signals
 *Conditional:* Only if 2+ competitors tested the same field within a 60-day window. Omit entirely if no convergence.
 Table: Field | Competitors | Date range | Signal strength | What it suggests
-Signal strength pill: Strong (2 primary), Moderate (1 primary + secondary), Weak (secondary only). Use `--accent-soft` / `--accent` styling for all pill variants — single colour scheme, vary label text only.
+
+**Design Intent:** Signal strength pills should use intentional styling:
+- All pills use same accent color family (not multiple distinct colors)
+- Label text differentiates signal strength ("Strong", "Moderate", "Weak")
+- Consider visual weight variation (bold, regular, muted) instead of color variation
 
 ## Data Embedding
 Embed the JSON data at the end of the file. Do not hardcode values in the HTML; derive them from JS.
 ```javascript
 const REPORT_DATA = { /* full JSON injected here */ };
 ```
+
+---
+
+## Production-Grade Design Standards
+
+**This is NOT a generic report.** Implement with meticulous attention to every detail:
+
+### Visual Hierarchy
+- ✅ Clear size and weight differentiation (not evenly distributed)
+- ✅ Intentional spacing that guides the eye (generous or tight — but purposeful)
+- ✅ Visual weight concentration on critical information
+- ❌ Scattered emphasis or competing visual elements
+
+### Color & Contrast
+- ✅ Dominant accent used **boldly and consistently** across interactive elements
+- ✅ Secondary accent used sparingly (call-outs, signals, subtle emphasis)
+- ✅ Text contrast sharp and readable (WCAG AA minimum, ideally AAA)
+- ✅ Intentional background depth (not flat)
+- ❌ Timid, evenly-distributed color palette
+- ❌ Multiple uncoordinated accent hues
+
+### Typography
+- ✅ Distinctive display font that is memorable (not generic)
+- ✅ Refined body font chosen for beauty AND readability
+- ✅ Mono font with personality for code/variants
+- ✅ Consistent font pairing across the entire report
+- ❌ Multiple serif/sans/mono combinations
+- ❌ Default system fonts or overused families
+
+### Motion & Interaction
+- ✅ High-impact page load (staggered reveals, intentional fade-ins)
+- ✅ Hover states that feel responsive and deliberate
+- ✅ Focus states clearly visible for accessibility
+- ✅ Subtle, purposeful animations (not scattered micro-interactions)
+- ❌ No animation or over-animated distraction
+- ❌ Janky or unintentional motion
+
+### Layout & Composition
+- ✅ Intentional asymmetry or unexpected grid breaks (if part of the aesthetic vision)
+- ✅ Generous negative space OR controlled density (but deliberate)
+- ✅ Clear reading flow and scanability
+- ✅ Cards/sections feel cohesive and unified
+- ❌ Cookie-cutter layouts
+- ❌ Predictable, uninspired composition
+
+### Code Quality
+- ✅ Self-contained HTML file (all CSS and JS embedded)
+- ✅ No external resources except Google Fonts and Chart.js CDN
+- ✅ Responsive design: works on mobile, tablet, desktop
+- ✅ Accessible: keyboard navigation, screen reader friendly, sufficient contrast
+- ✅ Performance: minimal reflows, efficient DOM
+- ❌ Messy or unoptimized code
+- ❌ Inline styles or scattered CSS
+
+### Overall Aesthetic Direction
+Choose ONE clear direction and execute it with precision:
+- Examples: **Noir Intelligence**, **Editorial Authority**, **Tech Minimalism**, **Data Brutalism**, **Editorial Depth**, **Refined Elegance**
+- NEVER be generic or in-between
+- ALWAYS commit fully to the vision
+- Results should feel **intentional, distinctive, and memorable**

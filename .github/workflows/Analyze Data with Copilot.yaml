@@ -28,99 +28,99 @@ jobs:
       - name: Generate Track A analysis prompt
         run: |
           python << 'EOF'
-import json
-from pathlib import Path
-import sys
+          import json
+          from pathlib import Path
+          import sys
 
-# Load processed data
-processed_dir = Path("aso_workflow/data/processed")
-guides_dir = Path("reference_documents/track_a_keyword_gaps")
+          # Load processed data
+          processed_dir = Path("aso_workflow/data/processed")
+          guides_dir = Path("reference_documents/track_a_keyword_gaps")
 
-# Read the analysis guide
-with open(guides_dir / "analysis_guide.md") as f:
-    guide = f.read()
+          # Read the analysis guide
+          with open(guides_dir / "analysis_guide.md") as f:
+              guide = f.read()
 
-# Load keyword gaps data
-gaps_files = {
-    "ios": processed_dir / "keyword_gaps_ios_547702041.json",
-    "android": processed_dir / "keyword_gaps_android_com.tinder.json"
-}
+          # Load keyword gaps data
+          gaps_files = {
+              "ios": processed_dir / "keyword_gaps_ios_547702041.json",
+              "android": processed_dir / "keyword_gaps_android_com.tinder.json"
+          }
 
-data = {}
-for platform, file in gaps_files.items():
-    if file.exists():
-        with open(file) as f:
-            data[platform] = json.load(f)
-    else:
-        print(f"Warning: {file} not found", file=sys.stderr)
+          data = {}
+          for platform, file in gaps_files.items():
+              if file.exists():
+                  with open(file) as f:
+                      data[platform] = json.load(f)
+              else:
+                  print(f"Warning: {file} not found", file=sys.stderr)
 
-# Create prompt embedding the analysis guide + data
-prompt = f"""You are a Senior ASO Specialist. Analyze the following keyword gap data according to this analysis guide:
+          # Create prompt embedding the analysis guide + data
+          prompt = f"""You are a Senior ASO Specialist. Analyze the following keyword gap data according to this analysis guide:
 
-{guide}
+          {guide}
 
-## PROCESSED DATA TO ANALYZE
+          ## PROCESSED DATA TO ANALYZE
 
-iOS Keyword Gaps:
-{json.dumps(data.get('ios', {}), indent=2)}
+          iOS Keyword Gaps:
+          {json.dumps(data.get('ios', {}), indent=2)}
 
-Android Keyword Gaps:
-{json.dumps(data.get('android', {}), indent=2)}
+          Android Keyword Gaps:
+          {json.dumps(data.get('android', {}), indent=2)}
 
-Generate the complete HTML report as specified in the guide. Return ONLY the valid HTML file.
-"""
+          Generate the complete HTML report as specified in the guide. Return ONLY the valid HTML file.
+          """
 
-# Save prompt
-with open("track_a_analysis_prompt.txt", "w") as f:
-    f.write(prompt)
+          # Save prompt
+          with open("track_a_analysis_prompt.txt", "w") as f:
+              f.write(prompt)
 
-print("✓ Track A analysis prompt generated")
-EOF
+          print("✓ Track A analysis prompt generated")
+          EOF
 
       - name: Generate Track B analysis prompt
         run: |
           python << 'EOF'
-import json
-from pathlib import Path
-import sys
+          import json
+          from pathlib import Path
+          import sys
 
-# Load processed data
-processed_dir = Path("aso_workflow/data/processed")
-guides_dir = Path("reference_documents/track_b_ab_test_inference")
+          # Load processed data
+          processed_dir = Path("aso_workflow/data/processed")
+          guides_dir = Path("reference_documents/track_b_ab_test_inference")
 
-# Read the analysis guide
-with open(guides_dir / "analysis_guide.md") as f:
-    guide = f.read()
+          # Read the analysis guide
+          with open(guides_dir / "analysis_guide.md") as f:
+              guide = f.read()
 
-# Load A/B test history data
-ab_history_file = processed_dir / "ab_history_android_com.tinder.json"
+          # Load A/B test history data
+          ab_history_file = processed_dir / "ab_history_android_com.tinder.json"
 
-data = {}
-if ab_history_file.exists():
-    with open(ab_history_file) as f:
-        data = json.load(f)
-else:
-    print(f"Warning: {ab_history_file} not found", file=sys.stderr)
+          data = {}
+          if ab_history_file.exists():
+              with open(ab_history_file) as f:
+                  data = json.load(f)
+          else:
+              print(f"Warning: {ab_history_file} not found", file=sys.stderr)
 
-# Create prompt embedding the analysis guide + data
-prompt = f"""You are a Senior ASO Specialist. Analyze the following A/B test data according to this analysis guide:
+          # Create prompt embedding the analysis guide + data
+          prompt = f"""You are a Senior ASO Specialist. Analyze the following A/B test data according to this analysis guide:
 
-{guide}
+          {guide}
 
-## PROCESSED DATA TO ANALYZE
+          ## PROCESSED DATA TO ANALYZE
 
-A/B Test History:
-{json.dumps(data, indent=2)}
+          A/B Test History:
+          {json.dumps(data, indent=2)}
 
-Generate the complete HTML report as specified in the guide. Return ONLY the valid HTML file.
-"""
+          Generate the complete HTML report as specified in the guide. Return ONLY the valid HTML file.
+          """
 
-# Save prompt
-with open("track_b_analysis_prompt.txt", "w") as f:
-    f.write(prompt)
+          # Save prompt
+          with open("track_b_analysis_prompt.txt", "w") as f:
+              f.write(prompt)
 
-print("✓ Track B analysis prompt generated")
-EOF
+          print("✓ Track B analysis prompt generated")
+          EOF
 
       - name: Create reports directory
         run: mkdir -p aso_workflow/reports

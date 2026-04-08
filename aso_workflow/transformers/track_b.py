@@ -367,7 +367,7 @@ def _summarize_target_app(app_id: str) -> Dict[str, Any]:
         print(f"[WARN] No metadata found for target app at {metadata_file}")
     
     # Load history
-    history_file = Path(config.DATA_RAW_DIR) / "our_app" / f"android_history.json"
+    history_file = Path(config.DATA_RAW_DIR) / "our_app" / f"android_{app_id}_history.json"
     if not history_file.exists():
         print(f"[WARN] No history found for target app at {history_file}")
         return target_app_info

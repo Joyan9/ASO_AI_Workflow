@@ -1,15 +1,15 @@
 {
   "source_app_id": "547702041",
   "platform": "ios",
-  "extracted_at": "2026-04-04T12:35:38.744729",
+  "extracted_at": "2026-04-08T09:36:24.622770",
   "competitors": [
     {
-      "app_id": "930441707",
+      "app_id": "351331194",
       "name": null,
       "tier": "primary"
     },
     {
-      "app_id": "351331194",
+      "app_id": "930441707",
       "name": null,
       "tier": "primary"
     },
@@ -39,7 +39,7 @@
       "tier": "secondary"
     },
     {
-      "app_id": "1297152391",
+      "app_id": "1265035248",
       "name": null,
       "tier": "secondary"
     },

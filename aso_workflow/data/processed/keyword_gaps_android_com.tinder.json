@@ -3,10 +3,10 @@
     "app_id": "com.tinder",
     "platform": "android",
     "country": "us",
-    "run_date": "2026-04-05T16:19:56.809330",
-    "seeds_generated": 35,
-    "seeds_with_ranking_data": 35,
-    "gaps_identified": 4
+    "run_date": "2026-04-08T09:37:43.687547",
+    "seeds_generated": 34,
+    "seeds_with_ranking_data": 34,
+    "gaps_identified": 6
   },
   "your_app": {
     "title": "Tinder Dating App: Chat & Date",
@@ -17,17 +17,48 @@
     {
       "term": "meaningful connections",
       "primary_competitor_count": 2,
-      "secondary_competitor_count": 1,
+      "secondary_competitor_count": 2,
       "your_app_ranked": false,
-      "top_competitor_rank": 19,
-      "avg_rank": 48.666666666666664,
+      "top_competitor_rank": 21,
+      "avg_rank": 48.0,
       "avg_installs": 0.0,
-      "avg_relevancy": 69.0,
+      "avg_relevancy": 68.75,
       "avg_kei": 22.0,
       "source_apps": [
         "co.hinge.app",
         "com.bumble.app",
-        "com.hily.app"
+        "com.hily.app",
+        "com.pof.android"
+      ]
+    },
+    {
+      "term": "lesbian",
+      "primary_competitor_count": 1,
+      "secondary_competitor_count": 2,
+      "your_app_ranked": false,
+      "top_competitor_rank": 63,
+      "avg_rank": 86.0,
+      "avg_installs": 0.0,
+      "avg_relevancy": 81.0,
+      "avg_kei": 29.0,
+      "source_apps": [
+        "com.bumble.app",
+        "com.hily.app",
+        "com.getpure.pure"
+      ]
+    },
+    {
+      "term": "inclusivity",
+      "primary_competitor_count": 1,
+      "secondary_competitor_count": 0,
+      "your_app_ranked": false,
+      "top_competitor_rank": 26,
+      "avg_rank": 26.0,
+      "avg_installs": 0.0,
+      "avg_relevancy": 58.0,
+      "avg_kei": 15.0,
+      "source_apps": [
+        "com.bumble.app"
       ]
     },
     {
@@ -35,42 +66,42 @@
       "primary_competitor_count": 0,
       "secondary_competitor_count": 2,
       "your_app_ranked": false,
-      "top_competitor_rank": 51,
-      "avg_rank": 57.0,
+      "top_competitor_rank": 59,
+      "avg_rank": 61.0,
       "avg_installs": 0.0,
       "avg_relevancy": 38.0,
-      "avg_kei": 34.0,
+      "avg_kei": 26.0,
       "source_apps": [
         "com.hily.app",
         "enterprises.dating.boo"
       ]
     },
     {
-      "term": "inclusivity",
-      "primary_competitor_count": 0,
-      "secondary_competitor_count": 1,
-      "your_app_ranked": false,
-      "top_competitor_rank": 17,
-      "avg_rank": 17.0,
-      "avg_installs": 0.0,
-      "avg_relevancy": 59.0,
-      "avg_kei": 22.0,
-      "source_apps": [
-        "com.badoo.mobile"
-      ]
-    },
-    {
-      "term": "subscriptions",
+      "term": "partner",
       "primary_competitor_count": 0,
       "secondary_competitor_count": 1,
       "your_app_ranked": false,
       "top_competitor_rank": 111,
       "avg_rank": 111.0,
       "avg_installs": 0.0,
-      "avg_relevancy": 28.0,
-      "avg_kei": 76.0,
+      "avg_relevancy": 30.0,
+      "avg_kei": 39.0,
       "source_apps": [
-        "com.getpure.pure"
+        "com.pof.android"
+      ]
+    },
+    {
+      "term": "verified",
+      "primary_competitor_count": 0,
+      "secondary_competitor_count": 1,
+      "your_app_ranked": false,
+      "top_competitor_rank": 95,
+      "avg_rank": 95.0,
+      "avg_installs": 0.0,
+      "avg_relevancy": 28.0,
+      "avg_kei": 22.0,
+      "source_apps": [
+        "enterprises.dating.boo"
       ]
     }
   ],
@@ -82,20 +113,26 @@
       "gaps_ranked_for": 1
     },
     {
-      "app_id": "com.bumble.app",
-      "name": "Bumble Dating App: Meet & Date",
-      "tier": "primary",
-      "gaps_ranked_for": 1
-    },
-    {
       "app_id": "com.doni.appa",
       "name": "Doni: Start Real Companionship",
       "tier": "primary",
       "gaps_ranked_for": 0
     },
     {
+      "app_id": "com.bumble.app",
+      "name": "Bumble Dating App: Meet & Date",
+      "tier": "primary",
+      "gaps_ranked_for": 3
+    },
+    {
       "app_id": "com.hily.app",
       "name": "Hily Dating app: Meet & Date",
+      "tier": "secondary",
+      "gaps_ranked_for": 3
+    },
+    {
+      "app_id": "enterprises.dating.boo",
+      "name": "Boo: Dating. Friends. Chat.",
       "tier": "secondary",
       "gaps_ranked_for": 2
     },
@@ -106,32 +143,26 @@
       "gaps_ranked_for": 1
     },
     {
-      "app_id": "enterprises.dating.boo",
-      "name": "Boo: Dating. Friends. Chat.",
-      "tier": "secondary",
-      "gaps_ranked_for": 1
-    },
-    {
       "app_id": "com.nearme.wolf",
       "name": "Nearme:Chat&Date",
       "tier": "secondary",
       "gaps_ranked_for": 0
     },
     {
-      "app_id": "com.badoo.mobile",
-      "name": "Badoo Dating App: Meet & Date",
-      "tier": "secondary",
-      "gaps_ranked_for": 1
-    },
-    {
       "app_id": "com.pof.android",
       "name": "Plenty of Fish : Dating App",
       "tier": "secondary",
-      "gaps_ranked_for": 0
+      "gaps_ranked_for": 2
     },
     {
       "app_id": "com.qiga.vio",
       "name": "Jovia Dating app: Meet & Date",
+      "tier": "secondary",
+      "gaps_ranked_for": 0
+    },
+    {
+      "app_id": "com.badoo.mobile",
+      "name": "Badoo Dating App: Meet & Date",
       "tier": "secondary",
       "gaps_ranked_for": 0
     }

@@ -202,7 +202,7 @@
           "iphone6plus": [],
           "iphone_d74": []
         },
-        "size": 158455808,
+        "size": 158431232,
         "rating": {
           "average": 4.4
         },
@@ -212,6 +212,17 @@
         },
         "price": "",
         "versions": [
+          {
+            "version": "9.116.0",
+            "release_notes": "We made performance improvements which means you may end up deleting our app even sooner than you intended.\n\nThe dating app designed to be installed, updated, and then deleted.",
+            "has_game_center": false,
+            "game_controller_information": {
+              "required": false,
+              "supported": false,
+              "requirement_label": null
+            },
+            "release_date": "2026-04-06T00:00:00.000Z"
+          },
           {
             "version": "9.115.0",
             "release_notes": "We made performance improvements which means you may end up deleting our app even sooner than you intended.\n\nThe dating app designed to be installed, updated, and then deleted.",
@@ -255,31 +266,20 @@
               "requirement_label": null
             },
             "release_date": "2026-03-09T00:00:00.000Z"
-          },
-          {
-            "version": "9.111.0",
-            "release_notes": "We made performance improvements which means you may end up deleting our app even sooner than you intended.\n\nThe dating app designed to be installed, updated, and then deleted.",
-            "has_game_center": false,
-            "game_controller_information": {
-              "required": false,
-              "supported": false,
-              "requirement_label": null
-            },
-            "release_date": "2026-03-02T00:00:00.000Z"
           }
         ],
         "release_date": "2013-02-06T00:00:00.000Z",
         "customers_also_bought": [
+          "887914690",
           "930441707",
           "1042814349",
-          "1080102131",
-          "887914690",
           "573328837",
-          "601174087",
+          "1080102131",
+          "690661663",
           "1265035248",
-          "1250946975",
-          "893653132",
-          "690661663"
+          "1437284371",
+          "547702041",
+          "458272450"
         ],
         "dna": {
           "class_id": 10018,

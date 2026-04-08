@@ -22,7 +22,7 @@
         "videos": [],
         "size": {
           "current": {
-            "data": 45540818
+            "data": 45887027
           }
         },
         "rating": {
@@ -43,6 +43,11 @@
         "price": "",
         "released_at": null,
         "versions": [
+          {
+            "version": "5.64.0",
+            "release_notes": "",
+            "release_date": "2026-04-07T00:00:00.000Z"
+          },
           {
             "version": "5.63.0",
             "release_notes": "",
@@ -137,11 +142,6 @@
             "version": "5.51.1",
             "release_notes": "",
             "release_date": "2026-01-07T00:00:00.000Z"
-          },
-          {
-            "version": "5.51.0",
-            "release_notes": "",
-            "release_date": "2026-01-05T00:00:00.000Z"
           }
         ],
         "similar_apps": [
@@ -169,6 +169,8 @@
           "subclass_label": "Dating"
         },
         "permissions": [
+          "android.permission.ACCESS_ADSERVICES_AD_ID",
+          "android.permission.ACCESS_ADSERVICES_ATTRIBUTION",
           "android.permission.ACCESS_COARSE_LOCATION",
           "android.permission.ACCESS_FINE_LOCATION",
           "android.permission.ACCESS_MEDIA_LOCATION",

@@ -1,346 +1,234 @@
 {
   "result": {
     "601174087": {
-      "favorite matches": {
+      "connection": {
         "rank": {
           "value": null,
-          "date": "2026-04-05",
+          "date": "2026-04-08",
           "effective_value": 501,
           "fetch_performed": true
         },
         "installs": {
           "value": 0,
-          "date": "2026-04-05",
-          "effective_value": 0
-        },
-        "relevancy": {
-          "value": 49,
-          "date": "2026-04-05",
-          "effective_value": 49
-        },
-        "kei": {
-          "value": 22,
-          "date": "2026-04-05",
-          "effective_value": 22
-        },
-        "chance": {
-          "value": 73,
-          "date": "2026-04-05",
-          "effective_value": 73
-        }
-      },
-      "keep in touch": {
-        "rank": {
-          "value": null,
-          "date": "2026-04-05",
-          "effective_value": 501,
-          "fetch_performed": true
-        },
-        "installs": {
-          "value": 0,
-          "date": "2026-04-05",
+          "date": "2026-04-08",
           "effective_value": 0
         },
         "relevancy": {
           "value": 34,
-          "date": "2026-04-05",
+          "date": "2026-04-08",
           "effective_value": 34
         },
         "kei": {
-          "value": 15,
-          "date": "2026-04-05",
-          "effective_value": 15
+          "value": 22,
+          "date": "2026-04-08",
+          "effective_value": 22
         },
         "chance": {
           "value": 73,
-          "date": "2026-04-05",
+          "date": "2026-04-08",
           "effective_value": 73
         }
       },
-      "potential partners": {
+      "members": {
         "rank": {
           "value": null,
-          "date": "2026-04-05",
+          "date": "2026-04-08",
           "effective_value": 501,
           "fetch_performed": true
         },
         "installs": {
           "value": 0,
-          "date": "2026-04-05",
+          "date": "2026-04-08",
           "effective_value": 0
         },
         "relevancy": {
-          "value": 47,
-          "date": "2026-04-05",
-          "effective_value": 47
+          "value": 11,
+          "date": "2026-04-08",
+          "effective_value": 11
         },
         "kei": {
           "value": 22,
-          "date": "2026-04-05",
+          "date": "2026-04-08",
           "effective_value": 22
         },
         "chance": {
           "value": 73,
-          "date": "2026-04-05",
+          "date": "2026-04-08",
           "effective_value": 73
         }
       }
     },
     "1250946975": {
-      "favorite matches": {
+      "connection": {
         "rank": {
           "value": null,
-          "date": "2026-04-05",
+          "date": "2026-04-08",
           "effective_value": 501,
           "fetch_performed": true
         },
         "installs": {
           "value": 0,
-          "date": "2026-04-05",
-          "effective_value": 0
-        },
-        "relevancy": {
-          "value": 54,
-          "date": "2026-04-05",
-          "effective_value": 54
-        },
-        "kei": {
-          "value": 22,
-          "date": "2026-04-05",
-          "effective_value": 22
-        },
-        "chance": {
-          "value": 73,
-          "date": "2026-04-05",
-          "effective_value": 73
-        }
-      },
-      "keep in touch": {
-        "rank": {
-          "value": null,
-          "date": "2026-04-05",
-          "effective_value": 501,
-          "fetch_performed": true
-        },
-        "installs": {
-          "value": 0,
-          "date": "2026-04-05",
+          "date": "2026-04-08",
           "effective_value": 0
         },
         "relevancy": {
           "value": 36,
-          "date": "2026-04-05",
+          "date": "2026-04-08",
           "effective_value": 36
         },
         "kei": {
-          "value": 15,
-          "date": "2026-04-05",
-          "effective_value": 15
+          "value": 22,
+          "date": "2026-04-08",
+          "effective_value": 22
         },
         "chance": {
           "value": 73,
-          "date": "2026-04-05",
+          "date": "2026-04-08",
           "effective_value": 73
         }
       },
-      "potential partners": {
+      "members": {
         "rank": {
           "value": null,
-          "date": "2026-04-05",
+          "date": "2026-04-08",
           "effective_value": 501,
           "fetch_performed": true
         },
         "installs": {
           "value": 0,
-          "date": "2026-04-05",
+          "date": "2026-04-08",
           "effective_value": 0
         },
         "relevancy": {
-          "value": 51,
-          "date": "2026-04-05",
-          "effective_value": 51
+          "value": 12,
+          "date": "2026-04-08",
+          "effective_value": 12
         },
         "kei": {
           "value": 22,
-          "date": "2026-04-05",
+          "date": "2026-04-08",
           "effective_value": 22
         },
         "chance": {
           "value": 73,
-          "date": "2026-04-05",
+          "date": "2026-04-08",
           "effective_value": 73
         }
       }
     },
     "690661663": {
-      "favorite matches": {
+      "connection": {
         "rank": {
           "value": null,
-          "date": "2026-04-05",
+          "date": "2026-04-08",
           "effective_value": 501,
           "fetch_performed": true
         },
         "installs": {
           "value": 0,
-          "date": "2026-04-05",
+          "date": "2026-04-08",
           "effective_value": 0
         },
         "relevancy": {
-          "value": 61,
-          "date": "2026-04-05",
-          "effective_value": 61
+          "value": 40,
+          "date": "2026-04-08",
+          "effective_value": 40
         },
         "kei": {
           "value": 22,
-          "date": "2026-04-05",
+          "date": "2026-04-08",
           "effective_value": 22
         },
         "chance": {
           "value": 73,
-          "date": "2026-04-05",
+          "date": "2026-04-08",
           "effective_value": 73
         }
       },
-      "keep in touch": {
+      "members": {
         "rank": {
           "value": null,
-          "date": "2026-04-05",
+          "date": "2026-04-08",
           "effective_value": 501,
           "fetch_performed": true
         },
         "installs": {
           "value": 0,
-          "date": "2026-04-05",
+          "date": "2026-04-08",
           "effective_value": 0
         },
         "relevancy": {
-          "value": 48,
-          "date": "2026-04-05",
-          "effective_value": 48
-        },
-        "kei": {
-          "value": 15,
-          "date": "2026-04-05",
-          "effective_value": 15
-        },
-        "chance": {
-          "value": 73,
-          "date": "2026-04-05",
-          "effective_value": 73
-        }
-      },
-      "potential partners": {
-        "rank": {
-          "value": null,
-          "date": "2026-04-05",
-          "effective_value": 501,
-          "fetch_performed": true
-        },
-        "installs": {
-          "value": 0,
-          "date": "2026-04-05",
-          "effective_value": 0
-        },
-        "relevancy": {
-          "value": 57,
-          "date": "2026-04-05",
-          "effective_value": 57
+          "value": 24,
+          "date": "2026-04-08",
+          "effective_value": 24
         },
         "kei": {
           "value": 22,
-          "date": "2026-04-05",
+          "date": "2026-04-08",
           "effective_value": 22
         },
         "chance": {
           "value": 73,
-          "date": "2026-04-05",
+          "date": "2026-04-08",
           "effective_value": 73
         }
       }
     },
-    "1297152391": {
-      "favorite matches": {
+    "1265035248": {
+      "connection": {
         "rank": {
           "value": null,
-          "date": "2026-04-05",
+          "date": "2026-04-08",
           "effective_value": 501,
           "fetch_performed": true
         },
         "installs": {
           "value": 0,
-          "date": "2026-04-05",
+          "date": "2026-04-08",
           "effective_value": 0
         },
         "relevancy": {
-          "value": 52,
-          "date": "2026-04-05",
-          "effective_value": 52
+          "value": 36,
+          "date": "2026-04-08",
+          "effective_value": 36
         },
         "kei": {
-          "value": 13,
-          "date": "2026-04-05",
-          "effective_value": 13
+          "value": 12,
+          "date": "2026-04-08",
+          "effective_value": 12
         },
         "chance": {
-          "value": 43,
-          "date": "2026-04-05",
-          "effective_value": 43
+          "value": 41,
+          "date": "2026-04-08",
+          "effective_value": 41
         }
       },
-      "keep in touch": {
+      "members": {
         "rank": {
           "value": null,
-          "date": "2026-04-05",
+          "date": "2026-04-08",
           "effective_value": 501,
           "fetch_performed": true
         },
         "installs": {
           "value": 0,
-          "date": "2026-04-05",
+          "date": "2026-04-08",
           "effective_value": 0
         },
         "relevancy": {
-          "value": 37,
-          "date": "2026-04-05",
-          "effective_value": 37
+          "value": 25,
+          "date": "2026-04-08",
+          "effective_value": 25
         },
         "kei": {
-          "value": 10,
-          "date": "2026-04-05",
-          "effective_value": 10
+          "value": 17,
+          "date": "2026-04-08",
+          "effective_value": 17
         },
         "chance": {
-          "value": 50,
-          "date": "2026-04-05",
-          "effective_value": 50
-        }
-      },
-      "potential partners": {
-        "rank": {
-          "value": null,
-          "date": "2026-04-05",
-          "effective_value": 501,
-          "fetch_performed": true
-        },
-        "installs": {
-          "value": 0,
-          "date": "2026-04-05",
-          "effective_value": 0
-        },
-        "relevancy": {
-          "value": 50,
-          "date": "2026-04-05",
-          "effective_value": 50
-        },
-        "kei": {
-          "value": 15,
-          "date": "2026-04-05",
-          "effective_value": 15
-        },
-        "chance": {
-          "value": 50,
-          "date": "2026-04-05",
-          "effective_value": 50
+          "value": 56,
+          "date": "2026-04-08",
+          "effective_value": 56
         }
       }
     }
@@ -356,7 +244,7 @@
           "601174087",
           "1250946975",
           "690661663",
-          "1297152391"
+          "1265035248"
         ],
         "metrics": [
           "rank",
@@ -366,13 +254,12 @@
           "chance"
         ],
         "keywords": [
-          "favorite matches",
-          "keep in touch",
-          "potential partners"
+          "connection",
+          "members"
         ]
       },
-      "cost": 601,
-      "max_credit_cost": 601,
+      "cost": 401,
+      "max_credit_cost": 401,
       "status": 200
     },
     "response": null

@@ -103,6 +103,16 @@
           "date": "2026-03-30"
         },
         {
+          "target": "version",
+          "old_value": "5.460.0",
+          "new_value": "5.461.0",
+          "old_release_notes": "",
+          "new_release_notes": null,
+          "version": "5.461.0",
+          "is_ab_test": null,
+          "date": "2026-04-07"
+        },
+        {
           "target": "screenshots",
           "old_value": [
             {
@@ -2840,8 +2850,8 @@
         "device": "android",
         "country": "us",
         "language": "us",
-        "start_date": "2026-01-07",
-        "end_date": "2026-04-07",
+        "start_date": "2026-01-08",
+        "end_date": "2026-04-08",
         "apps": [
           "com.bumble.app"
         ]

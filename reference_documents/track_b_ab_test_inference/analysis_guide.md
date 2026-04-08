@@ -8,10 +8,43 @@ RETURN BACK ONLY THE HTML REPORT.
 ---
 
 ## Input Structure
+
+**Token Optimization:** The output JSON has been optimized to reduce LLM token usage by ~65-75% without impacting data fidelity:
+
 - `meta` — platform (Android only), country, run date, history window.
+- `text_variants` (NEW) — dictionary mapping variant IDs (v1, v2, etc.) to actual text strings for title/short_description changes. Text values in ab_tests/shipped_changes reference these using `old_value_ref`/`new_value_ref` keys.
 - `target_app` — target app's current title, short description, and recent testing history (to ground your recommendations).
 - `summary` — aggregate counts across all competitors.
 - `competitors[]` — per-competitor: tier, ab_tests[], shipped_changes[], summary.
+
+**AB Test & Shipped Change Format Changes:**
+- **Screenshot/Icon arrays** → Replaced with `old_value_count` / `new_value_count` (integer counts). The LLM doesn't need actual URLs; counts preserve strategic insight about creative iteration.
+- **Text fields (title/short_description)** → Old/new values replaced with `old_value_ref` / `new_value_ref` referencing `text_variants` keys. To deserialize: look up ref ID in `text_variants` dict.
+- **Date consolidation** (when applicable) → Identical consecutive tests (same target, old_value, new_value) are merged into a single entry with `date_range` dict (start/end dates) and `test_cycle_count` (number of test cycles).
+- **Removed fields** → `version`, `is_ab_test` (always true in ab_tests array), null names, and empty `shipped_changes` arrays are omitted to reduce noise.
+
+---
+
+## Data Deserialization Examples
+
+**Text variant lookup:**
+```
+Input: {"target": "short_description", "old_value_ref": "v1", "new_value_ref": "v2"}
+text_variants: {"v1": "...", "v2": "..."}
+→ Interpret as: old="..." new="..."
+```
+
+**Screenshot counts:**
+```
+Input: {"target": "screenshots", "old_value_count": 8, "new_value_count": 8}
+→ Interpret as: Screenshots changed, 8 old → 8 new (specific URLs hidden)
+```
+
+**Date range consolidation:**
+```
+Input: {"target": "screenshots", "date_range": {"start": "2026-01-10", "end": "2026-03-11"}, "test_cycle_count": 34}
+→ Interpret as: This test pattern ran for 60 days across 34 consecutive test cycles/date points
+```
 
 ---
 
@@ -28,6 +61,13 @@ RETURN BACK ONLY THE HTML REPORT.
 ---
 
 ## Output Generation Steps
+
+### Step 0: Deserialize Input (New)
+Before analysis, deserialize the optimized format:
+1. Load `text_variants` dict into memory.
+2. For each test with `old_value_ref`/`new_value_ref`: replace refs with actual text from the dict (so output can quote exact changes).
+3. For screenshot/icon tests: count stays as count; no deserialization needed.
+4. For date-range consolidated tests: `test_cycle_count` indicates frequency; treat as multiple rapid A/B test cycles.
 
 ### Step 1: Internal Analysis (Do not output)
 Review the input data silently. Identify the most active competitors, the fields they are testing, and compare these findings against the `target_app` state to formulate your recommendations.
@@ -61,8 +101,10 @@ Create a Markdown table sorted by Tier (Primary first), then Total Tests (Descen
 
 #### 4. Test Detail Cards
 Create a subsection for each competitor with at least 1 test. Use bullet points:
-* **Visual Assets (Screenshots/Icon/Video/Feature Graphic):** State "[Asset type] replaced (N to N images/assets)" + date. Group multiple cycles chronologically.
-* **Text Assets (Title / Short Description):** Quote the exact `old` ➔ `new` values.
+* **Visual Assets (Screenshots/Icon/Video/Feature Graphic):** State "[Asset type] tested ([old_count] to [new_count])" + date. If `date_range` and `test_cycle_count` present, state: "tested cyclically [start] to [end] ([count] cycles)". Group multiple cycles chronologically.
+* **Text Assets (Title / Short Description):** Quote the exact old ➔ new values (look up from `text_variants` using the ref IDs). Include date or date_range.
+
+Interpretation note: `test_cycle_count` indicates high-frequency testing (rapid iteration); this signals active CRO focus.
 
 Do not append status pills (won/lost/pending) to individual test bullets — resolution accuracy is not reliable enough to foreground at this level.
 

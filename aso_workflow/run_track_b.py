@@ -38,6 +38,9 @@ def run_track_b(app_id: str):
     output_dir = Path(config.DATA_RAW_DIR).parent / "processed"
     output_dir.mkdir(parents=True, exist_ok=True)
     
+    # Extract text variants from summary
+    text_variants = summary.pop("text_variants", {})
+    
     output = {
         "meta": {
             "platform": "android",
@@ -49,6 +52,10 @@ def run_track_b(app_id: str):
         "summary": summary,
         "competitors": competitors,
     }
+    
+    # Add text variants at root if non-empty
+    if text_variants:
+        output["text_variants"] = text_variants
     
     output_file = output_dir / f"ab_history_android_{app_id}.json"
     with open(output_file, "w") as f:

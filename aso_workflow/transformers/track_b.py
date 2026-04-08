@@ -292,6 +292,201 @@ def _resolve_ab_test(
     return resolved_entry
 
 
+def _flatten_screenshot_array(value: Any) -> Optional[int]:
+    """
+    Convert screenshot/icon array to count of items.
+    
+    Returns None if empty, otherwise returns count.
+    """
+    if isinstance(value, list) and len(value) > 0:
+        return len(value)
+    return None
+
+
+def _consolidate_tests_by_date_range(tests: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
+    """
+    Consolidate identical consecutive tests into date ranges.
+    
+    Groups tests with identical target, old_value, and new_value into a single entry
+    with a date_range instead of individual date entries.
+    
+    Returns list of consolidated tests.
+    """
+    if not tests:
+        return []
+    
+    consolidated = []
+    i = 0
+    
+    while i < len(tests):
+        test = tests[i]
+        
+        # Create a comparison key (all fields except date/date_range/resolved)
+        test_target = test.get("target")
+        test_old_str = json.dumps(test.get("old_value"), sort_keys=True, default=str)
+        test_new_str = json.dumps(test.get("new_value"), sort_keys=True, default=str)
+        
+        # Look ahead to find identical consecutive tests
+        current_dates = [test.get("date")]
+        j = i + 1
+        
+        while j < len(tests):
+            next_test = tests[j]
+            next_target = next_test.get("target")
+            next_old_str = json.dumps(next_test.get("old_value"), sort_keys=True, default=str)
+            next_new_str = json.dumps(next_test.get("new_value"), sort_keys=True, default=str)
+            
+            # Compare target and values
+            if (next_target == test_target and 
+                next_old_str == test_old_str and 
+                next_new_str == test_new_str):
+                current_dates.append(next_test.get("date"))
+                j += 1
+            else:
+                break
+        
+        # Create consolidated test
+        consolidated_test = test.copy()
+        
+        if len(current_dates) > 1:
+            # Multiple identical tests - consolidate to date range
+            consolidated_test["date_range"] = {
+                "start": min(current_dates),
+                "end": max(current_dates)
+            }
+            consolidated_test["test_cycle_count"] = len(current_dates)
+        
+        consolidated_test.pop("date", None)
+        consolidated.append(consolidated_test)
+        
+        i = j
+    
+    return consolidated
+
+
+
+def _optimize_test_structure(test: Dict[str, Any], text_variants: Dict[str, str]) -> Dict[str, Any]:
+    """
+    Optimize a single test's structure:
+    1. Replace screenshot/icon arrays with counts
+    2. Replace text values with variant references
+    3. Remove redundant fields (version, is_ab_test always in ab_tests array)
+    4. Remove null/empty values
+    """
+    optimized = {}
+    
+    for key, value in test.items():
+        # Skip fields that provide no signal
+        if key in ("version", "is_ab_test"):
+            continue
+        
+        # Skip null values and empty objects
+        if value is None:
+            continue
+        
+        # Skip redundant "resolved" if it's pending (the default)
+        if key == "resolved" and value == "pending":
+            continue
+        
+        # Flatten screenshot/icon arrays to counts
+        if key in ("old_value", "new_value"):
+            parent_target = test.get("target")
+            if parent_target in ("screenshots", "icon"):
+                count = _flatten_screenshot_array(value)
+                new_key = f"{key}_count"
+                if count is not None:
+                    optimized[new_key] = count
+            elif parent_target in ("title", "short_description"):
+                # Compress text values using variant dictionary
+                if value:
+                    text_str = str(value)
+                    if text_str not in text_variants.values():
+                        # Add new variant
+                        variant_id = f"v{len(text_variants) + 1}"
+                        text_variants[variant_id] = text_str
+                    else:
+                        # Find existing variant
+                        variant_id = [k for k, v in text_variants.items() if v == text_str][0]
+                    
+                    optimized[f"{key}_ref"] = variant_id
+            else:
+                optimized[key] = value
+        else:
+            optimized[key] = value
+    
+    return optimized
+
+
+def _optimize_output_structure(
+    competitors: List[Dict[str, Any]],
+    target_app: Dict[str, Any]
+) -> Tuple[Dict[str, Any], List[Dict[str, Any]], Dict[str, str]]:
+    """
+    Optimize the entire output structure:
+    1. Consolidate tests by date range
+    2. Flatten screenshot arrays
+    3. Create text variants dictionary
+    4. Remove empty shipped_changes
+    5. Remove null/empty defaults
+    """
+    text_variants = {}
+    
+    optimized_competitors = []
+    for competitor in competitors:
+        optimized_comp = {
+            "app_id": competitor["app_id"],
+            "tier": competitor["tier"],
+        }
+        
+        # Include name only if not null
+        if competitor.get("name"):
+            optimized_comp["name"] = competitor["name"]
+        
+        # Consolidate AB tests by date range
+        ab_tests = competitor.get("ab_tests", [])
+        consolidated_tests = _consolidate_tests_by_date_range(ab_tests)
+        
+        # Optimize each test
+        optimized_tests = []
+        for test in consolidated_tests:
+            optimized_test = _optimize_test_structure(test, text_variants)
+            optimized_tests.append(optimized_test)
+        
+        optimized_comp["ab_tests"] = optimized_tests
+        
+        # Include shipped_changes only if not empty
+        shipped = competitor.get("shipped_changes", [])
+        if shipped:
+            optimized_shipped = []
+            for change in shipped:
+                optimized_change = _optimize_test_structure(change, text_variants)
+                optimized_shipped.append(optimized_change)
+            optimized_comp["shipped_changes"] = optimized_shipped
+        
+        # Include summary
+        optimized_comp["summary"] = competitor.get("summary", {})
+        
+        optimized_competitors.append(optimized_comp)
+    
+    # Optimize target app
+    optimized_target = {
+        "title": target_app.get("title"),
+        "short_description": target_app.get("short_description"),
+        "summary": target_app.get("summary", {}),
+    }
+    
+    # Include shipped_changes only if not empty
+    shipped = target_app.get("shipped_changes", [])
+    if shipped:
+        optimized_shipped = []
+        for change in shipped:
+            optimized_change = _optimize_test_structure(change, text_variants)
+            optimized_shipped.append(optimized_change)
+        optimized_target["shipped_changes"] = optimized_shipped
+    
+    return optimized_target, optimized_competitors, text_variants
+
+
 def _compute_summary(
     ab_tests_resolved: List[Dict[str, Any]],
     shipped_changes: List[Dict[str, Any]],
@@ -534,10 +729,18 @@ def transform_track_b(app_id: str) -> Tuple[Dict[str, Any], List[Dict[str, Any]]
     print(f"  - Pending: {total_pending}")
     print()
     
-    return target_app, output, {
-        "total_competitors": len(output),
+    # Apply optimizations to reduce token usage
+    print("[TRACK_B] Applying output optimizations...")
+    optimized_target, optimized_competitors, text_variants = _optimize_output_structure(output, target_app)
+    print(f"    Created {len(text_variants)} text variants")
+    print(f"    Consolidated date ranges across tests")
+    print()
+    
+    return optimized_target, optimized_competitors, {
+        "total_competitors": len(optimized_competitors),
         "total_ab_tests": total_ab_tests,
         "resolved_won": total_resolved_won,
         "resolved_lost": total_resolved_lost,
         "pending": total_pending,
+        "text_variants": text_variants,
     }

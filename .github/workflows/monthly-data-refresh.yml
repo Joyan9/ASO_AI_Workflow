@@ -69,6 +69,18 @@ jobs:
           python aso_workflow/run_track_b.py
           echo "run_track_b.py completed"
 
+      - name: Commit and push generated data
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          if [ -n "$(git status -s)" ]; then
+            git add aso_workflow/data/
+            git commit -m "chore: update data from monthly workflow [$(date -u +'%Y-%m-%d %H:%M:%S UTC')]"
+            git push
+          else
+            echo "No changes to commit"
+          fi
+
       - name: Upload run artifacts
         if: always()
         uses: actions/upload-artifact@v4

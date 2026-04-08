@@ -5,6 +5,9 @@ on:
     - cron: '0 7 1 * *'  # 8 AM CET (7 AM UTC) on the 1st of each month
   workflow_dispatch:  # Allow manual triggering
 
+permissions:
+  contents: write
+
 jobs:
   monthly-refresh:
     runs-on: ubuntu-latest
@@ -76,7 +79,7 @@ jobs:
           if [ -n "$(git status -s)" ]; then
             git add aso_workflow/data/
             git commit -m "chore: update data from monthly workflow [$(date -u +'%Y-%m-%d %H:%M:%S UTC')]"
-            git push
+            git push https://${{ github.actor }}:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git
           else
             echo "No changes to commit"
           fi

@@ -25,6 +25,10 @@ jobs:
         with:
           python-version: '3.12.1'
 
+      - name: Install Copilot CLI
+        run: |
+          npm install -g @github/copilot-cli
+
       - name: Generate Track A analysis prompt
         run: |
           python << 'EOF'

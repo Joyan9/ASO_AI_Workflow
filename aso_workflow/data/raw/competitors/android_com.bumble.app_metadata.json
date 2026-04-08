@@ -44,6 +44,11 @@
         "released_at": null,
         "versions": [
           {
+            "version": "5.461.0",
+            "release_notes": "",
+            "release_date": "2026-04-07T00:00:00.000Z"
+          },
+          {
             "version": "5.460.0",
             "release_notes": "",
             "release_date": "2026-03-30T00:00:00.000Z"
@@ -137,11 +142,6 @@
             "version": "5.440.0",
             "release_notes": "",
             "release_date": "2025-10-20T00:00:00.000Z"
-          },
-          {
-            "version": "5.439.0",
-            "release_notes": "",
-            "release_date": "2025-10-13T00:00:00.000Z"
           }
         ],
         "similar_apps": [

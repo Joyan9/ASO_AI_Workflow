@@ -4,16 +4,6 @@
       "changes": [
         {
           "target": "version",
-          "old_value": "5.51.0",
-          "new_value": "5.51.1",
-          "old_release_notes": "",
-          "new_release_notes": "",
-          "version": "5.51.1",
-          "is_ab_test": null,
-          "date": "2026-01-07"
-        },
-        {
-          "target": "version",
           "old_value": "5.51.1",
           "new_value": "5.52.0",
           "old_release_notes": "",
@@ -191,6 +181,16 @@
           "version": "5.63.0",
           "is_ab_test": null,
           "date": "2026-03-30"
+        },
+        {
+          "target": "version",
+          "old_value": "5.63.0",
+          "new_value": "5.64.0",
+          "old_release_notes": "",
+          "new_release_notes": "",
+          "version": "5.64.0",
+          "is_ab_test": null,
+          "date": "2026-04-07"
         },
         {
           "target": "screenshots",
@@ -1041,6 +1041,14 @@
           "date": "2026-04-06"
         },
         {
+          "target": "feature_graphic",
+          "old_value": "https://play-lh.googleusercontent.com/mE8dLUnVjTHmfsyT6Z79IzJS0wgrcRfr0rvcgQeMYrf7-nBcIU3vylsiwX9thOWSqHlv",
+          "new_value": "https://play-lh.googleusercontent.com/6kWSQppb7wMCgOxulizaQjk82zlA-hEt45XV8qmML5MbzSLAbFM9XMj2cACOnmKtmxc",
+          "version": "",
+          "is_ab_test": true,
+          "date": "2026-04-08"
+        },
+        {
           "target": "icon",
           "old_value": {
             "id": "fxFTc2KtO5IxpFg0WgmVcQGdukmn2JO9Gv6KnNdnLu5dZKi4xCjr_BvuMDSlJ1ppQA",
@@ -1487,12 +1495,102 @@
           "date": "2026-02-19"
         },
         {
-          "target": "size",
-          "old_value": 46872700,
-          "new_value": 46738825,
-          "version": "5.51.1",
+          "target": "permissions",
+          "old_value": [
+            "android.permission.ACCESS_COARSE_LOCATION",
+            "android.permission.ACCESS_FINE_LOCATION",
+            "android.permission.ACCESS_MEDIA_LOCATION",
+            "android.permission.ACCESS_NETWORK_STATE",
+            "android.permission.ACCESS_WIFI_STATE",
+            "android.permission.CAMERA",
+            "android.permission.CHANGE_WIFI_STATE",
+            "android.permission.FOREGROUND_SERVICE",
+            "android.permission.FOREGROUND_SERVICE_DATA_SYNC",
+            "android.permission.INTERNET",
+            "android.permission.POST_NOTIFICATIONS",
+            "android.permission.READ_APP_BADGE",
+            "android.permission.READ_EXTERNAL_STORAGE",
+            "android.permission.READ_MEDIA_AUDIO",
+            "android.permission.READ_MEDIA_IMAGES",
+            "android.permission.READ_MEDIA_VIDEO",
+            "android.permission.RECORD_AUDIO",
+            "android.permission.VIBRATE",
+            "android.permission.WAKE_LOCK",
+            "com.anddoes.launcher.permission.UPDATE_COUNT",
+            "com.android.vending.BILLING",
+            "com.android.vending.CHECK_LICENSE",
+            "com.applovin.array.apphub.permission.BIND_APPHUB_SERVICE",
+            "com.google.android.c2dm.permission.RECEIVE",
+            "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+            "com.google.android.gms.permission.ACTIVITY_RECOGNITION",
+            "com.google.android.gms.permission.AD_ID",
+            "com.google.android.providers.gsf.permission.READ_GSERVICES",
+            "com.hily.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+            "com.htc.launcher.permission.READ_SETTINGS",
+            "com.htc.launcher.permission.UPDATE_SHORTCUT",
+            "com.huawei.android.launcher.permission.CHANGE_BADGE",
+            "com.huawei.android.launcher.permission.READ_SETTINGS",
+            "com.huawei.android.launcher.permission.WRITE_SETTINGS",
+            "com.majeur.launcher.permission.UPDATE_BADGE",
+            "com.oppo.launcher.permission.READ_SETTINGS",
+            "com.oppo.launcher.permission.WRITE_SETTINGS",
+            "com.sec.android.provider.badge.permission.READ",
+            "com.sec.android.provider.badge.permission.WRITE",
+            "com.sonyericsson.home.permission.BROADCAST_BADGE",
+            "com.sonymobile.home.permission.PROVIDER_INSERT_BADGE",
+            "me.everything.badger.permission.BADGE_COUNT_READ",
+            "me.everything.badger.permission.BADGE_COUNT_WRITE"
+          ],
+          "new_value": [
+            "android.permission.ACCESS_ADSERVICES_AD_ID",
+            "android.permission.ACCESS_ADSERVICES_ATTRIBUTION",
+            "android.permission.ACCESS_COARSE_LOCATION",
+            "android.permission.ACCESS_FINE_LOCATION",
+            "android.permission.ACCESS_MEDIA_LOCATION",
+            "android.permission.ACCESS_NETWORK_STATE",
+            "android.permission.ACCESS_WIFI_STATE",
+            "android.permission.CAMERA",
+            "android.permission.CHANGE_WIFI_STATE",
+            "android.permission.FOREGROUND_SERVICE",
+            "android.permission.FOREGROUND_SERVICE_DATA_SYNC",
+            "android.permission.INTERNET",
+            "android.permission.POST_NOTIFICATIONS",
+            "android.permission.READ_APP_BADGE",
+            "android.permission.READ_EXTERNAL_STORAGE",
+            "android.permission.READ_MEDIA_AUDIO",
+            "android.permission.READ_MEDIA_IMAGES",
+            "android.permission.READ_MEDIA_VIDEO",
+            "android.permission.RECORD_AUDIO",
+            "android.permission.VIBRATE",
+            "android.permission.WAKE_LOCK",
+            "com.anddoes.launcher.permission.UPDATE_COUNT",
+            "com.android.vending.BILLING",
+            "com.android.vending.CHECK_LICENSE",
+            "com.applovin.array.apphub.permission.BIND_APPHUB_SERVICE",
+            "com.google.android.c2dm.permission.RECEIVE",
+            "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+            "com.google.android.gms.permission.ACTIVITY_RECOGNITION",
+            "com.google.android.gms.permission.AD_ID",
+            "com.google.android.providers.gsf.permission.READ_GSERVICES",
+            "com.hily.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+            "com.htc.launcher.permission.READ_SETTINGS",
+            "com.htc.launcher.permission.UPDATE_SHORTCUT",
+            "com.huawei.android.launcher.permission.CHANGE_BADGE",
+            "com.huawei.android.launcher.permission.READ_SETTINGS",
+            "com.huawei.android.launcher.permission.WRITE_SETTINGS",
+            "com.majeur.launcher.permission.UPDATE_BADGE",
+            "com.oppo.launcher.permission.READ_SETTINGS",
+            "com.oppo.launcher.permission.WRITE_SETTINGS",
+            "com.sec.android.provider.badge.permission.READ",
+            "com.sec.android.provider.badge.permission.WRITE",
+            "com.sonyericsson.home.permission.BROADCAST_BADGE",
+            "com.sonymobile.home.permission.PROVIDER_INSERT_BADGE",
+            "me.everything.badger.permission.BADGE_COUNT_READ",
+            "me.everything.badger.permission.BADGE_COUNT_WRITE"
+          ],
+          "version": "5.64.0",
           "is_ab_test": null,
-          "date": "2026-01-07"
+          "date": "2026-04-07"
         },
         {
           "target": "size",
@@ -1621,6 +1719,14 @@
           "version": "5.63.0",
           "is_ab_test": null,
           "date": "2026-03-30"
+        },
+        {
+          "target": "size",
+          "old_value": 45540818,
+          "new_value": 45887027,
+          "version": "5.64.0",
+          "is_ab_test": null,
+          "date": "2026-04-07"
         }
       ]
     }
@@ -1632,8 +1738,8 @@
         "device": "android",
         "country": "us",
         "language": "us",
-        "start_date": "2026-01-07",
-        "end_date": "2026-04-07",
+        "start_date": "2026-01-08",
+        "end_date": "2026-04-08",
         "apps": [
           "com.hily.app"
         ]

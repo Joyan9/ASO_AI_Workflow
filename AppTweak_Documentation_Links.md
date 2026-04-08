@@ -1,3 +1,10 @@
+---
+title: AppTweak API Documentation Links
+description: Quick reference to AppTweak API endpoints used in the ASO Workflow
+purpose: Reference guide for API endpoints and example requests
+category: API Reference
+---
+
 ## Current App metadata
 Returns metadata from an app that AppTweak has been able to gather from the App Store or the Google Play Store. The data is fetched daily: https://developers.apptweak.com/reference/app-metadata-current.md
 

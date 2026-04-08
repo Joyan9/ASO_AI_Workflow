@@ -1,8 +1,20 @@
 """
-Example usage of the ASO Workflow - fetches metadata, competitors, and competitor history for Tinder.
+Step 1-3: Fetch Focus App Metadata, Extract Competitors, and Fetch Competitor Data
+
+Orchestrates the initial three steps of the ASO Workflow pipeline:
+    Step 1: Fetch your app's current metadata from AppTweak
+    Step 2: Extract competitor app IDs (iOS: from similar_apps; Android: from top charts)
+    Step 3: Fetch metadata and 90-day history for all identified competitors
+
+This script handles both iOS and Android platforms and saves raw API responses
+to data/raw/ with the following structure:
+    - {platform}_{app_id}_metadata.json (your app's metadata)
+    - {platform}_{app_id}_competitors.json (list of competitor IDs)
+    - competitors/{platform}_{competitor_id}_metadata.json (competitor data)
+    - competitors/{platform}_{competitor_id}_history.json (Android only, change history)
 
 Run from the aso_workflow directory:
-    python run_example.py
+    python run_fetcher.py
 """
 
 import json

@@ -41,7 +41,14 @@ _PHASH_CACHE: Dict[str, str] = {}
 
 
 def _get_screenshot_urls(value: Any) -> List[str]:
-    """Extract URLs from screenshots/icon value (list of objects with 'url' field)."""
+    """Extract screenshot/icon URLs from metadata value.
+    
+    Args:
+        value: Expected to be a list of dicts with 'url' key
+    
+    Returns:
+        List of URL strings, empty list if value is not a URL list
+    """
     if not isinstance(value, list):
         return []
     return [item.get("url", "") for item in value if isinstance(item, dict) and item.get("url")]
@@ -176,13 +183,19 @@ def _get_screenshot_ids(value: Any) -> List[str]:
 
 
 def _values_equal(target: str, old_val: Any, new_val: Any) -> bool:
-    """
-    Compare two values, with perceptual hashing for screenshots and icons.
+    """Compare two values, using perceptual hashing for images, string comparison otherwise.
     
-    For screenshots/icon: download images, compute perceptual hashes, compare hash sets.
-    For everything else: exact string comparison.
-    
+    For screenshots/icon fields: downloads images, computes perceptual hashes, compares sets.
+    For all other fields: performs exact string comparison.
     Falls back to URL comparison if image download/hashing fails.
+    
+    Args:
+        target: Field name (\"screenshots\", \"icon\", etc.)
+        old_val: Previous value
+        new_val: New value
+    
+    Returns:
+        True if values are considered equal, False otherwise
     """
     if target in ("screenshots", "icon"):
         # Use perceptual hashing for image comparison

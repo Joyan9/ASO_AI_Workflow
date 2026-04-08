@@ -21,32 +21,36 @@ def fetch_keyword_rankings(
     your_app_id: str,
     seed_keywords: List[str],
 ) -> Dict[str, Any]:
-    """
-    Fetch keyword rankings from AppTweak for your app and competitors.
+    """Fetch keyword rankings from AppTweak for your app and competitors.
     
-    This is an expensive operation (10 credits per app/keyword/metric combo).
-    Uses batching to minimize API calls:
-    - Max 5 apps per call
-    - Max 5 keywords per call
-    - Total calls = ceil(n_apps / 5) × ceil(n_keywords / 5)
+    Queries the Keyword Rankings endpoint for seed keywords, fetching ranking data
+    for your app and selected competitors (3 primary + 5 secondary). Results are
+    batched for API efficiency and saved to local batch files for resumability.
+    
+    This is an expensive operation (10 credits per app/keyword/metric combo):
+        - Max 5 apps per call
+        - Max 5 keywords per call
+        - Total calls = ceil(n_apps / 5) × ceil(n_keywords / 5)
     
     Args:
         platform: "ios" or "android"
         your_app_id: Your app's ID
-        seed_keywords: List of keywords to fetch rankings for
+        seed_keywords: List of keywords to fetch rankings for (max config.MAX_SEED_KEYWORDS)
     
     Returns:
-        Merged ranking data structure:
-        {
-            "meta": { ... },
-            "keywords": [
-                {
-                    "term": "...",
-                    "your_app": { "ranked": bool, "rank": int or null, ... },
-                    "competitors": [ { "app_id": "...", "ranked": bool, ... } ]
-                }
-            ]
-        }
+        Merged ranking data structure with keys:
+            - meta: Metadata (platform, run_date, seeds_with_data, etc.)
+            - keywords: List of keyword dicts each containing:
+                - term: Keyword string
+                - your_app: Dict with ranking info (rank, installs, relevancy, kei, chance)
+                - competitors: List of competitor ranking dicts
+    
+    Saves:
+        data/raw/keyword_rankings/{platform}_{app_id}_batch_*.json for each request batch
+    
+    Note:
+        This is a costly operation. Budget credits accordingly.
+        Existing batches saved locally will be reused if re-running.
     """
     from .metadata import API_KEY, AppTweakClient
     

@@ -1,11 +1,26 @@
 """
 Step 4 — Track A: Keyword Gap Analysis via AppTweak Rankings
 
-NEW WORKFLOW (replaces old metrics approach):
-1. Generate seeds — Extract n-grams, filter to 50 top terms
-2. Load/Fetch rankings — Load existing batches or fetch new ranking data from AppTweak
-3. Compute gaps — Identify gaps based on ranking data (your app not ranked, competitors are)
-4. Write output — Save final keyword gaps JSON
+Identifies high-value keywords where competitors rank but your app does not.
+Executes a 4-step pipeline:
+
+    1. Generate seeds — Extract n-grams (1-word, 2-word, 3-word) from your app and competitors'
+       metadata, weighted by field importance. Filter to top 50 gap terms (in competitors but not in your app).
+
+    2. Load/Fetch rankings — Either load previously saved ranking batches or fetch fresh data
+       from AppTweak. Batches requests for API efficiency (max 5 apps × 5 keywords per call).
+
+    3. Compute gaps — Cross-reference ranking data. A gap is a term where at least one competitor
+       ranks and your app either doesn't rank or has no ranking data. Sort by competitor presence,
+       search volume, and difficulty.
+
+    4. Write output — Save structured JSON with keyword gaps, competitor rankings per term,
+       and competitive landscape summary.
+
+Output file: data/processed/keyword_gaps_{platform}_{app_id}.json
+
+Run from the aso_workflow directory:
+    python run_track_a.py
 """
 
 import json

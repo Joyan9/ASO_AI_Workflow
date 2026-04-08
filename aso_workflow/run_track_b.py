@@ -1,12 +1,36 @@
 """
-Step 5 — Track B: Android A/B test history analysis
+Step 5 — Track B: Android A/B Test History Analysis
 
-Orchestrates:
-1. Load competitor history files
-2. Filter to relevant fields (title, short_description, icon, screenshots)
-3. Separate A/B tests from shipped changes
-4. Resolve A/B tests (won/lost/pending)
-5. Output final JSON with competitor A/B history and summaries
+Analyzes competitor A/B testing behavior over the past 90 days to reveal what elements
+they are validating (title, description, screenshots, icons) and test outcomes.
+
+Executes a 5-step transformation pipeline:
+
+    1. Load history — Fetches raw 90-day metadata change history for each Android competitor.
+       Each entry records a change to a field with metadata (type, date, A/B test flag).
+
+    2. Filter changes — Extracts only relevant fields: title, short_description, icon, screenshots.
+       Ignores other metadata fields like rating summary or release notes.
+
+    3. Separate tests from shipped — Distinguishes between:
+       - A/B tests (is_ab_test=true): Variants experimenting with creative/copy
+       - Shipped changes: Final updates that went live without testing
+
+    4. Resolve test outcomes — For each pending A/B test, checks if a later shipped change
+       matches the test's new_value (Won), old_value (Lost), or neither (Pending).
+       Uses perceptual hashing (pHash) for screenshot comparison to account for AppTweak URL rewrites.
+
+    5. Generate summaries — Per-competitor test activity including counts, field distribution,
+       and timeline. Also produces aggregate metrics and text variant deduplication.
+
+Output file: data/processed/ab_history_android_{app_id}.json
+
+Requirements:
+    - Competitor history files must exist from run_fetcher.py
+    - Optional: PIL and imagehash for screenshot comparison (falls back to URL comparison)
+
+Run from the aso_workflow directory:
+    python run_track_b.py
 """
 
 import json

@@ -60,7 +60,14 @@ STOPWORDS = set(stopwords.words("english"))
 
 
 def _clean_text(text: str) -> str:
-    """Lowercase and strip HTML/special chars."""
+    """Prepare text for tokenization by removing HTML tags and lowercasing.
+    
+    Args:
+        text: Raw text string (may contain HTML)
+    
+    Returns:
+        Cleaned text in lowercase with HTML tags removed
+    """
     if not text:
         return ""
     # Remove HTML tags
@@ -71,7 +78,17 @@ def _clean_text(text: str) -> str:
 
 
 def _extract_unigrams_and_bigrams(text: str) -> List[str]:
-    """Tokenize text into unigrams, bigrams, and trigrams, remove stopwords."""
+    """Tokenize text into unigrams, bigrams, and trigrams, removing stopwords.
+    
+    Splits text into tokens, filters English stopwords and short words (<2 chars),
+    then generates all n-grams up to 3 words.
+    
+    Args:
+        text: Cleaned text to tokenize
+    
+    Returns:
+        List of unigrams, bigrams, and trigrams extracted from text
+    """
     if not text:
         return []
     
@@ -101,10 +118,17 @@ def _extract_unigrams_and_bigrams(text: str) -> List[str]:
 
 
 def _extract_app_terms(metadata: Dict[str, Any], platform: str) -> List[Dict[str, Any]]:
-    """
-    Extract terms from a single app's metadata.
+    """Extract terms (n-grams) from a single app's metadata with field weights.
     
-    Returns list of dicts: [{"term": "...", "weight": N, "source_field": "..."}]
+    Processes platform-specific fields (title, description, etc.), tokenizes each field,
+    and assigns weights based on ASO best practices (title highest, description remainder lowest).
+    
+    Args:
+        metadata: App metadata dict containing title, description, etc.
+        platform: \"ios\" or \"android\" (affects which fields are extracted)
+    
+    Returns:
+        List of term dicts: [{\"term\": \"...\", \"weight\": N, \"source_field\": \"...\"}]
     """
     term_weights = {}  # term -> (weight, source_field)
     
@@ -174,10 +198,22 @@ def _build_corpus(
     competitor_metadata: Dict[str, Dict[str, Any]],
     platform: str,
 ) -> Dict[str, Dict[str, Any]]:
-    """
-    Build a corpus merging all app terms.
+    """Build a corpus merging all app terms with competitive presence metadata.
     
-    Returns dict of {term: {in_your_app, your_app_field, primary_count, secondary_count, source_apps, competitor_fields}}
+    Extracts terms from your app and all competitors, then merges them into a single corpus.
+    For each term, tracks whether it appears in your app, how many primary/secondary competitors
+    have it, and which fields it appears in.
+    
+    Args:
+        your_app_id: Target app ID for metadata lookup
+        your_app_metadata: Your app's metadata dict
+        competitor_ids: List of competitor app IDs
+        competitor_metadata: Dict mapping competitor IDs to their metadata
+        platform: \"ios\" or \"android\"
+    
+    Returns:
+        Dict of {term: {in_your_app, your_app_field, primary_competitor_count, 
+        secondary_competitor_count, source_apps, competitor_fields}}
     """
     corpus = defaultdict(lambda: {
         "in_your_app": False,
@@ -234,9 +270,17 @@ def _build_corpus(
 
 
 def _filter_gaps(corpus: Dict[str, Dict[str, Any]]) -> List[Dict[str, Any]]:
-    """
-    Filter to gap terms (in_your_app = false).
-    Sort by primary count DESC, then secondary count DESC.
+    """Filter to gap terms and sort by competitive presence.
+    
+    A gap term is one present in competitors but NOT in your app.
+    Sorts primarily by # primary competitors ranking (higher first),
+    secondarily by # secondary competitors ranking.
+    
+    Args:
+        corpus: Merged term corpus from _build_corpus
+    
+    Returns:
+        Sorted list of gap term dicts with competitive summary
     """
     gaps = [
         {
@@ -266,8 +310,18 @@ def _remove_branded_terms(
     your_app_metadata: Dict[str, Any],
     competitor_metadata: Dict[str, Dict[str, Any]],
 ) -> List[Dict[str, Any]]:
-    """
-    Drop any term that matches app names or developer names via substring match.
+    """Remove branded and developer terms from gap list via substring matching.
+    
+    Filters out terms that contain app names or developer names to focus on
+    intent-driven keywords rather than brand-derived terms.
+    
+    Args:
+        gaps: List of gap term dicts
+        your_app_metadata: Your app's metadata for brand/developer names
+        competitor_metadata: Competitor metadata dicts for their brand/developer names
+    
+    Returns:
+        Filtered list with branded terms removed
     """
     # Collect all app and developer names
     names_to_remove = set()

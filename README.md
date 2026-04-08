@@ -1,3 +1,17 @@
+---
+title: ASO Workflow - App Store Optimization Analysis Pipeline
+description: A modular pipeline for competitive intelligence in App Store Optimization
+author: ASO Team
+date: 2026-04-08
+version: 1.0
+keywords:
+  - ASO
+  - app-store-optimization
+  - competitive-intelligence
+  - keyword-analysis
+  - a-b-testing
+---
+
 # ASO Workflow - App Store Optimization Analysis Pipeline
 
 A modular pipeline for competitive intelligence in App Store Optimization (ASO). Designed to identify optimization opportunities through keyword gap analysis and A/B testing intelligence.
@@ -369,6 +383,99 @@ The analysis guides serve as detailed prompts for your AI agent:
 - [Track B — A/B Test Intelligence Guide](reference_documents/track_b_ab_test_inference/analysis_guide.md) — Guidelines for interpreting competitor testing behavior and extracting strategy signals
 
 ---
+
+## 8. Project Structure
+
+```
+ASO_AI_Workflow/
+├── README.md                                 # This file
+├── requirements.txt                          # Python dependencies
+├── aso_workflow/
+│   ├── __init__.py                          # Package initialization
+│   ├── config.py                            # Central configuration
+│   ├── run_fetcher.py                       # Entry point: Steps 1-3
+│   ├── run_track_a.py                       # Entry point: Step 4
+│   ├── run_track_b.py                       # Entry point: Step 5
+│   ├── fetchers/                            # Data fetch modules
+│   │   ├── __init__.py
+│   │   ├── metadata.py                      # Metadata & competitor extraction
+│   │   └── keywords.py                      # Keyword ranking fetcher
+│   ├── transformers/                        # Data transformation modules
+│   │   ├── __init__.py
+│   │   ├── track_a.py                       # Keyword gap analysis
+│   │   └── track_b.py                       # A/B test history analysis
+│   └── data/
+│       ├── raw/                             # Raw API responses
+│       │   ├── competitors/                 # Competitor metadata & history
+│       │   ├── keyword_rankings/            # Ranking batch files
+│       │   └── screenshot_hashes/           # Cached perceptual hashes
+│       └── processed/                       # Final analysis output JSON files
+├── reference_documents/                     # AI agent prompts & guides
+│   ├── track_a_keyword_gaps/
+│   │   └── analysis_guide.md                # Track A analysis framework
+│   └── track_b_ab_test_inference/
+│       └── analysis_guide.md                # Track B analysis framework
+├── AppTweak_Documentation_Links.md          # API endpoint reference
+└── .env                                     # API keys (not in repo)
+```
+
+---
+
+## 9. Troubleshooting
+
+### Common Issues
+
+**Issue:** `APPTWEAK_API_KEY not found in .env file`
+- **Solution:** Create `.env` in the `aso_workflow/` directory with `APPTWEAK_API_KEY=your_key`
+
+**Issue:** `No data found for keyword rankings`
+- **Solution:** Ensure Track A seed generation succeeded. Check logs for blocked keywords or API errors.
+
+**Issue:** Screenshots not comparing correctly in Track B
+- **Solution:** Ensure PIL and imagehash libraries are installed: `pip install Pillow imagehash`. The pipeline falls back to URL comparison if image libraries are unavailable.
+
+**Issue:** Groq filtering removes too many keywords
+- **Solution:** The LLM filter is optional. Run Track A without it by editing `config.py` (set `GROQ_API_KEY` to empty).
+
+---
+
+## 10. Contributing & Future Extensions
+
+### Adding New Analysis Tracks
+
+The modular architecture makes it easy to add new analysis capabilities:
+
+1. Create a new transformer in `aso_workflow/transformers/` (e.g., `track_c.py`)
+2. Create an entry point script `run_track_c.py`
+3. Add a reference document in `reference_documents/track_c/analysis_guide.md`
+4. Reuse existing fetchers for data gathering
+
+### Improving Competitor Selection
+
+To refine how competitors are selected:
+- Edit `extract_competitors()` in `aso_workflow/fetchers/metadata.py`
+- Modify `PRIMARY_TIER_COUNT` and `TOP_COMPETITORS` in `config.py`
+
+### Extending Transformation Logic
+
+To add new metrics or analysis:
+- Edit transformation functions in `aso_workflow/transformers/track_*.py`
+- Enhance the output JSON schema as needed
+- Update the corresponding `analysis_guide.md` reference document
+
+---
+
+## 11. Credits & Resources
+
+- **AppTweak API Documentation:** https://developers.apptweak.com/
+- **ASO Best Practices:** Consult industry guides on App Store Optimization
+- **AI Agent Prompting:** Reference documents designed for use with Claude or similar LLMs
+
+---
+
+## License
+
+This project is provided as-is for ASO and competitive intelligence analysis. Ensure you have appropriate API access and comply with all data usage agreements.
 
 
 

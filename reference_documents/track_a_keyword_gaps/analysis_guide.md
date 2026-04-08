@@ -1,3 +1,16 @@
+---
+title: Track A - Keyword Gap Analysis Guide
+description: Framework for analyzing and prioritizing keyword gap opportunities
+track: Track A
+purpose: AI Agent Reference Document
+audience: ASO Specialists, Product Managers
+output_format: HTML Report with embedded charts
+keywords:
+  - keyword-gaps
+  - aso-strategy
+  - competitive-analysis
+---
+
 # Keyword Gap Analysis Guide
 
 ## Role & Strategic Context

@@ -1,3 +1,18 @@
+---
+title: Track B - A/B Test Intelligence Analysis Guide
+description: Framework for analyzing competitor A/B testing behavior and extracting strategy signals
+track: Track B
+platform: Android
+purpose: AI Agent Reference Document
+audience: ASO Specialists, Product Managers
+output_format: HTML Report with embedded charts
+keywords:
+  - ab-testing
+  - creative-testing
+  - aso-strategy
+  - competitive-analysis
+---
+
 # PART 1: A/B Test & Strategy Intelligence — ANALYSIS GUIDE
 
 ## Role

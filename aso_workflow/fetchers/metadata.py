@@ -33,20 +33,37 @@ class AppTweakClient:
     """Simple AppTweak API client with header management."""
 
     def __init__(self, api_key: str):
+        """Initialize AppTweak API client with authentication key.
+        
+        Args:
+            api_key: AppTweak API key for authentication
+        """
         self.api_key = api_key
         self.base_url = config.APPTWEAK_BASE_URL
 
     def _get_headers(self) -> Dict[str, str]:
-        """Build headers with API key."""
+        """Build HTTP headers with API key for AppTweak requests.
+        
+        Returns:
+            Dict of headers including X-Apptweak-Key and Accept fields
+        """
         return {
             "X-Apptweak-Key": self.api_key,
             "Accept": "application/json",
         }
 
     def get(self, endpoint: str, params: Optional[Dict] = None) -> Dict[str, Any]:
-        """
-        Make a GET request to the AppTweak API.
-        Raises an error if the response is not 200.
+        """Make a GET request to the AppTweak API.
+        
+        Args:
+            endpoint: API endpoint path (relative to base URL)
+            params: Query parameters to include in request
+        
+        Returns:
+            Parsed JSON response as dict
+        
+        Raises:
+            RuntimeError: If response status code is not 200
         """
         url = f"{self.base_url}/{endpoint}"
         

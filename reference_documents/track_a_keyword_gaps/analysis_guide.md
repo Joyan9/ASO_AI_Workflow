@@ -79,10 +79,7 @@ Render the summary scorecards (e.g., Total Gaps, Critical Threats, Avg KEI) and 
 - **Filter:** Show only `rank <= 50` and `relevancy >= 40`.
 - **Highlight:** Rows where Primary Count = 3.
 
-### 5. Speculative / Emerging Opportunities
-Table for long-tail terms (used by 2+ competitors) that are currently "Low Volume" but show a rising trend in the dating category (e.g., "AI matchmaking", "Verified profiles").
-
-### 6. Competitive Landscape
+### 5. Competitive Landscape
 Table: Competitor | Tier | Unique Gap Terms.
 **Narrative:** Which competitor is "owning" the search voice in this specific territory?
 
@@ -188,17 +185,20 @@ Before generating the HTML, commit to a **distinctive aesthetic direction**:
 * **Dataset Swapping:** The `Chart.js` instance must `.destroy()` and re-initialize with the active platform's top 10 terms.
 * **CSV Export:** Filename must dynamically update to `keyword_gaps_IOS_{date}.csv` or `keyword_gaps_ANDROID_{date}.csv`.
 
+### 3e. Section 5: Competitive Landscape
+* **Narrative:** Dynamically identify which competitor is "owning" the search voice in this territory.
+* **Table rendering:** Display competitor tier, title, and unique gap term count.
+
 ## 4. Layout Hierarchy (Refined)
 ```
 <nav> (Sidebar)
   #platform-switcher (iOS | Android Toggle)
-  #nav-links (Summary, Recommendations, Gaps, Long-tail, Landscape)
+  #nav-links (Summary, Recommendations, Gaps, Landscape)
 <main>
   #hero (Platform-specific metadata)
   #summary-row (Scorecards + Executive Summary prose, side by side)
   #recommendations-view (5 uniform cards + 3 Benchmark Guardrails)
   #gap-analysis-view (Chart + Filterable Table)
-  #longtail-view (Secondary table)
   #landscape-view (Competitor table)
 </main>
 ```

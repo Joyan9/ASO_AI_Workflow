@@ -608,15 +608,6 @@
     border: 1px solid var(--border);
   }
 
-  /* ─── LONG TAIL / SPECULATIVE ─── */
-  .speculative-note {
-    font-size: 0.83rem;
-    color: var(--text-secondary);
-    margin-bottom: 20px;
-    line-height: 1.6;
-    max-width: 680px;
-  }
-
   /* ─── LANDSCAPE ─── */
   .landscape-narrative {
     font-size: 0.87rem;
@@ -716,8 +707,7 @@
   <a class="nav-link" href="#summary-section"><span class="nav-icon">◉</span> Summary</a>
   <a class="nav-link" href="#rec-section"><span class="nav-icon">◎</span> Recommendations</a>
   <a class="nav-link" href="#gap-section"><span class="nav-icon">◐</span> Gap Analysis</a>
-  <a class="nav-link" href="#longtail-section"><span class="nav-icon">◑</span> Emerging Ops</a>
-  <a class="nav-link" href="#landscape-section"><span class="nav-icon">◒</span> Landscape</a>
+  <a class="nav-link" href="#landscape-section"><span class="nav-icon">◑</span> Landscape</a>
   <a class="nav-link" href="#glossary"><span class="nav-icon">◓</span> Glossary</a>
 
   <div class="sidebar-footer">
@@ -792,30 +782,9 @@
     </div>
   </section>
 
-  <!-- SPECULATIVE -->
-  <section id="longtail-section" class="anim-delay-4">
-    <div class="section-label">05 — Emerging Opportunities</div>
-    <div class="section-title">Speculative &amp; Long-Tail Terms</div>
-    <p class="speculative-note" id="speculative-note"></p>
-    <div class="table-outer">
-      <table>
-        <thead>
-          <tr>
-            <th>Term</th>
-            <th>Signal Type</th>
-            <th>Competitor Coverage</th>
-            <th>Trend Direction</th>
-            <th>Recommended Placement</th>
-          </tr>
-        </thead>
-        <tbody id="longtail-tbody"></tbody>
-      </table>
-    </div>
-  </section>
-
   <!-- LANDSCAPE -->
-  <section id="landscape-section" class="anim-delay-5">
-    <div class="section-label">06 — Competitive Landscape</div>
+  <section id="landscape-section" class="anim-delay-4">
+    <div class="section-label">05 — Competitive Landscape</div>
     <div class="section-title">Who Owns the Search Voice</div>
     <div class="landscape-narrative" id="landscape-narrative"></div>
     <div class="table-outer">
@@ -972,13 +941,6 @@ const REPORT_DATA = {
       "Terms with Avg Relevancy below 35 are deprioritised; at Tinder's brand maturity, off-brand rankings generate low-conversion installs that distort quality metrics.",
       "A gap where all 3 Primary competitors rank constitutes a Critical Threat and overrides all other scoring thresholds in stack-ranking."
     ],
-    longtail: [
-      { term: "AI matchmaking",        signal: "Emerging Category Trend", coverage: "2+ secondary competitors", trend: "↑ Rising", placement: "iOS Keyword Field" },
-      { term: "verified profiles",     signal: "Trust Intent",            coverage: "1 primary (Bumble)",       trend: "↑ Rising", placement: "App Description (para 2)" },
-      { term: "meet local singles",    signal: "Geo + Intent Phrase",     coverage: "3+ secondary competitors", trend: "↑ Rising", placement: "iOS Keyword Field" },
-      { term: "real connection dating",signal: "Emotional Intent",        coverage: "2 secondary competitors",  trend: "↑ Rising", placement: "iOS Keyword Field" },
-      { term: "serious relationship",  signal: "Funnel Broadening",       coverage: "2 primary competitors",    trend: "→ Stable", placement: "App Description (para 1)" }
-    ],
     exec_summary: "The dominant gap theme on iOS is intent-matching failure: Tinder's metadata does not reflect how users search for its core product, leaving seven competitors — including all three primary rivals — to rank on 'date singles', the most relevant term in the dataset. The single most urgent implication is that a 93.1-relevancy term with a top competitor rank of #3 represents an indexed opportunity Tinder is categorically absent from, demanding immediate subtitle and keyword field action before the next App Store ranking cycle.",
     landscape_narrative: "On iOS, <strong>Badoo</strong> is unambiguously owning Tinder's search voice — it ranks for all four identified gap terms, including the highest-KEI term (video chat) and the highest-relevancy term (date singles). Therefore, Tinder's metadata strategy must specifically counter Badoo's breadth by targeting the same high-KEI, high-relevancy terms rather than exploring niche long-tail territory."
   },
@@ -1120,13 +1082,6 @@ const REPORT_DATA = {
       "Terms with fewer than 2 total competitors ranking (primary + secondary) are treated as emerging rather than established gaps — valuable for long-tail but not urgent for core metadata.",
       "Relevancy thresholds are applied at ≥ 35 for short description inclusion; terms below this threshold are relegated to long description body copy only."
     ],
-    longtail: [
-      { term: "inclusive dating app",    signal: "Values-Led Intent",    coverage: "2 primary competitors",    trend: "↑ Rising",  placement: "Short Description" },
-      { term: "LGBTQ+ dating",          signal: "Identity-Specific",     coverage: "2+ secondary competitors", trend: "↑ Rising",  placement: "Long Description (para 2)" },
-      { term: "AI matchmaking",         signal: "Emerging Category",     coverage: "1 secondary competitor",   trend: "↑ Rising",  placement: "Long Description (para 3)" },
-      { term: "dating for professionals",signal: "Intent Segmentation",  coverage: "1 secondary competitor",   trend: "→ Stable",  placement: "Long Description (para 3)" },
-      { term: "verified profiles",      signal: "Trust/Safety Signal",   coverage: "1 secondary (Boo)",        trend: "↑ Rising",  placement: "Long Description (para 1)" }
-    ],
     exec_summary: "The dominant gap theme on Android is identity and intent fragmentation: Tinder's metadata speaks to a generic dating user while competitors — especially Bumble — are systematically capturing the LGBTQ+, values-driven, and serious-intent segments that Tinder's product already serves. The single most urgent implication is that Bumble is ranking for three of the six identified gaps with strong relevancy scores, directly occupying search positions that Tinder's brand authority should make trivially accessible.",
     landscape_narrative: "On Android, <strong>Bumble</strong> is the dominant search-voice threat — ranking for 3 of 6 gap terms including 'inclusivity', 'lesbian', and 'meaningful connections'. Therefore, Tinder's Android metadata strategy must specifically counter Bumble's values-led positioning by incorporating inclusive and emotional-intent language into the Short Description and early description paragraphs."
   }
@@ -1165,7 +1120,6 @@ function renderAll() {
   renderRecommendations();
   renderChart();
   renderGapTable();
-  renderLongtail();
   renderLandscape();
 }
 
@@ -1340,23 +1294,6 @@ function renderGapTable() {
         </tr>
       `;
     }).join('');
-}
-
-// ─── LONGTAIL ─────────────────────────────────────────────────────────────────
-function renderLongtail() {
-  const d = REPORT_DATA[currentPlatform];
-  document.getElementById('speculative-note').textContent =
-    `The following terms are not yet present in the core gap dataset but show rising search intent in the US dating category. They represent a 3–6 month horizon opportunity for ${d.meta.platform} metadata expansion.`;
-
-  document.getElementById('longtail-tbody').innerHTML = d.longtail.map(t => `
-    <tr>
-      <td class="term-cell">${t.term}</td>
-      <td style="color:var(--accent);font-size:0.78rem;">${t.signal}</td>
-      <td class="mono" style="font-size:0.78rem;">${t.coverage}</td>
-      <td style="color:${t.trend.startsWith('↑') ? 'var(--accent)' : 'var(--text-secondary)'};font-family:var(--font-mono);font-size:0.78rem;">${t.trend}</td>
-      <td style="font-size:0.78rem;color:var(--text-secondary);">${t.placement}</td>
-    </tr>
-  `).join('');
 }
 
 // ─── LANDSCAPE ───────────────────────────────────────────────────────────────

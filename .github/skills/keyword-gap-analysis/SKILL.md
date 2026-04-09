@@ -70,11 +70,7 @@ Recommendation types:
 - Filter: Show only rank ≤ 50 and relevancy ≥ 40
 - Highlight: Rows where Primary Count = 3
 
-### Section 5: Speculative/Emerging Opportunities
-- Table of long-tail terms (2+ competitors, low volume, rising trend)
-- Example: "AI matchmaking", "Verified profiles"
-
-### Section 6: Competitive Landscape
+### Section 5: Competitive Landscape
 - Table: Competitor | Tier | Unique Gap Terms
 - Narrative: Which competitor "owns" the search voice in this territory?
 

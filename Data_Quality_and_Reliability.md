@@ -1,6 +1,6 @@
 # Report Quality Assurance & Reliability
 
-The following documents lists some of the ways through which we can gurantee the validness of the AI-generated analysis report.
+The following documents lists some of the ways through which we can guarantee the validness of the AI-generated analysis report.
 
 ### **1. Schema Validation**
 

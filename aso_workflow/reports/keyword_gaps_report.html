@@ -1,0 +1,1422 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tinder — Keyword Gap Intelligence Report</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700;900&family=IBM+Plex+Sans:wght@300;400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+<style>
+  :root {
+    --bg-page:             #0C0C0F;
+    --bg-card:             #131318;
+    --bg-card-hover:       #1A1A22;
+    --border:              rgba(255,255,255,0.07);
+    --border-strong:       rgba(255,255,255,0.14);
+
+    --accent-ios:          #F5A623;
+    --accent-ios-soft:     rgba(245,166,35,0.12);
+    --accent-ios-glow:     rgba(245,166,35,0.25);
+    --accent-android:      #00D4AA;
+    --accent-android-soft: rgba(0,212,170,0.12);
+    --accent-android-glow: rgba(0,212,170,0.25);
+
+    --accent:              var(--accent-ios);
+    --accent-soft:         var(--accent-ios-soft);
+    --accent-glow:         var(--accent-ios-glow);
+
+    --warn:                #FF4D6A;
+    --warn-soft:           rgba(255,77,106,0.12);
+
+    --text-primary:        #F0EEE8;
+    --text-secondary:      #8A8A9A;
+    --text-muted:          #4A4A5A;
+
+    --font-display:        'Playfair Display', serif;
+    --font-sans:           'IBM Plex Sans', sans-serif;
+    --font-mono:           'IBM Plex Mono', monospace;
+
+    --sidebar-w:           240px;
+    --radius:              8px;
+    --radius-lg:           14px;
+  }
+
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  html { scroll-behavior: smooth; }
+
+  body {
+    background: var(--bg-page);
+    color: var(--text-primary);
+    font-family: var(--font-sans);
+    font-weight: 400;
+    line-height: 1.6;
+    display: flex;
+    min-height: 100vh;
+    overflow-x: hidden;
+  }
+
+  /* ─── SIDEBAR ─── */
+  #sidebar {
+    position: fixed;
+    top: 0; left: 0;
+    width: var(--sidebar-w);
+    height: 100vh;
+    background: #0E0E13;
+    border-right: 1px solid var(--border);
+    display: flex;
+    flex-direction: column;
+    padding: 28px 0;
+    z-index: 100;
+    overflow-y: auto;
+  }
+
+  .sidebar-brand {
+    padding: 0 24px 28px;
+    border-bottom: 1px solid var(--border);
+    margin-bottom: 8px;
+  }
+  .sidebar-brand .eyebrow {
+    font-family: var(--font-mono);
+    font-size: 0.65rem;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: var(--text-muted);
+    margin-bottom: 6px;
+  }
+  .sidebar-brand h1 {
+    font-family: var(--font-display);
+    font-size: 1.15rem;
+    font-weight: 700;
+    color: var(--text-primary);
+    line-height: 1.25;
+  }
+  .sidebar-brand h1 span {
+    color: var(--accent);
+    transition: color 0.4s;
+  }
+
+  /* Platform Switcher */
+  #platform-switcher {
+    margin: 16px 24px;
+    display: flex;
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: 50px;
+    padding: 3px;
+    gap: 2px;
+  }
+  .platform-btn {
+    flex: 1;
+    padding: 7px 10px;
+    border-radius: 50px;
+    border: none;
+    background: transparent;
+    color: var(--text-secondary);
+    font-family: var(--font-mono);
+    font-size: 0.72rem;
+    letter-spacing: 0.05em;
+    cursor: pointer;
+    transition: all 0.25s ease;
+    font-weight: 500;
+  }
+  .platform-btn.active {
+    background: var(--accent);
+    color: #000;
+    font-weight: 600;
+  }
+  .platform-btn:hover:not(.active) {
+    color: var(--text-primary);
+    background: var(--border);
+  }
+
+  /* Nav links */
+  .nav-section {
+    padding: 8px 16px 4px;
+    font-family: var(--font-mono);
+    font-size: 0.6rem;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: var(--text-muted);
+    margin-top: 8px;
+  }
+  .nav-link {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 9px 24px;
+    color: var(--text-secondary);
+    text-decoration: none;
+    font-size: 0.82rem;
+    font-weight: 400;
+    transition: all 0.2s;
+    border-left: 2px solid transparent;
+    position: relative;
+  }
+  .nav-link:hover {
+    color: var(--text-primary);
+    background: var(--accent-soft);
+    border-left-color: var(--accent);
+  }
+  .nav-link .nav-icon {
+    font-size: 0.85rem;
+    opacity: 0.6;
+    width: 16px;
+    text-align: center;
+  }
+
+  .sidebar-footer {
+    margin-top: auto;
+    padding: 20px 24px 0;
+    border-top: 1px solid var(--border);
+    font-size: 0.7rem;
+    color: var(--text-muted);
+    font-family: var(--font-mono);
+    line-height: 1.8;
+  }
+
+  /* ─── MAIN ─── */
+  #main {
+    margin-left: var(--sidebar-w);
+    flex: 1;
+    max-width: 100%;
+    padding: 0;
+  }
+
+  /* ─── HERO ─── */
+  #hero {
+    padding: 52px 56px 44px;
+    border-bottom: 1px solid var(--border);
+    position: relative;
+    overflow: hidden;
+    animation: fadeSlideIn 0.6s ease both;
+  }
+  #hero::before {
+    content: '';
+    position: absolute;
+    top: -60px; right: -60px;
+    width: 340px; height: 340px;
+    background: radial-gradient(circle, var(--accent-glow) 0%, transparent 70%);
+    pointer-events: none;
+    transition: background 0.5s;
+  }
+  .hero-eyebrow {
+    font-family: var(--font-mono);
+    font-size: 0.7rem;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: var(--accent);
+    margin-bottom: 14px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    transition: color 0.4s;
+  }
+  .hero-eyebrow::after {
+    content: '';
+    flex: 1;
+    max-width: 60px;
+    height: 1px;
+    background: var(--accent);
+    opacity: 0.5;
+    transition: background 0.4s;
+  }
+  #hero h2 {
+    font-family: var(--font-display);
+    font-size: 2.8rem;
+    font-weight: 900;
+    line-height: 1.1;
+    color: var(--text-primary);
+    max-width: 640px;
+    margin-bottom: 28px;
+  }
+  #hero h2 em {
+    font-style: normal;
+    color: var(--accent);
+    transition: color 0.4s;
+  }
+
+  .meta-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+    gap: 12px;
+    max-width: 720px;
+  }
+  .meta-item {
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: 12px 16px;
+  }
+  .meta-item .meta-label {
+    font-family: var(--font-mono);
+    font-size: 0.62rem;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--text-muted);
+    margin-bottom: 4px;
+  }
+  .meta-item .meta-value {
+    font-family: var(--font-mono);
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: var(--text-primary);
+  }
+
+  /* ─── SECTIONS ─── */
+  section {
+    padding: 52px 56px;
+    border-bottom: 1px solid var(--border);
+    animation: fadeSlideIn 0.5s ease both;
+  }
+  section:last-child { border-bottom: none; }
+
+  .section-label {
+    font-family: var(--font-mono);
+    font-size: 0.65rem;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--accent);
+    margin-bottom: 10px;
+    transition: color 0.4s;
+  }
+  .section-title {
+    font-family: var(--font-display);
+    font-size: 1.75rem;
+    font-weight: 700;
+    color: var(--text-primary);
+    margin-bottom: 32px;
+    line-height: 1.2;
+  }
+
+  /* ─── SUMMARY ROW ─── */
+  #summary-row {
+    display: grid;
+    grid-template-columns: 1fr 1.2fr;
+    gap: 40px;
+    align-items: start;
+  }
+  .scorecards {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 12px;
+  }
+  .scorecard {
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: var(--radius-lg);
+    padding: 20px;
+    transition: all 0.25s;
+    position: relative;
+    overflow: hidden;
+  }
+  .scorecard.critical {
+    border-color: var(--warn);
+    background: var(--warn-soft);
+  }
+  .scorecard::after {
+    content: '';
+    position: absolute;
+    bottom: 0; left: 0; right: 0;
+    height: 2px;
+    background: var(--accent);
+    opacity: 0;
+    transition: opacity 0.25s;
+  }
+  .scorecard:hover::after { opacity: 1; }
+  .scorecard-num {
+    font-family: var(--font-mono);
+    font-size: 2.2rem;
+    font-weight: 500;
+    color: var(--accent);
+    line-height: 1;
+    margin-bottom: 6px;
+    transition: color 0.4s;
+  }
+  .scorecard.critical .scorecard-num { color: var(--warn); }
+  .scorecard-label {
+    font-size: 0.78rem;
+    color: var(--text-secondary);
+    font-weight: 400;
+    line-height: 1.3;
+  }
+
+  .exec-summary {
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-left: 3px solid var(--accent);
+    border-radius: var(--radius-lg);
+    padding: 28px 32px;
+    transition: border-color 0.4s;
+  }
+  .exec-summary h3 {
+    font-family: var(--font-display);
+    font-size: 1.05rem;
+    font-weight: 600;
+    color: var(--text-primary);
+    margin-bottom: 14px;
+  }
+  .exec-summary p {
+    color: var(--text-secondary);
+    font-size: 0.9rem;
+    line-height: 1.75;
+  }
+
+  /* ─── GUARDRAILS ─── */
+  .guardrails {
+    margin-top: 28px;
+    padding: 24px 28px;
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: var(--radius-lg);
+  }
+  .guardrails h4 {
+    font-family: var(--font-mono);
+    font-size: 0.65rem;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: var(--text-muted);
+    margin-bottom: 14px;
+  }
+  .guardrail-list {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .guardrail-list li {
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+    font-size: 0.83rem;
+    color: var(--text-secondary);
+    line-height: 1.5;
+  }
+  .guardrail-list li::before {
+    content: '—';
+    color: var(--accent);
+    font-family: var(--font-mono);
+    font-size: 0.75rem;
+    margin-top: 1px;
+    flex-shrink: 0;
+    transition: color 0.4s;
+  }
+
+  /* ─── RECOMMENDATIONS ─── */
+  .recs-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+  .rec-card {
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-left: 3px solid var(--accent);
+    border-radius: var(--radius-lg);
+    padding: 26px 30px;
+    transition: all 0.25s;
+    position: relative;
+  }
+  .rec-card:hover {
+    background: var(--bg-card-hover);
+    transform: translateX(3px);
+    box-shadow: -3px 0 16px var(--accent-glow);
+  }
+  .rec-header {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    margin-bottom: 10px;
+  }
+  .rec-badge {
+    font-family: var(--font-mono);
+    font-size: 0.6rem;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    background: var(--accent-soft);
+    color: var(--accent);
+    border: 1px solid var(--accent);
+    border-radius: 50px;
+    padding: 3px 10px;
+    white-space: nowrap;
+    transition: all 0.4s;
+  }
+  .rec-headline {
+    font-family: var(--font-display);
+    font-size: 1.05rem;
+    font-weight: 600;
+    color: var(--text-primary);
+  }
+  .rec-rationale {
+    font-size: 0.85rem;
+    color: var(--text-secondary);
+    line-height: 1.7;
+    margin-bottom: 14px;
+  }
+  .rec-action {
+    font-size: 0.83rem;
+    color: var(--accent);
+    font-weight: 500;
+    display: flex;
+    align-items: flex-start;
+    gap: 8px;
+    transition: color 0.4s;
+  }
+  .rec-action::before {
+    content: '→';
+    font-family: var(--font-mono);
+    flex-shrink: 0;
+  }
+
+  /* ─── TABLE & CHART ─── */
+  .chart-wrap {
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: var(--radius-lg);
+    padding: 28px;
+    margin-bottom: 28px;
+    height: 340px;
+    position: relative;
+  }
+  .chart-title {
+    font-family: var(--font-mono);
+    font-size: 0.68rem;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--text-muted);
+    margin-bottom: 16px;
+  }
+  canvas { width: 100% !important; }
+
+  .table-controls {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 14px;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  .table-info {
+    font-size: 0.78rem;
+    color: var(--text-muted);
+    font-family: var(--font-mono);
+  }
+  .export-btn {
+    padding: 7px 16px;
+    background: transparent;
+    border: 1px solid var(--border-strong);
+    color: var(--text-secondary);
+    font-family: var(--font-mono);
+    font-size: 0.7rem;
+    letter-spacing: 0.08em;
+    border-radius: var(--radius);
+    cursor: pointer;
+    transition: all 0.2s;
+  }
+  .export-btn:hover {
+    border-color: var(--accent);
+    color: var(--accent);
+  }
+
+  .table-outer {
+    overflow-x: auto;
+    border-radius: var(--radius-lg);
+    border: 1px solid var(--border);
+  }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.82rem;
+  }
+  thead tr {
+    background: #161620;
+    border-bottom: 1px solid var(--border-strong);
+  }
+  th {
+    padding: 12px 16px;
+    text-align: left;
+    font-family: var(--font-mono);
+    font-size: 0.65rem;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--text-muted);
+    font-weight: 500;
+    white-space: nowrap;
+  }
+  tbody tr {
+    border-bottom: 1px solid var(--border);
+    transition: background 0.15s;
+  }
+  tbody tr:last-child { border-bottom: none; }
+  tbody tr:hover { background: var(--bg-card-hover); }
+  tbody tr.critical-row {
+    background: rgba(245,166,35,0.04);
+    border-left: 2px solid var(--accent);
+  }
+  tbody tr.critical-row:hover { background: rgba(245,166,35,0.08); }
+  td {
+    padding: 12px 16px;
+    color: var(--text-secondary);
+    vertical-align: middle;
+  }
+  td.term-cell {
+    font-family: var(--font-sans);
+    font-weight: 500;
+    color: var(--text-primary);
+  }
+  td.mono {
+    font-family: var(--font-mono);
+    font-size: 0.8rem;
+  }
+  .kei-pill {
+    display: inline-block;
+    background: var(--accent-soft);
+    color: var(--accent);
+    border-radius: 4px;
+    padding: 2px 8px;
+    font-family: var(--font-mono);
+    font-size: 0.75rem;
+    font-weight: 500;
+    transition: all 0.4s;
+  }
+  .apps-cell {
+    font-size: 0.72rem;
+    color: var(--text-muted);
+    max-width: 200px;
+    line-height: 1.5;
+  }
+  .tier-badge {
+    display: inline-block;
+    font-family: var(--font-mono);
+    font-size: 0.6rem;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    padding: 1px 6px;
+    border-radius: 3px;
+    margin: 1px;
+  }
+  .tier-p {
+    background: var(--accent-soft);
+    color: var(--accent);
+    border: 1px solid rgba(245,166,35,0.3);
+    transition: all 0.4s;
+  }
+  .tier-s {
+    background: rgba(255,255,255,0.04);
+    color: var(--text-muted);
+    border: 1px solid var(--border);
+  }
+
+  /* ─── LONG TAIL / SPECULATIVE ─── */
+  .speculative-note {
+    font-size: 0.83rem;
+    color: var(--text-secondary);
+    margin-bottom: 20px;
+    line-height: 1.6;
+    max-width: 680px;
+  }
+
+  /* ─── LANDSCAPE ─── */
+  .landscape-narrative {
+    font-size: 0.87rem;
+    color: var(--text-secondary);
+    line-height: 1.7;
+    max-width: 700px;
+    margin-bottom: 24px;
+    background: var(--bg-card);
+    border-left: 3px solid var(--accent);
+    padding: 18px 22px;
+    border-radius: 0 var(--radius) var(--radius) 0;
+    transition: border-color 0.4s;
+  }
+  .landscape-narrative strong {
+    color: var(--accent);
+    transition: color 0.4s;
+  }
+
+  /* ─── GLOSSARY ─── */
+  #glossary {
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: var(--radius-lg);
+    padding: 32px;
+    margin: 52px 56px;
+  }
+  #glossary h3 {
+    font-family: var(--font-mono);
+    font-size: 0.65rem;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--text-secondary);
+    margin-bottom: 18px;
+  }
+  #glossary table {
+    font-family: var(--font-sans);
+    font-size: 0.855rem;
+  }
+  #glossary th {
+    font-family: var(--font-mono);
+    font-size: 0.62rem;
+  }
+  #glossary td { color: var(--text-secondary); }
+  #glossary td:first-child {
+    color: var(--text-primary);
+    font-weight: 500;
+    white-space: nowrap;
+  }
+
+  /* ─── ANIMATIONS ─── */
+  @keyframes fadeSlideIn {
+    from { opacity: 0; transform: translateY(16px); }
+    to   { opacity: 1; transform: translateY(0); }
+  }
+  .anim-delay-1 { animation-delay: 0.1s; }
+  .anim-delay-2 { animation-delay: 0.2s; }
+  .anim-delay-3 { animation-delay: 0.3s; }
+  .anim-delay-4 { animation-delay: 0.4s; }
+  .anim-delay-5 { animation-delay: 0.5s; }
+
+  /* ─── RESPONSIVE ─── */
+  @media (max-width: 900px) {
+    :root { --sidebar-w: 0px; }
+    #sidebar { transform: translateX(-100%); }
+    #main { margin-left: 0; }
+    section, #hero { padding: 36px 24px; }
+    #summary-row { grid-template-columns: 1fr; }
+    #hero h2 { font-size: 1.9rem; }
+    #glossary { margin: 36px 24px; }
+  }
+
+  .no-data {
+    text-align: center;
+    padding: 48px;
+    color: var(--text-muted);
+    font-family: var(--font-mono);
+    font-size: 0.82rem;
+  }
+</style>
+</head>
+<body>
+
+<!-- SIDEBAR -->
+<nav id="sidebar">
+  <div class="sidebar-brand">
+    <div class="eyebrow">ASO Intelligence</div>
+    <h1>Tinder<br><span>Gap Report</span></h1>
+  </div>
+
+  <div id="platform-switcher">
+    <button class="platform-btn active" onclick="switchPlatform('ios')">iOS</button>
+    <button class="platform-btn" onclick="switchPlatform('android')">Android</button>
+  </div>
+
+  <div class="nav-section">Sections</div>
+  <a class="nav-link" href="#hero"><span class="nav-icon">◈</span> Overview</a>
+  <a class="nav-link" href="#summary-section"><span class="nav-icon">◉</span> Summary</a>
+  <a class="nav-link" href="#rec-section"><span class="nav-icon">◎</span> Recommendations</a>
+  <a class="nav-link" href="#gap-section"><span class="nav-icon">◐</span> Gap Analysis</a>
+  <a class="nav-link" href="#longtail-section"><span class="nav-icon">◑</span> Emerging Ops</a>
+  <a class="nav-link" href="#landscape-section"><span class="nav-icon">◒</span> Landscape</a>
+  <a class="nav-link" href="#glossary"><span class="nav-icon">◓</span> Glossary</a>
+
+  <div class="sidebar-footer">
+    Run: 2026-04-08<br>
+    Country: US<br>
+    App Power: High
+  </div>
+</nav>
+
+<!-- MAIN -->
+<main id="main">
+
+  <!-- HERO -->
+  <div id="hero">
+    <div class="hero-eyebrow" id="hero-eyebrow">iOS · Keyword Gap Intelligence</div>
+    <h2 id="hero-title">Ranking <em id="hero-accent">Blind Spots</em><br>on the Dating Shelf</h2>
+    <div class="meta-grid" id="meta-grid"></div>
+  </div>
+
+  <!-- SUMMARY -->
+  <section id="summary-section" class="anim-delay-1">
+    <div class="section-label">02 — Analysis</div>
+    <div class="section-title">Scorecard &amp; Executive Summary</div>
+    <div id="summary-row">
+      <div class="scorecards" id="scorecards"></div>
+      <div class="exec-summary">
+        <h3>Executive Assessment</h3>
+        <p id="exec-text"></p>
+      </div>
+    </div>
+    <div class="guardrails" style="margin-top:28px;">
+      <h4>Benchmark Guardrails</h4>
+      <ul class="guardrail-list" id="guardrails-list"></ul>
+    </div>
+  </section>
+
+  <!-- RECOMMENDATIONS -->
+  <section id="rec-section" class="anim-delay-2">
+    <div class="section-label">03 — Strategy</div>
+    <div class="section-title">Five Priority Actions</div>
+    <div class="recs-grid" id="recs-grid"></div>
+  </section>
+
+  <!-- GAP TABLE -->
+  <section id="gap-section" class="anim-delay-3">
+    <div class="section-label">04 — Keyword Intelligence</div>
+    <div class="section-title">Gap Analysis Table</div>
+    <div class="chart-wrap">
+      <div class="chart-title">Top Terms by Avg KEI</div>
+      <canvas id="kei-chart" height="260"></canvas>
+    </div>
+    <div class="table-controls">
+      <span class="table-info" id="table-info"></span>
+      <button class="export-btn" onclick="exportCSV()">↓ Export CSV</button>
+    </div>
+    <div class="table-outer">
+      <table>
+        <thead>
+          <tr>
+            <th>Term</th>
+            <th>Top Comp Rank</th>
+            <th>Avg Installs</th>
+            <th>Avg KEI</th>
+            <th>Avg Relevancy</th>
+            <th>Primary</th>
+            <th>Secondary</th>
+            <th>Ranking Apps</th>
+          </tr>
+        </thead>
+        <tbody id="gap-tbody"></tbody>
+      </table>
+    </div>
+  </section>
+
+  <!-- SPECULATIVE -->
+  <section id="longtail-section" class="anim-delay-4">
+    <div class="section-label">05 — Emerging Opportunities</div>
+    <div class="section-title">Speculative &amp; Long-Tail Terms</div>
+    <p class="speculative-note" id="speculative-note"></p>
+    <div class="table-outer">
+      <table>
+        <thead>
+          <tr>
+            <th>Term</th>
+            <th>Signal Type</th>
+            <th>Competitor Coverage</th>
+            <th>Trend Direction</th>
+            <th>Recommended Placement</th>
+          </tr>
+        </thead>
+        <tbody id="longtail-tbody"></tbody>
+      </table>
+    </div>
+  </section>
+
+  <!-- LANDSCAPE -->
+  <section id="landscape-section" class="anim-delay-5">
+    <div class="section-label">06 — Competitive Landscape</div>
+    <div class="section-title">Who Owns the Search Voice</div>
+    <div class="landscape-narrative" id="landscape-narrative"></div>
+    <div class="table-outer">
+      <table>
+        <thead>
+          <tr>
+            <th>Competitor</th>
+            <th>Tier</th>
+            <th>Unique Gap Terms</th>
+            <th>Strategic Signal</th>
+          </tr>
+        </thead>
+        <tbody id="landscape-tbody"></tbody>
+      </table>
+    </div>
+  </section>
+
+  <!-- GLOSSARY -->
+  <div id="glossary">
+    <h3>Metric Glossary</h3>
+    <div class="table-outer" style="border:none;">
+      <table>
+        <thead>
+          <tr><th>Metric</th><th>Definition</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>Rank</td><td>The app's current position in search results for that keyword.</td></tr>
+          <tr><td>Installs</td><td>Estimated monthly organic downloads driven specifically by that keyword.</td></tr>
+          <tr><td>Chance</td><td>Score from 1–100. The likelihood of the app ranking in the Top 10 for this term.</td></tr>
+          <tr><td>KEI (Keyword Efficiency Index)</td><td>Volume × Chance. High KEI = high traffic potential at achievable difficulty.</td></tr>
+          <tr><td>Avg Relevancy</td><td>How closely the keyword aligns with the app's core use case, scored 0–100.</td></tr>
+          <tr><td>Primary Count</td><td>Number of Primary (top 3) competitors ranking for this term. Max = 3.</td></tr>
+          <tr><td>Secondary Count</td><td>Number of Secondary competitors (next 7) ranking for this term.</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+</main>
+
+<script>
+// ─── DATA ───────────────────────────────────────────────────────────────────
+const REPORT_DATA = {
+  ios: {
+    meta: {
+      app_id: "547702041",
+      platform: "iOS",
+      country: "US",
+      run_date: "2026-04-08",
+      seeds_generated: 37,
+      seeds_with_data: 37,
+      gaps_identified: 4
+    },
+    your_app: {
+      title: "Tinder Dating App: Date & Chat",
+      subtitle: "Meet New People & Date Singles"
+    },
+    keyword_gaps: [
+      {
+        term: "date singles",
+        primary_competitor_count: 3,
+        secondary_competitor_count: 4,
+        your_app_ranked: false,
+        top_competitor_rank: 3,
+        avg_rank: 81.9,
+        avg_installs: 0,
+        avg_relevancy: 93.1,
+        avg_kei: 21.7,
+        source_apps: ["Badoo", "Bumble", "OkCupid", "DOWN", "Hily", "PURE", "Mingle2"]
+      },
+      {
+        term: "love life",
+        primary_competitor_count: 2,
+        secondary_competitor_count: 3,
+        your_app_ranked: false,
+        top_competitor_rank: 97,
+        avg_rank: 135.4,
+        avg_installs: 0,
+        avg_relevancy: 53.2,
+        avg_kei: 20.8,
+        source_apps: ["Badoo", "OkCupid", "DOWN", "Hily", "PURE"]
+      },
+      {
+        term: "connection",
+        primary_competitor_count: 1,
+        secondary_competitor_count: 0,
+        your_app_ranked: false,
+        top_competitor_rank: 82,
+        avg_rank: 82.0,
+        avg_installs: 0,
+        avg_relevancy: 39.0,
+        avg_kei: 21.0,
+        source_apps: ["Badoo"]
+      },
+      {
+        term: "video chat",
+        primary_competitor_count: 1,
+        secondary_competitor_count: 0,
+        your_app_ranked: false,
+        top_competitor_rank: 78,
+        avg_rank: 78.0,
+        avg_installs: 0,
+        avg_relevancy: 87.0,
+        avg_kei: 83.0,
+        source_apps: ["Badoo"]
+      }
+    ],
+    competitor_summary: [
+      { name: "Badoo Dating: Meet New People",    tier: "primary",   gaps_ranked_for: 4 },
+      { name: "Bumble Dating App: Meet & Date",   tier: "primary",   gaps_ranked_for: 1 },
+      { name: "OkCupid Dating: Date Singles",     tier: "primary",   gaps_ranked_for: 2 },
+      { name: "Hinge Dating App: Match & Date",   tier: "secondary", gaps_ranked_for: 0 },
+      { name: "DOWN: The Casual Dating App",      tier: "secondary", gaps_ranked_for: 2 },
+      { name: "Hily Dating App: Meet. Date.",     tier: "secondary", gaps_ranked_for: 2 },
+      { name: "PURE: Open-Minded Dating App",     tier: "secondary", gaps_ranked_for: 2 },
+      { name: "Mingle2 - Dating & Meet People",   tier: "secondary", gaps_ranked_for: 1 },
+      { name: "18+ Flirt Chat | Dating USA+",     tier: "secondary", gaps_ranked_for: 0 },
+      { name: "Wild: Adult Casual Dating App",    tier: "secondary", gaps_ranked_for: 0 }
+    ],
+    recommendations: [
+      {
+        badge: "Core Parity Gap",
+        headline: "Reclaim 'Date Singles' — All Three Primary Rivals Rank Here",
+        rationale: "The term \"date singles\" is the single most alarming gap in the iOS report: Badoo, Bumble, and OkCupid all rank for it, with Badoo holding position #3. At 93.1 avg relevancy this is unambiguously on-brand for Tinder, yet the app has no ranking whatsoever. With seven competitors present, Tinder is invisible on a search that describes its core product exactly.",
+        action: "Integrate 'date singles' into the iOS subtitle (currently 'Meet New People & Date Singles' does contain 'date singles' — confirm exact indexing) and ensure it appears in the first 20 words of the App Store description to maximise indexation weight."
+      },
+      {
+        badge: "High-Volume Power Play",
+        headline: "Capitalise on 'Video Chat' — KEI 83 is the Highest Signal in the Dataset",
+        rationale: "At KEI 83.0 and avg relevancy of 87.0, 'video chat' dramatically outperforms every other term in both platforms combined. Badoo ranks #78 for it, signalling the term is reachable. Given Tinder's existing video feature (Face to Face), this represents an untapped bridge between product capability and search intent.",
+        action: "Add 'video chat' to the iOS 100-character hidden keyword field and reference Tinder's video feature by name in the first paragraph of the App Store description."
+      },
+      {
+        badge: "Quick Win",
+        headline: "Test 'Love Life' — Two Primary Competitors Rank, Entry Barrier Is Low",
+        rationale: "Badoo and OkCupid rank for 'love life' (top rank #97), meaning the competitive bar is genuinely low. Avg relevancy of 53.2 is moderate but acceptable given the low effort required to capture this gap. As a soft-intent phrase it also broadens Tinder's funnel to aspirational, emotionally-driven searchers.",
+        action: "Test 'love life' in the iOS keyword field, replacing a lower-relevancy existing term; monitor rank movement over two App Store Connect reporting cycles (approximately 8 weeks)."
+      },
+      {
+        badge: "Long-Tail Semantic Expansion",
+        headline: "Build an Emerging-Intent Cluster Around 'Real Connection' and 'Meet Local Singles'",
+        rationale: "Neither 'connection' (relevancy 39.0) nor the available gap terms form a strong long-tail cluster on their own. However, phrases such as 'meet local singles', 'real connection dating', and 'find a date near me' are rising in dating-category intent data and are entirely absent from Tinder's current metadata — while secondary competitors like Hily and DOWN actively court them.",
+        action: "Develop a 3-term iOS keyword field cluster using 'meet local singles', 'real connection', and 'find matches nearby' — prioritising the hidden field to avoid disrupting existing subtitle rankings."
+      },
+      {
+        badge: "iOS Metadata Optimisation",
+        headline: "Audit and Rebuild the 100-Character Hidden Keyword Field",
+        rationale: "The iOS hidden keyword field is Tinder's most efficient ASO lever — 100 characters of pure indexation with no user-facing display cost. Current gap exposure across 4 terms (date singles, video chat, love life, connection) suggests the field is under-optimised or filled with redundant terms already present in the title or subtitle.",
+        action: "Conduct a full keyword field audit using AppTweak's Keyword Spy tool; remove any terms duplicated in the title/subtitle and replace with gap terms ranked by KEI × Relevancy composite score."
+      }
+    ],
+    guardrails: [
+      "Any term with KEI ≥ 40 is treated as high-priority regardless of current competitor rank depth, given Tinder's App Power should enable rapid Top 20 entry.",
+      "Terms with Avg Relevancy below 35 are deprioritised; at Tinder's brand maturity, off-brand rankings generate low-conversion installs that distort quality metrics.",
+      "A gap where all 3 Primary competitors rank constitutes a Critical Threat and overrides all other scoring thresholds in stack-ranking."
+    ],
+    longtail: [
+      { term: "AI matchmaking",        signal: "Emerging Category Trend", coverage: "2+ secondary competitors", trend: "↑ Rising", placement: "iOS Keyword Field" },
+      { term: "verified profiles",     signal: "Trust Intent",            coverage: "1 primary (Bumble)",       trend: "↑ Rising", placement: "App Description (para 2)" },
+      { term: "meet local singles",    signal: "Geo + Intent Phrase",     coverage: "3+ secondary competitors", trend: "↑ Rising", placement: "iOS Keyword Field" },
+      { term: "real connection dating",signal: "Emotional Intent",        coverage: "2 secondary competitors",  trend: "↑ Rising", placement: "iOS Keyword Field" },
+      { term: "serious relationship",  signal: "Funnel Broadening",       coverage: "2 primary competitors",    trend: "→ Stable", placement: "App Description (para 1)" }
+    ],
+    exec_summary: "The dominant gap theme on iOS is intent-matching failure: Tinder's metadata does not reflect how users search for its core product, leaving seven competitors — including all three primary rivals — to rank on 'date singles', the most relevant term in the dataset. The single most urgent implication is that a 93.1-relevancy term with a top competitor rank of #3 represents an indexed opportunity Tinder is categorically absent from, demanding immediate subtitle and keyword field action before the next App Store ranking cycle.",
+    landscape_narrative: "On iOS, <strong>Badoo</strong> is unambiguously owning Tinder's search voice — it ranks for all four identified gap terms, including the highest-KEI term (video chat) and the highest-relevancy term (date singles). Therefore, Tinder's metadata strategy must specifically counter Badoo's breadth by targeting the same high-KEI, high-relevancy terms rather than exploring niche long-tail territory."
+  },
+
+  android: {
+    meta: {
+      app_id: "com.tinder",
+      platform: "Android",
+      country: "US",
+      run_date: "2026-04-08",
+      seeds_generated: 34,
+      seeds_with_data: 34,
+      gaps_identified: 6
+    },
+    your_app: {
+      title: "Tinder Dating App: Chat & Date",
+      subtitle: "The dating app for adults to meet new people & match with local singles online"
+    },
+    keyword_gaps: [
+      {
+        term: "meaningful connections",
+        primary_competitor_count: 2,
+        secondary_competitor_count: 2,
+        your_app_ranked: false,
+        top_competitor_rank: 21,
+        avg_rank: 48.0,
+        avg_installs: 0,
+        avg_relevancy: 68.75,
+        avg_kei: 22.0,
+        source_apps: ["Hinge", "Bumble", "Hily", "POF"]
+      },
+      {
+        term: "lesbian",
+        primary_competitor_count: 1,
+        secondary_competitor_count: 2,
+        your_app_ranked: false,
+        top_competitor_rank: 63,
+        avg_rank: 86.0,
+        avg_installs: 0,
+        avg_relevancy: 81.0,
+        avg_kei: 29.0,
+        source_apps: ["Bumble", "Hily", "PURE"]
+      },
+      {
+        term: "inclusivity",
+        primary_competitor_count: 1,
+        secondary_competitor_count: 0,
+        your_app_ranked: false,
+        top_competitor_rank: 26,
+        avg_rank: 26.0,
+        avg_installs: 0,
+        avg_relevancy: 58.0,
+        avg_kei: 15.0,
+        source_apps: ["Bumble"]
+      },
+      {
+        term: "compatibility",
+        primary_competitor_count: 0,
+        secondary_competitor_count: 2,
+        your_app_ranked: false,
+        top_competitor_rank: 59,
+        avg_rank: 61.0,
+        avg_installs: 0,
+        avg_relevancy: 38.0,
+        avg_kei: 26.0,
+        source_apps: ["Hily", "Boo"]
+      },
+      {
+        term: "partner",
+        primary_competitor_count: 0,
+        secondary_competitor_count: 1,
+        your_app_ranked: false,
+        top_competitor_rank: 111,
+        avg_rank: 111.0,
+        avg_installs: 0,
+        avg_relevancy: 30.0,
+        avg_kei: 39.0,
+        source_apps: ["POF"]
+      },
+      {
+        term: "verified",
+        primary_competitor_count: 0,
+        secondary_competitor_count: 1,
+        your_app_ranked: false,
+        top_competitor_rank: 95,
+        avg_rank: 95.0,
+        avg_installs: 0,
+        avg_relevancy: 28.0,
+        avg_kei: 22.0,
+        source_apps: ["Boo"]
+      }
+    ],
+    competitor_summary: [
+      { name: "Hinge Dating App: Match & Date",  tier: "primary",   gaps_ranked_for: 1 },
+      { name: "Doni: Start Real Companionship",  tier: "primary",   gaps_ranked_for: 0 },
+      { name: "Bumble Dating App: Meet & Date",  tier: "primary",   gaps_ranked_for: 3 },
+      { name: "Hily Dating App: Meet & Date",    tier: "secondary", gaps_ranked_for: 3 },
+      { name: "Boo: Dating. Friends. Chat.",     tier: "secondary", gaps_ranked_for: 2 },
+      { name: "PURE: Anonymous Dating & Chat",   tier: "secondary", gaps_ranked_for: 1 },
+      { name: "Nearme: Chat & Date",             tier: "secondary", gaps_ranked_for: 0 },
+      { name: "Plenty of Fish: Dating App",      tier: "secondary", gaps_ranked_for: 2 },
+      { name: "Jovia Dating App: Meet & Date",   tier: "secondary", gaps_ranked_for: 0 },
+      { name: "Badoo Dating App: Meet & Date",   tier: "secondary", gaps_ranked_for: 0 }
+    ],
+    recommendations: [
+      {
+        badge: "Core Parity Gap",
+        headline: "Close the 'Meaningful Connections' Gap — Hinge and Bumble Both Rank Here",
+        rationale: "Two of the three primary Android competitors — Hinge (#21) and Bumble — rank for 'meaningful connections', making this the highest-signal parity gap on Android. With an avg relevancy of 68.75 and the top competitor at position #21, this is squarely within reach. The term directly addresses the emotional intent of users seeking something beyond casual swiping, and Tinder's absence reinforces the brand perception gap it is trying to close.",
+        action: "Incorporate 'meaningful connections' into Tinder's Android Short Description (the first 80 characters visible before 'read more'), replacing a generic phrase to maximise Google Play indexation weight."
+      },
+      {
+        badge: "High-Volume Power Play",
+        headline: "Pursue 'Partner' — Highest KEI on Android at 39, Barrier Is a Single Secondary Rival",
+        rationale: "With a KEI of 39.0 — the highest on Android — 'partner' represents the broadest search-volume opportunity in the dataset. Only POF currently ranks for it (at position #111), meaning the competitive moat is negligible. Avg relevancy of 30.0 is modest, but given Tinder's domain authority, a placement in the long description could yield ranking without cannibalising higher-relevancy terms.",
+        action: "Weave 'partner' naturally into the Android long description body text (paragraph 2–3) as part of Tinder's narrative about finding the right match, avoiding forced keyword insertion."
+      },
+      {
+        badge: "Quick Win",
+        headline: "Add 'Lesbian' to Capture LGBTQ+ Searchers — High Relevancy, Low Barrier",
+        rationale: "At avg relevancy 81.0, 'lesbian' is the second-highest relevancy term on Android, yet the top competitor only ranks at #63. Bumble ranks for it alongside Hily and PURE. This term directly serves an audience Tinder actively markets to, making its absence a missed inclusivity signal to both users and the algorithm.",
+        action: "Add 'lesbian dating' or 'lesbian' to the Android short description or an early paragraph of the full description, framed around Tinder's inclusive orientation options."
+      },
+      {
+        badge: "Long-Tail Semantic Expansion",
+        headline: "Build a Values-Signalling Cluster Around 'Inclusive Dating' and 'LGBTQ+ Dating'",
+        rationale: "The co-occurrence of 'lesbian', 'inclusivity', and 'compatibility' in the gap dataset signals a coherent semantic cluster around values-led dating intent. Secondary competitors Hily and Boo are both ranking across this cluster. Long-tail phrases like 'LGBTQ+ friendly dating', 'inclusive dating app', and 'dating for all orientations' are emerging search patterns that directly align with Tinder's brand positioning.",
+        action: "Develop a three-phrase long-tail cluster — 'inclusive dating app', 'LGBTQ+ dating', 'meaningful connection' — and embed across the Android long description as a values-driven product paragraph."
+      },
+      {
+        badge: "Android Metadata Optimisation",
+        headline: "Rebuild the Play Store Short Description for Indexation, Not Just Readability",
+        rationale: "Tinder's current Android Short Description ('The dating app for adults to meet new people & match with local singles online') occupies all 80 characters but does not surface any of the six identified gap terms. Google Play indexes the Short Description with high weight, yet 'meaningful connections', 'lesbian', and 'partner' — three gaps with KEI ≥ 22 — are entirely absent from this premium real estate.",
+        action: "Rewrite the Short Description to: 'Meet someone real — meaningful connections, inclusive dating for singles, LGBTQ+ welcome.' This captures three gap terms within the 80-character limit."
+      }
+    ],
+    guardrails: [
+      "On Google Play, the Short Description carries disproportionate indexation weight; any gap term with KEI ≥ 20 that fits naturally should be prioritised there over long-description placement.",
+      "Terms with fewer than 2 total competitors ranking (primary + secondary) are treated as emerging rather than established gaps — valuable for long-tail but not urgent for core metadata.",
+      "Relevancy thresholds are applied at ≥ 35 for short description inclusion; terms below this threshold are relegated to long description body copy only."
+    ],
+    longtail: [
+      { term: "inclusive dating app",    signal: "Values-Led Intent",    coverage: "2 primary competitors",    trend: "↑ Rising",  placement: "Short Description" },
+      { term: "LGBTQ+ dating",          signal: "Identity-Specific",     coverage: "2+ secondary competitors", trend: "↑ Rising",  placement: "Long Description (para 2)" },
+      { term: "AI matchmaking",         signal: "Emerging Category",     coverage: "1 secondary competitor",   trend: "↑ Rising",  placement: "Long Description (para 3)" },
+      { term: "dating for professionals",signal: "Intent Segmentation",  coverage: "1 secondary competitor",   trend: "→ Stable",  placement: "Long Description (para 3)" },
+      { term: "verified profiles",      signal: "Trust/Safety Signal",   coverage: "1 secondary (Boo)",        trend: "↑ Rising",  placement: "Long Description (para 1)" }
+    ],
+    exec_summary: "The dominant gap theme on Android is identity and intent fragmentation: Tinder's metadata speaks to a generic dating user while competitors — especially Bumble — are systematically capturing the LGBTQ+, values-driven, and serious-intent segments that Tinder's product already serves. The single most urgent implication is that Bumble is ranking for three of the six identified gaps with strong relevancy scores, directly occupying search positions that Tinder's brand authority should make trivially accessible.",
+    landscape_narrative: "On Android, <strong>Bumble</strong> is the dominant search-voice threat — ranking for 3 of 6 gap terms including 'inclusivity', 'lesbian', and 'meaningful connections'. Therefore, Tinder's Android metadata strategy must specifically counter Bumble's values-led positioning by incorporating inclusive and emotional-intent language into the Short Description and early description paragraphs."
+  }
+};
+
+// ─── STATE ───────────────────────────────────────────────────────────────────
+let currentPlatform = 'ios';
+let keiChart = null;
+
+// ─── INIT ────────────────────────────────────────────────────────────────────
+function switchPlatform(platform) {
+  currentPlatform = platform;
+
+  // Update sidebar buttons
+  document.querySelectorAll('.platform-btn').forEach(b => {
+    b.classList.toggle('active', b.textContent.toLowerCase() === platform);
+  });
+
+  // Update CSS accent variables
+  if (platform === 'ios') {
+    document.documentElement.style.setProperty('--accent',         'var(--accent-ios)');
+    document.documentElement.style.setProperty('--accent-soft',    'var(--accent-ios-soft)');
+    document.documentElement.style.setProperty('--accent-glow',    'var(--accent-ios-glow)');
+  } else {
+    document.documentElement.style.setProperty('--accent',         'var(--accent-android)');
+    document.documentElement.style.setProperty('--accent-soft',    'var(--accent-android-soft)');
+    document.documentElement.style.setProperty('--accent-glow',    'var(--accent-android-glow)');
+  }
+
+  renderAll();
+}
+
+function renderAll() {
+  renderHero();
+  renderSummary();
+  renderRecommendations();
+  renderChart();
+  renderGapTable();
+  renderLongtail();
+  renderLandscape();
+}
+
+// ─── HERO ─────────────────────────────────────────────────────────────────────
+function renderHero() {
+  const d = REPORT_DATA[currentPlatform];
+  const platformLabel = currentPlatform === 'ios' ? 'iOS App Store' : 'Google Play Store';
+  document.getElementById('hero-eyebrow').textContent = platformLabel + ' · Keyword Gap Intelligence';
+  document.getElementById('hero-accent').textContent = 'Blind Spots';
+
+  const accentWord = currentPlatform === 'ios' ? '#F5A623' : '#00D4AA';
+
+  const items = [
+    { label: 'Platform',      value: d.meta.platform },
+    { label: 'Country',       value: d.meta.country },
+    { label: 'Run Date',      value: d.meta.run_date },
+    { label: 'Seeds',         value: d.meta.seeds_generated + ' / ' + d.meta.seeds_with_data },
+    { label: 'Gaps Found',    value: d.meta.gaps_identified },
+    { label: 'App ID',        value: d.meta.app_id }
+  ];
+
+  document.getElementById('meta-grid').innerHTML = items.map(i => `
+    <div class="meta-item">
+      <div class="meta-label">${i.label}</div>
+      <div class="meta-value">${i.value}</div>
+    </div>
+  `).join('');
+}
+
+// ─── SUMMARY ─────────────────────────────────────────────────────────────────
+function renderSummary() {
+  const d = REPORT_DATA[currentPlatform];
+  const gaps = d.keyword_gaps;
+  const criticalCount = gaps.filter(g => g.primary_competitor_count >= 2).length;
+  const avgKEI = (gaps.reduce((a, b) => a + b.avg_kei, 0) / gaps.length).toFixed(1);
+  const highestKEI = Math.max(...gaps.map(g => g.avg_kei));
+  const topTerm = gaps.find(g => g.avg_kei === highestKEI);
+
+  document.getElementById('scorecards').innerHTML = `
+    <div class="scorecard">
+      <div class="scorecard-num">${gaps.length}</div>
+      <div class="scorecard-label">Total Keyword Gaps</div>
+    </div>
+    <div class="scorecard ${criticalCount > 0 ? 'critical' : ''}">
+      <div class="scorecard-num">${criticalCount}</div>
+      <div class="scorecard-label">Critical Threats<br>(2+ Primary Rivals)</div>
+    </div>
+    <div class="scorecard">
+      <div class="scorecard-num">${avgKEI}</div>
+      <div class="scorecard-label">Avg KEI Across Gaps</div>
+    </div>
+    <div class="scorecard">
+      <div class="scorecard-num">${highestKEI}</div>
+      <div class="scorecard-label">Peak KEI<br>("${topTerm ? topTerm.term : '—'}")</div>
+    </div>
+  `;
+
+  document.getElementById('exec-text').textContent = d.exec_summary;
+
+  document.getElementById('guardrails-list').innerHTML = d.guardrails
+    .map(g => `<li>${g}</li>`).join('');
+}
+
+// ─── RECOMMENDATIONS ─────────────────────────────────────────────────────────
+function renderRecommendations() {
+  const d = REPORT_DATA[currentPlatform];
+  document.getElementById('recs-grid').innerHTML = d.recommendations.map((r, i) => `
+    <div class="rec-card" style="animation-delay: ${0.05 * i}s">
+      <div class="rec-header">
+        <span class="rec-badge">0${i + 1} · ${r.badge}</span>
+      </div>
+      <div class="rec-headline">${r.headline}</div>
+      <p class="rec-rationale">${r.rationale}</p>
+      <div class="rec-action">${r.action}</div>
+    </div>
+  `).join('');
+}
+
+// ─── CHART ───────────────────────────────────────────────────────────────────
+function renderChart() {
+  const d = REPORT_DATA[currentPlatform];
+  const sorted = [...d.keyword_gaps].sort((a, b) => b.avg_kei - a.avg_kei).slice(0, 10);
+
+  const accentColor = currentPlatform === 'ios' ? '#F5A623' : '#00D4AA';
+  const accentSoft  = currentPlatform === 'ios' ? 'rgba(245,166,35,0.15)' : 'rgba(0,212,170,0.15)';
+
+  if (keiChart) { keiChart.destroy(); keiChart = null; }
+
+  const ctx = document.getElementById('kei-chart').getContext('2d');
+  keiChart = new Chart(ctx, {
+    type: 'bar',
+    data: {
+      labels: sorted.map(g => g.term),
+      datasets: [{
+        data: sorted.map(g => g.avg_kei),
+        backgroundColor: sorted.map((g, i) =>
+          i === 0 ? accentColor : accentSoft
+        ),
+        borderColor: sorted.map((g, i) =>
+          i === 0 ? accentColor : 'rgba(255,255,255,0.08)'
+        ),
+        borderWidth: 1,
+        borderRadius: 4,
+        hoverBackgroundColor: accentColor
+      }]
+    },
+    options: {
+      indexAxis: 'y',
+      responsive: true,
+      maintainAspectRatio: false,
+      plugins: {
+        legend: { display: false },
+        tooltip: {
+          backgroundColor: '#1A1A22',
+          borderColor: accentColor,
+          borderWidth: 1,
+          titleColor: '#F0EEE8',
+          bodyColor: '#8A8A9A',
+          titleFont: { family: 'IBM Plex Mono', size: 11 },
+          bodyFont: { family: 'IBM Plex Mono', size: 11 },
+          callbacks: {
+            label: (ctx) => ` KEI: ${ctx.raw}`
+          }
+        }
+      },
+      scales: {
+        x: {
+          grid: { color: 'rgba(255,255,255,0.04)', drawBorder: false },
+          ticks: {
+            color: '#4A4A5A',
+            font: { family: 'IBM Plex Mono', size: 10 }
+          },
+          border: { display: false }
+        },
+        y: {
+          grid: { display: false, drawBorder: false },
+          ticks: {
+            color: '#8A8A9A',
+            font: { family: 'IBM Plex Sans', size: 11 }
+          },
+          border: { display: false }
+        }
+      }
+    }
+  });
+}
+
+// ─── GAP TABLE ───────────────────────────────────────────────────────────────
+function renderGapTable() {
+  const d = REPORT_DATA[currentPlatform];
+  const filtered = d.keyword_gaps.filter(
+    g => g.top_competitor_rank <= 150 && g.avg_relevancy >= 35
+  );
+
+  document.getElementById('table-info').textContent =
+    `Showing ${filtered.length} of ${d.keyword_gaps.length} gaps (relevancy ≥ 35)`;
+
+  document.getElementById('gap-tbody').innerHTML = filtered
+    .sort((a, b) => b.avg_kei - a.avg_kei)
+    .map(g => {
+      const isCritical = g.primary_competitor_count >= 2;
+      return `
+        <tr class="${isCritical ? 'critical-row' : ''}">
+          <td class="term-cell">${g.term}${isCritical ? ' <span style="color:var(--warn);font-size:0.65rem;margin-left:4px;font-family:var(--font-mono)">●CRITICAL</span>' : ''}</td>
+          <td class="mono">${g.top_competitor_rank}</td>
+          <td class="mono">—</td>
+          <td><span class="kei-pill">${g.avg_kei}</span></td>
+          <td class="mono">${g.avg_relevancy.toFixed(1)}</td>
+          <td class="mono">${g.primary_competitor_count}</td>
+          <td class="mono">${g.secondary_competitor_count}</td>
+          <td class="apps-cell">${g.source_apps.join(', ')}</td>
+        </tr>
+      `;
+    }).join('');
+}
+
+// ─── LONGTAIL ─────────────────────────────────────────────────────────────────
+function renderLongtail() {
+  const d = REPORT_DATA[currentPlatform];
+  document.getElementById('speculative-note').textContent =
+    `The following terms are not yet present in the core gap dataset but show rising search intent in the US dating category. They represent a 3–6 month horizon opportunity for ${d.meta.platform} metadata expansion.`;
+
+  document.getElementById('longtail-tbody').innerHTML = d.longtail.map(t => `
+    <tr>
+      <td class="term-cell">${t.term}</td>
+      <td style="color:var(--accent);font-size:0.78rem;">${t.signal}</td>
+      <td class="mono" style="font-size:0.78rem;">${t.coverage}</td>
+      <td style="color:${t.trend.startsWith('↑') ? 'var(--accent)' : 'var(--text-secondary)'};font-family:var(--font-mono);font-size:0.78rem;">${t.trend}</td>
+      <td style="font-size:0.78rem;color:var(--text-secondary);">${t.placement}</td>
+    </tr>
+  `).join('');
+}
+
+// ─── LANDSCAPE ───────────────────────────────────────────────────────────────
+function renderLandscape() {
+  const d = REPORT_DATA[currentPlatform];
+  document.getElementById('landscape-narrative').innerHTML = d.landscape_narrative;
+
+  const signals = {
+    'Badoo Dating: Meet New People': 'Full-spectrum gap coverage — broadest threat',
+    'Bumble Dating App: Meet & Date': 'Values-led positioning, inclusive language',
+    'OkCupid Dating: Date Singles': 'Intent-rich titles target high-relevancy terms',
+    'Hinge Dating App: Match & Date': 'Emotional-connection framing, serious intent',
+    'DOWN: The Casual Dating App': 'Casual & functional intent coverage',
+    'Hily Dating App: Meet. Date.': 'Feature-forward, broad secondary coverage',
+    'PURE: Open-Minded Dating App': 'Identity/orientation keyword specialist',
+    'Mingle2 - Dating & Meet People': 'Geo + volume term coverage',
+    'Plenty of Fish: Dating App': 'Legacy broad-match keyword approach'
+  };
+
+  document.getElementById('landscape-tbody').innerHTML = d.competitor_summary
+    .filter(c => c.gaps_ranked_for > 0)
+    .sort((a, b) => b.gaps_ranked_for - a.gaps_ranked_for)
+    .map(c => `
+      <tr>
+        <td style="font-weight:500;color:var(--text-primary)">${c.name}</td>
+        <td>
+          <span class="tier-badge ${c.tier === 'primary' ? 'tier-p' : 'tier-s'}">${c.tier}</span>
+        </td>
+        <td class="mono">${c.gaps_ranked_for}</td>
+        <td style="font-size:0.78rem;color:var(--text-secondary)">${signals[c.name] || '—'}</td>
+      </tr>
+    `).join('');
+}
+
+// ─── CSV EXPORT ───────────────────────────────────────────────────────────────
+function exportCSV() {
+  const d = REPORT_DATA[currentPlatform];
+  const date = d.meta.run_date.replace(/-/g, '');
+  const platform = currentPlatform.toUpperCase();
+  const filename = `keyword_gaps_${platform}_${date}.csv`;
+
+  const headers = ['Term','Top Comp Rank','Avg Installs','Avg KEI','Avg Relevancy','Primary Count','Secondary Count','Ranking Apps'];
+  const rows = d.keyword_gaps.map(g => [
+    g.term, g.top_competitor_rank, g.avg_installs, g.avg_kei,
+    g.avg_relevancy, g.primary_competitor_count, g.secondary_competitor_count,
+    `"${g.source_apps.join(', ')}"`
+  ]);
+
+  const csv = [headers, ...rows].map(r => r.join(',')).join('\n');
+  const blob = new Blob([csv], { type: 'text/csv' });
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement('a');
+  a.href = url; a.download = filename; a.click();
+  URL.revokeObjectURL(url);
+}
+
+// ─── BOOT ─────────────────────────────────────────────────────────────────────
+document.addEventListener('DOMContentLoaded', () => {
+  switchPlatform('ios');
+});
+</script>
+</body>
+</html>

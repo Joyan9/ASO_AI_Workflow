@@ -1,0 +1,1361 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tinder · A/B Intelligence Report</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400&family=DM+Sans:wght@300;400;500;600&family=Courier+Prime:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+<style>
+  :root {
+    --bg-page:            #0B0D13;
+    --bg-card:            #11141D;
+    --bg-card-hover:      #161A25;
+    --bg-inset:           #0D1019;
+    --border:             rgba(255,255,255,0.07);
+    --border-strong:      rgba(255,255,255,0.12);
+    --accent-primary:     #F59E0B;
+    --accent-primary-soft:rgba(245,158,11,0.12);
+    --accent-primary-dim: rgba(245,158,11,0.35);
+    --accent-secondary:   #38BDF8;
+    --accent-secondary-soft:rgba(56,189,248,0.10);
+    --accent-highlight:   #10B981;
+    --text-primary:       #E9EBF0;
+    --text-secondary:     #7B8498;
+    --text-muted:         #4A5268;
+    --font-display:       'Cormorant Garamond', Georgia, serif;
+    --font-body:          'DM Sans', system-ui, sans-serif;
+    --font-mono:          'Courier Prime', 'Courier New', monospace;
+    --radius:             8px;
+    --radius-lg:          14px;
+    --nav-w:              220px;
+    --shadow:             0 4px 24px rgba(0,0,0,0.55);
+    --shadow-card:        0 2px 12px rgba(0,0,0,0.4);
+  }
+
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  html { scroll-behavior: smooth; }
+
+  body {
+    background: var(--bg-page);
+    color: var(--text-primary);
+    font-family: var(--font-body);
+    font-size: 15px;
+    line-height: 1.65;
+    min-height: 100vh;
+    display: flex;
+  }
+
+  /* ── SIDEBAR NAV ── */
+  nav {
+    width: var(--nav-w);
+    min-height: 100vh;
+    position: sticky;
+    top: 0;
+    height: 100vh;
+    overflow-y: auto;
+    background: var(--bg-inset);
+    border-right: 1px solid var(--border);
+    display: flex;
+    flex-direction: column;
+    padding: 32px 0;
+    flex-shrink: 0;
+    z-index: 10;
+  }
+
+  .nav-brand {
+    padding: 0 24px 28px;
+    border-bottom: 1px solid var(--border);
+    margin-bottom: 20px;
+  }
+
+  .nav-brand .app-mono {
+    font-family: var(--font-mono);
+    font-size: 11px;
+    color: var(--accent-primary);
+    letter-spacing: 0.08em;
+    display: block;
+    margin-bottom: 6px;
+  }
+
+  .nav-brand .track-pill {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    background: var(--accent-primary-soft);
+    border: 1px solid var(--accent-primary-dim);
+    color: var(--accent-primary);
+    font-size: 10px;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    padding: 3px 10px;
+    border-radius: 100px;
+  }
+
+  .nav-links { padding: 0 16px; display: flex; flex-direction: column; gap: 2px; }
+
+  .nav-link {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 9px 12px;
+    border-radius: var(--radius);
+    color: var(--text-secondary);
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: 500;
+    transition: background 0.15s, color 0.15s;
+    cursor: pointer;
+  }
+
+  .nav-link:hover, .nav-link.active {
+    background: var(--accent-primary-soft);
+    color: var(--accent-primary);
+  }
+
+  .nav-link .dot {
+    width: 5px; height: 5px;
+    border-radius: 50%;
+    background: currentColor;
+    opacity: 0.5;
+    flex-shrink: 0;
+  }
+
+  .nav-footer {
+    margin-top: auto;
+    padding: 20px 24px 0;
+    border-top: 1px solid var(--border);
+    font-size: 11px;
+    color: var(--text-muted);
+    line-height: 1.5;
+  }
+
+  /* ── MAIN CONTENT ── */
+  main {
+    flex: 1;
+    min-width: 0;
+    padding: 0 48px 80px;
+    max-width: 1100px;
+  }
+
+  section { padding-top: 80px; }
+
+  /* ── HERO ── */
+  #hero {
+    padding-top: 64px;
+    padding-bottom: 24px;
+    border-bottom: 1px solid var(--border);
+    opacity: 0;
+    transform: translateY(18px);
+    animation: fadeUp 0.6s ease forwards;
+  }
+
+  .hero-label {
+    font-family: var(--font-mono);
+    font-size: 11px;
+    color: var(--accent-primary);
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    margin-bottom: 14px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .hero-label::after {
+    content: '';
+    display: block;
+    flex: 1;
+    max-width: 60px;
+    height: 1px;
+    background: var(--accent-primary-dim);
+  }
+
+  .hero-title {
+    font-family: var(--font-display);
+    font-size: 52px;
+    font-weight: 700;
+    line-height: 1.1;
+    letter-spacing: -0.02em;
+    margin-bottom: 8px;
+  }
+
+  .hero-title em {
+    font-style: italic;
+    color: var(--accent-primary);
+  }
+
+  .hero-sub {
+    font-size: 14px;
+    color: var(--text-secondary);
+    margin-bottom: 28px;
+    font-family: var(--font-mono);
+    letter-spacing: 0.02em;
+  }
+
+  .meta-pills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-bottom: 24px;
+  }
+
+  .pill {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    padding: 5px 12px;
+    border-radius: 100px;
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 0.05em;
+    border: 1px solid var(--border-strong);
+    background: var(--bg-card);
+    color: var(--text-secondary);
+  }
+
+  .pill-accent { background: var(--accent-primary-soft); border-color: var(--accent-primary-dim); color: var(--accent-primary); }
+  .pill-blue   { background: var(--accent-secondary-soft); border-color: rgba(56,189,248,0.2); color: var(--accent-secondary); }
+
+  details.scope-block {
+    margin-top: 4px;
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    overflow: hidden;
+  }
+
+  details.scope-block summary {
+    padding: 10px 16px;
+    font-size: 12px;
+    font-weight: 600;
+    color: var(--text-secondary);
+    cursor: pointer;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    user-select: none;
+  }
+
+  details.scope-block summary::-webkit-details-marker { display: none; }
+  details.scope-block summary::before {
+    content: '▸';
+    font-size: 10px;
+    transition: transform 0.15s;
+    color: var(--accent-primary);
+  }
+  details.scope-block[open] summary::before { transform: rotate(90deg); }
+
+  .scope-content {
+    padding: 0 16px 14px;
+    font-size: 12.5px;
+    color: var(--text-secondary);
+    line-height: 1.6;
+  }
+
+  /* ── SECTION HEADERS ── */
+  .section-header {
+    display: flex;
+    align-items: baseline;
+    gap: 14px;
+    margin-bottom: 28px;
+    opacity: 0;
+    transform: translateY(12px);
+    animation: fadeUp 0.5s ease forwards;
+  }
+
+  .section-header h2 {
+    font-family: var(--font-display);
+    font-size: 30px;
+    font-weight: 700;
+    letter-spacing: -0.01em;
+  }
+
+  .section-num {
+    font-family: var(--font-mono);
+    font-size: 13px;
+    color: var(--accent-primary);
+    font-weight: 700;
+  }
+
+  /* ── EXEC SUMMARY ── */
+  .summary-card {
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-left: 3px solid var(--accent-primary);
+    border-radius: var(--radius-lg);
+    padding: 28px 32px;
+    margin-bottom: 36px;
+    box-shadow: var(--shadow-card);
+    opacity: 0;
+    animation: fadeUp 0.5s ease 0.1s forwards;
+  }
+
+  .summary-card h3 {
+    font-family: var(--font-display);
+    font-size: 18px;
+    font-weight: 600;
+    color: var(--text-primary);
+    margin-bottom: 18px;
+  }
+
+  .summary-list { list-style: none; display: flex; flex-direction: column; gap: 8px; }
+
+  .summary-list li {
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+    font-size: 14px;
+    line-height: 1.6;
+  }
+
+  .summary-list li::before {
+    content: '—';
+    color: var(--accent-primary);
+    font-weight: 700;
+    flex-shrink: 0;
+    margin-top: 1px;
+  }
+
+  /* ── RECOMMENDATION CARDS ── */
+  .rec-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+    margin-bottom: 0;
+  }
+
+  .rec-card {
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: var(--radius-lg);
+    padding: 24px 26px;
+    box-shadow: var(--shadow-card);
+    transition: border-color 0.2s, background 0.2s, transform 0.2s;
+    opacity: 0;
+    animation: fadeUp 0.5s ease forwards;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .rec-card:hover {
+    border-color: var(--accent-primary-dim);
+    background: var(--bg-card-hover);
+    transform: translateY(-2px);
+  }
+
+  .rec-card-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+
+  .rec-num {
+    font-family: var(--font-mono);
+    font-size: 28px;
+    font-weight: 700;
+    color: var(--accent-primary-dim);
+    line-height: 1;
+  }
+
+  .rec-cat {
+    font-size: 10px;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--accent-secondary);
+    background: var(--accent-secondary-soft);
+    border: 1px solid rgba(56,189,248,0.2);
+    padding: 3px 9px;
+    border-radius: 100px;
+  }
+
+  .rec-headline {
+    font-family: var(--font-display);
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.25;
+    color: var(--text-primary);
+  }
+
+  .rec-evidence {
+    font-size: 13px;
+    color: var(--text-secondary);
+    line-height: 1.55;
+  }
+
+  .rec-implication {
+    display: flex;
+    align-items: flex-start;
+    gap: 8px;
+    font-size: 13px;
+    color: var(--accent-primary);
+    font-weight: 500;
+    line-height: 1.5;
+    padding-top: 4px;
+    border-top: 1px solid var(--border);
+  }
+
+  .rec-implication::before {
+    content: '▶';
+    font-size: 9px;
+    margin-top: 4px;
+    flex-shrink: 0;
+    opacity: 0.7;
+  }
+
+  /* ── ACTIVITY TABLE ── */
+  .table-wrap {
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: var(--radius-lg);
+    overflow: hidden;
+    margin-bottom: 28px;
+    box-shadow: var(--shadow-card);
+    opacity: 0;
+    animation: fadeUp 0.5s ease 0.1s forwards;
+  }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+
+  thead tr {
+    background: var(--bg-inset);
+    border-bottom: 1px solid var(--border-strong);
+  }
+
+  th {
+    padding: 13px 18px;
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--text-muted);
+    text-align: left;
+  }
+
+  tbody tr {
+    border-bottom: 1px solid var(--border);
+    transition: background 0.12s;
+  }
+
+  tbody tr:last-child { border-bottom: none; }
+  tbody tr:hover { background: var(--bg-card-hover); }
+
+  td {
+    padding: 14px 18px;
+    font-size: 13.5px;
+    vertical-align: middle;
+  }
+
+  .row-accent { border-left: 3px solid var(--accent-primary) !important; }
+
+  .tier-pill {
+    display: inline-flex;
+    padding: 3px 10px;
+    border-radius: 100px;
+    font-size: 10px;
+    font-weight: 600;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+  }
+
+  .tier-primary { background: var(--accent-primary-soft); color: var(--accent-primary); border: 1px solid var(--accent-primary-dim); }
+  .tier-secondary { background: rgba(123,132,152,0.1); color: var(--text-secondary); border: 1px solid var(--border-strong); }
+
+  .app-name { font-weight: 600; color: var(--text-primary); }
+  .app-id   { font-family: var(--font-mono); font-size: 11px; color: var(--text-muted); }
+
+  .fields-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+  }
+
+  .field-tag {
+    font-size: 10.5px;
+    padding: 2px 8px;
+    border-radius: 4px;
+    background: rgba(255,255,255,0.05);
+    border: 1px solid var(--border);
+    color: var(--text-secondary);
+    font-weight: 500;
+  }
+
+  .field-tag.text-field {
+    background: var(--accent-primary-soft);
+    border-color: var(--accent-primary-dim);
+    color: var(--accent-primary);
+  }
+
+  .test-count {
+    font-family: var(--font-mono);
+    font-size: 16px;
+    font-weight: 700;
+    color: var(--text-primary);
+  }
+
+  .chart-wrap {
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: var(--radius-lg);
+    padding: 20px 24px;
+    margin-top: 0;
+    box-shadow: var(--shadow-card);
+    opacity: 0;
+    animation: fadeUp 0.5s ease 0.2s forwards;
+    max-height: 380px;
+    overflow: hidden;
+  }
+
+  .chart-title {
+    font-size: 12px;
+    font-weight: 600;
+    color: var(--text-secondary);
+    letter-spacing: 0.07em;
+    text-transform: uppercase;
+    margin-bottom: 14px;
+  }
+
+  /* ── TEST DETAIL CARDS ── */
+  .test-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+  }
+
+  .test-card {
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: var(--radius-lg);
+    overflow: hidden;
+    box-shadow: var(--shadow-card);
+    opacity: 0;
+    animation: fadeUp 0.5s ease forwards;
+    transition: border-color 0.2s;
+  }
+
+  .test-card:hover { border-color: var(--border-strong); }
+
+  .test-card-header {
+    padding: 18px 20px 14px;
+    border-bottom: 1px solid var(--border);
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 10px;
+  }
+
+  .test-card-name {
+    font-family: var(--font-display);
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 1.15;
+  }
+
+  .test-card-meta {
+    display: flex;
+    gap: 6px;
+    margin-top: 4px;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+
+  .test-count-badge {
+    background: var(--accent-primary-soft);
+    border: 1px solid var(--accent-primary-dim);
+    color: var(--accent-primary);
+    font-size: 10px;
+    font-weight: 700;
+    padding: 2px 9px;
+    border-radius: 100px;
+    font-family: var(--font-mono);
+  }
+
+  .test-timeline {
+    padding: 16px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    position: relative;
+  }
+
+  .timeline-entry {
+    display: flex;
+    gap: 16px;
+    position: relative;
+    padding-bottom: 16px;
+  }
+
+  .timeline-entry:last-child { padding-bottom: 0; }
+
+  .timeline-left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-shrink: 0;
+    width: 14px;
+  }
+
+  .tl-dot {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: var(--accent-primary);
+    flex-shrink: 0;
+    margin-top: 5px;
+    box-shadow: 0 0 0 3px var(--accent-primary-soft);
+  }
+
+  .tl-dot.icon-dot { background: var(--accent-secondary); box-shadow: 0 0 0 3px var(--accent-secondary-soft); }
+  .tl-dot.shipped-dot { background: var(--accent-highlight); box-shadow: 0 0 0 3px rgba(16,185,129,0.15); }
+
+  .tl-line {
+    flex: 1;
+    width: 1px;
+    background: var(--border-strong);
+    margin-top: 4px;
+  }
+
+  .timeline-entry:last-child .tl-line { display: none; }
+
+  .timeline-right { flex: 1; min-width: 0; }
+
+  .tl-field {
+    font-size: 11px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: var(--text-muted);
+    margin-bottom: 3px;
+  }
+
+  .tl-desc {
+    font-size: 13px;
+    color: var(--text-secondary);
+    line-height: 1.5;
+  }
+
+  .tl-text-change {
+    font-family: var(--font-mono);
+    font-size: 11.5px;
+    color: var(--text-secondary);
+    background: var(--bg-inset);
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    padding: 8px 12px;
+    margin-top: 6px;
+    line-height: 1.6;
+  }
+
+  .tl-old { color: var(--text-muted); }
+  .tl-arrow { color: var(--accent-primary); font-weight: 700; padding: 0 4px; }
+  .tl-new { color: var(--text-primary); }
+
+  .tl-date {
+    font-family: var(--font-mono);
+    font-size: 10.5px;
+    color: var(--text-muted);
+    margin-top: 4px;
+  }
+
+  .shipped-label {
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    font-size: 10px;
+    font-weight: 600;
+    color: var(--accent-highlight);
+    background: rgba(16,185,129,0.08);
+    border: 1px solid rgba(16,185,129,0.2);
+    padding: 1px 7px;
+    border-radius: 100px;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    margin-left: 6px;
+  }
+
+  /* ── SIGNALS SECTION ── */
+  .signals-table-wrap {
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: var(--radius-lg);
+    overflow: hidden;
+    box-shadow: var(--shadow-card);
+    opacity: 0;
+    animation: fadeUp 0.5s ease 0.1s forwards;
+  }
+
+  .signal-strength {
+    display: inline-flex;
+    padding: 3px 10px;
+    border-radius: 100px;
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+  }
+
+  .sig-strong { background: var(--accent-primary-soft); color: var(--accent-primary); border: 1px solid var(--accent-primary-dim); }
+  .sig-moderate { background: var(--accent-secondary-soft); color: var(--accent-secondary); border: 1px solid rgba(56,189,248,0.2); }
+
+  /* ── ANIMATIONS ── */
+  @keyframes fadeUp {
+    to { opacity: 1; transform: translateY(0); }
+  }
+
+  .delay-1 { animation-delay: 0.05s; }
+  .delay-2 { animation-delay: 0.10s; }
+  .delay-3 { animation-delay: 0.15s; }
+  .delay-4 { animation-delay: 0.20s; }
+  .delay-5 { animation-delay: 0.25s; }
+
+  /* ── DIVIDER ── */
+  .divider { height: 1px; background: var(--border); margin: 36px 0; }
+
+  /* ── RESPONSIVE ── */
+  @media (max-width: 900px) {
+    nav { display: none; }
+    main { padding: 0 24px 60px; }
+    .rec-grid, .test-grid { grid-template-columns: 1fr; }
+    .hero-title { font-size: 36px; }
+  }
+</style>
+</head>
+<body>
+
+<!-- SIDEBAR -->
+<nav>
+  <div class="nav-brand">
+    <span class="app-mono">Tinder · Android</span>
+    <span class="track-pill">Track B · A/B Intel</span>
+  </div>
+  <div class="nav-links">
+    <a class="nav-link" href="#summary"><span class="dot"></span>Executive Summary</a>
+    <a class="nav-link" href="#activity"><span class="dot"></span>Competitor Activity</a>
+    <a class="nav-link" href="#tests"><span class="dot"></span>Test Detail Cards</a>
+    <a class="nav-link" href="#signals"><span class="dot"></span>Cross-Category Signals</a>
+  </div>
+  <div class="nav-footer">
+    Report generated from AppTweak A/B history data. Statuses are approximations.
+  </div>
+</nav>
+
+<!-- MAIN -->
+<main>
+
+  <!-- HERO -->
+  <section id="hero">
+    <div class="hero-label">A/B Intelligence Report</div>
+    <h1 class="hero-title">Tinder <em>Dating</em><br>App: Chat &amp; Date</h1>
+    <p class="hero-sub">Tinder Dating App: Chat &amp; Date — Competitor Test Behaviour Analysis</p>
+    <div class="meta-pills">
+      <span class="pill pill-accent" id="pill-date"></span>
+      <span class="pill">🌍 United States</span>
+      <span class="pill">📱 Android · Google Play</span>
+      <span class="pill" id="pill-window"></span>
+      <span class="pill pill-blue" id="pill-competitors"></span>
+      <span class="pill pill-accent" id="pill-tests"></span>
+    </div>
+    <details class="scope-block">
+      <summary>Analysis Scope &amp; Caveats</summary>
+      <div class="scope-content">
+        Test statuses (won/lost/pending) are approximations derived by matching later shipped changes to tested variants — this logic can misfire on partial updates. The focus is on inferring <em>what types of tests</em> competitors are running, not resolution outcomes. Visual asset tests (screenshots, icons) are the most frequent on Google Play; without seeing the media, creative direction cannot be inferred. History window: 90 days. Pending is the default — most tests are silently concluded without a matching shipped change.
+      </div>
+    </details>
+  </section>
+
+  <!-- EXECUTIVE SUMMARY -->
+  <section id="summary">
+    <div class="section-header">
+      <span class="section-num">01</span>
+      <h2>Executive Summary &amp; Recommendations</h2>
+    </div>
+
+    <div class="summary-card">
+      <h3>Category Intelligence — Key Signals</h3>
+      <ul class="summary-list" id="exec-bullets"></ul>
+    </div>
+
+    <div class="rec-grid" id="rec-grid"></div>
+  </section>
+
+  <!-- COMPETITOR ACTIVITY -->
+  <section id="activity">
+    <div class="section-header delay-1">
+      <span class="section-num">02</span>
+      <h2>Competitor Activity</h2>
+    </div>
+
+    <div class="table-wrap">
+      <table id="activity-table">
+        <thead>
+          <tr>
+            <th>Competitor</th>
+            <th>Tier</th>
+            <th>Fields Tested</th>
+            <th>Total A/B Tests</th>
+            <th>Last Shipped</th>
+          </tr>
+        </thead>
+        <tbody id="activity-tbody"></tbody>
+      </table>
+    </div>
+
+    <div class="chart-wrap">
+      <div class="chart-title">A/B Test Volume by Competitor</div>
+      <canvas id="volumeChart" height="280" style="max-height: 280px; display: block;"></canvas>
+    </div>
+  </section>
+
+  <!-- TEST DETAILS -->
+  <section id="tests">
+    <div class="section-header delay-1">
+      <span class="section-num">03</span>
+      <h2>Test Detail Cards</h2>
+    </div>
+    <div class="test-grid" id="test-grid"></div>
+  </section>
+
+  <!-- CROSS-COMPETITOR SIGNALS -->
+  <section id="signals">
+    <div class="section-header delay-1">
+      <span class="section-num">04</span>
+      <h2>Cross-Category Convergence Signals</h2>
+    </div>
+    <div class="signals-table-wrap">
+      <table id="signals-table">
+        <thead>
+          <tr>
+            <th>Field</th>
+            <th>Competitors</th>
+            <th>Date Range</th>
+            <th>Signal Strength</th>
+            <th>Strategic Suggestion</th>
+          </tr>
+        </thead>
+        <tbody id="signals-tbody"></tbody>
+      </table>
+    </div>
+  </section>
+
+</main>
+
+<script>
+/* ── EMBEDDED DATA ── */
+const REPORT_DATA = {
+  "meta": { "platform": "android", "country": "us", "run_date": "2026-04-08T11:59:25.693714", "history_window_days": 90 },
+  "target_app": {
+    "title": "Tinder Dating App: Chat & Date",
+    "short_description": "The dating app for adults to meet new people & match with local singles online",
+    "summary": { "ab_tests_total": 11, "resolved_won": 0, "resolved_lost": 0, "pending": 11, "fields_tested": ["screenshots"], "most_recent_shipped": {} }
+  },
+  "summary": { "total_competitors": 6, "total_ab_tests": 118, "resolved_won": 0, "resolved_lost": 0, "pending": 118 },
+  "text_variants": {
+    "v1": "Match, Flirt, Meet & Date Singles in USA: The Dating App Designed to be Deleted",
+    "v2": "Match, Flirt, Meet & Date Single People | The Dating App Designed to be Deleted",
+    "v3": "The Dating App Designed to be Deleted | Match, Flirt, Meet & Date Single People",
+    "v4": "Jovia: Make New Friends",
+    "v5": "Jovia Dating app: Meet & Date",
+    "v6": "Discover stories, start conversations, and connect naturally",
+    "v7": "Real dates. Real people. Real connections."
+  },
+  "competitors": [
+    {
+      "app_id": "co.hinge.app", "display_name": "Hinge", "tier": "primary",
+      "ab_tests": [
+        {"target":"screenshots","old_value_count":8,"new_value_count":8},{"target":"screenshots","old_value_count":8,"new_value_count":8},
+        {"target":"screenshots","old_value_count":8,"new_value_count":8},{"target":"screenshots","old_value_count":8,"new_value_count":8},
+        {"target":"screenshots","old_value_count":8,"new_value_count":8},{"target":"short_description","old_value_ref":"v1","new_value_ref":"v2"},
+        {"target":"screenshots","old_value_count":8,"new_value_count":8},{"target":"screenshots","old_value_count":8,"new_value_count":8},
+        {"target":"screenshots","old_value_count":8,"new_value_count":8},{"target":"screenshots","old_value_count":8,"new_value_count":8},
+        {"target":"screenshots","old_value_count":8,"new_value_count":8},{"target":"screenshots","old_value_count":8,"new_value_count":8},
+        {"target":"screenshots","old_value_count":8,"new_value_count":8},{"target":"screenshots","old_value_count":8,"new_value_count":8},
+        {"target":"screenshots","old_value_count":8,"new_value_count":8},{"target":"screenshots","old_value_count":8,"new_value_count":8},
+        {"target":"short_description","old_value_ref":"v2","new_value_ref":"v2"},
+        {"target":"screenshots","old_value_count":8,"new_value_count":8},{"target":"screenshots","old_value_count":8,"new_value_count":8},
+        {"target":"screenshots","old_value_count":8,"new_value_count":8},{"target":"screenshots","old_value_count":8,"new_value_count":8},
+        {"target":"screenshots","old_value_count":8,"new_value_count":8},{"target":"screenshots","old_value_count":8,"new_value_count":8},
+        {"target":"screenshots","old_value_count":8,"new_value_count":8},{"target":"screenshots","old_value_count":8,"new_value_count":8},
+        {"target":"screenshots","old_value_count":8,"new_value_count":8},{"target":"screenshots","old_value_count":8,"new_value_count":8},
+        {"target":"screenshots","old_value_count":8,"new_value_count":8},{"target":"screenshots","old_value_count":8,"new_value_count":8},
+        {"target":"screenshots","old_value_count":8,"new_value_count":8},{"target":"screenshots","old_value_count":8,"new_value_count":8},
+        {"target":"screenshots","old_value_count":8,"new_value_count":8},{"target":"screenshots","old_value_count":8,"new_value_count":8},
+        {"target":"screenshots","old_value_count":8,"new_value_count":8}
+      ],
+      "shipped_changes": [{"target":"short_description","old_value_ref":"v2","new_value_ref":"v3","date":"2026-03-21"}],
+      "summary": {"ab_tests_total":34,"fields_tested":["screenshots","short_description"],"most_recent_shipped":{"short_description":"2026-03-21"}}
+    },
+    {
+      "app_id": "com.bumble.app", "display_name": "Bumble", "tier": "primary",
+      "ab_tests": [
+        {"target":"screenshots","old_value_count":8,"new_value_count":7},{"target":"screenshots","old_value_count":7,"new_value_count":8},
+        {"target":"screenshots","old_value_count":8,"new_value_count":7},{"target":"screenshots","old_value_count":7,"new_value_count":8},
+        {"target":"screenshots","old_value_count":8,"new_value_count":7},{"target":"screenshots","old_value_count":7,"new_value_count":8},
+        {"target":"screenshots","old_value_count":8,"new_value_count":8},{"target":"screenshots","old_value_count":8,"new_value_count":7},
+        {"target":"screenshots","old_value_count":7,"new_value_count":8},{"target":"screenshots","old_value_count":8,"new_value_count":8},
+        {"target":"screenshots","old_value_count":8,"new_value_count":7},{"target":"screenshots","old_value_count":7,"new_value_count":8},
+        {"target":"screenshots","old_value_count":8,"new_value_count":7},{"target":"screenshots","old_value_count":7,"new_value_count":7},
+        {"target":"screenshots","old_value_count":7,"new_value_count":7},{"target":"screenshots","old_value_count":7,"new_value_count":7},
+        {"target":"screenshots","old_value_count":7,"new_value_count":7},{"target":"screenshots","old_value_count":7,"new_value_count":8},
+        {"target":"screenshots","old_value_count":8,"new_value_count":7},{"target":"screenshots","old_value_count":7,"new_value_count":7},
+        {"target":"screenshots","old_value_count":7,"new_value_count":7},{"target":"screenshots","old_value_count":7,"new_value_count":7},
+        {"target":"screenshots","old_value_count":7,"new_value_count":8},{"target":"screenshots","old_value_count":8,"new_value_count":7},
+        {"target":"screenshots","old_value_count":7,"new_value_count":8},{"target":"screenshots","old_value_count":8,"new_value_count":7},
+        {"target":"screenshots","old_value_count":7,"new_value_count":8},{"target":"screenshots","old_value_count":8,"new_value_count":7},
+        {"target":"screenshots","old_value_count":7,"new_value_count":8},{"target":"screenshots","old_value_count":8,"new_value_count":7}
+      ],
+      "shipped_changes": [],
+      "summary": {"ab_tests_total":30,"fields_tested":["screenshots"],"most_recent_shipped":{}}
+    },
+    {
+      "app_id": "com.doni.appa", "display_name": "Doni", "tier": "primary",
+      "ab_tests": [
+        {"target":"screenshots","old_value_count":5,"new_value_count":5},{"target":"screenshots","old_value_count":5,"new_value_count":5},
+        {"target":"screenshots","old_value_count":5,"new_value_count":5},{"target":"screenshots","old_value_count":5,"new_value_count":5}
+      ],
+      "shipped_changes": [],
+      "summary": {"ab_tests_total":4,"fields_tested":["screenshots"],"most_recent_shipped":{}}
+    },
+    {
+      "app_id": "com.pof.android", "display_name": "POF", "tier": "secondary",
+      "ab_tests": [
+        {"target":"screenshots","old_value_count":6,"new_value_count":6},{"target":"screenshots","old_value_count":6,"new_value_count":6},
+        {"target":"screenshots","old_value_count":6,"new_value_count":6},{"target":"screenshots","old_value_count":6,"new_value_count":6},
+        {"target":"screenshots","old_value_count":6,"new_value_count":6},{"target":"screenshots","old_value_count":6,"new_value_count":6},
+        {"target":"screenshots","old_value_count":6,"new_value_count":6},{"target":"screenshots","old_value_count":6,"new_value_count":6},
+        {"target":"screenshots","old_value_count":6,"new_value_count":6},{"target":"screenshots","old_value_count":6,"new_value_count":6},
+        {"target":"screenshots","old_value_count":6,"new_value_count":6},{"target":"screenshots","old_value_count":6,"new_value_count":6},
+        {"target":"screenshots","old_value_count":6,"new_value_count":6},{"target":"screenshots","old_value_count":6,"new_value_count":6},
+        {"target":"screenshots","old_value_count":6,"new_value_count":6},{"target":"screenshots","old_value_count":6,"new_value_count":6},
+        {"target":"screenshots","old_value_count":6,"new_value_count":6},{"target":"screenshots","old_value_count":6,"new_value_count":6},
+        {"target":"screenshots","old_value_count":6,"new_value_count":6},{"target":"screenshots","old_value_count":6,"new_value_count":6},
+        {"target":"screenshots","old_value_count":6,"new_value_count":6},{"target":"screenshots","old_value_count":6,"new_value_count":6},
+        {"target":"screenshots","old_value_count":6,"new_value_count":6},{"target":"screenshots","old_value_count":6,"new_value_count":6},
+        {"target":"screenshots","old_value_count":6,"new_value_count":6},{"target":"screenshots","old_value_count":6,"new_value_count":6},
+        {"target":"screenshots","old_value_count":6,"new_value_count":6},{"target":"screenshots","old_value_count":6,"new_value_count":6},
+        {"target":"screenshots","old_value_count":6,"new_value_count":6}
+      ],
+      "shipped_changes": [],
+      "summary": {"ab_tests_total":29,"fields_tested":["screenshots"],"most_recent_shipped":{}}
+    },
+    {
+      "app_id": "com.hily.app", "display_name": "Hily", "tier": "secondary",
+      "ab_tests": [
+        {"target":"screenshots","old_value_count":7,"new_value_count":7},{"target":"screenshots","old_value_count":7,"new_value_count":6},
+        {"target":"screenshots","old_value_count":6,"new_value_count":7},{"target":"icon"},{"target":"icon"},{"target":"icon"},
+        {"target":"icon"},{"target":"icon"},{"target":"icon"},{"target":"icon"},{"target":"icon"},{"target":"icon"},
+        {"target":"icon"},{"target":"icon"},
+        {"target":"screenshots","old_value_count":7,"new_value_count":6},{"target":"screenshots","old_value_count":6,"new_value_count":7},
+        {"target":"screenshots","old_value_count":7,"new_value_count":6},{"target":"screenshots","old_value_count":6,"new_value_count":7},
+        {"target":"screenshots","old_value_count":7,"new_value_count":6},{"target":"screenshots","old_value_count":6,"new_value_count":7},
+        {"target":"screenshots","old_value_count":7,"new_value_count":7}
+      ],
+      "shipped_changes": [],
+      "summary": {"ab_tests_total":21,"fields_tested":["icon","screenshots"],"most_recent_shipped":{}}
+    },
+    {
+      "app_id": "com.qiga.vio", "display_name": "Jovia", "tier": "secondary",
+      "ab_tests": [],
+      "shipped_changes": [
+        {"target":"title","old_value_ref":"v4","new_value_ref":"v5","date":"2026-01-25"},
+        {"target":"screenshots","old_value_count":4,"new_value_count":5,"date":"2026-01-25"},
+        {"target":"short_description","old_value_ref":"v6","new_value_ref":"v7","date":"2026-01-25"},
+        {"target":"icon","date":"2026-01-25"}
+      ],
+      "summary": {"ab_tests_total":0,"fields_tested":[],"most_recent_shipped":{"title":"2026-01-25","screenshots":"2026-01-25","short_description":"2026-01-25","icon":"2026-01-25"}}
+    }
+  ]
+};
+
+/* ── HELPERS ── */
+const TV = REPORT_DATA.text_variants;
+const fmt = d => new Date(d).toLocaleDateString('en-US',{month:'short',day:'2-digit',year:'numeric'});
+
+function resolveRef(ref) { return TV[ref] || ref; }
+
+function getLastShipped(comp) {
+  if (!comp.shipped_changes || comp.shipped_changes.length === 0) return '—';
+  const dates = comp.shipped_changes.filter(c => c.date).map(c => c.date);
+  if (!dates.length) return '—';
+  return fmt(dates.sort().reverse()[0]);
+}
+
+const DISPLAY_NAMES = {
+  'co.hinge.app': 'Hinge', 'com.bumble.app': 'Bumble', 'com.doni.appa': 'Doni',
+  'com.pof.android': 'POF', 'com.hily.app': 'Hily', 'com.qiga.vio': 'Jovia'
+};
+
+/* ── META PILLS ── */
+document.getElementById('pill-date').textContent = '📅 ' + fmt(REPORT_DATA.meta.run_date);
+document.getElementById('pill-window').textContent = `⏱ ${REPORT_DATA.meta.history_window_days}-day window`;
+document.getElementById('pill-competitors').textContent = `🔍 ${REPORT_DATA.summary.total_competitors} competitors`;
+document.getElementById('pill-tests').textContent = `⚡ ${REPORT_DATA.summary.total_ab_tests} A/B tests`;
+
+/* ── EXEC SUMMARY BULLETS ── */
+const bullets = [
+  "Screenshot testing is the dominant CRO activity category-wide — every competitor with A/B tests is running screenshot cycles, signalling that visual creative optimisation is the primary conversion lever in dating apps on Google Play.",
+  "Hinge is the most active competitor (34 tests) and the only primary-tier app testing text positioning — it tested then shipped a short_description reorder on Mar 21, 2026, moving its brand tagline ('Designed to be Deleted') to the front of the description.",
+  "Tinder has 11 screenshot-only tests with zero text positioning experiments in the 90-day window — a material gap given Hinge's confirmed positioning shift and the category-wide CRO momentum.",
+  "Hily (secondary) is the sole competitor running icon A/B tests (11 cycles alongside 10 screenshot cycles), probing brand mark refresh as an independent conversion lever.",
+  "Jovia executed a full brand overhaul in a single day (Jan 25, 2026): title, short_description, screenshots, and icon all shipped simultaneously — repositioning from social framing ('Make New Friends') to explicit dating intent ('Meet &amp; Date')."
+];
+
+const ul = document.getElementById('exec-bullets');
+bullets.forEach(b => {
+  const li = document.createElement('li');
+  li.innerHTML = b;
+  ul.appendChild(li);
+});
+
+/* ── RECOMMENDATION CARDS ── */
+const recs = [
+  {
+    num: '01', cat: 'Positioning Shift',
+    headline: 'Test a Hook-First Short Description',
+    evidence: 'Hinge tested (short_description, within 90-day window) and shipped on Mar 21, 2026, reordering to lead with its tagline. Tinder\'s current description opens with generic intent language.',
+    implication: 'Run a short_description A/B test that front-loads a differentiated value hook to compete for first-impression attention on search and browse surfaces.'
+  },
+  {
+    num: '02', cat: 'Creative Velocity',
+    headline: 'Accelerate Screenshot Testing Cadence',
+    evidence: 'Hinge (34 cycles), Bumble (30 cycles), and POF (29 cycles) all ran sustained screenshot tests over 90 days. Tinder\'s 11 cycles fall well below the category norm of ~30.',
+    implication: 'Increase screenshot A/B test frequency to match category intensity — the gap suggests Tinder is leaving CRO learnings on the table relative to its primary competitors.'
+  },
+  {
+    num: '03', cat: 'Category Convergence',
+    headline: 'Audit Title Intent Clarity',
+    evidence: 'Jovia shipped a title pivot on Jan 25, 2026 — from "Make New Friends" (social) to "Jovia Dating app: Meet & Date" (explicit intent). Category signals suggest intent-first titling is gaining traction.',
+    implication: 'Evaluate whether "Chat & Date" in Tinder\'s title is sufficiently differentiated or if a direct-intent variant could outperform in keyword and browse contexts.'
+  },
+  {
+    num: '04', cat: 'Brand Identity',
+    headline: 'Explore Icon A/B Testing',
+    evidence: 'Hily (secondary) ran 11 icon test cycles — the only competitor testing brand mark in this window. No primary-tier competitor, including Tinder, has tested icon in 90 days.',
+    implication: 'Commission an icon variant test to explore whether a visual identity refresh or iteration yields measurable CRO uplift on search result impression rates.'
+  },
+  {
+    num: '05', cat: 'Intelligence Gap',
+    headline: 'Close the Text Testing Gap Immediately',
+    evidence: 'Tinder is the only primary-tier app with zero text asset tests in the full 90-day window; Hinge has both tested and confirmed a short_description shift in the same period.',
+    implication: 'Launch at minimum one short_description A/B test within the next sprint to begin accumulating positioning intelligence that primary competitors already have.'
+  }
+];
+
+const grid = document.getElementById('rec-grid');
+recs.forEach((r, i) => {
+  const card = document.createElement('div');
+  card.className = `rec-card delay-${Math.min(i+1,5)}`;
+  card.innerHTML = `
+    <div class="rec-card-top">
+      <span class="rec-num">${r.num}</span>
+      <span class="rec-cat">${r.cat}</span>
+    </div>
+    <div class="rec-headline">${r.headline}</div>
+    <div class="rec-evidence">${r.evidence}</div>
+    <div class="rec-implication">${r.implication}</div>
+  `;
+  grid.appendChild(card);
+});
+
+/* ── ACTIVITY TABLE ── */
+const sorted = [...REPORT_DATA.competitors].sort((a, b) => {
+  const tierOrder = { primary: 0, secondary: 1 };
+  if (tierOrder[a.tier] !== tierOrder[b.tier]) return tierOrder[a.tier] - tierOrder[b.tier];
+  return b.summary.ab_tests_total - a.summary.ab_tests_total;
+});
+
+const textFields = new Set(['title','short_description']);
+const tbody = document.getElementById('activity-tbody');
+
+sorted.forEach(comp => {
+  const name = DISPLAY_NAMES[comp.app_id] || comp.app_id;
+  const hasText = comp.summary.fields_tested.some(f => textFields.has(f));
+  const tr = document.createElement('tr');
+  if (hasText && comp.tier === 'primary') tr.classList.add('row-accent');
+
+  const fields = comp.summary.fields_tested;
+  const fieldTags = fields.length > 0
+    ? fields.map(f => `<span class="field-tag ${textFields.has(f) ? 'text-field' : ''}">${f}</span>`).join('')
+    : '<span style="color:var(--text-muted);font-size:12px;">—</span>';
+
+  tr.innerHTML = `
+    <td>
+      <div class="app-name">${name}</div>
+      <div class="app-id">${comp.app_id}</div>
+    </td>
+    <td><span class="tier-pill tier-${comp.tier}">${comp.tier}</span></td>
+    <td><div class="fields-list">${fieldTags}</div></td>
+    <td><span class="test-count">${comp.summary.ab_tests_total}</span></td>
+    <td style="font-size:13px;color:var(--text-secondary)">${getLastShipped(comp)}</td>
+  `;
+  tbody.appendChild(tr);
+});
+
+/* ── BAR CHART ── */
+const chartLabels = sorted.map(c => DISPLAY_NAMES[c.app_id] || c.app_id);
+const chartData   = sorted.map(c => c.summary.ab_tests_total);
+
+new Chart(document.getElementById('volumeChart'), {
+  type: 'bar',
+  data: {
+    labels: chartLabels,
+    datasets: [{
+      data: chartData,
+      backgroundColor: 'rgba(245,158,11,0.85)',
+      borderColor: 'rgba(245,158,11,1)',
+      borderWidth: 1,
+      borderRadius: 4,
+      borderSkipped: false,
+    }]
+  },
+  options: {
+    animation: { duration: 0 },
+    responsive: true,
+    maintainAspectRatio: false,
+    plugins: {
+      legend: { display: false },
+      tooltip: {
+        backgroundColor: '#11141D',
+        borderColor: 'rgba(245,158,11,0.4)',
+        borderWidth: 1,
+        titleColor: '#E9EBF0',
+        bodyColor: '#7B8498',
+        callbacks: { label: ctx => ` ${ctx.parsed.y} A/B tests` }
+      }
+    },
+    scales: {
+      x: { grid: { color: 'rgba(255,255,255,0.04)' }, ticks: { color: '#7B8498', font: { family: 'DM Sans', size: 12 } } },
+      y: { grid: { color: 'rgba(255,255,255,0.04)' }, ticks: { color: '#7B8498', font: { family: 'DM Sans', size: 12 } }, beginAtZero: true }
+    }
+  }
+});
+
+/* ── TEST DETAIL CARDS ── */
+function buildTimeline(comp) {
+  const entries = [];
+  const tv = TV;
+
+  // Group ab_tests by target
+  const groups = {};
+  comp.ab_tests.forEach(t => {
+    if (!groups[t.target]) groups[t.target] = [];
+    groups[t.target].push(t);
+  });
+
+  // Screenshots
+  if (groups['screenshots']) {
+    const arr = groups['screenshots'];
+    entries.push({
+      type: 'screenshots',
+      dotClass: 'tl-dot',
+      field: 'Screenshots (A/B Tests)',
+      desc: `Screenshot set tested across ${arr.length} cycle${arr.length > 1 ? 's' : ''} — high-frequency creative iteration signal.`,
+      sub: null
+    });
+  }
+
+  // Icon
+  if (groups['icon']) {
+    const arr = groups['icon'];
+    entries.push({
+      type: 'icon',
+      dotClass: 'tl-dot icon-dot',
+      field: 'Icon (A/B Tests)',
+      desc: `Icon tested across ${arr.length} cycle${arr.length > 1 ? 's' : ''} — brand mark refresh exploration.`,
+      sub: null
+    });
+  }
+
+  // short_description ab_tests
+  if (groups['short_description']) {
+    groups['short_description'].forEach(t => {
+      const oldV = tv[t.old_value_ref] || '—';
+      const newV = tv[t.new_value_ref] || '—';
+      if (oldV !== newV) {
+        entries.push({
+          type: 'text',
+          dotClass: 'tl-dot',
+          field: 'Short Description (A/B Test)',
+          desc: null,
+          sub: { old: oldV, new: newV }
+        });
+      }
+    });
+  }
+
+  // Shipped changes
+  (comp.shipped_changes || []).forEach(c => {
+    if (c.target === 'short_description') {
+      entries.push({
+        type: 'shipped-text',
+        dotClass: 'tl-dot shipped-dot',
+        field: 'Short Description',
+        shipped: true,
+        date: c.date,
+        desc: null,
+        sub: { old: tv[c.old_value_ref] || '—', new: tv[c.new_value_ref] || '—' }
+      });
+    } else if (c.target === 'title') {
+      entries.push({
+        type: 'shipped-text',
+        dotClass: 'tl-dot shipped-dot',
+        field: 'Title',
+        shipped: true,
+        date: c.date,
+        desc: null,
+        sub: { old: tv[c.old_value_ref] || '—', new: tv[c.new_value_ref] || '—' }
+      });
+    } else if (c.target === 'screenshots') {
+      entries.push({
+        type: 'shipped-visual',
+        dotClass: 'tl-dot shipped-dot',
+        field: 'Screenshots',
+        shipped: true,
+        date: c.date,
+        desc: `Screenshot count updated (${c.old_value_count} → ${c.new_value_count}).`,
+        sub: null
+      });
+    } else if (c.target === 'icon') {
+      entries.push({
+        type: 'shipped-icon',
+        dotClass: 'tl-dot shipped-dot',
+        field: 'Icon',
+        shipped: true,
+        date: c.date,
+        desc: 'Icon refreshed.',
+        sub: null
+      });
+    }
+  });
+
+  return entries;
+}
+
+const testGrid = document.getElementById('test-grid');
+
+// Filter competitors with at least 1 test or shipped change
+const activeComps = sorted.filter(c => c.ab_tests.length > 0 || (c.shipped_changes && c.shipped_changes.length > 0));
+
+activeComps.forEach((comp, i) => {
+  const name = DISPLAY_NAMES[comp.app_id] || comp.app_id;
+  const timeline = buildTimeline(comp);
+  const delay = Math.min(i+1, 5);
+
+  const card = document.createElement('div');
+  card.className = `test-card delay-${delay}`;
+
+  const hasText = comp.summary.fields_tested.some(f => textFields.has(f));
+  const tierCls = comp.tier === 'primary' ? 'tier-primary' : 'tier-secondary';
+  const totalTests = comp.summary.ab_tests_total;
+
+  let headerHTML = `
+    <div class="test-card-header" style="${hasText && comp.tier==='primary' ? 'border-left: 3px solid var(--accent-primary);' : ''}">
+      <div>
+        <div class="test-card-name">${name}</div>
+        <div class="test-card-meta">
+          <span class="tier-pill ${tierCls}">${comp.tier}</span>
+          ${totalTests > 0 ? `<span class="test-count-badge">${totalTests} tests</span>` : ''}
+        </div>
+      </div>
+    </div>
+  `;
+
+  let timelineHTML = '<div class="test-timeline">';
+  timeline.forEach(e => {
+    const shippedBadge = e.shipped ? `<span class="shipped-label">Shipped</span>` : '';
+    const dateLine = e.date ? `<div class="tl-date">${fmt(e.date)}</div>` : '';
+
+    let contentHTML = '';
+    if (e.sub) {
+      contentHTML = `<div class="tl-text-change"><span class="tl-old">${e.sub.old}</span><span class="tl-arrow">→</span><span class="tl-new">${e.sub.new}</span></div>`;
+    } else if (e.desc) {
+      contentHTML = `<div class="tl-desc">${e.desc}</div>`;
+    }
+
+    timelineHTML += `
+      <div class="timeline-entry">
+        <div class="timeline-left">
+          <div class="${e.dotClass}"></div>
+          <div class="tl-line"></div>
+        </div>
+        <div class="timeline-right">
+          <div class="tl-field">${e.field}${shippedBadge}</div>
+          ${contentHTML}
+          ${dateLine}
+        </div>
+      </div>
+    `;
+  });
+  timelineHTML += '</div>';
+
+  card.innerHTML = headerHTML + timelineHTML;
+  testGrid.appendChild(card);
+});
+
+/* ── SIGNALS TABLE ── */
+const signalsData = [
+  {
+    field: 'Screenshots',
+    competitors: 'Hinge, Bumble, POF, Hily, Doni',
+    range: 'Jan 10 – Apr 08, 2026 (90 days)',
+    strength: 'Strong',
+    cls: 'sig-strong',
+    suggestion: 'Screenshot creative refresh is the category standard — Tinder\'s 11-cycle cadence is below competitive norm; increase velocity and expand variant diversity to match.'
+  },
+  {
+    field: 'Short Description',
+    competitors: 'Hinge (tested + shipped)',
+    range: 'Within 90-day window; shipped Mar 21, 2026',
+    strength: 'Strong',
+    cls: 'sig-strong',
+    suggestion: 'Hinge is the only primary competitor testing text positioning and has already shipped a confirmed change — Tinder should initiate short_description A/B testing immediately to close the intelligence gap.'
+  },
+  {
+    field: 'Icon',
+    competitors: 'Hily (A/B), Jovia (shipped)',
+    range: 'Within 90-day window; Jovia shipped Jan 25, 2026',
+    strength: 'Moderate',
+    cls: 'sig-moderate',
+    suggestion: 'Two competitors (one primary-adjacent, one secondary) are iterating on icon/brand mark — signal is emerging that icon refresh may yield incremental CRO gains worth exploring.'
+  }
+];
+
+const stbody = document.getElementById('signals-tbody');
+signalsData.forEach(s => {
+  const tr = document.createElement('tr');
+  tr.innerHTML = `
+    <td style="font-weight:600;color:var(--text-primary)">${s.field}</td>
+    <td style="font-size:13px;color:var(--text-secondary)">${s.competitors}</td>
+    <td style="font-family:var(--font-mono);font-size:11.5px;color:var(--text-muted)">${s.range}</td>
+    <td><span class="signal-strength ${s.cls}">${s.strength}</span></td>
+    <td style="font-size:13px;color:var(--text-secondary);line-height:1.5">${s.suggestion}</td>
+  `;
+  stbody.appendChild(tr);
+});
+
+/* ── NAV ACTIVE STATE ── */
+const sections = document.querySelectorAll('section[id]');
+const navLinks = document.querySelectorAll('.nav-link');
+
+const observer = new IntersectionObserver(entries => {
+  entries.forEach(entry => {
+    if (entry.isIntersecting) {
+      navLinks.forEach(l => l.classList.remove('active'));
+      const active = document.querySelector(`.nav-link[href="#${entry.target.id}"]`);
+      if (active) active.classList.add('active');
+    }
+  });
+}, { threshold: 0.3 });
+
+sections.forEach(s => observer.observe(s));
+</script>
+</body>
+</html>

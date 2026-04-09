@@ -37,47 +37,21 @@ jobs:
           python << 'EOF'
           import json
           from pathlib import Path
-          import sys
 
-          # Load processed data
           processed_dir = Path("aso_workflow/data/processed")
-          guides_dir = Path("reference_documents/track_a_keyword_gaps")
+          
+          # Load iOS data only for faster iteration
+          with open(processed_dir / "keyword_gaps_ios_547702041.json") as f:
+              ios_data = json.load(f)
 
-          # Read the analysis guide
-          with open(guides_dir / "analysis_guide.md") as f:
-              guide = f.read()
+          prompt = f"""Use the /keyword-gap-analysis and /aso-report-design skills to analyze this keyword gap data:
 
-          # Load keyword gaps data
-          gaps_files = {
-              "ios": processed_dir / "keyword_gaps_ios_547702041.json",
-              "android": processed_dir / "keyword_gaps_android_com.tinder.json"
-          }
+          {json.dumps(ios_data, indent=2)}
 
-          data = {}
-          for platform, file in gaps_files.items():
-              if file.exists():
-                  with open(file) as f:
-                      data[platform] = json.load(f)
-              else:
-                  print(f"Warning: {file} not found", file=sys.stderr)
-
-          # Create prompt embedding the analysis guide + data
-          prompt = f"""You are a Senior ASO Specialist. Analyze the following keyword gap data according to this analysis guide:
-
-          {guide}
-
-          ## PROCESSED DATA TO ANALYZE
-
-          iOS Keyword Gaps:
-          {json.dumps(data.get('ios', {}), indent=2)}
-
-          Android Keyword Gaps:
-          {json.dumps(data.get('android', {}), indent=2)}
-
-          Generate the complete HTML report as specified in the guide. Return ONLY the valid HTML file.
+          Generate a single self-contained HTML report for iOS keyword gaps following all requirements from both skills.
+          Return ONLY the valid HTML file with no explanation.
           """
 
-          # Save prompt
           with open("track_a_analysis_prompt.txt", "w") as f:
               f.write(prompt)
 
@@ -89,40 +63,26 @@ jobs:
           python << 'EOF'
           import json
           from pathlib import Path
-          import sys
 
-          # Load processed data
           processed_dir = Path("aso_workflow/data/processed")
-          guides_dir = Path("reference_documents/track_b_ab_test_inference")
-
-          # Read the analysis guide
-          with open(guides_dir / "analysis_guide.md") as f:
-              guide = f.read()
-
-          # Load A/B test history data
+          
+          # Load A/B test data
           ab_history_file = processed_dir / "ab_history_android_com.tinder.json"
-
-          data = {}
+          
           if ab_history_file.exists():
               with open(ab_history_file) as f:
                   data = json.load(f)
           else:
-              print(f"Warning: {ab_history_file} not found", file=sys.stderr)
+              data = {}
 
-          # Create prompt embedding the analysis guide + data
-          prompt = f"""You are a Senior ASO Specialist. Analyze the following A/B test data according to this analysis guide:
+          prompt = f"""Use the /ab-test-analysis and /aso-report-design skills to analyze this A/B test data:
 
-          {guide}
-
-          ## PROCESSED DATA TO ANALYZE
-
-          A/B Test History:
           {json.dumps(data, indent=2)}
 
-          Generate the complete HTML report as specified in the guide. Return ONLY the valid HTML file.
+          Generate a single self-contained HTML report for Android A/B test analysis following all requirements from both skills.
+          Return ONLY the valid HTML file with no explanation.
           """
 
-          # Save prompt
           with open("track_b_analysis_prompt.txt", "w") as f:
               f.write(prompt)
 
@@ -138,6 +98,7 @@ jobs:
         run: |
           copilot -p "$(cat track_a_analysis_prompt.txt)" \
             --no-ask-user \
+            --skills "/keyword-gap-analysis,/aso-report-design" \
             > aso_workflow/reports/track_a_analysis_report.html
 
       - name: Analyze with Copilot - Track B
@@ -146,6 +107,7 @@ jobs:
         run: |
           copilot -p "$(cat track_b_analysis_prompt.txt)" \
             --no-ask-user \
+            --skills "/ab-test-analysis,/aso-report-design" \
             > aso_workflow/reports/track_b_analysis_report.html
 
       - name: Commit and push analysis reports

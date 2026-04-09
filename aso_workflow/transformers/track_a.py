@@ -77,7 +77,7 @@ def _clean_text(text: str) -> str:
     return text
 
 
-def _extract_unigrams_and_bigrams(text: str) -> List[str]:
+def _extract_ngrams(text: str) -> List[str]:
     """Tokenize text into unigrams, bigrams, and trigrams, removing stopwords.
     
     Splits text into tokens, filters English stopwords and short words (<2 chars),
@@ -163,19 +163,19 @@ def _extract_app_terms(metadata: Dict[str, Any], platform: str) -> List[Dict[str
             
             # Excerpt (weight 3)
             excerpt_weight = FIELD_WEIGHTS.get("description_excerpt", 3)
-            for term in _extract_unigrams_and_bigrams(excerpt):
+            for term in _extract_ngrams(excerpt):
                 if term not in term_weights or term_weights[term][0] < excerpt_weight:
                     term_weights[term] = (excerpt_weight, "description_excerpt")
             
             # Remainder (weight 1)
             remainder_weight = FIELD_WEIGHTS.get("description_remainder", 1)
-            for term in _extract_unigrams_and_bigrams(remainder):
+            for term in _extract_ngrams(remainder):
                 if term not in term_weights or term_weights[term][0] < remainder_weight:
                     term_weights[term] = (remainder_weight, "description_remainder")
         else:
             # Regular field
             weight = FIELD_WEIGHTS.get(field_name, 1)
-            for term in _extract_unigrams_and_bigrams(field_text):
+            for term in _extract_ngrams(field_text):
                 if term not in term_weights or term_weights[term][0] < weight:
                     term_weights[term] = (weight, field_name)
     

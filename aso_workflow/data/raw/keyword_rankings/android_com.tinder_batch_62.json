@@ -1,0 +1,505 @@
+{
+  "result": {
+    "enterprises.dating.boo": {
+      "unless": {
+        "rank": {
+          "value": null,
+          "date": "2026-04-10",
+          "effective_value": 501,
+          "fetch_performed": true
+        },
+        "relevancy": {
+          "value": 42,
+          "date": "2026-04-10",
+          "effective_value": 42
+        },
+        "kei": {
+          "value": 24,
+          "date": "2026-04-10",
+          "effective_value": 24
+        },
+        "chance": {
+          "value": 56,
+          "date": "2026-04-10",
+          "effective_value": 56
+        }
+      },
+      "renew": {
+        "rank": {
+          "value": null,
+          "date": "2026-04-10",
+          "effective_value": 501,
+          "fetch_performed": true
+        },
+        "relevancy": {
+          "value": 17,
+          "date": "2026-04-10",
+          "effective_value": 17
+        },
+        "kei": {
+          "value": 22,
+          "date": "2026-04-10",
+          "effective_value": 22
+        },
+        "chance": {
+          "value": 73,
+          "date": "2026-04-10",
+          "effective_value": 73
+        }
+      },
+      "price": {
+        "rank": {
+          "value": null,
+          "date": "2026-04-10",
+          "effective_value": 501,
+          "fetch_performed": true
+        },
+        "relevancy": {
+          "value": 4,
+          "date": "2026-04-10",
+          "effective_value": 4
+        },
+        "kei": {
+          "value": 39,
+          "date": "2026-04-10",
+          "effective_value": 39
+        },
+        "chance": {
+          "value": 73,
+          "date": "2026-04-10",
+          "effective_value": 73
+        }
+      },
+      "subscriptions": {
+        "rank": {
+          "value": null,
+          "date": "2026-04-10",
+          "effective_value": 501,
+          "fetch_performed": true
+        },
+        "relevancy": {
+          "value": 25,
+          "date": "2026-04-10",
+          "effective_value": 25
+        },
+        "kei": {
+          "value": 76,
+          "date": "2026-04-10",
+          "effective_value": 76
+        },
+        "chance": {
+          "value": 73,
+          "date": "2026-04-10",
+          "effective_value": 73
+        }
+      },
+      "hello": {
+        "rank": {
+          "value": null,
+          "date": "2026-04-10",
+          "effective_value": 501,
+          "fetch_performed": true
+        },
+        "relevancy": {
+          "value": 43,
+          "date": "2026-04-10",
+          "effective_value": 43
+        },
+        "kei": {
+          "value": 84,
+          "date": "2026-04-10",
+          "effective_value": 84
+        },
+        "chance": {
+          "value": 73,
+          "date": "2026-04-10",
+          "effective_value": 73
+        }
+      }
+    },
+    "com.getpure.pure": {
+      "unless": {
+        "rank": {
+          "value": null,
+          "date": "2026-04-10",
+          "effective_value": 501,
+          "fetch_performed": true
+        },
+        "relevancy": {
+          "value": 45,
+          "date": "2026-04-10",
+          "effective_value": 45
+        },
+        "kei": {
+          "value": 24,
+          "date": "2026-04-10",
+          "effective_value": 24
+        },
+        "chance": {
+          "value": 56,
+          "date": "2026-04-10",
+          "effective_value": 56
+        }
+      },
+      "renew": {
+        "rank": {
+          "value": null,
+          "date": "2026-04-10",
+          "effective_value": 501,
+          "fetch_performed": true
+        },
+        "relevancy": {
+          "value": 19,
+          "date": "2026-04-10",
+          "effective_value": 19
+        },
+        "kei": {
+          "value": 22,
+          "date": "2026-04-10",
+          "effective_value": 22
+        },
+        "chance": {
+          "value": 73,
+          "date": "2026-04-10",
+          "effective_value": 73
+        }
+      },
+      "price": {
+        "rank": {
+          "value": null,
+          "date": "2026-04-10",
+          "effective_value": 501,
+          "fetch_performed": true
+        },
+        "relevancy": {
+          "value": 5,
+          "date": "2026-04-10",
+          "effective_value": 5
+        },
+        "kei": {
+          "value": 39,
+          "date": "2026-04-10",
+          "effective_value": 39
+        },
+        "chance": {
+          "value": 73,
+          "date": "2026-04-10",
+          "effective_value": 73
+        }
+      },
+      "subscriptions": {
+        "rank": {
+          "value": 98,
+          "date": "2026-04-10",
+          "effective_value": 98,
+          "fetch_performed": true
+        },
+        "relevancy": {
+          "value": 28,
+          "date": "2026-04-10",
+          "effective_value": 28
+        },
+        "kei": {
+          "value": 76,
+          "date": "2026-04-10",
+          "effective_value": 76
+        },
+        "chance": {
+          "value": 73,
+          "date": "2026-04-10",
+          "effective_value": 73
+        }
+      },
+      "hello": {
+        "rank": {
+          "value": null,
+          "date": "2026-04-10",
+          "effective_value": 501,
+          "fetch_performed": true
+        },
+        "relevancy": {
+          "value": 36,
+          "date": "2026-04-10",
+          "effective_value": 36
+        },
+        "kei": {
+          "value": 84,
+          "date": "2026-04-10",
+          "effective_value": 84
+        },
+        "chance": {
+          "value": 73,
+          "date": "2026-04-10",
+          "effective_value": 73
+        }
+      }
+    },
+    "com.nearme.wolf": {
+      "unless": {
+        "rank": {
+          "value": null,
+          "date": "2026-04-10",
+          "effective_value": 501,
+          "fetch_performed": true
+        },
+        "relevancy": {
+          "value": 32,
+          "date": "2026-04-10",
+          "effective_value": 32
+        },
+        "kei": {
+          "value": 14,
+          "date": "2026-04-10",
+          "effective_value": 14
+        },
+        "chance": {
+          "value": 29,
+          "date": "2026-04-10",
+          "effective_value": 29
+        }
+      },
+      "renew": {
+        "rank": {
+          "value": null,
+          "date": "2026-04-10",
+          "effective_value": 501,
+          "fetch_performed": true
+        },
+        "relevancy": {
+          "value": 25,
+          "date": "2026-04-10",
+          "effective_value": 25
+        },
+        "kei": {
+          "value": 22,
+          "date": "2026-04-10",
+          "effective_value": 22
+        },
+        "chance": {
+          "value": 73,
+          "date": "2026-04-10",
+          "effective_value": 73
+        }
+      },
+      "price": {
+        "rank": {
+          "value": null,
+          "date": "2026-04-10",
+          "effective_value": 501,
+          "fetch_performed": true
+        },
+        "relevancy": {
+          "value": 22,
+          "date": "2026-04-10",
+          "effective_value": 22
+        },
+        "kei": {
+          "value": 39,
+          "date": "2026-04-10",
+          "effective_value": 39
+        },
+        "chance": {
+          "value": 73,
+          "date": "2026-04-10",
+          "effective_value": 73
+        }
+      },
+      "subscriptions": {
+        "rank": {
+          "value": null,
+          "date": "2026-04-10",
+          "effective_value": 501,
+          "fetch_performed": true
+        },
+        "relevancy": {
+          "value": 28,
+          "date": "2026-04-10",
+          "effective_value": 28
+        },
+        "kei": {
+          "value": 76,
+          "date": "2026-04-10",
+          "effective_value": 76
+        },
+        "chance": {
+          "value": 73,
+          "date": "2026-04-10",
+          "effective_value": 73
+        }
+      },
+      "hello": {
+        "rank": {
+          "value": null,
+          "date": "2026-04-10",
+          "effective_value": 501,
+          "fetch_performed": true
+        },
+        "relevancy": {
+          "value": 46,
+          "date": "2026-04-10",
+          "effective_value": 46
+        },
+        "kei": {
+          "value": 84,
+          "date": "2026-04-10",
+          "effective_value": 84
+        },
+        "chance": {
+          "value": 73,
+          "date": "2026-04-10",
+          "effective_value": 73
+        }
+      }
+    },
+    "com.pof.android": {
+      "unless": {
+        "rank": {
+          "value": null,
+          "date": "2026-04-10",
+          "effective_value": 501,
+          "fetch_performed": true
+        },
+        "relevancy": {
+          "value": 52,
+          "date": "2026-04-10",
+          "effective_value": 52
+        },
+        "kei": {
+          "value": 19,
+          "date": "2026-04-10",
+          "effective_value": 19
+        },
+        "chance": {
+          "value": 42,
+          "date": "2026-04-10",
+          "effective_value": 42
+        }
+      },
+      "renew": {
+        "rank": {
+          "value": null,
+          "date": "2026-04-10",
+          "effective_value": 501,
+          "fetch_performed": true
+        },
+        "relevancy": {
+          "value": 22,
+          "date": "2026-04-10",
+          "effective_value": 22
+        },
+        "kei": {
+          "value": 22,
+          "date": "2026-04-10",
+          "effective_value": 22
+        },
+        "chance": {
+          "value": 73,
+          "date": "2026-04-10",
+          "effective_value": 73
+        }
+      },
+      "price": {
+        "rank": {
+          "value": null,
+          "date": "2026-04-10",
+          "effective_value": 501,
+          "fetch_performed": true
+        },
+        "relevancy": {
+          "value": 2,
+          "date": "2026-04-10",
+          "effective_value": 2
+        },
+        "kei": {
+          "value": 39,
+          "date": "2026-04-10",
+          "effective_value": 39
+        },
+        "chance": {
+          "value": 73,
+          "date": "2026-04-10",
+          "effective_value": 73
+        }
+      },
+      "subscriptions": {
+        "rank": {
+          "value": null,
+          "date": "2026-04-10",
+          "effective_value": 501,
+          "fetch_performed": true
+        },
+        "relevancy": {
+          "value": 30,
+          "date": "2026-04-10",
+          "effective_value": 30
+        },
+        "kei": {
+          "value": 76,
+          "date": "2026-04-10",
+          "effective_value": 76
+        },
+        "chance": {
+          "value": 73,
+          "date": "2026-04-10",
+          "effective_value": 73
+        }
+      },
+      "hello": {
+        "rank": {
+          "value": null,
+          "date": "2026-04-10",
+          "effective_value": 501,
+          "fetch_performed": true
+        },
+        "relevancy": {
+          "value": 43,
+          "date": "2026-04-10",
+          "effective_value": 43
+        },
+        "kei": {
+          "value": 84,
+          "date": "2026-04-10",
+          "effective_value": 84
+        },
+        "chance": {
+          "value": 73,
+          "date": "2026-04-10",
+          "effective_value": 73
+        }
+      }
+    }
+  },
+  "metadata": {
+    "request": {
+      "path": "/api/public/store/apps/keywords-rankings/current.json",
+      "params": {
+        "device": "android",
+        "country": "us",
+        "language": "us",
+        "apps": [
+          "enterprises.dating.boo",
+          "com.getpure.pure",
+          "com.nearme.wolf",
+          "com.pof.android"
+        ],
+        "metrics": [
+          "rank",
+          "relevancy",
+          "kei",
+          "chance"
+        ],
+        "keywords": [
+          "unless",
+          "renew",
+          "price",
+          "subscriptions",
+          "hello"
+        ]
+      },
+      "cost": 801,
+      "max_credit_cost": 801,
+      "status": 200
+    },
+    "response": null
+  }
+}

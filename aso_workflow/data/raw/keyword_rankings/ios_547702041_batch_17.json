@@ -1,0 +1,505 @@
+{
+  "result": {
+    "601174087": {
+      "inclusive community": {
+        "rank": {
+          "value": null,
+          "date": "2026-04-10",
+          "effective_value": 501,
+          "fetch_performed": true
+        },
+        "relevancy": {
+          "value": 62,
+          "date": "2026-04-10",
+          "effective_value": 62
+        },
+        "kei": {
+          "value": 22,
+          "date": "2026-04-10",
+          "effective_value": 22
+        },
+        "chance": {
+          "value": 73,
+          "date": "2026-04-10",
+          "effective_value": 73
+        }
+      },
+      "lgbtq+ friendly": {
+        "rank": {
+          "value": null,
+          "date": "2026-04-10",
+          "effective_value": 501,
+          "fetch_performed": true
+        },
+        "relevancy": {
+          "value": 98,
+          "date": "2026-04-10",
+          "effective_value": 98
+        },
+        "kei": {
+          "value": 22,
+          "date": "2026-04-10",
+          "effective_value": 22
+        },
+        "chance": {
+          "value": 73,
+          "date": "2026-04-10",
+          "effective_value": 73
+        }
+      },
+      "gay dating": {
+        "rank": {
+          "value": 28,
+          "date": "2026-04-10",
+          "effective_value": 28,
+          "fetch_performed": true
+        },
+        "relevancy": {
+          "value": 91,
+          "date": "2026-04-10",
+          "effective_value": 91
+        },
+        "kei": {
+          "value": 19,
+          "date": "2026-04-10",
+          "effective_value": 19
+        },
+        "chance": {
+          "value": 64,
+          "date": "2026-04-10",
+          "effective_value": 64
+        }
+      },
+      "lesbian dating": {
+        "rank": {
+          "value": 17,
+          "date": "2026-04-10",
+          "effective_value": 17,
+          "fetch_performed": true
+        },
+        "relevancy": {
+          "value": 89,
+          "date": "2026-04-10",
+          "effective_value": 89
+        },
+        "kei": {
+          "value": 14,
+          "date": "2026-04-10",
+          "effective_value": 14
+        },
+        "chance": {
+          "value": 48,
+          "date": "2026-04-10",
+          "effective_value": 48
+        }
+      },
+      "bisexual dating": {
+        "rank": {
+          "value": 15,
+          "date": "2026-04-10",
+          "effective_value": 15,
+          "fetch_performed": true
+        },
+        "relevancy": {
+          "value": 96,
+          "date": "2026-04-10",
+          "effective_value": 96
+        },
+        "kei": {
+          "value": 20,
+          "date": "2026-04-10",
+          "effective_value": 20
+        },
+        "chance": {
+          "value": 66,
+          "date": "2026-04-10",
+          "effective_value": 66
+        }
+      }
+    },
+    "1250946975": {
+      "inclusive community": {
+        "rank": {
+          "value": null,
+          "date": "2026-04-10",
+          "effective_value": 501,
+          "fetch_performed": true
+        },
+        "relevancy": {
+          "value": 64,
+          "date": "2026-04-10",
+          "effective_value": 64
+        },
+        "kei": {
+          "value": 22,
+          "date": "2026-04-10",
+          "effective_value": 22
+        },
+        "chance": {
+          "value": 73,
+          "date": "2026-04-10",
+          "effective_value": 73
+        }
+      },
+      "lgbtq+ friendly": {
+        "rank": {
+          "value": null,
+          "date": "2026-04-10",
+          "effective_value": 501,
+          "fetch_performed": true
+        },
+        "relevancy": {
+          "value": 97,
+          "date": "2026-04-10",
+          "effective_value": 97
+        },
+        "kei": {
+          "value": 22,
+          "date": "2026-04-10",
+          "effective_value": 22
+        },
+        "chance": {
+          "value": 73,
+          "date": "2026-04-10",
+          "effective_value": 73
+        }
+      },
+      "gay dating": {
+        "rank": {
+          "value": 35,
+          "date": "2026-04-10",
+          "effective_value": 35,
+          "fetch_performed": true
+        },
+        "relevancy": {
+          "value": 88,
+          "date": "2026-04-10",
+          "effective_value": 88
+        },
+        "kei": {
+          "value": 22,
+          "date": "2026-04-10",
+          "effective_value": 22
+        },
+        "chance": {
+          "value": 73,
+          "date": "2026-04-10",
+          "effective_value": 73
+        }
+      },
+      "lesbian dating": {
+        "rank": {
+          "value": 13,
+          "date": "2026-04-10",
+          "effective_value": 13,
+          "fetch_performed": true
+        },
+        "relevancy": {
+          "value": 86,
+          "date": "2026-04-10",
+          "effective_value": 86
+        },
+        "kei": {
+          "value": 22,
+          "date": "2026-04-10",
+          "effective_value": 22
+        },
+        "chance": {
+          "value": 73,
+          "date": "2026-04-10",
+          "effective_value": 73
+        }
+      },
+      "bisexual dating": {
+        "rank": {
+          "value": null,
+          "date": "2026-04-10",
+          "effective_value": 501,
+          "fetch_performed": true
+        },
+        "relevancy": {
+          "value": 93,
+          "date": "2026-04-10",
+          "effective_value": 93
+        },
+        "kei": {
+          "value": 22,
+          "date": "2026-04-10",
+          "effective_value": 22
+        },
+        "chance": {
+          "value": 73,
+          "date": "2026-04-10",
+          "effective_value": 73
+        }
+      }
+    },
+    "690661663": {
+      "inclusive community": {
+        "rank": {
+          "value": null,
+          "date": "2026-04-10",
+          "effective_value": 501,
+          "fetch_performed": true
+        },
+        "relevancy": {
+          "value": 72,
+          "date": "2026-04-10",
+          "effective_value": 72
+        },
+        "kei": {
+          "value": 22,
+          "date": "2026-04-10",
+          "effective_value": 22
+        },
+        "chance": {
+          "value": 73,
+          "date": "2026-04-10",
+          "effective_value": 73
+        }
+      },
+      "lgbtq+ friendly": {
+        "rank": {
+          "value": null,
+          "date": "2026-04-10",
+          "effective_value": 501,
+          "fetch_performed": true
+        },
+        "relevancy": {
+          "value": 94,
+          "date": "2026-04-10",
+          "effective_value": 94
+        },
+        "kei": {
+          "value": 22,
+          "date": "2026-04-10",
+          "effective_value": 22
+        },
+        "chance": {
+          "value": 73,
+          "date": "2026-04-10",
+          "effective_value": 73
+        }
+      },
+      "gay dating": {
+        "rank": {
+          "value": 54,
+          "date": "2026-04-10",
+          "effective_value": 54,
+          "fetch_performed": true
+        },
+        "relevancy": {
+          "value": 81,
+          "date": "2026-04-10",
+          "effective_value": 81
+        },
+        "kei": {
+          "value": 22,
+          "date": "2026-04-10",
+          "effective_value": 22
+        },
+        "chance": {
+          "value": 73,
+          "date": "2026-04-10",
+          "effective_value": 73
+        }
+      },
+      "lesbian dating": {
+        "rank": {
+          "value": 27,
+          "date": "2026-04-10",
+          "effective_value": 27,
+          "fetch_performed": true
+        },
+        "relevancy": {
+          "value": 79,
+          "date": "2026-04-10",
+          "effective_value": 79
+        },
+        "kei": {
+          "value": 20,
+          "date": "2026-04-10",
+          "effective_value": 20
+        },
+        "chance": {
+          "value": 68,
+          "date": "2026-04-10",
+          "effective_value": 68
+        }
+      },
+      "bisexual dating": {
+        "rank": {
+          "value": null,
+          "date": "2026-04-10",
+          "effective_value": 501,
+          "fetch_performed": true
+        },
+        "relevancy": {
+          "value": 86,
+          "date": "2026-04-10",
+          "effective_value": 86
+        },
+        "kei": {
+          "value": 22,
+          "date": "2026-04-10",
+          "effective_value": 22
+        },
+        "chance": {
+          "value": 73,
+          "date": "2026-04-10",
+          "effective_value": 73
+        }
+      }
+    },
+    "1265035248": {
+      "inclusive community": {
+        "rank": {
+          "value": null,
+          "date": "2026-04-10",
+          "effective_value": 501,
+          "fetch_performed": true
+        },
+        "relevancy": {
+          "value": 70,
+          "date": "2026-04-10",
+          "effective_value": 70
+        },
+        "kei": {
+          "value": 14,
+          "date": "2026-04-10",
+          "effective_value": 14
+        },
+        "chance": {
+          "value": 48,
+          "date": "2026-04-10",
+          "effective_value": 48
+        }
+      },
+      "lgbtq+ friendly": {
+        "rank": {
+          "value": null,
+          "date": "2026-04-10",
+          "effective_value": 501,
+          "fetch_performed": true
+        },
+        "relevancy": {
+          "value": 97,
+          "date": "2026-04-10",
+          "effective_value": 97
+        },
+        "kei": {
+          "value": 17,
+          "date": "2026-04-10",
+          "effective_value": 17
+        },
+        "chance": {
+          "value": 57,
+          "date": "2026-04-10",
+          "effective_value": 57
+        }
+      },
+      "gay dating": {
+        "rank": {
+          "value": 96,
+          "date": "2026-04-10",
+          "effective_value": 96,
+          "fetch_performed": true
+        },
+        "relevancy": {
+          "value": 87,
+          "date": "2026-04-10",
+          "effective_value": 87
+        },
+        "kei": {
+          "value": 7,
+          "date": "2026-04-10",
+          "effective_value": 7
+        },
+        "chance": {
+          "value": 22,
+          "date": "2026-04-10",
+          "effective_value": 22
+        }
+      },
+      "lesbian dating": {
+        "rank": {
+          "value": 59,
+          "date": "2026-04-10",
+          "effective_value": 59,
+          "fetch_performed": true
+        },
+        "relevancy": {
+          "value": 87,
+          "date": "2026-04-10",
+          "effective_value": 87
+        },
+        "kei": {
+          "value": 3,
+          "date": "2026-04-10",
+          "effective_value": 3
+        },
+        "chance": {
+          "value": 11,
+          "date": "2026-04-10",
+          "effective_value": 11
+        }
+      },
+      "bisexual dating": {
+        "rank": {
+          "value": null,
+          "date": "2026-04-10",
+          "effective_value": 501,
+          "fetch_performed": true
+        },
+        "relevancy": {
+          "value": 91,
+          "date": "2026-04-10",
+          "effective_value": 91
+        },
+        "kei": {
+          "value": 7,
+          "date": "2026-04-10",
+          "effective_value": 7
+        },
+        "chance": {
+          "value": 23,
+          "date": "2026-04-10",
+          "effective_value": 23
+        }
+      }
+    }
+  },
+  "metadata": {
+    "request": {
+      "path": "/api/public/store/apps/keywords-rankings/current.json",
+      "params": {
+        "device": "iphone",
+        "country": "us",
+        "language": "us",
+        "apps": [
+          "601174087",
+          "1250946975",
+          "690661663",
+          "1265035248"
+        ],
+        "metrics": [
+          "rank",
+          "relevancy",
+          "kei",
+          "chance"
+        ],
+        "keywords": [
+          "inclusive community",
+          "lgbtq+ friendly",
+          "gay dating",
+          "lesbian dating",
+          "bisexual dating"
+        ]
+      },
+      "cost": 801,
+      "max_credit_cost": 801,
+      "status": 200
+    },
+    "response": null
+  }
+}

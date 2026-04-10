@@ -1,0 +1,623 @@
+{
+  "result": {
+    "com.tinder": {
+      "non subscription single": {
+        "rank": {
+          "value": 43,
+          "date": "2026-04-10",
+          "effective_value": 43,
+          "fetch_performed": true
+        },
+        "relevancy": {
+          "value": 55,
+          "date": "2026-04-10",
+          "effective_value": 55
+        },
+        "kei": {
+          "value": 22,
+          "date": "2026-04-10",
+          "effective_value": 22
+        },
+        "chance": {
+          "value": 73,
+          "date": "2026-04-10",
+          "effective_value": 73
+        }
+      },
+      "subscription single multi": {
+        "rank": {
+          "value": null,
+          "date": "2026-04-10",
+          "effective_value": 501,
+          "fetch_performed": true
+        },
+        "relevancy": {
+          "value": 64,
+          "date": "2026-04-10",
+          "effective_value": 64
+        },
+        "kei": {
+          "value": 22,
+          "date": "2026-04-10",
+          "effective_value": 22
+        },
+        "chance": {
+          "value": 73,
+          "date": "2026-04-10",
+          "effective_value": 73
+        }
+      },
+      "single multi use": {
+        "rank": {
+          "value": null,
+          "date": "2026-04-10",
+          "effective_value": 501,
+          "fetch_performed": true
+        },
+        "relevancy": {
+          "value": 15,
+          "date": "2026-04-10",
+          "effective_value": 15
+        },
+        "kei": {
+          "value": 18,
+          "date": "2026-04-10",
+          "effective_value": 18
+        },
+        "chance": {
+          "value": 60,
+          "date": "2026-04-10",
+          "effective_value": 60
+        }
+      },
+      "multi use paid": {
+        "rank": {
+          "value": null,
+          "date": "2026-04-10",
+          "effective_value": 501,
+          "fetch_performed": true
+        },
+        "relevancy": {
+          "value": 27,
+          "date": "2026-04-10",
+          "effective_value": 27
+        },
+        "kei": {
+          "value": 22,
+          "date": "2026-04-10",
+          "effective_value": 22
+        },
+        "chance": {
+          "value": 73,
+          "date": "2026-04-10",
+          "effective_value": 73
+        }
+      },
+      "use paid features": {
+        "rank": {
+          "value": null,
+          "date": "2026-04-10",
+          "effective_value": 501,
+          "fetch_performed": true
+        },
+        "relevancy": {
+          "value": 33,
+          "date": "2026-04-10",
+          "effective_value": 33
+        },
+        "kei": {
+          "value": 22,
+          "date": "2026-04-10",
+          "effective_value": 22
+        },
+        "chance": {
+          "value": 73,
+          "date": "2026-04-10",
+          "effective_value": 73
+        }
+      }
+    },
+    "co.hinge.app": {
+      "non subscription single": {
+        "rank": {
+          "value": null,
+          "date": "2026-04-10",
+          "effective_value": 501,
+          "fetch_performed": true
+        },
+        "relevancy": {
+          "value": 62,
+          "date": "2026-04-10",
+          "effective_value": 62
+        },
+        "kei": {
+          "value": 22,
+          "date": "2026-04-10",
+          "effective_value": 22
+        },
+        "chance": {
+          "value": 73,
+          "date": "2026-04-10",
+          "effective_value": 73
+        }
+      },
+      "subscription single multi": {
+        "rank": {
+          "value": null,
+          "date": "2026-04-10",
+          "effective_value": 501,
+          "fetch_performed": true
+        },
+        "relevancy": {
+          "value": 64,
+          "date": "2026-04-10",
+          "effective_value": 64
+        },
+        "kei": {
+          "value": 22,
+          "date": "2026-04-10",
+          "effective_value": 22
+        },
+        "chance": {
+          "value": 73,
+          "date": "2026-04-10",
+          "effective_value": 73
+        }
+      },
+      "single multi use": {
+        "rank": {
+          "value": null,
+          "date": "2026-04-10",
+          "effective_value": 501,
+          "fetch_performed": true
+        },
+        "relevancy": {
+          "value": 15,
+          "date": "2026-04-10",
+          "effective_value": 15
+        },
+        "kei": {
+          "value": 17,
+          "date": "2026-04-10",
+          "effective_value": 17
+        },
+        "chance": {
+          "value": 57,
+          "date": "2026-04-10",
+          "effective_value": 57
+        }
+      },
+      "multi use paid": {
+        "rank": {
+          "value": null,
+          "date": "2026-04-10",
+          "effective_value": 501,
+          "fetch_performed": true
+        },
+        "relevancy": {
+          "value": 27,
+          "date": "2026-04-10",
+          "effective_value": 27
+        },
+        "kei": {
+          "value": 22,
+          "date": "2026-04-10",
+          "effective_value": 22
+        },
+        "chance": {
+          "value": 73,
+          "date": "2026-04-10",
+          "effective_value": 73
+        }
+      },
+      "use paid features": {
+        "rank": {
+          "value": null,
+          "date": "2026-04-10",
+          "effective_value": 501,
+          "fetch_performed": true
+        },
+        "relevancy": {
+          "value": 31,
+          "date": "2026-04-10",
+          "effective_value": 31
+        },
+        "kei": {
+          "value": 22,
+          "date": "2026-04-10",
+          "effective_value": 22
+        },
+        "chance": {
+          "value": 73,
+          "date": "2026-04-10",
+          "effective_value": 73
+        }
+      }
+    },
+    "com.doni.appa": {
+      "non subscription single": {
+        "rank": {
+          "value": null,
+          "date": "2026-04-10",
+          "effective_value": 501,
+          "fetch_performed": true
+        },
+        "relevancy": {
+          "value": 71,
+          "date": "2026-04-10",
+          "effective_value": 71
+        },
+        "kei": {
+          "value": 22,
+          "date": "2026-04-10",
+          "effective_value": 22
+        },
+        "chance": {
+          "value": 73,
+          "date": "2026-04-10",
+          "effective_value": 73
+        }
+      },
+      "subscription single multi": {
+        "rank": {
+          "value": null,
+          "date": "2026-04-10",
+          "effective_value": 501,
+          "fetch_performed": true
+        },
+        "relevancy": {
+          "value": 76,
+          "date": "2026-04-10",
+          "effective_value": 76
+        },
+        "kei": {
+          "value": 22,
+          "date": "2026-04-10",
+          "effective_value": 22
+        },
+        "chance": {
+          "value": 73,
+          "date": "2026-04-10",
+          "effective_value": 73
+        }
+      },
+      "single multi use": {
+        "rank": {
+          "value": null,
+          "date": "2026-04-10",
+          "effective_value": 501,
+          "fetch_performed": true
+        },
+        "relevancy": {
+          "value": 26,
+          "date": "2026-04-10",
+          "effective_value": 26
+        },
+        "kei": {
+          "value": 14,
+          "date": "2026-04-10",
+          "effective_value": 14
+        },
+        "chance": {
+          "value": 48,
+          "date": "2026-04-10",
+          "effective_value": 48
+        }
+      },
+      "multi use paid": {
+        "rank": {
+          "value": null,
+          "date": "2026-04-10",
+          "effective_value": 501,
+          "fetch_performed": true
+        },
+        "relevancy": {
+          "value": 36,
+          "date": "2026-04-10",
+          "effective_value": 36
+        },
+        "kei": {
+          "value": 22,
+          "date": "2026-04-10",
+          "effective_value": 22
+        },
+        "chance": {
+          "value": 73,
+          "date": "2026-04-10",
+          "effective_value": 73
+        }
+      },
+      "use paid features": {
+        "rank": {
+          "value": null,
+          "date": "2026-04-10",
+          "effective_value": 501,
+          "fetch_performed": true
+        },
+        "relevancy": {
+          "value": 43,
+          "date": "2026-04-10",
+          "effective_value": 43
+        },
+        "kei": {
+          "value": 20,
+          "date": "2026-04-10",
+          "effective_value": 20
+        },
+        "chance": {
+          "value": 66,
+          "date": "2026-04-10",
+          "effective_value": 66
+        }
+      }
+    },
+    "com.bumble.app": {
+      "non subscription single": {
+        "rank": {
+          "value": null,
+          "date": "2026-04-10",
+          "effective_value": 501,
+          "fetch_performed": true
+        },
+        "relevancy": {
+          "value": 55,
+          "date": "2026-04-10",
+          "effective_value": 55
+        },
+        "kei": {
+          "value": 22,
+          "date": "2026-04-10",
+          "effective_value": 22
+        },
+        "chance": {
+          "value": 73,
+          "date": "2026-04-10",
+          "effective_value": 73
+        }
+      },
+      "subscription single multi": {
+        "rank": {
+          "value": 27,
+          "date": "2026-04-10",
+          "effective_value": 27,
+          "fetch_performed": true
+        },
+        "relevancy": {
+          "value": 64,
+          "date": "2026-04-10",
+          "effective_value": 64
+        },
+        "kei": {
+          "value": 22,
+          "date": "2026-04-10",
+          "effective_value": 22
+        },
+        "chance": {
+          "value": 73,
+          "date": "2026-04-10",
+          "effective_value": 73
+        }
+      },
+      "single multi use": {
+        "rank": {
+          "value": null,
+          "date": "2026-04-10",
+          "effective_value": 501,
+          "fetch_performed": true
+        },
+        "relevancy": {
+          "value": 20,
+          "date": "2026-04-10",
+          "effective_value": 20
+        },
+        "kei": {
+          "value": 16,
+          "date": "2026-04-10",
+          "effective_value": 16
+        },
+        "chance": {
+          "value": 52,
+          "date": "2026-04-10",
+          "effective_value": 52
+        }
+      },
+      "multi use paid": {
+        "rank": {
+          "value": null,
+          "date": "2026-04-10",
+          "effective_value": 501,
+          "fetch_performed": true
+        },
+        "relevancy": {
+          "value": 21,
+          "date": "2026-04-10",
+          "effective_value": 21
+        },
+        "kei": {
+          "value": 22,
+          "date": "2026-04-10",
+          "effective_value": 22
+        },
+        "chance": {
+          "value": 73,
+          "date": "2026-04-10",
+          "effective_value": 73
+        }
+      },
+      "use paid features": {
+        "rank": {
+          "value": null,
+          "date": "2026-04-10",
+          "effective_value": 501,
+          "fetch_performed": true
+        },
+        "relevancy": {
+          "value": 26,
+          "date": "2026-04-10",
+          "effective_value": 26
+        },
+        "kei": {
+          "value": 21,
+          "date": "2026-04-10",
+          "effective_value": 21
+        },
+        "chance": {
+          "value": 70,
+          "date": "2026-04-10",
+          "effective_value": 70
+        }
+      }
+    },
+    "com.hily.app": {
+      "non subscription single": {
+        "rank": {
+          "value": null,
+          "date": "2026-04-10",
+          "effective_value": 501,
+          "fetch_performed": true
+        },
+        "relevancy": {
+          "value": 62,
+          "date": "2026-04-10",
+          "effective_value": 62
+        },
+        "kei": {
+          "value": 22,
+          "date": "2026-04-10",
+          "effective_value": 22
+        },
+        "chance": {
+          "value": 73,
+          "date": "2026-04-10",
+          "effective_value": 73
+        }
+      },
+      "subscription single multi": {
+        "rank": {
+          "value": null,
+          "date": "2026-04-10",
+          "effective_value": 501,
+          "fetch_performed": true
+        },
+        "relevancy": {
+          "value": 69,
+          "date": "2026-04-10",
+          "effective_value": 69
+        },
+        "kei": {
+          "value": 22,
+          "date": "2026-04-10",
+          "effective_value": 22
+        },
+        "chance": {
+          "value": 73,
+          "date": "2026-04-10",
+          "effective_value": 73
+        }
+      },
+      "single multi use": {
+        "rank": {
+          "value": null,
+          "date": "2026-04-10",
+          "effective_value": 501,
+          "fetch_performed": true
+        },
+        "relevancy": {
+          "value": 20,
+          "date": "2026-04-10",
+          "effective_value": 20
+        },
+        "kei": {
+          "value": 13,
+          "date": "2026-04-10",
+          "effective_value": 13
+        },
+        "chance": {
+          "value": 44,
+          "date": "2026-04-10",
+          "effective_value": 44
+        }
+      },
+      "multi use paid": {
+        "rank": {
+          "value": null,
+          "date": "2026-04-10",
+          "effective_value": 501,
+          "fetch_performed": true
+        },
+        "relevancy": {
+          "value": 27,
+          "date": "2026-04-10",
+          "effective_value": 27
+        },
+        "kei": {
+          "value": 22,
+          "date": "2026-04-10",
+          "effective_value": 22
+        },
+        "chance": {
+          "value": 73,
+          "date": "2026-04-10",
+          "effective_value": 73
+        }
+      },
+      "use paid features": {
+        "rank": {
+          "value": null,
+          "date": "2026-04-10",
+          "effective_value": 501,
+          "fetch_performed": true
+        },
+        "relevancy": {
+          "value": 36,
+          "date": "2026-04-10",
+          "effective_value": 36
+        },
+        "kei": {
+          "value": 19,
+          "date": "2026-04-10",
+          "effective_value": 19
+        },
+        "chance": {
+          "value": 62,
+          "date": "2026-04-10",
+          "effective_value": 62
+        }
+      }
+    }
+  },
+  "metadata": {
+    "request": {
+      "path": "/api/public/store/apps/keywords-rankings/current.json",
+      "params": {
+        "device": "android",
+        "country": "us",
+        "language": "us",
+        "apps": [
+          "com.tinder",
+          "co.hinge.app",
+          "com.doni.appa",
+          "com.bumble.app",
+          "com.hily.app"
+        ],
+        "metrics": [
+          "rank",
+          "relevancy",
+          "kei",
+          "chance"
+        ],
+        "keywords": [
+          "non subscription single",
+          "subscription single multi",
+          "single multi use",
+          "multi use paid",
+          "use paid features"
+        ]
+      },
+      "cost": 1001,
+      "max_credit_cost": 1001,
+      "status": 200
+    },
+    "response": null
+  }
+}

@@ -43,7 +43,12 @@ PRIMARY_TIER_COUNT = 3
 
 # Keyword ranking settings
 KEYWORD_RANKINGS_DRY_RUN = False  # Safety flag: set to False only after reviewing cost estimate
-MAX_SEED_KEYWORDS = 50  # Cap on number of seed keywords to fetch rankings for
+MAX_KEYWORD_LLM_FILTER = 2000 # Max number of keywords to send to LLM for filtering (to control costs)
+MAX_SEED_KEYWORDS = 200  # Cap on number of seed keywords to fetch rankings for
 KEYWORD_RANKINGS_ENDPOINT = "api/public/store/apps/keywords-rankings/current.json"
-KEYWORD_RANKINGS_METRICS = "rank,installs,relevancy,kei,chance"
+KEYWORD_RANKINGS_METRICS = "rank,relevancy,kei,chance"
 CREDIT_PER_APP_KEYWORD_METRIC = 10  # Each app/keyword/metric combo costs 10 credits
+
+# Keyword metrics settings
+KEYWORD_METRICS_ENDPOINT = "api/public/store/keywords/metrics/current.json"
+MIN_VOLUME_THRESHOLD = 6  # Minimum search volume for gap keyword filtering

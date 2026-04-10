@@ -1,0 +1,623 @@
+{
+  "result": {
+    "com.tinder": {
+      "meaningful relationships": {
+        "rank": {
+          "value": null,
+          "date": "2026-04-10",
+          "effective_value": 501,
+          "fetch_performed": true
+        },
+        "relevancy": {
+          "value": 80,
+          "date": "2026-04-10",
+          "effective_value": 80
+        },
+        "kei": {
+          "value": 22,
+          "date": "2026-04-10",
+          "effective_value": 22
+        },
+        "chance": {
+          "value": 73,
+          "date": "2026-04-10",
+          "effective_value": 73
+        }
+      },
+      "39 help": {
+        "rank": {
+          "value": null,
+          "date": "2026-04-10",
+          "effective_value": 501,
+          "fetch_performed": true
+        },
+        "relevancy": {
+          "value": 23,
+          "date": "2026-04-10",
+          "effective_value": 23
+        },
+        "kei": {
+          "value": 22,
+          "date": "2026-04-10",
+          "effective_value": 22
+        },
+        "chance": {
+          "value": 73,
+          "date": "2026-04-10",
+          "effective_value": 73
+        }
+      },
+      "commitment": {
+        "rank": {
+          "value": null,
+          "date": "2026-04-10",
+          "effective_value": 501,
+          "fetch_performed": true
+        },
+        "relevancy": {
+          "value": 33,
+          "date": "2026-04-10",
+          "effective_value": 33
+        },
+        "kei": {
+          "value": 22,
+          "date": "2026-04-10",
+          "effective_value": 22
+        },
+        "chance": {
+          "value": 73,
+          "date": "2026-04-10",
+          "effective_value": 73
+        }
+      },
+      "member": {
+        "rank": {
+          "value": null,
+          "date": "2026-04-10",
+          "effective_value": 501,
+          "fetch_performed": true
+        },
+        "relevancy": {
+          "value": 44,
+          "date": "2026-04-10",
+          "effective_value": 44
+        },
+        "kei": {
+          "value": 34,
+          "date": "2026-04-10",
+          "effective_value": 34
+        },
+        "chance": {
+          "value": 72,
+          "date": "2026-04-10",
+          "effective_value": 72
+        }
+      },
+      "empower": {
+        "rank": {
+          "value": null,
+          "date": "2026-04-10",
+          "effective_value": 501,
+          "fetch_performed": true
+        },
+        "relevancy": {
+          "value": 13,
+          "date": "2026-04-10",
+          "effective_value": 13
+        },
+        "kei": {
+          "value": 92,
+          "date": "2026-04-10",
+          "effective_value": 92
+        },
+        "chance": {
+          "value": 73,
+          "date": "2026-04-10",
+          "effective_value": 73
+        }
+      }
+    },
+    "co.hinge.app": {
+      "meaningful relationships": {
+        "rank": {
+          "value": null,
+          "date": "2026-04-10",
+          "effective_value": 501,
+          "fetch_performed": true
+        },
+        "relevancy": {
+          "value": 88,
+          "date": "2026-04-10",
+          "effective_value": 88
+        },
+        "kei": {
+          "value": 22,
+          "date": "2026-04-10",
+          "effective_value": 22
+        },
+        "chance": {
+          "value": 73,
+          "date": "2026-04-10",
+          "effective_value": 73
+        }
+      },
+      "39 help": {
+        "rank": {
+          "value": null,
+          "date": "2026-04-10",
+          "effective_value": 501,
+          "fetch_performed": true
+        },
+        "relevancy": {
+          "value": 30,
+          "date": "2026-04-10",
+          "effective_value": 30
+        },
+        "kei": {
+          "value": 22,
+          "date": "2026-04-10",
+          "effective_value": 22
+        },
+        "chance": {
+          "value": 72,
+          "date": "2026-04-10",
+          "effective_value": 72
+        }
+      },
+      "commitment": {
+        "rank": {
+          "value": null,
+          "date": "2026-04-10",
+          "effective_value": 501,
+          "fetch_performed": true
+        },
+        "relevancy": {
+          "value": 45,
+          "date": "2026-04-10",
+          "effective_value": 45
+        },
+        "kei": {
+          "value": 22,
+          "date": "2026-04-10",
+          "effective_value": 22
+        },
+        "chance": {
+          "value": 73,
+          "date": "2026-04-10",
+          "effective_value": 73
+        }
+      },
+      "member": {
+        "rank": {
+          "value": null,
+          "date": "2026-04-10",
+          "effective_value": 501,
+          "fetch_performed": true
+        },
+        "relevancy": {
+          "value": 50,
+          "date": "2026-04-10",
+          "effective_value": 50
+        },
+        "kei": {
+          "value": 32,
+          "date": "2026-04-10",
+          "effective_value": 32
+        },
+        "chance": {
+          "value": 69,
+          "date": "2026-04-10",
+          "effective_value": 69
+        }
+      },
+      "empower": {
+        "rank": {
+          "value": null,
+          "date": "2026-04-10",
+          "effective_value": 501,
+          "fetch_performed": true
+        },
+        "relevancy": {
+          "value": 20,
+          "date": "2026-04-10",
+          "effective_value": 20
+        },
+        "kei": {
+          "value": 92,
+          "date": "2026-04-10",
+          "effective_value": 92
+        },
+        "chance": {
+          "value": 73,
+          "date": "2026-04-10",
+          "effective_value": 73
+        }
+      }
+    },
+    "com.doni.appa": {
+      "meaningful relationships": {
+        "rank": {
+          "value": null,
+          "date": "2026-04-10",
+          "effective_value": 501,
+          "fetch_performed": true
+        },
+        "relevancy": {
+          "value": 79,
+          "date": "2026-04-10",
+          "effective_value": 79
+        },
+        "kei": {
+          "value": 22,
+          "date": "2026-04-10",
+          "effective_value": 22
+        },
+        "chance": {
+          "value": 73,
+          "date": "2026-04-10",
+          "effective_value": 73
+        }
+      },
+      "39 help": {
+        "rank": {
+          "value": null,
+          "date": "2026-04-10",
+          "effective_value": 501,
+          "fetch_performed": true
+        },
+        "relevancy": {
+          "value": 46,
+          "date": "2026-04-10",
+          "effective_value": 46
+        },
+        "kei": {
+          "value": 20,
+          "date": "2026-04-10",
+          "effective_value": 20
+        },
+        "chance": {
+          "value": 65,
+          "date": "2026-04-10",
+          "effective_value": 65
+        }
+      },
+      "commitment": {
+        "rank": {
+          "value": null,
+          "date": "2026-04-10",
+          "effective_value": 501,
+          "fetch_performed": true
+        },
+        "relevancy": {
+          "value": 44,
+          "date": "2026-04-10",
+          "effective_value": 44
+        },
+        "kei": {
+          "value": 22,
+          "date": "2026-04-10",
+          "effective_value": 22
+        },
+        "chance": {
+          "value": 73,
+          "date": "2026-04-10",
+          "effective_value": 73
+        }
+      },
+      "member": {
+        "rank": {
+          "value": null,
+          "date": "2026-04-10",
+          "effective_value": 501,
+          "fetch_performed": true
+        },
+        "relevancy": {
+          "value": 50,
+          "date": "2026-04-10",
+          "effective_value": 50
+        },
+        "kei": {
+          "value": 29,
+          "date": "2026-04-10",
+          "effective_value": 29
+        },
+        "chance": {
+          "value": 61,
+          "date": "2026-04-10",
+          "effective_value": 61
+        }
+      },
+      "empower": {
+        "rank": {
+          "value": null,
+          "date": "2026-04-10",
+          "effective_value": 501,
+          "fetch_performed": true
+        },
+        "relevancy": {
+          "value": 14,
+          "date": "2026-04-10",
+          "effective_value": 14
+        },
+        "kei": {
+          "value": 92,
+          "date": "2026-04-10",
+          "effective_value": 92
+        },
+        "chance": {
+          "value": 73,
+          "date": "2026-04-10",
+          "effective_value": 73
+        }
+      }
+    },
+    "com.bumble.app": {
+      "meaningful relationships": {
+        "rank": {
+          "value": null,
+          "date": "2026-04-10",
+          "effective_value": 501,
+          "fetch_performed": true
+        },
+        "relevancy": {
+          "value": 80,
+          "date": "2026-04-10",
+          "effective_value": 80
+        },
+        "kei": {
+          "value": 22,
+          "date": "2026-04-10",
+          "effective_value": 22
+        },
+        "chance": {
+          "value": 73,
+          "date": "2026-04-10",
+          "effective_value": 73
+        }
+      },
+      "39 help": {
+        "rank": {
+          "value": null,
+          "date": "2026-04-10",
+          "effective_value": 501,
+          "fetch_performed": true
+        },
+        "relevancy": {
+          "value": 22,
+          "date": "2026-04-10",
+          "effective_value": 22
+        },
+        "kei": {
+          "value": 20,
+          "date": "2026-04-10",
+          "effective_value": 20
+        },
+        "chance": {
+          "value": 68,
+          "date": "2026-04-10",
+          "effective_value": 68
+        }
+      },
+      "commitment": {
+        "rank": {
+          "value": null,
+          "date": "2026-04-10",
+          "effective_value": 501,
+          "fetch_performed": true
+        },
+        "relevancy": {
+          "value": 31,
+          "date": "2026-04-10",
+          "effective_value": 31
+        },
+        "kei": {
+          "value": 22,
+          "date": "2026-04-10",
+          "effective_value": 22
+        },
+        "chance": {
+          "value": 73,
+          "date": "2026-04-10",
+          "effective_value": 73
+        }
+      },
+      "member": {
+        "rank": {
+          "value": null,
+          "date": "2026-04-10",
+          "effective_value": 501,
+          "fetch_performed": true
+        },
+        "relevancy": {
+          "value": 42,
+          "date": "2026-04-10",
+          "effective_value": 42
+        },
+        "kei": {
+          "value": 30,
+          "date": "2026-04-10",
+          "effective_value": 30
+        },
+        "chance": {
+          "value": 64,
+          "date": "2026-04-10",
+          "effective_value": 64
+        }
+      },
+      "empower": {
+        "rank": {
+          "value": null,
+          "date": "2026-04-10",
+          "effective_value": 501,
+          "fetch_performed": true
+        },
+        "relevancy": {
+          "value": 8,
+          "date": "2026-04-10",
+          "effective_value": 8
+        },
+        "kei": {
+          "value": 92,
+          "date": "2026-04-10",
+          "effective_value": 92
+        },
+        "chance": {
+          "value": 73,
+          "date": "2026-04-10",
+          "effective_value": 73
+        }
+      }
+    },
+    "com.hily.app": {
+      "meaningful relationships": {
+        "rank": {
+          "value": null,
+          "date": "2026-04-10",
+          "effective_value": 501,
+          "fetch_performed": true
+        },
+        "relevancy": {
+          "value": 78,
+          "date": "2026-04-10",
+          "effective_value": 78
+        },
+        "kei": {
+          "value": 22,
+          "date": "2026-04-10",
+          "effective_value": 22
+        },
+        "chance": {
+          "value": 73,
+          "date": "2026-04-10",
+          "effective_value": 73
+        }
+      },
+      "39 help": {
+        "rank": {
+          "value": null,
+          "date": "2026-04-10",
+          "effective_value": 501,
+          "fetch_performed": true
+        },
+        "relevancy": {
+          "value": 37,
+          "date": "2026-04-10",
+          "effective_value": 37
+        },
+        "kei": {
+          "value": 18,
+          "date": "2026-04-10",
+          "effective_value": 18
+        },
+        "chance": {
+          "value": 60,
+          "date": "2026-04-10",
+          "effective_value": 60
+        }
+      },
+      "commitment": {
+        "rank": {
+          "value": null,
+          "date": "2026-04-10",
+          "effective_value": 501,
+          "fetch_performed": true
+        },
+        "relevancy": {
+          "value": 42,
+          "date": "2026-04-10",
+          "effective_value": 42
+        },
+        "kei": {
+          "value": 22,
+          "date": "2026-04-10",
+          "effective_value": 22
+        },
+        "chance": {
+          "value": 73,
+          "date": "2026-04-10",
+          "effective_value": 73
+        }
+      },
+      "member": {
+        "rank": {
+          "value": null,
+          "date": "2026-04-10",
+          "effective_value": 501,
+          "fetch_performed": true
+        },
+        "relevancy": {
+          "value": 50,
+          "date": "2026-04-10",
+          "effective_value": 50
+        },
+        "kei": {
+          "value": 27,
+          "date": "2026-04-10",
+          "effective_value": 27
+        },
+        "chance": {
+          "value": 57,
+          "date": "2026-04-10",
+          "effective_value": 57
+        }
+      },
+      "empower": {
+        "rank": {
+          "value": null,
+          "date": "2026-04-10",
+          "effective_value": 501,
+          "fetch_performed": true
+        },
+        "relevancy": {
+          "value": 10,
+          "date": "2026-04-10",
+          "effective_value": 10
+        },
+        "kei": {
+          "value": 92,
+          "date": "2026-04-10",
+          "effective_value": 92
+        },
+        "chance": {
+          "value": 73,
+          "date": "2026-04-10",
+          "effective_value": 73
+        }
+      }
+    }
+  },
+  "metadata": {
+    "request": {
+      "path": "/api/public/store/apps/keywords-rankings/current.json",
+      "params": {
+        "device": "android",
+        "country": "us",
+        "language": "us",
+        "apps": [
+          "com.tinder",
+          "co.hinge.app",
+          "com.doni.appa",
+          "com.bumble.app",
+          "com.hily.app"
+        ],
+        "metrics": [
+          "rank",
+          "relevancy",
+          "kei",
+          "chance"
+        ],
+        "keywords": [
+          "meaningful relationships",
+          "39 help",
+          "commitment",
+          "member",
+          "empower"
+        ]
+      },
+      "cost": 1001,
+      "max_credit_cost": 1001,
+      "status": 200
+    },
+    "response": null
+  }
+}

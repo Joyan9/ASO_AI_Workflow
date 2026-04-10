@@ -1,234 +1,470 @@
 {
   "result": {
     "601174087": {
-      "connection": {
+      "online dating": {
         "rank": {
           "value": null,
-          "date": "2026-04-08",
+          "date": "2026-04-10",
           "effective_value": 501,
           "fetch_performed": true
         },
-        "installs": {
-          "value": 0,
-          "date": "2026-04-08",
-          "effective_value": 0
-        },
         "relevancy": {
-          "value": 34,
-          "date": "2026-04-08",
-          "effective_value": 34
+          "value": 91,
+          "date": "2026-04-10",
+          "effective_value": 91
         },
         "kei": {
-          "value": 22,
-          "date": "2026-04-08",
-          "effective_value": 22
+          "value": 8,
+          "date": "2026-04-10",
+          "effective_value": 8
+        },
+        "chance": {
+          "value": 28,
+          "date": "2026-04-10",
+          "effective_value": 28
+        }
+      },
+      "chat": {
+        "rank": {
+          "value": 113,
+          "date": "2026-04-10",
+          "effective_value": 113,
+          "fetch_performed": true
+        },
+        "relevancy": {
+          "value": 80,
+          "date": "2026-04-10",
+          "effective_value": 80
+        },
+        "kei": {
+          "value": 46,
+          "date": "2026-04-10",
+          "effective_value": 46
+        },
+        "chance": {
+          "value": 26,
+          "date": "2026-04-10",
+          "effective_value": 26
+        }
+      },
+      "video calling": {
+        "rank": {
+          "value": null,
+          "date": "2026-04-10",
+          "effective_value": 501,
+          "fetch_performed": true
+        },
+        "relevancy": {
+          "value": 73,
+          "date": "2026-04-10",
+          "effective_value": 73
+        },
+        "kei": {
+          "value": 11,
+          "date": "2026-04-10",
+          "effective_value": 11
+        },
+        "chance": {
+          "value": 36,
+          "date": "2026-04-10",
+          "effective_value": 36
+        }
+      },
+      "verified profiles": {
+        "rank": {
+          "value": null,
+          "date": "2026-04-10",
+          "effective_value": 501,
+          "fetch_performed": true
+        },
+        "relevancy": {
+          "value": 46,
+          "date": "2026-04-10",
+          "effective_value": 46
+        },
+        "kei": {
+          "value": 15,
+          "date": "2026-04-10",
+          "effective_value": 15
         },
         "chance": {
           "value": 73,
-          "date": "2026-04-08",
+          "date": "2026-04-10",
           "effective_value": 73
         }
       },
-      "members": {
+      "safe space": {
         "rank": {
           "value": null,
-          "date": "2026-04-08",
+          "date": "2026-04-10",
           "effective_value": 501,
           "fetch_performed": true
         },
-        "installs": {
-          "value": 0,
-          "date": "2026-04-08",
-          "effective_value": 0
-        },
         "relevancy": {
-          "value": 11,
-          "date": "2026-04-08",
-          "effective_value": 11
+          "value": 36,
+          "date": "2026-04-10",
+          "effective_value": 36
         },
         "kei": {
           "value": 22,
-          "date": "2026-04-08",
+          "date": "2026-04-10",
           "effective_value": 22
         },
         "chance": {
           "value": 73,
-          "date": "2026-04-08",
+          "date": "2026-04-10",
           "effective_value": 73
         }
       }
     },
     "1250946975": {
-      "connection": {
+      "online dating": {
+        "rank": {
+          "value": 18,
+          "date": "2026-04-10",
+          "effective_value": 18,
+          "fetch_performed": true
+        },
+        "relevancy": {
+          "value": 89,
+          "date": "2026-04-10",
+          "effective_value": 89
+        },
+        "kei": {
+          "value": 16,
+          "date": "2026-04-10",
+          "effective_value": 16
+        },
+        "chance": {
+          "value": 54,
+          "date": "2026-04-10",
+          "effective_value": 54
+        }
+      },
+      "chat": {
+        "rank": {
+          "value": 72,
+          "date": "2026-04-10",
+          "effective_value": 72,
+          "fetch_performed": true
+        },
+        "relevancy": {
+          "value": 82,
+          "date": "2026-04-10",
+          "effective_value": 82
+        },
+        "kei": {
+          "value": 72,
+          "date": "2026-04-10",
+          "effective_value": 72
+        },
+        "chance": {
+          "value": 52,
+          "date": "2026-04-10",
+          "effective_value": 52
+        }
+      },
+      "video calling": {
         "rank": {
           "value": null,
-          "date": "2026-04-08",
+          "date": "2026-04-10",
           "effective_value": 501,
           "fetch_performed": true
         },
-        "installs": {
-          "value": 0,
-          "date": "2026-04-08",
-          "effective_value": 0
-        },
         "relevancy": {
-          "value": 36,
-          "date": "2026-04-08",
-          "effective_value": 36
+          "value": 77,
+          "date": "2026-04-10",
+          "effective_value": 77
         },
         "kei": {
-          "value": 22,
-          "date": "2026-04-08",
-          "effective_value": 22
+          "value": 19,
+          "date": "2026-04-10",
+          "effective_value": 19
+        },
+        "chance": {
+          "value": 63,
+          "date": "2026-04-10",
+          "effective_value": 63
+        }
+      },
+      "verified profiles": {
+        "rank": {
+          "value": null,
+          "date": "2026-04-10",
+          "effective_value": 501,
+          "fetch_performed": true
+        },
+        "relevancy": {
+          "value": 50,
+          "date": "2026-04-10",
+          "effective_value": 50
+        },
+        "kei": {
+          "value": 15,
+          "date": "2026-04-10",
+          "effective_value": 15
         },
         "chance": {
           "value": 73,
-          "date": "2026-04-08",
+          "date": "2026-04-10",
           "effective_value": 73
         }
       },
-      "members": {
+      "safe space": {
         "rank": {
           "value": null,
-          "date": "2026-04-08",
+          "date": "2026-04-10",
           "effective_value": 501,
           "fetch_performed": true
         },
-        "installs": {
-          "value": 0,
-          "date": "2026-04-08",
-          "effective_value": 0
-        },
         "relevancy": {
-          "value": 12,
-          "date": "2026-04-08",
-          "effective_value": 12
+          "value": 35,
+          "date": "2026-04-10",
+          "effective_value": 35
         },
         "kei": {
           "value": 22,
-          "date": "2026-04-08",
+          "date": "2026-04-10",
           "effective_value": 22
         },
         "chance": {
           "value": 73,
-          "date": "2026-04-08",
+          "date": "2026-04-10",
           "effective_value": 73
         }
       }
     },
     "690661663": {
-      "connection": {
+      "online dating": {
+        "rank": {
+          "value": 6,
+          "date": "2026-04-10",
+          "effective_value": 6,
+          "fetch_performed": true
+        },
+        "relevancy": {
+          "value": 83,
+          "date": "2026-04-10",
+          "effective_value": 83
+        },
+        "kei": {
+          "value": 25,
+          "date": "2026-04-10",
+          "effective_value": 25
+        },
+        "chance": {
+          "value": 82,
+          "date": "2026-04-10",
+          "effective_value": 82
+        }
+      },
+      "chat": {
+        "rank": {
+          "value": 59,
+          "date": "2026-04-10",
+          "effective_value": 59,
+          "fetch_performed": true
+        },
+        "relevancy": {
+          "value": 74,
+          "date": "2026-04-10",
+          "effective_value": 74
+        },
+        "kei": {
+          "value": 64,
+          "date": "2026-04-10",
+          "effective_value": 64
+        },
+        "chance": {
+          "value": 44,
+          "date": "2026-04-10",
+          "effective_value": 44
+        }
+      },
+      "video calling": {
         "rank": {
           "value": null,
-          "date": "2026-04-08",
+          "date": "2026-04-10",
           "effective_value": 501,
           "fetch_performed": true
         },
-        "installs": {
-          "value": 0,
-          "date": "2026-04-08",
-          "effective_value": 0
-        },
         "relevancy": {
-          "value": 40,
-          "date": "2026-04-08",
-          "effective_value": 40
+          "value": 69,
+          "date": "2026-04-10",
+          "effective_value": 69
         },
         "kei": {
-          "value": 22,
-          "date": "2026-04-08",
-          "effective_value": 22
+          "value": 17,
+          "date": "2026-04-10",
+          "effective_value": 17
+        },
+        "chance": {
+          "value": 55,
+          "date": "2026-04-10",
+          "effective_value": 55
+        }
+      },
+      "verified profiles": {
+        "rank": {
+          "value": null,
+          "date": "2026-04-10",
+          "effective_value": 501,
+          "fetch_performed": true
+        },
+        "relevancy": {
+          "value": 57,
+          "date": "2026-04-10",
+          "effective_value": 57
+        },
+        "kei": {
+          "value": 15,
+          "date": "2026-04-10",
+          "effective_value": 15
         },
         "chance": {
           "value": 73,
-          "date": "2026-04-08",
+          "date": "2026-04-10",
           "effective_value": 73
         }
       },
-      "members": {
+      "safe space": {
         "rank": {
           "value": null,
-          "date": "2026-04-08",
+          "date": "2026-04-10",
           "effective_value": 501,
           "fetch_performed": true
         },
-        "installs": {
-          "value": 0,
-          "date": "2026-04-08",
-          "effective_value": 0
-        },
         "relevancy": {
-          "value": 24,
-          "date": "2026-04-08",
-          "effective_value": 24
+          "value": 51,
+          "date": "2026-04-10",
+          "effective_value": 51
         },
         "kei": {
           "value": 22,
-          "date": "2026-04-08",
+          "date": "2026-04-10",
           "effective_value": 22
         },
         "chance": {
           "value": 73,
-          "date": "2026-04-08",
+          "date": "2026-04-10",
           "effective_value": 73
         }
       }
     },
     "1265035248": {
-      "connection": {
+      "online dating": {
         "rank": {
-          "value": null,
-          "date": "2026-04-08",
-          "effective_value": 501,
+          "value": 33,
+          "date": "2026-04-10",
+          "effective_value": 33,
           "fetch_performed": true
         },
-        "installs": {
-          "value": 0,
-          "date": "2026-04-08",
-          "effective_value": 0
-        },
         "relevancy": {
-          "value": 36,
-          "date": "2026-04-08",
-          "effective_value": 36
+          "value": 92,
+          "date": "2026-04-10",
+          "effective_value": 92
         },
         "kei": {
-          "value": 12,
-          "date": "2026-04-08",
-          "effective_value": 12
+          "value": 1,
+          "date": "2026-04-10",
+          "effective_value": 1
         },
         "chance": {
-          "value": 41,
-          "date": "2026-04-08",
-          "effective_value": 41
+          "value": 3,
+          "date": "2026-04-10",
+          "effective_value": 3
         }
       },
-      "members": {
+      "chat": {
+        "rank": {
+          "value": 167,
+          "date": "2026-04-10",
+          "effective_value": 167,
+          "fetch_performed": true
+        },
+        "relevancy": {
+          "value": 82,
+          "date": "2026-04-10",
+          "effective_value": 82
+        },
+        "kei": {
+          "value": 23,
+          "date": "2026-04-10",
+          "effective_value": 23
+        },
+        "chance": {
+          "value": 3,
+          "date": "2026-04-10",
+          "effective_value": 3
+        }
+      },
+      "video calling": {
         "rank": {
           "value": null,
-          "date": "2026-04-08",
+          "date": "2026-04-10",
           "effective_value": 501,
           "fetch_performed": true
         },
-        "installs": {
-          "value": 0,
-          "date": "2026-04-08",
-          "effective_value": 0
+        "relevancy": {
+          "value": 73,
+          "date": "2026-04-10",
+          "effective_value": 73
+        },
+        "kei": {
+          "value": 2,
+          "date": "2026-04-10",
+          "effective_value": 2
+        },
+        "chance": {
+          "value": 6,
+          "date": "2026-04-10",
+          "effective_value": 6
+        }
+      },
+      "verified profiles": {
+        "rank": {
+          "value": null,
+          "date": "2026-04-10",
+          "effective_value": 501,
+          "fetch_performed": true
         },
         "relevancy": {
-          "value": 25,
-          "date": "2026-04-08",
-          "effective_value": 25
+          "value": 54,
+          "date": "2026-04-10",
+          "effective_value": 54
+        },
+        "kei": {
+          "value": 10,
+          "date": "2026-04-10",
+          "effective_value": 10
+        },
+        "chance": {
+          "value": 52,
+          "date": "2026-04-10",
+          "effective_value": 52
+        }
+      },
+      "safe space": {
+        "rank": {
+          "value": null,
+          "date": "2026-04-10",
+          "effective_value": 501,
+          "fetch_performed": true
+        },
+        "relevancy": {
+          "value": 43,
+          "date": "2026-04-10",
+          "effective_value": 43
         },
         "kei": {
           "value": 17,
-          "date": "2026-04-08",
+          "date": "2026-04-10",
           "effective_value": 17
         },
         "chance": {
-          "value": 56,
-          "date": "2026-04-08",
-          "effective_value": 56
+          "value": 58,
+          "date": "2026-04-10",
+          "effective_value": 58
         }
       }
     }
@@ -248,18 +484,20 @@
         ],
         "metrics": [
           "rank",
-          "installs",
           "relevancy",
           "kei",
           "chance"
         ],
         "keywords": [
-          "connection",
-          "members"
+          "online dating",
+          "chat",
+          "video calling",
+          "verified profiles",
+          "safe space"
         ]
       },
-      "cost": 401,
-      "max_credit_cost": 401,
+      "cost": 801,
+      "max_credit_cost": 801,
       "status": 200
     },
     "response": null

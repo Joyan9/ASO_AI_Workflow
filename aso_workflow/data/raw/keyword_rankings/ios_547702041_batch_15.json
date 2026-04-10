@@ -1,570 +1,470 @@
 {
   "result": {
     "601174087": {
-      "true love": {
+      "dating": {
+        "rank": {
+          "value": 6,
+          "date": "2026-04-10",
+          "effective_value": 6,
+          "fetch_performed": true
+        },
+        "relevancy": {
+          "value": 89,
+          "date": "2026-04-10",
+          "effective_value": 89
+        },
+        "kei": {
+          "value": 100,
+          "date": "2026-04-10",
+          "effective_value": 100
+        },
+        "chance": {
+          "value": 85,
+          "date": "2026-04-10",
+          "effective_value": 85
+        }
+      },
+      "meet new people": {
+        "rank": {
+          "value": 12,
+          "date": "2026-04-10",
+          "effective_value": 12,
+          "fetch_performed": true
+        },
+        "relevancy": {
+          "value": 90,
+          "date": "2026-04-10",
+          "effective_value": 90
+        },
+        "kei": {
+          "value": 15,
+          "date": "2026-04-10",
+          "effective_value": 15
+        },
+        "chance": {
+          "value": 51,
+          "date": "2026-04-10",
+          "effective_value": 51
+        }
+      },
+      "find love": {
+        "rank": {
+          "value": 24,
+          "date": "2026-04-10",
+          "effective_value": 24,
+          "fetch_performed": true
+        },
+        "relevancy": {
+          "value": 73,
+          "date": "2026-04-10",
+          "effective_value": 73
+        },
+        "kei": {
+          "value": 19,
+          "date": "2026-04-10",
+          "effective_value": 19
+        },
+        "chance": {
+          "value": 64,
+          "date": "2026-04-10",
+          "effective_value": 64
+        }
+      },
+      "relationships": {
+        "rank": {
+          "value": 176,
+          "date": "2026-04-10",
+          "effective_value": 176,
+          "fetch_performed": true
+        },
+        "relevancy": {
+          "value": 73,
+          "date": "2026-04-10",
+          "effective_value": 73
+        },
+        "kei": {
+          "value": 22,
+          "date": "2026-04-10",
+          "effective_value": 22
+        },
+        "chance": {
+          "value": 73,
+          "date": "2026-04-10",
+          "effective_value": 73
+        }
+      },
+      "meaningful connections": {
         "rank": {
           "value": null,
-          "date": "2026-04-08",
+          "date": "2026-04-10",
           "effective_value": 501,
           "fetch_performed": true
         },
-        "installs": {
-          "value": 0,
-          "date": "2026-04-08",
-          "effective_value": 0
-        },
         "relevancy": {
-          "value": 69,
-          "date": "2026-04-08",
-          "effective_value": 69
-        },
-        "kei": {
-          "value": 22,
-          "date": "2026-04-08",
-          "effective_value": 22
-        },
-        "chance": {
-          "value": 73,
-          "date": "2026-04-08",
-          "effective_value": 73
-        }
-      },
-      "love life": {
-        "rank": {
-          "value": 167,
-          "date": "2026-04-08",
-          "effective_value": 167,
-          "fetch_performed": true
-        },
-        "installs": {
-          "value": 0.0,
-          "date": "2026-04-08",
-          "effective_value": 0.0
-        },
-        "relevancy": {
-          "value": 56,
-          "date": "2026-04-08",
-          "effective_value": 56
-        },
-        "kei": {
-          "value": 22,
-          "date": "2026-04-08",
-          "effective_value": 22
-        },
-        "chance": {
-          "value": 73,
-          "date": "2026-04-08",
-          "effective_value": 73
-        }
-      },
-      "social dating": {
-        "rank": {
-          "value": 9,
-          "date": "2026-04-08",
-          "effective_value": 9,
-          "fetch_performed": true
-        },
-        "installs": {
-          "value": 0.0,
-          "date": "2026-04-08",
-          "effective_value": 0.0
-        },
-        "relevancy": {
-          "value": 97,
-          "date": "2026-04-08",
-          "effective_value": 97
-        },
-        "kei": {
-          "value": 22,
-          "date": "2026-04-08",
-          "effective_value": 22
-        },
-        "chance": {
-          "value": 73,
-          "date": "2026-04-08",
-          "effective_value": 73
-        }
-      },
-      "community": {
-        "rank": {
-          "value": null,
-          "date": "2026-04-08",
-          "effective_value": 501,
-          "fetch_performed": true
-        },
-        "installs": {
-          "value": 0,
-          "date": "2026-04-08",
-          "effective_value": 0
-        },
-        "relevancy": {
-          "value": 41,
-          "date": "2026-04-08",
-          "effective_value": 41
-        },
-        "kei": {
           "value": 78,
-          "date": "2026-04-08",
+          "date": "2026-04-10",
           "effective_value": 78
         },
-        "chance": {
-          "value": 73,
-          "date": "2026-04-08",
-          "effective_value": 73
-        }
-      },
-      "interact": {
-        "rank": {
-          "value": null,
-          "date": "2026-04-08",
-          "effective_value": 501,
-          "fetch_performed": true
-        },
-        "installs": {
-          "value": 0,
-          "date": "2026-04-08",
-          "effective_value": 0
-        },
-        "relevancy": {
-          "value": 36,
-          "date": "2026-04-08",
-          "effective_value": 36
-        },
         "kei": {
           "value": 22,
-          "date": "2026-04-08",
+          "date": "2026-04-10",
           "effective_value": 22
         },
         "chance": {
           "value": 73,
-          "date": "2026-04-08",
+          "date": "2026-04-10",
           "effective_value": 73
         }
       }
     },
     "1250946975": {
-      "true love": {
+      "dating": {
         "rank": {
-          "value": null,
-          "date": "2026-04-08",
-          "effective_value": 501,
+          "value": 7,
+          "date": "2026-04-10",
+          "effective_value": 7,
           "fetch_performed": true
         },
-        "installs": {
-          "value": 0,
-          "date": "2026-04-08",
-          "effective_value": 0
+        "relevancy": {
+          "value": 88,
+          "date": "2026-04-10",
+          "effective_value": 88
+        },
+        "kei": {
+          "value": 99,
+          "date": "2026-04-10",
+          "effective_value": 99
+        },
+        "chance": {
+          "value": 82,
+          "date": "2026-04-10",
+          "effective_value": 82
+        }
+      },
+      "meet new people": {
+        "rank": {
+          "value": 9,
+          "date": "2026-04-10",
+          "effective_value": 9,
+          "fetch_performed": true
         },
         "relevancy": {
-          "value": 63,
-          "date": "2026-04-08",
-          "effective_value": 63
+          "value": 93,
+          "date": "2026-04-10",
+          "effective_value": 93
+        },
+        "kei": {
+          "value": 23,
+          "date": "2026-04-10",
+          "effective_value": 23
+        },
+        "chance": {
+          "value": 76,
+          "date": "2026-04-10",
+          "effective_value": 76
+        }
+      },
+      "find love": {
+        "rank": {
+          "value": 39,
+          "date": "2026-04-10",
+          "effective_value": 39,
+          "fetch_performed": true
+        },
+        "relevancy": {
+          "value": 72,
+          "date": "2026-04-10",
+          "effective_value": 72
         },
         "kei": {
           "value": 22,
-          "date": "2026-04-08",
+          "date": "2026-04-10",
           "effective_value": 22
         },
         "chance": {
           "value": 73,
-          "date": "2026-04-08",
+          "date": "2026-04-10",
           "effective_value": 73
         }
       },
-      "love life": {
+      "relationships": {
         "rank": {
-          "value": 129,
-          "date": "2026-04-08",
-          "effective_value": 129,
+          "value": 157,
+          "date": "2026-04-10",
+          "effective_value": 157,
           "fetch_performed": true
         },
-        "installs": {
-          "value": 0.0,
-          "date": "2026-04-08",
-          "effective_value": 0.0
-        },
         "relevancy": {
-          "value": 54,
-          "date": "2026-04-08",
-          "effective_value": 54
+          "value": 67,
+          "date": "2026-04-10",
+          "effective_value": 67
         },
         "kei": {
           "value": 22,
-          "date": "2026-04-08",
+          "date": "2026-04-10",
           "effective_value": 22
         },
         "chance": {
           "value": 73,
-          "date": "2026-04-08",
+          "date": "2026-04-10",
           "effective_value": 73
         }
       },
-      "social dating": {
-        "rank": {
-          "value": 10,
-          "date": "2026-04-08",
-          "effective_value": 10,
-          "fetch_performed": true
-        },
-        "installs": {
-          "value": 0.0,
-          "date": "2026-04-08",
-          "effective_value": 0.0
-        },
-        "relevancy": {
-          "value": 96,
-          "date": "2026-04-08",
-          "effective_value": 96
-        },
-        "kei": {
-          "value": 21,
-          "date": "2026-04-08",
-          "effective_value": 21
-        },
-        "chance": {
-          "value": 71,
-          "date": "2026-04-08",
-          "effective_value": 71
-        }
-      },
-      "community": {
+      "meaningful connections": {
         "rank": {
           "value": null,
-          "date": "2026-04-08",
+          "date": "2026-04-10",
           "effective_value": 501,
           "fetch_performed": true
         },
-        "installs": {
-          "value": 0,
-          "date": "2026-04-08",
-          "effective_value": 0
-        },
         "relevancy": {
-          "value": 45,
-          "date": "2026-04-08",
-          "effective_value": 45
-        },
-        "kei": {
-          "value": 78,
-          "date": "2026-04-08",
-          "effective_value": 78
-        },
-        "chance": {
-          "value": 73,
-          "date": "2026-04-08",
-          "effective_value": 73
-        }
-      },
-      "interact": {
-        "rank": {
-          "value": null,
-          "date": "2026-04-08",
-          "effective_value": 501,
-          "fetch_performed": true
-        },
-        "installs": {
-          "value": 0,
-          "date": "2026-04-08",
-          "effective_value": 0
-        },
-        "relevancy": {
-          "value": 37,
-          "date": "2026-04-08",
-          "effective_value": 37
+          "value": 79,
+          "date": "2026-04-10",
+          "effective_value": 79
         },
         "kei": {
           "value": 22,
-          "date": "2026-04-08",
+          "date": "2026-04-10",
           "effective_value": 22
         },
         "chance": {
           "value": 73,
-          "date": "2026-04-08",
+          "date": "2026-04-10",
           "effective_value": 73
         }
       }
     },
     "690661663": {
-      "true love": {
+      "dating": {
         "rank": {
-          "value": null,
-          "date": "2026-04-08",
-          "effective_value": 501,
+          "value": 27,
+          "date": "2026-04-10",
+          "effective_value": 27,
           "fetch_performed": true
         },
-        "installs": {
-          "value": 0,
-          "date": "2026-04-08",
-          "effective_value": 0
-        },
         "relevancy": {
-          "value": 64,
-          "date": "2026-04-08",
-          "effective_value": 64
+          "value": 81,
+          "date": "2026-04-10",
+          "effective_value": 81
         },
         "kei": {
-          "value": 22,
-          "date": "2026-04-08",
-          "effective_value": 22
+          "value": 70,
+          "date": "2026-04-10",
+          "effective_value": 70
         },
         "chance": {
-          "value": 73,
-          "date": "2026-04-08",
-          "effective_value": 73
-        }
-      },
-      "love life": {
-        "rank": {
-          "value": 97,
-          "date": "2026-04-08",
-          "effective_value": 97,
-          "fetch_performed": true
-        },
-        "installs": {
-          "value": 0.0,
-          "date": "2026-04-08",
-          "effective_value": 0.0
-        },
-        "relevancy": {
           "value": 52,
-          "date": "2026-04-08",
+          "date": "2026-04-10",
           "effective_value": 52
-        },
-        "kei": {
-          "value": 22,
-          "date": "2026-04-08",
-          "effective_value": 22
-        },
-        "chance": {
-          "value": 73,
-          "date": "2026-04-08",
-          "effective_value": 73
         }
       },
-      "social dating": {
+      "meet new people": {
         "rank": {
-          "value": 59,
-          "date": "2026-04-08",
-          "effective_value": 59,
+          "value": 48,
+          "date": "2026-04-10",
+          "effective_value": 48,
           "fetch_performed": true
         },
-        "installs": {
-          "value": 0.0,
-          "date": "2026-04-08",
-          "effective_value": 0.0
+        "relevancy": {
+          "value": 83,
+          "date": "2026-04-10",
+          "effective_value": 83
+        },
+        "kei": {
+          "value": 21,
+          "date": "2026-04-10",
+          "effective_value": 21
+        },
+        "chance": {
+          "value": 70,
+          "date": "2026-04-10",
+          "effective_value": 70
+        }
+      },
+      "find love": {
+        "rank": {
+          "value": 92,
+          "date": "2026-04-10",
+          "effective_value": 92,
+          "fetch_performed": true
         },
         "relevancy": {
-          "value": 89,
-          "date": "2026-04-08",
-          "effective_value": 89
+          "value": 70,
+          "date": "2026-04-10",
+          "effective_value": 70
         },
         "kei": {
           "value": 22,
-          "date": "2026-04-08",
+          "date": "2026-04-10",
           "effective_value": 22
         },
         "chance": {
           "value": 73,
-          "date": "2026-04-08",
+          "date": "2026-04-10",
           "effective_value": 73
         }
       },
-      "community": {
+      "relationships": {
+        "rank": {
+          "value": 231,
+          "date": "2026-04-10",
+          "effective_value": 231,
+          "fetch_performed": true
+        },
+        "relevancy": {
+          "value": 70,
+          "date": "2026-04-10",
+          "effective_value": 70
+        },
+        "kei": {
+          "value": 22,
+          "date": "2026-04-10",
+          "effective_value": 22
+        },
+        "chance": {
+          "value": 73,
+          "date": "2026-04-10",
+          "effective_value": 73
+        }
+      },
+      "meaningful connections": {
         "rank": {
           "value": null,
-          "date": "2026-04-08",
+          "date": "2026-04-10",
           "effective_value": 501,
           "fetch_performed": true
         },
-        "installs": {
-          "value": 0,
-          "date": "2026-04-08",
-          "effective_value": 0
-        },
         "relevancy": {
-          "value": 42,
-          "date": "2026-04-08",
-          "effective_value": 42
-        },
-        "kei": {
-          "value": 78,
-          "date": "2026-04-08",
-          "effective_value": 78
-        },
-        "chance": {
-          "value": 73,
-          "date": "2026-04-08",
-          "effective_value": 73
-        }
-      },
-      "interact": {
-        "rank": {
-          "value": null,
-          "date": "2026-04-08",
-          "effective_value": 501,
-          "fetch_performed": true
-        },
-        "installs": {
-          "value": 0,
-          "date": "2026-04-08",
-          "effective_value": 0
-        },
-        "relevancy": {
-          "value": 32,
-          "date": "2026-04-08",
-          "effective_value": 32
+          "value": 79,
+          "date": "2026-04-10",
+          "effective_value": 79
         },
         "kei": {
           "value": 22,
-          "date": "2026-04-08",
+          "date": "2026-04-10",
           "effective_value": 22
         },
         "chance": {
           "value": 73,
-          "date": "2026-04-08",
+          "date": "2026-04-10",
           "effective_value": 73
         }
       }
     },
     "1265035248": {
-      "true love": {
+      "dating": {
         "rank": {
-          "value": null,
-          "date": "2026-04-08",
-          "effective_value": 501,
+          "value": 50,
+          "date": "2026-04-10",
+          "effective_value": 50,
           "fetch_performed": true
         },
-        "installs": {
-          "value": 0,
-          "date": "2026-04-08",
-          "effective_value": 0
-        },
         "relevancy": {
-          "value": 70,
-          "date": "2026-04-08",
-          "effective_value": 70
+          "value": 90,
+          "date": "2026-04-10",
+          "effective_value": 90
         },
         "kei": {
-          "value": 17,
-          "date": "2026-04-08",
-          "effective_value": 17
+          "value": 24,
+          "date": "2026-04-10",
+          "effective_value": 24
         },
         "chance": {
-          "value": 57,
-          "date": "2026-04-08",
-          "effective_value": 57
+          "value": 5,
+          "date": "2026-04-10",
+          "effective_value": 5
         }
       },
-      "love life": {
+      "meet new people": {
         "rank": {
-          "value": null,
-          "date": "2026-04-08",
-          "effective_value": 501,
-          "fetch_performed": true
-        },
-        "installs": {
-          "value": 0,
-          "date": "2026-04-08",
-          "effective_value": 0
-        },
-        "relevancy": {
-          "value": 51,
-          "date": "2026-04-08",
-          "effective_value": 51
-        },
-        "kei": {
-          "value": 11,
-          "date": "2026-04-08",
-          "effective_value": 11
-        },
-        "chance": {
           "value": 37,
-          "date": "2026-04-08",
-          "effective_value": 37
-        }
-      },
-      "social dating": {
-        "rank": {
-          "value": 17,
-          "date": "2026-04-08",
-          "effective_value": 17,
+          "date": "2026-04-10",
+          "effective_value": 37,
           "fetch_performed": true
         },
-        "installs": {
-          "value": 0.0,
-          "date": "2026-04-08",
-          "effective_value": 0.0
-        },
         "relevancy": {
-          "value": 95,
-          "date": "2026-04-08",
-          "effective_value": 95
+          "value": 93,
+          "date": "2026-04-10",
+          "effective_value": 93
         },
         "kei": {
-          "value": 6,
-          "date": "2026-04-08",
-          "effective_value": 6
+          "value": 4,
+          "date": "2026-04-10",
+          "effective_value": 4
         },
         "chance": {
-          "value": 21,
-          "date": "2026-04-08",
-          "effective_value": 21
+          "value": 13,
+          "date": "2026-04-10",
+          "effective_value": 13
         }
       },
-      "community": {
+      "find love": {
+        "rank": {
+          "value": 25,
+          "date": "2026-04-10",
+          "effective_value": 25,
+          "fetch_performed": true
+        },
+        "relevancy": {
+          "value": 76,
+          "date": "2026-04-10",
+          "effective_value": 76
+        },
+        "kei": {
+          "value": 7,
+          "date": "2026-04-10",
+          "effective_value": 7
+        },
+        "chance": {
+          "value": 22,
+          "date": "2026-04-10",
+          "effective_value": 22
+        }
+      },
+      "relationships": {
+        "rank": {
+          "value": 139,
+          "date": "2026-04-10",
+          "effective_value": 139,
+          "fetch_performed": true
+        },
+        "relevancy": {
+          "value": 75,
+          "date": "2026-04-10",
+          "effective_value": 75
+        },
+        "kei": {
+          "value": 12,
+          "date": "2026-04-10",
+          "effective_value": 12
+        },
+        "chance": {
+          "value": 41,
+          "date": "2026-04-10",
+          "effective_value": 41
+        }
+      },
+      "meaningful connections": {
         "rank": {
           "value": null,
-          "date": "2026-04-08",
+          "date": "2026-04-10",
           "effective_value": 501,
           "fetch_performed": true
         },
-        "installs": {
-          "value": 0,
-          "date": "2026-04-08",
-          "effective_value": 0
-        },
         "relevancy": {
-          "value": 54,
-          "date": "2026-04-08",
-          "effective_value": 54
-        },
-        "kei": {
-          "value": 47,
-          "date": "2026-04-08",
-          "effective_value": 47
-        },
-        "chance": {
-          "value": 38,
-          "date": "2026-04-08",
-          "effective_value": 38
-        }
-      },
-      "interact": {
-        "rank": {
-          "value": null,
-          "date": "2026-04-08",
-          "effective_value": 501,
-          "fetch_performed": true
-        },
-        "installs": {
-          "value": 0,
-          "date": "2026-04-08",
-          "effective_value": 0
-        },
-        "relevancy": {
-          "value": 27,
-          "date": "2026-04-08",
-          "effective_value": 27
+          "value": 87,
+          "date": "2026-04-10",
+          "effective_value": 87
         },
         "kei": {
           "value": 15,
-          "date": "2026-04-08",
+          "date": "2026-04-10",
           "effective_value": 15
         },
         "chance": {
-          "value": 50,
-          "date": "2026-04-08",
-          "effective_value": 50
+          "value": 51,
+          "date": "2026-04-10",
+          "effective_value": 51
         }
       }
     }
@@ -584,21 +484,20 @@
         ],
         "metrics": [
           "rank",
-          "installs",
           "relevancy",
           "kei",
           "chance"
         ],
         "keywords": [
-          "true love",
-          "love life",
-          "social dating",
-          "community",
-          "interact"
+          "dating",
+          "meet new people",
+          "find love",
+          "relationships",
+          "meaningful connections"
         ]
       },
-      "cost": 1001,
-      "max_credit_cost": 1001,
+      "cost": 801,
+      "max_credit_cost": 801,
       "status": 200
     },
     "response": null

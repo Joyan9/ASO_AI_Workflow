@@ -1,0 +1,505 @@
+{
+  "result": {
+    "enterprises.dating.boo": {
+      "confidence": {
+        "rank": {
+          "value": null,
+          "date": "2026-04-10",
+          "effective_value": 501,
+          "fetch_performed": true
+        },
+        "relevancy": {
+          "value": 30,
+          "date": "2026-04-10",
+          "effective_value": 30
+        },
+        "kei": {
+          "value": 29,
+          "date": "2026-04-10",
+          "effective_value": 29
+        },
+        "chance": {
+          "value": 73,
+          "date": "2026-04-10",
+          "effective_value": 73
+        }
+      },
+      "verified": {
+        "rank": {
+          "value": 87,
+          "date": "2026-04-10",
+          "effective_value": 87,
+          "fetch_performed": true
+        },
+        "relevancy": {
+          "value": 28,
+          "date": "2026-04-10",
+          "effective_value": 28
+        },
+        "kei": {
+          "value": 22,
+          "date": "2026-04-10",
+          "effective_value": 22
+        },
+        "chance": {
+          "value": 73,
+          "date": "2026-04-10",
+          "effective_value": 73
+        }
+      },
+      "guide": {
+        "rank": {
+          "value": null,
+          "date": "2026-04-10",
+          "effective_value": 501,
+          "fetch_performed": true
+        },
+        "relevancy": {
+          "value": 13,
+          "date": "2026-04-10",
+          "effective_value": 13
+        },
+        "kei": {
+          "value": 39,
+          "date": "2026-04-10",
+          "effective_value": 39
+        },
+        "chance": {
+          "value": 73,
+          "date": "2026-04-10",
+          "effective_value": 73
+        }
+      },
+      "music": {
+        "rank": {
+          "value": null,
+          "date": "2026-04-10",
+          "effective_value": 501,
+          "fetch_performed": true
+        },
+        "relevancy": {
+          "value": 6,
+          "date": "2026-04-10",
+          "effective_value": 6
+        },
+        "kei": {
+          "value": 75,
+          "date": "2026-04-10",
+          "effective_value": 75
+        },
+        "chance": {
+          "value": 51,
+          "date": "2026-04-10",
+          "effective_value": 51
+        }
+      },
+      "pictures": {
+        "rank": {
+          "value": null,
+          "date": "2026-04-10",
+          "effective_value": 501,
+          "fetch_performed": true
+        },
+        "relevancy": {
+          "value": 0,
+          "date": "2026-04-10",
+          "effective_value": 0
+        },
+        "kei": {
+          "value": 34,
+          "date": "2026-04-10",
+          "effective_value": 34
+        },
+        "chance": {
+          "value": 73,
+          "date": "2026-04-10",
+          "effective_value": 73
+        }
+      }
+    },
+    "com.getpure.pure": {
+      "confidence": {
+        "rank": {
+          "value": null,
+          "date": "2026-04-10",
+          "effective_value": 501,
+          "fetch_performed": true
+        },
+        "relevancy": {
+          "value": 24,
+          "date": "2026-04-10",
+          "effective_value": 24
+        },
+        "kei": {
+          "value": 29,
+          "date": "2026-04-10",
+          "effective_value": 29
+        },
+        "chance": {
+          "value": 73,
+          "date": "2026-04-10",
+          "effective_value": 73
+        }
+      },
+      "verified": {
+        "rank": {
+          "value": null,
+          "date": "2026-04-10",
+          "effective_value": 501,
+          "fetch_performed": true
+        },
+        "relevancy": {
+          "value": 29,
+          "date": "2026-04-10",
+          "effective_value": 29
+        },
+        "kei": {
+          "value": 22,
+          "date": "2026-04-10",
+          "effective_value": 22
+        },
+        "chance": {
+          "value": 73,
+          "date": "2026-04-10",
+          "effective_value": 73
+        }
+      },
+      "guide": {
+        "rank": {
+          "value": null,
+          "date": "2026-04-10",
+          "effective_value": 501,
+          "fetch_performed": true
+        },
+        "relevancy": {
+          "value": 5,
+          "date": "2026-04-10",
+          "effective_value": 5
+        },
+        "kei": {
+          "value": 39,
+          "date": "2026-04-10",
+          "effective_value": 39
+        },
+        "chance": {
+          "value": 73,
+          "date": "2026-04-10",
+          "effective_value": 73
+        }
+      },
+      "music": {
+        "rank": {
+          "value": null,
+          "date": "2026-04-10",
+          "effective_value": 501,
+          "fetch_performed": true
+        },
+        "relevancy": {
+          "value": 7,
+          "date": "2026-04-10",
+          "effective_value": 7
+        },
+        "kei": {
+          "value": 75,
+          "date": "2026-04-10",
+          "effective_value": 75
+        },
+        "chance": {
+          "value": 51,
+          "date": "2026-04-10",
+          "effective_value": 51
+        }
+      },
+      "pictures": {
+        "rank": {
+          "value": null,
+          "date": "2026-04-10",
+          "effective_value": 501,
+          "fetch_performed": true
+        },
+        "relevancy": {
+          "value": 0,
+          "date": "2026-04-10",
+          "effective_value": 0
+        },
+        "kei": {
+          "value": 34,
+          "date": "2026-04-10",
+          "effective_value": 34
+        },
+        "chance": {
+          "value": 73,
+          "date": "2026-04-10",
+          "effective_value": 73
+        }
+      }
+    },
+    "com.nearme.wolf": {
+      "confidence": {
+        "rank": {
+          "value": null,
+          "date": "2026-04-10",
+          "effective_value": 501,
+          "fetch_performed": true
+        },
+        "relevancy": {
+          "value": 15,
+          "date": "2026-04-10",
+          "effective_value": 15
+        },
+        "kei": {
+          "value": 29,
+          "date": "2026-04-10",
+          "effective_value": 29
+        },
+        "chance": {
+          "value": 73,
+          "date": "2026-04-10",
+          "effective_value": 73
+        }
+      },
+      "verified": {
+        "rank": {
+          "value": null,
+          "date": "2026-04-10",
+          "effective_value": 501,
+          "fetch_performed": true
+        },
+        "relevancy": {
+          "value": 43,
+          "date": "2026-04-10",
+          "effective_value": 43
+        },
+        "kei": {
+          "value": 22,
+          "date": "2026-04-10",
+          "effective_value": 22
+        },
+        "chance": {
+          "value": 73,
+          "date": "2026-04-10",
+          "effective_value": 73
+        }
+      },
+      "guide": {
+        "rank": {
+          "value": null,
+          "date": "2026-04-10",
+          "effective_value": 501,
+          "fetch_performed": true
+        },
+        "relevancy": {
+          "value": 26,
+          "date": "2026-04-10",
+          "effective_value": 26
+        },
+        "kei": {
+          "value": 39,
+          "date": "2026-04-10",
+          "effective_value": 39
+        },
+        "chance": {
+          "value": 73,
+          "date": "2026-04-10",
+          "effective_value": 73
+        }
+      },
+      "music": {
+        "rank": {
+          "value": null,
+          "date": "2026-04-10",
+          "effective_value": 501,
+          "fetch_performed": true
+        },
+        "relevancy": {
+          "value": 5,
+          "date": "2026-04-10",
+          "effective_value": 5
+        },
+        "kei": {
+          "value": 48,
+          "date": "2026-04-10",
+          "effective_value": 48
+        },
+        "chance": {
+          "value": 25,
+          "date": "2026-04-10",
+          "effective_value": 25
+        }
+      },
+      "pictures": {
+        "rank": {
+          "value": null,
+          "date": "2026-04-10",
+          "effective_value": 501,
+          "fetch_performed": true
+        },
+        "relevancy": {
+          "value": 3,
+          "date": "2026-04-10",
+          "effective_value": 3
+        },
+        "kei": {
+          "value": 25,
+          "date": "2026-04-10",
+          "effective_value": 25
+        },
+        "chance": {
+          "value": 51,
+          "date": "2026-04-10",
+          "effective_value": 51
+        }
+      }
+    },
+    "com.pof.android": {
+      "confidence": {
+        "rank": {
+          "value": null,
+          "date": "2026-04-10",
+          "effective_value": 501,
+          "fetch_performed": true
+        },
+        "relevancy": {
+          "value": 15,
+          "date": "2026-04-10",
+          "effective_value": 15
+        },
+        "kei": {
+          "value": 29,
+          "date": "2026-04-10",
+          "effective_value": 29
+        },
+        "chance": {
+          "value": 73,
+          "date": "2026-04-10",
+          "effective_value": 73
+        }
+      },
+      "verified": {
+        "rank": {
+          "value": null,
+          "date": "2026-04-10",
+          "effective_value": 501,
+          "fetch_performed": true
+        },
+        "relevancy": {
+          "value": 32,
+          "date": "2026-04-10",
+          "effective_value": 32
+        },
+        "kei": {
+          "value": 22,
+          "date": "2026-04-10",
+          "effective_value": 22
+        },
+        "chance": {
+          "value": 73,
+          "date": "2026-04-10",
+          "effective_value": 73
+        }
+      },
+      "guide": {
+        "rank": {
+          "value": null,
+          "date": "2026-04-10",
+          "effective_value": 501,
+          "fetch_performed": true
+        },
+        "relevancy": {
+          "value": 9,
+          "date": "2026-04-10",
+          "effective_value": 9
+        },
+        "kei": {
+          "value": 39,
+          "date": "2026-04-10",
+          "effective_value": 39
+        },
+        "chance": {
+          "value": 73,
+          "date": "2026-04-10",
+          "effective_value": 73
+        }
+      },
+      "music": {
+        "rank": {
+          "value": null,
+          "date": "2026-04-10",
+          "effective_value": 501,
+          "fetch_performed": true
+        },
+        "relevancy": {
+          "value": 1,
+          "date": "2026-04-10",
+          "effective_value": 1
+        },
+        "kei": {
+          "value": 61,
+          "date": "2026-04-10",
+          "effective_value": 61
+        },
+        "chance": {
+          "value": 37,
+          "date": "2026-04-10",
+          "effective_value": 37
+        }
+      },
+      "pictures": {
+        "rank": {
+          "value": null,
+          "date": "2026-04-10",
+          "effective_value": 501,
+          "fetch_performed": true
+        },
+        "relevancy": {
+          "value": 0,
+          "date": "2026-04-10",
+          "effective_value": 0
+        },
+        "kei": {
+          "value": 31,
+          "date": "2026-04-10",
+          "effective_value": 31
+        },
+        "chance": {
+          "value": 65,
+          "date": "2026-04-10",
+          "effective_value": 65
+        }
+      }
+    }
+  },
+  "metadata": {
+    "request": {
+      "path": "/api/public/store/apps/keywords-rankings/current.json",
+      "params": {
+        "device": "android",
+        "country": "us",
+        "language": "us",
+        "apps": [
+          "enterprises.dating.boo",
+          "com.getpure.pure",
+          "com.nearme.wolf",
+          "com.pof.android"
+        ],
+        "metrics": [
+          "rank",
+          "relevancy",
+          "kei",
+          "chance"
+        ],
+        "keywords": [
+          "confidence",
+          "verified",
+          "guide",
+          "music",
+          "pictures"
+        ]
+      },
+      "cost": 801,
+      "max_credit_cost": 801,
+      "status": 200
+    },
+    "response": null
+  }
+}

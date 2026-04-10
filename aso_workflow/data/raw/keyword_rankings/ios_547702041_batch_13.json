@@ -1,570 +1,587 @@
 {
   "result": {
-    "601174087": {
-      "long term relationship": {
+    "547702041": {
+      "forums": {
         "rank": {
           "value": null,
-          "date": "2026-04-08",
+          "date": "2026-04-10",
           "effective_value": 501,
           "fetch_performed": true
         },
-        "installs": {
-          "value": 0,
-          "date": "2026-04-08",
-          "effective_value": 0
+        "relevancy": {
+          "value": 38,
+          "date": "2026-04-10",
+          "effective_value": 38
+        },
+        "kei": {
+          "value": 22,
+          "date": "2026-04-10",
+          "effective_value": 22
+        },
+        "chance": {
+          "value": 73,
+          "date": "2026-04-10",
+          "effective_value": 73
+        }
+      },
+      "discussions": {
+        "rank": {
+          "value": null,
+          "date": "2026-04-09",
+          "effective_value": 501,
+          "fetch_performed": true
         },
         "relevancy": {
-          "value": 81,
-          "date": "2026-04-08",
-          "effective_value": 81
+          "value": 54,
+          "date": "2026-04-10",
+          "effective_value": 54
         },
         "kei": {
           "value": 15,
-          "date": "2026-04-08",
+          "date": "2026-04-10",
           "effective_value": 15
         },
         "chance": {
           "value": 73,
-          "date": "2026-04-08",
+          "date": "2026-04-10",
           "effective_value": 73
         }
       },
-      "serious dating": {
+      "community guidelines": {
         "rank": {
-          "value": 91,
-          "date": "2026-04-08",
-          "effective_value": 91,
+          "value": null,
+          "date": "2026-04-10",
+          "effective_value": 501,
           "fetch_performed": true
         },
-        "installs": {
-          "value": 0.0,
-          "date": "2026-04-08",
-          "effective_value": 0.0
-        },
         "relevancy": {
-          "value": 91,
-          "date": "2026-04-08",
-          "effective_value": 91
+          "value": 3,
+          "date": "2026-04-10",
+          "effective_value": 3
         },
         "kei": {
           "value": 15,
-          "date": "2026-04-08",
+          "date": "2026-04-10",
           "effective_value": 15
         },
         "chance": {
-          "value": 51,
-          "date": "2026-04-08",
-          "effective_value": 51
+          "value": 73,
+          "date": "2026-04-10",
+          "effective_value": 73
         }
       },
-      "local dating": {
+      "terms of service": {
         "rank": {
-          "value": 17,
-          "date": "2026-04-08",
-          "effective_value": 17,
+          "value": null,
+          "date": "2026-04-10",
+          "effective_value": 501,
           "fetch_performed": true
         },
-        "installs": {
-          "value": 0.0,
-          "date": "2026-04-08",
-          "effective_value": 0.0
+        "relevancy": {
+          "value": 0,
+          "date": "2026-04-10",
+          "effective_value": 0
+        },
+        "kei": {
+          "value": 22,
+          "date": "2026-04-10",
+          "effective_value": 22
+        },
+        "chance": {
+          "value": 73,
+          "date": "2026-04-10",
+          "effective_value": 73
+        }
+      },
+      "privacy policy": {
+        "rank": {
+          "value": null,
+          "date": "2026-04-10",
+          "effective_value": 501,
+          "fetch_performed": true
         },
         "relevancy": {
-          "value": 94,
-          "date": "2026-04-08",
-          "effective_value": 94
+          "value": 18,
+          "date": "2026-04-10",
+          "effective_value": 18
+        },
+        "kei": {
+          "value": 22,
+          "date": "2026-04-10",
+          "effective_value": 22
+        },
+        "chance": {
+          "value": 73,
+          "date": "2026-04-10",
+          "effective_value": 73
+        }
+      }
+    },
+    "351331194": {
+      "forums": {
+        "rank": {
+          "value": null,
+          "date": "2026-04-10",
+          "effective_value": 501,
+          "fetch_performed": true
+        },
+        "relevancy": {
+          "value": 39,
+          "date": "2026-04-10",
+          "effective_value": 39
         },
         "kei": {
           "value": 21,
-          "date": "2026-04-08",
+          "date": "2026-04-10",
           "effective_value": 21
         },
         "chance": {
           "value": 71,
-          "date": "2026-04-08",
+          "date": "2026-04-10",
           "effective_value": 71
         }
       },
-      "personalized matches": {
+      "discussions": {
         "rank": {
           "value": null,
-          "date": "2026-04-08",
+          "date": "2026-04-09",
           "effective_value": 501,
           "fetch_performed": true
         },
-        "installs": {
-          "value": 0,
-          "date": "2026-04-08",
-          "effective_value": 0
-        },
         "relevancy": {
-          "value": 61,
-          "date": "2026-04-08",
-          "effective_value": 61
+          "value": 57,
+          "date": "2026-04-10",
+          "effective_value": 57
         },
         "kei": {
           "value": 15,
-          "date": "2026-04-08",
+          "date": "2026-04-10",
           "effective_value": 15
         },
         "chance": {
           "value": 73,
-          "date": "2026-04-08",
+          "date": "2026-04-10",
           "effective_value": 73
         }
       },
-      "swipes": {
+      "community guidelines": {
         "rank": {
           "value": null,
-          "date": "2026-04-08",
+          "date": "2026-04-10",
           "effective_value": 501,
           "fetch_performed": true
         },
-        "installs": {
-          "value": 0,
-          "date": "2026-04-08",
-          "effective_value": 0
+        "relevancy": {
+          "value": 3,
+          "date": "2026-04-10",
+          "effective_value": 3
+        },
+        "kei": {
+          "value": 15,
+          "date": "2026-04-10",
+          "effective_value": 15
+        },
+        "chance": {
+          "value": 73,
+          "date": "2026-04-10",
+          "effective_value": 73
+        }
+      },
+      "terms of service": {
+        "rank": {
+          "value": null,
+          "date": "2026-04-10",
+          "effective_value": 501,
+          "fetch_performed": true
         },
         "relevancy": {
-          "value": 43,
-          "date": "2026-04-08",
-          "effective_value": 43
+          "value": 0,
+          "date": "2026-04-10",
+          "effective_value": 0
         },
         "kei": {
           "value": 22,
-          "date": "2026-04-08",
+          "date": "2026-04-10",
           "effective_value": 22
         },
         "chance": {
           "value": 73,
-          "date": "2026-04-08",
+          "date": "2026-04-10",
+          "effective_value": 73
+        }
+      },
+      "privacy policy": {
+        "rank": {
+          "value": null,
+          "date": "2026-04-10",
+          "effective_value": 501,
+          "fetch_performed": true
+        },
+        "relevancy": {
+          "value": 19,
+          "date": "2026-04-10",
+          "effective_value": 19
+        },
+        "kei": {
+          "value": 22,
+          "date": "2026-04-10",
+          "effective_value": 22
+        },
+        "chance": {
+          "value": 73,
+          "date": "2026-04-10",
           "effective_value": 73
         }
       }
     },
-    "1250946975": {
-      "long term relationship": {
+    "930441707": {
+      "forums": {
         "rank": {
           "value": null,
-          "date": "2026-04-08",
+          "date": "2026-04-10",
           "effective_value": 501,
           "fetch_performed": true
         },
-        "installs": {
-          "value": 0,
-          "date": "2026-04-08",
-          "effective_value": 0
-        },
         "relevancy": {
-          "value": 78,
-          "date": "2026-04-08",
-          "effective_value": 78
-        },
-        "kei": {
-          "value": 15,
-          "date": "2026-04-08",
-          "effective_value": 15
-        },
-        "chance": {
-          "value": 73,
-          "date": "2026-04-08",
-          "effective_value": 73
-        }
-      },
-      "serious dating": {
-        "rank": {
-          "value": 6,
-          "date": "2026-04-08",
-          "effective_value": 6,
-          "fetch_performed": true
-        },
-        "installs": {
-          "value": 0.0,
-          "date": "2026-04-08",
-          "effective_value": 0.0
-        },
-        "relevancy": {
-          "value": 88,
-          "date": "2026-04-08",
-          "effective_value": 88
-        },
-        "kei": {
-          "value": 26,
-          "date": "2026-04-08",
-          "effective_value": 26
-        },
-        "chance": {
-          "value": 85,
-          "date": "2026-04-08",
-          "effective_value": 85
-        }
-      },
-      "local dating": {
-        "rank": {
-          "value": 12,
-          "date": "2026-04-08",
-          "effective_value": 12,
-          "fetch_performed": true
-        },
-        "installs": {
-          "value": 0.0,
-          "date": "2026-04-08",
-          "effective_value": 0.0
-        },
-        "relevancy": {
-          "value": 93,
-          "date": "2026-04-08",
-          "effective_value": 93
+          "value": 33,
+          "date": "2026-04-10",
+          "effective_value": 33
         },
         "kei": {
           "value": 22,
-          "date": "2026-04-08",
+          "date": "2026-04-10",
           "effective_value": 22
         },
         "chance": {
           "value": 73,
-          "date": "2026-04-08",
+          "date": "2026-04-10",
           "effective_value": 73
         }
       },
-      "personalized matches": {
+      "discussions": {
         "rank": {
           "value": null,
-          "date": "2026-04-08",
+          "date": "2026-04-09",
           "effective_value": 501,
           "fetch_performed": true
         },
-        "installs": {
-          "value": 0,
-          "date": "2026-04-08",
-          "effective_value": 0
-        },
         "relevancy": {
-          "value": 60,
-          "date": "2026-04-08",
-          "effective_value": 60
+          "value": 53,
+          "date": "2026-04-10",
+          "effective_value": 53
         },
         "kei": {
           "value": 15,
-          "date": "2026-04-08",
+          "date": "2026-04-10",
           "effective_value": 15
         },
         "chance": {
           "value": 73,
-          "date": "2026-04-08",
+          "date": "2026-04-10",
           "effective_value": 73
         }
       },
-      "swipes": {
+      "community guidelines": {
         "rank": {
           "value": null,
-          "date": "2026-04-08",
+          "date": "2026-04-10",
           "effective_value": 501,
           "fetch_performed": true
         },
-        "installs": {
-          "value": 0,
-          "date": "2026-04-08",
-          "effective_value": 0
+        "relevancy": {
+          "value": 1,
+          "date": "2026-04-10",
+          "effective_value": 1
+        },
+        "kei": {
+          "value": 15,
+          "date": "2026-04-10",
+          "effective_value": 15
+        },
+        "chance": {
+          "value": 73,
+          "date": "2026-04-10",
+          "effective_value": 73
+        }
+      },
+      "terms of service": {
+        "rank": {
+          "value": null,
+          "date": "2026-04-10",
+          "effective_value": 501,
+          "fetch_performed": true
         },
         "relevancy": {
-          "value": 48,
-          "date": "2026-04-08",
-          "effective_value": 48
+          "value": 0,
+          "date": "2026-04-10",
+          "effective_value": 0
         },
         "kei": {
           "value": 22,
-          "date": "2026-04-08",
+          "date": "2026-04-10",
           "effective_value": 22
         },
         "chance": {
           "value": 73,
-          "date": "2026-04-08",
+          "date": "2026-04-10",
+          "effective_value": 73
+        }
+      },
+      "privacy policy": {
+        "rank": {
+          "value": null,
+          "date": "2026-04-10",
+          "effective_value": 501,
+          "fetch_performed": true
+        },
+        "relevancy": {
+          "value": 15,
+          "date": "2026-04-10",
+          "effective_value": 15
+        },
+        "kei": {
+          "value": 22,
+          "date": "2026-04-10",
+          "effective_value": 22
+        },
+        "chance": {
+          "value": 73,
+          "date": "2026-04-10",
           "effective_value": 73
         }
       }
     },
-    "690661663": {
-      "long term relationship": {
+    "338701294": {
+      "forums": {
         "rank": {
           "value": null,
-          "date": "2026-04-08",
+          "date": "2026-04-10",
           "effective_value": 501,
           "fetch_performed": true
         },
-        "installs": {
-          "value": 0,
-          "date": "2026-04-08",
-          "effective_value": 0
+        "relevancy": {
+          "value": 50,
+          "date": "2026-04-10",
+          "effective_value": 50
+        },
+        "kei": {
+          "value": 20,
+          "date": "2026-04-10",
+          "effective_value": 20
+        },
+        "chance": {
+          "value": 66,
+          "date": "2026-04-10",
+          "effective_value": 66
+        }
+      },
+      "discussions": {
+        "rank": {
+          "value": null,
+          "date": "2026-04-09",
+          "effective_value": 501,
+          "fetch_performed": true
         },
         "relevancy": {
-          "value": 81,
-          "date": "2026-04-08",
-          "effective_value": 81
+          "value": 68,
+          "date": "2026-04-10",
+          "effective_value": 68
         },
         "kei": {
           "value": 15,
-          "date": "2026-04-08",
+          "date": "2026-04-10",
+          "effective_value": 15
+        },
+        "chance": {
+          "value": 71,
+          "date": "2026-04-10",
+          "effective_value": 71
+        }
+      },
+      "community guidelines": {
+        "rank": {
+          "value": null,
+          "date": "2026-04-10",
+          "effective_value": 501,
+          "fetch_performed": true
+        },
+        "relevancy": {
+          "value": 14,
+          "date": "2026-04-10",
+          "effective_value": 14
+        },
+        "kei": {
+          "value": 15,
+          "date": "2026-04-10",
           "effective_value": 15
         },
         "chance": {
           "value": 73,
-          "date": "2026-04-08",
+          "date": "2026-04-10",
           "effective_value": 73
         }
       },
-      "serious dating": {
+      "terms of service": {
         "rank": {
           "value": null,
-          "date": "2026-04-08",
+          "date": "2026-04-10",
           "effective_value": 501,
           "fetch_performed": true
         },
-        "installs": {
-          "value": 0,
-          "date": "2026-04-08",
-          "effective_value": 0
-        },
         "relevancy": {
-          "value": 83,
-          "date": "2026-04-08",
-          "effective_value": 83
-        },
-        "kei": {
-          "value": 21,
-          "date": "2026-04-08",
-          "effective_value": 21
-        },
-        "chance": {
-          "value": 70,
-          "date": "2026-04-08",
-          "effective_value": 70
-        }
-      },
-      "local dating": {
-        "rank": {
-          "value": 27,
-          "date": "2026-04-08",
-          "effective_value": 27,
-          "fetch_performed": true
-        },
-        "installs": {
-          "value": 0.0,
-          "date": "2026-04-08",
-          "effective_value": 0.0
-        },
-        "relevancy": {
-          "value": 89,
-          "date": "2026-04-08",
-          "effective_value": 89
+          "value": 10,
+          "date": "2026-04-10",
+          "effective_value": 10
         },
         "kei": {
           "value": 22,
-          "date": "2026-04-08",
+          "date": "2026-04-10",
           "effective_value": 22
         },
         "chance": {
           "value": 73,
-          "date": "2026-04-08",
+          "date": "2026-04-10",
           "effective_value": 73
         }
       },
-      "personalized matches": {
+      "privacy policy": {
         "rank": {
           "value": null,
-          "date": "2026-04-08",
+          "date": "2026-04-10",
           "effective_value": 501,
           "fetch_performed": true
         },
-        "installs": {
-          "value": 0,
-          "date": "2026-04-08",
-          "effective_value": 0
-        },
         "relevancy": {
-          "value": 65,
-          "date": "2026-04-08",
-          "effective_value": 65
+          "value": 16,
+          "date": "2026-04-10",
+          "effective_value": 16
         },
         "kei": {
-          "value": 15,
-          "date": "2026-04-08",
-          "effective_value": 15
+          "value": 22,
+          "date": "2026-04-10",
+          "effective_value": 22
         },
         "chance": {
           "value": 73,
-          "date": "2026-04-08",
+          "date": "2026-04-10",
           "effective_value": 73
         }
-      },
-      "swipes": {
+      }
+    },
+    "595287172": {
+      "forums": {
         "rank": {
           "value": null,
-          "date": "2026-04-08",
+          "date": "2026-04-10",
           "effective_value": 501,
           "fetch_performed": true
-        },
-        "installs": {
-          "value": 0,
-          "date": "2026-04-08",
-          "effective_value": 0
         },
         "relevancy": {
           "value": 45,
-          "date": "2026-04-08",
+          "date": "2026-04-10",
           "effective_value": 45
         },
         "kei": {
           "value": 22,
-          "date": "2026-04-08",
+          "date": "2026-04-10",
           "effective_value": 22
         },
         "chance": {
           "value": 73,
-          "date": "2026-04-08",
+          "date": "2026-04-10",
           "effective_value": 73
         }
-      }
-    },
-    "1265035248": {
-      "long term relationship": {
+      },
+      "discussions": {
         "rank": {
           "value": null,
-          "date": "2026-04-08",
+          "date": "2026-04-09",
           "effective_value": 501,
           "fetch_performed": true
         },
-        "installs": {
-          "value": 0,
-          "date": "2026-04-08",
-          "effective_value": 0
-        },
         "relevancy": {
-          "value": 84,
-          "date": "2026-04-08",
-          "effective_value": 84
+          "value": 60,
+          "date": "2026-04-10",
+          "effective_value": 60
         },
         "kei": {
-          "value": 7,
-          "date": "2026-04-08",
-          "effective_value": 7
+          "value": 15,
+          "date": "2026-04-10",
+          "effective_value": 15
         },
         "chance": {
-          "value": 37,
-          "date": "2026-04-08",
-          "effective_value": 37
+          "value": 73,
+          "date": "2026-04-10",
+          "effective_value": 73
         }
       },
-      "serious dating": {
+      "community guidelines": {
         "rank": {
-          "value": 41,
-          "date": "2026-04-08",
-          "effective_value": 41,
+          "value": null,
+          "date": "2026-04-10",
+          "effective_value": 501,
           "fetch_performed": true
         },
-        "installs": {
-          "value": 0.0,
-          "date": "2026-04-08",
-          "effective_value": 0.0
-        },
         "relevancy": {
-          "value": 86,
-          "date": "2026-04-08",
-          "effective_value": 86
+          "value": 11,
+          "date": "2026-04-10",
+          "effective_value": 11
         },
         "kei": {
+          "value": 15,
+          "date": "2026-04-10",
+          "effective_value": 15
+        },
+        "chance": {
+          "value": 73,
+          "date": "2026-04-10",
+          "effective_value": 73
+        }
+      },
+      "terms of service": {
+        "rank": {
+          "value": null,
+          "date": "2026-04-10",
+          "effective_value": 501,
+          "fetch_performed": true
+        },
+        "relevancy": {
           "value": 4,
-          "date": "2026-04-08",
+          "date": "2026-04-10",
           "effective_value": 4
         },
+        "kei": {
+          "value": 22,
+          "date": "2026-04-10",
+          "effective_value": 22
+        },
         "chance": {
+          "value": 73,
+          "date": "2026-04-10",
+          "effective_value": 73
+        }
+      },
+      "privacy policy": {
+        "rank": {
+          "value": null,
+          "date": "2026-04-10",
+          "effective_value": 501,
+          "fetch_performed": true
+        },
+        "relevancy": {
           "value": 13,
-          "date": "2026-04-08",
+          "date": "2026-04-10",
           "effective_value": 13
-        }
-      },
-      "local dating": {
-        "rank": {
-          "value": 16,
-          "date": "2026-04-08",
-          "effective_value": 16,
-          "fetch_performed": true
-        },
-        "installs": {
-          "value": 0.0,
-          "date": "2026-04-08",
-          "effective_value": 0.0
-        },
-        "relevancy": {
-          "value": 93,
-          "date": "2026-04-08",
-          "effective_value": 93
         },
         "kei": {
-          "value": 8,
-          "date": "2026-04-08",
-          "effective_value": 8
+          "value": 22,
+          "date": "2026-04-10",
+          "effective_value": 22
         },
         "chance": {
-          "value": 28,
-          "date": "2026-04-08",
-          "effective_value": 28
-        }
-      },
-      "personalized matches": {
-        "rank": {
-          "value": null,
-          "date": "2026-04-08",
-          "effective_value": 501,
-          "fetch_performed": true
-        },
-        "installs": {
-          "value": 0,
-          "date": "2026-04-08",
-          "effective_value": 0
-        },
-        "relevancy": {
-          "value": 72,
-          "date": "2026-04-08",
-          "effective_value": 72
-        },
-        "kei": {
-          "value": 8,
-          "date": "2026-04-08",
-          "effective_value": 8
-        },
-        "chance": {
-          "value": 43,
-          "date": "2026-04-08",
-          "effective_value": 43
-        }
-      },
-      "swipes": {
-        "rank": {
-          "value": null,
-          "date": "2026-04-08",
-          "effective_value": 501,
-          "fetch_performed": true
-        },
-        "installs": {
-          "value": 0,
-          "date": "2026-04-08",
-          "effective_value": 0
-        },
-        "relevancy": {
-          "value": 40,
-          "date": "2026-04-08",
-          "effective_value": 40
-        },
-        "kei": {
-          "value": 12,
-          "date": "2026-04-08",
-          "effective_value": 12
-        },
-        "chance": {
-          "value": 41,
-          "date": "2026-04-08",
-          "effective_value": 41
+          "value": 73,
+          "date": "2026-04-10",
+          "effective_value": 73
         }
       }
     }
@@ -577,24 +594,24 @@
         "country": "us",
         "language": "us",
         "apps": [
-          "601174087",
-          "1250946975",
-          "690661663",
-          "1265035248"
+          "547702041",
+          "351331194",
+          "930441707",
+          "338701294",
+          "595287172"
         ],
         "metrics": [
           "rank",
-          "installs",
           "relevancy",
           "kei",
           "chance"
         ],
         "keywords": [
-          "long term relationship",
-          "serious dating",
-          "local dating",
-          "personalized matches",
-          "swipes"
+          "forums",
+          "discussions",
+          "community guidelines",
+          "terms of service",
+          "privacy policy"
         ]
       },
       "cost": 1001,

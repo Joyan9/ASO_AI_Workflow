@@ -3,102 +3,50 @@
     "app_id": "547702041",
     "platform": "ios",
     "country": "us",
-    "run_date": "2026-04-08T09:37:29.762079",
-    "seeds_generated": 37,
-    "seeds_with_ranking_data": 37,
-    "gaps_identified": 4
+    "run_date": "2026-04-10T19:21:47.317831",
+    "seeds_generated": 69,
+    "seeds_with_ranking_data": 69,
+    "gaps_before_volume_filter": 9,
+    "gaps_after_volume_filter": 0,
+    "volume_threshold": 6,
+    "volume_filter_summary": {
+      "total_input": 9,
+      "total_output": 0,
+      "filtered_out": 9,
+      "volume_threshold": 6,
+      "country": "us",
+      "language": "us",
+      "platform": "ios",
+      "metrics_included": [
+        "volume",
+        "difficulty"
+      ]
+    }
   },
   "your_app": {
     "title": "Tinder Dating App: Date & Chat",
     "subtitle": "Meet New People & Date Singles",
     "description_excerpt": "Tinder is the place to meet someone new and see where a spark might lead. With millions of people nearby and around the world, Tinder makes dating fun and helps you find someone who matches your vibe, interests, and intentions.\n\nHOW IT WORKS\nMeeting "
   },
-  "keyword_gaps": [
-    {
-      "term": "date singles",
-      "primary_competitor_count": 3,
-      "secondary_competitor_count": 4,
-      "your_app_ranked": false,
-      "top_competitor_rank": 3,
-      "avg_rank": 81.85714285714286,
-      "avg_installs": 0.0,
-      "avg_relevancy": 93.14285714285714,
-      "avg_kei": 21.714285714285715,
-      "source_apps": [
-        "351331194",
-        "930441707",
-        "338701294",
-        "601174087",
-        "1250946975",
-        "690661663",
-        "1265035248"
-      ]
-    },
-    {
-      "term": "love life",
-      "primary_competitor_count": 2,
-      "secondary_competitor_count": 3,
-      "your_app_ranked": false,
-      "top_competitor_rank": 97,
-      "avg_rank": 135.4,
-      "avg_installs": 0.0,
-      "avg_relevancy": 53.2,
-      "avg_kei": 20.8,
-      "source_apps": [
-        "351331194",
-        "338701294",
-        "601174087",
-        "1250946975",
-        "690661663"
-      ]
-    },
-    {
-      "term": "connection",
-      "primary_competitor_count": 1,
-      "secondary_competitor_count": 0,
-      "your_app_ranked": false,
-      "top_competitor_rank": 82,
-      "avg_rank": 82.0,
-      "avg_installs": 0.0,
-      "avg_relevancy": 39.0,
-      "avg_kei": 21.0,
-      "source_apps": [
-        "351331194"
-      ]
-    },
-    {
-      "term": "video chat",
-      "primary_competitor_count": 1,
-      "secondary_competitor_count": 0,
-      "your_app_ranked": false,
-      "top_competitor_rank": 78,
-      "avg_rank": 78.0,
-      "avg_installs": 0.0,
-      "avg_relevancy": 87.0,
-      "avg_kei": 83.0,
-      "source_apps": [
-        "351331194"
-      ]
-    }
-  ],
+  "keyword_gaps": [],
   "competitor_summary": [
     {
       "app_id": "351331194",
       "name": "Badoo Dating: Meet New People",
       "tier": "primary",
-      "gaps_ranked_for": 4
+      "gaps_ranked_for": 0
     },
     {
       "app_id": "930441707",
       "name": "Bumble Dating App: Meet & Date",
       "tier": "primary",
-      "gaps_ranked_for": 1
+      "gaps_ranked_for": 0
     },
     {
       "app_id": "338701294",
       "name": "OkCupid Dating: Date Singles",
       "tier": "primary",
-      "gaps_ranked_for": 2
+      "gaps_ranked_for": 0
     },
     {
       "app_id": "595287172",
@@ -110,25 +58,25 @@
       "app_id": "601174087",
       "name": "DOWN: The Casual Dating App",
       "tier": "secondary",
-      "gaps_ranked_for": 2
+      "gaps_ranked_for": 0
     },
     {
       "app_id": "1250946975",
       "name": "Hily Dating App: Meet. Date.",
       "tier": "secondary",
-      "gaps_ranked_for": 2
+      "gaps_ranked_for": 0
     },
     {
       "app_id": "690661663",
       "name": "PURE: Open-Minded Dating App",
       "tier": "secondary",
-      "gaps_ranked_for": 2
+      "gaps_ranked_for": 0
     },
     {
       "app_id": "1265035248",
       "name": "Mingle2 - Dating & Meet People",
       "tier": "secondary",
-      "gaps_ranked_for": 1
+      "gaps_ranked_for": 0
     },
     {
       "app_id": "1328695473",

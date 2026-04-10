@@ -10,6 +10,7 @@ This module:
 
 import json
 import re
+import requests
 from collections import defaultdict
 from pathlib import Path
 from typing import Dict, List, Tuple, Any
@@ -27,20 +28,21 @@ from nltk.tokenize import word_tokenize
 # Ensure required NLTK data is available
 try:
     nltk.data.find('tokenizers/punkt')
-except LookupError:
+except (LookupError, OSError):
     nltk.download('punkt', quiet=True)
 
 try:
     nltk.data.find('tokenizers/punkt_tab')
-except LookupError:
+except (LookupError, OSError):
     nltk.download('punkt_tab', quiet=True)
 
 try:
     nltk.data.find('corpora/stopwords')
-except LookupError:
+except (LookupError, OSError):
     nltk.download('stopwords', quiet=True)
 
 import config
+from fetchers.metadata import API_KEY
 
 load_dotenv()
 
@@ -57,6 +59,151 @@ FIELD_WEIGHTS = {
 
 DESCRIPTION_EXCERPT_LENGTH = 250
 STOPWORDS = set(stopwords.words("english"))
+
+
+def _fetch_keyword_metrics(
+    keywords: List[str],
+    platform: str,
+    country: str = "us",
+    language: str = "us",
+) -> Dict[str, Any]:
+    """Fetch keyword metrics from AppTweak API for volume and difficulty filtering.
+    
+    Calls the AppTweak keyword metrics endpoint to get volume data for filtering.
+    The API allows max 5 keywords per call, so this function handles batching.
+    
+    Args:
+        keywords: List of keywords to fetch metrics for (max 5 per API call)
+        platform: "ios" or "android"
+        country: Two-letter country code (default: "us")
+        language: Two-letter language code (default: "us")
+    
+    Returns:
+        Dict mapping keyword -> {volume, difficulty, ...} metrics
+    """
+    if not keywords:
+        return {}
+    
+    metrics_data = {}
+    
+    # AppTweak API allows max 5 keywords per request
+    batch_size = 5
+    for i in range(0, len(keywords), batch_size):
+        batch = keywords[i:i + batch_size]
+        keywords_str = ",".join(batch)
+        
+        # Device mapping based on platform
+        device = "iphone" if platform.lower() == "ios" else "android"
+        
+        params = {
+            "keywords": keywords_str,
+            "metrics": "volume,difficulty",
+            "country": country,
+            "language": language,
+            "device": device,
+        }
+        
+        headers = {
+            "X-Apptweak-Key": API_KEY,
+            "Accept": "application/json",
+        }
+        
+        url = f"{config.APPTWEAK_BASE_URL}/{config.KEYWORD_METRICS_ENDPOINT}"
+        
+        try:
+            print(f"[METRICS] Fetching metrics for {len(batch)} keywords...")
+            response = requests.get(url, params=params, headers=headers, timeout=10)
+            response.raise_for_status()
+            
+            data = response.json()
+            
+            # Parse response and build metrics dict
+            # API returns: {"result": {"keyword": {"volume": {"value": N, "date": "..."}, "difficulty": {...}}}}
+            if "result" in data:
+                for keyword, metric_data in data["result"].items():
+                    volume = None
+                    difficulty = None
+                    
+                    # Extract volume value
+                    if "volume" in metric_data and isinstance(metric_data["volume"], dict):
+                        volume = metric_data["volume"].get("value")
+                    
+                    # Extract difficulty value
+                    if "difficulty" in metric_data and isinstance(metric_data["difficulty"], dict):
+                        difficulty = metric_data["difficulty"].get("value")
+                    
+                    metrics_data[keyword] = {
+                        "volume": volume,
+                        "difficulty": difficulty,
+                    }
+            
+            print(f"[METRICS] Successfully fetched {len(batch)} keyword metrics")
+        
+        except requests.exceptions.RequestException as e:
+            print(f"[METRICS] Warning: Failed to fetch metrics - {e}")
+            print("[METRICS] Proceeding without volume filtering")
+            # Return empty dict on API failure - gaps will not be filtered by volume
+            return {}
+    
+    return metrics_data
+
+
+def _filter_gaps_by_volume(
+    gaps: List[Dict[str, Any]],
+    volume_threshold: int = None,
+    platform: str = "ios",
+) -> Tuple[List[Dict[str, Any]], int]:
+    """Filter gap keywords by minimum volume threshold using AppTweak metrics.
+    
+    Fetches keyword metrics and removes gaps with volume below threshold.
+    Includes volume metric in output for reporting.
+    
+    Args:
+        gaps: List of gap term dicts from compute_gaps_from_rankings
+        volume_threshold: Minimum volume required (default: config.MIN_VOLUME_THRESHOLD)
+        platform: "ios" or "android" for API calls
+    
+    Returns:
+        Tuple of (filtered_gaps_with_metrics, filtered_out_count)
+    """
+    if volume_threshold is None:
+        volume_threshold = config.MIN_VOLUME_THRESHOLD
+    print(f"\n[VOLUME_FILTER] ========================================")
+    print(f"[VOLUME_FILTER] Filtering gaps by volume threshold (>{volume_threshold})")
+    print(f"[VOLUME_FILTER] Total gaps before filter: {len(gaps)}")
+    
+    # Extract unique keywords for batch API call
+    keywords = list(set([gap["term"] for gap in gaps]))
+    
+    print(f"[VOLUME_FILTER] Unique keywords to check: {len(keywords)}")
+    
+    # Fetch metrics from AppTweak API
+    metrics_data = _fetch_keyword_metrics(keywords, platform)
+    
+    # Filter gaps by volume and add metrics
+    filtered_gaps = []
+    filtered_count = 0
+    
+    for gap in gaps:
+        term = gap["term"]
+        metrics = metrics_data.get(term, {})
+        volume = metrics.get("volume")
+        difficulty = metrics.get("difficulty")
+        
+        # Only filter if we got a volume value
+        if volume is not None and volume < volume_threshold:
+            filtered_count += 1
+            continue
+        
+        # Add metrics to gap entry
+        gap["volume"] = volume
+        gap["difficulty"] = difficulty
+        filtered_gaps.append(gap)
+    
+    print(f"[VOLUME_FILTER] Gaps meeting volume threshold: {len(filtered_gaps)}")
+    print(f"[VOLUME_FILTER] Gaps filtered out (low volume): {filtered_count}")
+    
+    return filtered_gaps, filtered_count
 
 
 def _clean_text(text: str) -> str:
@@ -377,7 +524,7 @@ def _llm_cleanup_keywords(
     competitor_names = [meta.get("title", "") for meta in competitor_metadata.values()]
     
     # Extract just the terms to send to the LLM (send a healthy batch to give it options)
-    raw_terms = [gap["term"] for gap in gaps[:150]] 
+    raw_terms = [gap["term"] for gap in gaps[:config.MAX_KEYWORD_LLM_FILTER]] 
     
     # 2. Build the Prompt
     system_prompt = (
@@ -396,9 +543,9 @@ def _llm_cleanup_keywords(
     Rules:
     1. Remove ANY brand names, developer names, or trademarked terms.
     2. Remove nonsensical grammatical fragments (e.g., "app allows to", "the new").
-    3. Group synonyms and keep the most natural, highly-searched variation.
+    3. Keep semantically distinct variations - do NOT aggressively deduplicate synonyms. Retain keywords that are different enough to target different user intents.
     4. Focus on actual app features, use cases, and user intent.
-    5. Return a maximum of {target_count} refined keywords.
+    5. Return approximately {target_count} refined keywords. Aim for diversity - include variations that target different aspects.
 
     Output format: You MUST output ONLY a valid JSON object with a single key "keywords" containing a list of strings. 
     Do not include markdown blocks, greetings, or explanations.
@@ -500,7 +647,7 @@ def generate_seeds(your_app_id: str, platform: str) -> List[str]:
     print(f"[SEEDS] Retained {len(gaps)} after initial brand filter")
     
     # --- NEW LLM CLEANUP STEP ---
-    # We send the top 150 to the LLM and ask for MAX_SEED_KEYWORDS back
+    # We send the top MAX_KEYWORD_LLM_FILTER to the LLM and ask for MAX_SEED_KEYWORDS back
     seed_keywords = _llm_cleanup_keywords(
         gaps=gaps, 
         your_app_metadata=your_app_metadata, 
@@ -616,7 +763,6 @@ def compute_gaps_from_rankings(
             
             # Compute averages
             avg_rank = None
-            avg_installs = None
             avg_relevancy = None
             avg_kei = None
             
@@ -624,10 +770,6 @@ def compute_gaps_from_rankings(
                 ranks = [c.get("rank") for c in ranked_competitors if c.get("rank") is not None]
                 if ranks:
                     avg_rank = sum(ranks) / len(ranks)
-                
-                installs = [c.get("installs") for c in ranked_competitors if c.get("installs") is not None]
-                if installs:
-                    avg_installs = sum(installs) / len(installs)
                 
                 relevancies = [c.get("relevancy") for c in ranked_competitors if c.get("relevancy") is not None]
                 if relevancies:
@@ -644,7 +786,6 @@ def compute_gaps_from_rankings(
                 "your_app_ranked": False,
                 "top_competitor_rank": min([c.get("rank") for c in ranked_competitors if c.get("rank") is not None], default=None),
                 "avg_rank": avg_rank,
-                "avg_installs": avg_installs,
                 "avg_relevancy": avg_relevancy,
                 "avg_kei": avg_kei,
                 "source_apps": [c["app_id"] for c in ranked_competitors],
@@ -666,6 +807,66 @@ def compute_gaps_from_rankings(
     print()
     
     return gaps, your_app_summary
+
+
+def filter_gaps_by_volume_metrics(
+    gaps: List[Dict[str, Any]],
+    platform: str,
+    volume_threshold: int = None,
+    country: str = "us",
+    language: str = "us",
+) -> Tuple[List[Dict[str, Any]], Dict[str, Any]]:
+    """Apply volume-based filtering to gap keywords using AppTweak metrics API.
+    
+    Fetches real-time keyword volume and difficulty metrics from AppTweak,
+    then filters gaps to include only those meeting the minimum volume threshold.
+    Includes volume and difficulty metrics in the final output.
+    
+    This function should be called AFTER compute_gaps_from_rankings() to add
+    volume filtering and enrich gap data with market metrics.
+    
+    Args:
+        gaps: List of gap dicts from compute_gaps_from_rankings()
+        platform: "ios" or "android"
+        volume_threshold: Minimum volume required (default: config.MIN_VOLUME_THRESHOLD)
+        country: Two-letter country code (default: "us")
+        language: Two-letter language code (default: "us")
+    
+    Returns:
+        Tuple of (filtered_gaps_list, filter_summary_dict)
+    """
+    if volume_threshold is None:
+        volume_threshold = config.MIN_VOLUME_THRESHOLD
+    if not gaps:
+        print("[VOLUME_FILTER] No gaps to filter")
+        return [], {"total_input": 0, "filtered_count": 0, "volume_threshold": volume_threshold}
+    
+    # Apply volume filtering
+    filtered_gaps, filtered_count = _filter_gaps_by_volume(
+        gaps=gaps,
+        volume_threshold=volume_threshold,
+        platform=platform,
+    )
+    
+    # Create summary stats
+    filter_summary = {
+        "total_input": len(gaps),
+        "total_output": len(filtered_gaps),
+        "filtered_out": filtered_count,
+        "volume_threshold": volume_threshold,
+        "country": country,
+        "language": language,
+        "platform": platform,
+        "metrics_included": ["volume", "difficulty"],
+    }
+    
+    print(f"\n[VOLUME_FILTER] Summary:")
+    print(f"[VOLUME_FILTER] Input gaps: {len(gaps)}")
+    print(f"[VOLUME_FILTER] Output gaps (volume > {volume_threshold}): {len(filtered_gaps)}")
+    print(f"[VOLUME_FILTER] Filtered out: {filtered_count}")
+    print()
+    
+    return filtered_gaps, filter_summary
 
 
 def transform_track_a(

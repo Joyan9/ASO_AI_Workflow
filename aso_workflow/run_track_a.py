@@ -27,7 +27,11 @@ import json
 from datetime import datetime
 from pathlib import Path
 
-from transformers.track_a import generate_seeds, compute_gaps_from_rankings
+from transformers.track_a import (
+    generate_seeds,
+    compute_gaps_from_rankings,
+    filter_gaps_by_volume_metrics,
+)
 from fetchers.keywords import fetch_keyword_rankings, load_existing_ranking_batches
 
 import config
@@ -57,24 +61,27 @@ def run_track_a(app_id: str, platform: str):
     # Step 2: Load/Fetch rankings
     print()
     
-    # Check if ranking batch files already exist
     raw_dir = Path(config.DATA_RAW_DIR)
     rankings_dir = raw_dir / "keyword_rankings"
     batch_pattern = f"{platform}_{app_id}_batch_*.json"
     existing_batches = list(rankings_dir.glob(batch_pattern)) if rankings_dir.exists() else []
     
-    if existing_batches:
+    # If dry-run is disabled, always fetch fresh data (ignore existing batches)
+    if not config.KEYWORD_RANKINGS_DRY_RUN:
+        print("[RUN] Fetching fresh ranking data (dry-run mode disabled)...")
+        ranking_data = fetch_keyword_rankings(platform, app_id, seeds)
+    # In dry-run mode, try to load existing batches
+    elif existing_batches:
         print(f"[RUN] Found {len(existing_batches)} existing ranking batch files. Loading them...")
         ranking_data = load_existing_ranking_batches(platform, app_id)
     else:
-        print("[RUN] No existing ranking batches found. Checking if we should fetch them...")
+        print("[RUN] No existing ranking batches found. Fetching them...")
         ranking_data = fetch_keyword_rankings(platform, app_id, seeds)
         
-        if config.KEYWORD_RANKINGS_DRY_RUN:
-            print("[RUN] Dry-run mode is enabled. Skipping gap computation.")
-            print("[RUN] To execute live and fetch ranking data, set KEYWORD_RANKINGS_DRY_RUN = False in config.py")
-            print()
-            return ranking_data
+        print("[RUN] Dry-run mode is enabled. Skipping gap computation.")
+        print("[RUN] To execute live and fetch ranking data, set KEYWORD_RANKINGS_DRY_RUN = False in config.py")
+        print()
+        return ranking_data
     
     # Step 3: Compute gaps from ranking data
     print()
@@ -83,8 +90,22 @@ def run_track_a(app_id: str, platform: str):
     if not gaps:
         print("[GAPS] No gaps found. Check that competitors are ranked for keywords.")
         print()
+        gaps_before_volume_filter = 0
+        filter_summary = {}
+    else:
+        gaps_before_volume_filter = len(gaps)
+        
+        # Step 4: Filter gaps by volume threshold using AppTweak metrics
+        print()
+        gaps, filter_summary = filter_gaps_by_volume_metrics(
+            gaps=gaps,
+            platform=platform,
+            volume_threshold=config.MIN_VOLUME_THRESHOLD,
+            country=config.COUNTRY,
+            language=config.LANGUAGE,
+        )
     
-    # Step 4: Build competitor summary
+    # Step 5: Build competitor summary
     print("\n[OUTPUT] Building competitor summary...")
     
     competitors_file = Path(config.DATA_RAW_DIR) / f"{platform}_{app_id}_competitors.json"
@@ -118,7 +139,7 @@ def run_track_a(app_id: str, platform: str):
     
     print(f"[OUTPUT] Built summary for {len(competitor_summary)} competitors")
     
-    # Step 5: Write final output
+    # Step 6: Write final output
     print("[OUTPUT] Writing keyword_gaps JSON...")
     
     output_dir = Path(config.DATA_RAW_DIR).parent / "processed"
@@ -135,7 +156,10 @@ def run_track_a(app_id: str, platform: str):
             "run_date": datetime.now().isoformat(),
             "seeds_generated": len(seeds),
             "seeds_with_ranking_data": seeds_with_data,
-            "gaps_identified": len(gaps),
+            "gaps_before_volume_filter": gaps_before_volume_filter,
+            "gaps_after_volume_filter": len(gaps),
+            "volume_threshold": config.MIN_VOLUME_THRESHOLD,
+            "volume_filter_summary": filter_summary,
         },
         "your_app": your_app_summary,
         "keyword_gaps": gaps,

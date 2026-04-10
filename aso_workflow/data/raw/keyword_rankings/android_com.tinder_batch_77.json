@@ -1,0 +1,505 @@
+{
+  "result": {
+    "enterprises.dating.boo": {
+      "policy terms": {
+        "rank": {
+          "value": null,
+          "date": "2026-04-10",
+          "effective_value": 501,
+          "fetch_performed": true
+        },
+        "relevancy": {
+          "value": 31,
+          "date": "2026-04-10",
+          "effective_value": 31
+        },
+        "kei": {
+          "value": 20,
+          "date": "2026-04-10",
+          "effective_value": 20
+        },
+        "chance": {
+          "value": 68,
+          "date": "2026-04-10",
+          "effective_value": 68
+        }
+      },
+      "conditions https": {
+        "rank": {
+          "value": null,
+          "date": "2026-04-10",
+          "effective_value": 501,
+          "fetch_performed": true
+        },
+        "relevancy": {
+          "value": 35,
+          "date": "2026-04-10",
+          "effective_value": 35
+        },
+        "kei": {
+          "value": 8,
+          "date": "2026-04-10",
+          "effective_value": 8
+        },
+        "chance": {
+          "value": 28,
+          "date": "2026-04-10",
+          "effective_value": 28
+        }
+      },
+      "com en": {
+        "rank": {
+          "value": null,
+          "date": "2026-04-10",
+          "effective_value": 501,
+          "fetch_performed": true
+        },
+        "relevancy": {
+          "value": 32,
+          "date": "2026-04-10",
+          "effective_value": 32
+        },
+        "kei": {
+          "value": 12,
+          "date": "2026-04-10",
+          "effective_value": 12
+        },
+        "chance": {
+          "value": 39,
+          "date": "2026-04-10",
+          "effective_value": 39
+        }
+      },
+      "en privacy": {
+        "rank": {
+          "value": null,
+          "date": "2026-04-10",
+          "effective_value": 501,
+          "fetch_performed": true
+        },
+        "relevancy": {
+          "value": 20,
+          "date": "2026-04-10",
+          "effective_value": 20
+        },
+        "kei": {
+          "value": 22,
+          "date": "2026-04-10",
+          "effective_value": 22
+        },
+        "chance": {
+          "value": 73,
+          "date": "2026-04-10",
+          "effective_value": 73
+        }
+      },
+      "en terms": {
+        "rank": {
+          "value": null,
+          "date": "2026-04-10",
+          "effective_value": 501,
+          "fetch_performed": true
+        },
+        "relevancy": {
+          "value": 26,
+          "date": "2026-04-10",
+          "effective_value": 26
+        },
+        "kei": {
+          "value": 9,
+          "date": "2026-04-10",
+          "effective_value": 9
+        },
+        "chance": {
+          "value": 31,
+          "date": "2026-04-10",
+          "effective_value": 31
+        }
+      }
+    },
+    "com.getpure.pure": {
+      "policy terms": {
+        "rank": {
+          "value": null,
+          "date": "2026-04-10",
+          "effective_value": 501,
+          "fetch_performed": true
+        },
+        "relevancy": {
+          "value": 37,
+          "date": "2026-04-10",
+          "effective_value": 37
+        },
+        "kei": {
+          "value": 20,
+          "date": "2026-04-10",
+          "effective_value": 20
+        },
+        "chance": {
+          "value": 68,
+          "date": "2026-04-10",
+          "effective_value": 68
+        }
+      },
+      "conditions https": {
+        "rank": {
+          "value": null,
+          "date": "2026-04-10",
+          "effective_value": 501,
+          "fetch_performed": true
+        },
+        "relevancy": {
+          "value": 39,
+          "date": "2026-04-10",
+          "effective_value": 39
+        },
+        "kei": {
+          "value": 8,
+          "date": "2026-04-10",
+          "effective_value": 8
+        },
+        "chance": {
+          "value": 28,
+          "date": "2026-04-10",
+          "effective_value": 28
+        }
+      },
+      "com en": {
+        "rank": {
+          "value": null,
+          "date": "2026-04-10",
+          "effective_value": 501,
+          "fetch_performed": true
+        },
+        "relevancy": {
+          "value": 38,
+          "date": "2026-04-10",
+          "effective_value": 38
+        },
+        "kei": {
+          "value": 12,
+          "date": "2026-04-10",
+          "effective_value": 12
+        },
+        "chance": {
+          "value": 39,
+          "date": "2026-04-10",
+          "effective_value": 39
+        }
+      },
+      "en privacy": {
+        "rank": {
+          "value": null,
+          "date": "2026-04-10",
+          "effective_value": 501,
+          "fetch_performed": true
+        },
+        "relevancy": {
+          "value": 33,
+          "date": "2026-04-10",
+          "effective_value": 33
+        },
+        "kei": {
+          "value": 22,
+          "date": "2026-04-10",
+          "effective_value": 22
+        },
+        "chance": {
+          "value": 73,
+          "date": "2026-04-10",
+          "effective_value": 73
+        }
+      },
+      "en terms": {
+        "rank": {
+          "value": null,
+          "date": "2026-04-10",
+          "effective_value": 501,
+          "fetch_performed": true
+        },
+        "relevancy": {
+          "value": 24,
+          "date": "2026-04-10",
+          "effective_value": 24
+        },
+        "kei": {
+          "value": 9,
+          "date": "2026-04-10",
+          "effective_value": 9
+        },
+        "chance": {
+          "value": 31,
+          "date": "2026-04-10",
+          "effective_value": 31
+        }
+      }
+    },
+    "com.nearme.wolf": {
+      "policy terms": {
+        "rank": {
+          "value": null,
+          "date": "2026-04-10",
+          "effective_value": 501,
+          "fetch_performed": true
+        },
+        "relevancy": {
+          "value": 34,
+          "date": "2026-04-10",
+          "effective_value": 34
+        },
+        "kei": {
+          "value": 12,
+          "date": "2026-04-10",
+          "effective_value": 12
+        },
+        "chance": {
+          "value": 41,
+          "date": "2026-04-10",
+          "effective_value": 41
+        }
+      },
+      "conditions https": {
+        "rank": {
+          "value": null,
+          "date": "2026-04-10",
+          "effective_value": 501,
+          "fetch_performed": true
+        },
+        "relevancy": {
+          "value": 40,
+          "date": "2026-04-10",
+          "effective_value": 40
+        },
+        "kei": {
+          "value": 3,
+          "date": "2026-04-10",
+          "effective_value": 3
+        },
+        "chance": {
+          "value": 10,
+          "date": "2026-04-10",
+          "effective_value": 10
+        }
+      },
+      "com en": {
+        "rank": {
+          "value": null,
+          "date": "2026-04-10",
+          "effective_value": 501,
+          "fetch_performed": true
+        },
+        "relevancy": {
+          "value": 37,
+          "date": "2026-04-10",
+          "effective_value": 37
+        },
+        "kei": {
+          "value": 5,
+          "date": "2026-04-10",
+          "effective_value": 5
+        },
+        "chance": {
+          "value": 16,
+          "date": "2026-04-10",
+          "effective_value": 16
+        }
+      },
+      "en privacy": {
+        "rank": {
+          "value": null,
+          "date": "2026-04-10",
+          "effective_value": 501,
+          "fetch_performed": true
+        },
+        "relevancy": {
+          "value": 20,
+          "date": "2026-04-10",
+          "effective_value": 20
+        },
+        "kei": {
+          "value": 22,
+          "date": "2026-04-10",
+          "effective_value": 22
+        },
+        "chance": {
+          "value": 73,
+          "date": "2026-04-10",
+          "effective_value": 73
+        }
+      },
+      "en terms": {
+        "rank": {
+          "value": null,
+          "date": "2026-04-10",
+          "effective_value": 501,
+          "fetch_performed": true
+        },
+        "relevancy": {
+          "value": 18,
+          "date": "2026-04-10",
+          "effective_value": 18
+        },
+        "kei": {
+          "value": 3,
+          "date": "2026-04-10",
+          "effective_value": 3
+        },
+        "chance": {
+          "value": 11,
+          "date": "2026-04-10",
+          "effective_value": 11
+        }
+      }
+    },
+    "com.pof.android": {
+      "policy terms": {
+        "rank": {
+          "value": null,
+          "date": "2026-04-10",
+          "effective_value": 501,
+          "fetch_performed": true
+        },
+        "relevancy": {
+          "value": 42,
+          "date": "2026-04-10",
+          "effective_value": 42
+        },
+        "kei": {
+          "value": 17,
+          "date": "2026-04-10",
+          "effective_value": 17
+        },
+        "chance": {
+          "value": 55,
+          "date": "2026-04-10",
+          "effective_value": 55
+        }
+      },
+      "conditions https": {
+        "rank": {
+          "value": null,
+          "date": "2026-04-10",
+          "effective_value": 501,
+          "fetch_performed": true
+        },
+        "relevancy": {
+          "value": 48,
+          "date": "2026-04-10",
+          "effective_value": 48
+        },
+        "kei": {
+          "value": 5,
+          "date": "2026-04-10",
+          "effective_value": 5
+        },
+        "chance": {
+          "value": 18,
+          "date": "2026-04-10",
+          "effective_value": 18
+        }
+      },
+      "com en": {
+        "rank": {
+          "value": null,
+          "date": "2026-04-10",
+          "effective_value": 501,
+          "fetch_performed": true
+        },
+        "relevancy": {
+          "value": 45,
+          "date": "2026-04-10",
+          "effective_value": 45
+        },
+        "kei": {
+          "value": 8,
+          "date": "2026-04-10",
+          "effective_value": 8
+        },
+        "chance": {
+          "value": 27,
+          "date": "2026-04-10",
+          "effective_value": 27
+        }
+      },
+      "en privacy": {
+        "rank": {
+          "value": null,
+          "date": "2026-04-10",
+          "effective_value": 501,
+          "fetch_performed": true
+        },
+        "relevancy": {
+          "value": 22,
+          "date": "2026-04-10",
+          "effective_value": 22
+        },
+        "kei": {
+          "value": 22,
+          "date": "2026-04-10",
+          "effective_value": 22
+        },
+        "chance": {
+          "value": 73,
+          "date": "2026-04-10",
+          "effective_value": 73
+        }
+      },
+      "en terms": {
+        "rank": {
+          "value": null,
+          "date": "2026-04-10",
+          "effective_value": 501,
+          "fetch_performed": true
+        },
+        "relevancy": {
+          "value": 34,
+          "date": "2026-04-10",
+          "effective_value": 34
+        },
+        "kei": {
+          "value": 6,
+          "date": "2026-04-10",
+          "effective_value": 6
+        },
+        "chance": {
+          "value": 20,
+          "date": "2026-04-10",
+          "effective_value": 20
+        }
+      }
+    }
+  },
+  "metadata": {
+    "request": {
+      "path": "/api/public/store/apps/keywords-rankings/current.json",
+      "params": {
+        "device": "android",
+        "country": "us",
+        "language": "us",
+        "apps": [
+          "enterprises.dating.boo",
+          "com.getpure.pure",
+          "com.nearme.wolf",
+          "com.pof.android"
+        ],
+        "metrics": [
+          "rank",
+          "relevancy",
+          "kei",
+          "chance"
+        ],
+        "keywords": [
+          "policy terms",
+          "conditions https",
+          "com en",
+          "en privacy",
+          "en terms"
+        ]
+      },
+      "cost": 801,
+      "max_credit_cost": 801,
+      "status": 200
+    },
+    "response": null
+  }
+}

@@ -1,570 +1,587 @@
 {
   "result": {
-    "601174087": {
-      "adult dating": {
+    "547702041": {
+      "id verification": {
         "rank": {
-          "value": 2,
-          "date": "2026-04-08",
-          "effective_value": 2,
-          "fetch_performed": true
-        },
-        "installs": {
-          "value": 0.0,
-          "date": "2026-04-08",
-          "effective_value": 0.0
+          "value": null,
+          "date": "2026-04-10",
+          "effective_value": 501,
+          "fetch_performed": false
         },
         "relevancy": {
-          "value": 93,
-          "date": "2026-04-08",
-          "effective_value": 93
-        },
-        "kei": {
-          "value": 28,
-          "date": "2026-04-08",
-          "effective_value": 28
-        },
-        "chance": {
-          "value": 94,
-          "date": "2026-04-08",
-          "effective_value": 94
-        }
-      },
-      "flirt chat": {
-        "rank": {
-          "value": 11,
-          "date": "2026-04-08",
-          "effective_value": 11,
-          "fetch_performed": true
-        },
-        "installs": {
-          "value": 0.0,
-          "date": "2026-04-08",
-          "effective_value": 0.0
-        },
-        "relevancy": {
-          "value": 96,
-          "date": "2026-04-08",
-          "effective_value": 96
+          "value": 3,
+          "date": "2026-04-10",
+          "effective_value": 3
         },
         "kei": {
           "value": 22,
-          "date": "2026-04-08",
+          "date": "2026-04-10",
           "effective_value": 22
         },
         "chance": {
           "value": 73,
-          "date": "2026-04-08",
+          "date": "2026-04-10",
           "effective_value": 73
         }
       },
-      "online dating": {
+      "scammer protection": {
         "rank": {
           "value": null,
-          "date": "2026-04-08",
+          "date": "2026-04-10",
           "effective_value": 501,
           "fetch_performed": true
         },
-        "installs": {
-          "value": 0,
-          "date": "2026-04-08",
-          "effective_value": 0
-        },
         "relevancy": {
-          "value": 91,
-          "date": "2026-04-08",
-          "effective_value": 91
-        },
-        "kei": {
-          "value": 8,
-          "date": "2026-04-08",
-          "effective_value": 8
-        },
-        "chance": {
-          "value": 28,
-          "date": "2026-04-08",
-          "effective_value": 28
-        }
-      },
-      "find love": {
-        "rank": {
-          "value": 25,
-          "date": "2026-04-08",
-          "effective_value": 25,
-          "fetch_performed": true
-        },
-        "installs": {
-          "value": 0.0,
-          "date": "2026-04-08",
-          "effective_value": 0.0
-        },
-        "relevancy": {
-          "value": 73,
-          "date": "2026-04-08",
-          "effective_value": 73
-        },
-        "kei": {
-          "value": 20,
-          "date": "2026-04-08",
-          "effective_value": 20
-        },
-        "chance": {
-          "value": 66,
-          "date": "2026-04-08",
-          "effective_value": 66
-        }
-      },
-      "meaningful connections": {
-        "rank": {
-          "value": null,
-          "date": "2026-04-08",
-          "effective_value": 501,
-          "fetch_performed": true
-        },
-        "installs": {
-          "value": 0,
-          "date": "2026-04-08",
-          "effective_value": 0
-        },
-        "relevancy": {
-          "value": 78,
-          "date": "2026-04-08",
-          "effective_value": 78
+          "value": 14,
+          "date": "2026-04-10",
+          "effective_value": 14
         },
         "kei": {
           "value": 22,
-          "date": "2026-04-08",
+          "date": "2026-04-10",
           "effective_value": 22
         },
         "chance": {
           "value": 73,
-          "date": "2026-04-08",
+          "date": "2026-04-10",
+          "effective_value": 73
+        }
+      },
+      "spam protection": {
+        "rank": {
+          "value": null,
+          "date": "2026-04-09",
+          "effective_value": 501,
+          "fetch_performed": true
+        },
+        "relevancy": {
+          "value": 21,
+          "date": "2026-04-10",
+          "effective_value": 21
+        },
+        "kei": {
+          "value": 15,
+          "date": "2026-04-10",
+          "effective_value": 15
+        },
+        "chance": {
+          "value": 73,
+          "date": "2026-04-10",
+          "effective_value": 73
+        }
+      },
+      "report abuse": {
+        "rank": {
+          "value": null,
+          "date": "2026-04-10",
+          "effective_value": 501,
+          "fetch_performed": true
+        },
+        "relevancy": {
+          "value": 4,
+          "date": "2026-04-10",
+          "effective_value": 4
+        },
+        "kei": {
+          "value": 22,
+          "date": "2026-04-10",
+          "effective_value": 22
+        },
+        "chance": {
+          "value": 73,
+          "date": "2026-04-10",
+          "effective_value": 73
+        }
+      },
+      "block users": {
+        "rank": {
+          "value": null,
+          "date": "2026-04-10",
+          "effective_value": 501,
+          "fetch_performed": true
+        },
+        "relevancy": {
+          "value": 28,
+          "date": "2026-04-10",
+          "effective_value": 28
+        },
+        "kei": {
+          "value": 22,
+          "date": "2026-04-10",
+          "effective_value": 22
+        },
+        "chance": {
+          "value": 73,
+          "date": "2026-04-10",
           "effective_value": 73
         }
       }
     },
-    "1250946975": {
-      "adult dating": {
+    "351331194": {
+      "id verification": {
         "rank": {
-          "value": 24,
-          "date": "2026-04-08",
-          "effective_value": 24,
-          "fetch_performed": true
-        },
-        "installs": {
-          "value": 0.0,
-          "date": "2026-04-08",
-          "effective_value": 0.0
+          "value": null,
+          "date": "2026-04-10",
+          "effective_value": 501,
+          "fetch_performed": false
         },
         "relevancy": {
-          "value": 89,
-          "date": "2026-04-08",
-          "effective_value": 89
+          "value": 4,
+          "date": "2026-04-10",
+          "effective_value": 4
         },
         "kei": {
           "value": 22,
-          "date": "2026-04-08",
+          "date": "2026-04-10",
           "effective_value": 22
         },
         "chance": {
           "value": 73,
-          "date": "2026-04-08",
+          "date": "2026-04-10",
           "effective_value": 73
         }
       },
-      "flirt chat": {
+      "scammer protection": {
         "rank": {
-          "value": 38,
-          "date": "2026-04-08",
-          "effective_value": 38,
+          "value": null,
+          "date": "2026-04-10",
+          "effective_value": 501,
           "fetch_performed": true
         },
-        "installs": {
-          "value": 0.0,
-          "date": "2026-04-08",
-          "effective_value": 0.0
-        },
         "relevancy": {
-          "value": 93,
-          "date": "2026-04-08",
-          "effective_value": 93
-        },
-        "kei": {
-          "value": 22,
-          "date": "2026-04-08",
-          "effective_value": 22
-        },
-        "chance": {
-          "value": 73,
-          "date": "2026-04-08",
-          "effective_value": 73
-        }
-      },
-      "online dating": {
-        "rank": {
-          "value": 18,
-          "date": "2026-04-08",
-          "effective_value": 18,
-          "fetch_performed": true
-        },
-        "installs": {
-          "value": 0.0,
-          "date": "2026-04-08",
-          "effective_value": 0.0
-        },
-        "relevancy": {
-          "value": 89,
-          "date": "2026-04-08",
-          "effective_value": 89
+          "value": 17,
+          "date": "2026-04-10",
+          "effective_value": 17
         },
         "kei": {
           "value": 17,
-          "date": "2026-04-08",
+          "date": "2026-04-10",
           "effective_value": 17
         },
         "chance": {
-          "value": 56,
-          "date": "2026-04-08",
-          "effective_value": 56
+          "value": 58,
+          "date": "2026-04-10",
+          "effective_value": 58
         }
       },
-      "find love": {
-        "rank": {
-          "value": 32,
-          "date": "2026-04-08",
-          "effective_value": 32,
-          "fetch_performed": true
-        },
-        "installs": {
-          "value": 0.0,
-          "date": "2026-04-08",
-          "effective_value": 0.0
-        },
-        "relevancy": {
-          "value": 72,
-          "date": "2026-04-08",
-          "effective_value": 72
-        },
-        "kei": {
-          "value": 22,
-          "date": "2026-04-08",
-          "effective_value": 22
-        },
-        "chance": {
-          "value": 73,
-          "date": "2026-04-08",
-          "effective_value": 73
-        }
-      },
-      "meaningful connections": {
+      "spam protection": {
         "rank": {
           "value": null,
-          "date": "2026-04-08",
+          "date": "2026-04-09",
           "effective_value": 501,
           "fetch_performed": true
         },
-        "installs": {
-          "value": 0,
-          "date": "2026-04-08",
-          "effective_value": 0
-        },
         "relevancy": {
-          "value": 79,
-          "date": "2026-04-08",
-          "effective_value": 79
-        },
-        "kei": {
-          "value": 22,
-          "date": "2026-04-08",
-          "effective_value": 22
-        },
-        "chance": {
-          "value": 73,
-          "date": "2026-04-08",
-          "effective_value": 73
-        }
-      }
-    },
-    "690661663": {
-      "adult dating": {
-        "rank": {
-          "value": 16,
-          "date": "2026-04-08",
-          "effective_value": 16,
-          "fetch_performed": true
-        },
-        "installs": {
-          "value": 0.0,
-          "date": "2026-04-08",
-          "effective_value": 0.0
-        },
-        "relevancy": {
-          "value": 81,
-          "date": "2026-04-08",
-          "effective_value": 81
-        },
-        "kei": {
-          "value": 22,
-          "date": "2026-04-08",
-          "effective_value": 22
-        },
-        "chance": {
-          "value": 73,
-          "date": "2026-04-08",
-          "effective_value": 73
-        }
-      },
-      "flirt chat": {
-        "rank": {
-          "value": 23,
-          "date": "2026-04-08",
-          "effective_value": 23,
-          "fetch_performed": true
-        },
-        "installs": {
-          "value": 0.0,
-          "date": "2026-04-08",
-          "effective_value": 0.0
-        },
-        "relevancy": {
-          "value": 86,
-          "date": "2026-04-08",
-          "effective_value": 86
-        },
-        "kei": {
-          "value": 22,
-          "date": "2026-04-08",
-          "effective_value": 22
-        },
-        "chance": {
-          "value": 73,
-          "date": "2026-04-08",
-          "effective_value": 73
-        }
-      },
-      "online dating": {
-        "rank": {
-          "value": 7,
-          "date": "2026-04-08",
-          "effective_value": 7,
-          "fetch_performed": true
-        },
-        "installs": {
-          "value": 0.0,
-          "date": "2026-04-08",
-          "effective_value": 0.0
-        },
-        "relevancy": {
-          "value": 83,
-          "date": "2026-04-08",
-          "effective_value": 83
-        },
-        "kei": {
           "value": 24,
-          "date": "2026-04-08",
+          "date": "2026-04-10",
           "effective_value": 24
         },
-        "chance": {
-          "value": 79,
-          "date": "2026-04-08",
-          "effective_value": 79
-        }
-      },
-      "find love": {
-        "rank": {
-          "value": 96,
-          "date": "2026-04-08",
-          "effective_value": 96,
-          "fetch_performed": true
-        },
-        "installs": {
-          "value": 0.0,
-          "date": "2026-04-08",
-          "effective_value": 0.0
-        },
-        "relevancy": {
-          "value": 70,
-          "date": "2026-04-08",
-          "effective_value": 70
-        },
         "kei": {
-          "value": 22,
-          "date": "2026-04-08",
-          "effective_value": 22
+          "value": 14,
+          "date": "2026-04-10",
+          "effective_value": 14
         },
         "chance": {
-          "value": 73,
-          "date": "2026-04-08",
-          "effective_value": 73
+          "value": 69,
+          "date": "2026-04-10",
+          "effective_value": 69
         }
       },
-      "meaningful connections": {
+      "report abuse": {
         "rank": {
           "value": null,
-          "date": "2026-04-08",
+          "date": "2026-04-10",
           "effective_value": 501,
           "fetch_performed": true
         },
-        "installs": {
-          "value": 0,
-          "date": "2026-04-08",
-          "effective_value": 0
-        },
         "relevancy": {
-          "value": 79,
-          "date": "2026-04-08",
-          "effective_value": 79
+          "value": 5,
+          "date": "2026-04-10",
+          "effective_value": 5
         },
         "kei": {
           "value": 22,
-          "date": "2026-04-08",
+          "date": "2026-04-10",
           "effective_value": 22
         },
         "chance": {
           "value": 73,
-          "date": "2026-04-08",
+          "date": "2026-04-10",
+          "effective_value": 73
+        }
+      },
+      "block users": {
+        "rank": {
+          "value": null,
+          "date": "2026-04-10",
+          "effective_value": 501,
+          "fetch_performed": true
+        },
+        "relevancy": {
+          "value": 26,
+          "date": "2026-04-10",
+          "effective_value": 26
+        },
+        "kei": {
+          "value": 22,
+          "date": "2026-04-10",
+          "effective_value": 22
+        },
+        "chance": {
+          "value": 73,
+          "date": "2026-04-10",
           "effective_value": 73
         }
       }
     },
-    "1265035248": {
-      "adult dating": {
-        "rank": {
-          "value": 47,
-          "date": "2026-04-08",
-          "effective_value": 47,
-          "fetch_performed": true
-        },
-        "installs": {
-          "value": 0.0,
-          "date": "2026-04-08",
-          "effective_value": 0.0
-        },
-        "relevancy": {
-          "value": 88,
-          "date": "2026-04-08",
-          "effective_value": 88
-        },
-        "kei": {
-          "value": 6,
-          "date": "2026-04-08",
-          "effective_value": 6
-        },
-        "chance": {
-          "value": 20,
-          "date": "2026-04-08",
-          "effective_value": 20
-        }
-      },
-      "flirt chat": {
-        "rank": {
-          "value": 54,
-          "date": "2026-04-08",
-          "effective_value": 54,
-          "fetch_performed": true
-        },
-        "installs": {
-          "value": 0.0,
-          "date": "2026-04-08",
-          "effective_value": 0.0
-        },
-        "relevancy": {
-          "value": 94,
-          "date": "2026-04-08",
-          "effective_value": 94
-        },
-        "kei": {
-          "value": 15,
-          "date": "2026-04-08",
-          "effective_value": 15
-        },
-        "chance": {
-          "value": 49,
-          "date": "2026-04-08",
-          "effective_value": 49
-        }
-      },
-      "online dating": {
-        "rank": {
-          "value": 46,
-          "date": "2026-04-08",
-          "effective_value": 46,
-          "fetch_performed": true
-        },
-        "installs": {
-          "value": 0.0,
-          "date": "2026-04-08",
-          "effective_value": 0.0
-        },
-        "relevancy": {
-          "value": 92,
-          "date": "2026-04-08",
-          "effective_value": 92
-        },
-        "kei": {
-          "value": 1,
-          "date": "2026-04-08",
-          "effective_value": 1
-        },
-        "chance": {
-          "value": 3,
-          "date": "2026-04-08",
-          "effective_value": 3
-        }
-      },
-      "find love": {
-        "rank": {
-          "value": 24,
-          "date": "2026-04-08",
-          "effective_value": 24,
-          "fetch_performed": true
-        },
-        "installs": {
-          "value": 0.0,
-          "date": "2026-04-08",
-          "effective_value": 0.0
-        },
-        "relevancy": {
-          "value": 76,
-          "date": "2026-04-08",
-          "effective_value": 76
-        },
-        "kei": {
-          "value": 7,
-          "date": "2026-04-08",
-          "effective_value": 7
-        },
-        "chance": {
-          "value": 23,
-          "date": "2026-04-08",
-          "effective_value": 23
-        }
-      },
-      "meaningful connections": {
+    "930441707": {
+      "id verification": {
         "rank": {
           "value": null,
-          "date": "2026-04-08",
+          "date": "2026-04-10",
+          "effective_value": 501,
+          "fetch_performed": false
+        },
+        "relevancy": {
+          "value": 0,
+          "date": "2026-04-10",
+          "effective_value": 0
+        },
+        "kei": {
+          "value": 22,
+          "date": "2026-04-10",
+          "effective_value": 22
+        },
+        "chance": {
+          "value": 73,
+          "date": "2026-04-10",
+          "effective_value": 73
+        }
+      },
+      "scammer protection": {
+        "rank": {
+          "value": null,
+          "date": "2026-04-10",
           "effective_value": 501,
           "fetch_performed": true
         },
-        "installs": {
-          "value": 0,
-          "date": "2026-04-08",
-          "effective_value": 0
+        "relevancy": {
+          "value": 12,
+          "date": "2026-04-10",
+          "effective_value": 12
+        },
+        "kei": {
+          "value": 22,
+          "date": "2026-04-10",
+          "effective_value": 22
+        },
+        "chance": {
+          "value": 73,
+          "date": "2026-04-10",
+          "effective_value": 73
+        }
+      },
+      "spam protection": {
+        "rank": {
+          "value": null,
+          "date": "2026-04-09",
+          "effective_value": 501,
+          "fetch_performed": true
         },
         "relevancy": {
-          "value": 87,
-          "date": "2026-04-08",
-          "effective_value": 87
+          "value": 20,
+          "date": "2026-04-10",
+          "effective_value": 20
         },
         "kei": {
           "value": 15,
-          "date": "2026-04-08",
+          "date": "2026-04-10",
           "effective_value": 15
         },
         "chance": {
-          "value": 51,
-          "date": "2026-04-08",
-          "effective_value": 51
+          "value": 73,
+          "date": "2026-04-10",
+          "effective_value": 73
+        }
+      },
+      "report abuse": {
+        "rank": {
+          "value": null,
+          "date": "2026-04-10",
+          "effective_value": 501,
+          "fetch_performed": true
+        },
+        "relevancy": {
+          "value": 5,
+          "date": "2026-04-10",
+          "effective_value": 5
+        },
+        "kei": {
+          "value": 22,
+          "date": "2026-04-10",
+          "effective_value": 22
+        },
+        "chance": {
+          "value": 73,
+          "date": "2026-04-10",
+          "effective_value": 73
+        }
+      },
+      "block users": {
+        "rank": {
+          "value": null,
+          "date": "2026-04-10",
+          "effective_value": 501,
+          "fetch_performed": true
+        },
+        "relevancy": {
+          "value": 24,
+          "date": "2026-04-10",
+          "effective_value": 24
+        },
+        "kei": {
+          "value": 22,
+          "date": "2026-04-10",
+          "effective_value": 22
+        },
+        "chance": {
+          "value": 73,
+          "date": "2026-04-10",
+          "effective_value": 73
+        }
+      }
+    },
+    "338701294": {
+      "id verification": {
+        "rank": {
+          "value": null,
+          "date": "2026-04-10",
+          "effective_value": 501,
+          "fetch_performed": false
+        },
+        "relevancy": {
+          "value": 11,
+          "date": "2026-04-10",
+          "effective_value": 11
+        },
+        "kei": {
+          "value": 21,
+          "date": "2026-04-10",
+          "effective_value": 21
+        },
+        "chance": {
+          "value": 69,
+          "date": "2026-04-10",
+          "effective_value": 69
+        }
+      },
+      "scammer protection": {
+        "rank": {
+          "value": null,
+          "date": "2026-04-10",
+          "effective_value": 501,
+          "fetch_performed": true
+        },
+        "relevancy": {
+          "value": 15,
+          "date": "2026-04-10",
+          "effective_value": 15
+        },
+        "kei": {
+          "value": 16,
+          "date": "2026-04-10",
+          "effective_value": 16
+        },
+        "chance": {
+          "value": 52,
+          "date": "2026-04-10",
+          "effective_value": 52
+        }
+      },
+      "spam protection": {
+        "rank": {
+          "value": null,
+          "date": "2026-04-09",
+          "effective_value": 501,
+          "fetch_performed": true
+        },
+        "relevancy": {
+          "value": 17,
+          "date": "2026-04-10",
+          "effective_value": 17
+        },
+        "kei": {
+          "value": 13,
+          "date": "2026-04-10",
+          "effective_value": 13
+        },
+        "chance": {
+          "value": 64,
+          "date": "2026-04-10",
+          "effective_value": 64
+        }
+      },
+      "report abuse": {
+        "rank": {
+          "value": null,
+          "date": "2026-04-10",
+          "effective_value": 501,
+          "fetch_performed": true
+        },
+        "relevancy": {
+          "value": 18,
+          "date": "2026-04-10",
+          "effective_value": 18
+        },
+        "kei": {
+          "value": 22,
+          "date": "2026-04-10",
+          "effective_value": 22
+        },
+        "chance": {
+          "value": 73,
+          "date": "2026-04-10",
+          "effective_value": 73
+        }
+      },
+      "block users": {
+        "rank": {
+          "value": null,
+          "date": "2026-04-10",
+          "effective_value": 501,
+          "fetch_performed": true
+        },
+        "relevancy": {
+          "value": 20,
+          "date": "2026-04-10",
+          "effective_value": 20
+        },
+        "kei": {
+          "value": 22,
+          "date": "2026-04-10",
+          "effective_value": 22
+        },
+        "chance": {
+          "value": 73,
+          "date": "2026-04-10",
+          "effective_value": 73
+        }
+      }
+    },
+    "595287172": {
+      "id verification": {
+        "rank": {
+          "value": null,
+          "date": "2026-04-10",
+          "effective_value": 501,
+          "fetch_performed": false
+        },
+        "relevancy": {
+          "value": 6,
+          "date": "2026-04-10",
+          "effective_value": 6
+        },
+        "kei": {
+          "value": 22,
+          "date": "2026-04-10",
+          "effective_value": 22
+        },
+        "chance": {
+          "value": 73,
+          "date": "2026-04-10",
+          "effective_value": 73
+        }
+      },
+      "scammer protection": {
+        "rank": {
+          "value": null,
+          "date": "2026-04-10",
+          "effective_value": 501,
+          "fetch_performed": true
+        },
+        "relevancy": {
+          "value": 13,
+          "date": "2026-04-10",
+          "effective_value": 13
+        },
+        "kei": {
+          "value": 22,
+          "date": "2026-04-10",
+          "effective_value": 22
+        },
+        "chance": {
+          "value": 73,
+          "date": "2026-04-10",
+          "effective_value": 73
+        }
+      },
+      "spam protection": {
+        "rank": {
+          "value": null,
+          "date": "2026-04-09",
+          "effective_value": 501,
+          "fetch_performed": true
+        },
+        "relevancy": {
+          "value": 17,
+          "date": "2026-04-10",
+          "effective_value": 17
+        },
+        "kei": {
+          "value": 15,
+          "date": "2026-04-10",
+          "effective_value": 15
+        },
+        "chance": {
+          "value": 73,
+          "date": "2026-04-10",
+          "effective_value": 73
+        }
+      },
+      "report abuse": {
+        "rank": {
+          "value": null,
+          "date": "2026-04-10",
+          "effective_value": 501,
+          "fetch_performed": true
+        },
+        "relevancy": {
+          "value": 16,
+          "date": "2026-04-10",
+          "effective_value": 16
+        },
+        "kei": {
+          "value": 22,
+          "date": "2026-04-10",
+          "effective_value": 22
+        },
+        "chance": {
+          "value": 73,
+          "date": "2026-04-10",
+          "effective_value": 73
+        }
+      },
+      "block users": {
+        "rank": {
+          "value": null,
+          "date": "2026-04-10",
+          "effective_value": 501,
+          "fetch_performed": true
+        },
+        "relevancy": {
+          "value": 24,
+          "date": "2026-04-10",
+          "effective_value": 24
+        },
+        "kei": {
+          "value": 22,
+          "date": "2026-04-10",
+          "effective_value": 22
+        },
+        "chance": {
+          "value": 73,
+          "date": "2026-04-10",
+          "effective_value": 73
         }
       }
     }
@@ -577,27 +594,27 @@
         "country": "us",
         "language": "us",
         "apps": [
-          "601174087",
-          "1250946975",
-          "690661663",
-          "1265035248"
+          "547702041",
+          "351331194",
+          "930441707",
+          "338701294",
+          "595287172"
         ],
         "metrics": [
           "rank",
-          "installs",
           "relevancy",
           "kei",
           "chance"
         ],
         "keywords": [
-          "adult dating",
-          "flirt chat",
-          "online dating",
-          "find love",
-          "meaningful connections"
+          "id verification",
+          "scammer protection",
+          "spam protection",
+          "report abuse",
+          "block users"
         ]
       },
-      "cost": 1001,
+      "cost": 951,
       "max_credit_cost": 1001,
       "status": 200
     },

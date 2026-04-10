@@ -907,9 +907,9 @@ const REPORT_DATA = {
     recommendations: [
       {
         badge: "Core Parity Gap",
-        headline: "Reclaim 'Date Singles' — All Three Primary Rivals Rank Here",
-        rationale: "The term \"date singles\" is the single most alarming gap in the iOS report: Badoo, Bumble, and OkCupid all rank for it, with Badoo holding position #3. At 93.1 avg relevancy this is unambiguously on-brand for Tinder, yet the app has no ranking whatsoever. With seven competitors present, Tinder is invisible on a search that describes its core product exactly.",
-        action: "Integrate 'date singles' into the iOS subtitle (currently 'Meet New People & Date Singles' does contain 'date singles' — confirm exact indexing) and ensure it appears in the first 20 words of the App Store description to maximise indexation weight."
+        headline: "Diagnose Why 'Date Singles' Isn't Indexing — All Three Primary Rivals Rank Here",
+        rationale: "The term "date singles" is the single most alarming gap in the iOS report — not because it's missing from the metadata, but because it's already there. Tinder's subtitle reads 'Meet New People & Date Singles', yet Badoo holds position #3 for this term, Bumble and OkCupid both rank for it, and seven competitors in total are visible while Tinder is not. At 93.1 avg relevancy, this is unambiguously Tinder's term to own. The problem isn't copy — it's signal weight.",
+        action: "Run a three-point indexation audit: first, check whether 'date singles' as an exact phrase is being read correctly by Apple given the subtitle's word order; second, confirm there are no duplicate instances of the phrase across the title, subtitle, and hidden keyword field, as Apple penalises redundancy; third, verify the hidden keyword field isn't consuming characters on terms already covered by the subtitle, which would crowd out additional indexation opportunities. If duplication is ruled out, test restructuring the subtitle to lead with 'Date Singles' as the opening phrase to increase its positional weight in Apple's indexation logic."
       },
       {
         badge: "High-Volume Power Play",
@@ -941,7 +941,7 @@ const REPORT_DATA = {
       "Terms with Avg Relevancy below 35 are deprioritised; at Tinder's brand maturity, off-brand rankings generate low-conversion installs that distort quality metrics.",
       "A gap where all 3 Primary competitors rank constitutes a Critical Threat and overrides all other scoring thresholds in stack-ranking."
     ],
-    exec_summary: "The dominant gap theme on iOS is intent-matching failure: Tinder's metadata does not reflect how users search for its core product, leaving seven competitors — including all three primary rivals — to rank on 'date singles', the most relevant term in the dataset. The single most urgent implication is that a 93.1-relevancy term with a top competitor rank of #3 represents an indexed opportunity Tinder is categorically absent from, demanding immediate subtitle and keyword field action before the next App Store ranking cycle.",
+    exec_summary: "The dominant gap theme on iOS is indexation failure, not missing intent: 'date singles' already appears in Tinder's subtitle — 'Meet New People & Date Singles' — yet all three primary rivals rank for it and Tinder does not. The term is present; the ranking signal is absent. The single most urgent implication is that a 93.1-relevancy phrase sitting in premium metadata real estate is delivering zero search visibility, demanding an immediate audit of why Apple's algorithm is not picking up the weight — whether through phrase duplication, subtitle structure, or keyword field conflicts — before the next App Store ranking cycle.",
     landscape_narrative: "On iOS, <strong>Badoo</strong> is unambiguously owning Tinder's search voice — it ranks for all four identified gap terms, including the highest-KEI term (video chat) and the highest-relevancy term (date singles). Therefore, Tinder's metadata strategy must specifically counter Badoo's breadth by targeting the same high-KEI, high-relevancy terms rather than exploring niche long-tail territory."
   },
 

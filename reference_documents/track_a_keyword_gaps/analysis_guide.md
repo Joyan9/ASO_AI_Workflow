@@ -56,12 +56,11 @@ Terminology:
 Render the summary scorecards (e.g., Total Gaps, Critical Threats, Avg KEI) and a 2–3 sentence Executive Summary in a **two-column layout** within the same section. The summary should state only the dominant gap theme and the single most urgent implication — no sub-bullets, no lists.
 
 ### 3. Recommendations & Benchmark Guardrails
-**Exactly 5 Recommendations (Strict Format):**
+**Exactly 4 Recommendations (Strict Format):**
 1. **The Core Parity Gap** — Where all primary competitors rank < 20.
 2. **The High-Volume Power Play** — High installs, moderate chance, high brand relevance.
 3. **The Quick Win** — High Chance > 70, Low Difficulty, Top competitor ranks highly.
-4. **Long-Tail Semantic Expansion** — 3+ word phrases like "dating for professionals".
-5. **iOS / Android Metadata Optimisation** — iOS: hidden 100-char keyword field. Android: Short Description.
+4. **iOS / Android Metadata Optimisation** — iOS: hidden 100-char keyword field. Android: Short Description.
 
 *Each recommendation must follow this exact structure:*
 - **Headline:** Action-oriented, one line.

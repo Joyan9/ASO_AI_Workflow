@@ -46,7 +46,7 @@ Generate a single self-contained HTML report with embedded data and Chart.js. In
 - Executive summary (2-3 sentences): Dominant gap theme + single most urgent implication
 - Layout: Two-column (scorecards left, prose right)
 
-### Section 3: Exactly 5 Recommendations
+### Section 3: Exactly 4 Recommendations
 
 Format for each:
 - **Headline:** Action-oriented, one line
@@ -57,8 +57,7 @@ Recommendation types:
 1. **The Core Parity Gap** — All primary competitors rank < 20
 2. **The High-Volume Power Play** — High installs, moderate chance, high brand relevance
 3. **The Quick Win** — Chance > 70, low difficulty, top competitor ranks highly
-4. **Long-Tail Semantic Expansion** — 3+ word phrases (e.g., "dating for professionals")
-5. **iOS / Android Metadata Optimization** — iOS: 100-char keyword field; Android: Short Description
+4. **iOS / Android Metadata Optimization** — iOS: 100-char keyword field; Android: Short Description
 
 **Rules:**
 - All 5 cards use same style and color (no color-coding per recommendation)

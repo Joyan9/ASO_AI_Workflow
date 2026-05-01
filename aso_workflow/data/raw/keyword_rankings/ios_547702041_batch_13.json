@@ -1,586 +1,586 @@
 {
   "result": {
     "547702041": {
-      "forums": {
+      "love tips online": {
         "rank": {
           "value": null,
-          "date": "2026-04-10",
+          "date": "2026-05-01",
           "effective_value": 501,
           "fetch_performed": true
         },
         "relevancy": {
-          "value": 38,
-          "date": "2026-04-10",
-          "effective_value": 38
+          "value": 62,
+          "date": "2026-05-01",
+          "effective_value": 62
         },
         "kei": {
           "value": 22,
-          "date": "2026-04-10",
+          "date": "2026-05-01",
           "effective_value": 22
         },
         "chance": {
           "value": 73,
-          "date": "2026-04-10",
+          "date": "2026-05-01",
           "effective_value": 73
         }
       },
-      "discussions": {
+      "online love advice": {
         "rank": {
           "value": null,
-          "date": "2026-04-09",
+          "date": "2026-05-01",
           "effective_value": 501,
           "fetch_performed": true
         },
         "relevancy": {
-          "value": 54,
-          "date": "2026-04-10",
-          "effective_value": 54
-        },
-        "kei": {
-          "value": 15,
-          "date": "2026-04-10",
-          "effective_value": 15
-        },
-        "chance": {
-          "value": 73,
-          "date": "2026-04-10",
-          "effective_value": 73
-        }
-      },
-      "community guidelines": {
-        "rank": {
-          "value": null,
-          "date": "2026-04-10",
-          "effective_value": 501,
-          "fetch_performed": true
-        },
-        "relevancy": {
-          "value": 3,
-          "date": "2026-04-10",
-          "effective_value": 3
-        },
-        "kei": {
-          "value": 15,
-          "date": "2026-04-10",
-          "effective_value": 15
-        },
-        "chance": {
-          "value": 73,
-          "date": "2026-04-10",
-          "effective_value": 73
-        }
-      },
-      "terms of service": {
-        "rank": {
-          "value": null,
-          "date": "2026-04-10",
-          "effective_value": 501,
-          "fetch_performed": true
-        },
-        "relevancy": {
-          "value": 0,
-          "date": "2026-04-10",
-          "effective_value": 0
+          "value": 61,
+          "date": "2026-05-01",
+          "effective_value": 61
         },
         "kei": {
           "value": 22,
-          "date": "2026-04-10",
+          "date": "2026-05-01",
           "effective_value": 22
         },
         "chance": {
           "value": 73,
-          "date": "2026-04-10",
+          "date": "2026-05-01",
           "effective_value": 73
         }
       },
-      "privacy policy": {
+      "find partner online": {
         "rank": {
-          "value": null,
-          "date": "2026-04-10",
-          "effective_value": 501,
+          "value": 65,
+          "date": "2026-04-28",
+          "effective_value": 65,
           "fetch_performed": true
         },
         "relevancy": {
-          "value": 18,
-          "date": "2026-04-10",
-          "effective_value": 18
+          "value": 97,
+          "date": "2026-05-01",
+          "effective_value": 97
         },
         "kei": {
           "value": 22,
-          "date": "2026-04-10",
+          "date": "2026-05-01",
           "effective_value": 22
         },
         "chance": {
           "value": 73,
-          "date": "2026-04-10",
+          "date": "2026-05-01",
+          "effective_value": 73
+        }
+      },
+      "online partner search": {
+        "rank": {
+          "value": null,
+          "date": "2026-05-01",
+          "effective_value": 501,
+          "fetch_performed": true
+        },
+        "relevancy": {
+          "value": 94,
+          "date": "2026-05-01",
+          "effective_value": 94
+        },
+        "kei": {
+          "value": 22,
+          "date": "2026-05-01",
+          "effective_value": 22
+        },
+        "chance": {
+          "value": 73,
+          "date": "2026-05-01",
+          "effective_value": 73
+        }
+      },
+      "soulmate online": {
+        "rank": {
+          "value": 113,
+          "date": "2026-05-01",
+          "effective_value": 113,
+          "fetch_performed": true
+        },
+        "relevancy": {
+          "value": 84,
+          "date": "2026-05-01",
+          "effective_value": 84
+        },
+        "kei": {
+          "value": 22,
+          "date": "2026-05-01",
+          "effective_value": 22
+        },
+        "chance": {
+          "value": 73,
+          "date": "2026-05-01",
           "effective_value": 73
         }
       }
     },
     "351331194": {
-      "forums": {
+      "love tips online": {
         "rank": {
           "value": null,
-          "date": "2026-04-10",
+          "date": "2026-05-01",
           "effective_value": 501,
           "fetch_performed": true
         },
         "relevancy": {
-          "value": 39,
-          "date": "2026-04-10",
-          "effective_value": 39
-        },
-        "kei": {
-          "value": 21,
-          "date": "2026-04-10",
-          "effective_value": 21
-        },
-        "chance": {
-          "value": 71,
-          "date": "2026-04-10",
-          "effective_value": 71
-        }
-      },
-      "discussions": {
-        "rank": {
-          "value": null,
-          "date": "2026-04-09",
-          "effective_value": 501,
-          "fetch_performed": true
-        },
-        "relevancy": {
-          "value": 57,
-          "date": "2026-04-10",
-          "effective_value": 57
-        },
-        "kei": {
-          "value": 15,
-          "date": "2026-04-10",
-          "effective_value": 15
-        },
-        "chance": {
-          "value": 73,
-          "date": "2026-04-10",
-          "effective_value": 73
-        }
-      },
-      "community guidelines": {
-        "rank": {
-          "value": null,
-          "date": "2026-04-10",
-          "effective_value": 501,
-          "fetch_performed": true
-        },
-        "relevancy": {
-          "value": 3,
-          "date": "2026-04-10",
-          "effective_value": 3
-        },
-        "kei": {
-          "value": 15,
-          "date": "2026-04-10",
-          "effective_value": 15
-        },
-        "chance": {
-          "value": 73,
-          "date": "2026-04-10",
-          "effective_value": 73
-        }
-      },
-      "terms of service": {
-        "rank": {
-          "value": null,
-          "date": "2026-04-10",
-          "effective_value": 501,
-          "fetch_performed": true
-        },
-        "relevancy": {
-          "value": 0,
-          "date": "2026-04-10",
-          "effective_value": 0
+          "value": 62,
+          "date": "2026-05-01",
+          "effective_value": 62
         },
         "kei": {
           "value": 22,
-          "date": "2026-04-10",
+          "date": "2026-05-01",
           "effective_value": 22
         },
         "chance": {
           "value": 73,
-          "date": "2026-04-10",
+          "date": "2026-05-01",
           "effective_value": 73
         }
       },
-      "privacy policy": {
+      "online love advice": {
         "rank": {
           "value": null,
-          "date": "2026-04-10",
+          "date": "2026-05-01",
           "effective_value": 501,
           "fetch_performed": true
         },
         "relevancy": {
-          "value": 19,
-          "date": "2026-04-10",
-          "effective_value": 19
+          "value": 62,
+          "date": "2026-05-01",
+          "effective_value": 62
         },
         "kei": {
           "value": 22,
-          "date": "2026-04-10",
+          "date": "2026-05-01",
           "effective_value": 22
         },
         "chance": {
           "value": 73,
-          "date": "2026-04-10",
+          "date": "2026-05-01",
           "effective_value": 73
+        }
+      },
+      "find partner online": {
+        "rank": {
+          "value": 12,
+          "date": "2026-04-28",
+          "effective_value": 12,
+          "fetch_performed": true
+        },
+        "relevancy": {
+          "value": 97,
+          "date": "2026-05-01",
+          "effective_value": 97
+        },
+        "kei": {
+          "value": 22,
+          "date": "2026-05-01",
+          "effective_value": 22
+        },
+        "chance": {
+          "value": 73,
+          "date": "2026-05-01",
+          "effective_value": 73
+        }
+      },
+      "online partner search": {
+        "rank": {
+          "value": null,
+          "date": "2026-05-01",
+          "effective_value": 501,
+          "fetch_performed": true
+        },
+        "relevancy": {
+          "value": 95,
+          "date": "2026-05-01",
+          "effective_value": 95
+        },
+        "kei": {
+          "value": 22,
+          "date": "2026-05-01",
+          "effective_value": 22
+        },
+        "chance": {
+          "value": 73,
+          "date": "2026-05-01",
+          "effective_value": 73
+        }
+      },
+      "soulmate online": {
+        "rank": {
+          "value": 10,
+          "date": "2026-05-01",
+          "effective_value": 10,
+          "fetch_performed": true
+        },
+        "relevancy": {
+          "value": 85,
+          "date": "2026-05-01",
+          "effective_value": 85
+        },
+        "kei": {
+          "value": 22,
+          "date": "2026-05-01",
+          "effective_value": 22
+        },
+        "chance": {
+          "value": 74,
+          "date": "2026-05-01",
+          "effective_value": 74
         }
       }
     },
-    "930441707": {
-      "forums": {
+    "489185828": {
+      "love tips online": {
         "rank": {
           "value": null,
-          "date": "2026-04-10",
+          "date": "2026-05-01",
           "effective_value": 501,
           "fetch_performed": true
         },
         "relevancy": {
-          "value": 33,
-          "date": "2026-04-10",
-          "effective_value": 33
+          "value": 72,
+          "date": "2026-05-01",
+          "effective_value": 72
         },
         "kei": {
-          "value": 22,
-          "date": "2026-04-10",
-          "effective_value": 22
+          "value": 18,
+          "date": "2026-05-01",
+          "effective_value": 18
         },
         "chance": {
-          "value": 73,
-          "date": "2026-04-10",
-          "effective_value": 73
+          "value": 59,
+          "date": "2026-05-01",
+          "effective_value": 59
         }
       },
-      "discussions": {
+      "online love advice": {
         "rank": {
           "value": null,
-          "date": "2026-04-09",
+          "date": "2026-05-01",
           "effective_value": 501,
           "fetch_performed": true
         },
         "relevancy": {
-          "value": 53,
-          "date": "2026-04-10",
-          "effective_value": 53
+          "value": 71,
+          "date": "2026-05-01",
+          "effective_value": 71
         },
         "kei": {
-          "value": 15,
-          "date": "2026-04-10",
-          "effective_value": 15
+          "value": 17,
+          "date": "2026-05-01",
+          "effective_value": 17
         },
         "chance": {
-          "value": 73,
-          "date": "2026-04-10",
-          "effective_value": 73
+          "value": 55,
+          "date": "2026-05-01",
+          "effective_value": 55
         }
       },
-      "community guidelines": {
+      "find partner online": {
         "rank": {
           "value": null,
-          "date": "2026-04-10",
+          "date": "2026-04-28",
           "effective_value": 501,
           "fetch_performed": true
         },
         "relevancy": {
-          "value": 1,
-          "date": "2026-04-10",
-          "effective_value": 1
+          "value": 99,
+          "date": "2026-05-01",
+          "effective_value": 99
         },
         "kei": {
-          "value": 15,
-          "date": "2026-04-10",
-          "effective_value": 15
+          "value": 11,
+          "date": "2026-05-01",
+          "effective_value": 11
         },
         "chance": {
-          "value": 73,
-          "date": "2026-04-10",
-          "effective_value": 73
+          "value": 37,
+          "date": "2026-05-01",
+          "effective_value": 37
         }
       },
-      "terms of service": {
+      "online partner search": {
         "rank": {
           "value": null,
-          "date": "2026-04-10",
+          "date": "2026-05-01",
           "effective_value": 501,
           "fetch_performed": true
         },
         "relevancy": {
-          "value": 0,
-          "date": "2026-04-10",
-          "effective_value": 0
+          "value": 97,
+          "date": "2026-05-01",
+          "effective_value": 97
         },
         "kei": {
-          "value": 22,
-          "date": "2026-04-10",
-          "effective_value": 22
+          "value": 17,
+          "date": "2026-05-01",
+          "effective_value": 17
         },
         "chance": {
-          "value": 73,
-          "date": "2026-04-10",
-          "effective_value": 73
+          "value": 58,
+          "date": "2026-05-01",
+          "effective_value": 58
         }
       },
-      "privacy policy": {
+      "soulmate online": {
         "rank": {
           "value": null,
-          "date": "2026-04-10",
+          "date": "2026-05-01",
           "effective_value": 501,
           "fetch_performed": true
         },
         "relevancy": {
-          "value": 15,
-          "date": "2026-04-10",
-          "effective_value": 15
+          "value": 89,
+          "date": "2026-05-01",
+          "effective_value": 89
         },
         "kei": {
-          "value": 22,
-          "date": "2026-04-10",
-          "effective_value": 22
+          "value": 14,
+          "date": "2026-05-01",
+          "effective_value": 14
         },
         "chance": {
-          "value": 73,
-          "date": "2026-04-10",
-          "effective_value": 73
+          "value": 48,
+          "date": "2026-05-01",
+          "effective_value": 48
         }
       }
     },
     "338701294": {
-      "forums": {
+      "love tips online": {
         "rank": {
           "value": null,
-          "date": "2026-04-10",
+          "date": "2026-05-01",
           "effective_value": 501,
           "fetch_performed": true
         },
         "relevancy": {
-          "value": 50,
-          "date": "2026-04-10",
-          "effective_value": 50
-        },
-        "kei": {
-          "value": 20,
-          "date": "2026-04-10",
-          "effective_value": 20
-        },
-        "chance": {
-          "value": 66,
-          "date": "2026-04-10",
-          "effective_value": 66
-        }
-      },
-      "discussions": {
-        "rank": {
-          "value": null,
-          "date": "2026-04-09",
-          "effective_value": 501,
-          "fetch_performed": true
-        },
-        "relevancy": {
-          "value": 68,
-          "date": "2026-04-10",
-          "effective_value": 68
-        },
-        "kei": {
-          "value": 15,
-          "date": "2026-04-10",
-          "effective_value": 15
-        },
-        "chance": {
-          "value": 71,
-          "date": "2026-04-10",
-          "effective_value": 71
-        }
-      },
-      "community guidelines": {
-        "rank": {
-          "value": null,
-          "date": "2026-04-10",
-          "effective_value": 501,
-          "fetch_performed": true
-        },
-        "relevancy": {
-          "value": 14,
-          "date": "2026-04-10",
-          "effective_value": 14
-        },
-        "kei": {
-          "value": 15,
-          "date": "2026-04-10",
-          "effective_value": 15
-        },
-        "chance": {
-          "value": 73,
-          "date": "2026-04-10",
-          "effective_value": 73
-        }
-      },
-      "terms of service": {
-        "rank": {
-          "value": null,
-          "date": "2026-04-10",
-          "effective_value": 501,
-          "fetch_performed": true
-        },
-        "relevancy": {
-          "value": 10,
-          "date": "2026-04-10",
-          "effective_value": 10
+          "value": 74,
+          "date": "2026-05-01",
+          "effective_value": 74
         },
         "kei": {
           "value": 22,
-          "date": "2026-04-10",
+          "date": "2026-05-01",
           "effective_value": 22
         },
         "chance": {
           "value": 73,
-          "date": "2026-04-10",
+          "date": "2026-05-01",
           "effective_value": 73
         }
       },
-      "privacy policy": {
+      "online love advice": {
         "rank": {
           "value": null,
-          "date": "2026-04-10",
+          "date": "2026-05-01",
           "effective_value": 501,
           "fetch_performed": true
         },
         "relevancy": {
-          "value": 16,
-          "date": "2026-04-10",
-          "effective_value": 16
+          "value": 74,
+          "date": "2026-05-01",
+          "effective_value": 74
         },
         "kei": {
           "value": 22,
-          "date": "2026-04-10",
+          "date": "2026-05-01",
           "effective_value": 22
         },
         "chance": {
           "value": 73,
-          "date": "2026-04-10",
+          "date": "2026-05-01",
           "effective_value": 73
+        }
+      },
+      "find partner online": {
+        "rank": {
+          "value": 3,
+          "date": "2026-04-28",
+          "effective_value": 3,
+          "fetch_performed": true
+        },
+        "relevancy": {
+          "value": 98,
+          "date": "2026-05-01",
+          "effective_value": 98
+        },
+        "kei": {
+          "value": 17,
+          "date": "2026-05-01",
+          "effective_value": 17
+        },
+        "chance": {
+          "value": 58,
+          "date": "2026-05-01",
+          "effective_value": 58
+        }
+      },
+      "online partner search": {
+        "rank": {
+          "value": null,
+          "date": "2026-05-01",
+          "effective_value": 501,
+          "fetch_performed": true
+        },
+        "relevancy": {
+          "value": 96,
+          "date": "2026-05-01",
+          "effective_value": 96
+        },
+        "kei": {
+          "value": 22,
+          "date": "2026-05-01",
+          "effective_value": 22
+        },
+        "chance": {
+          "value": 73,
+          "date": "2026-05-01",
+          "effective_value": 73
+        }
+      },
+      "soulmate online": {
+        "rank": {
+          "value": null,
+          "date": "2026-05-01",
+          "effective_value": 501,
+          "fetch_performed": true
+        },
+        "relevancy": {
+          "value": 90,
+          "date": "2026-05-01",
+          "effective_value": 90
+        },
+        "kei": {
+          "value": 21,
+          "date": "2026-05-01",
+          "effective_value": 21
+        },
+        "chance": {
+          "value": 69,
+          "date": "2026-05-01",
+          "effective_value": 69
         }
       }
     },
-    "595287172": {
-      "forums": {
+    "601174087": {
+      "love tips online": {
         "rank": {
           "value": null,
-          "date": "2026-04-10",
+          "date": "2026-05-01",
           "effective_value": 501,
           "fetch_performed": true
         },
         "relevancy": {
-          "value": 45,
-          "date": "2026-04-10",
-          "effective_value": 45
+          "value": 71,
+          "date": "2026-05-01",
+          "effective_value": 71
         },
         "kei": {
           "value": 22,
-          "date": "2026-04-10",
+          "date": "2026-05-01",
           "effective_value": 22
         },
         "chance": {
           "value": 73,
-          "date": "2026-04-10",
+          "date": "2026-05-01",
           "effective_value": 73
         }
       },
-      "discussions": {
+      "online love advice": {
         "rank": {
           "value": null,
-          "date": "2026-04-09",
+          "date": "2026-05-01",
           "effective_value": 501,
           "fetch_performed": true
         },
         "relevancy": {
-          "value": 60,
-          "date": "2026-04-10",
-          "effective_value": 60
-        },
-        "kei": {
-          "value": 15,
-          "date": "2026-04-10",
-          "effective_value": 15
-        },
-        "chance": {
-          "value": 73,
-          "date": "2026-04-10",
-          "effective_value": 73
-        }
-      },
-      "community guidelines": {
-        "rank": {
-          "value": null,
-          "date": "2026-04-10",
-          "effective_value": 501,
-          "fetch_performed": true
-        },
-        "relevancy": {
-          "value": 11,
-          "date": "2026-04-10",
-          "effective_value": 11
-        },
-        "kei": {
-          "value": 15,
-          "date": "2026-04-10",
-          "effective_value": 15
-        },
-        "chance": {
-          "value": 73,
-          "date": "2026-04-10",
-          "effective_value": 73
-        }
-      },
-      "terms of service": {
-        "rank": {
-          "value": null,
-          "date": "2026-04-10",
-          "effective_value": 501,
-          "fetch_performed": true
-        },
-        "relevancy": {
-          "value": 4,
-          "date": "2026-04-10",
-          "effective_value": 4
+          "value": 70,
+          "date": "2026-05-01",
+          "effective_value": 70
         },
         "kei": {
           "value": 22,
-          "date": "2026-04-10",
+          "date": "2026-05-01",
           "effective_value": 22
         },
         "chance": {
           "value": 73,
-          "date": "2026-04-10",
+          "date": "2026-05-01",
           "effective_value": 73
         }
       },
-      "privacy policy": {
+      "find partner online": {
         "rank": {
           "value": null,
-          "date": "2026-04-10",
+          "date": "2026-04-28",
           "effective_value": 501,
           "fetch_performed": true
         },
         "relevancy": {
-          "value": 13,
-          "date": "2026-04-10",
-          "effective_value": 13
+          "value": 98,
+          "date": "2026-05-01",
+          "effective_value": 98
         },
         "kei": {
           "value": 22,
-          "date": "2026-04-10",
+          "date": "2026-05-01",
           "effective_value": 22
         },
         "chance": {
           "value": 73,
-          "date": "2026-04-10",
+          "date": "2026-05-01",
+          "effective_value": 73
+        }
+      },
+      "online partner search": {
+        "rank": {
+          "value": null,
+          "date": "2026-05-01",
+          "effective_value": 501,
+          "fetch_performed": true
+        },
+        "relevancy": {
+          "value": 96,
+          "date": "2026-05-01",
+          "effective_value": 96
+        },
+        "kei": {
+          "value": 22,
+          "date": "2026-05-01",
+          "effective_value": 22
+        },
+        "chance": {
+          "value": 73,
+          "date": "2026-05-01",
+          "effective_value": 73
+        }
+      },
+      "soulmate online": {
+        "rank": {
+          "value": null,
+          "date": "2026-05-01",
+          "effective_value": 501,
+          "fetch_performed": true
+        },
+        "relevancy": {
+          "value": 89,
+          "date": "2026-05-01",
+          "effective_value": 89
+        },
+        "kei": {
+          "value": 22,
+          "date": "2026-05-01",
+          "effective_value": 22
+        },
+        "chance": {
+          "value": 73,
+          "date": "2026-05-01",
           "effective_value": 73
         }
       }
@@ -596,9 +596,9 @@
         "apps": [
           "547702041",
           "351331194",
-          "930441707",
+          "489185828",
           "338701294",
-          "595287172"
+          "601174087"
         ],
         "metrics": [
           "rank",
@@ -607,11 +607,11 @@
           "chance"
         ],
         "keywords": [
-          "forums",
-          "discussions",
-          "community guidelines",
-          "terms of service",
-          "privacy policy"
+          "love tips online",
+          "online love advice",
+          "find partner online",
+          "online partner search",
+          "soulmate online"
         ]
       },
       "cost": 1001,

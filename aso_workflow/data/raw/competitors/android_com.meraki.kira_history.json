@@ -1,0 +1,55 @@
+{
+  "result": {
+    "com.meraki.kira": {
+      "changes": [
+        {
+          "target": "version",
+          "old_value": "1.0.13",
+          "new_value": "1.0.17",
+          "old_release_notes": "fix bugs",
+          "new_release_notes": null,
+          "version": "1.0.17",
+          "is_ab_test": null,
+          "date": "2026-04-15"
+        },
+        {
+          "target": "version",
+          "old_value": "1.0.17",
+          "new_value": "1.0.18",
+          "old_release_notes": null,
+          "new_release_notes": "fix bug",
+          "version": "1.0.18",
+          "is_ab_test": null,
+          "date": "2026-04-23"
+        },
+        {
+          "target": "size",
+          "old_value": 29493110,
+          "new_value": 29847434,
+          "version": "1.0.18",
+          "is_ab_test": null,
+          "date": "2026-04-23"
+        }
+      ]
+    }
+  },
+  "metadata": {
+    "request": {
+      "path": "/api/public/store/apps/metadata/changes.json",
+      "params": {
+        "device": "android",
+        "country": "us",
+        "language": "us",
+        "start_date": "2026-01-31",
+        "end_date": "2026-05-01",
+        "apps": [
+          "com.meraki.kira"
+        ]
+      },
+      "cost": 101,
+      "max_credit_cost": 101,
+      "status": 200
+    },
+    "response": null
+  }
+}

@@ -1,586 +1,586 @@
 {
   "result": {
     "com.tinder": {
-      "service": {
+      "emotional intelligence": {
         "rank": {
           "value": null,
-          "date": "2026-04-10",
+          "date": "2026-05-01",
           "effective_value": 501,
           "fetch_performed": true
         },
         "relevancy": {
-          "value": 9,
-          "date": "2026-04-10",
-          "effective_value": 9
-        },
-        "kei": {
-          "value": 49,
-          "date": "2026-04-10",
-          "effective_value": 49
-        },
-        "chance": {
-          "value": 73,
-          "date": "2026-04-10",
-          "effective_value": 73
-        }
-      },
-      "meaningful connections": {
-        "rank": {
-          "value": null,
-          "date": "2026-04-10",
-          "effective_value": 501,
-          "fetch_performed": true
-        },
-        "relevancy": {
-          "value": 66,
-          "date": "2026-04-10",
-          "effective_value": 66
+          "value": 29,
+          "date": "2026-05-01",
+          "effective_value": 29
         },
         "kei": {
           "value": 22,
-          "date": "2026-04-10",
+          "date": "2026-05-01",
           "effective_value": 22
         },
         "chance": {
           "value": 73,
-          "date": "2026-04-10",
+          "date": "2026-05-01",
           "effective_value": 73
         }
       },
-      "terms service": {
+      "boundaries": {
         "rank": {
           "value": null,
-          "date": "2026-04-10",
-          "effective_value": 501,
-          "fetch_performed": true
-        },
-        "relevancy": {
-          "value": 23,
-          "date": "2026-04-10",
-          "effective_value": 23
-        },
-        "kei": {
-          "value": 21,
-          "date": "2026-04-10",
-          "effective_value": 21
-        },
-        "chance": {
-          "value": 70,
-          "date": "2026-04-10",
-          "effective_value": 70
-        }
-      },
-      "policy https": {
-        "rank": {
-          "value": null,
-          "date": "2026-04-10",
-          "effective_value": 501,
-          "fetch_performed": true
-        },
-        "relevancy": {
-          "value": 37,
-          "date": "2026-04-10",
-          "effective_value": 37
-        },
-        "kei": {
-          "value": 22,
-          "date": "2026-04-10",
-          "effective_value": 22
-        },
-        "chance": {
-          "value": 73,
-          "date": "2026-04-10",
-          "effective_value": 73
-        }
-      },
-      "privacy policy https": {
-        "rank": {
-          "value": null,
-          "date": "2026-04-10",
-          "effective_value": 501,
-          "fetch_performed": true
-        },
-        "relevancy": {
-          "value": 34,
-          "date": "2026-04-10",
-          "effective_value": 34
-        },
-        "kei": {
-          "value": 22,
-          "date": "2026-04-10",
-          "effective_value": 22
-        },
-        "chance": {
-          "value": 73,
-          "date": "2026-04-10",
-          "effective_value": 73
-        }
-      }
-    },
-    "co.hinge.app": {
-      "service": {
-        "rank": {
-          "value": null,
-          "date": "2026-04-10",
-          "effective_value": 501,
-          "fetch_performed": true
-        },
-        "relevancy": {
-          "value": 11,
-          "date": "2026-04-10",
-          "effective_value": 11
-        },
-        "kei": {
-          "value": 49,
-          "date": "2026-04-10",
-          "effective_value": 49
-        },
-        "chance": {
-          "value": 73,
-          "date": "2026-04-10",
-          "effective_value": 73
-        }
-      },
-      "meaningful connections": {
-        "rank": {
-          "value": 15,
-          "date": "2026-04-10",
-          "effective_value": 15,
-          "fetch_performed": true
-        },
-        "relevancy": {
-          "value": 68,
-          "date": "2026-04-10",
-          "effective_value": 68
-        },
-        "kei": {
-          "value": 22,
-          "date": "2026-04-10",
-          "effective_value": 22
-        },
-        "chance": {
-          "value": 73,
-          "date": "2026-04-10",
-          "effective_value": 73
-        }
-      },
-      "terms service": {
-        "rank": {
-          "value": null,
-          "date": "2026-04-10",
-          "effective_value": 501,
-          "fetch_performed": true
-        },
-        "relevancy": {
-          "value": 31,
-          "date": "2026-04-10",
-          "effective_value": 31
-        },
-        "kei": {
-          "value": 20,
-          "date": "2026-04-10",
-          "effective_value": 20
-        },
-        "chance": {
-          "value": 67,
-          "date": "2026-04-10",
-          "effective_value": 67
-        }
-      },
-      "policy https": {
-        "rank": {
-          "value": null,
-          "date": "2026-04-10",
-          "effective_value": 501,
-          "fetch_performed": true
-        },
-        "relevancy": {
-          "value": 27,
-          "date": "2026-04-10",
-          "effective_value": 27
-        },
-        "kei": {
-          "value": 22,
-          "date": "2026-04-10",
-          "effective_value": 22
-        },
-        "chance": {
-          "value": 73,
-          "date": "2026-04-10",
-          "effective_value": 73
-        }
-      },
-      "privacy policy https": {
-        "rank": {
-          "value": null,
-          "date": "2026-04-10",
-          "effective_value": 501,
-          "fetch_performed": true
-        },
-        "relevancy": {
-          "value": 22,
-          "date": "2026-04-10",
-          "effective_value": 22
-        },
-        "kei": {
-          "value": 22,
-          "date": "2026-04-10",
-          "effective_value": 22
-        },
-        "chance": {
-          "value": 73,
-          "date": "2026-04-10",
-          "effective_value": 73
-        }
-      }
-    },
-    "com.doni.appa": {
-      "service": {
-        "rank": {
-          "value": null,
-          "date": "2026-04-10",
-          "effective_value": 501,
-          "fetch_performed": true
-        },
-        "relevancy": {
-          "value": 13,
-          "date": "2026-04-10",
-          "effective_value": 13
-        },
-        "kei": {
-          "value": 49,
-          "date": "2026-04-10",
-          "effective_value": 49
-        },
-        "chance": {
-          "value": 73,
-          "date": "2026-04-10",
-          "effective_value": 73
-        }
-      },
-      "meaningful connections": {
-        "rank": {
-          "value": null,
-          "date": "2026-04-10",
-          "effective_value": 501,
-          "fetch_performed": true
-        },
-        "relevancy": {
-          "value": 71,
-          "date": "2026-04-10",
-          "effective_value": 71
-        },
-        "kei": {
-          "value": 22,
-          "date": "2026-04-10",
-          "effective_value": 22
-        },
-        "chance": {
-          "value": 73,
-          "date": "2026-04-10",
-          "effective_value": 73
-        }
-      },
-      "terms service": {
-        "rank": {
-          "value": null,
-          "date": "2026-04-10",
+          "date": "2026-05-01",
           "effective_value": 501,
           "fetch_performed": true
         },
         "relevancy": {
           "value": 40,
-          "date": "2026-04-10",
+          "date": "2026-05-01",
           "effective_value": 40
         },
         "kei": {
-          "value": 18,
-          "date": "2026-04-10",
-          "effective_value": 18
+          "value": 22,
+          "date": "2026-05-01",
+          "effective_value": 22
         },
         "chance": {
-          "value": 59,
-          "date": "2026-04-10",
-          "effective_value": 59
+          "value": 73,
+          "date": "2026-05-01",
+          "effective_value": 73
         }
       },
-      "policy https": {
+      "consent": {
         "rank": {
           "value": null,
-          "date": "2026-04-10",
+          "date": "2026-05-01",
+          "effective_value": 501,
+          "fetch_performed": true
+        },
+        "relevancy": {
+          "value": 46,
+          "date": "2026-05-01",
+          "effective_value": 46
+        },
+        "kei": {
+          "value": 22,
+          "date": "2026-05-01",
+          "effective_value": 22
+        },
+        "chance": {
+          "value": 73,
+          "date": "2026-05-01",
+          "effective_value": 73
+        }
+      },
+      "respect": {
+        "rank": {
+          "value": null,
+          "date": "2026-05-01",
           "effective_value": 501,
           "fetch_performed": true
         },
         "relevancy": {
           "value": 48,
-          "date": "2026-04-10",
+          "date": "2026-05-01",
           "effective_value": 48
         },
         "kei": {
-          "value": 20,
-          "date": "2026-04-10",
-          "effective_value": 20
-        },
-        "chance": {
-          "value": 67,
-          "date": "2026-04-10",
-          "effective_value": 67
-        }
-      },
-      "privacy policy https": {
-        "rank": {
-          "value": null,
-          "date": "2026-04-10",
-          "effective_value": 501,
-          "fetch_performed": true
-        },
-        "relevancy": {
-          "value": 34,
-          "date": "2026-04-10",
-          "effective_value": 34
-        },
-        "kei": {
           "value": 22,
-          "date": "2026-04-10",
+          "date": "2026-05-01",
           "effective_value": 22
         },
         "chance": {
           "value": 73,
-          "date": "2026-04-10",
+          "date": "2026-05-01",
+          "effective_value": 73
+        }
+      },
+      "kindness": {
+        "rank": {
+          "value": null,
+          "date": "2026-05-01",
+          "effective_value": 501,
+          "fetch_performed": true
+        },
+        "relevancy": {
+          "value": 36,
+          "date": "2026-05-01",
+          "effective_value": 36
+        },
+        "kei": {
+          "value": 22,
+          "date": "2026-05-01",
+          "effective_value": 22
+        },
+        "chance": {
+          "value": 73,
+          "date": "2026-05-01",
+          "effective_value": 73
+        }
+      }
+    },
+    "co.hinge.app": {
+      "emotional intelligence": {
+        "rank": {
+          "value": null,
+          "date": "2026-05-01",
+          "effective_value": 501,
+          "fetch_performed": true
+        },
+        "relevancy": {
+          "value": 43,
+          "date": "2026-05-01",
+          "effective_value": 43
+        },
+        "kei": {
+          "value": 22,
+          "date": "2026-05-01",
+          "effective_value": 22
+        },
+        "chance": {
+          "value": 73,
+          "date": "2026-05-01",
+          "effective_value": 73
+        }
+      },
+      "boundaries": {
+        "rank": {
+          "value": null,
+          "date": "2026-05-01",
+          "effective_value": 501,
+          "fetch_performed": true
+        },
+        "relevancy": {
+          "value": 57,
+          "date": "2026-05-01",
+          "effective_value": 57
+        },
+        "kei": {
+          "value": 22,
+          "date": "2026-05-01",
+          "effective_value": 22
+        },
+        "chance": {
+          "value": 73,
+          "date": "2026-05-01",
+          "effective_value": 73
+        }
+      },
+      "consent": {
+        "rank": {
+          "value": null,
+          "date": "2026-05-01",
+          "effective_value": 501,
+          "fetch_performed": true
+        },
+        "relevancy": {
+          "value": 55,
+          "date": "2026-05-01",
+          "effective_value": 55
+        },
+        "kei": {
+          "value": 22,
+          "date": "2026-05-01",
+          "effective_value": 22
+        },
+        "chance": {
+          "value": 73,
+          "date": "2026-05-01",
+          "effective_value": 73
+        }
+      },
+      "respect": {
+        "rank": {
+          "value": null,
+          "date": "2026-05-01",
+          "effective_value": 501,
+          "fetch_performed": true
+        },
+        "relevancy": {
+          "value": 60,
+          "date": "2026-05-01",
+          "effective_value": 60
+        },
+        "kei": {
+          "value": 22,
+          "date": "2026-05-01",
+          "effective_value": 22
+        },
+        "chance": {
+          "value": 73,
+          "date": "2026-05-01",
+          "effective_value": 73
+        }
+      },
+      "kindness": {
+        "rank": {
+          "value": null,
+          "date": "2026-05-01",
+          "effective_value": 501,
+          "fetch_performed": true
+        },
+        "relevancy": {
+          "value": 55,
+          "date": "2026-05-01",
+          "effective_value": 55
+        },
+        "kei": {
+          "value": 22,
+          "date": "2026-05-01",
+          "effective_value": 22
+        },
+        "chance": {
+          "value": 73,
+          "date": "2026-05-01",
           "effective_value": 73
         }
       }
     },
     "com.bumble.app": {
-      "service": {
+      "emotional intelligence": {
         "rank": {
           "value": null,
-          "date": "2026-04-10",
-          "effective_value": 501,
-          "fetch_performed": true
-        },
-        "relevancy": {
-          "value": 6,
-          "date": "2026-04-10",
-          "effective_value": 6
-        },
-        "kei": {
-          "value": 49,
-          "date": "2026-04-10",
-          "effective_value": 49
-        },
-        "chance": {
-          "value": 73,
-          "date": "2026-04-10",
-          "effective_value": 73
-        }
-      },
-      "meaningful connections": {
-        "rank": {
-          "value": 9,
-          "date": "2026-04-10",
-          "effective_value": 9,
-          "fetch_performed": true
-        },
-        "relevancy": {
-          "value": 70,
-          "date": "2026-04-10",
-          "effective_value": 70
-        },
-        "kei": {
-          "value": 23,
-          "date": "2026-04-10",
-          "effective_value": 23
-        },
-        "chance": {
-          "value": 76,
-          "date": "2026-04-10",
-          "effective_value": 76
-        }
-      },
-      "terms service": {
-        "rank": {
-          "value": null,
-          "date": "2026-04-10",
-          "effective_value": 501,
-          "fetch_performed": true
-        },
-        "relevancy": {
-          "value": 17,
-          "date": "2026-04-10",
-          "effective_value": 17
-        },
-        "kei": {
-          "value": 19,
-          "date": "2026-04-10",
-          "effective_value": 19
-        },
-        "chance": {
-          "value": 62,
-          "date": "2026-04-10",
-          "effective_value": 62
-        }
-      },
-      "policy https": {
-        "rank": {
-          "value": null,
-          "date": "2026-04-10",
-          "effective_value": 501,
-          "fetch_performed": true
-        },
-        "relevancy": {
-          "value": 39,
-          "date": "2026-04-10",
-          "effective_value": 39
-        },
-        "kei": {
-          "value": 21,
-          "date": "2026-04-10",
-          "effective_value": 21
-        },
-        "chance": {
-          "value": 71,
-          "date": "2026-04-10",
-          "effective_value": 71
-        }
-      },
-      "privacy policy https": {
-        "rank": {
-          "value": null,
-          "date": "2026-04-10",
-          "effective_value": 501,
-          "fetch_performed": true
-        },
-        "relevancy": {
-          "value": 28,
-          "date": "2026-04-10",
-          "effective_value": 28
-        },
-        "kei": {
-          "value": 22,
-          "date": "2026-04-10",
-          "effective_value": 22
-        },
-        "chance": {
-          "value": 73,
-          "date": "2026-04-10",
-          "effective_value": 73
-        }
-      }
-    },
-    "com.hily.app": {
-      "service": {
-        "rank": {
-          "value": null,
-          "date": "2026-04-10",
-          "effective_value": 501,
-          "fetch_performed": true
-        },
-        "relevancy": {
-          "value": 11,
-          "date": "2026-04-10",
-          "effective_value": 11
-        },
-        "kei": {
-          "value": 49,
-          "date": "2026-04-10",
-          "effective_value": 49
-        },
-        "chance": {
-          "value": 73,
-          "date": "2026-04-10",
-          "effective_value": 73
-        }
-      },
-      "meaningful connections": {
-        "rank": {
-          "value": 51,
-          "date": "2026-04-10",
-          "effective_value": 51,
-          "fetch_performed": true
-        },
-        "relevancy": {
-          "value": 69,
-          "date": "2026-04-10",
-          "effective_value": 69
-        },
-        "kei": {
-          "value": 22,
-          "date": "2026-04-10",
-          "effective_value": 22
-        },
-        "chance": {
-          "value": 73,
-          "date": "2026-04-10",
-          "effective_value": 73
-        }
-      },
-      "terms service": {
-        "rank": {
-          "value": null,
-          "date": "2026-04-10",
+          "date": "2026-05-01",
           "effective_value": 501,
           "fetch_performed": true
         },
         "relevancy": {
           "value": 31,
-          "date": "2026-04-10",
+          "date": "2026-05-01",
           "effective_value": 31
         },
         "kei": {
-          "value": 17,
-          "date": "2026-04-10",
-          "effective_value": 17
-        },
-        "chance": {
-          "value": 55,
-          "date": "2026-04-10",
-          "effective_value": 55
-        }
-      },
-      "policy https": {
-        "rank": {
-          "value": null,
-          "date": "2026-04-10",
-          "effective_value": 501,
-          "fetch_performed": true
-        },
-        "relevancy": {
-          "value": 41,
-          "date": "2026-04-10",
-          "effective_value": 41
-        },
-        "kei": {
-          "value": 19,
-          "date": "2026-04-10",
-          "effective_value": 19
-        },
-        "chance": {
-          "value": 63,
-          "date": "2026-04-10",
-          "effective_value": 63
-        }
-      },
-      "privacy policy https": {
-        "rank": {
-          "value": null,
-          "date": "2026-04-10",
-          "effective_value": 501,
-          "fetch_performed": true
-        },
-        "relevancy": {
-          "value": 34,
-          "date": "2026-04-10",
-          "effective_value": 34
-        },
-        "kei": {
           "value": 22,
-          "date": "2026-04-10",
+          "date": "2026-05-01",
           "effective_value": 22
         },
         "chance": {
           "value": 73,
-          "date": "2026-04-10",
+          "date": "2026-05-01",
+          "effective_value": 73
+        }
+      },
+      "boundaries": {
+        "rank": {
+          "value": null,
+          "date": "2026-05-01",
+          "effective_value": 501,
+          "fetch_performed": true
+        },
+        "relevancy": {
+          "value": 38,
+          "date": "2026-05-01",
+          "effective_value": 38
+        },
+        "kei": {
+          "value": 22,
+          "date": "2026-05-01",
+          "effective_value": 22
+        },
+        "chance": {
+          "value": 73,
+          "date": "2026-05-01",
+          "effective_value": 73
+        }
+      },
+      "consent": {
+        "rank": {
+          "value": null,
+          "date": "2026-05-01",
+          "effective_value": 501,
+          "fetch_performed": true
+        },
+        "relevancy": {
+          "value": 39,
+          "date": "2026-05-01",
+          "effective_value": 39
+        },
+        "kei": {
+          "value": 22,
+          "date": "2026-05-01",
+          "effective_value": 22
+        },
+        "chance": {
+          "value": 73,
+          "date": "2026-05-01",
+          "effective_value": 73
+        }
+      },
+      "respect": {
+        "rank": {
+          "value": 18,
+          "date": "2026-05-01",
+          "effective_value": 18,
+          "fetch_performed": true
+        },
+        "relevancy": {
+          "value": 47,
+          "date": "2026-05-01",
+          "effective_value": 47
+        },
+        "kei": {
+          "value": 22,
+          "date": "2026-05-01",
+          "effective_value": 22
+        },
+        "chance": {
+          "value": 73,
+          "date": "2026-05-01",
+          "effective_value": 73
+        }
+      },
+      "kindness": {
+        "rank": {
+          "value": null,
+          "date": "2026-05-01",
+          "effective_value": 501,
+          "fetch_performed": true
+        },
+        "relevancy": {
+          "value": 42,
+          "date": "2026-05-01",
+          "effective_value": 42
+        },
+        "kei": {
+          "value": 22,
+          "date": "2026-05-01",
+          "effective_value": 22
+        },
+        "chance": {
+          "value": 73,
+          "date": "2026-05-01",
+          "effective_value": 73
+        }
+      }
+    },
+    "enterprises.dating.boo": {
+      "emotional intelligence": {
+        "rank": {
+          "value": null,
+          "date": "2026-05-01",
+          "effective_value": 501,
+          "fetch_performed": true
+        },
+        "relevancy": {
+          "value": 38,
+          "date": "2026-05-01",
+          "effective_value": 38
+        },
+        "kei": {
+          "value": 22,
+          "date": "2026-05-01",
+          "effective_value": 22
+        },
+        "chance": {
+          "value": 73,
+          "date": "2026-05-01",
+          "effective_value": 73
+        }
+      },
+      "boundaries": {
+        "rank": {
+          "value": null,
+          "date": "2026-05-01",
+          "effective_value": 501,
+          "fetch_performed": true
+        },
+        "relevancy": {
+          "value": 44,
+          "date": "2026-05-01",
+          "effective_value": 44
+        },
+        "kei": {
+          "value": 22,
+          "date": "2026-05-01",
+          "effective_value": 22
+        },
+        "chance": {
+          "value": 73,
+          "date": "2026-05-01",
+          "effective_value": 73
+        }
+      },
+      "consent": {
+        "rank": {
+          "value": null,
+          "date": "2026-05-01",
+          "effective_value": 501,
+          "fetch_performed": true
+        },
+        "relevancy": {
+          "value": 46,
+          "date": "2026-05-01",
+          "effective_value": 46
+        },
+        "kei": {
+          "value": 22,
+          "date": "2026-05-01",
+          "effective_value": 22
+        },
+        "chance": {
+          "value": 73,
+          "date": "2026-05-01",
+          "effective_value": 73
+        }
+      },
+      "respect": {
+        "rank": {
+          "value": null,
+          "date": "2026-05-01",
+          "effective_value": 501,
+          "fetch_performed": true
+        },
+        "relevancy": {
+          "value": 54,
+          "date": "2026-05-01",
+          "effective_value": 54
+        },
+        "kei": {
+          "value": 22,
+          "date": "2026-05-01",
+          "effective_value": 22
+        },
+        "chance": {
+          "value": 73,
+          "date": "2026-05-01",
+          "effective_value": 73
+        }
+      },
+      "kindness": {
+        "rank": {
+          "value": null,
+          "date": "2026-05-01",
+          "effective_value": 501,
+          "fetch_performed": true
+        },
+        "relevancy": {
+          "value": 43,
+          "date": "2026-05-01",
+          "effective_value": 43
+        },
+        "kei": {
+          "value": 22,
+          "date": "2026-05-01",
+          "effective_value": 22
+        },
+        "chance": {
+          "value": 73,
+          "date": "2026-05-01",
+          "effective_value": 73
+        }
+      }
+    },
+    "com.getpure.pure": {
+      "emotional intelligence": {
+        "rank": {
+          "value": null,
+          "date": "2026-05-01",
+          "effective_value": 501,
+          "fetch_performed": true
+        },
+        "relevancy": {
+          "value": 30,
+          "date": "2026-05-01",
+          "effective_value": 30
+        },
+        "kei": {
+          "value": 22,
+          "date": "2026-05-01",
+          "effective_value": 22
+        },
+        "chance": {
+          "value": 73,
+          "date": "2026-05-01",
+          "effective_value": 73
+        }
+      },
+      "boundaries": {
+        "rank": {
+          "value": 22,
+          "date": "2026-05-01",
+          "effective_value": 22,
+          "fetch_performed": true
+        },
+        "relevancy": {
+          "value": 40,
+          "date": "2026-05-01",
+          "effective_value": 40
+        },
+        "kei": {
+          "value": 22,
+          "date": "2026-05-01",
+          "effective_value": 22
+        },
+        "chance": {
+          "value": 73,
+          "date": "2026-05-01",
+          "effective_value": 73
+        }
+      },
+      "consent": {
+        "rank": {
+          "value": null,
+          "date": "2026-05-01",
+          "effective_value": 501,
+          "fetch_performed": true
+        },
+        "relevancy": {
+          "value": 50,
+          "date": "2026-05-01",
+          "effective_value": 50
+        },
+        "kei": {
+          "value": 22,
+          "date": "2026-05-01",
+          "effective_value": 22
+        },
+        "chance": {
+          "value": 73,
+          "date": "2026-05-01",
+          "effective_value": 73
+        }
+      },
+      "respect": {
+        "rank": {
+          "value": null,
+          "date": "2026-05-01",
+          "effective_value": 501,
+          "fetch_performed": true
+        },
+        "relevancy": {
+          "value": 53,
+          "date": "2026-05-01",
+          "effective_value": 53
+        },
+        "kei": {
+          "value": 22,
+          "date": "2026-05-01",
+          "effective_value": 22
+        },
+        "chance": {
+          "value": 73,
+          "date": "2026-05-01",
+          "effective_value": 73
+        }
+      },
+      "kindness": {
+        "rank": {
+          "value": null,
+          "date": "2026-05-01",
+          "effective_value": 501,
+          "fetch_performed": true
+        },
+        "relevancy": {
+          "value": 39,
+          "date": "2026-05-01",
+          "effective_value": 39
+        },
+        "kei": {
+          "value": 22,
+          "date": "2026-05-01",
+          "effective_value": 22
+        },
+        "chance": {
+          "value": 73,
+          "date": "2026-05-01",
           "effective_value": 73
         }
       }
@@ -596,9 +596,9 @@
         "apps": [
           "com.tinder",
           "co.hinge.app",
-          "com.doni.appa",
           "com.bumble.app",
-          "com.hily.app"
+          "enterprises.dating.boo",
+          "com.getpure.pure"
         ],
         "metrics": [
           "rank",
@@ -607,11 +607,11 @@
           "chance"
         ],
         "keywords": [
-          "service",
-          "meaningful connections",
-          "terms service",
-          "policy https",
-          "privacy policy https"
+          "emotional intelligence",
+          "boundaries",
+          "consent",
+          "respect",
+          "kindness"
         ]
       },
       "cost": 1001,

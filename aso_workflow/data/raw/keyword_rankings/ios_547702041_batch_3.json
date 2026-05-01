@@ -1,586 +1,586 @@
 {
   "result": {
     "547702041": {
-      "inclusive community": {
+      "video calling": {
         "rank": {
           "value": null,
-          "date": "2026-04-10",
+          "date": "2026-05-01",
           "effective_value": 501,
           "fetch_performed": true
         },
         "relevancy": {
-          "value": 58,
-          "date": "2026-04-10",
-          "effective_value": 58
+          "value": 71,
+          "date": "2026-05-01",
+          "effective_value": 71
         },
         "kei": {
           "value": 22,
-          "date": "2026-04-10",
+          "date": "2026-05-01",
           "effective_value": 22
         },
         "chance": {
           "value": 73,
-          "date": "2026-04-10",
+          "date": "2026-05-01",
           "effective_value": 73
         }
       },
-      "lgbtq+ friendly": {
+      "chat app": {
         "rank": {
-          "value": 132,
-          "date": "2026-04-10",
-          "effective_value": 132,
-          "fetch_performed": true
-        },
-        "relevancy": {
-          "value": 96,
-          "date": "2026-04-10",
-          "effective_value": 96
-        },
-        "kei": {
-          "value": 22,
-          "date": "2026-04-10",
-          "effective_value": 22
-        },
-        "chance": {
-          "value": 73,
-          "date": "2026-04-10",
-          "effective_value": 73
-        }
-      },
-      "gay dating": {
-        "rank": {
-          "value": 12,
-          "date": "2026-04-10",
-          "effective_value": 12,
-          "fetch_performed": true
-        },
-        "relevancy": {
-          "value": 92,
-          "date": "2026-04-10",
-          "effective_value": 92
-        },
-        "kei": {
-          "value": 22,
-          "date": "2026-04-10",
-          "effective_value": 22
-        },
-        "chance": {
-          "value": 73,
-          "date": "2026-04-10",
-          "effective_value": 73
-        }
-      },
-      "lesbian dating": {
-        "rank": {
-          "value": 7,
-          "date": "2026-04-10",
-          "effective_value": 7,
+          "value": 10,
+          "date": "2026-05-01",
+          "effective_value": 10,
           "fetch_performed": true
         },
         "relevancy": {
           "value": 89,
-          "date": "2026-04-10",
+          "date": "2026-05-01",
           "effective_value": 89
         },
         "kei": {
-          "value": 24,
-          "date": "2026-04-10",
-          "effective_value": 24
+          "value": 22,
+          "date": "2026-05-01",
+          "effective_value": 22
         },
         "chance": {
-          "value": 79,
-          "date": "2026-04-10",
-          "effective_value": 79
+          "value": 74,
+          "date": "2026-05-01",
+          "effective_value": 74
         }
       },
-      "bisexual dating": {
-        "rank": {
-          "value": 9,
-          "date": "2026-04-10",
-          "effective_value": 9,
-          "fetch_performed": true
-        },
-        "relevancy": {
-          "value": 93,
-          "date": "2026-04-10",
-          "effective_value": 93
-        },
-        "kei": {
-          "value": 23,
-          "date": "2026-04-10",
-          "effective_value": 23
-        },
-        "chance": {
-          "value": 76,
-          "date": "2026-04-10",
-          "effective_value": 76
-        }
-      }
-    },
-    "351331194": {
-      "inclusive community": {
+      "dating tips": {
         "rank": {
           "value": null,
-          "date": "2026-04-10",
+          "date": "2026-05-01",
           "effective_value": 501,
           "fetch_performed": true
         },
         "relevancy": {
-          "value": 58,
-          "date": "2026-04-10",
-          "effective_value": 58
-        },
-        "kei": {
-          "value": 22,
-          "date": "2026-04-10",
-          "effective_value": 22
-        },
-        "chance": {
-          "value": 73,
-          "date": "2026-04-10",
-          "effective_value": 73
-        }
-      },
-      "lgbtq+ friendly": {
-        "rank": {
           "value": 71,
-          "date": "2026-04-10",
-          "effective_value": 71,
-          "fetch_performed": true
-        },
-        "relevancy": {
-          "value": 96,
-          "date": "2026-04-10",
-          "effective_value": 96
-        },
-        "kei": {
-          "value": 22,
-          "date": "2026-04-10",
-          "effective_value": 22
-        },
-        "chance": {
-          "value": 73,
-          "date": "2026-04-10",
-          "effective_value": 73
-        }
-      },
-      "gay dating": {
-        "rank": {
-          "value": 48,
-          "date": "2026-04-10",
-          "effective_value": 48,
-          "fetch_performed": true
-        },
-        "relevancy": {
-          "value": 90,
-          "date": "2026-04-10",
-          "effective_value": 90
-        },
-        "kei": {
-          "value": 14,
-          "date": "2026-04-10",
-          "effective_value": 14
-        },
-        "chance": {
-          "value": 48,
-          "date": "2026-04-10",
-          "effective_value": 48
-        }
-      },
-      "lesbian dating": {
-        "rank": {
-          "value": 24,
-          "date": "2026-04-10",
-          "effective_value": 24,
-          "fetch_performed": true
-        },
-        "relevancy": {
-          "value": 87,
-          "date": "2026-04-10",
-          "effective_value": 87
-        },
-        "kei": {
-          "value": 10,
-          "date": "2026-04-10",
-          "effective_value": 10
-        },
-        "chance": {
-          "value": 33,
-          "date": "2026-04-10",
-          "effective_value": 33
-        }
-      },
-      "bisexual dating": {
-        "rank": {
-          "value": 16,
-          "date": "2026-04-10",
-          "effective_value": 16,
-          "fetch_performed": true
-        },
-        "relevancy": {
-          "value": 93,
-          "date": "2026-04-10",
-          "effective_value": 93
+          "date": "2026-05-01",
+          "effective_value": 71
         },
         "kei": {
           "value": 15,
-          "date": "2026-04-10",
+          "date": "2026-05-01",
           "effective_value": 15
         },
         "chance": {
-          "value": 50,
-          "date": "2026-04-10",
-          "effective_value": 50
+          "value": 73,
+          "date": "2026-05-01",
+          "effective_value": 73
         }
-      }
-    },
-    "930441707": {
-      "inclusive community": {
+      },
+      "relationship advice": {
         "rank": {
           "value": null,
-          "date": "2026-04-10",
+          "date": "2026-05-01",
+          "effective_value": 501,
+          "fetch_performed": true
+        },
+        "relevancy": {
+          "value": 60,
+          "date": "2026-05-01",
+          "effective_value": 60
+        },
+        "kei": {
+          "value": 22,
+          "date": "2026-05-01",
+          "effective_value": 22
+        },
+        "chance": {
+          "value": 73,
+          "date": "2026-05-01",
+          "effective_value": 73
+        }
+      },
+      "love advice": {
+        "rank": {
+          "value": null,
+          "date": "2026-04-28",
           "effective_value": 501,
           "fetch_performed": true
         },
         "relevancy": {
           "value": 55,
-          "date": "2026-04-10",
+          "date": "2026-05-01",
           "effective_value": 55
         },
         "kei": {
-          "value": 22,
-          "date": "2026-04-10",
-          "effective_value": 22
+          "value": 15,
+          "date": "2026-05-01",
+          "effective_value": 15
         },
         "chance": {
           "value": 73,
-          "date": "2026-04-10",
-          "effective_value": 73
-        }
-      },
-      "lgbtq+ friendly": {
-        "rank": {
-          "value": 35,
-          "date": "2026-04-10",
-          "effective_value": 35,
-          "fetch_performed": true
-        },
-        "relevancy": {
-          "value": 93,
-          "date": "2026-04-10",
-          "effective_value": 93
-        },
-        "kei": {
-          "value": 22,
-          "date": "2026-04-10",
-          "effective_value": 22
-        },
-        "chance": {
-          "value": 73,
-          "date": "2026-04-10",
-          "effective_value": 73
-        }
-      },
-      "gay dating": {
-        "rank": {
-          "value": 9,
-          "date": "2026-04-10",
-          "effective_value": 9,
-          "fetch_performed": true
-        },
-        "relevancy": {
-          "value": 90,
-          "date": "2026-04-10",
-          "effective_value": 90
-        },
-        "kei": {
-          "value": 22,
-          "date": "2026-04-10",
-          "effective_value": 22
-        },
-        "chance": {
-          "value": 73,
-          "date": "2026-04-10",
-          "effective_value": 73
-        }
-      },
-      "lesbian dating": {
-        "rank": {
-          "value": 6,
-          "date": "2026-04-10",
-          "effective_value": 6,
-          "fetch_performed": true
-        },
-        "relevancy": {
-          "value": 86,
-          "date": "2026-04-10",
-          "effective_value": 86
-        },
-        "kei": {
-          "value": 25,
-          "date": "2026-04-10",
-          "effective_value": 25
-        },
-        "chance": {
-          "value": 82,
-          "date": "2026-04-10",
-          "effective_value": 82
-        }
-      },
-      "bisexual dating": {
-        "rank": {
-          "value": 13,
-          "date": "2026-04-10",
-          "effective_value": 13,
-          "fetch_performed": true
-        },
-        "relevancy": {
-          "value": 90,
-          "date": "2026-04-10",
-          "effective_value": 90
-        },
-        "kei": {
-          "value": 22,
-          "date": "2026-04-10",
-          "effective_value": 22
-        },
-        "chance": {
-          "value": 73,
-          "date": "2026-04-10",
+          "date": "2026-05-01",
           "effective_value": 73
         }
       }
     },
-    "338701294": {
-      "inclusive community": {
+    "351331194": {
+      "video calling": {
         "rank": {
           "value": null,
-          "date": "2026-04-10",
+          "date": "2026-05-01",
           "effective_value": 501,
           "fetch_performed": true
         },
         "relevancy": {
-          "value": 66,
-          "date": "2026-04-10",
-          "effective_value": 66
+          "value": 74,
+          "date": "2026-05-01",
+          "effective_value": 74
         },
         "kei": {
-          "value": 21,
-          "date": "2026-04-10",
-          "effective_value": 21
+          "value": 17,
+          "date": "2026-05-01",
+          "effective_value": 17
         },
         "chance": {
-          "value": 70,
-          "date": "2026-04-10",
-          "effective_value": 70
+          "value": 57,
+          "date": "2026-05-01",
+          "effective_value": 57
         }
       },
-      "lgbtq+ friendly": {
+      "chat app": {
         "rank": {
-          "value": 47,
-          "date": "2026-04-10",
-          "effective_value": 47,
+          "value": 22,
+          "date": "2026-05-01",
+          "effective_value": 22,
           "fetch_performed": true
         },
         "relevancy": {
-          "value": 98,
-          "date": "2026-04-10",
-          "effective_value": 98
+          "value": 90,
+          "date": "2026-05-01",
+          "effective_value": 90
+        },
+        "kei": {
+          "value": 4,
+          "date": "2026-05-01",
+          "effective_value": 4
+        },
+        "chance": {
+          "value": 14,
+          "date": "2026-05-01",
+          "effective_value": 14
+        }
+      },
+      "dating tips": {
+        "rank": {
+          "value": 109,
+          "date": "2026-05-01",
+          "effective_value": 109,
+          "fetch_performed": true
+        },
+        "relevancy": {
+          "value": 71,
+          "date": "2026-05-01",
+          "effective_value": 71
+        },
+        "kei": {
+          "value": 15,
+          "date": "2026-05-01",
+          "effective_value": 15
+        },
+        "chance": {
+          "value": 73,
+          "date": "2026-05-01",
+          "effective_value": 73
+        }
+      },
+      "relationship advice": {
+        "rank": {
+          "value": null,
+          "date": "2026-05-01",
+          "effective_value": 501,
+          "fetch_performed": true
+        },
+        "relevancy": {
+          "value": 59,
+          "date": "2026-05-01",
+          "effective_value": 59
         },
         "kei": {
           "value": 22,
-          "date": "2026-04-10",
+          "date": "2026-05-01",
           "effective_value": 22
         },
         "chance": {
           "value": 73,
-          "date": "2026-04-10",
+          "date": "2026-05-01",
           "effective_value": 73
         }
       },
-      "gay dating": {
+      "love advice": {
         "rank": {
-          "value": 20,
-          "date": "2026-04-10",
-          "effective_value": 20,
+          "value": null,
+          "date": "2026-04-28",
+          "effective_value": 501,
           "fetch_performed": true
         },
         "relevancy": {
-          "value": 89,
-          "date": "2026-04-10",
-          "effective_value": 89
+          "value": 54,
+          "date": "2026-05-01",
+          "effective_value": 54
         },
         "kei": {
-          "value": 13,
-          "date": "2026-04-10",
-          "effective_value": 13
+          "value": 15,
+          "date": "2026-05-01",
+          "effective_value": 15
         },
         "chance": {
-          "value": 42,
-          "date": "2026-04-10",
-          "effective_value": 42
-        }
-      },
-      "lesbian dating": {
-        "rank": {
-          "value": 16,
-          "date": "2026-04-10",
-          "effective_value": 16,
-          "fetch_performed": true
-        },
-        "relevancy": {
-          "value": 89,
-          "date": "2026-04-10",
-          "effective_value": 89
-        },
-        "kei": {
-          "value": 8,
-          "date": "2026-04-10",
-          "effective_value": 8
-        },
-        "chance": {
-          "value": 28,
-          "date": "2026-04-10",
-          "effective_value": 28
-        }
-      },
-      "bisexual dating": {
-        "rank": {
-          "value": 18,
-          "date": "2026-04-10",
-          "effective_value": 18,
-          "fetch_performed": true
-        },
-        "relevancy": {
-          "value": 93,
-          "date": "2026-04-10",
-          "effective_value": 93
-        },
-        "kei": {
-          "value": 13,
-          "date": "2026-04-10",
-          "effective_value": 13
-        },
-        "chance": {
-          "value": 44,
-          "date": "2026-04-10",
-          "effective_value": 44
+          "value": 73,
+          "date": "2026-05-01",
+          "effective_value": 73
         }
       }
     },
-    "595287172": {
-      "inclusive community": {
+    "489185828": {
+      "video calling": {
         "rank": {
           "value": null,
-          "date": "2026-04-10",
+          "date": "2026-05-01",
+          "effective_value": 501,
+          "fetch_performed": true
+        },
+        "relevancy": {
+          "value": 71,
+          "date": "2026-05-01",
+          "effective_value": 71
+        },
+        "kei": {
+          "value": 9,
+          "date": "2026-05-01",
+          "effective_value": 9
+        },
+        "chance": {
+          "value": 31,
+          "date": "2026-05-01",
+          "effective_value": 31
+        }
+      },
+      "chat app": {
+        "rank": {
+          "value": 88,
+          "date": "2026-05-01",
+          "effective_value": 88,
+          "fetch_performed": true
+        },
+        "relevancy": {
+          "value": 88,
+          "date": "2026-05-01",
+          "effective_value": 88
+        },
+        "kei": {
+          "value": 1,
+          "date": "2026-05-01",
+          "effective_value": 1
+        },
+        "chance": {
+          "value": 3,
+          "date": "2026-05-01",
+          "effective_value": 3
+        }
+      },
+      "dating tips": {
+        "rank": {
+          "value": 5,
+          "date": "2026-05-01",
+          "effective_value": 5,
+          "fetch_performed": true
+        },
+        "relevancy": {
+          "value": 80,
+          "date": "2026-05-01",
+          "effective_value": 80
+        },
+        "kei": {
+          "value": 18,
+          "date": "2026-05-01",
+          "effective_value": 18
+        },
+        "chance": {
+          "value": 87,
+          "date": "2026-05-01",
+          "effective_value": 87
+        }
+      },
+      "relationship advice": {
+        "rank": {
+          "value": null,
+          "date": "2026-05-01",
+          "effective_value": 501,
+          "fetch_performed": true
+        },
+        "relevancy": {
+          "value": 68,
+          "date": "2026-05-01",
+          "effective_value": 68
+        },
+        "kei": {
+          "value": 17,
+          "date": "2026-05-01",
+          "effective_value": 17
+        },
+        "chance": {
+          "value": 57,
+          "date": "2026-05-01",
+          "effective_value": 57
+        }
+      },
+      "love advice": {
+        "rank": {
+          "value": null,
+          "date": "2026-04-28",
           "effective_value": 501,
           "fetch_performed": true
         },
         "relevancy": {
           "value": 64,
-          "date": "2026-04-10",
+          "date": "2026-05-01",
           "effective_value": 64
         },
         "kei": {
-          "value": 22,
-          "date": "2026-04-10",
-          "effective_value": 22
+          "value": 12,
+          "date": "2026-05-01",
+          "effective_value": 12
+        },
+        "chance": {
+          "value": 59,
+          "date": "2026-05-01",
+          "effective_value": 59
+        }
+      }
+    },
+    "338701294": {
+      "video calling": {
+        "rank": {
+          "value": null,
+          "date": "2026-05-01",
+          "effective_value": 501,
+          "fetch_performed": true
+        },
+        "relevancy": {
+          "value": 70,
+          "date": "2026-05-01",
+          "effective_value": 70
+        },
+        "kei": {
+          "value": 15,
+          "date": "2026-05-01",
+          "effective_value": 15
+        },
+        "chance": {
+          "value": 51,
+          "date": "2026-05-01",
+          "effective_value": 51
+        }
+      },
+      "chat app": {
+        "rank": {
+          "value": 75,
+          "date": "2026-05-01",
+          "effective_value": 75,
+          "fetch_performed": true
+        },
+        "relevancy": {
+          "value": 84,
+          "date": "2026-05-01",
+          "effective_value": 84
+        },
+        "kei": {
+          "value": 3,
+          "date": "2026-05-01",
+          "effective_value": 3
+        },
+        "chance": {
+          "value": 11,
+          "date": "2026-05-01",
+          "effective_value": 11
+        }
+      },
+      "dating tips": {
+        "rank": {
+          "value": 18,
+          "date": "2026-05-01",
+          "effective_value": 18,
+          "fetch_performed": true
+        },
+        "relevancy": {
+          "value": 84,
+          "date": "2026-05-01",
+          "effective_value": 84
+        },
+        "kei": {
+          "value": 15,
+          "date": "2026-05-01",
+          "effective_value": 15
         },
         "chance": {
           "value": 73,
-          "date": "2026-04-10",
+          "date": "2026-05-01",
           "effective_value": 73
         }
       },
-      "lgbtq+ friendly": {
+      "relationship advice": {
         "rank": {
-          "value": 131,
-          "date": "2026-04-10",
-          "effective_value": 131,
+          "value": null,
+          "date": "2026-05-01",
+          "effective_value": 501,
           "fetch_performed": true
         },
         "relevancy": {
-          "value": 97,
-          "date": "2026-04-10",
-          "effective_value": 97
+          "value": 70,
+          "date": "2026-05-01",
+          "effective_value": 70
         },
         "kei": {
           "value": 22,
-          "date": "2026-04-10",
+          "date": "2026-05-01",
           "effective_value": 22
         },
         "chance": {
           "value": 73,
-          "date": "2026-04-10",
+          "date": "2026-05-01",
           "effective_value": 73
         }
       },
-      "gay dating": {
+      "love advice": {
         "rank": {
-          "value": 5,
-          "date": "2026-04-10",
-          "effective_value": 5,
+          "value": null,
+          "date": "2026-04-28",
+          "effective_value": 501,
           "fetch_performed": true
         },
         "relevancy": {
-          "value": 91,
-          "date": "2026-04-10",
-          "effective_value": 91
+          "value": 65,
+          "date": "2026-05-01",
+          "effective_value": 65
         },
         "kei": {
-          "value": 25,
-          "date": "2026-04-10",
-          "effective_value": 25
+          "value": 15,
+          "date": "2026-05-01",
+          "effective_value": 15
         },
         "chance": {
-          "value": 83,
-          "date": "2026-04-10",
-          "effective_value": 83
+          "value": 73,
+          "date": "2026-05-01",
+          "effective_value": 73
         }
-      },
-      "lesbian dating": {
+      }
+    },
+    "601174087": {
+      "video calling": {
         "rank": {
-          "value": 4,
-          "date": "2026-04-10",
-          "effective_value": 4,
+          "value": 198,
+          "date": "2026-05-01",
+          "effective_value": 198,
           "fetch_performed": true
         },
         "relevancy": {
-          "value": 90,
-          "date": "2026-04-10",
-          "effective_value": 90
-        },
-        "kei": {
-          "value": 26,
-          "date": "2026-04-10",
-          "effective_value": 26
-        },
-        "chance": {
-          "value": 87,
-          "date": "2026-04-10",
-          "effective_value": 87
-        }
-      },
-      "bisexual dating": {
-        "rank": {
-          "value": 20,
-          "date": "2026-04-10",
-          "effective_value": 20,
-          "fetch_performed": true
-        },
-        "relevancy": {
-          "value": 93,
-          "date": "2026-04-10",
-          "effective_value": 93
+          "value": 73,
+          "date": "2026-05-01",
+          "effective_value": 73
         },
         "kei": {
           "value": 22,
-          "date": "2026-04-10",
+          "date": "2026-05-01",
           "effective_value": 22
         },
         "chance": {
           "value": 73,
-          "date": "2026-04-10",
+          "date": "2026-05-01",
+          "effective_value": 73
+        }
+      },
+      "chat app": {
+        "rank": {
+          "value": 68,
+          "date": "2026-05-01",
+          "effective_value": 68,
+          "fetch_performed": true
+        },
+        "relevancy": {
+          "value": 89,
+          "date": "2026-05-01",
+          "effective_value": 89
+        },
+        "kei": {
+          "value": 8,
+          "date": "2026-05-01",
+          "effective_value": 8
+        },
+        "chance": {
+          "value": 27,
+          "date": "2026-05-01",
+          "effective_value": 27
+        }
+      },
+      "dating tips": {
+        "rank": {
+          "value": 74,
+          "date": "2026-05-01",
+          "effective_value": 74,
+          "fetch_performed": true
+        },
+        "relevancy": {
+          "value": 78,
+          "date": "2026-05-01",
+          "effective_value": 78
+        },
+        "kei": {
+          "value": 15,
+          "date": "2026-05-01",
+          "effective_value": 15
+        },
+        "chance": {
+          "value": 73,
+          "date": "2026-05-01",
+          "effective_value": 73
+        }
+      },
+      "relationship advice": {
+        "rank": {
+          "value": null,
+          "date": "2026-05-01",
+          "effective_value": 501,
+          "fetch_performed": true
+        },
+        "relevancy": {
+          "value": 67,
+          "date": "2026-05-01",
+          "effective_value": 67
+        },
+        "kei": {
+          "value": 22,
+          "date": "2026-05-01",
+          "effective_value": 22
+        },
+        "chance": {
+          "value": 73,
+          "date": "2026-05-01",
+          "effective_value": 73
+        }
+      },
+      "love advice": {
+        "rank": {
+          "value": null,
+          "date": "2026-04-28",
+          "effective_value": 501,
+          "fetch_performed": true
+        },
+        "relevancy": {
+          "value": 64,
+          "date": "2026-05-01",
+          "effective_value": 64
+        },
+        "kei": {
+          "value": 15,
+          "date": "2026-05-01",
+          "effective_value": 15
+        },
+        "chance": {
+          "value": 73,
+          "date": "2026-05-01",
           "effective_value": 73
         }
       }
@@ -596,9 +596,9 @@
         "apps": [
           "547702041",
           "351331194",
-          "930441707",
+          "489185828",
           "338701294",
-          "595287172"
+          "601174087"
         ],
         "metrics": [
           "rank",
@@ -607,11 +607,11 @@
           "chance"
         ],
         "keywords": [
-          "inclusive community",
-          "lgbtq+ friendly",
-          "gay dating",
-          "lesbian dating",
-          "bisexual dating"
+          "video calling",
+          "chat app",
+          "dating tips",
+          "relationship advice",
+          "love advice"
         ]
       },
       "cost": 1001,

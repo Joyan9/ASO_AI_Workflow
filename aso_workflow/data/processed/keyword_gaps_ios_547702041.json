@@ -3,16 +3,16 @@
     "app_id": "547702041",
     "platform": "ios",
     "country": "us",
-    "run_date": "2026-04-10T19:21:47.317831",
-    "seeds_generated": 69,
-    "seeds_with_ranking_data": 69,
-    "gaps_before_volume_filter": 9,
+    "run_date": "2026-05-01T09:04:37.498200",
+    "seeds_generated": 80,
+    "seeds_with_ranking_data": 80,
+    "gaps_before_volume_filter": 19,
     "gaps_after_volume_filter": 0,
     "volume_threshold": 6,
     "volume_filter_summary": {
-      "total_input": 9,
+      "total_input": 19,
       "total_output": 0,
-      "filtered_out": 9,
+      "filtered_out": 19,
       "volume_threshold": 6,
       "country": "us",
       "language": "us",
@@ -37,8 +37,8 @@
       "gaps_ranked_for": 0
     },
     {
-      "app_id": "930441707",
-      "name": "Bumble Dating App: Meet & Date",
+      "app_id": "489185828",
+      "name": "happn: dating app",
       "tier": "primary",
       "gaps_ranked_for": 0
     },
@@ -49,44 +49,44 @@
       "gaps_ranked_for": 0
     },
     {
-      "app_id": "595287172",
-      "name": "Hinge Dating App: Match & Date",
-      "tier": "secondary",
-      "gaps_ranked_for": 0
-    },
-    {
       "app_id": "601174087",
       "name": "DOWN: The Casual Dating App",
       "tier": "secondary",
       "gaps_ranked_for": 0
     },
     {
-      "app_id": "1250946975",
-      "name": "Hily Dating App: Meet. Date.",
+      "app_id": "1042814349",
+      "name": "HUD\u2122 Bedroom Dating App",
       "tier": "secondary",
       "gaps_ranked_for": 0
     },
     {
-      "app_id": "690661663",
-      "name": "PURE: Open-Minded Dating App",
+      "app_id": "930441707",
+      "name": "Bumble Dating App: Meet & Date",
       "tier": "secondary",
       "gaps_ranked_for": 0
     },
     {
-      "app_id": "1265035248",
-      "name": "Mingle2 - Dating & Meet People",
+      "app_id": "522681493",
+      "name": "Jaumo Dating App: Flirt & Chat",
       "tier": "secondary",
       "gaps_ranked_for": 0
     },
     {
-      "app_id": "1328695473",
-      "name": "18+ Flirt Chat | Dating USA+",
+      "app_id": "445338486",
+      "name": "LOVOO - Dating App & Chat App",
       "tier": "secondary",
       "gaps_ranked_for": 0
     },
     {
       "app_id": "1080102131",
       "name": "Wild: Adult Casual Dating App",
+      "tier": "secondary",
+      "gaps_ranked_for": 0
+    },
+    {
+      "app_id": "1250946975",
+      "name": "Hily Dating App: Meet. Date.",
       "tier": "secondary",
       "gaps_ranked_for": 0
     }

@@ -11,20 +11,20 @@
         ],
         "icon": "https://play-lh.googleusercontent.com/IJNLY65uW5rVhuTzhqxJtM35-HqLdk41h7cTw4w5u8QsVZ32xaPWmmeE4vkCdwpm0-Sa00WeN85VXrhisj7x6w",
         "screenshots": [
-          "https://play-lh.googleusercontent.com/daUV-y81TrO_y-oCsILOhGw6vn-0rrb79K9h-Pht2jzIxGM8rOnsCiRznb-aNs7OW768dL7BWULMfKrQj4qh",
-          "https://play-lh.googleusercontent.com/11T-X5hiNPdK2MKJ4fpXP3MRgVTuiwX2pGwwcEhIrbGq2X_k7WtL-w1uHlqwioJwMwzMvcT_BnRH1Pq_LNSvzg",
-          "https://play-lh.googleusercontent.com/Qmp1QHGTgJSj8TaGa_6Ku3GOjp63cJK_XT9CZO8MR5LBFJrgL1iCvh-sGjKeEWzaErmrqqVi3zN9EQ9AS7BsSA",
-          "https://play-lh.googleusercontent.com/Z5yTUA47fud7EQk7g3dsI3n8V2hovMdYGXnqYE-xp0ZlEmD9aVUY5QWllKQDn-n9DBhyoyP7d-79lhRsDhRAOn8",
-          "https://play-lh.googleusercontent.com/S3laVKfGDy6oAv9NasCsbMWNMZzl_UBM_2tL3bG4Qab0SE5mS6alHSNYlA6wJ1Jcc-MCTrEngnxdrBGcWwOuQg"
+          "https://play-lh.googleusercontent.com/Az_-SP2DSu8MKw7-1TJ0PhpHitbydUu3Z3hJ7KlLl1p2WwozPAY6P_L1wabW81X7A1w",
+          "https://play-lh.googleusercontent.com/ZhGQmAMeuncJIZ_ZnU5oLBF31Q_uNRwqnffshc9nbdQCugU8pwT_dB8-QkRWe32P-H8",
+          "https://play-lh.googleusercontent.com/SSyuCSk4wxHAXmDfpzkz6g13kk9wwLneCIvv7XJxKGvRB8MownHcLtbmt20h9RXSng",
+          "https://play-lh.googleusercontent.com/wE_swP5vK1RqGk1qoHgCeROe18ZYfacVShNPLfWyH3jdfjXXoS690ESpAemqJu6hiUI",
+          "https://play-lh.googleusercontent.com/IhvspyJWhp4kXrN1qaZ_ani_wLYiQwLbsb3tqOP27kv_f5jvmM1UMItS7rW7R2kQ8TM"
         ],
         "videos": [],
         "size": {
           "current": {
-            "data": 41866753
+            "data": 41959922
           }
         },
         "rating": {
-          "average": 4.2
+          "average": 4.1
         },
         "developer": {
           "id": "iLexis+Multimedia+Consults",
@@ -33,14 +33,24 @@
           "website": "",
           "phone": "",
           "address_private": "",
-          "address_public": "8 Amaokpala New Road, Beside Paradise Restaurant\nAmaopkala 423199\nAnambra\nNigeria",
-          "publisher_name": "JOEBEST STORES",
+          "address_public": "6/F KOHO\n75 HUNG TO RD\n\u89c0\u5858\nHong Kong",
+          "publisher_name": "THE SOURCING PLACE (HK) CO., LIMITED",
           "publisher_email": "ilexismultimedia@gmail.com",
           "publisher_phone": "+234 916 832 5379"
         },
         "price": "",
         "released_at": null,
         "versions": [
+          {
+            "version": "1.15.8",
+            "release_notes": "",
+            "release_date": "2026-04-16T00:00:00.000Z"
+          },
+          {
+            "version": "1.15.6",
+            "release_notes": "",
+            "release_date": "2026-04-10T00:00:00.000Z"
+          },
           {
             "version": "1.15.5",
             "release_notes": "bug fix",

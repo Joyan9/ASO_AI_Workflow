@@ -11,7 +11,7 @@
           6012,
           6005
         ],
-        "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ae/65/98/ae65985d-7daf-35c7-5dd8-ab2391608941/AppIcon-1x_U007ephone-0-1-0-85-220-0.png/1024x1024bb.jpg",
+        "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/d4/23/01/d4230159-7b00-ec9e-7f6a-70a39b3814bd/AppIcon-1x_U007ephone-0-1-0-85-220-0.png/1024x1024bb.jpg",
         "screenshots": {
           "iphone_5_8": [
             {
@@ -180,7 +180,7 @@
           "iphone_6_5": [],
           "iphone6plus": []
         },
-        "size": 134968320,
+        "size": 137337856,
         "rating": {
           "average": 4.3
         },
@@ -190,6 +190,17 @@
         },
         "price": "",
         "versions": [
+          {
+            "version": "74",
+            "release_notes": "In this version, we've introduced a new tab where you can see the most active users.\n\nPlus, we squashed a few bugs and made some performance improvements under the hood.\n\nLOVE our app? Please take a moment to leave a 5-star review.\n\nDOWN listens to your feedback! Email us at\n\n[ops@downapp.com](mailto:ops@downapp.com)\n\nYour feedback keeps DOWN a better place for open-minded users to date.\n\nxoxo,\n\nthe DOWN Team",
+            "has_game_center": false,
+            "game_controller_information": {
+              "required": false,
+              "supported": false,
+              "requirement_label": null
+            },
+            "release_date": "2026-04-09T00:00:00.000Z"
+          },
           {
             "version": "73",
             "release_notes": "In this version, we've improved app performance and stability to make your experience smoother and more reliable.\n\nLOVE our app? Please take a moment to leave a 5-star review.\n\nDOWN listens to your feedback! Email us at\n\n[ops@downapp.com](mailto:ops@downapp.com)\n\nYour feedback keeps DOWN a better place for open-minded users to date.\n\nxoxo,\n\nthe DOWN Team",
@@ -233,31 +244,20 @@
               "requirement_label": null
             },
             "release_date": "2026-01-30T00:00:00.000Z"
-          },
-          {
-            "version": "71.1",
-            "release_notes": "In this version, we've improved app performance and stability to make your experience smoother and more reliable.\n\nLOVE our app? Please take a moment to leave a 5-star review.\n\nDOWN listens to your feedback! Email us at\n\n[ops@downapp.com](mailto:ops@downapp.com)\n\nYour feedback keeps DOWN a better place for open-minded users to date.\n\nxoxo,\n\nthe DOWN Team",
-            "has_game_center": false,
-            "game_controller_information": {
-              "required": false,
-              "supported": false,
-              "requirement_label": null
-            },
-            "release_date": "2026-01-21T00:00:00.000Z"
           }
         ],
         "release_date": "2013-05-01T00:00:00.000Z",
         "customers_also_bought": [
-          "1042814349",
           "1080102131",
-          "1265035248",
-          "887914690",
-          "547702041",
-          "595287172",
-          "690661663",
-          "1250946975",
-          "351331194",
-          "338701294"
+          "1454483874",
+          "1462163015",
+          "1042814349",
+          "1472984800",
+          "1595390736",
+          "1328695473",
+          "1528941732",
+          "1470186592",
+          "1478264564"
         ],
         "dna": {
           "class_id": 10018,
@@ -300,24 +300,6 @@
             ]
           },
           {
-            "id": 1499299122,
-            "recurring_subscription_period": "P1M",
-            "is_family_shareable": false,
-            "is_merchandise_enabled": false,
-            "is_subscription": true,
-            "is_merchandise_visible": false,
-            "subscription_family_name": null,
-            "artwork": null,
-            "rank": 2,
-            "name": "1mo VIP on DOWN Dating App",
-            "description": "Increase your dates: more profiles & action!",
-            "price": {
-              "value": "19.99",
-              "currency": "usd"
-            },
-            "discounts": null
-          },
-          {
             "id": 6467383904,
             "recurring_subscription_period": "P3M",
             "is_family_shareable": false,
@@ -326,11 +308,29 @@
             "is_merchandise_visible": false,
             "subscription_family_name": "DOWN VIP Membership",
             "artwork": null,
-            "rank": 3,
+            "rank": 2,
             "name": "3mo VIP Wild Dating & Hookup",
             "description": "Increase your dates: more profiles & action!",
             "price": {
               "value": "35.99",
+              "currency": "usd"
+            },
+            "discounts": null
+          },
+          {
+            "id": 1499299122,
+            "recurring_subscription_period": "P1M",
+            "is_family_shareable": false,
+            "is_merchandise_enabled": false,
+            "is_subscription": true,
+            "is_merchandise_visible": false,
+            "subscription_family_name": null,
+            "artwork": null,
+            "rank": 3,
+            "name": "1mo VIP on DOWN Dating App",
+            "description": "Increase your dates: more profiles & action!",
+            "price": {
+              "value": "19.99",
               "currency": "usd"
             },
             "discounts": null
@@ -400,24 +400,6 @@
             "discounts": null
           },
           {
-            "id": 1502791337,
-            "recurring_subscription_period": "P7D",
-            "is_family_shareable": false,
-            "is_merchandise_enabled": false,
-            "is_subscription": true,
-            "is_merchandise_visible": false,
-            "subscription_family_name": "Down Supercharge Subscription",
-            "artwork": null,
-            "rank": 7,
-            "name": "1 Week Profile Boost",
-            "description": "Be the Top Profile & Get More Matches",
-            "price": {
-              "value": "4.99",
-              "currency": "usd"
-            },
-            "discounts": null
-          },
-          {
             "id": 6743060039,
             "recurring_subscription_period": "P7D",
             "is_family_shareable": false,
@@ -426,7 +408,7 @@
             "is_merchandise_visible": false,
             "subscription_family_name": "DOWN VIP Membership",
             "artwork": null,
-            "rank": 8,
+            "rank": 7,
             "name": "Down VIP, 1 Week",
             "description": "Unlimited Likes, Visitors & Premium Features",
             "price": {
@@ -436,19 +418,19 @@
             "discounts": null
           },
           {
-            "id": 6467385041,
-            "recurring_subscription_period": "P1M",
+            "id": 1502791337,
+            "recurring_subscription_period": "P7D",
             "is_family_shareable": false,
             "is_merchandise_enabled": false,
             "is_subscription": true,
             "is_merchandise_visible": false,
-            "subscription_family_name": "DOWN VIP Membership",
+            "subscription_family_name": "Down Supercharge Subscription",
             "artwork": null,
-            "rank": 9,
-            "name": "VIP Wild Dating & Hookup",
-            "description": "Increase your dates: more profiles & action!",
+            "rank": 8,
+            "name": "1 Week Profile Boost",
+            "description": "Be the Top Profile & Get More Matches",
             "price": {
-              "value": "31.99",
+              "value": "4.99",
               "currency": "usd"
             },
             "discounts": null
@@ -462,11 +444,29 @@
             "is_merchandise_visible": false,
             "subscription_family_name": "DOWN VIP Membership",
             "artwork": null,
-            "rank": 10,
+            "rank": 9,
             "name": "VIP Wild Dating & Hookup",
             "description": "Increase your dates: more profiles & action!",
             "price": {
               "value": "39.99",
+              "currency": "usd"
+            },
+            "discounts": null
+          },
+          {
+            "id": 6754335603,
+            "recurring_subscription_period": "P7D",
+            "is_family_shareable": false,
+            "is_merchandise_enabled": false,
+            "is_subscription": true,
+            "is_merchandise_visible": false,
+            "subscription_family_name": "DOWN VIP Membership",
+            "artwork": null,
+            "rank": 10,
+            "name": "Down VIP, 1 Week",
+            "description": "Unlimited Likes, Visitors & Premium Features",
+            "price": {
+              "value": "12.99",
               "currency": "usd"
             },
             "discounts": null

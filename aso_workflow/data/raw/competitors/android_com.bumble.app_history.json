@@ -4,26 +4,6 @@
       "changes": [
         {
           "target": "version",
-          "old_value": "5.448.0",
-          "new_value": "5.449.0",
-          "old_release_notes": "",
-          "new_release_notes": "",
-          "version": "5.449.0",
-          "is_ab_test": null,
-          "date": "2026-01-12"
-        },
-        {
-          "target": "version",
-          "old_value": "5.449.0",
-          "new_value": "5.450.0",
-          "old_release_notes": "",
-          "new_release_notes": "",
-          "version": "5.450.0",
-          "is_ab_test": null,
-          "date": "2026-01-19"
-        },
-        {
-          "target": "version",
           "old_value": "5.450.0",
           "new_value": "5.452.0",
           "old_release_notes": "",
@@ -107,95 +87,20 @@
           "old_value": "5.460.0",
           "new_value": "5.461.0",
           "old_release_notes": "",
-          "new_release_notes": null,
+          "new_release_notes": "",
           "version": "5.461.0",
           "is_ab_test": null,
           "date": "2026-04-07"
         },
         {
-          "target": "screenshots",
-          "old_value": [
-            {
-              "id": "U68VtRLGXmETBBZfO9WfgVkpKAIbbcSQSTQH_6zQZpBW2uFOQCRuFlgmpoQhv26KcNY",
-              "path_component": "play-lh.googleusercontent.com",
-              "url": "https://play-lh.googleusercontent.com/U68VtRLGXmETBBZfO9WfgVkpKAIbbcSQSTQH_6zQZpBW2uFOQCRuFlgmpoQhv26KcNY"
-            },
-            {
-              "id": "xPwQ64PrP259eHDzTrPlcIC6MzYV8r2N68sP1CgKkub7O-Bm5JQPF7jpP01U_dYmNg",
-              "path_component": "play-lh.googleusercontent.com",
-              "url": "https://play-lh.googleusercontent.com/xPwQ64PrP259eHDzTrPlcIC6MzYV8r2N68sP1CgKkub7O-Bm5JQPF7jpP01U_dYmNg"
-            },
-            {
-              "id": "jAp9fdMqTkkT87QS0Q8zHLLgJyW3dn5zDRGo1uT4StDlvX8E8YbGg8PqiLh-fUtjTng",
-              "path_component": "play-lh.googleusercontent.com",
-              "url": "https://play-lh.googleusercontent.com/jAp9fdMqTkkT87QS0Q8zHLLgJyW3dn5zDRGo1uT4StDlvX8E8YbGg8PqiLh-fUtjTng"
-            },
-            {
-              "id": "eLJun7JV4MV4NCHcwqMKw4EcRRHcc55TaLj6Zu-nznALTh8SNVUB_3E7tEtW2MNRbg",
-              "path_component": "play-lh.googleusercontent.com",
-              "url": "https://play-lh.googleusercontent.com/eLJun7JV4MV4NCHcwqMKw4EcRRHcc55TaLj6Zu-nznALTh8SNVUB_3E7tEtW2MNRbg"
-            },
-            {
-              "id": "hAZN-kjoF1g_8GADdUEN_YctGPM6-7rtev-x12LLN7eScw4lQTY83Rqi2AndXgo0vGs",
-              "path_component": "play-lh.googleusercontent.com",
-              "url": "https://play-lh.googleusercontent.com/hAZN-kjoF1g_8GADdUEN_YctGPM6-7rtev-x12LLN7eScw4lQTY83Rqi2AndXgo0vGs"
-            },
-            {
-              "id": "f_sSVxwcBSqS3fTcf9GwR6QkaV7dKdLsyfrbeT67lCwiy4FFIQZNSnElWftShQCCqZ_L",
-              "path_component": "play-lh.googleusercontent.com",
-              "url": "https://play-lh.googleusercontent.com/f_sSVxwcBSqS3fTcf9GwR6QkaV7dKdLsyfrbeT67lCwiy4FFIQZNSnElWftShQCCqZ_L"
-            },
-            {
-              "id": "M5J8JyR2nW76FABJznyfQmcF9hVnX2OxW3Gb_vq8pVw9pKHqkOj9zqv62wCORJ9-Dxha",
-              "path_component": "play-lh.googleusercontent.com",
-              "url": "https://play-lh.googleusercontent.com/M5J8JyR2nW76FABJznyfQmcF9hVnX2OxW3Gb_vq8pVw9pKHqkOj9zqv62wCORJ9-Dxha"
-            },
-            {
-              "id": "Alay1OfjOflu5YVDxRHNENenL-tdoyJXXGWTpICsJTH0euY2SUyl_xfYlK1PGAX11A",
-              "path_component": "play-lh.googleusercontent.com",
-              "url": "https://play-lh.googleusercontent.com/Alay1OfjOflu5YVDxRHNENenL-tdoyJXXGWTpICsJTH0euY2SUyl_xfYlK1PGAX11A"
-            }
-          ],
-          "new_value": [
-            {
-              "id": "OaCUUnh2dqiBDaLouSfdQTxvYkQH4pUobsaEpptbI5E-yBSUu1U1rbvRZeZv5qR3T9vG",
-              "path_component": "play-lh.googleusercontent.com",
-              "url": "https://play-lh.googleusercontent.com/OaCUUnh2dqiBDaLouSfdQTxvYkQH4pUobsaEpptbI5E-yBSUu1U1rbvRZeZv5qR3T9vG"
-            },
-            {
-              "id": "F087OKn9x4L8WGYV8cNiPh9fhf8zGo7G0jGBdA73Adhu6a_NMkybONVhrk6S4MwvkQ",
-              "path_component": "play-lh.googleusercontent.com",
-              "url": "https://play-lh.googleusercontent.com/F087OKn9x4L8WGYV8cNiPh9fhf8zGo7G0jGBdA73Adhu6a_NMkybONVhrk6S4MwvkQ"
-            },
-            {
-              "id": "67fqur-jM9PzhMy_BPlnzhDVVMN1JwZE35IgZqiIdq3XS34rV4tPKwmOP6FXOsBnkAc",
-              "path_component": "play-lh.googleusercontent.com",
-              "url": "https://play-lh.googleusercontent.com/67fqur-jM9PzhMy_BPlnzhDVVMN1JwZE35IgZqiIdq3XS34rV4tPKwmOP6FXOsBnkAc"
-            },
-            {
-              "id": "roZZiOQqEo2tiRYy-R_WdbN_unUsqJvONj4MoQUU2LRyo2m6OW802n6dyPWRHyprwRRK",
-              "path_component": "play-lh.googleusercontent.com",
-              "url": "https://play-lh.googleusercontent.com/roZZiOQqEo2tiRYy-R_WdbN_unUsqJvONj4MoQUU2LRyo2m6OW802n6dyPWRHyprwRRK"
-            },
-            {
-              "id": "SiLRCIVDdENF3wfRAP3yJhg3PBQZurbfRDihztM4wiT81wP4nqrK767MBfUnaG6ZNJE",
-              "path_component": "play-lh.googleusercontent.com",
-              "url": "https://play-lh.googleusercontent.com/SiLRCIVDdENF3wfRAP3yJhg3PBQZurbfRDihztM4wiT81wP4nqrK767MBfUnaG6ZNJE"
-            },
-            {
-              "id": "yF6wPn3KKgw05XNoxtfgyCs8i0QkjclH9OtXtxeWvkrZdGrXqorl9y-6WdqkZNHi2yQ",
-              "path_component": "play-lh.googleusercontent.com",
-              "url": "https://play-lh.googleusercontent.com/yF6wPn3KKgw05XNoxtfgyCs8i0QkjclH9OtXtxeWvkrZdGrXqorl9y-6WdqkZNHi2yQ"
-            },
-            {
-              "id": "AphiRuMqQ6m6Pf2YtQM0wX555KnAzxe_uGxAis3IVmSozAUL8cPc-P9KEA-RSS5n8g",
-              "path_component": "play-lh.googleusercontent.com",
-              "url": "https://play-lh.googleusercontent.com/AphiRuMqQ6m6Pf2YtQM0wX555KnAzxe_uGxAis3IVmSozAUL8cPc-P9KEA-RSS5n8g"
-            }
-          ],
-          "version": "",
-          "is_ab_test": true,
-          "date": "2026-01-30"
+          "target": "version",
+          "old_value": "5.461.0",
+          "new_value": "5.462.0",
+          "old_release_notes": "",
+          "new_release_notes": "",
+          "version": "5.462.0",
+          "is_ab_test": null,
+          "date": "2026-04-13"
         },
         {
           "target": "screenshots",
@@ -2762,22 +2667,6 @@
         },
         {
           "target": "size",
-          "old_value": 40741921,
-          "new_value": 40835559,
-          "version": "5.449.0",
-          "is_ab_test": null,
-          "date": "2026-01-12"
-        },
-        {
-          "target": "size",
-          "old_value": 40835559,
-          "new_value": 41229670,
-          "version": "5.450.0",
-          "is_ab_test": null,
-          "date": "2026-01-19"
-        },
-        {
-          "target": "size",
           "old_value": 41229670,
           "new_value": 42951858,
           "version": "5.452.0",
@@ -2839,6 +2728,22 @@
           "version": "5.460.0",
           "is_ab_test": null,
           "date": "2026-03-30"
+        },
+        {
+          "target": "size",
+          "old_value": 47112133,
+          "new_value": 47182310,
+          "version": "5.461.0",
+          "is_ab_test": null,
+          "date": "2026-04-07"
+        },
+        {
+          "target": "size",
+          "old_value": 47182310,
+          "new_value": 47252616,
+          "version": "5.462.0",
+          "is_ab_test": null,
+          "date": "2026-04-13"
         }
       ]
     }
@@ -2850,8 +2755,8 @@
         "device": "android",
         "country": "us",
         "language": "us",
-        "start_date": "2026-01-08",
-        "end_date": "2026-04-08",
+        "start_date": "2026-01-31",
+        "end_date": "2026-05-01",
         "apps": [
           "com.bumble.app"
         ]

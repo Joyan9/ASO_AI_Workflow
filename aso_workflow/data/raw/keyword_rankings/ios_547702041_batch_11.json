@@ -1,586 +1,586 @@
 {
   "result": {
     "547702041": {
-      "dating events": {
+      "love online": {
         "rank": {
           "value": null,
-          "date": "2026-04-06",
+          "date": "2026-05-01",
           "effective_value": 501,
           "fetch_performed": true
         },
         "relevancy": {
-          "value": 51,
-          "date": "2026-04-10",
-          "effective_value": 51
+          "value": 37,
+          "date": "2026-05-01",
+          "effective_value": 37
         },
         "kei": {
-          "value": 15,
-          "date": "2026-04-10",
-          "effective_value": 15
+          "value": 22,
+          "date": "2026-05-01",
+          "effective_value": 22
         },
         "chance": {
           "value": 73,
-          "date": "2026-04-10",
+          "date": "2026-05-01",
           "effective_value": 73
         }
       },
-      "social events": {
+      "online love story": {
         "rank": {
           "value": null,
-          "date": "2026-04-05",
+          "date": "2026-05-01",
           "effective_value": 501,
           "fetch_performed": true
         },
         "relevancy": {
-          "value": 29,
-          "date": "2026-04-10",
-          "effective_value": 29
+          "value": 60,
+          "date": "2026-05-01",
+          "effective_value": 60
         },
         "kei": {
-          "value": 15,
-          "date": "2026-04-10",
-          "effective_value": 15
+          "value": 22,
+          "date": "2026-05-01",
+          "effective_value": 22
         },
         "chance": {
           "value": 73,
-          "date": "2026-04-10",
+          "date": "2026-05-01",
           "effective_value": 73
         }
       },
-      "meetup": {
+      "love story online": {
         "rank": {
-          "value": 5,
-          "date": "2026-04-10",
-          "effective_value": 5,
+          "value": null,
+          "date": "2026-05-01",
+          "effective_value": 501,
           "fetch_performed": true
         },
         "relevancy": {
-          "value": 88,
-          "date": "2026-04-10",
-          "effective_value": 88
+          "value": 58,
+          "date": "2026-05-01",
+          "effective_value": 58
         },
         "kei": {
+          "value": 22,
+          "date": "2026-05-01",
+          "effective_value": 22
+        },
+        "chance": {
+          "value": 73,
+          "date": "2026-05-01",
+          "effective_value": 73
+        }
+      },
+      "find love online": {
+        "rank": {
           "value": 98,
-          "date": "2026-04-10",
-          "effective_value": 98
-        },
-        "chance": {
-          "value": 86,
-          "date": "2026-04-10",
-          "effective_value": 86
-        }
-      },
-      "date ideas": {
-        "rank": {
-          "value": null,
-          "date": "2026-04-10",
-          "effective_value": 501,
+          "date": "2026-05-01",
+          "effective_value": 98,
           "fetch_performed": true
         },
         "relevancy": {
-          "value": 61,
-          "date": "2026-04-10",
-          "effective_value": 61
+          "value": 80,
+          "date": "2026-05-01",
+          "effective_value": 80
         },
         "kei": {
           "value": 22,
-          "date": "2026-04-10",
+          "date": "2026-05-01",
           "effective_value": 22
         },
         "chance": {
           "value": 73,
-          "date": "2026-04-10",
+          "date": "2026-05-01",
           "effective_value": 73
         }
       },
-      "conversation starters": {
+      "online dating tips": {
         "rank": {
-          "value": null,
-          "date": "2026-04-10",
-          "effective_value": 501,
+          "value": 141,
+          "date": "2026-05-01",
+          "effective_value": 141,
           "fetch_performed": true
         },
         "relevancy": {
-          "value": 44,
-          "date": "2026-04-10",
-          "effective_value": 44
+          "value": 97,
+          "date": "2026-05-01",
+          "effective_value": 97
         },
         "kei": {
           "value": 22,
-          "date": "2026-04-10",
+          "date": "2026-05-01",
           "effective_value": 22
         },
         "chance": {
           "value": 73,
-          "date": "2026-04-10",
+          "date": "2026-05-01",
           "effective_value": 73
         }
       }
     },
     "351331194": {
-      "dating events": {
+      "love online": {
+        "rank": {
+          "value": 56,
+          "date": "2026-05-01",
+          "effective_value": 56,
+          "fetch_performed": true
+        },
+        "relevancy": {
+          "value": 37,
+          "date": "2026-05-01",
+          "effective_value": 37
+        },
+        "kei": {
+          "value": 20,
+          "date": "2026-05-01",
+          "effective_value": 20
+        },
+        "chance": {
+          "value": 68,
+          "date": "2026-05-01",
+          "effective_value": 68
+        }
+      },
+      "online love story": {
         "rank": {
           "value": null,
-          "date": "2026-04-06",
+          "date": "2026-05-01",
           "effective_value": 501,
           "fetch_performed": true
         },
         "relevancy": {
-          "value": 52,
-          "date": "2026-04-10",
-          "effective_value": 52
-        },
-        "kei": {
-          "value": 15,
-          "date": "2026-04-10",
-          "effective_value": 15
-        },
-        "chance": {
-          "value": 73,
-          "date": "2026-04-10",
-          "effective_value": 73
-        }
-      },
-      "social events": {
-        "rank": {
-          "value": null,
-          "date": "2026-04-05",
-          "effective_value": 501,
-          "fetch_performed": true
-        },
-        "relevancy": {
-          "value": 29,
-          "date": "2026-04-10",
-          "effective_value": 29
-        },
-        "kei": {
-          "value": 8,
-          "date": "2026-04-10",
-          "effective_value": 8
-        },
-        "chance": {
-          "value": 43,
-          "date": "2026-04-10",
-          "effective_value": 43
-        }
-      },
-      "meetup": {
-        "rank": {
-          "value": 27,
-          "date": "2026-04-10",
-          "effective_value": 27,
-          "fetch_performed": true
-        },
-        "relevancy": {
-          "value": 90,
-          "date": "2026-04-10",
-          "effective_value": 90
-        },
-        "kei": {
-          "value": 43,
-          "date": "2026-04-10",
-          "effective_value": 43
-        },
-        "chance": {
-          "value": 27,
-          "date": "2026-04-10",
-          "effective_value": 27
-        }
-      },
-      "date ideas": {
-        "rank": {
-          "value": null,
-          "date": "2026-04-10",
-          "effective_value": 501,
-          "fetch_performed": true
-        },
-        "relevancy": {
-          "value": 62,
-          "date": "2026-04-10",
-          "effective_value": 62
+          "value": 59,
+          "date": "2026-05-01",
+          "effective_value": 59
         },
         "kei": {
           "value": 22,
-          "date": "2026-04-10",
+          "date": "2026-05-01",
           "effective_value": 22
         },
         "chance": {
           "value": 73,
-          "date": "2026-04-10",
+          "date": "2026-05-01",
           "effective_value": 73
         }
       },
-      "conversation starters": {
+      "love story online": {
         "rank": {
           "value": null,
-          "date": "2026-04-10",
-          "effective_value": 501,
-          "fetch_performed": true
-        },
-        "relevancy": {
-          "value": 46,
-          "date": "2026-04-10",
-          "effective_value": 46
-        },
-        "kei": {
-          "value": 22,
-          "date": "2026-04-10",
-          "effective_value": 22
-        },
-        "chance": {
-          "value": 73,
-          "date": "2026-04-10",
-          "effective_value": 73
-        }
-      }
-    },
-    "930441707": {
-      "dating events": {
-        "rank": {
-          "value": null,
-          "date": "2026-04-06",
-          "effective_value": 501,
-          "fetch_performed": true
-        },
-        "relevancy": {
-          "value": 48,
-          "date": "2026-04-10",
-          "effective_value": 48
-        },
-        "kei": {
-          "value": 15,
-          "date": "2026-04-10",
-          "effective_value": 15
-        },
-        "chance": {
-          "value": 73,
-          "date": "2026-04-10",
-          "effective_value": 73
-        }
-      },
-      "social events": {
-        "rank": {
-          "value": null,
-          "date": "2026-04-05",
-          "effective_value": 501,
-          "fetch_performed": true
-        },
-        "relevancy": {
-          "value": 25,
-          "date": "2026-04-10",
-          "effective_value": 25
-        },
-        "kei": {
-          "value": 15,
-          "date": "2026-04-10",
-          "effective_value": 15
-        },
-        "chance": {
-          "value": 73,
-          "date": "2026-04-10",
-          "effective_value": 73
-        }
-      },
-      "meetup": {
-        "rank": {
-          "value": 8,
-          "date": "2026-04-10",
-          "effective_value": 8,
-          "fetch_performed": true
-        },
-        "relevancy": {
-          "value": 86,
-          "date": "2026-04-10",
-          "effective_value": 86
-        },
-        "kei": {
-          "value": 90,
-          "date": "2026-04-10",
-          "effective_value": 90
-        },
-        "chance": {
-          "value": 78,
-          "date": "2026-04-10",
-          "effective_value": 78
-        }
-      },
-      "date ideas": {
-        "rank": {
-          "value": null,
-          "date": "2026-04-10",
+          "date": "2026-05-01",
           "effective_value": 501,
           "fetch_performed": true
         },
         "relevancy": {
           "value": 57,
-          "date": "2026-04-10",
+          "date": "2026-05-01",
           "effective_value": 57
         },
         "kei": {
           "value": 22,
-          "date": "2026-04-10",
+          "date": "2026-05-01",
           "effective_value": 22
         },
         "chance": {
           "value": 73,
-          "date": "2026-04-10",
+          "date": "2026-05-01",
           "effective_value": 73
         }
       },
-      "conversation starters": {
+      "find love online": {
         "rank": {
-          "value": null,
-          "date": "2026-04-10",
-          "effective_value": 501,
+          "value": 20,
+          "date": "2026-05-01",
+          "effective_value": 20,
           "fetch_performed": true
         },
         "relevancy": {
-          "value": 43,
-          "date": "2026-04-10",
-          "effective_value": 43
+          "value": 82,
+          "date": "2026-05-01",
+          "effective_value": 82
+        },
+        "kei": {
+          "value": 21,
+          "date": "2026-05-01",
+          "effective_value": 21
+        },
+        "chance": {
+          "value": 71,
+          "date": "2026-05-01",
+          "effective_value": 71
+        }
+      },
+      "online dating tips": {
+        "rank": {
+          "value": 17,
+          "date": "2026-05-01",
+          "effective_value": 17,
+          "fetch_performed": true
+        },
+        "relevancy": {
+          "value": 98,
+          "date": "2026-05-01",
+          "effective_value": 98
         },
         "kei": {
           "value": 22,
-          "date": "2026-04-10",
+          "date": "2026-05-01",
           "effective_value": 22
         },
         "chance": {
-          "value": 73,
-          "date": "2026-04-10",
-          "effective_value": 73
+          "value": 72,
+          "date": "2026-05-01",
+          "effective_value": 72
         }
       }
     },
-    "338701294": {
-      "dating events": {
+    "489185828": {
+      "love online": {
         "rank": {
-          "value": 27,
-          "date": "2026-04-06",
-          "effective_value": 27,
+          "value": 44,
+          "date": "2026-05-01",
+          "effective_value": 44,
           "fetch_performed": true
         },
         "relevancy": {
-          "value": 64,
-          "date": "2026-04-10",
-          "effective_value": 64
+          "value": 37,
+          "date": "2026-05-01",
+          "effective_value": 37
         },
         "kei": {
-          "value": 15,
-          "date": "2026-04-10",
-          "effective_value": 15
+          "value": 13,
+          "date": "2026-05-01",
+          "effective_value": 13
         },
         "chance": {
-          "value": 70,
-          "date": "2026-04-10",
-          "effective_value": 70
+          "value": 42,
+          "date": "2026-05-01",
+          "effective_value": 42
         }
       },
-      "social events": {
+      "online love story": {
         "rank": {
           "value": null,
-          "date": "2026-04-05",
+          "date": "2026-05-01",
           "effective_value": 501,
           "fetch_performed": true
         },
         "relevancy": {
-          "value": 34,
-          "date": "2026-04-10",
-          "effective_value": 34
+          "value": 66,
+          "date": "2026-05-01",
+          "effective_value": 66
         },
         "kei": {
-          "value": 7,
-          "date": "2026-04-10",
-          "effective_value": 7
+          "value": 17,
+          "date": "2026-05-01",
+          "effective_value": 17
         },
         "chance": {
-          "value": 38,
-          "date": "2026-04-10",
-          "effective_value": 38
+          "value": 58,
+          "date": "2026-05-01",
+          "effective_value": 58
         }
       },
-      "meetup": {
-        "rank": {
-          "value": 40,
-          "date": "2026-04-10",
-          "effective_value": 40,
-          "fetch_performed": true
-        },
-        "relevancy": {
-          "value": 87,
-          "date": "2026-04-10",
-          "effective_value": 87
-        },
-        "kei": {
-          "value": 38,
-          "date": "2026-04-10",
-          "effective_value": 38
-        },
-        "chance": {
-          "value": 22,
-          "date": "2026-04-10",
-          "effective_value": 22
-        }
-      },
-      "date ideas": {
+      "love story online": {
         "rank": {
           "value": null,
-          "date": "2026-04-10",
+          "date": "2026-05-01",
           "effective_value": 501,
           "fetch_performed": true
         },
         "relevancy": {
-          "value": 77,
-          "date": "2026-04-10",
-          "effective_value": 77
+          "value": 65,
+          "date": "2026-05-01",
+          "effective_value": 65
         },
         "kei": {
-          "value": 22,
-          "date": "2026-04-10",
-          "effective_value": 22
+          "value": 17,
+          "date": "2026-05-01",
+          "effective_value": 17
         },
         "chance": {
-          "value": 73,
-          "date": "2026-04-10",
-          "effective_value": 73
+          "value": 58,
+          "date": "2026-05-01",
+          "effective_value": 58
         }
       },
-      "conversation starters": {
-        "rank": {
-          "value": null,
-          "date": "2026-04-10",
-          "effective_value": 501,
-          "fetch_performed": true
-        },
-        "relevancy": {
-          "value": 59,
-          "date": "2026-04-10",
-          "effective_value": 59
-        },
-        "kei": {
-          "value": 22,
-          "date": "2026-04-10",
-          "effective_value": 22
-        },
-        "chance": {
-          "value": 73,
-          "date": "2026-04-10",
-          "effective_value": 73
-        }
-      }
-    },
-    "595287172": {
-      "dating events": {
-        "rank": {
-          "value": null,
-          "date": "2026-04-06",
-          "effective_value": 501,
-          "fetch_performed": true
-        },
-        "relevancy": {
-          "value": 59,
-          "date": "2026-04-10",
-          "effective_value": 59
-        },
-        "kei": {
-          "value": 15,
-          "date": "2026-04-10",
-          "effective_value": 15
-        },
-        "chance": {
-          "value": 73,
-          "date": "2026-04-10",
-          "effective_value": 73
-        }
-      },
-      "social events": {
-        "rank": {
-          "value": null,
-          "date": "2026-04-05",
-          "effective_value": 501,
-          "fetch_performed": true
-        },
-        "relevancy": {
-          "value": 36,
-          "date": "2026-04-10",
-          "effective_value": 36
-        },
-        "kei": {
-          "value": 15,
-          "date": "2026-04-10",
-          "effective_value": 15
-        },
-        "chance": {
-          "value": 73,
-          "date": "2026-04-10",
-          "effective_value": 73
-        }
-      },
-      "meetup": {
+      "find love online": {
         "rank": {
           "value": 16,
-          "date": "2026-04-10",
+          "date": "2026-05-01",
           "effective_value": 16,
           "fetch_performed": true
         },
         "relevancy": {
           "value": 88,
-          "date": "2026-04-10",
+          "date": "2026-05-01",
           "effective_value": 88
         },
         "kei": {
-          "value": 86,
-          "date": "2026-04-10",
-          "effective_value": 86
+          "value": 14,
+          "date": "2026-05-01",
+          "effective_value": 14
+        },
+        "chance": {
+          "value": 45,
+          "date": "2026-05-01",
+          "effective_value": 45
+        }
+      },
+      "online dating tips": {
+        "rank": {
+          "value": 6,
+          "date": "2026-05-01",
+          "effective_value": 6,
+          "fetch_performed": true
+        },
+        "relevancy": {
+          "value": 99,
+          "date": "2026-05-01",
+          "effective_value": 99
+        },
+        "kei": {
+          "value": 25,
+          "date": "2026-05-01",
+          "effective_value": 25
+        },
+        "chance": {
+          "value": 82,
+          "date": "2026-05-01",
+          "effective_value": 82
+        }
+      }
+    },
+    "338701294": {
+      "love online": {
+        "rank": {
+          "value": 14,
+          "date": "2026-05-01",
+          "effective_value": 14,
+          "fetch_performed": true
+        },
+        "relevancy": {
+          "value": 27,
+          "date": "2026-05-01",
+          "effective_value": 27
+        },
+        "kei": {
+          "value": 19,
+          "date": "2026-05-01",
+          "effective_value": 19
+        },
+        "chance": {
+          "value": 63,
+          "date": "2026-05-01",
+          "effective_value": 63
+        }
+      },
+      "online love story": {
+        "rank": {
+          "value": null,
+          "date": "2026-05-01",
+          "effective_value": 501,
+          "fetch_performed": true
+        },
+        "relevancy": {
+          "value": 66,
+          "date": "2026-05-01",
+          "effective_value": 66
+        },
+        "kei": {
+          "value": 22,
+          "date": "2026-05-01",
+          "effective_value": 22
         },
         "chance": {
           "value": 73,
-          "date": "2026-04-10",
+          "date": "2026-05-01",
           "effective_value": 73
         }
       },
-      "date ideas": {
+      "love story online": {
         "rank": {
           "value": null,
-          "date": "2026-04-10",
+          "date": "2026-05-01",
+          "effective_value": 501,
+          "fetch_performed": true
+        },
+        "relevancy": {
+          "value": 64,
+          "date": "2026-05-01",
+          "effective_value": 64
+        },
+        "kei": {
+          "value": 22,
+          "date": "2026-05-01",
+          "effective_value": 22
+        },
+        "chance": {
+          "value": 73,
+          "date": "2026-05-01",
+          "effective_value": 73
+        }
+      },
+      "find love online": {
+        "rank": {
+          "value": 3,
+          "date": "2026-05-01",
+          "effective_value": 3,
+          "fetch_performed": true
+        },
+        "relevancy": {
+          "value": 90,
+          "date": "2026-05-01",
+          "effective_value": 90
+        },
+        "kei": {
+          "value": 28,
+          "date": "2026-05-01",
+          "effective_value": 28
+        },
+        "chance": {
+          "value": 94,
+          "date": "2026-05-01",
+          "effective_value": 94
+        }
+      },
+      "online dating tips": {
+        "rank": {
+          "value": 8,
+          "date": "2026-05-01",
+          "effective_value": 8,
+          "fetch_performed": true
+        },
+        "relevancy": {
+          "value": 99,
+          "date": "2026-05-01",
+          "effective_value": 99
+        },
+        "kei": {
+          "value": 23,
+          "date": "2026-05-01",
+          "effective_value": 23
+        },
+        "chance": {
+          "value": 76,
+          "date": "2026-05-01",
+          "effective_value": 76
+        }
+      }
+    },
+    "601174087": {
+      "love online": {
+        "rank": {
+          "value": null,
+          "date": "2026-05-01",
+          "effective_value": 501,
+          "fetch_performed": true
+        },
+        "relevancy": {
+          "value": 37,
+          "date": "2026-05-01",
+          "effective_value": 37
+        },
+        "kei": {
+          "value": 22,
+          "date": "2026-05-01",
+          "effective_value": 22
+        },
+        "chance": {
+          "value": 73,
+          "date": "2026-05-01",
+          "effective_value": 73
+        }
+      },
+      "online love story": {
+        "rank": {
+          "value": null,
+          "date": "2026-05-01",
+          "effective_value": 501,
+          "fetch_performed": true
+        },
+        "relevancy": {
+          "value": 69,
+          "date": "2026-05-01",
+          "effective_value": 69
+        },
+        "kei": {
+          "value": 22,
+          "date": "2026-05-01",
+          "effective_value": 22
+        },
+        "chance": {
+          "value": 73,
+          "date": "2026-05-01",
+          "effective_value": 73
+        }
+      },
+      "love story online": {
+        "rank": {
+          "value": null,
+          "date": "2026-05-01",
           "effective_value": 501,
           "fetch_performed": true
         },
         "relevancy": {
           "value": 68,
-          "date": "2026-04-10",
+          "date": "2026-05-01",
           "effective_value": 68
         },
         "kei": {
           "value": 22,
-          "date": "2026-04-10",
+          "date": "2026-05-01",
           "effective_value": 22
         },
         "chance": {
           "value": 73,
-          "date": "2026-04-10",
+          "date": "2026-05-01",
           "effective_value": 73
         }
       },
-      "conversation starters": {
+      "find love online": {
         "rank": {
           "value": null,
-          "date": "2026-04-10",
+          "date": "2026-05-01",
           "effective_value": 501,
           "fetch_performed": true
         },
         "relevancy": {
-          "value": 49,
-          "date": "2026-04-10",
-          "effective_value": 49
+          "value": 83,
+          "date": "2026-05-01",
+          "effective_value": 83
         },
         "kei": {
           "value": 22,
-          "date": "2026-04-10",
+          "date": "2026-05-01",
           "effective_value": 22
         },
         "chance": {
           "value": 73,
-          "date": "2026-04-10",
+          "date": "2026-05-01",
+          "effective_value": 73
+        }
+      },
+      "online dating tips": {
+        "rank": {
+          "value": null,
+          "date": "2026-05-01",
+          "effective_value": 501,
+          "fetch_performed": true
+        },
+        "relevancy": {
+          "value": 98,
+          "date": "2026-05-01",
+          "effective_value": 98
+        },
+        "kei": {
+          "value": 22,
+          "date": "2026-05-01",
+          "effective_value": 22
+        },
+        "chance": {
+          "value": 73,
+          "date": "2026-05-01",
           "effective_value": 73
         }
       }
@@ -596,9 +596,9 @@
         "apps": [
           "547702041",
           "351331194",
-          "930441707",
+          "489185828",
           "338701294",
-          "595287172"
+          "601174087"
         ],
         "metrics": [
           "rank",
@@ -607,11 +607,11 @@
           "chance"
         ],
         "keywords": [
-          "dating events",
-          "social events",
-          "meetup",
-          "date ideas",
-          "conversation starters"
+          "love online",
+          "online love story",
+          "love story online",
+          "find love online",
+          "online dating tips"
         ]
       },
       "cost": 1001,

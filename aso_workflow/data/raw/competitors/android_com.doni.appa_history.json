@@ -4,36 +4,6 @@
       "changes": [
         {
           "target": "version",
-          "old_value": "1.14.1",
-          "new_value": "1.14.2",
-          "old_release_notes": "bugfix",
-          "new_release_notes": "bugfix",
-          "version": "1.14.2",
-          "is_ab_test": null,
-          "date": "2026-01-09"
-        },
-        {
-          "target": "version",
-          "old_value": "1.14.2",
-          "new_value": "1.14.4",
-          "old_release_notes": "bugfix",
-          "new_release_notes": null,
-          "version": "1.14.4",
-          "is_ab_test": null,
-          "date": "2026-01-22"
-        },
-        {
-          "target": "version",
-          "old_value": "1.14.4",
-          "new_value": "1.14.5",
-          "old_release_notes": null,
-          "new_release_notes": "bugfix",
-          "version": "1.14.5",
-          "is_ab_test": null,
-          "date": "2026-01-23"
-        },
-        {
-          "target": "version",
           "old_value": "1.14.5",
           "new_value": "1.14.6",
           "old_release_notes": "bugfix",
@@ -101,6 +71,26 @@
           "version": "1.15.5",
           "is_ab_test": null,
           "date": "2026-03-31"
+        },
+        {
+          "target": "version",
+          "old_value": "1.15.5",
+          "new_value": "1.15.6",
+          "old_release_notes": "bug fix",
+          "new_release_notes": null,
+          "version": "1.15.6",
+          "is_ab_test": null,
+          "date": "2026-04-10"
+        },
+        {
+          "target": "version",
+          "old_value": "1.15.6",
+          "new_value": "1.15.8",
+          "old_release_notes": null,
+          "new_release_notes": "",
+          "version": "1.15.8",
+          "is_ab_test": null,
+          "date": "2026-04-16"
         },
         {
           "target": "screenshots",
@@ -343,20 +333,64 @@
           "date": "2026-04-04"
         },
         {
-          "target": "size",
-          "old_value": 41747653,
-          "new_value": 41732463,
-          "version": "1.14.2",
-          "is_ab_test": null,
-          "date": "2026-01-09"
-        },
-        {
-          "target": "size",
-          "old_value": 41732463,
-          "new_value": 41684992,
-          "version": "1.14.5",
-          "is_ab_test": null,
-          "date": "2026-01-23"
+          "target": "screenshots",
+          "old_value": [
+            {
+              "id": "daUV-y81TrO_y-oCsILOhGw6vn-0rrb79K9h-Pht2jzIxGM8rOnsCiRznb-aNs7OW768dL7BWULMfKrQj4qh",
+              "path_component": "play-lh.googleusercontent.com",
+              "url": "https://play-lh.googleusercontent.com/daUV-y81TrO_y-oCsILOhGw6vn-0rrb79K9h-Pht2jzIxGM8rOnsCiRznb-aNs7OW768dL7BWULMfKrQj4qh"
+            },
+            {
+              "id": "11T-X5hiNPdK2MKJ4fpXP3MRgVTuiwX2pGwwcEhIrbGq2X_k7WtL-w1uHlqwioJwMwzMvcT_BnRH1Pq_LNSvzg",
+              "path_component": "play-lh.googleusercontent.com",
+              "url": "https://play-lh.googleusercontent.com/11T-X5hiNPdK2MKJ4fpXP3MRgVTuiwX2pGwwcEhIrbGq2X_k7WtL-w1uHlqwioJwMwzMvcT_BnRH1Pq_LNSvzg"
+            },
+            {
+              "id": "Qmp1QHGTgJSj8TaGa_6Ku3GOjp63cJK_XT9CZO8MR5LBFJrgL1iCvh-sGjKeEWzaErmrqqVi3zN9EQ9AS7BsSA",
+              "path_component": "play-lh.googleusercontent.com",
+              "url": "https://play-lh.googleusercontent.com/Qmp1QHGTgJSj8TaGa_6Ku3GOjp63cJK_XT9CZO8MR5LBFJrgL1iCvh-sGjKeEWzaErmrqqVi3zN9EQ9AS7BsSA"
+            },
+            {
+              "id": "Z5yTUA47fud7EQk7g3dsI3n8V2hovMdYGXnqYE-xp0ZlEmD9aVUY5QWllKQDn-n9DBhyoyP7d-79lhRsDhRAOn8",
+              "path_component": "play-lh.googleusercontent.com",
+              "url": "https://play-lh.googleusercontent.com/Z5yTUA47fud7EQk7g3dsI3n8V2hovMdYGXnqYE-xp0ZlEmD9aVUY5QWllKQDn-n9DBhyoyP7d-79lhRsDhRAOn8"
+            },
+            {
+              "id": "S3laVKfGDy6oAv9NasCsbMWNMZzl_UBM_2tL3bG4Qab0SE5mS6alHSNYlA6wJ1Jcc-MCTrEngnxdrBGcWwOuQg",
+              "path_component": "play-lh.googleusercontent.com",
+              "url": "https://play-lh.googleusercontent.com/S3laVKfGDy6oAv9NasCsbMWNMZzl_UBM_2tL3bG4Qab0SE5mS6alHSNYlA6wJ1Jcc-MCTrEngnxdrBGcWwOuQg"
+            }
+          ],
+          "new_value": [
+            {
+              "id": "Az_-SP2DSu8MKw7-1TJ0PhpHitbydUu3Z3hJ7KlLl1p2WwozPAY6P_L1wabW81X7A1w",
+              "path_component": "play-lh.googleusercontent.com",
+              "url": "https://play-lh.googleusercontent.com/Az_-SP2DSu8MKw7-1TJ0PhpHitbydUu3Z3hJ7KlLl1p2WwozPAY6P_L1wabW81X7A1w"
+            },
+            {
+              "id": "ZhGQmAMeuncJIZ_ZnU5oLBF31Q_uNRwqnffshc9nbdQCugU8pwT_dB8-QkRWe32P-H8",
+              "path_component": "play-lh.googleusercontent.com",
+              "url": "https://play-lh.googleusercontent.com/ZhGQmAMeuncJIZ_ZnU5oLBF31Q_uNRwqnffshc9nbdQCugU8pwT_dB8-QkRWe32P-H8"
+            },
+            {
+              "id": "SSyuCSk4wxHAXmDfpzkz6g13kk9wwLneCIvv7XJxKGvRB8MownHcLtbmt20h9RXSng",
+              "path_component": "play-lh.googleusercontent.com",
+              "url": "https://play-lh.googleusercontent.com/SSyuCSk4wxHAXmDfpzkz6g13kk9wwLneCIvv7XJxKGvRB8MownHcLtbmt20h9RXSng"
+            },
+            {
+              "id": "wE_swP5vK1RqGk1qoHgCeROe18ZYfacVShNPLfWyH3jdfjXXoS690ESpAemqJu6hiUI",
+              "path_component": "play-lh.googleusercontent.com",
+              "url": "https://play-lh.googleusercontent.com/wE_swP5vK1RqGk1qoHgCeROe18ZYfacVShNPLfWyH3jdfjXXoS690ESpAemqJu6hiUI"
+            },
+            {
+              "id": "IhvspyJWhp4kXrN1qaZ_ani_wLYiQwLbsb3tqOP27kv_f5jvmM1UMItS7rW7R2kQ8TM",
+              "path_component": "play-lh.googleusercontent.com",
+              "url": "https://play-lh.googleusercontent.com/IhvspyJWhp4kXrN1qaZ_ani_wLYiQwLbsb3tqOP27kv_f5jvmM1UMItS7rW7R2kQ8TM"
+            }
+          ],
+          "version": "",
+          "is_ab_test": true,
+          "date": "2026-04-26"
         },
         {
           "target": "size",
@@ -389,6 +423,14 @@
           "version": "1.15.5",
           "is_ab_test": null,
           "date": "2026-03-31"
+        },
+        {
+          "target": "size",
+          "old_value": 41866753,
+          "new_value": 41959922,
+          "version": "1.15.8",
+          "is_ab_test": null,
+          "date": "2026-04-16"
         }
       ]
     }
@@ -400,8 +442,8 @@
         "device": "android",
         "country": "us",
         "language": "us",
-        "start_date": "2026-01-08",
-        "end_date": "2026-04-08",
+        "start_date": "2026-01-31",
+        "end_date": "2026-05-01",
         "apps": [
           "com.doni.appa"
         ]

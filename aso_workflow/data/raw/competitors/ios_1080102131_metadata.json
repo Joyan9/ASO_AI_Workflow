@@ -11,50 +11,50 @@
           6012,
           6005
         ],
-        "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/55/a7/a1/55a7a1c7-d3d8-a2af-a3bc-c018ddfb9bb6/AppIcon-0-1x_U007epad-0-1-0-85-220-0.png/1024x1024bb.jpg",
+        "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/94/66/8b/94668b4b-d148-661b-74f5-5e5f8eaea034/AppIcon-0-1x_U007epad-0-1-0-85-220-0.png/1024x1024bb.jpg",
         "screenshots": {
           "iphone_d74": [
             {
-              "id": "f3b015a9-c936-7c4b-3864-31cac2ec2444",
+              "id": "a5e7719b-30f6-7103-1d21-846083480f08",
               "hash": "1731145592214043224631473895900465973147061550846453552854654599358025998",
               "filename": "6.9-01.png/1320x2868bb.jpg",
               "path_component": "image/thumb/PurpleSource221/v4",
-              "url": "https://is4-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/f3/b0/15/f3b015a9-c936-7c4b-3864-31cac2ec2444/6.9-01.png/1320x2868bb.jpg"
+              "url": "https://is2-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/a5/e7/71/a5e7719b-30f6-7103-1d21-846083480f08/6.9-01.png/1320x2868bb.jpg"
             },
             {
-              "id": "27de0785-5d26-65ae-a22b-2664951f76f1",
+              "id": "5e544c2a-e931-04da-9da8-fd8aff2aedae",
               "hash": "203617591806905238093723788308634310167915879746220945021243499879383055920",
               "filename": "6.9-02.png/1320x2868bb.jpg",
               "path_component": "image/thumb/PurpleSource221/v4",
-              "url": "https://is2-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/27/de/07/27de0785-5d26-65ae-a22b-2664951f76f1/6.9-02.png/1320x2868bb.jpg"
+              "url": "https://is3-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/5e/54/4c/5e544c2a-e931-04da-9da8-fd8aff2aedae/6.9-02.png/1320x2868bb.jpg"
             },
             {
-              "id": "e8379738-797c-d2dc-54f7-453b1c4647bc",
+              "id": "9fe309dc-c2f0-622f-4788-de471027533f",
               "hash": "19650050294541440705630971632222058957110589323677590156138402544507952322",
               "filename": "6.9-03.png/1320x2868bb.jpg",
               "path_component": "image/thumb/PurpleSource211/v4",
-              "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/e8/37/97/e8379738-797c-d2dc-54f7-453b1c4647bc/6.9-03.png/1320x2868bb.jpg"
+              "url": "https://is2-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/9f/e3/09/9fe309dc-c2f0-622f-4788-de471027533f/6.9-03.png/1320x2868bb.jpg"
             },
             {
-              "id": "5a295cd3-f827-6960-95a4-269d998343c4",
+              "id": "e397ccf8-0391-6f13-4370-cd7e75652a47",
               "hash": "905090729286493214684968804238792843320431316869793988328330570657968423427",
               "filename": "6.9-04.png/1320x2868bb.jpg",
               "path_component": "image/thumb/PurpleSource221/v4",
-              "url": "https://is5-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/5a/29/5c/5a295cd3-f827-6960-95a4-269d998343c4/6.9-04.png/1320x2868bb.jpg"
+              "url": "https://is4-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/e3/97/cc/e397ccf8-0391-6f13-4370-cd7e75652a47/6.9-04.png/1320x2868bb.jpg"
             },
             {
-              "id": "303a1e75-168e-ec36-cf6b-0b456ac5b106",
+              "id": "ac0b4adc-015c-fab7-de85-cf5c3fbac6e6",
               "hash": "226104404876256419158249133404418913168629770999122387599358553327024474364",
               "filename": "6.9-05.png/1320x2868bb.jpg",
               "path_component": "image/thumb/PurpleSource221/v4",
-              "url": "https://is5-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/30/3a/1e/303a1e75-168e-ec36-cf6b-0b456ac5b106/6.9-05.png/1320x2868bb.jpg"
+              "url": "https://is4-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/ac/0b/4a/ac0b4adc-015c-fab7-de85-cf5c3fbac6e6/6.9-05.png/1320x2868bb.jpg"
             },
             {
-              "id": "4ee2d202-019d-c615-2b2c-9bc69653ee2a",
+              "id": "00dfc9c2-f5ed-c059-2db0-211298c2bdcd",
               "hash": "28079591054840493843062982052166123477995751929799215132858929883396027974156",
               "filename": "6.9-06.png/1320x2868bb.jpg",
               "path_component": "image/thumb/PurpleSource221/v4",
-              "url": "https://is3-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/4e/e2/d2/4ee2d202-019d-c615-2b2c-9bc69653ee2a/6.9-06.png/1320x2868bb.jpg"
+              "url": "https://is3-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/00/df/c9/00dfc9c2-f5ed-c059-2db0-211298c2bdcd/6.9-06.png/1320x2868bb.jpg"
             }
           ],
           "iphone": [],
@@ -72,7 +72,7 @@
         "videos": {
           "iphone_d74": []
         },
-        "size": 62439424,
+        "size": 62480384,
         "rating": {
           "average": 4.4
         },
@@ -82,6 +82,28 @@
         },
         "price": "",
         "versions": [
+          {
+            "version": "2.8.3",
+            "release_notes": "Performance updates!\nAny questions or ideas? Contact support@justbewild.com",
+            "has_game_center": false,
+            "game_controller_information": {
+              "required": false,
+              "supported": false,
+              "requirement_label": null
+            },
+            "release_date": "2026-04-22T00:00:00.000Z"
+          },
+          {
+            "version": "2.8.2",
+            "release_notes": "Performance updates!\nAny questions or ideas? Contact support@justbewild.com",
+            "has_game_center": false,
+            "game_controller_information": {
+              "required": false,
+              "supported": false,
+              "requirement_label": null
+            },
+            "release_date": "2026-04-13T00:00:00.000Z"
+          },
           {
             "version": "2.8.1",
             "release_notes": "Performance updates!\nAny questions or ideas? Contact support@justbewild.com",
@@ -114,42 +136,20 @@
               "requirement_label": null
             },
             "release_date": "2026-02-27T00:00:00.000Z"
-          },
-          {
-            "version": "2.7.8",
-            "release_notes": "Performance updates!\nAny questions or ideas? Contact support@justbewild.com",
-            "has_game_center": false,
-            "game_controller_information": {
-              "required": false,
-              "supported": false,
-              "requirement_label": null
-            },
-            "release_date": "2026-02-10T00:00:00.000Z"
-          },
-          {
-            "version": "2.7.7",
-            "release_notes": "Performance updates!\nAny questions or ideas? Contact support@justbewild.com",
-            "has_game_center": false,
-            "game_controller_information": {
-              "required": false,
-              "supported": false,
-              "requirement_label": null
-            },
-            "release_date": "2026-01-29T00:00:00.000Z"
           }
         ],
         "release_date": "2016-03-09T00:00:00.000Z",
         "customers_also_bought": [
-          "1042814349",
+          "1454483874",
+          "1462163015",
+          "1595390736",
+          "1501847219",
+          "1472984800",
+          "1470186592",
+          "1478264564",
+          "1528941732",
           "601174087",
-          "887914690",
-          "1568563314",
-          "595287172",
-          "690661663",
-          "1437284371",
-          "893653132",
-          "573328837",
-          "1528941732"
+          "1328695473"
         ],
         "dna": {
           "class_id": 10018,

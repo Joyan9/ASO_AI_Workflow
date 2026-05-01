@@ -1,470 +1,470 @@
 {
   "result": {
-    "601174087": {
-      "hobby based matching": {
+    "1042814349": {
+      "long term relationship": {
         "rank": {
           "value": null,
-          "date": "2026-04-10",
+          "date": "2026-05-01",
           "effective_value": 501,
           "fetch_performed": true
         },
         "relevancy": {
-          "value": 75,
-          "date": "2026-04-10",
-          "effective_value": 75
+          "value": 81,
+          "date": "2026-05-01",
+          "effective_value": 81
         },
         "kei": {
-          "value": 22,
-          "date": "2026-04-10",
-          "effective_value": 22
+          "value": 15,
+          "date": "2026-05-01",
+          "effective_value": 15
         },
         "chance": {
           "value": 73,
-          "date": "2026-04-10",
+          "date": "2026-05-01",
           "effective_value": 73
         }
       },
-      "location based matching": {
+      "casual dating": {
         "rank": {
-          "value": null,
-          "date": "2026-04-10",
-          "effective_value": 501,
+          "value": 2,
+          "date": "2026-05-01",
+          "effective_value": 2,
           "fetch_performed": true
         },
         "relevancy": {
-          "value": 32,
-          "date": "2026-04-10",
-          "effective_value": 32
+          "value": 93,
+          "date": "2026-05-01",
+          "effective_value": 93
         },
         "kei": {
-          "value": 22,
-          "date": "2026-04-10",
-          "effective_value": 22
+          "value": 29,
+          "date": "2026-05-01",
+          "effective_value": 29
         },
         "chance": {
-          "value": 73,
-          "date": "2026-04-10",
-          "effective_value": 73
-        }
-      },
-      "age based matching": {
-        "rank": {
-          "value": null,
-          "date": "2026-04-10",
-          "effective_value": 501,
-          "fetch_performed": true
-        },
-        "relevancy": {
           "value": 95,
-          "date": "2026-04-10",
+          "date": "2026-05-01",
           "effective_value": 95
+        }
+      },
+      "serious relationship": {
+        "rank": {
+          "value": null,
+          "date": "2026-05-01",
+          "effective_value": 501,
+          "fetch_performed": true
+        },
+        "relevancy": {
+          "value": 91,
+          "date": "2026-05-01",
+          "effective_value": 91
         },
         "kei": {
-          "value": 22,
-          "date": "2026-04-10",
-          "effective_value": 22
+          "value": 15,
+          "date": "2026-05-01",
+          "effective_value": 15
         },
         "chance": {
           "value": 73,
-          "date": "2026-04-10",
+          "date": "2026-05-01",
           "effective_value": 73
         }
       },
-      "gender based matching": {
+      "relationship help": {
         "rank": {
           "value": null,
-          "date": "2026-04-10",
+          "date": "2026-05-01",
           "effective_value": 501,
           "fetch_performed": true
         },
         "relevancy": {
-          "value": 55,
-          "date": "2026-04-10",
-          "effective_value": 55
+          "value": 71,
+          "date": "2026-05-01",
+          "effective_value": 71
         },
         "kei": {
           "value": 22,
-          "date": "2026-04-10",
+          "date": "2026-05-01",
           "effective_value": 22
         },
         "chance": {
           "value": 73,
-          "date": "2026-04-10",
+          "date": "2026-05-01",
           "effective_value": 73
         }
       },
-      "sexual orientation based matching": {
+      "love help": {
         "rank": {
           "value": null,
-          "date": "2026-04-10",
+          "date": "2026-05-01",
           "effective_value": 501,
           "fetch_performed": true
         },
         "relevancy": {
-          "value": 98,
-          "date": "2026-04-10",
-          "effective_value": 98
-        },
-        "kei": {
-          "value": 21,
-          "date": "2026-04-10",
-          "effective_value": 21
-        },
-        "chance": {
-          "value": 70,
-          "date": "2026-04-10",
-          "effective_value": 70
-        }
-      }
-    },
-    "1250946975": {
-      "hobby based matching": {
-        "rank": {
-          "value": null,
-          "date": "2026-04-10",
-          "effective_value": 501,
-          "fetch_performed": true
-        },
-        "relevancy": {
-          "value": 76,
-          "date": "2026-04-10",
-          "effective_value": 76
-        },
-        "kei": {
-          "value": 22,
-          "date": "2026-04-10",
-          "effective_value": 22
-        },
-        "chance": {
-          "value": 73,
-          "date": "2026-04-10",
-          "effective_value": 73
-        }
-      },
-      "location based matching": {
-        "rank": {
-          "value": null,
-          "date": "2026-04-10",
-          "effective_value": 501,
-          "fetch_performed": true
-        },
-        "relevancy": {
-          "value": 37,
-          "date": "2026-04-10",
-          "effective_value": 37
-        },
-        "kei": {
-          "value": 22,
-          "date": "2026-04-10",
-          "effective_value": 22
-        },
-        "chance": {
-          "value": 73,
-          "date": "2026-04-10",
-          "effective_value": 73
-        }
-      },
-      "age based matching": {
-        "rank": {
-          "value": null,
-          "date": "2026-04-10",
-          "effective_value": 501,
-          "fetch_performed": true
-        },
-        "relevancy": {
-          "value": 95,
-          "date": "2026-04-10",
-          "effective_value": 95
-        },
-        "kei": {
-          "value": 22,
-          "date": "2026-04-10",
-          "effective_value": 22
-        },
-        "chance": {
-          "value": 73,
-          "date": "2026-04-10",
-          "effective_value": 73
-        }
-      },
-      "gender based matching": {
-        "rank": {
-          "value": null,
-          "date": "2026-04-10",
-          "effective_value": 501,
-          "fetch_performed": true
-        },
-        "relevancy": {
-          "value": 58,
-          "date": "2026-04-10",
-          "effective_value": 58
-        },
-        "kei": {
-          "value": 22,
-          "date": "2026-04-10",
-          "effective_value": 22
-        },
-        "chance": {
-          "value": 73,
-          "date": "2026-04-10",
-          "effective_value": 73
-        }
-      },
-      "sexual orientation based matching": {
-        "rank": {
-          "value": null,
-          "date": "2026-04-10",
-          "effective_value": 501,
-          "fetch_performed": true
-        },
-        "relevancy": {
-          "value": 97,
-          "date": "2026-04-10",
-          "effective_value": 97
-        },
-        "kei": {
-          "value": 22,
-          "date": "2026-04-10",
-          "effective_value": 22
-        },
-        "chance": {
-          "value": 73,
-          "date": "2026-04-10",
-          "effective_value": 73
-        }
-      }
-    },
-    "690661663": {
-      "hobby based matching": {
-        "rank": {
-          "value": null,
-          "date": "2026-04-10",
-          "effective_value": 501,
-          "fetch_performed": true
-        },
-        "relevancy": {
-          "value": 73,
-          "date": "2026-04-10",
-          "effective_value": 73
-        },
-        "kei": {
-          "value": 22,
-          "date": "2026-04-10",
-          "effective_value": 22
-        },
-        "chance": {
-          "value": 73,
-          "date": "2026-04-10",
-          "effective_value": 73
-        }
-      },
-      "location based matching": {
-        "rank": {
-          "value": null,
-          "date": "2026-04-10",
-          "effective_value": 501,
-          "fetch_performed": true
-        },
-        "relevancy": {
-          "value": 38,
-          "date": "2026-04-10",
-          "effective_value": 38
-        },
-        "kei": {
-          "value": 22,
-          "date": "2026-04-10",
-          "effective_value": 22
-        },
-        "chance": {
-          "value": 73,
-          "date": "2026-04-10",
-          "effective_value": 73
-        }
-      },
-      "age based matching": {
-        "rank": {
-          "value": null,
-          "date": "2026-04-10",
-          "effective_value": 501,
-          "fetch_performed": true
-        },
-        "relevancy": {
-          "value": 92,
-          "date": "2026-04-10",
-          "effective_value": 92
-        },
-        "kei": {
-          "value": 22,
-          "date": "2026-04-10",
-          "effective_value": 22
-        },
-        "chance": {
-          "value": 73,
-          "date": "2026-04-10",
-          "effective_value": 73
-        }
-      },
-      "gender based matching": {
-        "rank": {
-          "value": null,
-          "date": "2026-04-10",
-          "effective_value": 501,
-          "fetch_performed": true
-        },
-        "relevancy": {
-          "value": 66,
-          "date": "2026-04-10",
-          "effective_value": 66
-        },
-        "kei": {
-          "value": 22,
-          "date": "2026-04-10",
-          "effective_value": 22
-        },
-        "chance": {
-          "value": 73,
-          "date": "2026-04-10",
-          "effective_value": 73
-        }
-      },
-      "sexual orientation based matching": {
-        "rank": {
-          "value": null,
-          "date": "2026-04-10",
-          "effective_value": 501,
-          "fetch_performed": true
-        },
-        "relevancy": {
-          "value": 95,
-          "date": "2026-04-10",
-          "effective_value": 95
-        },
-        "kei": {
-          "value": 22,
-          "date": "2026-04-10",
-          "effective_value": 22
-        },
-        "chance": {
-          "value": 73,
-          "date": "2026-04-10",
-          "effective_value": 73
-        }
-      }
-    },
-    "1265035248": {
-      "hobby based matching": {
-        "rank": {
-          "value": null,
-          "date": "2026-04-10",
-          "effective_value": 501,
-          "fetch_performed": true
-        },
-        "relevancy": {
-          "value": 78,
-          "date": "2026-04-10",
-          "effective_value": 78
-        },
-        "kei": {
-          "value": 14,
-          "date": "2026-04-10",
-          "effective_value": 14
-        },
-        "chance": {
           "value": 46,
-          "date": "2026-04-10",
+          "date": "2026-05-01",
           "effective_value": 46
+        },
+        "kei": {
+          "value": 22,
+          "date": "2026-05-01",
+          "effective_value": 22
+        },
+        "chance": {
+          "value": 73,
+          "date": "2026-05-01",
+          "effective_value": 73
         }
-      },
-      "location based matching": {
+      }
+    },
+    "930441707": {
+      "long term relationship": {
         "rank": {
           "value": null,
-          "date": "2026-04-10",
+          "date": "2026-05-01",
+          "effective_value": 501,
+          "fetch_performed": true
+        },
+        "relevancy": {
+          "value": 72,
+          "date": "2026-05-01",
+          "effective_value": 72
+        },
+        "kei": {
+          "value": 15,
+          "date": "2026-05-01",
+          "effective_value": 15
+        },
+        "chance": {
+          "value": 73,
+          "date": "2026-05-01",
+          "effective_value": 73
+        }
+      },
+      "casual dating": {
+        "rank": {
+          "value": 7,
+          "date": "2026-05-01",
+          "effective_value": 7,
+          "fetch_performed": true
+        },
+        "relevancy": {
+          "value": 89,
+          "date": "2026-05-01",
+          "effective_value": 89
+        },
+        "kei": {
+          "value": 24,
+          "date": "2026-05-01",
+          "effective_value": 24
+        },
+        "chance": {
+          "value": 79,
+          "date": "2026-05-01",
+          "effective_value": 79
+        }
+      },
+      "serious relationship": {
+        "rank": {
+          "value": 17,
+          "date": "2026-05-01",
+          "effective_value": 17,
+          "fetch_performed": true
+        },
+        "relevancy": {
+          "value": 84,
+          "date": "2026-05-01",
+          "effective_value": 84
+        },
+        "kei": {
+          "value": 15,
+          "date": "2026-05-01",
+          "effective_value": 15
+        },
+        "chance": {
+          "value": 73,
+          "date": "2026-05-01",
+          "effective_value": 73
+        }
+      },
+      "relationship help": {
+        "rank": {
+          "value": null,
+          "date": "2026-05-01",
+          "effective_value": 501,
+          "fetch_performed": true
+        },
+        "relevancy": {
+          "value": 63,
+          "date": "2026-05-01",
+          "effective_value": 63
+        },
+        "kei": {
+          "value": 22,
+          "date": "2026-05-01",
+          "effective_value": 22
+        },
+        "chance": {
+          "value": 73,
+          "date": "2026-05-01",
+          "effective_value": 73
+        }
+      },
+      "love help": {
+        "rank": {
+          "value": null,
+          "date": "2026-05-01",
           "effective_value": 501,
           "fetch_performed": true
         },
         "relevancy": {
           "value": 38,
-          "date": "2026-04-10",
+          "date": "2026-05-01",
           "effective_value": 38
         },
         "kei": {
-          "value": 16,
-          "date": "2026-04-10",
-          "effective_value": 16
+          "value": 22,
+          "date": "2026-05-01",
+          "effective_value": 22
         },
         "chance": {
-          "value": 54,
-          "date": "2026-04-10",
-          "effective_value": 54
+          "value": 73,
+          "date": "2026-05-01",
+          "effective_value": 73
         }
-      },
-      "age based matching": {
+      }
+    },
+    "522681493": {
+      "long term relationship": {
         "rank": {
           "value": null,
-          "date": "2026-04-10",
+          "date": "2026-05-01",
           "effective_value": 501,
           "fetch_performed": true
         },
         "relevancy": {
-          "value": 97,
-          "date": "2026-04-10",
-          "effective_value": 97
+          "value": 81,
+          "date": "2026-05-01",
+          "effective_value": 81
         },
         "kei": {
-          "value": 17,
-          "date": "2026-04-10",
-          "effective_value": 17
+          "value": 7,
+          "date": "2026-05-01",
+          "effective_value": 7
         },
         "chance": {
-          "value": 55,
-          "date": "2026-04-10",
-          "effective_value": 55
+          "value": 38,
+          "date": "2026-05-01",
+          "effective_value": 38
         }
       },
-      "gender based matching": {
+      "casual dating": {
+        "rank": {
+          "value": 66,
+          "date": "2026-05-01",
+          "effective_value": 66,
+          "fetch_performed": true
+        },
+        "relevancy": {
+          "value": 90,
+          "date": "2026-05-01",
+          "effective_value": 90
+        },
+        "kei": {
+          "value": 10,
+          "date": "2026-05-01",
+          "effective_value": 10
+        },
+        "chance": {
+          "value": 33,
+          "date": "2026-05-01",
+          "effective_value": 33
+        }
+      },
+      "serious relationship": {
         "rank": {
           "value": null,
-          "date": "2026-04-10",
+          "date": "2026-05-01",
           "effective_value": 501,
           "fetch_performed": true
         },
         "relevancy": {
-          "value": 56,
-          "date": "2026-04-10",
-          "effective_value": 56
+          "value": 91,
+          "date": "2026-05-01",
+          "effective_value": 91
         },
         "kei": {
-          "value": 16,
-          "date": "2026-04-10",
-          "effective_value": 16
+          "value": 6,
+          "date": "2026-05-01",
+          "effective_value": 6
         },
         "chance": {
-          "value": 52,
-          "date": "2026-04-10",
-          "effective_value": 52
+          "value": 35,
+          "date": "2026-05-01",
+          "effective_value": 35
         }
       },
-      "sexual orientation based matching": {
+      "relationship help": {
         "rank": {
           "value": null,
-          "date": "2026-04-10",
+          "date": "2026-05-01",
           "effective_value": 501,
           "fetch_performed": true
         },
         "relevancy": {
-          "value": 98,
-          "date": "2026-04-10",
-          "effective_value": 98
+          "value": 71,
+          "date": "2026-05-01",
+          "effective_value": 71
         },
         "kei": {
-          "value": 8,
-          "date": "2026-04-10",
-          "effective_value": 8
+          "value": 15,
+          "date": "2026-05-01",
+          "effective_value": 15
         },
         "chance": {
-          "value": 26,
-          "date": "2026-04-10",
-          "effective_value": 26
+          "value": 51,
+          "date": "2026-05-01",
+          "effective_value": 51
+        }
+      },
+      "love help": {
+        "rank": {
+          "value": null,
+          "date": "2026-05-01",
+          "effective_value": 501,
+          "fetch_performed": true
+        },
+        "relevancy": {
+          "value": 46,
+          "date": "2026-05-01",
+          "effective_value": 46
+        },
+        "kei": {
+          "value": 15,
+          "date": "2026-05-01",
+          "effective_value": 15
+        },
+        "chance": {
+          "value": 51,
+          "date": "2026-05-01",
+          "effective_value": 51
+        }
+      }
+    },
+    "445338486": {
+      "long term relationship": {
+        "rank": {
+          "value": null,
+          "date": "2026-05-01",
+          "effective_value": 501,
+          "fetch_performed": true
+        },
+        "relevancy": {
+          "value": 82,
+          "date": "2026-05-01",
+          "effective_value": 82
+        },
+        "kei": {
+          "value": 7,
+          "date": "2026-05-01",
+          "effective_value": 7
+        },
+        "chance": {
+          "value": 37,
+          "date": "2026-05-01",
+          "effective_value": 37
+        }
+      },
+      "casual dating": {
+        "rank": {
+          "value": 50,
+          "date": "2026-05-01",
+          "effective_value": 50,
+          "fetch_performed": true
+        },
+        "relevancy": {
+          "value": 94,
+          "date": "2026-05-01",
+          "effective_value": 94
+        },
+        "kei": {
+          "value": 10,
+          "date": "2026-05-01",
+          "effective_value": 10
+        },
+        "chance": {
+          "value": 32,
+          "date": "2026-05-01",
+          "effective_value": 32
+        }
+      },
+      "serious relationship": {
+        "rank": {
+          "value": null,
+          "date": "2026-05-01",
+          "effective_value": 501,
+          "fetch_performed": true
+        },
+        "relevancy": {
+          "value": 91,
+          "date": "2026-05-01",
+          "effective_value": 91
+        },
+        "kei": {
+          "value": 6,
+          "date": "2026-05-01",
+          "effective_value": 6
+        },
+        "chance": {
+          "value": 34,
+          "date": "2026-05-01",
+          "effective_value": 34
+        }
+      },
+      "relationship help": {
+        "rank": {
+          "value": null,
+          "date": "2026-05-01",
+          "effective_value": 501,
+          "fetch_performed": true
+        },
+        "relevancy": {
+          "value": 74,
+          "date": "2026-05-01",
+          "effective_value": 74
+        },
+        "kei": {
+          "value": 15,
+          "date": "2026-05-01",
+          "effective_value": 15
+        },
+        "chance": {
+          "value": 50,
+          "date": "2026-05-01",
+          "effective_value": 50
+        }
+      },
+      "love help": {
+        "rank": {
+          "value": null,
+          "date": "2026-05-01",
+          "effective_value": 501,
+          "fetch_performed": true
+        },
+        "relevancy": {
+          "value": 47,
+          "date": "2026-05-01",
+          "effective_value": 47
+        },
+        "kei": {
+          "value": 15,
+          "date": "2026-05-01",
+          "effective_value": 15
+        },
+        "chance": {
+          "value": 50,
+          "date": "2026-05-01",
+          "effective_value": 50
         }
       }
     }
@@ -477,10 +477,10 @@
         "country": "us",
         "language": "us",
         "apps": [
-          "601174087",
-          "1250946975",
-          "690661663",
-          "1265035248"
+          "1042814349",
+          "930441707",
+          "522681493",
+          "445338486"
         ],
         "metrics": [
           "rank",
@@ -489,11 +489,11 @@
           "chance"
         ],
         "keywords": [
-          "hobby based matching",
-          "location based matching",
-          "age based matching",
-          "gender based matching",
-          "sexual orientation based matching"
+          "long term relationship",
+          "casual dating",
+          "serious relationship",
+          "relationship help",
+          "love help"
         ]
       },
       "cost": 801,

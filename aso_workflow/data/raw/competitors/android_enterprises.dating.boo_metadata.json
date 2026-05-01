@@ -9,7 +9,7 @@
         "categories": [
           "DATING"
         ],
-        "icon": "https://play-lh.googleusercontent.com/7odIr8zuMI5ddrSG6KtefaVNEvKBoiGzo6Q96lowbP5tLFhqiqUl3Mc16PMk2E1m9g",
+        "icon": "https://play-lh.googleusercontent.com/L_a5DcafFZEqiSfQLeH6M6Ly_IYWeM6WIVcpy1erDl3NygBsJ1zzbntg1vMhnS9TIPg",
         "screenshots": [
           "https://play-lh.googleusercontent.com/YYIyTwgmIi866oZXfr8gUt7bg8uAqufxlUNP7rtskImVN67jdif3L2mHOO8hFvR6Yk3W",
           "https://play-lh.googleusercontent.com/5BHyvs8q6H_FSR0A24oT4niKOz7N77K7bHulmny_5LcmyiuYZW34FfEEQvBWiBTP5RA",
@@ -22,7 +22,7 @@
         "videos": [],
         "size": {
           "current": {
-            "data": 61474225
+            "data": 44765200
           }
         },
         "rating": {
@@ -43,6 +43,21 @@
         "price": "",
         "released_at": null,
         "versions": [
+          {
+            "version": "1.13.125",
+            "release_notes": "",
+            "release_date": "2026-04-29T00:00:00.000Z"
+          },
+          {
+            "version": "1.13.124",
+            "release_notes": "We\u2019re constantly making dating, making friends, and chatting more magical on Boo. In this version, we fixed some bugs and launched something we hope you\u2019ll love.",
+            "release_date": "2026-04-25T00:00:00.000Z"
+          },
+          {
+            "version": "1.13.123",
+            "release_notes": "We\u2019re constantly making dating, making friends, and chatting more magical on Boo. In this version, we fixed some bugs and launched something we hope you\u2019ll love.",
+            "release_date": "2026-04-20T00:00:00.000Z"
+          },
           {
             "version": "1.13.122",
             "release_notes": "We\u2019re constantly making dating, making friends, and chatting more magical on Boo. In this version, we fixed some bugs and launched something we hope you\u2019ll love.",
@@ -127,21 +142,6 @@
             "version": "1.13.105",
             "release_notes": "We\u2019re constantly making dating, making friends, and chatting more magical on Boo. In this version, we fixed some bugs and launched something we hope you\u2019ll love.",
             "release_date": "2025-11-14T00:00:00.000Z"
-          },
-          {
-            "version": "1.13.104",
-            "release_notes": "We\u2019re constantly making dating, making friends, and chatting more magical on Boo. In this version, we fixed some bugs and launched something we hope you\u2019ll love.",
-            "release_date": "2025-11-10T00:00:00.000Z"
-          },
-          {
-            "version": "1.13.103",
-            "release_notes": "We\u2019re constantly making dating, making friends, and chatting more magical on Boo. In this version, we fixed some bugs and launched something we hope you\u2019ll love.",
-            "release_date": "2025-11-02T00:00:00.000Z"
-          },
-          {
-            "version": "1.13.102",
-            "release_notes": "We\u2019re constantly making dating, making friends, and chatting more magical on Boo. In this version, we fixed some bugs and launched something we hope you\u2019ll love.",
-            "release_date": "2025-10-26T00:00:00.000Z"
           }
         ],
         "similar_apps": [

@@ -1,587 +1,470 @@
 {
   "result": {
-    "com.tinder": {
-      "find meaningful": {
+    "com.doni.appa": {
+      "authenticity": {
         "rank": {
           "value": null,
-          "date": "2026-04-10",
-          "effective_value": 501,
-          "fetch_performed": true
-        },
-        "relevancy": {
-          "value": 89,
-          "date": "2026-04-10",
-          "effective_value": 89
-        },
-        "kei": {
-          "value": 22,
-          "date": "2026-04-10",
-          "effective_value": 22
-        },
-        "chance": {
-          "value": 73,
-          "date": "2026-04-10",
-          "effective_value": 73
-        }
-      },
-      "ready find": {
-        "rank": {
-          "value": null,
-          "date": "2026-04-10",
-          "effective_value": 501,
-          "fetch_performed": true
-        },
-        "relevancy": {
-          "value": 10,
-          "date": "2026-04-10",
-          "effective_value": 10
-        },
-        "kei": {
-          "value": 22,
-          "date": "2026-04-10",
-          "effective_value": 22
-        },
-        "chance": {
-          "value": 73,
-          "date": "2026-04-10",
-          "effective_value": 73
-        }
-      },
-      "find one": {
-        "rank": {
-          "value": null,
-          "date": "2026-04-10",
-          "effective_value": 501,
-          "fetch_performed": true
-        },
-        "relevancy": {
-          "value": 49,
-          "date": "2026-04-10",
-          "effective_value": 49
-        },
-        "kei": {
-          "value": 18,
-          "date": "2026-04-10",
-          "effective_value": 18
-        },
-        "chance": {
-          "value": 48,
-          "date": "2026-04-10",
-          "effective_value": 48
-        }
-      },
-      "safety first": {
-        "rank": {
-          "value": null,
-          "date": "2026-04-10",
-          "effective_value": 501,
-          "fetch_performed": true
-        },
-        "relevancy": {
-          "value": 21,
-          "date": "2026-04-10",
-          "effective_value": 21
-        },
-        "kei": {
-          "value": 26,
-          "date": "2026-04-10",
-          "effective_value": 26
-        },
-        "chance": {
-          "value": 73,
-          "date": "2026-04-10",
-          "effective_value": 73
-        }
-      },
-      "free features": {
-        "rank": {
-          "value": null,
-          "date": "2026-04-10",
-          "effective_value": 501,
-          "fetch_performed": true
-        },
-        "relevancy": {
-          "value": 43,
-          "date": "2026-04-10",
-          "effective_value": 43
-        },
-        "kei": {
-          "value": 20,
-          "date": "2026-04-10",
-          "effective_value": 20
-        },
-        "chance": {
-          "value": 68,
-          "date": "2026-04-10",
-          "effective_value": 68
-        }
-      }
-    },
-    "co.hinge.app": {
-      "find meaningful": {
-        "rank": {
-          "value": null,
-          "date": "2026-04-10",
-          "effective_value": 501,
-          "fetch_performed": true
-        },
-        "relevancy": {
-          "value": 88,
-          "date": "2026-04-10",
-          "effective_value": 88
-        },
-        "kei": {
-          "value": 22,
-          "date": "2026-04-10",
-          "effective_value": 22
-        },
-        "chance": {
-          "value": 73,
-          "date": "2026-04-10",
-          "effective_value": 73
-        }
-      },
-      "ready find": {
-        "rank": {
-          "value": null,
-          "date": "2026-04-10",
-          "effective_value": 501,
-          "fetch_performed": true
-        },
-        "relevancy": {
-          "value": 8,
-          "date": "2026-04-10",
-          "effective_value": 8
-        },
-        "kei": {
-          "value": 22,
-          "date": "2026-04-10",
-          "effective_value": 22
-        },
-        "chance": {
-          "value": 72,
-          "date": "2026-04-10",
-          "effective_value": 72
-        }
-      },
-      "find one": {
-        "rank": {
-          "value": null,
-          "date": "2026-04-10",
-          "effective_value": 501,
-          "fetch_performed": true
-        },
-        "relevancy": {
-          "value": 44,
-          "date": "2026-04-10",
-          "effective_value": 44
-        },
-        "kei": {
-          "value": 17,
-          "date": "2026-04-10",
-          "effective_value": 17
-        },
-        "chance": {
-          "value": 45,
-          "date": "2026-04-10",
-          "effective_value": 45
-        }
-      },
-      "safety first": {
-        "rank": {
-          "value": null,
-          "date": "2026-04-10",
-          "effective_value": 501,
-          "fetch_performed": true
-        },
-        "relevancy": {
-          "value": 28,
-          "date": "2026-04-10",
-          "effective_value": 28
-        },
-        "kei": {
-          "value": 26,
-          "date": "2026-04-10",
-          "effective_value": 26
-        },
-        "chance": {
-          "value": 73,
-          "date": "2026-04-10",
-          "effective_value": 73
-        }
-      },
-      "free features": {
-        "rank": {
-          "value": null,
-          "date": "2026-04-10",
+          "date": "2026-05-01",
           "effective_value": 501,
           "fetch_performed": true
         },
         "relevancy": {
           "value": 31,
-          "date": "2026-04-10",
+          "date": "2026-05-01",
           "effective_value": 31
         },
         "kei": {
-          "value": 19,
-          "date": "2026-04-10",
-          "effective_value": 19
-        },
-        "chance": {
-          "value": 64,
-          "date": "2026-04-10",
-          "effective_value": 64
-        }
-      }
-    },
-    "com.doni.appa": {
-      "find meaningful": {
-        "rank": {
-          "value": null,
-          "date": "2026-04-10",
-          "effective_value": 501,
-          "fetch_performed": true
-        },
-        "relevancy": {
-          "value": 93,
-          "date": "2026-04-10",
-          "effective_value": 93
-        },
-        "kei": {
           "value": 22,
-          "date": "2026-04-10",
+          "date": "2026-05-01",
           "effective_value": 22
         },
         "chance": {
           "value": 73,
-          "date": "2026-04-10",
+          "date": "2026-05-01",
           "effective_value": 73
         }
       },
-      "ready find": {
+      "inclusive": {
         "rank": {
           "value": null,
-          "date": "2026-04-10",
+          "date": "2026-05-01",
+          "effective_value": 501,
+          "fetch_performed": true
+        },
+        "relevancy": {
+          "value": 17,
+          "date": "2026-05-01",
+          "effective_value": 17
+        },
+        "kei": {
+          "value": 27,
+          "date": "2026-05-01",
+          "effective_value": 27
+        },
+        "chance": {
+          "value": 73,
+          "date": "2026-05-01",
+          "effective_value": 73
+        }
+      },
+      "diversity": {
+        "rank": {
+          "value": null,
+          "date": "2026-05-01",
+          "effective_value": 501,
+          "fetch_performed": true
+        },
+        "relevancy": {
+          "value": 52,
+          "date": "2026-05-01",
+          "effective_value": 52
+        },
+        "kei": {
+          "value": 27,
+          "date": "2026-05-01",
+          "effective_value": 27
+        },
+        "chance": {
+          "value": 73,
+          "date": "2026-05-01",
+          "effective_value": 73
+        }
+      },
+      "lgbtqia": {
+        "rank": {
+          "value": null,
+          "date": "2026-05-01",
+          "effective_value": 501,
+          "fetch_performed": true
+        },
+        "relevancy": {
+          "value": 85,
+          "date": "2026-05-01",
+          "effective_value": 85
+        },
+        "kei": {
+          "value": 22,
+          "date": "2026-05-01",
+          "effective_value": 22
+        },
+        "chance": {
+          "value": 73,
+          "date": "2026-05-01",
+          "effective_value": 73
+        }
+      },
+      "queer": {
+        "rank": {
+          "value": null,
+          "date": "2026-05-01",
+          "effective_value": 501,
+          "fetch_performed": true
+        },
+        "relevancy": {
+          "value": 80,
+          "date": "2026-05-01",
+          "effective_value": 80
+        },
+        "kei": {
+          "value": 22,
+          "date": "2026-05-01",
+          "effective_value": 22
+        },
+        "chance": {
+          "value": 73,
+          "date": "2026-05-01",
+          "effective_value": 73
+        }
+      }
+    },
+    "com.hily.app": {
+      "authenticity": {
+        "rank": {
+          "value": null,
+          "date": "2026-05-01",
+          "effective_value": 501,
+          "fetch_performed": true
+        },
+        "relevancy": {
+          "value": 25,
+          "date": "2026-05-01",
+          "effective_value": 25
+        },
+        "kei": {
+          "value": 22,
+          "date": "2026-05-01",
+          "effective_value": 22
+        },
+        "chance": {
+          "value": 73,
+          "date": "2026-05-01",
+          "effective_value": 73
+        }
+      },
+      "inclusive": {
+        "rank": {
+          "value": null,
+          "date": "2026-05-01",
           "effective_value": 501,
           "fetch_performed": true
         },
         "relevancy": {
           "value": 24,
-          "date": "2026-04-10",
+          "date": "2026-05-01",
           "effective_value": 24
         },
         "kei": {
-          "value": 20,
-          "date": "2026-04-10",
-          "effective_value": 20
-        },
-        "chance": {
-          "value": 65,
-          "date": "2026-04-10",
-          "effective_value": 65
-        }
-      },
-      "find one": {
-        "rank": {
-          "value": null,
-          "date": "2026-04-10",
-          "effective_value": 501,
-          "fetch_performed": true
-        },
-        "relevancy": {
-          "value": 58,
-          "date": "2026-04-10",
-          "effective_value": 58
-        },
-        "kei": {
-          "value": 14,
-          "date": "2026-04-10",
-          "effective_value": 14
-        },
-        "chance": {
-          "value": 36,
-          "date": "2026-04-10",
-          "effective_value": 36
-        }
-      },
-      "safety first": {
-        "rank": {
-          "value": null,
-          "date": "2026-04-10",
-          "effective_value": 501,
-          "fetch_performed": true
-        },
-        "relevancy": {
-          "value": 35,
-          "date": "2026-04-10",
-          "effective_value": 35
-        },
-        "kei": {
-          "value": 26,
-          "date": "2026-04-10",
-          "effective_value": 26
+          "value": 27,
+          "date": "2026-05-01",
+          "effective_value": 27
         },
         "chance": {
           "value": 73,
-          "date": "2026-04-10",
+          "date": "2026-05-01",
           "effective_value": 73
         }
       },
-      "free features": {
+      "diversity": {
         "rank": {
           "value": null,
-          "date": "2026-04-10",
-          "effective_value": 501,
-          "fetch_performed": true
-        },
-        "relevancy": {
-          "value": 50,
-          "date": "2026-04-10",
-          "effective_value": 50
-        },
-        "kei": {
-          "value": 17,
-          "date": "2026-04-10",
-          "effective_value": 17
-        },
-        "chance": {
-          "value": 56,
-          "date": "2026-04-10",
-          "effective_value": 56
-        }
-      }
-    },
-    "com.bumble.app": {
-      "find meaningful": {
-        "rank": {
-          "value": null,
-          "date": "2026-04-10",
-          "effective_value": 501,
-          "fetch_performed": true
-        },
-        "relevancy": {
-          "value": 88,
-          "date": "2026-04-10",
-          "effective_value": 88
-        },
-        "kei": {
-          "value": 22,
-          "date": "2026-04-10",
-          "effective_value": 22
-        },
-        "chance": {
-          "value": 73,
-          "date": "2026-04-10",
-          "effective_value": 73
-        }
-      },
-      "ready find": {
-        "rank": {
-          "value": null,
-          "date": "2026-04-10",
-          "effective_value": 501,
-          "fetch_performed": true
-        },
-        "relevancy": {
-          "value": 19,
-          "date": "2026-04-10",
-          "effective_value": 19
-        },
-        "kei": {
-          "value": 20,
-          "date": "2026-04-10",
-          "effective_value": 20
-        },
-        "chance": {
-          "value": 68,
-          "date": "2026-04-10",
-          "effective_value": 68
-        }
-      },
-      "find one": {
-        "rank": {
-          "value": null,
-          "date": "2026-04-10",
-          "effective_value": 501,
-          "fetch_performed": true
-        },
-        "relevancy": {
-          "value": 44,
-          "date": "2026-04-10",
-          "effective_value": 44
-        },
-        "kei": {
-          "value": 16,
-          "date": "2026-04-10",
-          "effective_value": 16
-        },
-        "chance": {
-          "value": 40,
-          "date": "2026-04-10",
-          "effective_value": 40
-        }
-      },
-      "safety first": {
-        "rank": {
-          "value": null,
-          "date": "2026-04-10",
-          "effective_value": 501,
-          "fetch_performed": true
-        },
-        "relevancy": {
-          "value": 16,
-          "date": "2026-04-10",
-          "effective_value": 16
-        },
-        "kei": {
-          "value": 26,
-          "date": "2026-04-10",
-          "effective_value": 26
-        },
-        "chance": {
-          "value": 73,
-          "date": "2026-04-10",
-          "effective_value": 73
-        }
-      },
-      "free features": {
-        "rank": {
-          "value": null,
-          "date": "2026-04-10",
-          "effective_value": 501,
-          "fetch_performed": true
-        },
-        "relevancy": {
-          "value": 36,
-          "date": "2026-04-10",
-          "effective_value": 36
-        },
-        "kei": {
-          "value": 18,
-          "date": "2026-04-10",
-          "effective_value": 18
-        },
-        "chance": {
-          "value": 60,
-          "date": "2026-04-10",
-          "effective_value": 60
-        }
-      }
-    },
-    "com.hily.app": {
-      "find meaningful": {
-        "rank": {
-          "value": null,
-          "date": "2026-04-10",
-          "effective_value": 501,
-          "fetch_performed": true
-        },
-        "relevancy": {
-          "value": 89,
-          "date": "2026-04-10",
-          "effective_value": 89
-        },
-        "kei": {
-          "value": 22,
-          "date": "2026-04-10",
-          "effective_value": 22
-        },
-        "chance": {
-          "value": 73,
-          "date": "2026-04-10",
-          "effective_value": 73
-        }
-      },
-      "ready find": {
-        "rank": {
-          "value": null,
-          "date": "2026-04-10",
-          "effective_value": 501,
-          "fetch_performed": true
-        },
-        "relevancy": {
-          "value": 16,
-          "date": "2026-04-10",
-          "effective_value": 16
-        },
-        "kei": {
-          "value": 18,
-          "date": "2026-04-10",
-          "effective_value": 18
-        },
-        "chance": {
-          "value": 60,
-          "date": "2026-04-10",
-          "effective_value": 60
-        }
-      },
-      "find one": {
-        "rank": {
-          "value": null,
-          "date": "2026-04-10",
+          "date": "2026-05-01",
           "effective_value": 501,
           "fetch_performed": true
         },
         "relevancy": {
           "value": 49,
-          "date": "2026-04-10",
+          "date": "2026-05-01",
           "effective_value": 49
         },
         "kei": {
-          "value": 13,
-          "date": "2026-04-10",
-          "effective_value": 13
-        },
-        "chance": {
-          "value": 32,
-          "date": "2026-04-10",
-          "effective_value": 32
-        }
-      },
-      "safety first": {
-        "rank": {
-          "value": null,
-          "date": "2026-04-10",
-          "effective_value": 501,
-          "fetch_performed": true
-        },
-        "relevancy": {
-          "value": 28,
-          "date": "2026-04-10",
-          "effective_value": 28
-        },
-        "kei": {
-          "value": 26,
-          "date": "2026-04-10",
-          "effective_value": 26
+          "value": 27,
+          "date": "2026-05-01",
+          "effective_value": 27
         },
         "chance": {
           "value": 73,
-          "date": "2026-04-10",
+          "date": "2026-05-01",
           "effective_value": 73
         }
       },
-      "free features": {
+      "lgbtqia": {
         "rank": {
           "value": null,
-          "date": "2026-04-10",
+          "date": "2026-05-01",
           "effective_value": 501,
           "fetch_performed": true
         },
         "relevancy": {
-          "value": 44,
-          "date": "2026-04-10",
-          "effective_value": 44
+          "value": 87,
+          "date": "2026-05-01",
+          "effective_value": 87
         },
         "kei": {
-          "value": 16,
-          "date": "2026-04-10",
-          "effective_value": 16
+          "value": 22,
+          "date": "2026-05-01",
+          "effective_value": 22
         },
         "chance": {
-          "value": 52,
-          "date": "2026-04-10",
-          "effective_value": 52
+          "value": 73,
+          "date": "2026-05-01",
+          "effective_value": 73
+        }
+      },
+      "queer": {
+        "rank": {
+          "value": null,
+          "date": "2026-05-01",
+          "effective_value": 501,
+          "fetch_performed": true
+        },
+        "relevancy": {
+          "value": 83,
+          "date": "2026-05-01",
+          "effective_value": 83
+        },
+        "kei": {
+          "value": 22,
+          "date": "2026-05-01",
+          "effective_value": 22
+        },
+        "chance": {
+          "value": 73,
+          "date": "2026-05-01",
+          "effective_value": 73
+        }
+      }
+    },
+    "com.maybeyou": {
+      "authenticity": {
+        "rank": {
+          "value": null,
+          "date": "2026-05-01",
+          "effective_value": 501,
+          "fetch_performed": true
+        },
+        "relevancy": {
+          "value": 15,
+          "date": "2026-05-01",
+          "effective_value": 15
+        },
+        "kei": {
+          "value": 22,
+          "date": "2026-05-01",
+          "effective_value": 22
+        },
+        "chance": {
+          "value": 73,
+          "date": "2026-05-01",
+          "effective_value": 73
+        }
+      },
+      "inclusive": {
+        "rank": {
+          "value": null,
+          "date": "2026-05-01",
+          "effective_value": 501,
+          "fetch_performed": true
+        },
+        "relevancy": {
+          "value": 23,
+          "date": "2026-05-01",
+          "effective_value": 23
+        },
+        "kei": {
+          "value": 27,
+          "date": "2026-05-01",
+          "effective_value": 27
+        },
+        "chance": {
+          "value": 73,
+          "date": "2026-05-01",
+          "effective_value": 73
+        }
+      },
+      "diversity": {
+        "rank": {
+          "value": null,
+          "date": "2026-05-01",
+          "effective_value": 501,
+          "fetch_performed": true
+        },
+        "relevancy": {
+          "value": 34,
+          "date": "2026-05-01",
+          "effective_value": 34
+        },
+        "kei": {
+          "value": 27,
+          "date": "2026-05-01",
+          "effective_value": 27
+        },
+        "chance": {
+          "value": 73,
+          "date": "2026-05-01",
+          "effective_value": 73
+        }
+      },
+      "lgbtqia": {
+        "rank": {
+          "value": null,
+          "date": "2026-05-01",
+          "effective_value": 501,
+          "fetch_performed": true
+        },
+        "relevancy": {
+          "value": 95,
+          "date": "2026-05-01",
+          "effective_value": 95
+        },
+        "kei": {
+          "value": 22,
+          "date": "2026-05-01",
+          "effective_value": 22
+        },
+        "chance": {
+          "value": 73,
+          "date": "2026-05-01",
+          "effective_value": 73
+        }
+      },
+      "queer": {
+        "rank": {
+          "value": null,
+          "date": "2026-05-01",
+          "effective_value": 501,
+          "fetch_performed": true
+        },
+        "relevancy": {
+          "value": 92,
+          "date": "2026-05-01",
+          "effective_value": 92
+        },
+        "kei": {
+          "value": 22,
+          "date": "2026-05-01",
+          "effective_value": 22
+        },
+        "chance": {
+          "value": 73,
+          "date": "2026-05-01",
+          "effective_value": 73
+        }
+      }
+    },
+    "com.meraki.kira": {
+      "authenticity": {
+        "rank": {
+          "value": null,
+          "date": "2026-05-01",
+          "effective_value": 501,
+          "fetch_performed": true
+        },
+        "relevancy": {
+          "value": null,
+          "date": "2026-05-01",
+          "effective_value": 0
+        },
+        "kei": {
+          "value": 22,
+          "date": "2026-05-01",
+          "effective_value": 22
+        },
+        "chance": {
+          "value": 73,
+          "date": "2026-05-01",
+          "effective_value": 73
+        }
+      },
+      "inclusive": {
+        "rank": {
+          "value": null,
+          "date": "2026-05-01",
+          "effective_value": 501,
+          "fetch_performed": true
+        },
+        "relevancy": {
+          "value": null,
+          "date": "2026-05-01",
+          "effective_value": 0
+        },
+        "kei": {
+          "value": 27,
+          "date": "2026-05-01",
+          "effective_value": 27
+        },
+        "chance": {
+          "value": 73,
+          "date": "2026-05-01",
+          "effective_value": 73
+        }
+      },
+      "diversity": {
+        "rank": {
+          "value": null,
+          "date": "2026-05-01",
+          "effective_value": 501,
+          "fetch_performed": true
+        },
+        "relevancy": {
+          "value": null,
+          "date": "2026-05-01",
+          "effective_value": 0
+        },
+        "kei": {
+          "value": 27,
+          "date": "2026-05-01",
+          "effective_value": 27
+        },
+        "chance": {
+          "value": 73,
+          "date": "2026-05-01",
+          "effective_value": 73
+        }
+      },
+      "lgbtqia": {
+        "rank": {
+          "value": null,
+          "date": "2026-05-01",
+          "effective_value": 501,
+          "fetch_performed": true
+        },
+        "relevancy": {
+          "value": null,
+          "date": "2026-05-01",
+          "effective_value": 0
+        },
+        "kei": {
+          "value": 22,
+          "date": "2026-05-01",
+          "effective_value": 22
+        },
+        "chance": {
+          "value": 73,
+          "date": "2026-05-01",
+          "effective_value": 73
+        }
+      },
+      "queer": {
+        "rank": {
+          "value": null,
+          "date": "2026-05-01",
+          "effective_value": 501,
+          "fetch_performed": true
+        },
+        "relevancy": {
+          "value": null,
+          "date": "2026-05-01",
+          "effective_value": 0
+        },
+        "kei": {
+          "value": 22,
+          "date": "2026-05-01",
+          "effective_value": 22
+        },
+        "chance": {
+          "value": 73,
+          "date": "2026-05-01",
+          "effective_value": 73
         }
       }
     }
@@ -594,11 +477,10 @@
         "country": "us",
         "language": "us",
         "apps": [
-          "com.tinder",
-          "co.hinge.app",
           "com.doni.appa",
-          "com.bumble.app",
-          "com.hily.app"
+          "com.hily.app",
+          "com.maybeyou",
+          "com.meraki.kira"
         ],
         "metrics": [
           "rank",
@@ -607,15 +489,15 @@
           "chance"
         ],
         "keywords": [
-          "find meaningful",
-          "ready find",
-          "find one",
-          "safety first",
-          "free features"
+          "authenticity",
+          "inclusive",
+          "diversity",
+          "lgbtqia",
+          "queer"
         ]
       },
-      "cost": 1001,
-      "max_credit_cost": 1001,
+      "cost": 751,
+      "max_credit_cost": 801,
       "status": 200
     },
     "response": null

@@ -22,7 +22,7 @@
         "videos": [],
         "size": {
           "current": {
-            "data": 47112133
+            "data": 47252616
           }
         },
         "rating": {
@@ -43,6 +43,11 @@
         "price": "",
         "released_at": null,
         "versions": [
+          {
+            "version": "5.462.0",
+            "release_notes": "",
+            "release_date": "2026-04-13T00:00:00.000Z"
+          },
           {
             "version": "5.461.0",
             "release_notes": "",
@@ -137,11 +142,6 @@
             "version": "5.441.0",
             "release_notes": "",
             "release_date": "2025-10-27T00:00:00.000Z"
-          },
-          {
-            "version": "5.440.0",
-            "release_notes": "",
-            "release_date": "2025-10-20T00:00:00.000Z"
           }
         ],
         "similar_apps": [

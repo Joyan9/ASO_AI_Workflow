@@ -1,0 +1,120 @@
+{
+  "result": {
+    "com.meraki.kira": {
+      "metadata": {
+        "title": "Kira: Find Your Romance",
+        "short_description": "Where could be the start of your love story. Match, chat, and find \"the one\"",
+        "long_description": "Stop Searching. Start Connecting.<br>Are you ready to find more than just a match? Kira is the dating app designed for those who believe in chemistry, meaningful conversations, and the thrill of a new romance. Whether you\u2019re looking for a deep connection or your next great date, Kira brings you closer to the people who truly resonate with you.<br>In a world of endless scrolling, Kira focuses on the moments that matter\u2014the flutter in your chest when you get a match and the excitement of a first &quot;Hello.&quot;<br>Fall in Love with Our Features<br>\t\u2022\tSwipe for Chemistry: Our intuitive &quot;Swipe&quot; feature is your gateway to new possibilities. Discover beautiful profiles and let your heart decide. A simple right swipe isn&#39;t just a gesture; it\u2019s the beginning of a potential love story.<br>\t\u2022\tDiscover Your Secret Admirers: Why wait for chance? With &quot;Who Likes Me,&quot; you can see exactly who has already been charmed by your profile. Skip the guessing game and dive straight into mutual connections with people who are already interested in you.<br>\t\u2022\tFrom Chat to Date: Spark a conversation that leads somewhere special. Our seamless, private chat interface is built for real talk, shared laughs, and building the foundation of a lasting bond.<br>Why Kira?<br>\t\u2022\tReal People, Real Romance: We prioritize active users who are genuinely looking for a connection, making your journey toward love smoother and more rewarding.<br>\t\u2022\tElegant &amp; Simple: No distractions\u2014just a beautiful, clean design that lets the personalities and photos of your potential partners shine.<br>\t\u2022\tYour Journey, Your Pace: Whether you want to take it slow or meet up tonight, Kira gives you the space to find love on your own terms.<br>Your next great romance is just a swipe away. Download Kira today and let the sparks fly!",
+        "id": "com.meraki.kira",
+        "categories": [
+          "DATING"
+        ],
+        "icon": "https://play-lh.googleusercontent.com/78xQcOSbKl_tMUFch1Xz9If12H9q0Ld2wS_Rtm1k9xIW35DtaoSQXzO9CBDuxTfyGvXZOcKsu4FAM9WufMU69w",
+        "screenshots": [
+          "https://play-lh.googleusercontent.com/1reHbc3ICKo2-I-Jamh9iNNe2xtFL4RCZtYj6bCF2EPfVmAqkcIgtBSq4wynaGnXQ-NUwwwKEaMDMYJDlKO3cw",
+          "https://play-lh.googleusercontent.com/vbVNHY0ks8t9gp9g8l7swbQEzij6G0MSQi0OpUkwi-FUkEeF5LMl3Ez2dqIMcAj-nTU-WsICuMcUeycDJu42wA",
+          "https://play-lh.googleusercontent.com/xJVlkzDmRPE76SE9pgLmkem3cOwEIbiJeijyFYeJBLN3SMSbMLIz3s9Quk9LXRndMQ7_X_Byj4EbOXFESJg4",
+          "https://play-lh.googleusercontent.com/Iz7coL2Hm0ITRPxu62bA1_b9V1xlvNXB8nvjNZ-DgT5AFM4AyhDMNwd65bpOyeTBN18gis4m_qbQONNs9BCdew"
+        ],
+        "videos": [],
+        "size": {
+          "current": {
+            "data": 29493110
+          }
+        },
+        "rating": {
+          "average": 0.0
+        },
+        "developer": {
+          "id": "MidlandStudio",
+          "name": "MidlandStudio",
+          "email": "andfeedbace@kiraji.com",
+          "website": "",
+          "phone": "",
+          "address_private": "",
+          "address_public": "101 S Reid St Ste 307\nSioux Falls, SD 57103-7045\nUnited States",
+          "publisher_name": "Midland Apps Inc.",
+          "publisher_email": "google@midlandapps.com",
+          "publisher_phone": "+1 605-250-9608"
+        },
+        "price": "",
+        "released_at": null,
+        "versions": [
+          {
+            "version": "1.0.18",
+            "release_notes": "",
+            "release_date": "2026-04-23T00:00:00.000Z"
+          },
+          {
+            "version": "1.0.17",
+            "release_notes": "",
+            "release_date": "2026-04-15T00:00:00.000Z"
+          },
+          {
+            "version": "1.0.13",
+            "release_notes": "fix bugs",
+            "release_date": "2026-03-26T00:00:00.000Z"
+          }
+        ],
+        "similar_apps": [],
+        "release_date": "2026-03-13T09:20:59.000Z",
+        "dna": {
+          "class_id": 10018,
+          "class_label": "Social",
+          "subclass_id": 32,
+          "subclass_label": "Couples, Relationships & Sex"
+        },
+        "permissions": [
+          "android.permission.ACCESS_ADSERVICES_AD_ID",
+          "android.permission.ACCESS_ADSERVICES_ATTRIBUTION",
+          "android.permission.ACCESS_ADSERVICES_CUSTOM_AUDIENCE",
+          "android.permission.ACCESS_ADSERVICES_TOPICS",
+          "android.permission.ACCESS_COARSE_LOCATION",
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.ACCESS_WIFI_STATE",
+          "android.permission.BLUETOOTH_CONNECT",
+          "android.permission.CAMERA",
+          "android.permission.CHANGE_NETWORK_STATE",
+          "android.permission.FOREGROUND_SERVICE",
+          "android.permission.INTERNET",
+          "android.permission.MODIFY_AUDIO_SETTINGS",
+          "android.permission.POST_NOTIFICATIONS",
+          "android.permission.READ_MEDIA_IMAGES",
+          "android.permission.READ_MEDIA_VIDEO",
+          "android.permission.RECEIVE_BOOT_COMPLETED",
+          "android.permission.RECORD_AUDIO",
+          "android.permission.SYSTEM_ALERT_WINDOW",
+          "android.permission.VIBRATE",
+          "android.permission.WAKE_LOCK",
+          "com.android.vending.BILLING",
+          "com.android.vending.CHECK_LICENSE",
+          "com.google.android.c2dm.permission.RECEIVE",
+          "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+          "com.google.android.gms.permission.AD_ID",
+          "com.huawei.appmarket.service.commondata.permission.GET_COMMON_DATA",
+          "com.meraki.kira.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+          "com.oplus.ocs.permission.third",
+          "com.samsung.android.mapsagent.permission.READ_APP_INFO"
+        ]
+      }
+    }
+  },
+  "metadata": {
+    "request": {
+      "path": "/api/public/store/apps/metadata.json",
+      "params": {
+        "device": "android",
+        "country": "us",
+        "language": "us",
+        "apps": [
+          "com.meraki.kira"
+        ]
+      },
+      "cost": 11,
+      "max_credit_cost": 11,
+      "status": 200
+    },
+    "response": null
+  }
+}

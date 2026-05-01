@@ -150,7 +150,7 @@
           "iphone_6_5": [],
           "iphone6plus": []
         },
-        "size": 315905024,
+        "size": 324062208,
         "rating": {
           "average": 4.2
         },
@@ -160,6 +160,39 @@
         },
         "price": "",
         "versions": [
+          {
+            "version": "17.14.0",
+            "release_notes": "We\u2019ve improved how you find and connect with people who want what you want\u2014whether it's a spark, a story, or something long-term. \n\nGet one step closer to what you're looking for on Tinder.",
+            "has_game_center": false,
+            "game_controller_information": {
+              "required": false,
+              "supported": false,
+              "requirement_label": null
+            },
+            "release_date": "2026-04-22T00:00:00.000Z"
+          },
+          {
+            "version": "17.13.0",
+            "release_notes": "We\u2019ve improved how you find and connect with people who want what you want\u2014whether it's a spark, a story, or something long-term. \n\nGet one step closer to what you're looking for on Tinder.",
+            "has_game_center": false,
+            "game_controller_information": {
+              "required": false,
+              "supported": false,
+              "requirement_label": null
+            },
+            "release_date": "2026-04-20T00:00:00.000Z"
+          },
+          {
+            "version": "17.12.0",
+            "release_notes": "We\u2019ve improved how you find and connect with people who want what you want\u2014whether it's a spark, a story, or something long-term. \n\nGet one step closer to what you're looking for on Tinder.",
+            "has_game_center": false,
+            "game_controller_information": {
+              "required": false,
+              "supported": false,
+              "requirement_label": null
+            },
+            "release_date": "2026-04-14T00:00:00.000Z"
+          },
           {
             "version": "17.11.0",
             "release_notes": "We\u2019ve improved how you find and connect with people who want what you want\u2014whether it's a spark, a story, or something long-term. \n\nGet one step closer to what you're looking for on Tinder.",
@@ -181,53 +214,20 @@
               "requirement_label": null
             },
             "release_date": "2026-03-30T00:00:00.000Z"
-          },
-          {
-            "version": "17.9.1",
-            "release_notes": "We\u2019ve improved how you find and connect with people who want what you want\u2014whether it's a spark, a story, or something long-term. \n\nGet one step closer to what you're looking for on Tinder.",
-            "has_game_center": false,
-            "game_controller_information": {
-              "required": false,
-              "supported": false,
-              "requirement_label": null
-            },
-            "release_date": "2026-03-26T00:00:00.000Z"
-          },
-          {
-            "version": "17.9.0",
-            "release_notes": "We\u2019ve improved how you find and connect with people who want what you want\u2014whether it's a spark, a story, or something long-term. \n\nGet one step closer to what you're looking for on Tinder.",
-            "has_game_center": false,
-            "game_controller_information": {
-              "required": false,
-              "supported": false,
-              "requirement_label": null
-            },
-            "release_date": "2026-03-23T00:00:00.000Z"
-          },
-          {
-            "version": "17.8.1",
-            "release_notes": "We\u2019ve improved how you find and connect with people who want what you want\u2014whether it's a spark, a story, or something long-term. \n\nGet one step closer to what you're looking for on Tinder.",
-            "has_game_center": false,
-            "game_controller_information": {
-              "required": false,
-              "supported": false,
-              "requirement_label": null
-            },
-            "release_date": "2026-03-20T00:00:00.000Z"
           }
         ],
         "release_date": "2012-08-03T00:00:00.000Z",
         "customers_also_bought": [
           "351331194",
-          "930441707",
+          "489185828",
           "338701294",
-          "595287172",
           "601174087",
-          "1250946975",
-          "690661663",
-          "1265035248",
-          "1328695473",
-          "1080102131"
+          "1042814349",
+          "930441707",
+          "522681493",
+          "445338486",
+          "1080102131",
+          "1250946975"
         ],
         "dna": {
           "class_id": 10018,
@@ -241,24 +241,6 @@
           "in_apps": true
         },
         "in_app_purchases": [
-          {
-            "id": 6446645353,
-            "recurring_subscription_period": "P7D",
-            "is_family_shareable": false,
-            "is_merchandise_enabled": false,
-            "is_subscription": true,
-            "is_merchandise_visible": false,
-            "subscription_family_name": "Subscription",
-            "artwork": null,
-            "rank": 1,
-            "name": "Tinder Gold",
-            "description": "Enjoy a week of our most exclusive features!",
-            "price": {
-              "value": "18.99",
-              "currency": "usd"
-            },
-            "discounts": null
-          },
           {
             "id": 1237794826,
             "recurring_subscription_period": "P1M",
@@ -278,11 +260,29 @@
               "textColor3": "41381f",
               "textColor4": "41381f"
             },
-            "rank": 2,
+            "rank": 1,
             "name": "Tinder Gold",
             "description": "Enjoy a month of our most exclusive features!",
             "price": {
               "value": "14.99",
+              "currency": "usd"
+            },
+            "discounts": null
+          },
+          {
+            "id": 6446645353,
+            "recurring_subscription_period": "P7D",
+            "is_family_shareable": false,
+            "is_merchandise_enabled": false,
+            "is_subscription": true,
+            "is_merchandise_visible": false,
+            "subscription_family_name": "Subscription",
+            "artwork": null,
+            "rank": 2,
+            "name": "Tinder Gold",
+            "description": "Enjoy a week of our most exclusive features!",
+            "price": {
+              "value": "18.99",
               "currency": "usd"
             },
             "discounts": null

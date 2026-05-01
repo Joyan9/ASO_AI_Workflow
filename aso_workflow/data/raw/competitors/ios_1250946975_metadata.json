@@ -5,7 +5,7 @@
         "title": "Hily Dating App: Meet. Date.",
         "subtitle": "Chat, match with new people",
         "promotional_text": null,
-        "description": "On the Hily dating app, date as you are. Chat and flirt online, meet people and connect with local singles for real. Because dating apps work wonders when you show up as your true self.\n\nMaking connections on Hily is easy. Just make your dating profile match your personality \u2014 and find a compatible date! Don't know how to start? Use our profile tips and rely on icebreakers and compatibility checks to chat and flirt. Whether you\u2019re into casual connections or one of the relationship seekers, there\u2019s room for everyone. Finding love may not be the ultimate goal.te goal. But exploring and meeting new people always feels fun.\n\nCheck out Hily's top dating features:\n\u2022 Compatibility Quiz to connect on a deeper level\n\u2022 Fun zodiac synastry test to see if your stars align\n\u2022 Profile verification and safety team for confidence in your dating\n\u2022 Photo and profile tips to find a date with no stress\n\u2022 Personalized icebreakers to chat and flirt like a pro\n\nWe believe that dating apps should make online dating easy and fun. Use Hily your style and date as you are, meet new people and make lots of new, fun connections. Get the app, build your profile, chat with local singles, meet up for real \u2013 and get the relationships you\u2019re looking for! You can look for true love or simply meet new people and make friends.\n\nBecause dating is not just about romance \u2014 it\u2019s also about sharing life, meeting new friends, and feeling seen. Whether you're looking for something meaningful or something casual, Hily helps you connect with people near you who are smart kind, and value real connection with being yourself.\n\nStay in touch with us!\n\u2022 Share your experience by leaving your feedback at apps@corp.hily.com\n\u2022 If you're wondering about safety and privacy, take a look at our Terms of Service at https://hily.com/terms and Privacy Policy at https://hily.com/privacypolicy\n\nWe want dating apps to be fun again. And we believe there is no other way to date and meet people for real than being your authentic self. So hop on and have fun dating for real! Are you in the mood to chat or flirt? Get Hily dating app to enjoy the ride on your terms!",
+        "description": "On Hily dating app, date as you are. Chat, flirt online and connect with local singles for real. Turns out dating apps work best when you're just... you.\n\nConnecting is exciting on Hily! Just make a dating profile showing your personality\u2014and find someone who matches your energy. Don't know how to start? Use our icebreakers and compatibility checks to help you chat and flirt. No matter if you\u2019re here for something casual or one of the relationship seekers, there\u2019s room for everyone. Exploring and meeting new people always feels fun.\n\nCheck out Hily's top dating features:\n\u2022 Compatibility Quiz to connect on a deeper level\n\u2022 Fun zodiac synastry score to see if your stars align\n\u2022 Profile verification and safety team for confidence in your dating\n\u2022 Personalized icebreakers to chat and flirt like a pro\n\nDating on apps should be fun. Groundbreaking, we know. Use Hily, your style! Get the app, build your profile, chat with local singles, meet up for real \u2013 and get the relationships you\u2019re looking for. Seeking love? Just moved and trying to network? Want to find local friends? Whatever you need, find it here.\n\nDating is not just about romance. It\u2019s also about sharing life, meeting new friends, feeling seen and discovering what you actually want. Something serious? Or maybe something casual? Hily helps you connect with people near you who are smart, kind and intelligent enough to know that real connection starts with being yourself.\n\nStay in touch with us!\n\u2022 Leave your feedback about the app at apps@corp.hily.com\n\u2022 Wondering about safety and privacy? Take a look at our Terms of Service at https://hily.com/terms and Privacy Policy at https://hily.com/privacypolicy\n\nWe want dating apps to be fun again. And we know there's no other way to date and meet people for real than being yourself. So hop on and have fun dating as you are! Are you in the mood to chat or flirt? Get Hily dating app to enjoy the ride on your terms!",
         "id": 1250946975,
         "categories": [
           6012,
@@ -160,7 +160,7 @@
           "iphone6plus": [],
           "iphone_d74": []
         },
-        "size": 118890496,
+        "size": 122479616,
         "rating": {
           "average": 4.3
         },
@@ -171,6 +171,50 @@
         "price": "",
         "versions": [
           {
+            "version": "6.67.0",
+            "release_notes": "Hey!\nWe\u2019ve cleaned up a few bugs and polished things behind the scenes\u2014all to make your time on Hily smoother, easier, and more fun.\nWe care about how things feel for you, so if something\u2019s great (or not-so-great), don\u2019t be shy\u2014we\u2019d love to hear from you!\nxoxo\nHily team",
+            "has_game_center": false,
+            "game_controller_information": {
+              "required": false,
+              "supported": false,
+              "requirement_label": null
+            },
+            "release_date": "2026-04-28T00:00:00.000Z"
+          },
+          {
+            "version": "6.66.0",
+            "release_notes": "Hi daters!\nJust a quick behind-the-scenes update to fix some bugs and make your Hily experience even better. You deserve nothing less.\nHappy dating!\nHily team",
+            "has_game_center": false,
+            "game_controller_information": {
+              "required": false,
+              "supported": false,
+              "requirement_label": null
+            },
+            "release_date": "2026-04-22T00:00:00.000Z"
+          },
+          {
+            "version": "6.65.0",
+            "release_notes": "Hey!\nWe\u2019ve cleaned up a few bugs and polished things behind the scenes\u2014all to make your time on Hily smoother, easier, and more fun.\nWe care about how things feel for you, so if something\u2019s great (or not-so-great), don\u2019t be shy\u2014we\u2019d love to hear from you!\nxoxo\nHily team",
+            "has_game_center": false,
+            "game_controller_information": {
+              "required": false,
+              "supported": false,
+              "requirement_label": null
+            },
+            "release_date": "2026-04-14T00:00:00.000Z"
+          },
+          {
+            "version": "6.64.0",
+            "release_notes": "Hi daters!\nJust a quick behind-the-scenes update to fix some bugs and make your Hily experience even better. You deserve nothing less.\nHappy dating!\nHily team",
+            "has_game_center": false,
+            "game_controller_information": {
+              "required": false,
+              "supported": false,
+              "requirement_label": null
+            },
+            "release_date": "2026-04-08T00:00:00.000Z"
+          },
+          {
             "version": "6.63.0",
             "release_notes": "Hey!\nWe\u2019ve cleaned up a few bugs and polished things behind the scenes\u2014all to make your time on Hily smoother, easier, and more fun.\nWe care about how things feel for you, so if something\u2019s great (or not-so-great), don\u2019t be shy\u2014we\u2019d love to hear from you!\nxoxo\nHily team",
             "has_game_center": false,
@@ -180,64 +224,20 @@
               "requirement_label": null
             },
             "release_date": "2026-03-31T00:00:00.000Z"
-          },
-          {
-            "version": "6.62.0",
-            "release_notes": "Hi daters!\nJust a quick behind-the-scenes update to fix some bugs and make your Hily experience even better. You deserve nothing less.\nHappy dating!\nHily team",
-            "has_game_center": false,
-            "game_controller_information": {
-              "required": false,
-              "supported": false,
-              "requirement_label": null
-            },
-            "release_date": "2026-03-24T00:00:00.000Z"
-          },
-          {
-            "version": "6.61.0",
-            "release_notes": "Hi daters!\nJust a quick behind-the-scenes update to fix some bugs and make your Hily experience even better. You deserve nothing less.\nGot thoughts? Feelings? We\u2019d love to hear them\u2014your feedback helps us grow with you.\nHappy dating!\nHily team",
-            "has_game_center": false,
-            "game_controller_information": {
-              "required": false,
-              "supported": false,
-              "requirement_label": null
-            },
-            "release_date": "2026-03-18T00:00:00.000Z"
-          },
-          {
-            "version": "6.60.1",
-            "release_notes": "Hey!\nWe\u2019ve cleaned up a few bugs and polished things behind the scenes\u2014all to make your time on Hily smoother, easier, and more fun.\nWe care about how things feel for you, so if something\u2019s great (or not-so-great), don\u2019t be shy\u2014we\u2019d love to hear from you!\nxoxo\nHily team",
-            "has_game_center": false,
-            "game_controller_information": {
-              "required": false,
-              "supported": false,
-              "requirement_label": null
-            },
-            "release_date": "2026-03-14T00:00:00.000Z"
-          },
-          {
-            "version": "6.60.0",
-            "release_notes": "Hi daters!\nJust a quick behind-the-scenes update to fix some bugs and make your Hily experience even better. You deserve nothing less.\nHappy dating!\nHily team",
-            "has_game_center": false,
-            "game_controller_information": {
-              "required": false,
-              "supported": false,
-              "requirement_label": null
-            },
-            "release_date": "2026-03-13T00:00:00.000Z"
           }
         ],
         "release_date": "2017-08-14T00:00:00.000Z",
         "customers_also_bought": [
-          "338701294",
-          "930441707",
-          "547702041",
-          "458272450",
-          "595287172",
+          "1080102131",
+          "601174087",
+          "1042814349",
+          "1489440748",
+          "1472984800",
           "1482681335",
-          "1528941732",
-          "1265035248",
-          "887914690",
-          "1042814349"
+          "1454483874",
+          "1673723000",
+          "1462163015",
+          "1501847219"
         ],
         "dna": {
           "class_id": 10018,

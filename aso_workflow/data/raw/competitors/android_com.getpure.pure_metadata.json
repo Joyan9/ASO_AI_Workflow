@@ -21,11 +21,11 @@
         "videos": [],
         "size": {
           "current": {
-            "data": 47797282
+            "data": 47920918
           }
         },
         "rating": {
-          "average": 3.4
+          "average": 3.3
         },
         "developer": {
           "id": "Online+Classifieds+AG",
@@ -42,6 +42,21 @@
         "price": "",
         "released_at": null,
         "versions": [
+          {
+            "version": "3.26.499",
+            "release_notes": "Bugs fixed, performance improved. ",
+            "release_date": "2026-04-27T00:00:00.000Z"
+          },
+          {
+            "version": "3.25.495",
+            "release_notes": "Bugs fixed, performance improved. ",
+            "release_date": "2026-04-16T00:00:00.000Z"
+          },
+          {
+            "version": "3.24.494",
+            "release_notes": "Bugs fixed, performance improved. ",
+            "release_date": "2026-04-08T00:00:00.000Z"
+          },
           {
             "version": "3.24.492",
             "release_notes": "Bugs fixed, performance improved. ",
@@ -126,21 +141,6 @@
             "version": "3.09.402",
             "release_notes": "Bugs fixed, performance improved. ",
             "release_date": "2025-08-20T00:00:00.000Z"
-          },
-          {
-            "version": "3.08.396",
-            "release_notes": "Bugs fixed, performance improved. ",
-            "release_date": "2025-08-04T00:00:00.000Z"
-          },
-          {
-            "version": "3.07.395",
-            "release_notes": "Bugs fixed, performance improved. ",
-            "release_date": "2025-07-30T00:00:00.000Z"
-          },
-          {
-            "version": "3.07.391",
-            "release_notes": "",
-            "release_date": "2025-07-22T00:00:00.000Z"
           }
         ],
         "similar_apps": [

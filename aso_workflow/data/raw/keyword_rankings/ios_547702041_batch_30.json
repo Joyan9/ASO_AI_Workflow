@@ -1,0 +1,505 @@
+{
+  "result": {
+    "1042814349": {
+      "online match making": {
+        "rank": {
+          "value": null,
+          "date": "2026-05-01",
+          "effective_value": 501,
+          "fetch_performed": true
+        },
+        "relevancy": {
+          "value": 96,
+          "date": "2026-05-01",
+          "effective_value": 96
+        },
+        "kei": {
+          "value": 19,
+          "date": "2026-05-01",
+          "effective_value": 19
+        },
+        "chance": {
+          "value": 63,
+          "date": "2026-05-01",
+          "effective_value": 63
+        }
+      },
+      "match making online": {
+        "rank": {
+          "value": null,
+          "date": "2026-05-01",
+          "effective_value": 501,
+          "fetch_performed": true
+        },
+        "relevancy": {
+          "value": 99,
+          "date": "2026-05-01",
+          "effective_value": 99
+        },
+        "kei": {
+          "value": 19,
+          "date": "2026-05-01",
+          "effective_value": 19
+        },
+        "chance": {
+          "value": 64,
+          "date": "2026-05-01",
+          "effective_value": 64
+        }
+      },
+      "online dating service": {
+        "rank": {
+          "value": null,
+          "date": "2026-05-01",
+          "effective_value": 501,
+          "fetch_performed": true
+        },
+        "relevancy": {
+          "value": 98,
+          "date": "2026-05-01",
+          "effective_value": 98
+        },
+        "kei": {
+          "value": 20,
+          "date": "2026-05-01",
+          "effective_value": 20
+        },
+        "chance": {
+          "value": 65,
+          "date": "2026-05-01",
+          "effective_value": 65
+        }
+      },
+      "dating service online": {
+        "rank": {
+          "value": null,
+          "date": "2026-05-01",
+          "effective_value": 501,
+          "fetch_performed": true
+        },
+        "relevancy": {
+          "value": 99,
+          "date": "2026-05-01",
+          "effective_value": 99
+        },
+        "kei": {
+          "value": 22,
+          "date": "2026-05-01",
+          "effective_value": 22
+        },
+        "chance": {
+          "value": 73,
+          "date": "2026-05-01",
+          "effective_value": 73
+        }
+      },
+      "online relationship service": {
+        "rank": {
+          "value": null,
+          "date": "2026-05-01",
+          "effective_value": 501,
+          "fetch_performed": true
+        },
+        "relevancy": {
+          "value": 73,
+          "date": "2026-05-01",
+          "effective_value": 73
+        },
+        "kei": {
+          "value": 22,
+          "date": "2026-05-01",
+          "effective_value": 22
+        },
+        "chance": {
+          "value": 73,
+          "date": "2026-05-01",
+          "effective_value": 73
+        }
+      }
+    },
+    "930441707": {
+      "online match making": {
+        "rank": {
+          "value": 16,
+          "date": "2026-05-01",
+          "effective_value": 16,
+          "fetch_performed": true
+        },
+        "relevancy": {
+          "value": 93,
+          "date": "2026-05-01",
+          "effective_value": 93
+        },
+        "kei": {
+          "value": 22,
+          "date": "2026-05-01",
+          "effective_value": 22
+        },
+        "chance": {
+          "value": 73,
+          "date": "2026-05-01",
+          "effective_value": 73
+        }
+      },
+      "match making online": {
+        "rank": {
+          "value": 16,
+          "date": "2026-05-01",
+          "effective_value": 16,
+          "fetch_performed": true
+        },
+        "relevancy": {
+          "value": 95,
+          "date": "2026-05-01",
+          "effective_value": 95
+        },
+        "kei": {
+          "value": 22,
+          "date": "2026-05-01",
+          "effective_value": 22
+        },
+        "chance": {
+          "value": 73,
+          "date": "2026-05-01",
+          "effective_value": 73
+        }
+      },
+      "online dating service": {
+        "rank": {
+          "value": null,
+          "date": "2026-05-01",
+          "effective_value": 501,
+          "fetch_performed": true
+        },
+        "relevancy": {
+          "value": 95,
+          "date": "2026-05-01",
+          "effective_value": 95
+        },
+        "kei": {
+          "value": 22,
+          "date": "2026-05-01",
+          "effective_value": 22
+        },
+        "chance": {
+          "value": 73,
+          "date": "2026-05-01",
+          "effective_value": 73
+        }
+      },
+      "dating service online": {
+        "rank": {
+          "value": null,
+          "date": "2026-05-01",
+          "effective_value": 501,
+          "fetch_performed": true
+        },
+        "relevancy": {
+          "value": 94,
+          "date": "2026-05-01",
+          "effective_value": 94
+        },
+        "kei": {
+          "value": 22,
+          "date": "2026-05-01",
+          "effective_value": 22
+        },
+        "chance": {
+          "value": 73,
+          "date": "2026-05-01",
+          "effective_value": 73
+        }
+      },
+      "online relationship service": {
+        "rank": {
+          "value": null,
+          "date": "2026-05-01",
+          "effective_value": 501,
+          "fetch_performed": true
+        },
+        "relevancy": {
+          "value": 62,
+          "date": "2026-05-01",
+          "effective_value": 62
+        },
+        "kei": {
+          "value": 22,
+          "date": "2026-05-01",
+          "effective_value": 22
+        },
+        "chance": {
+          "value": 73,
+          "date": "2026-05-01",
+          "effective_value": 73
+        }
+      }
+    },
+    "522681493": {
+      "online match making": {
+        "rank": {
+          "value": null,
+          "date": "2026-05-01",
+          "effective_value": 501,
+          "fetch_performed": true
+        },
+        "relevancy": {
+          "value": 98,
+          "date": "2026-05-01",
+          "effective_value": 98
+        },
+        "kei": {
+          "value": 7,
+          "date": "2026-05-01",
+          "effective_value": 7
+        },
+        "chance": {
+          "value": 23,
+          "date": "2026-05-01",
+          "effective_value": 23
+        }
+      },
+      "match making online": {
+        "rank": {
+          "value": null,
+          "date": "2026-05-01",
+          "effective_value": 501,
+          "fetch_performed": true
+        },
+        "relevancy": {
+          "value": 99,
+          "date": "2026-05-01",
+          "effective_value": 99
+        },
+        "kei": {
+          "value": 7,
+          "date": "2026-05-01",
+          "effective_value": 7
+        },
+        "chance": {
+          "value": 24,
+          "date": "2026-05-01",
+          "effective_value": 24
+        }
+      },
+      "online dating service": {
+        "rank": {
+          "value": null,
+          "date": "2026-05-01",
+          "effective_value": 501,
+          "fetch_performed": true
+        },
+        "relevancy": {
+          "value": 99,
+          "date": "2026-05-01",
+          "effective_value": 99
+        },
+        "kei": {
+          "value": 8,
+          "date": "2026-05-01",
+          "effective_value": 8
+        },
+        "chance": {
+          "value": 25,
+          "date": "2026-05-01",
+          "effective_value": 25
+        }
+      },
+      "dating service online": {
+        "rank": {
+          "value": null,
+          "date": "2026-05-01",
+          "effective_value": 501,
+          "fetch_performed": true
+        },
+        "relevancy": {
+          "value": 99,
+          "date": "2026-05-01",
+          "effective_value": 99
+        },
+        "kei": {
+          "value": 12,
+          "date": "2026-05-01",
+          "effective_value": 12
+        },
+        "chance": {
+          "value": 41,
+          "date": "2026-05-01",
+          "effective_value": 41
+        }
+      },
+      "online relationship service": {
+        "rank": {
+          "value": null,
+          "date": "2026-05-01",
+          "effective_value": 501,
+          "fetch_performed": true
+        },
+        "relevancy": {
+          "value": 73,
+          "date": "2026-05-01",
+          "effective_value": 73
+        },
+        "kei": {
+          "value": 15,
+          "date": "2026-05-01",
+          "effective_value": 15
+        },
+        "chance": {
+          "value": 49,
+          "date": "2026-05-01",
+          "effective_value": 49
+        }
+      }
+    },
+    "445338486": {
+      "online match making": {
+        "rank": {
+          "value": 34,
+          "date": "2026-05-01",
+          "effective_value": 34,
+          "fetch_performed": true
+        },
+        "relevancy": {
+          "value": 96,
+          "date": "2026-05-01",
+          "effective_value": 96
+        },
+        "kei": {
+          "value": 7,
+          "date": "2026-05-01",
+          "effective_value": 7
+        },
+        "chance": {
+          "value": 22,
+          "date": "2026-05-01",
+          "effective_value": 22
+        }
+      },
+      "match making online": {
+        "rank": {
+          "value": 35,
+          "date": "2026-05-01",
+          "effective_value": 35,
+          "fetch_performed": true
+        },
+        "relevancy": {
+          "value": 98,
+          "date": "2026-05-01",
+          "effective_value": 98
+        },
+        "kei": {
+          "value": 7,
+          "date": "2026-05-01",
+          "effective_value": 7
+        },
+        "chance": {
+          "value": 23,
+          "date": "2026-05-01",
+          "effective_value": 23
+        }
+      },
+      "online dating service": {
+        "rank": {
+          "value": 61,
+          "date": "2026-05-01",
+          "effective_value": 61,
+          "fetch_performed": true
+        },
+        "relevancy": {
+          "value": 98,
+          "date": "2026-05-01",
+          "effective_value": 98
+        },
+        "kei": {
+          "value": 7,
+          "date": "2026-05-01",
+          "effective_value": 7
+        },
+        "chance": {
+          "value": 24,
+          "date": "2026-05-01",
+          "effective_value": 24
+        }
+      },
+      "dating service online": {
+        "rank": {
+          "value": 62,
+          "date": "2026-05-01",
+          "effective_value": 62,
+          "fetch_performed": true
+        },
+        "relevancy": {
+          "value": 98,
+          "date": "2026-05-01",
+          "effective_value": 98
+        },
+        "kei": {
+          "value": 12,
+          "date": "2026-05-01",
+          "effective_value": 12
+        },
+        "chance": {
+          "value": 40,
+          "date": "2026-05-01",
+          "effective_value": 40
+        }
+      },
+      "online relationship service": {
+        "rank": {
+          "value": null,
+          "date": "2026-05-01",
+          "effective_value": 501,
+          "fetch_performed": true
+        },
+        "relevancy": {
+          "value": 74,
+          "date": "2026-05-01",
+          "effective_value": 74
+        },
+        "kei": {
+          "value": 14,
+          "date": "2026-05-01",
+          "effective_value": 14
+        },
+        "chance": {
+          "value": 48,
+          "date": "2026-05-01",
+          "effective_value": 48
+        }
+      }
+    }
+  },
+  "metadata": {
+    "request": {
+      "path": "/api/public/store/apps/keywords-rankings/current.json",
+      "params": {
+        "device": "iphone",
+        "country": "us",
+        "language": "us",
+        "apps": [
+          "1042814349",
+          "930441707",
+          "522681493",
+          "445338486"
+        ],
+        "metrics": [
+          "rank",
+          "relevancy",
+          "kei",
+          "chance"
+        ],
+        "keywords": [
+          "online match making",
+          "match making online",
+          "online dating service",
+          "dating service online",
+          "online relationship service"
+        ]
+      },
+      "cost": 801,
+      "max_credit_cost": 801,
+      "status": 200
+    },
+    "response": null
+  }
+}

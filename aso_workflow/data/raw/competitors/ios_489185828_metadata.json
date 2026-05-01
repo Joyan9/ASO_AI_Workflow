@@ -1,0 +1,478 @@
+{
+  "result": {
+    "489185828": {
+      "metadata": {
+        "title": "happn: dating app",
+        "subtitle": "Dating app for real-life dates",
+        "promotional_text": null,
+        "description": "Like - Crush - Chat - Date\n\nStep into the world of happn, the dating app, that reinvents the way to meet people from your daily life! With over 140 million users across the globe, happn is your ultimate companion in connecting with people you meet in your usual spots. It can be any situation in your daily life, where you missed your chance at meeting your next date; at work, in your favourite caf\u00e9, or even out for a casual stroll. \n\nDate and meet people\n\nOur expertise at the dating app happn, is our ability to create meaningful connections with those you unknowingly share your daily routine with. \nhappn creates connections based on geographical proximity and the places you frequently visit. Want to find someone to date? Find love? Meet real people? The app encourages interactions in familiar environments, and promotes relaxed and authentic connections. So say goodbye to the stress of first approaches and start dating! Use our icebreaker suggestions or chat about your common favourite spots, which can also serve as a great first date location!\n\nCrush with peace of mind...\n\nSafety first! We know that safety is important for you while online dating, so we let you decide, who can see you, and what information you share. At the happn dating app, privacy is our priority: your location remains invisible to other members, only your crossing points are indicated, and you will never receive messages from someone you are not interested in.\n\n... with relevant profiles, while having fun!\n\nLooking for singles who share your taste and passion? No problem! With Teasers and Hobbies you can discover a new way to uncover the personality of your Crushes through short glimpses of fun and genuine life moments.\nYou can also play CrushTime where you try guessing who already liked you! \n\nMake it happn\n\nWhen you cross paths with a happn user in real life, their profile appears on your app. Seen someone you fancy? Secretly like their profile. We promise, they won't know, unless they like you too. Want to stand out? Send them a SuperCrush by catching their attention! If you've both liked each other, then it's a Crush! You can now chat and date; we count on you to come up with your best pick-up line, and bring out the best, most authentic, side of yourself.\n\nDownload the happn date app now and start using it for free. Make sure you've added your favourite photos and set your filters to find exactly what you are looking for. \nIf you want access to more benefits, you can subscribe to happn Premium! This way, you can access the list of people who have already liked you, or enjoy more SuperCrushs, to notify your Crushes and stand out.\n\nThere are many dating apps in the us, but there is only one place where it\u2019s really happn-ing!\nSo download happn now, get out the house and date !\n\nhttps://www.happn.com/en/trust/\nhttps://www.happn.com/en/privacy-basics/",
+        "id": 489185828,
+        "categories": [
+          6012,
+          6005
+        ],
+        "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/06/c5/56/06c556f6-7825-1884-2def-3a79ac64287e/AppIcon-Black-0-0-1x_U007ephone-0-1-0-85-220.png/1024x1024bb.jpg",
+        "screenshots": {
+          "iphone_6_5": [
+            {
+              "id": "c01514ab-a8ab-bc61-76d3-03901df90eb3",
+              "hash": "5677683629666824172079754549913783194803255602302510849556027113865743421054",
+              "filename": "iPhone_6.5_-_01.png/1284x2778bb.jpg",
+              "path_component": "image/thumb/PurpleSource221/v4",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/c0/15/14/c01514ab-a8ab-bc61-76d3-03901df90eb3/iPhone_6.5_-_01.png/1284x2778bb.jpg"
+            },
+            {
+              "id": "0091990d-1434-7253-09fa-7e58d0f39e06",
+              "hash": "42967957165328522460335629163434596079580297207451841047370513626758220119861",
+              "filename": "iPhone_6.5_-_02.png/1284x2778bb.jpg",
+              "path_component": "image/thumb/PurpleSource221/v4",
+              "url": "https://is2-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/00/91/99/0091990d-1434-7253-09fa-7e58d0f39e06/iPhone_6.5_-_02.png/1284x2778bb.jpg"
+            },
+            {
+              "id": "e4ddbe8e-4e68-f2fa-e4ba-7da6f554a4f4",
+              "hash": "28521466572615156874380926280145058958208394293694498774634494261054435080",
+              "filename": "iPhone_6.5_-_03.png/1284x2778bb.jpg",
+              "path_component": "image/thumb/PurpleSource221/v4",
+              "url": "https://is5-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/e4/dd/be/e4ddbe8e-4e68-f2fa-e4ba-7da6f554a4f4/iPhone_6.5_-_03.png/1284x2778bb.jpg"
+            },
+            {
+              "id": "0c114ed7-d4fd-7138-d262-abea1cdc3a50",
+              "hash": "872706794895017933563455723519303093453243240501425373685971062298893668",
+              "filename": "iPhone_6.5_-_04.png/1284x2778bb.jpg",
+              "path_component": "image/thumb/PurpleSource211/v4",
+              "url": "https://is4-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/0c/11/4e/0c114ed7-d4fd-7138-d262-abea1cdc3a50/iPhone_6.5_-_04.png/1284x2778bb.jpg"
+            },
+            {
+              "id": "71902745-b299-2f8b-812d-23a8d9023c70",
+              "hash": "6442699065294663763459945390910265492182908263194467653784206403124101217649",
+              "filename": "iPhone_6.5_-_05.png/1284x2778bb.jpg",
+              "path_component": "image/thumb/PurpleSource211/v4",
+              "url": "https://is5-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/71/90/27/71902745-b299-2f8b-812d-23a8d9023c70/iPhone_6.5_-_05.png/1284x2778bb.jpg"
+            },
+            {
+              "id": "789fb84d-1b84-ceb1-a7ad-cc76a6d55605",
+              "hash": "344952685305367739910292566423202520268990789870093704125504366057650847584",
+              "filename": "iPhone_6.5_-_06.png/1284x2778bb.jpg",
+              "path_component": "image/thumb/PurpleSource221/v4",
+              "url": "https://is4-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/78/9f/b8/789fb84d-1b84-ceb1-a7ad-cc76a6d55605/iPhone_6.5_-_06.png/1284x2778bb.jpg"
+            },
+            {
+              "id": "10102ab5-0f1d-4316-f8b3-9adb869b7609",
+              "hash": "27590186536606071812898397347357816013129958483959227652641924751115766194944",
+              "filename": "iPhone_6.5_-_07.png/1284x2778bb.jpg",
+              "path_component": "image/thumb/PurpleSource211/v4",
+              "url": "https://is4-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/10/10/2a/10102ab5-0f1d-4316-f8b3-9adb869b7609/iPhone_6.5_-_07.png/1284x2778bb.jpg"
+            },
+            {
+              "id": "bc395a1d-711f-bd2d-fbdb-333e3bd2fd89",
+              "hash": "87132943781160786313347578433192821764062292004028519649819963353427196526851",
+              "filename": "iPhone_6.5_-_08.png/1284x2778bb.jpg",
+              "path_component": "image/thumb/PurpleSource221/v4",
+              "url": "https://is5-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/bc/39/5a/bc395a1d-711f-bd2d-fbdb-333e3bd2fd89/iPhone_6.5_-_08.png/1284x2778bb.jpg"
+            }
+          ],
+          "iphone6plus": [
+            {
+              "id": "824663c2-7c45-60c6-0a33-147be27c159c",
+              "hash": "5534624230969321884325144397348069525940546314948041040574568213680474816376",
+              "filename": "01_-_Dating_for_locals.png/1242x2208bb.jpg",
+              "path_component": "image/thumb/PurpleSource221/v4",
+              "url": "https://is2-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/82/46/63/824663c2-7c45-60c6-0a33-147be27c159c/01_-_Dating_for_locals.png/1242x2208bb.jpg"
+            },
+            {
+              "id": "3d409c5a-e6dd-1fb2-e452-b309d738a42c",
+              "hash": "11078339825566866346908018681188301939735300430734155249910028125846940221231",
+              "filename": "02_-_Spot.png/1242x2208bb.jpg",
+              "path_component": "image/thumb/PurpleSource211/v4",
+              "url": "https://is4-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/3d/40/9c/3d409c5a-e6dd-1fb2-e452-b309d738a42c/02_-_Spot.png/1242x2208bb.jpg"
+            },
+            {
+              "id": "2cdeb264-e2f2-1b5b-737b-323fc3d0fdd1",
+              "hash": "16400236756343543370288051019668131911655922300333855265852954541701586648832",
+              "filename": "03_-_Crossing.png/1242x2208bb.jpg",
+              "path_component": "image/thumb/PurpleSource221/v4",
+              "url": "https://is3-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/2c/de/b2/2cdeb264-e2f2-1b5b-737b-323fc3d0fdd1/03_-_Crossing.png/1242x2208bb.jpg"
+            },
+            {
+              "id": "18dfe79d-7fae-e486-93b9-c6c283efa96e",
+              "hash": "1810124202017135990726205111249831021623070749547097359746132987270051528544",
+              "filename": "04_-_Safe_and_sound.png/1242x2208bb.jpg",
+              "path_component": "image/thumb/PurpleSource211/v4",
+              "url": "https://is4-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/18/df/e7/18dfe79d-7fae-e486-93b9-c6c283efa96e/04_-_Safe_and_sound.png/1242x2208bb.jpg"
+            },
+            {
+              "id": "fbfac85f-bfa1-f327-af44-598fd68f7c3b",
+              "hash": "12718622666035442252776101643148602532480268489967461610873635443573305573120",
+              "filename": "05_-_Personnality.png/1242x2208bb.jpg",
+              "path_component": "image/thumb/PurpleSource211/v4",
+              "url": "https://is4-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/fb/fa/c8/fbfac85f-bfa1-f327-af44-598fd68f7c3b/05_-_Personnality.png/1242x2208bb.jpg"
+            },
+            {
+              "id": "19e56210-b6ad-30a3-94b3-d26990dbc4dd",
+              "hash": "20019234688001272445837894852944199432799284270109842058547988559515066826688",
+              "filename": "06_-_Crush_Pop_up.png/1242x2208bb.jpg",
+              "path_component": "image/thumb/PurpleSource221/v4",
+              "url": "https://is2-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/19/e5/62/19e56210-b6ad-30a3-94b3-d26990dbc4dd/06_-_Crush_Pop_up.png/1242x2208bb.jpg"
+            },
+            {
+              "id": "58ac735a-5172-b26b-5fac-bbaf83e0fb5a",
+              "hash": "27362263268592531664818729301344173715060168038092025347915798497395151732480",
+              "filename": "07_-_Ready_to_date.png/1242x2208bb.jpg",
+              "path_component": "image/thumb/PurpleSource211/v4",
+              "url": "https://is5-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/58/ac/73/58ac735a-5172-b26b-5fac-bbaf83e0fb5a/07_-_Ready_to_date.png/1242x2208bb.jpg"
+            },
+            {
+              "id": "cad1c47a-b547-e18a-4156-78d4b0dca23a",
+              "hash": "87132943844525056266762028517510962706979309384185692579210611175883312103427",
+              "filename": "08_-_Inspi.png/1242x2208bb.jpg",
+              "path_component": "image/thumb/PurpleSource221/v4",
+              "url": "https://is3-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/ca/d1/c4/cad1c47a-b547-e18a-4156-78d4b0dca23a/08_-_Inspi.png/1242x2208bb.jpg"
+            }
+          ],
+          "iphone": [],
+          "iphone5": [],
+          "iphone_5_8": [],
+          "iphone6": [],
+          "ipad": [],
+          "ipadPro": [],
+          "ipadPro_2018": [],
+          "appleWatch": [],
+          "appleWatch_2018": []
+        },
+        "videos": {
+          "iphone_6_5": [],
+          "iphone6plus": []
+        },
+        "size": 146651136,
+        "rating": {
+          "average": 4.3
+        },
+        "developer": {
+          "id": 489185851,
+          "name": "HAPPN SAS"
+        },
+        "price": "",
+        "versions": [
+          {
+            "version": "2026.8.0",
+            "release_notes": "Technical improvements and bugfixes",
+            "has_game_center": false,
+            "game_controller_information": {
+              "required": false,
+              "supported": false,
+              "requirement_label": null
+            },
+            "release_date": "2026-04-16T00:00:00.000Z"
+          },
+          {
+            "version": "2026.7.0",
+            "release_notes": "Technical improvements and bugfixes",
+            "has_game_center": false,
+            "game_controller_information": {
+              "required": false,
+              "supported": false,
+              "requirement_label": null
+            },
+            "release_date": "2026-04-08T00:00:00.000Z"
+          },
+          {
+            "version": "2026.6.0",
+            "release_notes": "Technical improvements and bugfixes",
+            "has_game_center": false,
+            "game_controller_information": {
+              "required": false,
+              "supported": false,
+              "requirement_label": null
+            },
+            "release_date": "2026-03-25T00:00:00.000Z"
+          },
+          {
+            "version": "2026.5.0",
+            "release_notes": "Technical improvements and bugfixes",
+            "has_game_center": false,
+            "game_controller_information": {
+              "required": false,
+              "supported": false,
+              "requirement_label": null
+            },
+            "release_date": "2026-03-13T00:00:00.000Z"
+          },
+          {
+            "version": "2026.4.0",
+            "release_notes": "Technical improvements and bugfixes",
+            "has_game_center": false,
+            "game_controller_information": {
+              "required": false,
+              "supported": false,
+              "requirement_label": null
+            },
+            "release_date": "2026-02-23T00:00:00.000Z"
+          }
+        ],
+        "release_date": "2012-03-07T00:00:00.000Z",
+        "customers_also_bought": [
+          "838136374",
+          "445338486",
+          "522681493",
+          "1540274389",
+          "1265035248",
+          "1328695473",
+          "1080102131",
+          "351331194",
+          "338701294",
+          "1535740889"
+        ],
+        "dna": {
+          "class_id": 10018,
+          "class_label": "Social",
+          "subclass_id": 38,
+          "subclass_label": "Dating"
+        },
+        "features": {
+          "game_center": false,
+          "passbook": false,
+          "in_apps": true
+        },
+        "in_app_purchases": [
+          {
+            "id": 771570801,
+            "recurring_subscription_period": null,
+            "is_family_shareable": false,
+            "is_merchandise_enabled": false,
+            "is_subscription": false,
+            "is_merchandise_visible": false,
+            "subscription_family_name": null,
+            "artwork": null,
+            "rank": 1,
+            "name": "Starter pack - 10 Credits",
+            "description": "Get 10 credits to notify favorites.",
+            "price": {
+              "value": "1.99",
+              "currency": "usd"
+            },
+            "discounts": null
+          },
+          {
+            "id": 1377728010,
+            "recurring_subscription_period": "P1M",
+            "is_family_shareable": false,
+            "is_merchandise_enabled": false,
+            "is_subscription": true,
+            "is_merchandise_visible": false,
+            "subscription_family_name": "happn subscription P15",
+            "artwork": null,
+            "rank": 2,
+            "name": "happn subscription",
+            "description": "Send \"Hello\" everyday for 1 month",
+            "price": {
+              "value": "24.99",
+              "currency": "usd"
+            },
+            "discounts": null
+          },
+          {
+            "id": 771575022,
+            "recurring_subscription_period": null,
+            "is_family_shareable": false,
+            "is_merchandise_enabled": false,
+            "is_subscription": false,
+            "is_merchandise_visible": false,
+            "subscription_family_name": null,
+            "artwork": {
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple118/v4/b3/fa/3c/b3fa3c5d-5ee3-dc4c-4786-9646f59e67b7/pr_source.png/{w}x{h}{c}.{f}",
+              "hasP3": false,
+              "width": 1024,
+              "height": 1024,
+              "bgColor": "098cb7",
+              "textColor1": "161616",
+              "textColor2": "161616",
+              "textColor3": "142e36",
+              "textColor4": "142e36"
+            },
+            "rank": 3,
+            "name": "60 Coins",
+            "description": "Get 60 credits to notify favorites",
+            "price": {
+              "value": "10.99",
+              "currency": "usd"
+            },
+            "discounts": null
+          },
+          {
+            "id": 1165448443,
+            "recurring_subscription_period": null,
+            "is_family_shareable": false,
+            "is_merchandise_enabled": false,
+            "is_subscription": false,
+            "is_merchandise_visible": false,
+            "subscription_family_name": null,
+            "artwork": {
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple128/v4/15/f9/f2/15f9f25c-361c-114a-1054-7757099428d4/pr_source.png/{w}x{h}{c}.{f}",
+              "hasP3": false,
+              "width": 1024,
+              "height": 1024,
+              "bgColor": "098cb7",
+              "textColor1": "161616",
+              "textColor2": "161616",
+              "textColor3": "142e36",
+              "textColor4": "142e36"
+            },
+            "rank": 4,
+            "name": "Starter pack - 10 Credits",
+            "description": "Get 10 credits to notify favorites.",
+            "price": {
+              "value": "2.99",
+              "currency": "usd"
+            },
+            "discounts": null
+          },
+          {
+            "id": 771574884,
+            "recurring_subscription_period": null,
+            "is_family_shareable": false,
+            "is_merchandise_enabled": false,
+            "is_subscription": false,
+            "is_merchandise_visible": false,
+            "subscription_family_name": null,
+            "artwork": {
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple62/v4/d9/f4/5a/d9f45ad2-5761-ae30-a9fc-f9c21ad26748/pr_source.png/{w}x{h}{c}.{f}",
+              "hasP3": false,
+              "width": 1024,
+              "height": 1024,
+              "bgColor": "098cb7",
+              "textColor1": "161616",
+              "textColor2": "161616",
+              "textColor3": "142e36",
+              "textColor4": "142e36"
+            },
+            "rank": 5,
+            "name": "100 Coins",
+            "description": "Get 100 credits to notify favorites",
+            "price": {
+              "value": "16.99",
+              "currency": "usd"
+            },
+            "discounts": null
+          },
+          {
+            "id": 1214915143,
+            "recurring_subscription_period": "P1M",
+            "is_family_shareable": false,
+            "is_merchandise_enabled": false,
+            "is_subscription": true,
+            "is_merchandise_visible": false,
+            "subscription_family_name": "happn Subscription P2",
+            "artwork": null,
+            "rank": 6,
+            "name": "happn  1 Month subscription",
+            "description": "Get Coins everyday for 1 month! Subscription is automatically renewed.",
+            "price": {
+              "value": "19.99",
+              "currency": "usd"
+            },
+            "discounts": null
+          },
+          {
+            "id": 970451875,
+            "recurring_subscription_period": null,
+            "is_family_shareable": false,
+            "is_merchandise_enabled": false,
+            "is_subscription": false,
+            "is_merchandise_visible": false,
+            "subscription_family_name": null,
+            "artwork": {
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple128/v4/19/64/17/1964173f-5fb6-b6b3-abd4-95c6fe2a1567/pr_source.png/{w}x{h}{c}.{f}",
+              "hasP3": false,
+              "width": 1024,
+              "height": 1024,
+              "bgColor": "098cb7",
+              "textColor1": "161616",
+              "textColor2": "161616",
+              "textColor3": "142e36",
+              "textColor4": "142e36"
+            },
+            "rank": 7,
+            "name": "250 Coins",
+            "description": "Get 250 credits to notify favorites",
+            "price": {
+              "value": "36.99",
+              "currency": "usd"
+            },
+            "discounts": null
+          },
+          {
+            "id": 1630174705,
+            "recurring_subscription_period": "P1M",
+            "is_family_shareable": false,
+            "is_merchandise_enabled": false,
+            "is_subscription": true,
+            "is_merchandise_visible": false,
+            "subscription_family_name": "happn subscription P362",
+            "artwork": null,
+            "rank": 8,
+            "name": "happn subscription",
+            "description": "Send \"Hello\" everyday for 1 month",
+            "price": {
+              "value": "24.99",
+              "currency": "usd"
+            },
+            "discounts": null
+          },
+          {
+            "id": 1214909518,
+            "recurring_subscription_period": "P1M",
+            "is_family_shareable": false,
+            "is_merchandise_enabled": false,
+            "is_subscription": true,
+            "is_merchandise_visible": false,
+            "subscription_family_name": "happn subscription P1",
+            "artwork": null,
+            "rank": 9,
+            "name": "Happn 1 month subscription",
+            "description": "Get the best of happn every month",
+            "price": {
+              "value": "14.99",
+              "currency": "usd"
+            },
+            "discounts": null
+          },
+          {
+            "id": 1376539612,
+            "recurring_subscription_period": "P1M",
+            "is_family_shareable": false,
+            "is_merchandise_enabled": false,
+            "is_subscription": true,
+            "is_merchandise_visible": false,
+            "subscription_family_name": "happn subscription P16",
+            "artwork": null,
+            "rank": 10,
+            "name": "happn subscription",
+            "description": "Send \"Hello\" everyday for 1 month",
+            "price": {
+              "value": "22.99",
+              "currency": "usd"
+            },
+            "discounts": null
+          }
+        ]
+      }
+    }
+  },
+  "metadata": {
+    "request": {
+      "path": "/api/public/store/apps/metadata.json",
+      "params": {
+        "device": "iphone",
+        "country": "us",
+        "language": "us",
+        "apps": [
+          "489185828"
+        ]
+      },
+      "cost": 11,
+      "max_credit_cost": 11,
+      "status": 200
+    },
+    "response": null
+  }
+}

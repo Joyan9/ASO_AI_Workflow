@@ -2,7 +2,7 @@
   "meta": {
     "platform": "android",
     "country": "us",
-    "run_date": "2026-04-08T11:59:25.693714",
+    "run_date": "2026-05-01T09:14:46.176206",
     "history_window_days": 90
   },
   "target_app": {
@@ -20,11 +20,11 @@
     }
   },
   "summary": {
-    "total_competitors": 6,
-    "total_ab_tests": 118,
+    "total_competitors": 7,
+    "total_ab_tests": 142,
     "resolved_won": 0,
     "resolved_lost": 0,
-    "pending": 118
+    "pending": 142
   },
   "competitors": [
     {
@@ -40,81 +40,6 @@
           "target": "screenshots",
           "old_value_count": 8,
           "new_value_count": 8
-        },
-        {
-          "target": "screenshots",
-          "old_value_count": 8,
-          "new_value_count": 8
-        },
-        {
-          "target": "screenshots",
-          "old_value_count": 8,
-          "new_value_count": 8
-        },
-        {
-          "target": "screenshots",
-          "old_value_count": 8,
-          "new_value_count": 8
-        },
-        {
-          "target": "short_description",
-          "old_value_ref": "v1",
-          "new_value_ref": "v2"
-        },
-        {
-          "target": "screenshots",
-          "old_value_count": 8,
-          "new_value_count": 8
-        },
-        {
-          "target": "screenshots",
-          "old_value_count": 8,
-          "new_value_count": 8
-        },
-        {
-          "target": "screenshots",
-          "old_value_count": 8,
-          "new_value_count": 8
-        },
-        {
-          "target": "screenshots",
-          "old_value_count": 8,
-          "new_value_count": 8
-        },
-        {
-          "target": "screenshots",
-          "old_value_count": 8,
-          "new_value_count": 8
-        },
-        {
-          "target": "screenshots",
-          "old_value_count": 8,
-          "new_value_count": 8
-        },
-        {
-          "target": "screenshots",
-          "old_value_count": 8,
-          "new_value_count": 8
-        },
-        {
-          "target": "screenshots",
-          "old_value_count": 8,
-          "new_value_count": 8
-        },
-        {
-          "target": "screenshots",
-          "old_value_count": 8,
-          "new_value_count": 8
-        },
-        {
-          "target": "screenshots",
-          "old_value_count": 8,
-          "new_value_count": 8
-        },
-        {
-          "target": "short_description",
-          "old_value_ref": "v2",
-          "new_value_ref": "v2"
         },
         {
           "target": "screenshots",
@@ -205,59 +130,22 @@
       "shipped_changes": [
         {
           "target": "short_description",
-          "old_value_ref": "v2",
-          "new_value_ref": "v3",
+          "old_value_ref": "v1",
+          "new_value_ref": "v2",
           "date": "2026-03-21"
         }
       ],
       "summary": {
-        "ab_tests_total": 34,
+        "ab_tests_total": 19,
         "resolved_won": 0,
         "resolved_lost": 0,
-        "pending": 34,
+        "pending": 19,
         "fields_tested": [
-          "screenshots",
-          "short_description"
+          "screenshots"
         ],
         "most_recent_shipped": {
           "short_description": "2026-03-21"
         }
-      }
-    },
-    {
-      "app_id": "com.doni.appa",
-      "tier": "primary",
-      "ab_tests": [
-        {
-          "target": "screenshots",
-          "old_value_count": 5,
-          "new_value_count": 5
-        },
-        {
-          "target": "screenshots",
-          "old_value_count": 5,
-          "new_value_count": 5
-        },
-        {
-          "target": "screenshots",
-          "old_value_count": 5,
-          "new_value_count": 5
-        },
-        {
-          "target": "screenshots",
-          "old_value_count": 5,
-          "new_value_count": 5
-        }
-      ],
-      "summary": {
-        "ab_tests_total": 4,
-        "resolved_won": 0,
-        "resolved_lost": 0,
-        "pending": 4,
-        "fields_tested": [
-          "screenshots"
-        ],
-        "most_recent_shipped": {}
       }
     },
     {
@@ -266,11 +154,6 @@
       "ab_tests": [
         {
           "target": "screenshots",
-          "old_value_count": 8,
-          "new_value_count": 7
-        },
-        {
-          "target": "screenshots",
           "old_value_count": 7,
           "new_value_count": 8
         },
@@ -416,10 +299,100 @@
         }
       ],
       "summary": {
-        "ab_tests_total": 30,
+        "ab_tests_total": 29,
         "resolved_won": 0,
         "resolved_lost": 0,
-        "pending": 30,
+        "pending": 29,
+        "fields_tested": [
+          "screenshots"
+        ],
+        "most_recent_shipped": {}
+      }
+    },
+    {
+      "app_id": "enterprises.dating.boo",
+      "tier": "primary",
+      "ab_tests": [
+        {
+          "target": "icon"
+        },
+        {
+          "target": "icon"
+        },
+        {
+          "target": "icon"
+        },
+        {
+          "target": "icon"
+        },
+        {
+          "target": "icon"
+        },
+        {
+          "target": "icon"
+        },
+        {
+          "target": "icon"
+        },
+        {
+          "target": "icon"
+        },
+        {
+          "target": "icon"
+        },
+        {
+          "target": "icon"
+        },
+        {
+          "target": "icon"
+        }
+      ],
+      "summary": {
+        "ab_tests_total": 11,
+        "resolved_won": 0,
+        "resolved_lost": 0,
+        "pending": 11,
+        "fields_tested": [
+          "icon"
+        ],
+        "most_recent_shipped": {}
+      }
+    },
+    {
+      "app_id": "com.doni.appa",
+      "tier": "secondary",
+      "ab_tests": [
+        {
+          "target": "screenshots",
+          "old_value_count": 5,
+          "new_value_count": 5
+        },
+        {
+          "target": "screenshots",
+          "old_value_count": 5,
+          "new_value_count": 5
+        },
+        {
+          "target": "screenshots",
+          "old_value_count": 5,
+          "new_value_count": 5
+        },
+        {
+          "target": "screenshots",
+          "old_value_count": 5,
+          "new_value_count": 5
+        },
+        {
+          "target": "screenshots",
+          "old_value_count": 5,
+          "new_value_count": 5
+        }
+      ],
+      "summary": {
+        "ab_tests_total": 5,
+        "resolved_won": 0,
+        "resolved_lost": 0,
+        "pending": 5,
         "fields_tested": [
           "screenshots"
         ],
@@ -431,21 +404,6 @@
       "tier": "secondary",
       "ab_tests": [
         {
-          "target": "screenshots",
-          "old_value_count": 7,
-          "new_value_count": 7
-        },
-        {
-          "target": "screenshots",
-          "old_value_count": 7,
-          "new_value_count": 6
-        },
-        {
-          "target": "screenshots",
-          "old_value_count": 6,
-          "new_value_count": 7
-        },
-        {
           "target": "icon"
         },
         {
@@ -512,15 +470,157 @@
           "target": "screenshots",
           "old_value_count": 7,
           "new_value_count": 7
+        },
+        {
+          "target": "screenshots",
+          "old_value_count": 7,
+          "new_value_count": 6
+        },
+        {
+          "target": "screenshots",
+          "old_value_count": 6,
+          "new_value_count": 7
+        },
+        {
+          "target": "screenshots",
+          "old_value_count": 7,
+          "new_value_count": 6
+        },
+        {
+          "target": "screenshots",
+          "old_value_count": 6,
+          "new_value_count": 7
+        },
+        {
+          "target": "screenshots",
+          "old_value_count": 7,
+          "new_value_count": 6
+        },
+        {
+          "target": "screenshots",
+          "old_value_count": 6,
+          "new_value_count": 7
+        },
+        {
+          "target": "short_description",
+          "old_value_ref": "v3",
+          "new_value_ref": "v4"
+        },
+        {
+          "target": "screenshots",
+          "old_value_count": 7,
+          "new_value_count": 6
+        },
+        {
+          "target": "screenshots",
+          "old_value_count": 6,
+          "new_value_count": 7
+        },
+        {
+          "target": "screenshots",
+          "old_value_count": 7,
+          "new_value_count": 6
+        },
+        {
+          "target": "screenshots",
+          "old_value_count": 6,
+          "new_value_count": 7
+        },
+        {
+          "target": "screenshots",
+          "old_value_count": 7,
+          "new_value_count": 6
+        },
+        {
+          "target": "screenshots",
+          "old_value_count": 6,
+          "new_value_count": 7
+        },
+        {
+          "target": "screenshots",
+          "old_value_count": 7,
+          "new_value_count": 6
         }
       ],
       "summary": {
-        "ab_tests_total": 21,
+        "ab_tests_total": 32,
         "resolved_won": 0,
         "resolved_lost": 0,
-        "pending": 21,
+        "pending": 32,
         "fields_tested": [
           "icon",
+          "screenshots",
+          "short_description"
+        ],
+        "most_recent_shipped": {}
+      }
+    },
+    {
+      "app_id": "com.maybeyou",
+      "tier": "secondary",
+      "ab_tests": [
+        {
+          "target": "screenshots",
+          "old_value_count": 6,
+          "new_value_count": 6
+        },
+        {
+          "target": "screenshots",
+          "old_value_count": 6,
+          "new_value_count": 6
+        },
+        {
+          "target": "screenshots",
+          "old_value_count": 6,
+          "new_value_count": 6
+        },
+        {
+          "target": "screenshots",
+          "old_value_count": 6,
+          "new_value_count": 6
+        },
+        {
+          "target": "screenshots",
+          "old_value_count": 6,
+          "new_value_count": 6
+        },
+        {
+          "target": "screenshots",
+          "old_value_count": 6,
+          "new_value_count": 6
+        },
+        {
+          "target": "screenshots",
+          "old_value_count": 6,
+          "new_value_count": 6
+        },
+        {
+          "target": "screenshots",
+          "old_value_count": 6,
+          "new_value_count": 6
+        },
+        {
+          "target": "screenshots",
+          "old_value_count": 6,
+          "new_value_count": 6
+        },
+        {
+          "target": "screenshots",
+          "old_value_count": 6,
+          "new_value_count": 6
+        },
+        {
+          "target": "screenshots",
+          "old_value_count": 6,
+          "new_value_count": 6
+        }
+      ],
+      "summary": {
+        "ab_tests_total": 11,
+        "resolved_won": 0,
+        "resolved_lost": 0,
+        "pending": 11,
+        "fields_tested": [
           "screenshots"
         ],
         "most_recent_shipped": {}
@@ -674,69 +774,54 @@
           "target": "screenshots",
           "old_value_count": 6,
           "new_value_count": 6
+        },
+        {
+          "target": "screenshots",
+          "old_value_count": 6,
+          "new_value_count": 6
+        },
+        {
+          "target": "screenshots",
+          "old_value_count": 6,
+          "new_value_count": 6
+        },
+        {
+          "target": "screenshots",
+          "old_value_count": 6,
+          "new_value_count": 6
+        },
+        {
+          "target": "screenshots",
+          "old_value_count": 6,
+          "new_value_count": 6
+        },
+        {
+          "target": "screenshots",
+          "old_value_count": 6,
+          "new_value_count": 6
+        },
+        {
+          "target": "screenshots",
+          "old_value_count": 6,
+          "new_value_count": 6
         }
       ],
       "summary": {
-        "ab_tests_total": 29,
+        "ab_tests_total": 35,
         "resolved_won": 0,
         "resolved_lost": 0,
-        "pending": 29,
+        "pending": 35,
         "fields_tested": [
           "screenshots"
         ],
         "most_recent_shipped": {}
       }
-    },
-    {
-      "app_id": "com.qiga.vio",
-      "tier": "secondary",
-      "ab_tests": [],
-      "shipped_changes": [
-        {
-          "target": "title",
-          "old_value_ref": "v4",
-          "new_value_ref": "v5",
-          "date": "2026-01-25"
-        },
-        {
-          "target": "screenshots",
-          "old_value_count": 4,
-          "new_value_count": 5,
-          "date": "2026-01-25"
-        },
-        {
-          "target": "short_description",
-          "old_value_ref": "v6",
-          "new_value_ref": "v7",
-          "date": "2026-01-25"
-        },
-        {
-          "target": "icon",
-          "date": "2026-01-25"
-        }
-      ],
-      "summary": {
-        "ab_tests_total": 0,
-        "resolved_won": 0,
-        "resolved_lost": 0,
-        "pending": 0,
-        "fields_tested": [],
-        "most_recent_shipped": {
-          "title": "2026-01-25",
-          "screenshots": "2026-01-25",
-          "short_description": "2026-01-25",
-          "icon": "2026-01-25"
-        }
-      }
     }
   ],
   "text_variants": {
-    "v1": "Match, Flirt, Meet & Date Singles in USA: The Dating App Designed to be Deleted",
-    "v2": "Match, Flirt, Meet & Date Single People | The Dating App Designed to be Deleted",
-    "v3": "The Dating App Designed to be Deleted | Match, Flirt, Meet & Date Single People",
-    "v4": "Jovia: Make New Friends",
-    "v5": "Jovia Dating app: Meet & Date",
-    "v6": "Discover stories, start conversations, and connect naturally",
-    "v7": "Real dates. Real people. Real connections."
+    "v1": "Match, Flirt, Meet & Date Single People | The Dating App Designed to be Deleted",
+    "v2": "The Dating App Designed to be Deleted | Match, Flirt, Meet & Date Single People",
+    "v3": "Hily \u2013 Dating & friend app to meet people,chat,flirt, and make real connections!",
+    "v4": "Date as you are \u2014 meet, chat, flirt, and make real connections!"
   }
 }

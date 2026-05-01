@@ -11,122 +11,108 @@
           6012,
           6005
         ],
-        "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/12/73/a7/1273a72a-fe8c-6de1-9090-426606b5ba51/AppIcon-1x_U007emarketing-0-7-0-85-220.png/1024x1024bb.jpg",
+        "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/f7/a6/03/f7a6038e-a821-40e4-3e06-836c99c07943/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/1024x1024bb.jpg",
         "screenshots": {
           "iphone_6_5": [
             {
-              "id": "fe581764-2653-4917-93a6-e3aa569832ab",
-              "hash": "113076576486171508156841664306973468724869921101641295534952341014097774544511",
-              "filename": "aa8754cc-f12b-4e77-b49b-3429c140b66e_Updated_Badoo_Premium_iOS_6.5_01.png/1284x2778bb.jpg",
-              "path_component": "image/thumb/PurpleSource126/v4",
-              "url": "https://is5-ssl.mzstatic.com/image/thumb/PurpleSource126/v4/fe/58/17/fe581764-2653-4917-93a6-e3aa569832ab/aa8754cc-f12b-4e77-b49b-3429c140b66e_Updated_Badoo_Premium_iOS_6.5_01.png/1284x2778bb.jpg"
+              "id": "7bddd9de-d6bd-2dc9-6a29-825cd1b23b5b",
+              "hash": "409162752781452463475284926094344655792112489354088660384292450862525304368",
+              "filename": "Badoo_TAC3_Iterative_Layout_iOS_6.5_01.jpg/1284x2778bb.jpg",
+              "path_component": "image/thumb/PurpleSource211/v4",
+              "url": "https://is2-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/7b/dd/d9/7bddd9de-d6bd-2dc9-6a29-825cd1b23b5b/Badoo_TAC3_Iterative_Layout_iOS_6.5_01.jpg/1284x2778bb.jpg"
             },
             {
-              "id": "049f9157-7aa0-8330-51c0-bdc0f8d5d118",
-              "hash": "115686777938408633727202933165728101593934596791757001825398918708540085369860",
-              "filename": "e43e569a-52b1-43a1-8b3d-27cc5de90f57_Updated_Badoo_Premium_iOS_6.5_02.png/1284x2778bb.jpg",
-              "path_component": "image/thumb/PurpleSource126/v4",
-              "url": "https://is5-ssl.mzstatic.com/image/thumb/PurpleSource126/v4/04/9f/91/049f9157-7aa0-8330-51c0-bdc0f8d5d118/e43e569a-52b1-43a1-8b3d-27cc5de90f57_Updated_Badoo_Premium_iOS_6.5_02.png/1284x2778bb.jpg"
+              "id": "d5033f9c-348e-be08-f353-403fcc9e25e6",
+              "hash": "228803170349156742855095636078215438812160394487896322806258917214399684414",
+              "filename": "Badoo_TAC3_Iterative_Layout_iOS_6.5_02.jpg/1284x2778bb.jpg",
+              "path_component": "image/thumb/PurpleSource211/v4",
+              "url": "https://is3-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/d5/03/3f/d5033f9c-348e-be08-f353-403fcc9e25e6/Badoo_TAC3_Iterative_Layout_iOS_6.5_02.jpg/1284x2778bb.jpg"
             },
             {
-              "id": "1687544d-11c9-11fd-21f1-26d87093585d",
-              "hash": "87157671179347368007399043332375720067503715405606327126152498033201688928034",
-              "filename": "0deff726-dcf5-4799-b7d3-99eeb4f18106_Updated_Badoo_Premium_iOS_6.5_03.png/1284x2778bb.jpg",
-              "path_component": "image/thumb/PurpleSource126/v4",
-              "url": "https://is2-ssl.mzstatic.com/image/thumb/PurpleSource126/v4/16/87/54/1687544d-11c9-11fd-21f1-26d87093585d/0deff726-dcf5-4799-b7d3-99eeb4f18106_Updated_Badoo_Premium_iOS_6.5_03.png/1284x2778bb.jpg"
+              "id": "a99d966c-6dea-52b7-e3b8-2f59abb69109",
+              "hash": "320669000062287416566847253478724829591603705766726609730427981346137496377",
+              "filename": "Badoo_TAC3_Iterative_Layout_iOS_6.5_03.jpg/1284x2778bb.jpg",
+              "path_component": "image/thumb/PurpleSource211/v4",
+              "url": "https://is2-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/a9/9d/96/a99d966c-6dea-52b7-e3b8-2f59abb69109/Badoo_TAC3_Iterative_Layout_iOS_6.5_03.jpg/1284x2778bb.jpg"
             },
             {
-              "id": "a7210023-e833-cb75-515d-3d8f77511361",
-              "hash": "21263013997152046812807348458162722651891466897296666285129485586510077022095",
-              "filename": "84fbaadb-b44b-40b1-88e5-9115f321bc3b_Updated_Badoo_Premium_iOS_6.5_04.png/1284x2778bb.jpg",
-              "path_component": "image/thumb/PurpleSource116/v4",
-              "url": "https://is3-ssl.mzstatic.com/image/thumb/PurpleSource116/v4/a7/21/00/a7210023-e833-cb75-515d-3d8f77511361/84fbaadb-b44b-40b1-88e5-9115f321bc3b_Updated_Badoo_Premium_iOS_6.5_04.png/1284x2778bb.jpg"
+              "id": "cabea815-7d24-1afc-a906-b033b2252c5e",
+              "hash": "270748512491819295487839504649392748411162520083602514473017589466287358796",
+              "filename": "Badoo_TAC3_Iterative_Layout_iOS_6.5_05.jpg/1284x2778bb.jpg",
+              "path_component": "image/thumb/PurpleSource221/v4",
+              "url": "https://is2-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/ca/be/a8/cabea815-7d24-1afc-a906-b033b2252c5e/Badoo_TAC3_Iterative_Layout_iOS_6.5_05.jpg/1284x2778bb.jpg"
             },
             {
-              "id": "de88662b-2be8-5928-78da-05581889eff5",
-              "hash": "450645618430098413635745546622608117361026584003823492532258422799541794847",
-              "filename": "708cfe2e-cdb4-4179-875c-402aa7f68799_Updated_Badoo_Premium_iOS_6.5_05.png/1284x2778bb.jpg",
-              "path_component": "image/thumb/PurpleSource126/v4",
-              "url": "https://is5-ssl.mzstatic.com/image/thumb/PurpleSource126/v4/de/88/66/de88662b-2be8-5928-78da-05581889eff5/708cfe2e-cdb4-4179-875c-402aa7f68799_Updated_Badoo_Premium_iOS_6.5_05.png/1284x2778bb.jpg"
+              "id": "df022fcd-97af-ec37-46d0-86bbf6695b20",
+              "hash": "57779425783676438543237911179936798872939415590913083589579270386215674757199",
+              "filename": "Badoo_TAC3_Iterative_Layout_iOS_6.5_04.jpg/1284x2778bb.jpg",
+              "path_component": "image/thumb/PurpleSource221/v4",
+              "url": "https://is4-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/df/02/2f/df022fcd-97af-ec37-46d0-86bbf6695b20/Badoo_TAC3_Iterative_Layout_iOS_6.5_04.jpg/1284x2778bb.jpg"
             },
             {
-              "id": "702390cf-954b-389a-b15c-14971fc9885c",
-              "hash": "5643492370590136223930967830870305740187229250082069607366904434322571590411",
-              "filename": "b92dc014-89e3-40b5-88ce-5db3c3a32ec7_Updated_Badoo_Premium_iOS_6.5_06.png/1284x2778bb.jpg",
-              "path_component": "image/thumb/PurpleSource116/v4",
-              "url": "https://is4-ssl.mzstatic.com/image/thumb/PurpleSource116/v4/70/23/90/702390cf-954b-389a-b15c-14971fc9885c/b92dc014-89e3-40b5-88ce-5db3c3a32ec7_Updated_Badoo_Premium_iOS_6.5_06.png/1284x2778bb.jpg"
-            },
-            {
-              "id": "2365ddc2-95ca-12d8-ff25-a578ee88f909",
-              "hash": "36427956369111168822227741142993806919458846124924365253742314730901011877678",
-              "filename": "0d0ba4db-7167-475e-b4c9-351ad142add9_Updated_Badoo_Premium_iOS_6.5_07.png/1284x2778bb.jpg",
-              "path_component": "image/thumb/PurpleSource126/v4",
-              "url": "https://is3-ssl.mzstatic.com/image/thumb/PurpleSource126/v4/23/65/dd/2365ddc2-95ca-12d8-ff25-a578ee88f909/0d0ba4db-7167-475e-b4c9-351ad142add9_Updated_Badoo_Premium_iOS_6.5_07.png/1284x2778bb.jpg"
-            },
-            {
-              "id": "4b97bf06-bc0e-b9c6-f026-713314785a93",
-              "hash": "41798052640108902559950868231973876504804486158516656552105319303342042447859",
-              "filename": "03db84f2-67a3-4b4e-8b4c-20dbb649647e_Updated_Badoo_Premium_iOS_6.5_08.png/1284x2778bb.jpg",
-              "path_component": "image/thumb/PurpleSource126/v4",
-              "url": "https://is3-ssl.mzstatic.com/image/thumb/PurpleSource126/v4/4b/97/bf/4b97bf06-bc0e-b9c6-f026-713314785a93/03db84f2-67a3-4b4e-8b4c-20dbb649647e_Updated_Badoo_Premium_iOS_6.5_08.png/1284x2778bb.jpg"
+              "id": "0ac32d7e-230d-d3ae-0b45-7b593b480281",
+              "hash": "1962072463410068334206405285238342361916151374273067310844448204567826195511",
+              "filename": "Badoo_TAC3_Iterative_Layout_iOS_6.5_06.jpg/1284x2778bb.jpg",
+              "path_component": "image/thumb/PurpleSource221/v4",
+              "url": "https://is4-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/0a/c3/2d/0ac32d7e-230d-d3ae-0b45-7b593b480281/Badoo_TAC3_Iterative_Layout_iOS_6.5_06.jpg/1284x2778bb.jpg"
             }
           ],
           "iphone6plus": [
             {
-              "id": "da681af0-c523-08d2-40f2-6cc928ec554c",
-              "hash": "52013279031353844916589643159695358788730535886451766944712142092640487784479",
-              "filename": "dd1c5fce-ae5c-469f-a988-63d4da03a612_Updated_Badoo_Premium_iOS_5.5_01.png/1242x2208bb.jpg",
-              "path_component": "image/thumb/PurpleSource126/v4",
-              "url": "https://is4-ssl.mzstatic.com/image/thumb/PurpleSource126/v4/da/68/1a/da681af0-c523-08d2-40f2-6cc928ec554c/dd1c5fce-ae5c-469f-a988-63d4da03a612_Updated_Badoo_Premium_iOS_5.5_01.png/1242x2208bb.jpg"
+              "id": "4770cc7f-88fc-7336-e6ef-6e4296694207",
+              "hash": "52013279031367008952312614948416971890178988117776393073557273304407194779679",
+              "filename": "1c0754e4-8892-4e9c-857a-f2f9690c2655_0_APP_IPHONE_55_0.png/1242x2208bb.jpg",
+              "path_component": "image/thumb/PurpleSource221/v4",
+              "url": "https://is4-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/47/70/cc/4770cc7f-88fc-7336-e6ef-6e4296694207/1c0754e4-8892-4e9c-857a-f2f9690c2655_0_APP_IPHONE_55_0.png/1242x2208bb.jpg"
             },
             {
-              "id": "bb5420ce-b848-8c9e-24b7-04dcf5781b4d",
-              "hash": "115002403794105465567125283589128194176486388988084872072796015865325321977344",
-              "filename": "d8010662-3099-4630-809c-848f5ca9ec16_Updated_Badoo_Premium_iOS_5.5_02.png/1242x2208bb.jpg",
-              "path_component": "image/thumb/PurpleSource116/v4",
-              "url": "https://is3-ssl.mzstatic.com/image/thumb/PurpleSource116/v4/bb/54/20/bb5420ce-b848-8c9e-24b7-04dcf5781b4d/d8010662-3099-4630-809c-848f5ca9ec16_Updated_Badoo_Premium_iOS_5.5_02.png/1242x2208bb.jpg"
+              "id": "b265f14e-8b48-472d-d5fd-90efd38309ae",
+              "hash": "115002514222047014216145882545222704232739981185768955941965623213281094139392",
+              "filename": "4c22a411-9ad0-4bd5-8e93-99f955e64d4d_1_APP_IPHONE_55_1.png/1242x2208bb.jpg",
+              "path_component": "image/thumb/PurpleSource221/v4",
+              "url": "https://is5-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/b2/65/f1/b265f14e-8b48-472d-d5fd-90efd38309ae/4c22a411-9ad0-4bd5-8e93-99f955e64d4d_1_APP_IPHONE_55_1.png/1242x2208bb.jpg"
             },
             {
-              "id": "d344edae-f8d5-9490-d5b2-05b9976481b3",
-              "hash": "96207459371385330425742844456521843861450255560215641601689038964118331064064",
-              "filename": "33c3d720-be81-4fd5-9bc7-15ddab8a6178_Updated_Badoo_Premium_iOS_5.5_03.png/1242x2208bb.jpg",
-              "path_component": "image/thumb/PurpleSource126/v4",
-              "url": "https://is4-ssl.mzstatic.com/image/thumb/PurpleSource126/v4/d3/44/ed/d344edae-f8d5-9490-d5b2-05b9976481b3/33c3d720-be81-4fd5-9bc7-15ddab8a6178_Updated_Badoo_Premium_iOS_5.5_03.png/1242x2208bb.jpg"
+              "id": "2e73a442-7df0-bf5c-e04a-6398f84a815f",
+              "hash": "89873312644141607145710736606188004727889038139530064175819059732744587181824",
+              "filename": "e10cb1d5-8572-4c0d-a4a5-53cc0ec7511b_2_APP_IPHONE_55_2.png/1242x2208bb.jpg",
+              "path_component": "image/thumb/PurpleSource211/v4",
+              "url": "https://is5-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/2e/73/a4/2e73a442-7df0-bf5c-e04a-6398f84a815f/e10cb1d5-8572-4c0d-a4a5-53cc0ec7511b_2_APP_IPHONE_55_2.png/1242x2208bb.jpg"
             },
             {
-              "id": "249933c9-86ce-aba9-0ca6-4ef0ba4ee65e",
-              "hash": "15898424574550439195509594850492751468711972097179223919136064142744146333695",
-              "filename": "d1deda8e-8270-48be-a7d1-be259d58efe2_Updated_Badoo_Premium_iOS_5.5_04.png/1242x2208bb.jpg",
-              "path_component": "image/thumb/PurpleSource116/v4",
-              "url": "https://is4-ssl.mzstatic.com/image/thumb/PurpleSource116/v4/24/99/33/249933c9-86ce-aba9-0ca6-4ef0ba4ee65e/d1deda8e-8270-48be-a7d1-be259d58efe2_Updated_Badoo_Premium_iOS_5.5_04.png/1242x2208bb.jpg"
+              "id": "4e0bd6cf-cba4-7326-13bb-1e56a09837c4",
+              "hash": "15894890887160869093638088204158019403435224797794759391317873857932050878463",
+              "filename": "3fc1a27d-6035-44c8-b92e-020ef137a4f7_3_APP_IPHONE_55_3.png/1242x2208bb.jpg",
+              "path_component": "image/thumb/PurpleSource221/v4",
+              "url": "https://is2-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/4e/0b/d6/4e0bd6cf-cba4-7326-13bb-1e56a09837c4/3fc1a27d-6035-44c8-b92e-020ef137a4f7_3_APP_IPHONE_55_3.png/1242x2208bb.jpg"
             },
             {
-              "id": "50c6e031-d75e-d466-b92b-0718209428ea",
-              "hash": "449320900933349252031868512815575480426954357161978468846364156925800676096",
-              "filename": "dd04f3e2-a141-4696-9e23-400287a3c8f1_Updated_Badoo_Premium_iOS_5.5_05.png/1242x2208bb.jpg",
-              "path_component": "image/thumb/PurpleSource116/v4",
-              "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource116/v4/50/c6/e0/50c6e031-d75e-d466-b92b-0718209428ea/dd04f3e2-a141-4696-9e23-400287a3c8f1_Updated_Badoo_Premium_iOS_5.5_05.png/1242x2208bb.jpg"
+              "id": "343858a2-a3c9-c28d-2b05-7b56ccb89957",
+              "hash": "449320900932526499753255800280150403311643107295072134571132899806749457152",
+              "filename": "75f31e9b-d5f3-477a-bf0b-576e7ac84310_4_APP_IPHONE_55_4.png/1242x2208bb.jpg",
+              "path_component": "image/thumb/PurpleSource221/v4",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/34/38/58/343858a2-a3c9-c28d-2b05-7b56ccb89957/75f31e9b-d5f3-477a-bf0b-576e7ac84310_4_APP_IPHONE_55_4.png/1242x2208bb.jpg"
             },
             {
-              "id": "d40f80c5-402e-bacc-0f71-e09ae0f1e754",
-              "hash": "24626386816592775029697162144483987460144839898963318294072073257826491104255",
-              "filename": "a96ceea1-380e-415f-8b2f-ee30328b5c58_Updated_Badoo_Premium_iOS_5.5_06.png/1242x2208bb.jpg",
-              "path_component": "image/thumb/PurpleSource126/v4",
-              "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource126/v4/d4/0f/80/d40f80c5-402e-bacc-0f71-e09ae0f1e754/a96ceea1-380e-415f-8b2f-ee30328b5c58_Updated_Badoo_Premium_iOS_5.5_06.png/1242x2208bb.jpg"
+              "id": "8bcc4d3e-f78a-8ce2-302a-5f61e354e10f",
+              "hash": "24640521586371015437546168575823165886145282064413251288115670470040456854527",
+              "filename": "dc349b0a-cefa-48d3-860d-00f87cda86d1_5_APP_IPHONE_55_5.png/1242x2208bb.jpg",
+              "path_component": "image/thumb/PurpleSource221/v4",
+              "url": "https://is4-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/8b/cc/4d/8bcc4d3e-f78a-8ce2-302a-5f61e354e10f/dc349b0a-cefa-48d3-860d-00f87cda86d1_5_APP_IPHONE_55_5.png/1242x2208bb.jpg"
             },
             {
-              "id": "d1a4173a-fbfa-65d6-f820-7fa9eac363bc",
-              "hash": "38270777804587749641163483038231630940311629228030087939132062474934988832512",
-              "filename": "462c4c4c-a1b1-4e63-adca-f51a6a1aa2bd_Updated_Badoo_Premium_iOS_5.5_07.png/1242x2208bb.jpg",
-              "path_component": "image/thumb/PurpleSource126/v4",
-              "url": "https://is2-ssl.mzstatic.com/image/thumb/PurpleSource126/v4/d1/a4/17/d1a4173a-fbfa-65d6-f820-7fa9eac363bc/462c4c4c-a1b1-4e63-adca-f51a6a1aa2bd_Updated_Badoo_Premium_iOS_5.5_07.png/1242x2208bb.jpg"
+              "id": "48ec1c65-5749-5176-1650-d0db79d322a8",
+              "hash": "39175403393914495749356612037251647740617945760895005803516267280621642972928",
+              "filename": "34f815f5-5994-438d-99b0-97719ccef3ed_6_APP_IPHONE_55_6.png/1242x2208bb.jpg",
+              "path_component": "image/thumb/PurpleSource221/v4",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/48/ec/1c/48ec1c65-5749-5176-1650-d0db79d322a8/34f815f5-5994-438d-99b0-97719ccef3ed_6_APP_IPHONE_55_6.png/1242x2208bb.jpg"
             },
             {
-              "id": "fb99424f-53fb-87d1-808f-1caac148389b",
-              "hash": "57037994146937519939441039027963152606517878842509138519067692961200375398399",
-              "filename": "f9d07ba9-c8ae-4e94-9707-d1acb15ffe09_Updated_Badoo_Premium_iOS_5.5_08.png/1242x2208bb.jpg",
-              "path_component": "image/thumb/PurpleSource116/v4",
-              "url": "https://is3-ssl.mzstatic.com/image/thumb/PurpleSource116/v4/fb/99/42/fb99424f-53fb-87d1-808f-1caac148389b/f9d07ba9-c8ae-4e94-9707-d1acb15ffe09_Updated_Badoo_Premium_iOS_5.5_08.png/1242x2208bb.jpg"
+              "id": "00790ce2-8879-4d16-61c0-c6dc9a27d4e0",
+              "hash": "57037994146937519939441805275733585202497914288981727087163904320630818668543",
+              "filename": "71973464-031f-4b5c-958a-2bd9d6293c04_7_APP_IPHONE_55_7.png/1242x2208bb.jpg",
+              "path_component": "image/thumb/PurpleSource221/v4",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/00/79/0c/00790ce2-8879-4d16-61c0-c6dc9a27d4e0/71973464-031f-4b5c-958a-2bd9d6293c04_7_APP_IPHONE_55_7.png/1242x2208bb.jpg"
             }
           ],
           "iphone": [],
@@ -143,7 +129,7 @@
           "iphone_6_5": [],
           "iphone6plus": []
         },
-        "size": 193165312,
+        "size": 193439744,
         "rating": {
           "average": 4.6
         },
@@ -153,6 +139,17 @@
         },
         "price": "",
         "versions": [
+          {
+            "version": "5.458.0",
+            "release_notes": "We\u2019re improving your dating experience all the time. In this version, we fixed some bugs and made other improvements.\n\nLOVE the app? Rate us! Your feedback keeps Badoo a better place to date honestly, don\u2019t wait more and update your dating experience!",
+            "has_game_center": false,
+            "game_controller_information": {
+              "required": false,
+              "supported": false,
+              "requirement_label": null
+            },
+            "release_date": "2026-04-20T00:00:00.000Z"
+          },
           {
             "version": "5.454.0",
             "release_notes": "We\u2019re improving your dating experience all the time. In this version, we fixed some bugs and made other improvements.\n\nLOVE the app? Rate us! Your feedback keeps Badoo a better place to date honestly, don\u2019t wait more and update your dating experience!",
@@ -196,31 +193,20 @@
               "requirement_label": null
             },
             "release_date": "2026-03-02T00:00:00.000Z"
-          },
-          {
-            "version": "5.448.0",
-            "release_notes": "We\u2019re improving your dating experience all the time. In this version, we fixed some bugs and made other improvements.\n\nLOVE the app? Rate us! Your feedback keeps Badoo a better place to date honestly, don\u2019t wait more and update your dating experience!",
-            "has_game_center": false,
-            "game_controller_information": {
-              "required": false,
-              "supported": false,
-              "requirement_label": null
-            },
-            "release_date": "2026-02-09T00:00:00.000Z"
           }
         ],
         "release_date": "2022-01-19T00:00:00.000Z",
         "customers_also_bought": [
-          "547702041",
-          "930441707",
-          "338701294",
+          "445338486",
           "522681493",
+          "489185828",
           "1265035248",
           "1328695473",
-          "601174087",
-          "1042814349",
-          "690661663",
-          "887914690"
+          "338701294",
+          "1540274389",
+          "1080102131",
+          "1535740889",
+          "1471508186"
         ],
         "dna": {
           "class_id": 10018,

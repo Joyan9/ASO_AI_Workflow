@@ -11,17 +11,17 @@
         ],
         "icon": "https://play-lh.googleusercontent.com/aTMFxLXK9hMjPx9m3ASk3PuZArzBF6nPZnX_RZQNugYAs6q-DlLFvbrMByHA_E0bhEDs",
         "screenshots": [
-          "https://play-lh.googleusercontent.com/uqdmBZzVmxj31NBwUzsbMlbcjtI2HppBapIZ2b59IsOI_HLSezvf-VX-YehraWjzKOw",
-          "https://play-lh.googleusercontent.com/6zpXEonZhVItBZiIWAeyB4A5gtlcX750YoyNkwt9zrP1EYKOxUBAeE3Krf35aNxXsPE",
-          "https://play-lh.googleusercontent.com/jvz-K2GbIO4JoJSCH9D7_nE3D--6p2EZN2KBdZSZAXcnXTIGZYzt9sIqmmCvclfFkQ",
-          "https://play-lh.googleusercontent.com/jNvaefYWGFb3RRgo4uNE8RJBM5cE5nCWu90HL2m3n-iCwINn2vIdmtHOrP8fvVmxAta9",
-          "https://play-lh.googleusercontent.com/oYZx-a8zMj5KgOml9xguSUMoHVkiysq9bv8hyMZgkE0hB7mntWXi2gvAD5hjIl5gaQ",
-          "https://play-lh.googleusercontent.com/SPo8HBH-ar0RJK13XMck0MejbP3sHb7biQwxNK_T16PkCZYKE-ryQHjK2CzxhQGFDw"
+          "https://play-lh.googleusercontent.com/ecERaVg-B1nhgi8c4B8GTBlIiVkwz-JN31s8T9fMIhZNoYHHKUWHfkWP74pgqrCIR8Q",
+          "https://play-lh.googleusercontent.com/oXSEkVbHTmvD1NGaUWdVWcr1oiFm_-7U0UD0dlip0CYjiwWUm0bjAXEkHnb0aUJ0sfE",
+          "https://play-lh.googleusercontent.com/SwlyZQWHE6XPYnubpXQt7l6h-7EQ9yA9MWUc4lQLmTbju0OQXkoUBXXZcpw7jJ9HP7Y",
+          "https://play-lh.googleusercontent.com/-t64Ns4P_tDckiBXe0XEX_vfmXx4ofIJCzGxulSCupU7pdh3Kxp_Ty6NZmLsCNxrWVXf",
+          "https://play-lh.googleusercontent.com/Cp7hTA2oHJ_ZpawgigCFKL2WQFur5qz5HoAh7Wi5GORMy36Fm1-U_Ulf__L9EsalMkc",
+          "https://play-lh.googleusercontent.com/WY0C0TU7dJdPnNJiEchHw9nwaZrTiUxqqw9U9C6Or0wxHyjvyrWdPN698Xh4zrLex48"
         ],
         "videos": [],
         "size": {
           "current": {
-            "data": 30071832
+            "data": 29994830
           }
         },
         "rating": {
@@ -42,6 +42,11 @@
         "price": "",
         "released_at": null,
         "versions": [
+          {
+            "version": "5.63.0.1516574",
+            "release_notes": "- Enjoy POF with fewer bugs and improved stability",
+            "release_date": "2026-04-13T00:00:00.000Z"
+          },
           {
             "version": "5.62.0.1516539",
             "release_notes": "- Enjoy POF with fewer bugs and improved stability",
@@ -136,11 +141,6 @@
             "version": "5.51.0.1516067",
             "release_notes": "- Enjoy POF with fewer bugs and improved stability",
             "release_date": "2025-09-09T00:00:00.000Z"
-          },
-          {
-            "version": "5.50.0.1516038",
-            "release_notes": "- Enjoy POF with fewer bugs and improved stability",
-            "release_date": "2025-09-02T00:00:00.000Z"
           }
         ],
         "similar_apps": [

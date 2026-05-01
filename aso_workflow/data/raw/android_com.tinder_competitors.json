@@ -1,15 +1,10 @@
 {
   "source_app_id": "com.tinder",
   "platform": "android",
-  "extracted_at": "2026-04-08T09:36:25.370686",
+  "extracted_at": "2026-05-01T08:58:15.412002",
   "competitors": [
     {
       "app_id": "co.hinge.app",
-      "name": null,
-      "tier": "primary"
-    },
-    {
-      "app_id": "com.doni.appa",
       "name": null,
       "tier": "primary"
     },
@@ -19,17 +14,32 @@
       "tier": "primary"
     },
     {
+      "app_id": "enterprises.dating.boo",
+      "name": null,
+      "tier": "primary"
+    },
+    {
+      "app_id": "com.getpure.pure",
+      "name": null,
+      "tier": "secondary"
+    },
+    {
+      "app_id": "com.doni.appa",
+      "name": null,
+      "tier": "secondary"
+    },
+    {
       "app_id": "com.hily.app",
       "name": null,
       "tier": "secondary"
     },
     {
-      "app_id": "enterprises.dating.boo",
+      "app_id": "com.maybeyou",
       "name": null,
       "tier": "secondary"
     },
     {
-      "app_id": "com.getpure.pure",
+      "app_id": "com.meraki.kira",
       "name": null,
       "tier": "secondary"
     },
@@ -40,16 +50,6 @@
     },
     {
       "app_id": "com.pof.android",
-      "name": null,
-      "tier": "secondary"
-    },
-    {
-      "app_id": "com.qiga.vio",
-      "name": null,
-      "tier": "secondary"
-    },
-    {
-      "app_id": "com.badoo.mobile",
       "name": null,
       "tier": "secondary"
     }

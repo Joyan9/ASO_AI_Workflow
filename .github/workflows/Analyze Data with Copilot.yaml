@@ -1,10 +1,6 @@
 name: Analyze Data with Copilot
 
 on:
-  workflow_run:
-    workflows: ["Monthly Data Refresh"]
-    types:
-      - completed
   workflow_dispatch:
 
 permissions:
